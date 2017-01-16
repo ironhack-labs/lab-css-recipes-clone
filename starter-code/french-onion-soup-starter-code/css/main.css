@@ -1,9 +1,72 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+* {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+
+}
+
+h1 {
+  position: absolute;
+  top: 175px;
+  color: white;
+  width: 100%;
+  left: 20%;
+  font-size: 300%;
+
+}
+
+#description-container{
+  width: 650px;
+  height: 150px;
+  margin: 50px 200px 0px 200px;
+  border-bottom: solid 1px;
+}
+
+#Apple-pies {
+
+}
+
+.recipe-info-icon{
+  display: inline-block;
+  height: 50px;
+  float: left;
+  width: 70%;
+  left: 35%;
+  margin-top: 12px;
+
+}
+
+.cooking-info-icon {
+  height: 60px;
+  float: left;
+  width: 45%;
+  left: 28%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#ingredients {
+  float: right;
+  margin-top: 10px;
+  border-bottom: solid 1px;
+}
+
+#ingredients-text {
+  float: left;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+
+#directions {
+  float: left;
+  margin-top: 20px;
 }
