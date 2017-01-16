@@ -2,8 +2,63 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  line-height: 30px;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.img-header{
+  background-image: url('../images/soup.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  font-size: 45px;
+  height: 600px;
+  width: auto;
+  text-align: center;
+}
+.text-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 300px;
+}
+
+.div-prep{
+  text-align: center;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.prep{
+  height: 70px;
+  width:auto;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 15px;
+}
+ul > li:before {
+    display: inline-block;
+    content: "-";
+}
+
+h3{
+  font-weight: 500;
 }

@@ -1,5 +1,9 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
 body{
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 30px;
 }
 .container{
