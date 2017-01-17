@@ -1,9 +1,77 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+position: absolute;
+width: 100%;
+left: 0;
+top:0;
+}
+
+#content {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10%;
+}
+#bg {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  font-weight: 600;
+  left: 22%;
+  top: 15%;
+  color: #ffffff;
+  font-size: 5em;
+}
+
+#container p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #666666;
+
+}
+
+figure.recipeicons,
+figure.cookingicons {
+  width: 100%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+.recipeicons img,
+ .cookingicons img{
+  padding-top: 5%;
+  width: 400px;
+  text-align: center;
+}
+
+ul {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+}
+
+ol {
+  margin: 0;
+}
+ol.parenthesis {
+  counter-reset: item;
+  list-style-type: none;
+}
+ol.parenthesis > li {
+}
+ol.parenthesis > li:before {
+  content: counter(item) ") ";
+  counter-increment: item;
 }
