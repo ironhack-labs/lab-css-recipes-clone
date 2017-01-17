@@ -1,0 +1,23 @@
+.main-picture-frame {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.main-picture {
+  width: 100%;
+  height: auto;
+}
+
+.main-picture-text {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  margin-left: -130px;
+  font-size: 70px;
+  color: white;
+}
