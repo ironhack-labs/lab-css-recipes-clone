@@ -1,23 +1,73 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
 .main-picture-frame {
   position: relative;
   width: 900px;
   height: 600px;
-  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-
+  overflow: hidden;
 }
 
 .main-picture {
+  position: absolute;
   width: 100%;
   height: auto;
 }
 
 .main-picture-text {
   position: absolute;
-  left: 50%;
-  top: 150px;
-  margin-left: -130px;
-  font-size: 70px;
+  left: 34%;
+  bottom: 200px;
   color: white;
+  font-size: 70px;
+}
+
+.dish-summary {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.info-picture-frame {
+  position: relative;
+  width: 700px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-bottom-style: solid;
+  border-color: gray;
+}
+
+.info-picture {
+  position: absolute;
+  left: 50%;
+  margin-left: -163px;
+  width: 50%;
+}
+
+.ingredients-frame {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.directions-frame {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.directions {
+  margin-left: 10px;
 }
