@@ -1,5 +1,5 @@
 html {
-  font-family: helvetica, sans-serif;
+  font-family: 'Open Sans', helvetica, sans-serif;
   font-size: 20px;
 }
 
@@ -21,7 +21,7 @@ html {
   position: absolute;
   left: 36%;
   color: white;
-  width: 100%;
+  width: 500px;
   top: 150px;
 }
 
