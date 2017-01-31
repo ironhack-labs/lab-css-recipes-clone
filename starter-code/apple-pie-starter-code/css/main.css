@@ -1,0 +1,87 @@
+/*==========================
+GENERAL
+=============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+p {
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+/**/
+.apple-pie-picture {
+  background-image: url('../images/apple-pie.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+/*==========================
+Background Picture APPLE PIE
+=============================*/
+.apple-pie-picture h1 {
+  position: relative;
+  top: 350px;
+  color: #fff;
+  font-size: 120px;
+  text-align: center;
+  font-weight: 300;
+
+}
+/*==========================
+PAGE CONTAINER
+=============================*/
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.recipe-info {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 70px;
+}
+.recipe-info img {
+  margin: 60px 0;
+}
+
+/*==========================
+INGREDIENTS
+=============================*/
+
+h2 {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.ingredients li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+/*==========================
+DIRECTIONS
+=============================*/
+.directions{
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  line-height: 35px;
+  margin-left: 10px;
+  font-weight: 200;
+}
+.directions:last-child {
+  margin-bottom: 100px;
+}
