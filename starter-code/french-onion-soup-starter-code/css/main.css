@@ -7,3 +7,64 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+.imageMain {
+  margin: auto;
+  position: relative;
+  width: 800px;
+}
+.imageText {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: "Open Sans Condensed script=latin rev=2";
+  font-size: 60px;
+}
+.description {
+  width: 650px;
+  margin: auto;
+  margin-top: 50px;
+}
+.ingredients {
+  width: 650px;
+  margin: auto;
+  text-align: left;
+}
+.dashed {
+  list-style: none;
+}
+
+.dashed > li:before {
+  content: "-";
+  margin-left: -35px;
+}
+.prepTime {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.horizontalLine {
+  position: relative;
+  width: 650;
+  margin: auto;
+  margin-left: 22%;
+  margin-right: 22%;
+  text-align: center;
+}
+.directions{
+  width: 650px;
+  margin: auto;
+  text-align: left;
+}
+.dashedDirections {
+  list-style: none;
+  margin-left: -35px;
+}
+.dashedDirections > li:before {
+  list-style: none;
+}

@@ -38,7 +38,7 @@ html {
   list-style: none;
 }
 
-.dashed > li:before {
+li:before {
   content: "-";
   margin-left: -35px;
 }
@@ -55,16 +55,5 @@ html {
   margin-left: 22%;
   margin-right: 22%;
   text-align: center;
-}
-.directions{
-  width: 650px;
-  margin: auto;
-  text-align: left;
-}
-.dashedDirections {
-  list-style: none;
-  margin-left: -35px;
-}
-.dashedDirections > li:before {
-  list-style: none;
+
 }
