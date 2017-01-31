@@ -1,7 +1,10 @@
+h1, body, html, main {
+  margin: 0;
+}
 
-
-body {
- font-family: open sans;
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
 }
 
 .cover-area{
@@ -14,12 +17,18 @@ body {
   margin: 0 auto;
 }
 
+.soup {
+  position: relative;
+  width: 1900px;
+  margin: 0 auto;
+}
+
 .image-text {
   position: relative;
   color: white;
   font-size: 200px;
-  left: 600px;
   top: -1300px;
+  text-align:center;
 }
 
 .intro-block {
@@ -65,6 +74,10 @@ body {
   height: 650px;
 }
 
+.ingredient-block-2{
+  height: 700px;
+}
+
 .ingredient-header {
   position: relative;
   left: 100px;
@@ -90,6 +103,7 @@ body {
   font-size: 30px;
   left: 25px;
 }
+
 .direction-list {
   list-style-type: none;
   font-size: 25px;
