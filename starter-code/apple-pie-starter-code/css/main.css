@@ -1,5 +1,10 @@
-body {
- font-family: open sans;
+h1, body, html, main {
+  margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
 }
 
 .cover-area{
@@ -12,12 +17,18 @@ body {
   margin: 0 auto;
 }
 
+.soup {
+  position: relative;
+  width: 1900px;
+  margin: 0 auto;
+}
+
 .image-text {
   position: relative;
   color: white;
   font-size: 200px;
-  left: 600px;
   top: -1300px;
+  text-align:center;
 }
 
 .intro-block {
@@ -78,7 +89,7 @@ body {
   list-style-type: none;
 }
 
-.direction-container{
+.direction-block{
   width: 1650px;
   margin: 0 auto;
 }
