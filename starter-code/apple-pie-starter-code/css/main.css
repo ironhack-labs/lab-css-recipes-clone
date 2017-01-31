@@ -17,18 +17,18 @@ html {
   margin: 0 auto;
 }
 
-.soup {
-  position: relative;
-  width: 1900px;
-  margin: 0 auto;
-}
-
 .image-text {
   position: relative;
   color: white;
   font-size: 200px;
   top: -1300px;
   text-align:center;
+}
+
+.remaining-area {
+  position: relative;
+  margin: 0 auto;
+  width: 1800px;
 }
 
 .intro-block {
@@ -44,13 +44,7 @@ html {
   padding: 80px 0px 0px 0px;
 }
 
-.bottom-prep {
-  position: relative;
-  left: 550px;
-  top: 50px;
-}
-
-.top-prep {
+.recipe-info {
   position:relative;
   height: 100px;
   background-color: black;
@@ -62,12 +56,6 @@ html {
   border: 2px solid gray;
   margin: 0 auto;
 
-}
-
-.remaining-area {
-  position: relative;
-  margin: 0 auto;
-  width: 1800px;
 }
 
 .ingredient-block{
@@ -89,6 +77,12 @@ html {
   list-style-type: none;
 }
 
+.cooking-info {
+  position: relative;
+  left: 550px;
+  top: 50px;
+}
+
 .direction-block{
   width: 1650px;
   margin: 0 auto;
@@ -99,6 +93,7 @@ html {
   font-size: 30px;
   left: 25px;
 }
+
 .direction-list {
   list-style-type: none;
   font-size: 25px;

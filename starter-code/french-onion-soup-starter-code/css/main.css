@@ -11,12 +11,6 @@ html {
   height: 1600px;
 }
 
-.apple-pie {
-  position: relative;
-  width: 1900px;
-  margin: 0 auto;
-}
-
 .soup {
   position: relative;
   width: 1900px;
@@ -29,6 +23,12 @@ html {
   font-size: 200px;
   top: -1300px;
   text-align:center;
+}
+
+.remaining-area {
+  position: relative;
+  margin: 0 auto;
+  width: 1800px;
 }
 
 .intro-block {
@@ -44,13 +44,7 @@ html {
   padding: 80px 0px 0px 0px;
 }
 
-.bottom-prep {
-  position: relative;
-  left: 550px;
-  top: 50px;
-}
-
-.top-prep {
+.recipe-info {
   position:relative;
   height: 100px;
   background-color: black;
@@ -64,17 +58,7 @@ html {
 
 }
 
-.remaining-area {
-  position: relative;
-  margin: 0 auto;
-  width: 1800px;
-}
-
 .ingredient-block{
-  height: 650px;
-}
-
-.ingredient-block-2{
   height: 700px;
 }
 
@@ -91,6 +75,12 @@ html {
   font-size: 25px;
   top: 50px;
   list-style-type: none;
+}
+
+.cooking-info {
+  position: relative;
+  left: 550px;
+  top: 50px;
 }
 
 .direction-block{
