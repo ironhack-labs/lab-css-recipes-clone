@@ -1,9 +1,47 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #444;
+  margin:3% 16% 3% 16%;
+}
+
+.banner {
+  background-image: url("../images/soup.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  padding: 5%;
+}
+
+#banner-title {
+  font-size: 55px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 12%;
+}
+
+.main-content {
+  padding: 5% 8% 5% 8%;
+}
+
+#small-img{
+  margin-right: 10%;
+  margin-left: 10%;
+  align-content: center;
+}
+
+ul {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ul.dashed {
+  list-style-type: none;
 }
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
