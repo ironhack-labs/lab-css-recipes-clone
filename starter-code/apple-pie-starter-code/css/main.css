@@ -1,0 +1,27 @@
+
+h1, h2, p{
+  color: red;
+  text-align:center;
+}
+img{max-width: 100%;
+height: auto;
+}
+.separation{
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+#info{
+  height: 50px;
+  margin: 0 auto;
+  /*padding: : 10px 150px 10px 50px;*/
+  display: block;;
+}
+p{
+  text-align: justify;
+}
+#mainheading{
+  position: relative;
+  margin-top:-100px;
+  margin-bottom: 100px
+}
