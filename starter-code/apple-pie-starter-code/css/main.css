@@ -1,0 +1,31 @@
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px
+}
+.title{
+  position: relative;
+  left: 140px;
+  top: -220px;
+  color: white;
+  font-size: 40px;
+}
+.quote{
+  position: relative;
+  padding-left: 30px;
+  width: 400px;
+  top: -110px;
+}
+.content{
+  position: relative;
+  top: -110px;
+  padding-left: 30px;
+  width: 400px;
+}
+.info{
+  padding-left: 70px;
+  border-bottom: 1px solid;
+}
