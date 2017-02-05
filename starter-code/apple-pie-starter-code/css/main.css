@@ -1,9 +1,21 @@
+/*Some necessary adjustments*/
+
+h1, body, html, main {
+  margin: 0;
+}
+
+/*Import the font and set the default size*/
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
 
 body {
-  font-family: helvetica;
+  font-family: 'Open Sans', sans-serif;
   color: #242424;
-  font-size: 17px;
-  text-align: center;
+  font-size: 18px;
   margin: 0;
   background-color: #242424;
 }
@@ -29,7 +41,7 @@ body {
 .title {
   position: relative;
   text-align: center;
-  top: 275px;
+  top: 200px;
   margin-left: auto;
   margin-right: auto;
   font-size: 50px;
@@ -77,4 +89,9 @@ h2 {
   margin: 25px auto 0;
   height: 60px;
   width: auto;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
 }
