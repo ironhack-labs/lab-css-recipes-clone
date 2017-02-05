@@ -1,27 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:light');
+
+/*I have spent too much time looking for the font, I know it's a sans serif typeface
+looks like Roboto, Open Sans, and a lot like Proxima Nova Light, $$$.*/
+
+/*Sherwin, don't forget to change all of the px values to em values
+It has better scaling abilities*/
+
 .applepie {
-  font-size: 18px;
-  font-family: sans-serif;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-style: light;
+  font-size: 1.5em;
+  margin: 0px 85px;
 
 }
 
 .aHeader {
-  background-size: cover;
   background: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: silver;
-  display: block;
-  height: 1200px;
+  position: relative;
+  top: 0px;
+  min-height: 800px;
+  max-width: 100%;
   margin: 0px;
   border: 20px;
-
 
 }
 
 .aHeader h1 {
   text-align: center;
+  font-weight: 100;
   display: block;
-  font-size: 58px;
+  position: relative;
+  font-size: 6em;
   color: white;
-  position: relative;;
-  top: 600px
+  margin: auto;
+  padding: 25% 0px;
+  width: 100%;
+  height: 100%;
 
+}
+
+figcaption#applestory {
+  position: relative;
+  padding: 20px 0px;
+
+}
+
+.imgparty {
+  padding: 1.5em 15.5em;
+  border: 0em;
+  overflow: auto;
+}
+
+.ingredients {
+  padding: 40px 0em;
+  border-width: 2px 0px; /*I tried using shorthand border: 2px 0px silver solid; but it didn't work*/
+  border-color: silver;
+  border-style: solid;
+
+}
+
+.ingredients ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 2.75em;
+
+}
+
+.ingredients ul > li:before {  /*Saw this concept online... not sure why dash doesn't just exist*/
+    display: inline-block;
+    content: "-";
+    width: 0.5em;
+    margin-left: -2em;
+
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
