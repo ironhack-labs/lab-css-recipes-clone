@@ -1,1 +1,27 @@
-.class.,m.,m.,m.,m
+.applepie {
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+.aHeader {
+  background-size: cover;
+  background: url("../images/apple-pie.jpg");
+  color: silver;
+  display: block;
+  height: 1200px;
+  margin: 0px;
+  border: 20px;
+
+
+}
+
+.aHeader h1 {
+  text-align: center;
+  display: block;
+  font-size: 58px;
+  color: white;
+  position: relative;;
+  top: 600px
+
+}
