@@ -44,14 +44,15 @@ It has better scaling abilities*/
 
 figcaption#applestory {
   position: relative;
-  padding: 20px 0px;
+  padding: 4em 1.5em 0em 0em;
 
 }
 
 .imgparty {
-  padding: 1.5em 15.5em;
+  padding: 2em 25%;
   border: 0em;
-  overflow: auto;
+  position: relative;
+  
 }
 
 .ingredients {
@@ -63,19 +64,40 @@ figcaption#applestory {
 }
 
 .ingredients ul {
-  list-style: none;
+  list-style-type: none; */This only worked in firefox "- ";*/
   margin-left: 0px;
-  padding-left: 2.75em;
+  padding-left: 2.5em;
 
 }
+ /*Saw this concept online... not sure why dash doesn't just exist
+Opted for a different option list-style-type, it apparently lets you put strings too*/
 
-.ingredients ul > li:before {  /*Saw this concept online... not sure why dash doesn't just exist*/
+.ingredients ul > li:before {
     display: inline-block;
     content: "-";
     width: 0.5em;
     margin-left: -2em;
 
 }
+
+.directions ol {
+  counter-reset: li;
+  list-style-type: none;
+
+}
+
+.directions li {
+  display: block;
+}
+
+.directions li:before {
+    content: counter(li) ") ";
+    counter-increment: li;
+    /*float: left;
+    width: 3em;*/
+
+}
+
 
 
 body {
