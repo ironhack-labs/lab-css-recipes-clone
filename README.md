@@ -55,6 +55,6 @@ Here is a small video of the site running on mobile resolutions.
 All of the pictures under the IMG tag are not getting scaled correctly and still needs a bit of work. 
 Same images also have problems being centered on Edge Browser.
 
-- ![Progress Video](https://i.gyazo.com/581685d3b7a167e86584b3a954463c5f.mp4)
+- ![Progress Video](https://i.gyazo.com/581685d3b7a167e86584b3a954463c5f.gif)
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
