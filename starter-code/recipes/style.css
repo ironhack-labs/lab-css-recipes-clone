@@ -1,0 +1,17 @@
+#apple-pie-image,
+#apple-pie-header {
+    position: relative;
+}
+
+#apple-pie-image img{
+    width:1000px;
+    padding-left:250px;
+    padding-top: 100px;
+}
+
+#apple-pie-header {
+    font-size: 100px;
+    color: white;
+    bottom: 600px;
+    left: 500px;
+}

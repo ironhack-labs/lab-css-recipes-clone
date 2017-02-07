@@ -1,0 +1,32 @@
+.apple-recipe-header{
+    background-image: url(../images/apple-pie.jpg);
+    background-size:cover ;
+    height:650px;
+}
+
+.apple-recipe-header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 275px;
+    font-size:72px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.recipe-overview p {
+    padding:50px 200px;
+    font-size: 30px;
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    text-align:justify;
+}
+
+.cook-time img {
+    display:block;
+    margin: 0 auto;
+}
+
+hr{
+
+    margin: 50px 100px;
+}
