@@ -1,9 +1,95 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+/*  --- Universal Selectors --- */
+* {
+  font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+body {
+    text-align: left;
+    margin: 0px;
+}
+ul {
+  list-style-type: none;
+}
+ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px;
+}
+/* end of universal selectors */
+.header-div {
+    background-image: url(/home/alejandro/solo-tasks/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+    height: 480px;
+    margin-bottom: 10%;
+}
+.header-div img {
+    float: left;
+    max-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main-header {
+    position: absolute;
+    top: 15%;
+    margin-left: 16%;
+    color: #ffffff;
+    font-family: Arial,sans-serif;
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.header-style-1 {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 4.2em;
+    text-align: left;
+}
+.text-1 {
+    margin-right: 5em;
+    margin-left: 5em;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #444242;
+}
+.text-2 {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #444242;
+    margin-left: 3.9em;
+}
+.text-3 {
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5em;
+    color: #444242;
+}
+.text-noSpace p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.lineMeta {
+    border: 2.5px solid #bfbcbc;
+    width: 80%;
+}
+.cooking-info {
+    width: 40%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 30%;
 }
