@@ -6,11 +6,25 @@ looks like Roboto, Open Sans, and a lot like Proxima Nova Light, $$$.*/
 /*Sherwin, don't forget to change all of the px values to em values
 It has better scaling abilities*/
 
+/*I am going to test out this @media scalling css I found online...cause some people with retina
+displays are going to see this site and it needs to be optimized for such. Only problem I am having right now
+is with the positioning of the imgparty class. */
+
+@media screen and (orientation: portrait) {
+  body { max-width: 100%; }
+}
+
+@media screen and (orientation: landscape) {
+  body { max-width: 100%; }
+}
+
 .applepie {
   font-family: 'Roboto', 'Helvetica', sans-serif;
-  font-style: light;
-  font-size: 1.5em;
-  margin: 0px 85px;
+  font-size: 1.75em;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
 
 }
 
@@ -18,25 +32,23 @@ It has better scaling abilities*/
   background: url("../images/apple-pie.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  color: silver;
-  position: relative;
+
+  /*background-position: center;*/
+  position: static;
   top: 0px;
-  min-height: 800px;
+  min-height: 100%;
   max-width: 100%;
   margin: 0px;
-  border: 20px;
+  padding: 25% 0px;
+  border: 0px;
 
 }
 
-.aHeader h1 {
+
+.aHeader div {
   text-align: center;
-  font-weight: 100;
-  display: block;
-  position: relative;
-  font-size: 6em;
+  font-size: 10vw;
   color: white;
-  margin: auto;
-  padding: 25% 0px;
   width: 100%;
   height: 100%;
 
@@ -44,19 +56,23 @@ It has better scaling abilities*/
 
 figcaption#applestory {
   position: relative;
-  padding: 4em 1.5em 0em 0em;
+  padding: 5% 10%;
 
 }
 
 .imgparty {
-  padding: 2em 25%;
+  padding: 2em 0%;
   border: 0em;
+  margin: 0em 30%;
   position: relative;
-  
+  max-width: 610px;
+  max-height: 100%;
+  box-sizing: border-box;
+
 }
 
 .ingredients {
-  padding: 40px 0em;
+  padding: 5% 10%;
   border-width: 2px 0px; /*I tried using shorthand border: 2px 0px silver solid; but it didn't work*/
   border-color: silver;
   border-style: solid;
@@ -80,6 +96,11 @@ Opted for a different option list-style-type, it apparently lets you put strings
 
 }
 
+.directions {
+  position: relative;
+  padding: 5% 10%;
+}
+
 .directions ol {
   counter-reset: li;
   list-style-type: none;
@@ -96,11 +117,4 @@ Opted for a different option list-style-type, it apparently lets you put strings
     /*float: left;
     width: 3em;*/
 
-}
-
-
-
-body {
-  margin: 0px;
-  padding: 0px;
 }
