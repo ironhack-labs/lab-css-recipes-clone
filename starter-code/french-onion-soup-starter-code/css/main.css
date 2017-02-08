@@ -1,9 +1,15 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 50px
+  margin: 0;
+  }
+.apple-pie-overlay {
+    position:relative;
+    font-size: 100px;
+    left: 250px
+    top: -350px
+  }
+
+.apple-pie-description {
+  text-align: center;
 }

@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+
+  }
+.apple-pie-overlay {
+    position:relative;
+    font-size: 120px;
+    font-weight: bold;
+    left: 325px;
+    top: -600px;
+    color: white;
+  }
+  .french-onion-soup-overlay {
+    position:relative;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    left: 0px;
+    top: -600px;
+    color: white;
+    margin-bottom: -200px;
+  }
+
+.apple-pie-description {
+  text-align: left;
+
+}
+
+.ingredients-of-apple-pie {
+  text-align: center;
+  }
+
+h1 {
+  font-size: 30px;
+
+}
+
+img {
+width: 1000px;
+}
