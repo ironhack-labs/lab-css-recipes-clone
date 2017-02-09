@@ -57,13 +57,28 @@ figcaption#onionstory {
 }
 
 .imgparty {
-  padding: 2em 0%;
+  padding: 2em 50%;
   border: 0em;
-  margin: 0em 30%;
+  margin: 0em;
   position: relative;
   max-width: 610px;
   max-height: 100%;
-  box-sizing: border-box;
+
+}
+
+.imgparty#recInfo {
+  background: url("../images/recipe-info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.imgparty#cookInfo {
+  background: url("../images/cooking-info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
