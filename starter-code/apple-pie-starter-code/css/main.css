@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:light:300,600');
+
+/*I have spent too much time looking for the font, I know it's a sans serif typeface
+looks like Roboto, Open Sans, and a lot like Proxima Nova Light, $$$.*/
+
+/*Sherwin, don't forget to change all of the px values to em values
+It has better scaling abilities*/
+
+/*I am going to test out this @media scalling css I found online...cause some people with retina
+displays are going to see this site and it needs to be optimized for such. Only problem I am having right now
+is with the positioning of the imgparty class. */
+
+@media screen and (orientation: portrait) {
+  body { max-width: 100%; }
+}
+
+@media screen and (orientation: landscape) {
+  body { max-width: 100%; }
+}
+
+.applepie {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-size: 1.75em;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+
+}
+
+.aHeader {
+  background: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /*background-position: center;*/
+  position: static;
+  top: 0px;
+  min-height: 100%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 25% 0px;
+  border: 0px;
+
+}
+
+
+.aHeader div {
+  text-align: center;
+  font-size: 10vw;
+  color: white;
+  width: 100%;
+  height: 100%;
+
+}
+
+figcaption#applestory {
+  position: relative;
+  padding: 5% 10%;
+
+}
+
+.imgparty {
+  padding: 2em 50%;
+  border: 0em;
+  margin: 0em;
+  position: relative;
+  max-width: 610px;
+  max-height: 100%;
+
+}
+
+.imgparty#recInfo {
+  background: url("../images/recipe-info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.imgparty#cookInfo {
+  background: url("../images/cooking-info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.ingredients {
+  padding: 5% 10%;
+  border-width: 2px 0px; /*I tried using shorthand border: 2px 0px silver solid; but it didn't work*/
+  border-color: silver;
+  border-style: solid;
+
+}
+
+.ingredients ul {
+  list-style-type: none; */This only worked in firefox "- ";*/
+  margin-left: 0px;
+  padding-left: 2.5em;
+
+}
+ /*Saw this concept online... not sure why dash doesn't just exist
+Opted for a different option list-style-type, it apparently lets you put strings too*/
+
+.ingredients ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 0.5em;
+    margin-left: -2em;
+
+}
+
+.directions {
+  position: relative;
+  padding: 5% 10%;
+}
+
+.directions ol {
+  counter-reset: li;
+  list-style-type: none;
+
+}
+
+.directions li {
+  display: block;
+}
+
+.directions li:before {
+    content: counter(li) ") ";
+    counter-increment: li;
+    /*float: left;
+    width: 3em;*/
+
+}
