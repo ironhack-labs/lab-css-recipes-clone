@@ -55,9 +55,8 @@ Below is a gif of how the content looked on a 1400x800 MacBook type resolution r
 - ![Progress Gif](https://i.gyazo.com/4f58a262d20f037295f7f0c0ef93dfc1.gif)
 
 Here is a small video of the site running on mobile resolutions.
-All of the pictures under the IMG tag are not getting scaled correctly and still needs a bit of work. 
+All of the pictures under the IMG tag are not getting scaled correctly and still needs a bit of work.
 Same images also have problems being centered on Edge Browser.
 
-- ![On Mobile](https://i.gyazo.com/581685d3b7a167e86584b3a954463c5f.gif)
+- ![On Mobile](https://i.gyazo.com/ae612346674330296e8c829a2bcfeff6.gif)
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
