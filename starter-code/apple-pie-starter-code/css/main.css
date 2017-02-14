@@ -16,7 +16,7 @@ ul li:before {
 }
 /* end of universal selectors */
 .header-div {
-    background-image: url(/home/alejandro/solo-tasks/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-image: url("http://i67.tinypic.com/212zvvq.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

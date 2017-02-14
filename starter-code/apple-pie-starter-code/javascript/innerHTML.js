@@ -1,4 +1,4 @@
-// I tried to a js string as a html paragraph , but did not work
+// Paragraphs
 
 var myText = "This was my grandmother's apple pie recipe. I have never seen another one quite like it. It will always be my favorite and has won me several first place prizes in local competitions. I hope it becomes one of your favorites as well!";
 var dom = document.getElementsByClassName("text-1").innerHTML = myText;
