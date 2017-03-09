@@ -1,0 +1,49 @@
+h1, body, html, main {
+  margin: 0;
+}
+
+.description{
+  width: 800px;
+  margin: auto;
+  position: relative;
+  left: 12%;
+}
+
+body{
+  font-family: 'Open Sans';
+  font-size: 26px;
+}
+
+.header{
+  height: 500px;
+  width: 100%;
+  background: url("images/apple-pie.jpg");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  width: 75%;
+  height: 25%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  font-size: 90px
+}
+
+h2{
+  font-weight: bold;
+}
+
+p{
+  text-align: center justify;
+}
+
+.content{
+  max-width: 80%;
+}
