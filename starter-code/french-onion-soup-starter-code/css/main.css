@@ -7,3 +7,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.img{
+  position: relative;
+  padding-left: 30px;
+  padding-right: 50px;
+  height: 450px;
+  width: 1000px;
+}
+.img2{
+  position: relative;
+  height: 60px;
+  width: 400px;
+  padding-left: 300px;
+  padding-bottom: 40px;
+  top :35px;
+}
+.title{
+  position:absolute;
+  top:180px;
+  left:250px;
+  color:white;
+  font-size: 70px;
+  font-weight:lighter;
+  
+}
+.p1{
+position: relative;
+top :45px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+}
+.title2{
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.list{
+  padding-left: 220px;
+  padding-right: 200px;
+}
+.img3{
+  position: relative;
+  height: 80px;
+  width: 400px;
+  padding-left: 300px;
+}
+
