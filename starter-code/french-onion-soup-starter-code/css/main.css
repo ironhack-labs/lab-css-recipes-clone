@@ -1,9 +1,82 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, body, html, main, ul, li {
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: #555;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#container h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.imgWrapper {
+  position: relative;
+}
+
+.imgBox {
+  margin: 10px auto 70px auto;
+}
+
+.imgBox img {
+  width: 860px;
+  height: 485px;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.imgHeadline {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.descriptionWrapper {
+  width: 750px;
+  padding: 0 0 30px 0;
+  margin: 0 auto 40px auto;
+  border-bottom: 2px solid #aaa;
+}
+
+.descriptionBox p {
+  font-size: 20px;
+}
+
+.recipeInfo img {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+}
+
+.ingredientsList ul {
+  list-style: none;
+  position: relative;
+  left: 15px;
+}
+
+.ingredientsList li:before {
+  content: "- ";
+}
+
+.directionsInfo img {
+  width: 350px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
 }
