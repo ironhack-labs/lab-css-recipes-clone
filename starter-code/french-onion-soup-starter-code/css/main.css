@@ -1,9 +1,93 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, h2, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.title {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  line-height: 450px;
+  border: 1px solid black
+}
+
+.description {
+  margin: auto;
+  font-weight: 100;
+  width: 700px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray
+}
+
+h2 {
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ingredients {
+  margin: auto;
+  text-align: left;
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 18px;
+  width: 700px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray
+}
+
+.directions {
+  margin: auto;
+  text-align: left;
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 18px;
+  width: 700px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+.imgholder {
+  text-align: center;
+}
+
+ul {
+ margin: 0;
+ margin-left: -30px;
+}
+ul.dashed {
+ list-style-type: none;
+}
+ul.dashed > li:before {
+ content: "- ";
+}
+
+ol {
+ counter-reset: list;
+ margin-left: -30px;
+}
+ol > li {
+ list-style: none;
+}
+ol > li:before {
+ content: counter(list, decimal) ") ";
+ counter-increment: list;
+}
+
+img {
+  width: 50%;
 }
