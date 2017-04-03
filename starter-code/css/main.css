@@ -1,29 +1,25 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-}
-
 
 * {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", serif;
 }
 
-#french {
-  background-image: url(../images/soup.jpg);
+#apple {
+  margin: auto;
+  margin-top: -5rem;
+  background-image: url(../apple-pie-starter-code/images/apple-pie.jpg);
   background-position: center;
   background-size: cover;
   height: 55rem;
   text-align: center;
+  width: 90%;
 
 }
 
-#frenchText {
+#appleText {
   text-align: center;
   font-size: 10rem;
   color: white;
@@ -33,6 +29,25 @@ html {
 .container {
   margin: 5% 10%;
 
+}
+
+#french {
+  margin: auto;
+  margin-top: -5rem;
+  background-image: url(../french-onion-soup-starter-code/images/soup.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 55rem;
+  text-align: center;
+  width: 90%;
+
+}
+
+#frenchText {
+  text-align: center;
+  font-size: 10rem;
+  color: white;
+  line-height: 55rem;
 }
 
 #header {
