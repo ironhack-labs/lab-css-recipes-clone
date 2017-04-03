@@ -1,0 +1,77 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+#main-container {
+  margin: 0 100px 0 100px;
+
+}
+#image-container {
+  width:900px;
+  height:500px;
+  margin: 0 0 0 120px;
+  overflow: hidden;
+}
+#image {
+  position: relative;
+  left:50%;
+  transform:translate(-50%,-30%);
+  width: 900px;
+
+}
+#image-text {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-120px);
+}
+#text-container {
+  margin: 70px 150px 0 150px;
+}
+.recipe-info {
+  position:relative;
+  left: 50%;
+  transform:translate(-50%,0);
+  margin: 20px 0 20px 0;
+  width: 300px;
+}
+.bottom-space {
+  margin: 0 0 30px 0;
+}
+.separator {
+  border: 1px solid #969696;
+}
+
+.title {
+  font-size: 24px;
+}
+
+#ingredients-list  li:before {
+ content: "-";
+}
+
+#ingredients-list {
+   list-style: none;
+   margin-left: 0;
+  padding-left: 0;
+}
+#directions-list {
+  counter-reset: item;
+  list-style-type: none;
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+#directions-list  li:before {
+ content: counter(item) ") ";
+ counter-increment: item;
+
+}
