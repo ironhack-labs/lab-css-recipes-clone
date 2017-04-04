@@ -29,7 +29,7 @@ body{
 .recipe-introduction{
   display: block;
   border-color: rgb(0, 0, 0);
-  border-bottom: 3px solid;
+  /*border-bottom: 3px solid;*/
 }
 
 #soup-introduction{
@@ -46,7 +46,7 @@ body{
 .recipe-ingredients{
   display: block;
   border-color: rgb(0, 0, 0);
-  border-bottom: 3px solid;
+  /*border-bottom: 3px solid;*/
 }
 
 .recipe-ingredientsTitle{
