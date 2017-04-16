@@ -1,0 +1,69 @@
+html{
+  margin: -20px 0px;
+}
+
+body{
+  text-align: center;
+font-family: Helvetica;
+border: 0px;
+padding: 0px 20px 30px;
+margin: 0;
+font-weight: lighter;
+}
+.H1{
+  background-image:url("/Users/ivanjorge/Prework/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0px 50px;
+  border: 0px;
+
+  color: white;
+  }
+  .head{
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+  }
+  h1{
+    font-weight: lighter;
+  }
+
+.grandmas{
+  text-align: justify;
+  margin: 20px 120px;
+  font-size: 20px;
+}
+img{
+
+width: 100%;
+height: 100%;
+}
+hr{
+  margin: 20px 120px;
+}
+.pic{
+  position: relative;
+  border: 0px solid blue;
+  width: 30%;
+margin: 0 30%;
+}
+.cooking{
+  margin: 0 30%;
+  border: 0px solid blue;
+  width: 25%;
+}
+h2{
+  font-weight: lighter;
+  text-align: left;
+  margin: 20px 120px;
+}
+.ingridients{
+  margin: 20px 120px;
+text-align: left;
+}
+.instruction{
+  text-align: justify;
+  margin: 20px 120px;
+  font-size: 17px;
+}
