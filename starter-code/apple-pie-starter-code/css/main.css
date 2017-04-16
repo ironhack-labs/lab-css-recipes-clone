@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+.titleFormat {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 4rem;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#imageTitle{
+  background: url("../images/apple-pie.jpg") no-repeat;
+  background-position: center ;
+  background-size: cover;
+  height : 55rem;
+}
+
+#imageTitle2{
+  background: url("../../apple-pie-starter-code/images/apple-pie.jpg") no-repeat;
+  background-position: center ;
+  background-size: cover;
+  height : 55rem;
+}
+
+.recipeInfoImage{
+  margin: auto;
+  width: 50%;
+}
+
+.textRecipe{
+  margin: 50px 70px 50px 70px;
+  font-family: Open Sans;
+  font-size: 30px;
+}
+
+hr{
+  border-width: 1px;
+  margin: 50px 70px 50px 70px;
+}
+
+h3{
+  font-weight: normal;
+}
+
+
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -20px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -20px;
+}
+
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+    position: relative;
+}
+ol > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: relative;
+
+}
