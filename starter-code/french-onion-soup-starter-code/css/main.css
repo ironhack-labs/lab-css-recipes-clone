@@ -5,5 +5,28 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 10px
+}
+.title{
+  position: relative;
+  left: 100px;
+  top: -210px;
+  color: white;
+  font-size: 30px;
+}
+.quote{
+  position: relative;
+  padding-left: 30px;
+  width: 400px;
+  top: -80px;
+}
+.content{
+  position: relative;
+  top: -80px;
+  padding-left: 30px;
+  width: 400px;
+}
+.info{
+  padding-left: 70px;
+  border-bottom: 1px solid;
 }
