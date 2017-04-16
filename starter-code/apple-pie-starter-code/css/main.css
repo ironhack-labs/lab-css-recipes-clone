@@ -1,0 +1,96 @@
+h1, body, html, main {
+  /*margin: 30px;*/
+}
+html{
+  margin-left:150px;
+  margin-top: 40px;
+  width:1000px;
+  /*border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: black;*/
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+ul{
+  list-style: none;
+}
+ol{
+  list-style: none;
+}
+.top{
+  height: 600px;
+  width: 800px;
+  margin: 0px;
+}
+.image-apple{
+  height: 600px;
+  width: 950px;
+  margin: 0px;
+
+}
+.image-recipe-info{
+height: 50px;
+width: 400px;
+position: relative;
+margin-left: 90px;
+}
+.image-cooking-info{
+  height: 70px;
+  width: 330px;
+  position: relative;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  margin-left: -30px;
+}
+ol.bracket > li:before {content: counter(section) ") ";
+margin-left: 0px;
+}
+li { counter-increment: section;
+}
+.text-over-image{
+  position: absolute;
+  left:460px;
+  top: 200px;
+  color: white;
+  font-size: 80px;
+}
+.first-par{
+  width: 680px;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 110px;
+  padding-top: 65px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+.ingr-par{
+  font-size: 20px;
+  font-weight:bold;
+}
+.second-par{
+  width: 680px;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 110px;
+  padding-top: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+.third-par{
+  width: 680px;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 90px;
+  padding-top: 25px;
+}
