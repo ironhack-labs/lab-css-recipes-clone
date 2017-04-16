@@ -7,3 +7,63 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+figure {
+margin: 10px;
+}
+
+.applePies {
+  position: relative;
+  left: 250px;
+  top: -550px;
+  color: white;
+  font-size: 90px;
+
+}
+
+.main {
+  text-align: center;
+    position: relative;
+    top: -250px;
+    left: 200px;
+    font-size: 24px;
+  border-bottom: 1px solid;
+  padding-bottom: 30px;
+
+}
+
+.ingredients {
+  position: relative;
+    margin-left: 200px;
+    margin-top: -200px;
+    margin-right: -200px;
+    font-size: 19px;
+  border-bottom: 1px solid;
+  padding-bottom: 30px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li:before {
+  content: "-";
+}
+
+#cookingInfo {
+  position: relative;
+  margin-left: 200px;
+
+}
+
+.thirdMain {
+  text-align: left;
+    position: relative;
+    margin-left: 200px;
+    margin-right: -200px;
+    font-size: 19px;
+
+}
