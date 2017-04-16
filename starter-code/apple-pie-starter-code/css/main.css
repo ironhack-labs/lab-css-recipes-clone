@@ -1,0 +1,47 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.applePie {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin-top: -750px;
+
+}
+
+.applePieImage {
+  width: 100%;
+  height: auto;
+}
+
+.applePieIntro {
+  position: relative;
+  margin-top: 750px;
+  text-align: center;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.recipeImgInfo {
+  display: block;
+  margin:0 auto;
+}
+
+.cookingImgInfo {
+  display: block;
+  margin:0 auto;
+}
+
+
+.applePieIngredients {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.applePieDirections {
+  margin-left: 100px;
+  margin-right: 100px;
+}
