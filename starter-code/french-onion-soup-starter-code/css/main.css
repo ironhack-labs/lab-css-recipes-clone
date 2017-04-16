@@ -5,5 +5,112 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 1.75em
+}
+
+@media screen and (orientation: portrait) {
+  body { max-width: 100%; }
+}
+
+@media screen and (orientation: landscape) {
+  body { max-width: 100%; }
+}
+
+.frenchOnion {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+
+}
+
+.aHeader {
+  background: url("../images/soup.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /*background-position: center;*/
+  position: static;
+  top: 0px;
+  min-height: 100%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 25% 0px;
+  border: 0px;
+
+}
+
+
+.aHeader div {
+  text-align: center;
+  font-size: 10vw;
+  color: white;
+  width: 100%;
+  height: 100%;
+
+}
+
+figcaption#onionstory {
+  position: relative;
+  padding: 5% 10%;
+
+}
+
+.imgparty {
+  padding: 2em 0%;
+  border: 0em;
+  margin: 0em 30%;
+  position: relative;
+  max-width: 610px;
+  max-height: 100%;
+  box-sizing: border-box;
+
+}
+
+.ingredients {
+  padding: 5% 10%;
+  border-width: 2px 0px; /*I tried using shorthand border: 2px 0px silver solid; but it didn't work*/
+  border-color: silver;
+  border-style: solid;
+
+}
+
+.ingredients ul {
+  list-style-type: none; */This only worked in firefox "- ";*/
+  margin-left: 0px;
+  padding-left: 2.5em;
+
+}
+ /*Saw this concept online... not sure why dash doesn't just exist
+Opted for a different option list-style-type, it apparently lets you put strings too*/
+
+.ingredients ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 0.5em;
+    margin-left: -2em;
+
+}
+
+.directions {
+  position: relative;
+  padding: 5% 10%;
+}
+
+.directions ol {
+  counter-reset: li;
+  list-style-type: none;
+
+}
+
+.directions li {
+  display: block;
+}
+
+.directions li:before {
+    content: counter(li) ") ";
+    counter-increment: li;
+    /*float: left;
+    width: 3em;*/
+
 }
