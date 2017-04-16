@@ -1,0 +1,68 @@
+.apple-recipe-header{
+    background-image: url(../images/apple-pie.jpg);
+    background-size:cover ;
+    height:650px;
+}
+
+.apple-recipe-header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 275px;
+    font-size:72px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.recipe-overview p {
+    padding:50px 200px;
+    font-size: 24px;
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    text-align:justify;
+}
+
+.recipe-info img {
+    display:block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+hr{
+    margin: 50px 200px;
+}
+
+.subheading h2 {
+    font-family: 'Lato', sans-serif;
+    padding-left: 200px;
+}
+
+.ingredient-list p{
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 225px;
+    padding-right:225px;
+    padding-bottom: 50px;
+}
+
+.cook-time img {
+    display:block;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 20px;
+}
+
+.soup-recipe-header{
+    background-image: url(../images/soup.jpg);
+    background-size:cover ;
+    height:650px;
+}
+
+.soup-recipe-header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 275px;
+    font-size:72px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
