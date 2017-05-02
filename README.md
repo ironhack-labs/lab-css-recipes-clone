@@ -2,6 +2,8 @@
 
 # HTML & CSS | Recipes Clone
 
+Branch: Manuel Valle
+
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
