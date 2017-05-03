@@ -1,0 +1,61 @@
+#headerImage {
+  background-image: url("https://raw.githubusercontent.com/soyjimmy/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.recipeTitle {
+  font-size: 60px;
+  padding: 280px 0;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: "roboto";
+  font-weight: 100;
+}
+
+.recipeWidth {
+  padding: 40px 100px;
+  font-family: "roboto";
+  color: #333;
+}
+
+.recipeIntro {
+  font-size: 18px;
+}
+
+.recipeInfoImage img {
+  margin:auto;
+  display: block;
+  width: 50%;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0 0 35px 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -25px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -25px;
+}
+
+.recipeDirections {
+  padding-left: 15px;
+}
