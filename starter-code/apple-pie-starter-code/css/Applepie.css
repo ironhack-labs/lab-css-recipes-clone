@@ -27,7 +27,7 @@
   font-size: 20px;
 }
 
-.receipimgbox {
+.receipImgBox {
   text-align: center;
 }
 
@@ -37,4 +37,9 @@
 
 .cookingInfoImg {
   text-align: center;
+}
+
+.secondp {
+  text-align: center;
+  font-size: 20px;
 }
