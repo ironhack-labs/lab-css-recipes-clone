@@ -1,5 +1,5 @@
 #text-apple-img {
-  background-image: url("https://github.com/polgasull/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true");
+  background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   width: auto;
   height: auto;
@@ -27,6 +27,14 @@
   font-size: 20px;
 }
 
+.receipimgbox {
+  text-align: center;
+}
+
 .receipimg {
   margin: auto;
+}
+
+.cookingInfoImg {
+  text-align: center;
 }
