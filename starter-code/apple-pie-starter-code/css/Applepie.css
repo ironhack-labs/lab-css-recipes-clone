@@ -1,0 +1,32 @@
+#text-apple-img {
+  background-image: url("https://github.com/polgasull/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true");
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+.appleh1 {
+  font-size: 60px;
+  padding: 280px 0;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Arial";
+  font-weight: 120;
+}
+
+.generaldiv {
+  padding: 100px;
+  padding-top: 50px;
+  font-family: "Arial";
+  color: #646363;
+}
+
+.firstp {
+  text-align: center;
+  font-size: 20px;
+}
+
+.receipimg {
+  margin: auto;
+}
