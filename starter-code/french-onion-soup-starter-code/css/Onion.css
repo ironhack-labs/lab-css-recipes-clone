@@ -1,21 +1,22 @@
-html {
-  font-family: Arial;
-  font-size: 20px;
-}
-body {
+/*Some necessary adjustments*/
+h1, body, html, main {
   margin: 0;
 }
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
 
-
-#cover-img {
-  background-image: url("../images/apple-pie.jpg");
+.coverText {
+  background-image: url("../images/soup.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
   height: 450px;
 }
 
-.appleh1 {
+.coverTitle {
   font-size: 60px;
   padding: 200px 0;
   margin: 0;
@@ -24,26 +25,26 @@ body {
   font-weight: 120;
 }
 
-.generaldiv {
-  padding: 30px 100px 30px 100px;
+.generalDiv {
+  padding: 30px 150px 30px 150px;
   color: #646363;
 }
 
-.firstp {
+.introduction {
   text-align: center;
   font-size: 20px;
 }
 
-.receipImgBox {
+.receipOnion {
   text-align: center;
 }
 
-.receipimg {
+.receipImgOnion {
   width: 500px;
   height: auto;
 }
 
-#ingredients {
+.ingredients {
   border-top: 1px solid black;
 }
 
@@ -62,9 +63,10 @@ body {
 
 #directions {
   border-top: 1px solid black;
+  font-size: 30px;
 }
 
-.secondp {
+.lastUL {
   text-align: auto;
   font-size: 18px;
 }
