@@ -1,24 +1,31 @@
+*{
+  font-family: Arial;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+}
+
+
 #text-apple-img {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   width: auto;
-  height: auto;
+  height: 450px;
 }
 
 .appleh1 {
   font-size: 60px;
-  padding: 280px 0;
+  padding: 200px 0;
   margin: 0;
   text-align: center;
   color: #ffffff;
-  font-family: "Arial";
   font-weight: 120;
 }
 
 .generaldiv {
-  padding: 100px;
-  padding-top: 50px;
-  font-family: "Arial";
+  padding: 30px 100px 0px 100px;
   color: #646363;
 }
 
@@ -32,11 +39,25 @@
 }
 
 .receipimg {
-  margin: auto;
+  width: 500px;
+  height: auto;
+}
+
+#ingredients {
+  border-top: 1px solid black;
+}
+
+.cookingInfo {
+  text-align: center;
 }
 
 .cookingInfoImg {
-  text-align: center;
+  width: 500px;
+  height: auto;
+}
+
+#directions {
+  border-top: 1px solid black;
 }
 
 .secondp {
