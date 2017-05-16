@@ -1,0 +1,40 @@
+body {
+  font-family: arial;
+}
+#img-container {
+  position: relative;
+}
+#apple-pie-img {
+  width: 100%;
+}
+#apple-pie-text {
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  z-index: 1;
+  font-size: 12vw;
+  color: white;
+}
+#flavor-text {
+  font-size: 2vw;
+  font-family: arial;
+  text-align: justify;
+}
+.centered-div {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 1.6vw;
+}
+#recipe-info {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+#cooking-info {
+  width: 26%;
+  margin-left: 37%;
+  margin-right: 37%;
+}
