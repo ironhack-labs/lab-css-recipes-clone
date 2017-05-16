@@ -1,0 +1,96 @@
+/*GENERAL RECIPE CSS*/
+
+body {
+  font-family: 'Open Sans';
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+ul {
+  color: grey;
+}
+
+p {
+  font-size: 18px;
+  color: grey;
+}
+
+.recipe {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.recipe__intro-description {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.recipe__cooking-info {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe__ingredients-list {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.recipe__image--cooking-info {
+  width: 278px;
+  height: 64px;
+}
+
+.recipe__recipe-info {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe__image--recipe-info {
+  width: 303px;
+  height: 47px;
+}
+
+.recipe__directions {
+  width: 80%;
+  margin: 40px auto;
+}
+
+/*APPLE PIE SPECIFIC CSS*/
+
+.recipe__header--apple-pie {
+  color: white;
+  text-align: center;
+  max-width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url('file:///Users/DougChristie/Ironhack/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*FRENCH ONION SPECIFIC CSS*/
+
+.recipe__header--french-onion {
+  color: white;
+  text-align: center;
+  max-width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url('file:////Users/DougChristie/Ironhack/week1/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-size: cover;
+  background-position: 0% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
