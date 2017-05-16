@@ -7,3 +7,53 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  color: grey;
+  font-family: Verdana;
+}
+
+
+
+header {
+   background: url(http://i.imgur.com/FOXspWF.jpg);
+   background-size: cover;
+   height: 100vh;
+
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.image {
+  text-align: center;
+}
+
+.main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+#fisrtp {
+  font-size: 18px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#secondp {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#thirdp {
+  font-size: 14px;
+  padding-top: 20px;
+}
