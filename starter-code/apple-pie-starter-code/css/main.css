@@ -1,0 +1,58 @@
+html {
+  font-family: 'Open Sans', helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.titleImage {
+  margin-top: -30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+}
+
+.titleText {
+  position: absolute;
+  left: 36%;
+  color: white;
+  width: 500px;
+  top: 150px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  border-top: 1px solid black;
+  padding: 10px;
+  padding-top:50px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+div {
+  max-width: 100%;
+}
+
+.info {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.recipe {
+  position: relative;
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
