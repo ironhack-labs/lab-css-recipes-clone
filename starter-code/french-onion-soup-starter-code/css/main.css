@@ -7,3 +7,86 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48pt;
+  padding: 225px;
+  color: white;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+hr {
+  height: 0;
+  max-height: 0;
+}
+
+/*ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  list-style-type: disc;
+}*/
+
+.recipe-header {
+  margin: 0 auto;
+  height: 500px;
+  width: 1000px;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.recipe-body {
+  margin: 0 auto;
+  width: 775px;
+}
+
+.recipe-text-container {
+  height: 200px;
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.recipe-text{
+  padding: 50px 0px 50px 0px;
+}
+
+.ingredients-text {
+  text-align: left;
+}
+
+.directions-text {
+  text-align: left;
+}
+
+.recipe-info{
+  margin: 0 auto;
+  height: 100px;
+  width: 500px;
+  background-image: url("../images/recipe-info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cooking-info {
+   margin: 0 auto;
+   height: 100px;
+   width: 500px;
+   background-image: url("../images/cooking-info.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
