@@ -1,0 +1,68 @@
+* {
+  font-family: Roboto, Open Sans, Helvetica, Arial, Verdana, sans-serif;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, number) ")";
+  counter-increment: list;
+}
+
+ul {
+  list-style: "- ";
+}
+
+ul, ol {
+  padding-left: 16px;
+}
+
+body {
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+}
+
+.apple-image {
+  position: relative;
+  top: -300px;
+  width: 800px
+}
+
+.apple-txt{
+ color: rgb(255, 255, 255);
+ position: relative;
+ top: -600px;
+ left: 250px;
+ font-size: 70px;
+}
+
+.container{
+  position: relative;
+  top: -450px;
+  margin-left:auto;
+  margin-right:auto;
+  width:550px;
+}
+
+.recipe-img, .cooking-img{
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  padding: 10px 0px 0px 0px;
+}
+
+.ingredients-txt, .directions-txt{
+  font-size: 13px;
+}
+
+.box, .box1{
+  width:550px;
+  height: 2px;
+  background-color: hsl(150, 0%, 80%);
+  margin: 5px 0px 20px 0px;
+}
