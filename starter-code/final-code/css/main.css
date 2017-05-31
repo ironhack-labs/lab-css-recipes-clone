@@ -1,0 +1,88 @@
+html body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+}
+
+.french-onion {
+  background-image: url("../images/soup.jpg");
+}
+
+.top-picture {
+  background-repeat: no-repeat;
+  height: 700px;
+  margin: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.title-text {
+  font-weight: normal;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 300px;
+}
+
+.all-info {
+  padding: 0 75px;
+}
+
+.description {
+  text-align: center;
+  font-size: 35px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+  color:
+}
+
+.description-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.ingredients-section {
+  border-bottom: 2px solid grey;
+  padding: 20px 0;
+ }
+
+.info-image {
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.sub-section {
+  font-size: 30px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style: none;
+  counter-reset: list;
+}
+
+ol > li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+ul > li::before {
+  content: "-";
+}
