@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.recipe {
+  width: 1000px;
+  height: 2400px;
+  margin: 0 auto;
+  /*border: solid RGB(169, 169, 169);*/
+}
+
+.firstImage{
+  padding: 40px 20px 40px 40px;
+  float:center;
+}
+h1 {
+  position: absolute;
+  top:200px;
+  left: 10000;
+  padding-left: 200px;
+  color: white;
+  font-size: 100px;
+  /*width: 100%;*/
+  /*width: 300px;*/
+  /*height: 50px;*/
+}
+
+
+.intro{
+  text-align: left;
+  color: RGB(169, 169, 169);
+  font-size: 30px;
+    padding: 30px 60px 30px 60px;
+}
+
+p{
+  text-align: left;
+  padding: 30px 60px 30px 60px;
+font-size: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+li {
+  padding-left: 80px;
+}
+
+.cookInfo{
+    margin: auto;
+      width: 50%;
+      padding: 10px;
+}
+
+.ingredients{
+
+}
+
+.directions{
+
+}
