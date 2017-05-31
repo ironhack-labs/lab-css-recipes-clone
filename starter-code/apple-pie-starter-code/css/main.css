@@ -1,0 +1,27 @@
+.apple {
+  background-image: url("../images/apple-pie.jpg");
+  height: 588px;
+  background-attachment:scroll;
+  background-size:1000px;
+  background-repeat: no-repeat;
+}
+
+.overtext {
+  position:relative;
+  left: 250px;
+  top:-400px;
+  font-size: 100px;
+  color:white;
+  font: arial;
+  }
+
+  .intro {
+    position:relative;
+    left: 44px;
+    top:-75px;
+    font-size: 24px;
+    color:grey;
+    font: arial;
+    }
+
+  }
