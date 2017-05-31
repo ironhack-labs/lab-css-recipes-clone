@@ -2,8 +2,91 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+
+
+body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: 100;
+  font-size: 18px;
+}
+
+
+img{
+  width: 880px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.soupTitle>h1{
+  color: White;
+  font-size: 65px;
+  font-weight: 100 !important;
+  position: absolute;
+  top: 23%;
+  left: 29%;
+}
+
+.Box{
+  width: 900px;
+  height: 158px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 186px;
+}
+
+.BoxTwo{
+  width: 1092px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  /*margin: -5px 0 0 186px;*/
+}
+
+.BoxThree{
+  width: 900px;
+  height: 158px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 186px;
+}
+
+.ingredients{
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 186px;
+  font-size: 18px;
+  margin-bottom: 43px;
+}
+
+
+
+ul>li{
+  list-style-type:none;
+}
+
+.stats img{
+  width: 339px;
+  height: 67px;
+
+}
+
+h2{
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+
+
+.stats>span{
+  margin: 11px;
+
+}
+
+.underline{
+   border: 1px solid #949494;
 }
