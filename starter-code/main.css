@@ -9,13 +9,27 @@ html {
 }
 
 .mainTitle {
-  font-color: #ffffff;
-  font-weight: 500;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.applePie {
+  background: url("apple-pie-starter-code/images/apple-pie.jpg");
 }
 
 .frenchOnion {
   background: url("french-onion-soup-starter-code/images/soup.jpg");
 }
-#intro {
 
+#intro {
+  
+}
+
+.cookPrep {
+  width: 100%;
+}
+
+.listText {
+  justify-content: center;
 }
