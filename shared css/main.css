@@ -1,0 +1,60 @@
+/*Some necessary adjustments*/
+h1, body, html, main, hr {
+  margin: 0;
+}
+
+/*Shared formatting ======================= */
+.allContent {
+  width: 900px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0px auto;
+}
+
+.landing {
+  height: 500px;
+  background-size: cover;
+}
+
+.landing h1 {
+  color: white;
+  font-size: 3.5em;
+  line-height: 500px;
+  text-align: center;
+}
+
+.content {
+  padding: 75px;
+  text-align: center;
+}
+
+.center-items {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 40px;
+}
+.content img {
+  width: 400px;
+  padding: 20px 0px;
+}
+
+/*Individual formatting */
+.landing-apple {
+  background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: 0px -100px;
+}
+
+.landing-french {
+  background-image: url("../french-onion-soup-starter-code/images/soup.jpg");
+  background-position: 0px -200px;
+}
