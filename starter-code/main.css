@@ -1,0 +1,35 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.mainTitle {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.applePie {
+  background: url("apple-pie-starter-code/images/apple-pie.jpg");
+}
+
+.frenchOnion {
+  background: url("french-onion-soup-starter-code/images/soup.jpg");
+}
+
+#intro {
+  
+}
+
+.cookPrep {
+  width: 100%;
+}
+
+.listText {
+  justify-content: center;
+}
