@@ -30,6 +30,13 @@
 
 * {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+h3{
+  color: black;
 }
 
 hr{
