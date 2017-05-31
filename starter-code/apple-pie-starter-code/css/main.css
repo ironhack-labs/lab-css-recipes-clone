@@ -1,0 +1,61 @@
+h1, body, html, main {
+  margin: 2;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+p.center {
+  text-align: center;
+  margin-left: 10;
+  margin-right: 10;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+.pie {
+  padding-left: 280px;
+  align: center;
+  width: 700px;
+  height: 500px;
+}
+h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  padding-left: 530px;
+  color: white;
+  font-size: 40px;
+}
+
+hr {
+  align: center;
+  width: 700px;
+}
+
+.cook {
+  padding-left: 430px;
+  height: 90px;
+
+}
+
+.ingredients {
+  padding-left: 280px;
+}
+
+.directions {
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+.recipe {
+  padding-left: 340px;
+  height: 90px;
+}
+
+li {
+  list-style: none;
+}
