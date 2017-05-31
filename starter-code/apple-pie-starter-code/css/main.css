@@ -1,0 +1,108 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  overflow-x:hidden;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  font-weight: 300;
+}
+
+li {
+  font-weight: 300;
+}
+
+h2 {
+  font-size:64px;
+  letter-spacing: 1;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.no-border {
+  border-bottom:0!important;
+}
+
+.container {
+  max-width:800px;
+  width:100%;
+  margin:50px auto;
+}
+
+.header {
+  position: relative;
+  /*overflow: hidden;*/
+  height:400px;
+  line-height: 400px;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header.soup {
+  position: relative;
+  /*overflow: hidden;*/
+  height:400px;
+  background-image: url('../../french-onion-soup-starter-code/images/soup.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay-text {
+  color:#fff;
+  position: absolute;
+  top:0;
+  width:100%;
+  text-align:center;
+}
+
+.content {
+  text-align: center;
+  border-bottom: 3px solid grey;
+  padding:30px 0;
+}
+
+.content p {
+  text-align: justify;
+  padding:50px;
+  letter-spacing: 2px;
+}
+
+.recipe-info {
+  width:400px;
+  height:auto;
+
+}
+
+.cooking-info {
+  width:300px;
+  height:auto;
+}
+
+ .content ul {
+   list-style-type: none;
+   co
+ }
+
+ ul li:before {
+  position: absolute;
+  margin-left:-20px;
+  content:'\2014';
+}
+
+ .content ol {
+
+ }
