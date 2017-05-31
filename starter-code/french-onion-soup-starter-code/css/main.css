@@ -7,3 +7,61 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+h2 {
+  color: white;
+}
+
+hr {
+  border-color: rgba(125, 125, 125, 0.5);
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.recipe-label {
+
+}
+
+.recipe-title {
+    display: inline-block;
+    margin-left: 15%;
+    padding-top: 38%;
+    font-size: 40pt;
+}
+
+.recipe-description {
+    display: block;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info-image {
+    margin-left: 28%;
+    width: 40%;
+}
+
+.ingredients-and-directions {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+#french-soup-label {
+  background-image: url("../images/soup.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  height: 644px;
+  background-size: 100%;
+}
