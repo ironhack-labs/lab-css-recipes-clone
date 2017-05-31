@@ -1,0 +1,44 @@
+
+
+.apple-pie-image {
+background-image: url("/Users/nik.echenique/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+position: relative;
+background-size:cover;
+height: 500px;
+width: auto;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+padding: 500px;
+}
+.apple-pie-text{
+  color: white;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+#cooking-info-image{
+  position: relative;
+  text-align: center;
+}
+#recipe-info-image{
+  position: relative;
+  text-align: center;
+}
+.all-text{
+  margin: 60px 80px;
+  font-family: sans-serif;
+}
+.line{
+  color: gray;
+  font-weight: bold;
+}
+.centered-text{
+  font-size: 30px;
+  padding: 0px 0px 0px 0px;
+}
+.ingredients{
+font-size: 20px
+}
+.steps{
+  font-size: 20px;
+}
