@@ -7,3 +7,15 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.mainTitle {
+  font-color: #ffffff;
+  font-weight: 500;
+}
+
+.frenchOnion {
+  background: url("french-onion-soup-starter-code/images/soup.jpg");
+}
+#intro {
+
+}
