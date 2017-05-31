@@ -1,0 +1,16 @@
+.container{
+border: 1px solid #17212e;
+width: 950px;
+}
+#applepieimage{
+height: 500px;
+display: block;
+padding: 10px;
+margin: auto;
+width: 83%;
+
+}
+.applepie h1{
+display: relative;
+
+}
