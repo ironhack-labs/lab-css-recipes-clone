@@ -1,0 +1,69 @@
+*Some necessary adjustments*/
+h1, body, html, main, hr {
+  margin: 0;
+}
+/*Shared formatting ======================= */
+
+body{
+  padding: 42px;
+  font-family:
+}
+.container{
+  align: center;
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+}
+.appleTitle{
+  background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  position: inherit;
+  width:600px;
+  height: 350px;
+  vertical-align: middle;
+}
+.FrenchOnionTitle{
+  background-image: url("../french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  position: inherit;
+  width:600px;
+  height: 350px;
+  vertical-align: middle;
+}
+.title h1{
+  text-align:center;
+  color: white;
+  line-height: 350px;
+}
+.introBlurb{
+  text-align: center;
+  font-size: 19px;
+  color: gray;
+}
+h2{
+  font-size: 19px;
+  color: black;
+  font-weight: normal;
+}
+.ingredients{
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.ingredients ul{
+  font-size: 16px;
+  color: gray;
+}
+.ingredients li{
+  list-style: none;
+}
+.leftalign {
+  text-align: left;
+}
+.directions ol{
+  font-size: 16px;
+  color: gray;
+}
+.bodyContent{
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
