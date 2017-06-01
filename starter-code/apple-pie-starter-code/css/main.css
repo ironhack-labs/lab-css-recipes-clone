@@ -1,0 +1,63 @@
+body {
+  font-family: open sans;
+}
+div {
+  display: block;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: auto;
+   width: 350px;
+   height: 50px;
+}
+.img-style {
+  width: 300px;
+  height: 70px
+}
+
+.main-image {
+  width: 800px;
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.title {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.intro {
+  padding-top: 50px;
+  width: 620px;
+  height: 20px;
+
+}
+.ingridients {
+  padding-top: 130px;
+  width: 600px;
+  height: 20px;
+}
+
+.directions {
+  padding-top: 440px;
+  width: 600px;
+  height: 20px;
+}
+
+.main-image2 {
+  margin-top: 350px;
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+}
