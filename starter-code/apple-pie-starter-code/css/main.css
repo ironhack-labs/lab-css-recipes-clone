@@ -1,0 +1,36 @@
+body {
+
+}
+
+.applePiePic {
+
+}
+
+.summaryOfRecipe {
+text-align: center;
+padding-left: 100px;
+padding-right: 100px;
+font-size: 20px;
+
+}
+
+.recipeInfo {
+  text-align: center;
+}
+
+#applePie {
+  width: 90%;
+  height: 500px;
+  padding-left: 130px;
+  padding-right: 100px;
+}
+
+#unOrderedList {
+text-align: center;
+}
+
+#prepTimePic {
+  text-align: center;
+  height: auto;
+  width: auto;
+}
