@@ -1,0 +1,65 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Global styles and sizes */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	width: 75%;
+	margin: 0 auto;
+	color: #5e5e5e;
+}
+
+
+/* header */
+#applePies {
+	background: url('../images/apple-pie.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.recipe h1 {
+	text-align: center;
+	color: #fff;
+	padding: 25%;
+	font-size: 4em;
+	font-weight: 600;
+}
+
+
+/* Sections global */
+section { 
+	margin: 4% 12%;
+	border-bottom: 2px solid #979797;
+}
+section h2 { margin-bottom: 2%; }
+
+
+/* Description */
+.recipeDescription { text-align: center; }
+
+.recipeDescription p { font-size: 1.1em; }
+.recipeDescription img, .ingredients img {
+	display: block;
+ 	margin: 0 auto;
+ 	padding-top: 4%;
+    height: 94px;
+ }
+
+
+/* Ingredients */
+.ingredients ul {
+	list-style-type: none;
+	margin-left: 1.5%;
+}
+.ingredients ul > li:before { content: "- "; }
+
+
+/* Ingredients directions */
+.direction { border-bottom: none; }
+.direction ol { margin-left: 2%; }
+
