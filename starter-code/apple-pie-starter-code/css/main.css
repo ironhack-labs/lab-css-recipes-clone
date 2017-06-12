@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  padding:0;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+header{
+  height: 650px;
+  background-image: url('../images/apple-pie.jpg');
+}
+div#intro{
+  font-size: 26px;
+  line-height: 1.2em;
+
+}
+/* Full page background https://css-tricks.com/perfect-full-page-background-image/ */
+img.bg {
+  /* Set rules to fill background */
+  /*min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;*/
+}
+div.img-info{
+  text-align: center;
+}
+
+div#title{
+  color: #fff;
+  text-align: center;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+
+  /*position: absolute;
+  top:0;*/
+}
+h1{
+  font-size: 65px;
+  margin: 0;
+  padding: 250px;
+}
+
+section{
+  margin: 80px;
+}
