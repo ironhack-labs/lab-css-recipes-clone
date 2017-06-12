@@ -1,0 +1,67 @@
+h1 {
+  font-family: "helvetica", sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.3em;
+  font-weight: 900;
+  color: #1A1A1A;
+  padding-top: 3%;
+  padding-bottom: 1%;
+
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9em;
+  color: #3A3A3A;
+  text-align: justify;
+}
+
+ul, ol {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  font-weight: 300;
+  color: #3A3A3A;
+  text-align: left;
+}
+
+.container {
+
+position: relative;
+
+}
+
+#main_image {
+
+    width: 100%;
+    height: auto;
+}
+
+.centreScreen {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#main_recipe{
+  position: relative;
+  margin-top: -500px;
+  padding: 4% 12% 10% 12%;
+  background-color: #FFFFFF;
+}
+
+.icons {
+  padding: 4% 0 4% 0;
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
