@@ -15,7 +15,7 @@ body{
 }
 header{
   height: 650px;
-  background-image: url('../images/soup.jpg');
+  background: url('../images/soup.jpg') no-repeat center;
 }
 div#intro{
   font-size: 26px;
