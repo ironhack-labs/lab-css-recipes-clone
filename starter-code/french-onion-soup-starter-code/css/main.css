@@ -1,9 +1,79 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #646464;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.jumbotron {
+  position: relative;
+  bottom: 100px;
+  background: url("../images/soup.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.container {
+  padding: 20px 80px;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 350px;
+  font-size: 80px;
+}
+
+p {
+  color: #646464;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: justify;
+}
+
+img {
+position: relative;
+left: 30%;
+padding-top: 20px;
+}
+
+ul :first-child {
+  font-weight: 400;
+  font-size: 26px;
+  border-top: solid #646464;
+  padding-top: 40px;
+  color: #000;
+}
+
+
+ol :first-child {
+  font-weight: 400;
+  font-size: 26px;
+  border-top: solid #646464;
+  padding-top: 40px;
+  color: #000;
+}
+
+ul > li {
+font-weight: 200;
+padding-top: 5px;
+list-style-type: none;
+font-size: 20px;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol > li {
+font-weight: 200;
+padding-top: 5px;
+font-size: 20px;
+counter-increment: item;
+list-style: none inside;
+}
+
+ol > li:before {
+  content: counter(item) ")";
+  padding-right: 0.5em;
 }

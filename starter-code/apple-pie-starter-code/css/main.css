@@ -1,0 +1,78 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #646464;
+}
+
+.jumbotron {
+  background: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.container {
+  padding: 80px;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  font-size: 80px;
+}
+
+p {
+  color: #646464;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: justify;
+
+}
+
+img {
+position: relative;
+left: 30%;
+padding-top: 20px;
+}
+
+ul :first-child {
+  font-weight: 400;
+  font-size: 26px;
+  border-top: solid #646464;
+  padding-top: 40px;
+  color: #000;
+}
+
+
+ol :first-child {
+  font-weight: 400;
+  font-size: 26px;
+  border-top: solid #646464;
+  padding-top: 40px;
+  color: #000;
+}
+
+ul > li {
+font-weight: 200;
+padding-top: 5px;
+list-style-type: none;
+font-size: 20px;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol > li {
+font-weight: 200;
+padding-top: 5px;
+font-size: 20px;
+counter-increment: item;
+list-style: none inside;
+}
+
+ol > li:before {
+  content: counter(item) ")";
+  padding-right: 0.5em;
+}
