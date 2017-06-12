@@ -1,6 +1,6 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# HTML & CSS | Recipes Clone - Probando gits
+# HTML & CSS | Recipes Clone - Probando git
 
 ## Introduction
 
