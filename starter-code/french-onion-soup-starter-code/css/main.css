@@ -1,3 +1,5 @@
+/*Element styles*/
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +8,69 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin-left: 10px;
+}
+
+section {
+  padding-bottom: 10px;
+}
+
+/* Class styles */
+
+.section-container {
+  padding: 60px;
+}
+
+.section-intro,
+.section-ingredients {
+  border-bottom: 1.5px solid gray;
+}
+
+/*
+Hack for ul li dashes
+https://ilikekillnerds.com/2016/04/unordered-list-style-using-dashhyphen/
+*/
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.dashed > li {
+    margin-left: 15px;
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "-";
+    margin-left: -15px;
 }
