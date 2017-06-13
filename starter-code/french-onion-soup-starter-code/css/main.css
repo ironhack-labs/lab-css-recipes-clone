@@ -1,9 +1,39 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+header{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  color:white;
+  text-align: center;
+  line-height: 1000px;
+  font-size: 70px;
+  max-width: 100%;
 }
-/*Import the font and set the default size*/
+
+div{
+  margin: 130px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inforc{
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+.infocok{
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
+
+/* Hemos descubierto entre Mikel y mi persona, que puede modificarse el CSS
+   de este modo. Yo no lo he implementado, realice las divisiones con salto de pagina.
+
+  counter-reset: list;
+  list-style: none;
+  content: counter(list) ") ";
+  counter-increment: list; */
