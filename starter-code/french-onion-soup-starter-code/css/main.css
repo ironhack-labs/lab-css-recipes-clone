@@ -42,3 +42,17 @@ h1{
 section{
   margin: 80px;
 }
+
+hr{
+  margin-bottom: 45px;
+}
+ul{
+  padding: 20px;
+}
+ul li{
+  list-style-type: none;
+}
+
+ul li:before{
+  content: " - ";
+}
