@@ -7,3 +7,81 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+ .image-frenchOnionSoup {
+   background-image: url("../images/soup.jpg");
+   align: center;
+   background-size: cover;
+   height: 600px;
+   color: white;
+   line-height: 500px;
+   font-size: 70px;
+   text-align: center;
+   font-family:  helvetica;
+ }
+
+.box {
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: 100px;
+}
+
+.first-paragraph {
+  font-size: 25px;
+  text-align: center;
+  color: #616161;
+}
+
+.recipe-info {
+  margin-left: 35%;
+  margin-top: 30px;
+}
+
+.recipe-info img {
+  width: 400px;
+}
+
+.horizontal-line {
+  color: #616161;
+}
+
+.ingredients-title {
+  color: #616161;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.ingredients-list {
+  color: #616161;
+  font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cooking-info {
+  margin-left: 35%;
+}
+
+.cooking-info img {
+  width: 400px;
+}
+
+.directions-title {
+  color: #616161;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.directions-list {
+  color: #616161;
+  font-size: 20px;
+}
