@@ -1,9 +1,74 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 1.4em;
+  color: #222222;
+  margin: 0px;
+}
+
+header {
+  background-image: url(https://raw.githubusercontent.com/jordimanchon/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  height:830px;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+  line-height: 830px;
+  text-align: center;
+  color: white;
+  font-size: 4.2em;
+  font-weight:normal;
+}
+
+div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: black;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 2px solid #999999;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "-";
+  padding-right: 6px;
+}
+
+ol {
+  counter-reset: list;
+  margin-bottom: 100px;
+}
+
+ol li {
+  list-style: none;
+}
+
+ol li:before {
+  content: counter(list) ")";
+  counter-increment: list;
+  padding-right: 6px;
 }
