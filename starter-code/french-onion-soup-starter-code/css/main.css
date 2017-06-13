@@ -7,3 +7,45 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.image{
+  background-image: url("../images/soup.jpg");
+  align: center;
+  height: 700px;
+  background-size: cover;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h1{
+  color: white;
+  text-align:center;
+  line-height: 700px;
+}
+.soup{
+  border-bottom:2px solid #616161;
+}
+.imgmarg{
+  margin-left:30%;
+}
+p{
+  color: #616161;
+}
+h3{
+
+}
+ul{
+  color: #616161;
+}
+.infoingre{
+  margin-left: 30%
+} 
+ol{
+  color: #616161;
+}
+.ingredients{
+  border-bottom:2px solid #616161;
+}
+.text{
+  margin-left: 25%;
+  margin-right: 25%;
+}
