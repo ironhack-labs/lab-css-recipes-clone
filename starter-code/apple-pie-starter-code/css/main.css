@@ -1,0 +1,103 @@
+body {
+  width: 980px;
+  border: 1px solid #ddd;
+  margin: 0px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  margin-top: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 200px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 60px;
+}
+
+.applePieImageDiv {
+  width: 900px;
+  height: 520px;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.crop img {
+  width: 890px;
+  margin-top: -70px;
+}
+
+.recipe-image-caption {
+  margin-top: 60px;
+  text-align: justify;
+  font-size: 20px;
+  border-bottom: 2px solid gray;
+}
+
+.recipe-image-caption p {
+  color: #666;
+  font-weight: lighter;
+}
+
+#recipeInfo {
+  width: 350px;
+  margin-left: 200px;
+}
+
+.ingredients {
+  border-bottom: 2px solid gray;
+  color: #666;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.ingredients ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.ingredients h3 {
+  color: #222;
+  font-weight: lighter;
+}
+
+#cookingInfo {
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  list-style: none;
+}
+
+ol li::before {
+  content: counter(item) ") ";
+  counter-increment: item;
+}
+
+.directions {
+  color: #666;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.directions h3 {
+  color: #222;
+  font-weight: lighter;
+}
