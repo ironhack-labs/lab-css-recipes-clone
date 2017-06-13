@@ -1,7 +1,11 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #535353;
-
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
 }
 
 h1 {
@@ -36,7 +40,7 @@ h1 {
 .recipe-info {
     padding-top: 15px;
     display: inline-block;
-    width: 700px;
+    width: 720px;
     border-bottom: 2px solid #989898;
 }
 
@@ -45,7 +49,7 @@ h1 {
 }
 
 .recipe-ingredients {
-    width: 700px;
+    width: 720px;
 }
 
 .recipe-ingredients ul li {
@@ -57,7 +61,7 @@ h1 {
 .cooking-info {
     padding-top: 15px;
     display: inline-block;
-    width: 700px;
+    width: 720px;
     border-bottom: 2px solid #989898;
 }
 
