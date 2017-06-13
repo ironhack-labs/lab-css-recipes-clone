@@ -1,9 +1,78 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+body {
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../images/soup.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  height: 730px;
+  text-align: center;
+  line-height: 700px;
+  font-size: 90px;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.main_wrapper {
+  margin: 95px 120px;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.listing_title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.listing_content {
+  font-size: 22px;
+}
+
+.listing img {
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li:before {
+  content: "-\00a0";
+  display: inline-block;
+}
+
+ol {
+  counter-reset: li;
+}
+
+ol li:before {
+  content: counter(li) ") ";
+  counter-increment: li;
+}
+
+.info {
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin: 30px 0 60px;
+  padding-bottom: 20px;
 }
