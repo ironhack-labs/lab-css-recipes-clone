@@ -1,0 +1,63 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{
+  margin: 0px;
+  font-family: Open Sans;
+  padding: 0px;
+  color: #909090;
+  font-size: 25px;
+}
+
+section{
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 40px;
+}
+
+.recipes{
+  padding-left: 370px;
+  height: 75px;
+}
+
+h1{
+  font-weight:500;
+  text-align: center;
+  line-height:  700px;
+  font-size: 70px;
+}
+
+h3{
+  text-align: left;
+  font-weight: normal;
+  color:#050505;
+}
+
+#topParagraph{
+  padding-top: 60px;
+}
+
+header{
+  height: 700px;
+  width: auto;
+  background-image: url(images/soup.jpg);
+  background-size: cover;
+  color: #FDFAF6;
+}
+
+ul{
+  padding-top: 30px;
+  text-align: left;
+}
+
+ol{
+  padding-top: 30px;
+  text-align: left;
+}
