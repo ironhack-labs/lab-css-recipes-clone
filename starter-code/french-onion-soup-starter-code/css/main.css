@@ -1,9 +1,61 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+.content {
+    background-color: white;
+    font-size: 25px;
 }
-/*Import the font and set the default size*/
+
+header {
+    background-size: cover;
+    background-position: center;
+    height: 188px;
+    margin-top: 10px;
+    font-size: 140px;
+    top: 40%;
+    left: 36%;
+    margin-left: 37%;
+    color: white;
+    background-size: cover;
+    background-image: url(C:\Users\roki_\Documents\Ironhack\Work\code\labs\lab-css-recipes-clone\starter-code\french-onion-soup-starter-code\images\soup.jpg);
+}
+
+.content2 {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.p1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 35px;
+}
+
+.image1 {
+    position: relative;
+    width: 100%;
+}
+
+.image2 {
+    position: relative;
+    left: 31%;
+    right: 69%;
+}
+
+.image3 {
+    position: relative;
+    left: 27%;
+}
+
+hr {}
+
+.list1 {
+    list-style-type: disc;
+    list-style: disc;
+}
+
+.list2 {}
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
