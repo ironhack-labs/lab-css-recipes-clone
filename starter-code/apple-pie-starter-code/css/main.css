@@ -1,0 +1,112 @@
+body {
+  background-color:  rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#mainimage {
+  height: 500px;
+  width: 900px;
+  padding-left: 380px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  bottom: 50%;
+  padding-left: 580px;
+  margin: 0;
+}
+
+#applepie {
+  max-height: 500px;
+  padding-top: 24px;
+  padding-left: 200px;
+}
+
+p {
+  font-size: 20px;
+  max-width: 700px;
+  max-height: 300px;
+  padding-top: 24px;
+  padding-left: 500px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 580;
+    max-width: 700px;
+    max-height: 300px;
+    padding-top: 24px;
+    padding-left: 500px;
+}
+
+ul.ingredientslist {
+    list-style: none;
+}
+
+
+ul.ingredientslist > li {
+  text-indent: -5px;
+  margin-left: 8px;
+}
+
+ul.ingredientslist > li:before {
+  content: "-   ";
+  text-indent: -5px;
+}
+
+li {
+    padding-left: 15px;
+}
+
+ol { counter-reset: item }
+
+.l1 { display: block }
+
+.l1:before { content: counter(item) ")"; counter-increment: item }
+
+#instructions {
+  padding-left: 650px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.ingredientslist {
+  font-size: 20px;
+  max-width: 700px;
+  max-height: 300px;
+  padding-top: 24px;
+  padding-left: 500px;
+}
+
+#instructionscooking {
+  padding-left: 650px;
+  max-width: 400px;
+  height: 80px;
+}
+
+#directionslist {
+  font-size: 20px;
+  max-width: 700px;
+  max-height: 300px;
+  padding-top: 24px;
+  padding-left: 500px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 500px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    max-width: 700px;
+}
