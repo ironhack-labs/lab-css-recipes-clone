@@ -3,7 +3,63 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
-html {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+  font-weight: 200;
+}
+
+header {
+  text-align: center;
+}
+
+#recipeImage {
+  background-image: url("../images/soup.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  font-size: 50pt;
+  line-height: 500px;
+}
+
+div, section {
+  margin: 50px 100px 50px 100px;
+}
+
+#intro {
+    font-size: 20pt;
+}
+
+hr {
+  margin: 0px 100px;
+}
+
+.infoImage {
+  display: block;
+  margin: auto;
+}
+
+ul {
+list-style: none;
+}
+
+ul li:before {
+  content: "-";
+  margin-right: 3px;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ol li {
+  counter-increment: item;
+}
+
+ol li:before {
+  content: counter(item) ')';
+  margin-right: 3px;
 }
