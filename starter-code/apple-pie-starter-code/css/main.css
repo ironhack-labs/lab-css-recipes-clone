@@ -1,0 +1,88 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+h1 {
+    color: #000000;
+}
+
+#container
+{
+    text-align: center;
+}
+.apple-pie {
+    width: 900px;
+    height: 510px;
+}
+
+.apple-pie-title {
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.apple-pie-caption {
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 80px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.recipe-info {
+    padding-top: 15px;
+    display: inline-block;
+    width: 720px;
+    border-bottom: 2px solid #989898;
+}
+
+.recipe-info img {
+    width: 400px;
+}
+
+.recipe-ingredients {
+    width: 720px;
+}
+
+.recipe-ingredients ul li {
+    list-style: none;
+    padding-left: 245px;
+    text-align: justify;
+}
+
+.cooking-info {
+    padding-top: 15px;
+    display: inline-block;
+    width: 720px;
+    border-bottom: 2px solid #989898;
+}
+
+.cooking-info img {
+    width: 300px;
+}
+
+.recipe-directions {
+    margin-left: 280px;
+}
+
+.recipe-directions h1 {
+    text-align: left;
+}
+
+.recipe-directions ul {
+    padding-left: 0px;
+    width: 700px;
+}
+
+.recipe-directions ul li {
+    list-style: none;
+    text-align: justify;
+}
