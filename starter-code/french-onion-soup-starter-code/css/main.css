@@ -1,9 +1,63 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+body {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+#onion_soup {
+  width: 100%;
+}
+
+
+h1 {
+  font-weight: normal;
+  font-size: 3em;
+  color: #fff;
+  position: absolute;
+  margin: 28% 30%;
+
+}
+
+h3 {
+  font-weight: normal;
+  margin-left: 37px;
+}
+
+ .main {
+  margin: 2.3em;
+  padding: 2.2em;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: parenthesis;
+}
+
+ol > li:before {
+  counter-increment: parenthesis;
+  content: counter(parenthesis) ") ";
+}
+
+#recipe, #cooking {
+  width: auto;
+  height: 55px;
+  display: block;
+  margin: 40px auto;
+}
+
+#cooking {
+  height: 70px;
 }
