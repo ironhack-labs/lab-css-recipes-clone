@@ -7,3 +7,33 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.onionImage {
+  background-image: url("../images/soup.jpg") ;
+  color: white;
+  text-align: center;
+  height: 350px;
+  font-size: 75px;
+  padding-top: 250px;
+  background-size: cover;
+}
+body{
+  background-color: white;
+  color: #545151;
+  font-family: helvetica;
+  font-size: 30px;
+  margin:0px;
+}
+.mainText{
+  margin:50px;
+}
+.recipeInfoImage{
+  display: block;
+  margin: auto;
+}
+.cookingInfoImage{
+  display: block;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
