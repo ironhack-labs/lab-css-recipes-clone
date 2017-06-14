@@ -1,15 +1,14 @@
 .heading {
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
-    height: 70rem;
+    height: 40rem;
 }
 
 .heading-title {
     color: white;
-    font-family: sans-serif;
     font-size: 72px;
     text-align: center;
-    padding-top: 30rem;
+    padding-top: 25%;
 }
 
 .centered-column {
@@ -17,8 +16,14 @@
     margin: 0 auto;
 }
 
- img {
-     margin: 0 auto;
+ .recipe-img {
+     width: 50%;
+     margin-left: 25%;
+ }
+
+  .cooking-img {
+     width: 50%;
+     margin-left: 25%;
  }
 
 ul.dashed {
@@ -49,3 +54,9 @@ counter-increment: list;
 content: counter(list) ") ";
 position: absolute;
 left: -1.4em; }
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
