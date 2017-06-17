@@ -5,5 +5,106 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 30px
+}
+
+.page-header{
+  background: url("../images/soup.jpg") no-repeat;
+  height:800px;
+  width:auto;
+  background-size:cover;
+  background-position:center;
+}
+.title-doc{
+  text-align:center;
+  position:relative;
+  padding-top:320px;
+  font-size:120px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.upper-box{
+  height:600px;
+
+}
+.upper-box-text{
+  padding: 100px;
+  line-height: 45px;
+  color: #4d4d4d;
+}
+.upper-box-img{
+  position: relative;
+  left: 25%;
+  padding-bottom:50px;
+}
+.upper-box-line{
+  border-style:solid;
+  border-color:#4d4d4d;
+  border-width: 0px 0px 3px 0px;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.mid-box{
+  height:800px;
+}
+.mid-box-text{
+
+}
+.mid-box-text-header{
+  padding-left: 100px;
+  line-height: 45px;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.mid-box-text-txt{
+  padding-left:130px;
+  padding-bottom: 50px;
+  line-height: 45px;
+  color: #4d4d4d;
+}
+
+.mid-text-img{
+  position: relative;
+  left: 25%;
+  padding-bottom:50px;
+}
+.mid-text-line{
+  border-style:solid;
+  border-color:#4d4d4d;
+  border-width: 0px 0px 3px 0px;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.lower-box{
+  height:800px;
+}
+.lower-box-text{
+
+}
+.lower-box-text-header{
+  padding-left: 100px;
+  line-height: 45px;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.lower-box-text-txt{
+  padding-left:130px;
+  line-height: 45px;
+  color: #4d4d4d;
+}
+.lower-list{
+  list-style:lower-alpha;
+  width:85%;
+  text-align:left;
 }
