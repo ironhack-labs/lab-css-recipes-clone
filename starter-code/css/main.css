@@ -22,6 +22,14 @@ header {
   height: auto;
 }
 
+#apple-pie-recipe header {
+  background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+}
+
+#onion-soup-recipe header {
+  background-image: url("../french-onion-soup-starter-code/images/soup.jpg");
+}
+
 .recipe-title {
   font-size: 60px;
   padding: 280px 0;
@@ -37,7 +45,7 @@ hr {
 }
 
 .section-title {
-  font-weight: 500;
+  font-weight: bolder;
 }
 
 ul {
@@ -49,11 +57,11 @@ ul.dashed {
 
 ul.dashed > li:before {
   content: "- ";
-  text-indent: -5px;
 }
 
 .recipe-body {
   width: 70%;
+  padding:50px 0;
 }
 .centered {
   margin: 0 auto;
