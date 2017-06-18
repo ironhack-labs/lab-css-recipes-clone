@@ -1,0 +1,72 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+body {
+  font-weight: 300;
+}
+header {
+  background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.recipe-title {
+  font-size: 60px;
+  padding: 280px 0;
+  margin: 0;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  color: #B5B5B5;
+  margin: 20px 0;
+}
+
+.section-title {
+  font-weight: 500;
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.recipe-body {
+  width: 70%;
+}
+.centered {
+  margin: 0 auto;
+}
+.centered-img-container {
+  width: 60%;
+  height: 90px;
+  margin: auto;
+  vertical-align:middle;
+}
+.info-img {
+  max-height:100%;
+  max-width:100%;
+  display: block;
+  margin: auto;
+}
