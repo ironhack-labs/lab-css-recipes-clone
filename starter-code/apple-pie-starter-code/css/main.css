@@ -1,0 +1,63 @@
+
+.apple-pie-image {
+  height: auto;
+  width: 100%;
+}
+
+.Apple-Pie-Text {
+  font-family: "Arial";
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.apple-pie {
+
+}
+
+.introduction {
+  font-size: 33px;
+  margin: 100px 50px 10px 50px;
+  font-family: "Arial";
+  color: gray;
+}
+
+h1 {
+  margin: 50px 50px 0px 50px;
+  font-family: "Arial";
+  color: gray;
+}
+
+hr {
+    margin: 10px 50px 10px 50px;
+}
+
+.recipe-info-image {
+  margin: auto;
+  width: 50%;
+  border: 3px
+  padding: 10px;
+}
+
+.ingredients {
+  font-size: 33px;
+  margin: 10px 50px 10px 50px;
+  font-family: "Arial";
+  color: gray;
+}
+
+.cooking-info-image {
+  margin: auto;
+  width: 50%;
+  border: 3px
+  padding: 10px;
+}
+
+.directions {
+  font-size: 29px;
+  margin: 10px 50px 10px 50px;
+  font-family: "Arial";
+  color: gray;
+}
