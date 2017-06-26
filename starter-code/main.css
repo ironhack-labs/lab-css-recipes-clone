@@ -5,7 +5,7 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
 
 h1 {
@@ -30,6 +30,11 @@ h1 {
 
 .frenchOnion {
   background: url("french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+}
+
+#sub-container {
+  padding: 10%;
 }
 
 #intro {
@@ -39,7 +44,11 @@ h1 {
 .cookPrep {
   width: 100%;
 }
+img {
+  display: block;
+  margin: auto;
+}
 
-.listText {
+#listText {
   justify-content: center;
 }
