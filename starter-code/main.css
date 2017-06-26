@@ -5,7 +5,6 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
 }
 
 h1 {
@@ -35,20 +34,28 @@ h1 {
 
 #sub-container {
   padding: 10%;
+  font-size: 35px;
 }
 
 #intro {
-
+  font-size: 42px;
 }
 
 .cookPrep {
   width: 100%;
 }
+
+h2 {
+  font-size: 39px;
+}
+
 img {
   display: block;
   margin: auto;
 }
 
-#listText {
-  justify-content: center;
+hr {
+  background-color: dimgrey;
+  height: 4px;
+  margin: 70px 0;
 }
