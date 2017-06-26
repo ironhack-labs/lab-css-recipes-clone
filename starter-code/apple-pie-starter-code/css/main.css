@@ -1,0 +1,40 @@
+.title2{
+font-family: "Helvetica";
+color: white;
+font-size: 50px;
+text-align: center;
+width: 100%;
+position: absolute;
+top: 200px;
+}
+
+.line{
+  border-bottom: 1px solid #17212e;
+  width: 100%;
+}
+
+.intro{
+  font-size: 16px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.subtitle{
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.content{
+  font-size: 13.5px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+body{margin: 0px 0px 0px 0px}
+
+.subBody{
+  font-family: "Helvetica";
+  font-size: 10px;
+  margin-left: 60px;
+  margin-right:60px;
+}
