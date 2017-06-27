@@ -1,14 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:300|Roboto:300');
+/*Import*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
 
-body {
+/*Some necessary adjustments*/
+h1, body, html, main {
   margin: 0;
 }
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
 
+/*horizontal line separators*/
 hr {
-  color: black;
+  color: darkgray;
   width: 60%;
 }
 
+/*Header with background image*/
 header {
   background: url("../images/apple-pie.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,73 +25,72 @@ header {
   -o-background-size: cover;
   height: 450px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-
-header h1 {
-  text-align: center;
+  align-items: center;
   color: white;
-  font-size: 3.5em;
-  font-family: Roboto;
+  font-size: 1.5em;
 }
 
+/*General recipe info*/
 #general-info {
   padding: 20px;
-  font-family: Roboto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: space-around;
 }
 
 #general-info p {
   width: 60%;
   text-align: center;
-  font-size: 1.5em;
 }
 
 #general-info img {
-  width: 30%;
-}
-
-#ingredients {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Roboto;
-}
-
-#ingredients div {
-  width: 60%;
-}
-
-#ingredients h2 {
-  font-size: 1.5em;
-}
-
-#directions {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Roboto;
-}
-
-#directions div {
-  width: 60%;
-}
-
-#directions h2 {
-  font-size: 1.5em;
-}
-
-#directions img {
-  width: 50%;
-  margin: auto;
   display: block;
+  width: 25%;
+}
+
+/*Ingredient list*/
+#recipe-ingredients {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#recipe-ingredients h2 {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-ingredients ul {
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-ingredients img {
+  display: block;
+  width: 25%;
+}
+
+/*Directions*/
+#recipe-directions {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#recipe-directions h2 {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-directions p {
+  width: 60%;
+  text-align: left;
 }
