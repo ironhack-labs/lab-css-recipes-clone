@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300|Roboto:300');
+
+body {
+  margin: 0;
+}
+
+hr {
+  color: black;
+  width: 60%;
+}
+
+header {
+  background: url("../images/apple-pie.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+  font-family: Roboto;
+}
+
+#general-info {
+  padding: 20px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#general-info p {
+  width: 60%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#general-info img {
+  width: 30%;
+}
+
+#ingredients {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+}
+
+#ingredients div {
+  width: 60%;
+}
+
+#ingredients h2 {
+  font-size: 1.5em;
+}
+
+#directions {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+}
+
+#directions div {
+  width: 60%;
+}
+
+#directions h2 {
+  font-size: 1.5em;
+}
+
+#directions img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
