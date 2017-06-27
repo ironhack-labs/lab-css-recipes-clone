@@ -1,0 +1,96 @@
+/*Import*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/*horizontal line separators*/
+hr {
+  color: darkgray;
+  width: 60%;
+}
+
+/*Header with background image*/
+header {
+  background: url("../images/apple-pie.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/*General recipe info*/
+#general-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#general-info p {
+  width: 60%;
+  text-align: center;
+}
+
+#general-info img {
+  display: block;
+  width: 25%;
+}
+
+/*Ingredient list*/
+#recipe-ingredients {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#recipe-ingredients h2 {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-ingredients ul {
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-ingredients img {
+  display: block;
+  width: 25%;
+}
+
+/*Directions*/
+#recipe-directions {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#recipe-directions h2 {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: left;
+}
+
+#recipe-directions p {
+  width: 60%;
+  text-align: left;
+}
