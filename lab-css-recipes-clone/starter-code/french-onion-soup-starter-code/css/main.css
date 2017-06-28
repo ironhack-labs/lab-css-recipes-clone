@@ -1,0 +1,80 @@
+/*Some necessary adjustments*/
+body {
+  margin: 50px;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+/* header starts */
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 30px;
+
+}
+
+.header-heading {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+/* header ends */
+
+/* intro starts*/
+
+.intro {
+  border-bottom: 2px solid #686868;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* intro ends*/
+
+/* starts ingredients*/
+.ingredients-section {
+  text-align: left;
+  border-bottom: 2px solid #686868;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+/* ends ingredients*/
+
+
+/* start images */
+.recipe-info{
+  width: 60%;
+}
+
+.cooking-info {
+    width: 60%;
+}
+/* end images */
+
+/* starts directions*/
+
+.directions-section {
+  text-align: left;
+  border-bottom: 2px solid #686868;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* ends directions*/

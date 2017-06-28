@@ -1,0 +1,113 @@
+* {
+  font-family: sans-serif;
+}
+
+/* start header section (top image + apple pie title + bottom line border) */
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+  margin-bottom: : 50px;
+}
+
+.bannertitle {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 40%;
+  color: white;
+}
+
+
+.intro-section {
+  border-bottom: solid 2px grey;
+}
+/* end header section */
+
+body {
+  background-color: white;
+}
+
+.maincontent {
+  margin: 50px ;
+  background-color: white;
+  position: relative;
+  top: 250px;
+
+}
+
+.intro{
+  text-align: justify;
+}
+
+/* start ingredients section */
+.ingredients-section {
+  border-bottom: solid 2px grey;
+}
+
+  ul.dashed {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 30px;
+}
+
+ul.dashed > li {
+    margin-left: 15px;
+  }
+
+ ul.dashed > li::before {
+    content: "- ";
+    margin-left: -15px;
+}
+
+.ingredient-list {
+  list-style: none;
+   padding-left: 0;
+   margin: 10px 30px;
+}
+
+.ingredients {
+  text-align: left;
+}
+
+.ingredients-list {
+  text-align: left;
+}
+
+/* end ingredients section */
+
+
+ /*  images */
+
+.body-images {
+  width:60%;
+}
+/* ends images */
+
+
+/* start directions */
+
+.directions {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.directions-steps {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.parent {
+ counter-reset: list;
+}
+ol > li {
+ list-style: none;
+}
+ol > li:before {
+ content: counter(list) ") ";
+ counter-increment: list;
+}
+
+/* end directions*/
