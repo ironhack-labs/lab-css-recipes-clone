@@ -7,8 +7,7 @@
 }
 
 .subBody {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: 0 60px;
 }
 .context {
   position: relative;
@@ -39,21 +38,17 @@
 }
 
 .remove {
-  list-style-type: none;
+  list-style: none;
 
 }
 .recipeInfo {
-  position: relative;
-  left: 365px;
-  top: 10px;
-  margin-bottom: 60px;
+  width: 50%;
+  margin-bottom: 40px;
 
 }
 .cookingInfo {
-  position: relative;
-  left: 365px;
-  top: 10px;
-  margin-bottom: 60px;
+  width: 40%;
+  margin-bottom: 40px;
 
 }
 .directions {
