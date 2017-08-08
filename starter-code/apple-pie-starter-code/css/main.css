@@ -1,0 +1,40 @@
+html {
+background-color: black;
+font-family: Open Sans;
+}
+
+body {
+    margin: auto;
+    width: 1100px;
+    background-color: white;
+}
+ul, p, ol{
+  font-size: 25px;
+}
+.container {
+    position:relative;
+    height: 700px;
+    overflow: hidden;
+
+}
+.head-img {
+    width: 100%;
+}
+.center {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+.body {
+    padding: 95px;
+
+}
+.info{
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+  }
