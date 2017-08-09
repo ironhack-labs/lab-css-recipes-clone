@@ -4,6 +4,64 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', "Calibri","Arial", sans-serif;
   font-size: 18px
+}
+
+main{
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 54px;
+  color: #fff;
+  padding: 200px
+}
+
+ul{
+  list-style-type: circle;
+}
+ul,ol{
+  font-size: 18px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p, ol, ul, h2{
+  padding-top: 20px;
+}
+
+img{
+  padding-bottom: 20px;
+}
+#cooking, #recipes{
+  display: block;
+  margin: 0 auto;
+}
+
+#cooking{
+    height: 70px;
+}
+#recipes{
+    height: 60px;
+}
+
+.instructions{
+  width: 725px;
+  margin: 0 auto;
+}
+
+.jumbotron{
+  height: 500px;
+  background-image: url("../images/soup.jpg");
+  background-position: center bottom;
+  background-size: 100% auto;
+  margin: 0;
+  text-align: center;
+}
+.divider{
+  border-bottom: 3px solid lightgray;
 }
