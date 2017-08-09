@@ -1,0 +1,98 @@
+body {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 535px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+}
+
+.banner-section h1 {
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 400;
+}
+
+.recipe-body {
+  background-color: #ffffff;
+  margin-top: -16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  width: 800px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.recipe-body p {
+  padding-top: 60px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-bottom: -60px;
+  font-size: 18px;
+}
+
+.recipe-info {
+  display: flex;
+}
+
+.recipe-info-img {
+  width: 300px;
+  margin: auto;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.separator hr {
+  width: 630px;
+  height: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -30px;
+  padding-right: 10px;
+  background-color: #b1b3bf;
+}
+
+.recipe-ingredients {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashed-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dashed-list > li {
+  margin-left: 15px;
+}
+
+.dashed-list li::before {
+  content: "-";
+  margin-left: -10px;
+}
+
+ol {
+  counter-reset: list;
+  padding: 0;
+}
+ol > li {
+  list-style: none;
+  margin-left: 12px;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
