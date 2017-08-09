@@ -1,0 +1,70 @@
+/*Some necessary adjustments*/
+/*h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 65px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+
+}
+
+.applepie{
+  background-image: url(/Users/DharmaVelasco/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: block;
+  margin: 50px;
+}
+
+.frenchonion{
+  background-image: url(/Users/DharmaVelasco/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: block;
+  margin: 40px;
+}
+
+.grandmother{
+  margin: 90px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: justify;
+  padding: 25px;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+h3{
+  font-weight: normal;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -35px;
+}
+ul.dashed > li:before {
+  content: "-";
+}
+.ingridients{
+  margin: 40px 95px 50px 95px;
+
+}
