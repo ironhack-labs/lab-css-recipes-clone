@@ -1,12 +1,16 @@
-
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
 
+/*body {
+  font-family: helvetica neue;
+
+}*/
+
 h1 {
   font-size: 68px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 #first {
@@ -22,13 +26,13 @@ h1 {
   height: 350px;
   width: 900px;
   margin: auto;
-  background: url(../images/apple-pie.jpg);
+  background: url(../images/soup.jpg);
   background-size: 100%;
 }
 
 h2 {
-  font-size: 20px;
   color: rgba(0,0,0,.7);
+  font-size: 20px;
 }
 
 .text {
