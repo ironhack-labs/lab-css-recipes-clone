@@ -1,9 +1,52 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.Soup_container {
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  padding: 200px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+  text-align: center;
+  top: 700px;
+  left: 700px;
+  width: 100%;
+  color: white;
+  font-size: 70px;
+  font-family: Open Sans;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.content {
+  width: 750px;
+  margin: 0 auto;
+  font-family: Open Sans;
+}
+
+.cooking_info {
+  display: block;
+  margin: 0 auto;
+  width: 49%;
+}
+
+.recipe_info {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.paragraph1 {
+  font-family: Open Sans;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+ul, ol {
+  font-size: 18px;
 }
