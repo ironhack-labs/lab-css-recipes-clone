@@ -1,0 +1,88 @@
+*{
+  font-family: helvetica;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+  text-align: center;
+  color: white;
+  background: url(../images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  vertical-align: middle;
+  line-height: 700px;
+  font-size: 80px;
+  font-weight: lighter;
+  color: white;
+
+}
+.image{
+  position: relative;
+  height: 65px;
+  width: 450px;
+  left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.second-image{
+  position: relative;
+  height: 90px;
+  width: 400px;
+  left: 33%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro{
+  font-size: 26px;
+  font-weight: lighter;
+  margin-top: 80px;
+}
+.smaller-header{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 50px;
+}
+
+.line{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.intro, .line, .list{
+  margin-left: 8%;
+  margin-right: 8%;
+  color:rgba(0, 0, 0, 0.6);
+  font-weight: lighter;
+}
+
+ul, ol{
+  font-size: 22px;
+}
+
+ul.dashed {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.dashed > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
