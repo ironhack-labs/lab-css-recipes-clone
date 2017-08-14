@@ -1,0 +1,67 @@
+body {
+  background: #e5e5e5
+}
+
+.wrapper {
+  width: 50%;
+  margin: 1em auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 10px 10px 10px #dbdbdb;
+}
+
+.header {
+  overflow: hidden;
+  margin: 1em;
+  background: url(https://github.com/willjthorp/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header-text {
+  text-align: center;
+  padding: 15% 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  font-weight: 300;
+  color: white
+}
+
+.content {
+  margin: 2.5em auto;
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.img-container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.list {
+  font-size: 0.8em;
+}
+
+.line {
+  width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 70%;
+  }
+  
+@media (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
