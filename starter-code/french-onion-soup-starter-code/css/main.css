@@ -7,3 +7,91 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 225px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+header {
+  height: 625px;
+  width: 100%;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.separator {
+  border: 0;
+  height: 2px;
+  background: rgba(51, 51, 51, 0.76);
+  margin-left: 176px;
+}
+
+.motivation {
+  height: 400;
+  width: 80%;
+}
+
+.motivation p {
+  padding-left: 70px;
+  padding-top: 60px;
+  margin-left: 110px;
+  font-size: 24px;
+}
+
+.recipe-info {
+  text-align: center;
+  padding-left: 156px;
+  margin-left: 110px;
+  margin-bottom: 69px;
+}
+
+.recipe-info img {
+  width: 62%;
+}
+
+.ingredients {
+  padding-left: 70px;
+  padding-top: 16px;
+  margin-left: 110px;
+}
+
+.directions {
+  padding-top: 16px;
+  margin-left: 110px;
+}
+
+.ingredients-items {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.directions-items {
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 70px;
+}
+
+.directions h2 {
+  padding-left: 60px;
+}
+
+.cooking-info {
+  text-align: center;
+}
+
+.cooking-info img {
+  width: 45%;
+}
+
+.directions ol {
+  list-style: none;
+}
