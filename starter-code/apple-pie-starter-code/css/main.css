@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  background-color: pink;
+}
+
+.main-image {
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+}
+
+.motivation {
+  height: 100px;
+  width: 100%;
+  background-color-blue;
+}
+
+.recipe-info-image {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
+
+.middle {
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+}
+
+.ingredients {
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+
+.cooking-info-image {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
+
+.last {
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+}
