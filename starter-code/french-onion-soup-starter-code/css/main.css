@@ -7,3 +7,39 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.header {
+  position: relative;
+  height: 800px;
+  margin-bottom: 100px;
+}
+
+.header img {
+  width: 100%;
+  height: 1100px;
+  margin-top: -300px;
+}
+
+.header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+  font-weight: lighter;
+}
+
+.sect {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.sect img {
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
