@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto';
 }
 
@@ -17,21 +18,28 @@ hr {
 }
 
 .section.intro {
-    background-image: url('../images/apple-pie.jpg');
-    size: cover;
     height: 800px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.section.intro>h1 {
-    padding-top: 25%;
+.section.intro .img-intro {
+    background-image: url('../images/apple-pie.jpg');
+    size: cover;
+    margin: 0;
+    height: 500px;
+}
+
+.section.intro .img-intro h1 {
+    padding-top: 15%;
+    font-size: 35px;
     color: #fff;
 }
 
 .section.intro>.text {
     vertical-align: text-bottom;
+    padding: 25px;
 }
 
 .section.ingredients ul li {
