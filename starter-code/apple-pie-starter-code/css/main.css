@@ -1,29 +1,46 @@
 body {
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main {
-  height: 600px;
+  height: 900px;
   width: 100%;
-  background-color: pink;
 }
 
 .main-image {
-  height: 300px;
+  height: 500px;
   width: 100%;
-  background-color: blue;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+
+}
+
+.main-image p {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0;
 }
 
 .motivation {
-  height: 100px;
+  height: 150px;
   width: 100%;
-  background-color-blue;
+}
+
+.motivation p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 80px;
+  color: gray;
 }
 
 .recipe-info-image {
   height: 100px;
   width: 100%;
-  background-color: blue;
+  text-align: center;
 }
 
 .middle {
