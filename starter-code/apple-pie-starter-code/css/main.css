@@ -52,8 +52,12 @@ hr {
     margin-right: 25%;
 }
 
-.section.ingredients ul {
+.section.ingredients ul li {
     list-style: none;
+}
+
+.section.ingredients ul li::before {
+    list-style: inherit;
     content: "-";
 }
 
