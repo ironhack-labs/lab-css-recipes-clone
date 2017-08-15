@@ -7,3 +7,26 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+hr {
+    margin: 20px auto 30px auto;
+    width: 80%;
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section.intro .img-intro {
+  background-image: url('../images/soup.jpg');
+  size: cover;
+  margin: 0;
+  height: 500px;
+}
+
+.section.ingredients ul li {
+  list-style: none;
+}

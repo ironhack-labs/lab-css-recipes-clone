@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
-body {
+/*Some necessary adjustments*/
+
+h1,
+body,
+html,
+main {
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
+}
+
+
+/*Import the font and set the default size*/
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
 
 hr {
