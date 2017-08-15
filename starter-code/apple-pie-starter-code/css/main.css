@@ -12,7 +12,7 @@ main {
 
 html {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px
+    font-size: 18px;
 }
 
 hr {
@@ -22,16 +22,11 @@ hr {
 
 .section {
     width: 100%;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 .section.intro {
     height: 800px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .section.intro .img-intro {
@@ -52,8 +47,14 @@ hr {
     padding: 25px;
 }
 
-.section.ingredients ul li {
+.section.ingredients {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.section.ingredients ul {
     list-style: none;
+    content: "-";
 }
 
 .apple-pie {
@@ -62,4 +63,10 @@ hr {
 
 .recipe-info {
     width: 400px;
+}
+
+.section.directions {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }

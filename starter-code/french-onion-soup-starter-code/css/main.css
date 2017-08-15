@@ -1,11 +1,18 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+
+h1,
+body,
+html,
+main {
+    margin: 0;
 }
+
+
 /*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
 
 hr {
@@ -14,19 +21,23 @@ hr {
 }
 
 .section {
-  width: 100%;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section.intro .intro-img {
+    background-image: url('../images/soup.jpg');
+    margin: 50px;
 }
 
 .section.intro .img-intro {
-  background-image: url('../images/soup.jpg');
-  size: cover;
-  margin: 0;
-  height: 500px;
+    size: cover;
+    margin: 0;
+    height: 500px;
 }
 
 .section.ingredients ul li {
-  list-style: none;
+    list-style: none;
+    content: "-";
 }
