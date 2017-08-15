@@ -1,9 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
+  /*font-size: 18px*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: 300;
+  font-size: 24px;
+}
+img{
+  width: 100%;
+}
+hr{
+  border:1.5px solid #aaa;
+}
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  color: white;
+  font-weight: 300;
+  font-size: 90px;
+  margin: auto;
+}
+h2{
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 28px;
+}
+ul{
+  margin-left: -35px;
+}
+ol {
+  counter-reset: list;
+  margin-left: -25px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+ul > li{
+  list-style-type: none;
+}
+ul > li:before{
+  content: "- ";
+}
+
+section{
+  margin: 70px 10% 40px 10%;
+}
+.header{
+  background: url('../images/soup.jpg') 50% 90% no-repeat;
+  background-size: cover;
+  height: 620px;
+  display: flex;
+  /*padding-top:250px*/
+}
+p{
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.img-description{
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.img-ingredients{
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.mg-lat{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.description, .ingredients, .directions{
+  width: 80%;
+}
+.directions{
+  margin-bottom: 100px;
 }
