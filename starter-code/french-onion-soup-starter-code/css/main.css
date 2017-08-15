@@ -7,3 +7,71 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+header {
+  /*flex --> To be able to center vertical and horizontally the text h1 with margin auto*/
+  display: flex;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 520px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+  font-size: 3.5em;
+  /*font-weight: 600;*/
+  letter-spacing: 3px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto 60px;
+}
+
+article {
+  padding-top: 40px;
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+article.general-info{
+    font-size: 1em;
+}
+
+img {
+  display: block;
+  margin: 30px auto 20px;
+  width: 50%;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-left: 10px;
+  /* Remove list bullets */
+  list-style: none inside;
+}
+
+.ingredients li:before {
+  /* Insert content that looks like bullets */
+  content: "-";
+  padding-right: 5px;
+}
+
+.directions ol {
+  /* Creates a new instance of the section counter with each ol element */
+  counter-reset: section;
+}
+
+.directions li:before {
+  /* Increments only this instance of the section counter */
+  counter-increment: section;
+  /* Combines the values of all instances of the section counter, with a parenthesis symbol*/
+  content: counters(section) ")";
+}
