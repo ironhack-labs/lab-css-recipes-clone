@@ -1,0 +1,45 @@
+html body{
+  width: 100%;
+  font-family: sans-serif;
+}
+
+section{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dos{
+  width: 50%;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: left;
+}
+
+.img{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  width: 70%;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text{
+  position: absolute;
+  width: 25%;
+  top: 30%;
+  left: 40%;
+  color: white;
+  font-size: 40px;
+}
+
+ul{
+  text-align: left;
+  list-style-type: none;
+}
+
+
+ol{
+  text-align: left;
+}
