@@ -1,0 +1,48 @@
+body{
+  margin: center;
+}
+div{
+  text-align: center;
+  color: white;
+  background: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  vertical-align: middle;
+  line-height: 700px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.inforecipe{
+  position: relative;
+  height: 65px;
+  width: 450px;
+  left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.infocook{
+  position: relative;
+  height: 90px;
+  width: 400px;
+  left: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.intro{
+   font-size: 26px;
+   font-weight: lighter;
+   margin: 150px;
+}
+h3{
+  margin-left: 150px;
+}
+ul, ol{
+  font-size: 30px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+hr{
+  margin-left: 100px;
+  margin-right: 100px;
+}
