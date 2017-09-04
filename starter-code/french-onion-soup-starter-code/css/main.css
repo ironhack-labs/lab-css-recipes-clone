@@ -1,9 +1,89 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+/*h1, body, html, main {
   margin: 0;
-}
+}*/
 /*Import the font and set the default size*/
-html {
+* {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  margin:0;
+  padding:0;
+}
+
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  margin:auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  margin: 10px 5%;
+  padding: 15px;
+}
+
+hr {
+  width: 90%;
+  align: center;
+  margin:auto;
+}
+
+.container > p {
+  text-align: center;
+  width: 85%;
+}
+
+.ingredients-list li {
+  font-size: 2rem;
+}
+
+
+#directions li {
+  font-size: 2rem;
+}
+
+#main-header {
+  background-color: grey;
+  background-image: url('/home/liuda/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  padding: 20%;
+  align: center;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.additional-info {
+  align: center;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.additional-info img {
+  margin-top: 15px auto;
+}
+
+.additional-info ul li {
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-align: center;
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
 }
