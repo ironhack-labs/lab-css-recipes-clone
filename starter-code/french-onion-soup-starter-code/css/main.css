@@ -1,9 +1,95 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  width: 83%;
+  margin-left: 90px;:
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header-div{
+  height: 500px;
+  background-image: url("/Users/stuartgardner/code/labs/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center -250px;
+
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3.5em;
+}
+
+.sub-header {
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.sub-header-div {
+  width: 80%;
+  margin: auto;
+  padding-top: -200px;
+}
+
+.info-image {
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.first-instructions {
+  border-bottom: solid 1px black;
+}
+
+.second-instructions {
+  border-bottom: solid 1px black;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
+
+}
+
+.first-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.first-list> li {
+    margin-left: 15px;
+}
+
+ul.first-list > li::before {
+    content: "- ";
+    margin-left: -15px;
+}
+
+.cook-time {
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.second-list {
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: items;
+}
+
+ol.second-list > li:before {
+  content: counter(items) ") ";
+  counter-increment: items;
+}
+
+h3 {
+  padding-top: 20px;
 }
