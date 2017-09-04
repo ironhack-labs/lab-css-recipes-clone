@@ -1,0 +1,102 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #141414;
+}
+
+.recipe-title {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 300;
+  color: white;
+}
+
+.recipe-title-bg-soup {
+  background-image: url("../french-onion-soup-starter-code/images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
+  background-position: center;
+}
+
+.recipe-title-bg-apple {
+  background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
+  background-position: center;
+}
+
+.recipe-presentation {
+  padding: 5% 10% 0% 10%;
+}
+
+.recipe-presentation-img-wrapper {
+  text-align: center;
+}
+
+.recipe-presentation-img {
+  width: 400px;
+}
+
+.article-separation {
+  margin: 5% 10% 5% 10%;
+}
+
+.article-title-wrapper {
+  margin: 0% 10%;
+}
+
+.article-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+ul.ingredients-list {
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.ingredients-list > li {
+  text-indent: -5px;
+}
+
+ul.ingredients-list > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.ingredients-list-wrapper {
+  margin: 0% 7%;
+}
+
+.recipe-timing-img-wrapper {
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+.recipe-timing-img {
+  width: 400px;
+}
+
+.directions-list-wrapper {
+  margin: 0% 5%;
+}
+
+ol.directions-list {
+  counter-reset: list;
+}
+
+ol.directions-list > li {
+  list-style: none;
+}
+
+ol.directions-list > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
