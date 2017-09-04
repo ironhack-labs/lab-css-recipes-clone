@@ -1,0 +1,79 @@
+.pageTopPie {
+  background-image: url(../apple-pie-starter-code/images/apple-pie.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Only the url of the background image differs from the pageTopPie styles */
+.pageTopSoup {
+  background-image: url(../french-onion-soup-starter-code/images/soup.jpg);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Common styles for the two pages */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #2f2e2e;
+  counter-reset: directionslist; /* Counter to style the direction list */
+}
+
+.main-title {
+  color: white;
+  font-weight: 600;
+}
+
+.intro {
+  margin: 30px 50px;
+  text-align: justify;
+}
+
+.recipe-info, .cooking-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 30px;
+}
+
+hr {
+  margin: 30px 60px;
+}
+
+.recipe-info img, .cooking-info img {
+  height: 100%;
+}
+
+h2 {
+  margin: 0px 60px 30px 60px;
+}
+
+.ingredient-list {
+  list-style: none;
+  margin: 0px 50px;
+}
+
+.ingredient-list li:before {
+  content: '-  ';
+}
+
+.cooking-directions {
+  margin: 0px 60px;
+  list-style: none;
+}
+
+.cooking-directions li {
+  counter-increment: directionslist;
+}
+
+.cooking-directions li:before {
+  content: counter(directionslist) ")  ";
+}
