@@ -7,3 +7,97 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+header {
+  background-image: url('../images/soup.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  width:100%;
+  height: 650px;
+}
+
+h1 {
+  text-align: center;
+  font-weight:300;
+  font-size: 7em;
+  color: white;
+  padding: 200px;
+  margin:auto;
+}
+
+h2 {
+  font-weight:400;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 100px 400px 10px;
+
+}
+
+section {
+  padding: 10px 400px;
+  font-weight: lighter;
+}
+
+.cooking-info {
+  display: block;
+  margin: 20px auto 15px;
+  width: 40%;
+
+}
+
+.recipe-info {
+  display: block;
+  margin: 10px auto 50px;
+  width: 45%;
+}
+
+ul, ol {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.ingredients {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.ingredients:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+.directions1 .directions2 .directions3 {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.directions1:before {
+  content: "1)";
+  padding-right: 5px;
+}
+
+.directions2:before {
+  content: "2)";
+  padding-right: 5px;
+}
+
+.directions3:before {
+  content: "3)";
+  padding-right: 5px;
+}
+
+.directions4:before {
+  content: "4)";
+  padding-right: 5px;
+}
