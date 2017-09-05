@@ -15,7 +15,20 @@ H1{
 }
 
 
-.content{
+.content {
+
   width:500px;
-  padding-top:0 auto;
+  margin:auto;
+
+}
+p,li { font-family:sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+.imgrecipe {
+  text-align:center;
+}
+img {
+  width: 300px;
 }
