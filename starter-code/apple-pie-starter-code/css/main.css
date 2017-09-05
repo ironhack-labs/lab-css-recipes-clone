@@ -1,4 +1,6 @@
-
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
 
 .header {
   height: 350px;
@@ -10,12 +12,9 @@
 }
 
 .bordure {
-border-bottom:1px solid black;
-width: 830px;
-display: block;
-margin: auto;
-vertical-align: center;
-padding: 25px 0px 0px 0px;
+  border-bottom:1px solid black;
+  vertical-align: center;
+  padding: 25px 0px 0px 0px;
 }
 
 .header h1 {
@@ -30,7 +29,6 @@ h2{
   font-family: helvetica;
   font-style:normal;
   vertical-align: center;
-  margin: 0px 0px 0px 100px;
   padding : 20px 0px 0px 0px;
 }
 
@@ -63,16 +61,15 @@ h2{
   text-decoration: none;
   list-style-type:none;
   vertical-align: center;
-  margin: 0px 0px 0px 120px;
   padding: 15px 0px 0px 0px;
-}
-
-.recipe{
-  width: 50%;
 }
 
 .recipe article {
   vertical-align: center;
-  margin: 0px 0px 0px 100px;
   font-size : 15px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
