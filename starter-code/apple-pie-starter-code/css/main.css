@@ -12,12 +12,19 @@ H1{
   color:white;
   font-weight: normal;
   font-family: sans-serif;
+  font-size: 50px;
 }
 
+H3 {font-family:sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+
+
+}
 
 .content {
 
-  width:500px;
+  width:600px;
   margin:auto;
 
 }
