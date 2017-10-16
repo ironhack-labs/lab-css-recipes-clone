@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #646464;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: black;
+
+}
+
+p, ul, ol {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+#apple-pie {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+#title-apple-pie {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.container {
+  margin: 6em;
+}
+
+.container ul, .container ol {
+  margin: 2em 0 2em 0;
+}
