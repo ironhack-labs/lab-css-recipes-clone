@@ -18,15 +18,17 @@ body {
 #header-img {
   background-image: url("../images/soup.jpg");
   background-size: cover;
+  background-position:bottom;
+  background-origin: content-box;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 
-#header-img h2 {
+#header-img h1 {
   color:#ffffff;
+  font-size:4em;
   text-align:center;
-  font-size: 1.8em;
-  padding-top:300px;
+  padding-top:200px;
   margin-top: 0px;
 }
 
