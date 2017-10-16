@@ -6,18 +6,20 @@ body {
     width: 100%;
     height: 100%;
     line-height: 1.5em;
+    padding-left: 0px;
 }
+
+
 
 h1 {
   font-family: "Open Sans";
   font-size: 100px;
   position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-    text-align: center;
-
- width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
   color:white;
 
 }
@@ -31,12 +33,7 @@ h1 {
 
 }
 
-#hr1 {
-  position: relative;
-  top: 20px;
-  left: 100px;
-  right: 100px;
-}
+
 
 h2 {
   font-family: "Open Sans";
@@ -51,6 +48,7 @@ h2 {
   position: relative;
   top: 30px;
   left: 100px;
+  bottom: 30px;
 }
 
 
@@ -70,6 +68,7 @@ h3{
   position: relative;
   top: 30px;
   left: 150px;
+  bottom: 40px;
 }
 
 .directions {
@@ -80,9 +79,9 @@ h3{
   padding-bottom: 20px;
 }
 
-#hr2 {
+hr {
   position: relative;
-  top: 20px;
-  left:0px;
-  right: 100px;
+  top: 30px;
+  color: grey;
+  width: 70%
 }
