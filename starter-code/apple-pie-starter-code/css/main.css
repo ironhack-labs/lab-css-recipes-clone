@@ -1,0 +1,36 @@
+.image {
+    background-image: url("../images/apple-pie.jpg");
+    width: 100%;
+    background-size: 1200px;
+    height: 800px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight:normal;
+    font-size: 62px;
+    padding: 400px 0 400px 0;
+}
+
+.description, .recipe, .directions {
+    width: 80vw;
+    margin: auto;
+    padding: 25px 0 25px 0;
+}
+
+.recipe {
+    border-bottom: solid;
+    border-top: solid;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: -25px;
+
+}
+
+ul > li:before {
+    content: "-";
+}
