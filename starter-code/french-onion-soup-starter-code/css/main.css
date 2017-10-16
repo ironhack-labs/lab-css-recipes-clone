@@ -1,9 +1,38 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: lighter;
+}
+
+#resume{
+  margin-bottom: 60px;
+}
+
+.imagenPrincipal {
+  width: 100%;
+  height: 100vh;
+}
+
+.textoFoto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5em;
+}
+
+.container {
+  margin: 5% 15% 5% 15%;
+  font-size: 1.5em;
+}
+
+.imagenInfo {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+ul {
+  list-style-type: none;
 }
