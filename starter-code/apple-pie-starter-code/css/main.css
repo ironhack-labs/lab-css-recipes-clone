@@ -1,0 +1,85 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.first-block{
+ position: relative;
+ overflow: hidden;
+ height: 500px;
+ width: 100%;
+}
+
+.title-apple-pie {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 35%;
+  font-size: 70px;
+  width: 30%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.apple-pie{
+  position: relative;
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.second-block{
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.recipe-info{
+  width: 400px;
+  height: auto;
+}
+
+.third-block{
+  width: 60%;
+  margin-left: 20%;
+  border-bottom: 1px solid grey;
+}
+
+.third-block ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul > li:before {
+  content: "-";
+}
+
+.cooking-info{
+  width: 400px;
+  height: auto;
+  margin-left: 23%;
+}
+
+.fourth-block{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.fourth-block ol{
+  padding: 0;
+  list-style-type: none;
+  counter-reset: item;
+}
+
+ol > li:before {
+  content: counter(item) ") ";
+	counter-increment: item;
+}
