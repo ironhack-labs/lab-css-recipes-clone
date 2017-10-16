@@ -2,8 +2,17 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+#french-onion-soup {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+#title-onion-soup {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40%;
 }
