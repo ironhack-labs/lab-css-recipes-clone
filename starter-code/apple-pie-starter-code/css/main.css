@@ -1,0 +1,38 @@
+/* Hoja de estilos CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#cabecera{
+  background-image:  url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 400px;
+  padding-top: 200px;
+  display: block;
+
+}
+
+.partes{
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 80%;
+}
+
+.imagenes{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+#titulo{
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+hr{
+  width:80%
+}
