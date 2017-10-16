@@ -1,10 +1,41 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  margin: 5% 15%;
+  color: gray;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+#main {
+  margin:  5% 10%;
+
+}
+
+#header {
+  background-image: url("https://assets.epicurious.com/photos/583f2ecab80c02a24264c1c1/master/pass/apple-pie.jpg");
+  height: 300px;
+}
+
+#ingredients {
+  border-top: 2px gray solid;
+  border-bottom: 2px gray solid;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  font-weight: lighter;
+}
+
+img {
+  width: 400px;
+  margin: auto;
+}
+
+h3 {
+  padding: 15px 0px;
 }

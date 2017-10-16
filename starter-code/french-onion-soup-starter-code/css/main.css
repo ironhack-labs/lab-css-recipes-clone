@@ -1,17 +1,46 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 5%;
+body {
+  margin: 5% 15%;
+  color: gray;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
 
-#facts {
-  background-color: yellow;
+#main {
+  margin-left:  5%;
+  margin-right:  5%;
 }
 
-#main {
-  background-color: pink;
+#header {
+  background-image: url('https://static.pexels.com/photos/34950/pexels-photo.jpg');
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+
+#headertext {
+  padding-top: 180px;
+  font-weight: lighter;
+}
+
+#description {
+  padding: 20px;
+  border-bottom-width: 10px;
+  border-bottom-color: gray;
+}
+
+
+
+img {
+  width: 400px;
+  margin: auto;
+
+}
+
+#ingredients {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 20px;
 }
