@@ -1,0 +1,110 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  height: 330px;
+  width: 550px;
+  padding: 0;
+  margin: auto;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+  color: white;
+  font-size: 45px;
+  font-weight: normal;
+  display: block;
+  height: 50px;
+  width: 195px;
+  position: absolute;
+  margin:auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.position{
+  padding-left:20px;
+}
+
+#ingredients .position{
+  padding-left:10px;
+}
+
+.center{
+  width: 550px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.text{
+  color: grey;
+  font-size: 12px;
+}
+
+h2{
+  font-size: 12px;
+  color: rgb(0,0,0,1);
+}
+
+
+
+#cookinginfo{
+  height: 150px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 17px;
+  line-height: 15px;
+}
+
+
+
+#ingredients{
+  padding-top:0;
+  padding-bottom: 25px;
+  height: 235px;
+  margin: 0 auto;
+}
+
+#directions{
+  height: 175px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.image{
+  width:40%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#cookinginfo .image{
+  width:45%;
+}
+
+.container{
+  padding-top: 10px;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  text-align: left;
+  font-size: 12px;
+
+}
+
+ul{
+  list-style-type: none;
+}
