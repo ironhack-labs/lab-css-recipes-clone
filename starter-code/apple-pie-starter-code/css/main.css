@@ -1,0 +1,74 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.stageSlider{
+  align-content: center;
+}
+
+h1 {
+   position: absolute;
+   color: white;
+   top: 350px;
+   width: 100%;
+   text-align: center;
+   font-size: 100px;
+   font-weight: lighter;
+}
+
+img {
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin: 40px 0px;
+}
+
+.main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+h2{
+  margin: 60px auto;
+}
+
+.main img{
+  display:block;
+  margin-top: 60px;
+}
+
+.verticalLine {
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+  padding: 60px 0px;
+  margin: 60px auto;
+}
+
+#ingredients {
+  list-style:none;
+}
+
+#ingredients li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+#directions{
+  list-style-type:decimal;
+}
+
+#directions li:before{
+
+}
