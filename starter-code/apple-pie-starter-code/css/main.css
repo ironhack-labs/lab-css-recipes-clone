@@ -1,0 +1,28 @@
+h1 {
+color-text: white;
+text-align: center;
+font-size: 7em;
+}
+h2 {
+  text-align: left;
+  font-size: 4em;
+}
+.line {
+  width: 1400px;
+  height: 47px;
+  border-bottom: 1px solid black:
+  position: absolute;
+}
+#apple2 {
+  text-align: center;
+  }
+#apple3 {
+  text-align: center;
+}
+#header {
+  background: url("file:///home/cesar/Ironhack/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") 0 0 no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
