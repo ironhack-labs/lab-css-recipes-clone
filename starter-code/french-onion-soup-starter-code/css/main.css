@@ -78,7 +78,7 @@ html {
   padding-left: 20px;
 }
 
-.dirlist li:before {
-  content: counter(item, number) ")";
+ol li:before {
+  content: counter(item) ")";
   counter-increment: item;
 }
