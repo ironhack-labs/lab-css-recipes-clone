@@ -18,21 +18,16 @@ html {
   background-size: cover;
   height: 700px;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3%;
 }
 
 #main {
   width: 90%;
   margin: auto;
-}
-
-.image-fluid {
-  max-width: 100%;
-  height: auto;
-  width: 100%;
 }
 
 p, .facts {
@@ -41,12 +36,20 @@ p, .facts {
 }
 
 .facts {
-  padding: 0;
-  list-style: none;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-.facts li {
-  display: inline;
+#recipe-info {
+  background-image: url('../images/recipe-info.png');
+  height: 110px;
+}
+
+#cooking-info {
+  background-image: url('../images/cooking-info.png');
+  height: 135px;
 }
 
 .list-no-style {
