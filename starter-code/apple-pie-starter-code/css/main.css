@@ -1,0 +1,47 @@
+
+/** {
+	outline: 1px solid blue;
+}*/
+
+
+#header {
+  height: 350px;
+  width: 850px;
+  background-image: url(/home/joordiii/Documents/Ironhack/Week1/01_de_clone_recipe_page/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: 850px auto;
+  display:block;
+  margin:auto;
+}
+
+h1 {
+  text-align: center;
+  padding-top:150px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+}
+h2 {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+#main {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: rgb(77, 77, 77);
+  font-family: sans-serif;
+}
+ul {
+  line-height: 2;
+}
+p {
+  line-height: 1.5;
+}
+#cooking-info{
+  display:block;
+  margin:auto;
+}
+#recipe-info{
+  display:block;
+  margin:auto;
+}
