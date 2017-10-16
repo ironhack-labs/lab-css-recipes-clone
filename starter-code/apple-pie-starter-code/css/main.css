@@ -1,0 +1,93 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+h1, body, html, main {
+  margin: 0;
+}
+
+header{
+  background-image: url('./../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 30% 0px;
+}
+
+h1{
+  font-size: 4em;
+}
+
+.introduction{
+  width: 100%;
+}
+
+p{
+  width: 80%;
+  color: black;
+  text-align: justify;
+  font-size: 30px;
+  margin: 90px 130px;
+}
+
+.imagen{
+  width: 80%;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  margin: 0px 130px;
+}
+
+.ingredients{
+  width: 100%;
+}
+
+h4{
+  font-size: 2em;
+  margin: 90px 130px 40px 130px;
+}
+
+.ingredientsList{
+  width: 80%;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 25px;
+  margin-left: 135px;
+  line-height: 40px;
+}
+
+ul{
+  margin-bottom: 90px;
+}
+
+.directions{
+  width: 100%;
+}
+
+h4{
+  font-size: 2em;
+  margin: 90px 130px 40px 130px;
+}
+
+.instructions{
+  width: 80%;
+  margin-left: 135px;
+  line-height: 40px;
+}
+
+ol li{
+  list-style-type: none;
+  font-size: 25px;
+}
+
+ol{
+  margin-bottom: 50px;
+}
