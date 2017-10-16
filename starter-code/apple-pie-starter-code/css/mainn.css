@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+    font-family: "Open Sans";
+    font-size: 1.10em;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5em;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-size: 100px;
+  position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    text-align: center;
+
+ width: 100%;
+  color:white;
+
+}
+
+.header {
+  background-size: cover;
+}
+
+#apple-pie {
+  width: 100%;
+
+}
+
+#hr1 {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  right: 100px;
+}
+
+h2 {
+  font-family: "Open Sans";
+  padding-left: 300px;
+  padding-top: 50px;
+  padding-right: 300px;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+#cooking-info-image {
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+
+
+
+h3{
+  font-family: "Open Sans";
+  font-size: 1.6em;
+}
+
+.ingredients{
+  position: relative;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+#recipe-info {
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+
+.directions {
+  width: 60%;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-bottom: 20px;
+}
+
+#hr2 {
+  position: relative;
+  top: 20px;
+  left:0px;
+  right: 100px;
+}
