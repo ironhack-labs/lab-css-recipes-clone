@@ -1,0 +1,64 @@
+
+h1 {
+  color:white;
+  text-align: center;
+  font-family: opensans;
+  font-weight:lighter;
+  font-size: 50px;
+}
+
+header {
+background-image: url(../images/apple-pie.jpg);
+background-size: cover;
+padding: 150px;
+margin-bottom: 50px;
+
+}
+body{
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+p {
+  text-align: justify;
+  width: auto;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+ul {
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+ol {
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+hr {
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+h3 {
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.recipe-image {
+  width: auto;
+  height: 50px;
+  text-align: center;
+}
+.ingredients-image {
+  width: auto;
+  height: 70px;
+  align: center;
+}
+.div-images {
+  text-align: center;
+}
