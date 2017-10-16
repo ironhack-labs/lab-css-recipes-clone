@@ -30,6 +30,11 @@ header p {
 
 #ingredient ul {
     font-size: 20px;
+    list-style-type: none;
+}
+
+#ingredient ul li:before {
+    content: "-";
 }
 
 #ingredient img {
