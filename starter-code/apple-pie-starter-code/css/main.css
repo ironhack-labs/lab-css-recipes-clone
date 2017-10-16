@@ -16,12 +16,11 @@ h1{
   padding-top: 250px;
 }
 
-#first{
+.generic{
   width: 650px;
   margin: 0 auto;
   padding-top: 20px;
   font-size: 18px;
-  text-align: center;
 }
 
 .imgClass{
@@ -40,13 +39,6 @@ h1{
   text-align: center;
 }
 
-#second{
-  width: 650px;
-  margin: 0 auto;
-  padding-top: 20px;
-  font-size: 18px;
-}
-
 /*This part is from Stackoverflow's post*/
 ul{
   margin: 0;
@@ -57,13 +49,6 @@ ul > li:before{
   content: "- ";
 }
 /*End Stackoverflow's post*/
-
-#third{
-  width: 650px;
-  margin: 0 auto;
-  padding-top: 20px;
-  font-size: 18px;x
-}
 
 /*This is my idea for customize list style (added in html)*/
 ol{
