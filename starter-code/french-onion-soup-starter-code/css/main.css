@@ -1,9 +1,63 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body {
+  color: #666;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.33;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+  margin-top: 0;
+  text-align: center;
+}
+h2 {
+  color: #444;
+  font-size: 30px;
+  font-weight: 400;
+}
+hr {
+  border-top: 2px solid #999;
+  height: 0;
+  width: 80%;
+  margin: 3em auto;
+}
+ul, ol , li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+.container {
+  width: 80%;
+  margin: 3em auto;
+}
+.recipe {
+  width: 90%;
+  max-width: 890px;
+  margin: auto;
+}
+.recipe-header {
+}
+.recipe-metainfo img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+}
+.recipe-lead {
+  font-size: 20px;
+}
+.recipe-header h1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #fff;
+  line-height: 7em;
+  overflow: hidden;
+}
+#apple-pies h1 {
+  background-image: url("../images/apple-pie.jpg");
+}
+#french-onion-soup h1 {
+  background-image: url("../images/soup.jpg")
 }
