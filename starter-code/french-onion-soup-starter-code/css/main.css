@@ -1,9 +1,74 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.4;
+
+	max-width: 1250px;
+	margin: 0 auto;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+#splash {
+	height: 500px;
+
+	background-image: url(file:///Users/ianizaguirre/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+	background-position: center;
+	background-size: cover;
+}
+h1.french-main {
+font-size: 60px;
+font-weight: 600;
+float: left;
+margin: 0 auto;
+color: #ffffff;
+width: 100%;
+text-align: center;
+padding-top: 100px;
+}
+
+.intro-text {
+	font-size: 22px;
+
+	width: 745px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+	text-align: justify;
+}
+.fancy-image-wrap {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	text-align: center;
+}
+.fancy-wrap {
+	padding-top: 45px;
+
+	border-top: solid 4px #cccccc;
+}
+h2.head-fancy {
+	font-size: 25px;
+	font-weight: 400;
+}
+.lister {
+	display: block;
+}
+.lister::before {
+	content: "-";
+}
+
+
+
+.adjust-img1 {
+	width: 65%;
+}
+.adjust-img2 {
+	width: 40%;
+}
+.temp-space {
+	padding: 50px;
 }
