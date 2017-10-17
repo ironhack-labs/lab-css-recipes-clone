@@ -7,3 +7,72 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#soupImage {
+  display: inline;
+  width: 1125px;
+  height: 900px;
+}
+
+#header {
+  position: absolute;
+  top: 400px;
+  left: 130px;
+  width: 90%;
+  color: white;
+  font-size: 46px;
+}
+
+#textbody {
+  display: inline;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+#intro {
+  margin-bottom: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
+}
+
+#recipeinfo {
+  left: 200px;
+}
+
+#ingredients {
+  margin-bottom: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+  border-top: 2px solid darkgrey;
+}
+
+ul {
+margin:0;
+list-style-type: none;
+padding-left: 0px;
+}
+li:before { content: "- ";}
+
+#directions {
+  margin-bottom: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+  border-top: 2px solid darkgrey;
+}
+
+ol {
+  counter-reset: list;
+  padding-left: 0px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
