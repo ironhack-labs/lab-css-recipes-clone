@@ -3,3 +3,24 @@ img {
   height: auto;
   margin: 0 15%;
 }
+
+p {
+  width: 650px;
+  margin: 2% 30%;
+  font-size: 21px;
+}
+
+.recipe-info-img {
+  width: 30%;
+  margin: 0% 35%;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 24px;
+  margin-left: 30%;
+}
+
+ul {
+  margin-left: 30%;
+}
