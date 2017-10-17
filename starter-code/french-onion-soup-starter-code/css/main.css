@@ -1,9 +1,30 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+
+html {
   margin: 0;
 }
+
+
 /*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+body {
+  background-color: #fff;
+  max-height: 100%;
+  display: block;
+}
+
+#container .style {
+  text-align: center;
+}
+
+#applePie .style {
+  position: relative;
+}
+
+
+
