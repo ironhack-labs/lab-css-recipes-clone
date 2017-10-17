@@ -7,3 +7,33 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body{
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+h2 {
+  color: white;
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   font-size: 60px;
+  /*margin: 0 15%;*/
+  transform: translate(-50%, -50%);
+   /*width: 100%;*/
+
+}
+
+.image{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+
+}
