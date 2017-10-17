@@ -62,7 +62,13 @@ list-style: none;
 
 .directions ol{
   text-align: left;
-  list-style:  initial;
+  list-style-type: none;
+}
+.directions li {
+  counter-increment: value;
+}
+.directions li::before {
+  content: counter(value) ")";
 }
 
 .cookImg{
