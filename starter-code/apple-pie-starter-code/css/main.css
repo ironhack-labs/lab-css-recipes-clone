@@ -29,7 +29,7 @@ ul, ol {
   color: #fff;
   display: flex;
   font-size: 40px;
-  height: 600px;
+  padding: 200px;
   justify-content: center;
 }
 
