@@ -14,7 +14,7 @@ html {
 }
 
 #header {
-  background-image: url('https://static.pexels.com/photos/34950/pexels-photo.jpg');
+  background-image: url('file:///Users/dafneolca/prework/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
   text-align: center;
   color: white;
   height: 400px;
@@ -35,6 +35,8 @@ html {
 
 img {
   width: 400px;
+  margin: auto;
+  display: block;
   margin: auto;
 
 }

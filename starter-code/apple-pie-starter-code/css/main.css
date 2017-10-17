@@ -15,7 +15,7 @@ html {
 }
 
 #header {
-  background-image: url("https://assets.epicurious.com/photos/583f2ecab80c02a24264c1c1/master/pass/apple-pie.jpg");
+  background-image: url(file:///Users/dafneolca/prework/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
   height: 300px;
 }
 
@@ -33,6 +33,8 @@ h1 {
 
 img {
   width: 400px;
+  margin: auto;
+  display: block;
   margin: auto;
 }
 
