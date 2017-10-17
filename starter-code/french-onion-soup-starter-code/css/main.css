@@ -7,3 +7,62 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.soupImg {
+  background-image: url("/Users/shincero/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  image-orientation: fixed;
+  display: block;
+  background-size: block;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 750px;
+  margin: 0 auto;
+}
+.applePieImg {
+  background-image: url("/Users/shincero/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  image-orientation: fixed;
+  display: block;
+  background-size: block;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 750px;
+  margin: 0 auto;
+}
+.imgSize1 {
+  width: 50%;
+  height: 25%;
+  display: block;
+  image-orientation: fixed;
+  margin: auto;
+}
+.whiteApple {
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 180px;
+  font-size: 250%;
+}
+.whiteSoup {
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 230px;
+  font-size: 250%;
+}
+.noDash {
+  list-style-type: none;
+}
+.align {
+  width: 625px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+.changeNumber {
+  list-style: cs-extends;
+}
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
