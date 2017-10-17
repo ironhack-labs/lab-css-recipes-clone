@@ -1,0 +1,69 @@
+*{
+  font-family: "Open Sans", sans-serif;
+}
+img {
+    max-width: 70%;
+    height: auto;
+
+    margin: 0 15%;
+
+}
+.apple-image{
+  position: relative;
+}
+
+.imagecook{
+margin: 0 35%;
+width: 30%;
+
+
+
+}
+.image3{
+margin: 0 35%;
+width: 30%;
+
+
+}
+h1 {
+    margin: 0 15%;
+}
+h2 {
+  color: white;
+  position: absolute;
+   top: 50%;
+   left: 22%;
+   font-size: 60px;
+  margin: 0 15%;
+   width: 100%;
+
+}
+
+p {
+  text-align: center;
+  margin: 0 15%;
+
+
+}
+
+h3{
+margin: 0 15%;
+  text-align: left;
+}
+ol li{
+  margin: 0 15%;
+
+}
+ol li{
+  margin: 0 15%;
+}
+ul {
+  margin: 0 15%;
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
