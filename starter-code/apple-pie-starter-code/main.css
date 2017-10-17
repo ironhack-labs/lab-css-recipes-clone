@@ -1,0 +1,127 @@
+
+
+.title-content{
+  position:relative;
+}
+
+.title-text {
+  position:absolute;
+  left:39%;
+  top:310px;
+  color:white;
+  font-size: 64px;
+}
+
+.title-img {
+
+  height: 750px;
+width: 100%;
+
+}
+
+.details {
+  position: relative;
+}
+
+
+.first-paragraph{
+  margin:100px 100px 80px 100px;
+  font-size: 32px;
+}
+
+.info-img{
+  width: 500px;
+  left: 300px;
+  border-bottom: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+
+}
+
+.upper-body{
+  border-bottom: 1px solid #979797;
+  margin-left:70px;
+  margin-right:70px;
+}
+
+
+
+.middle-body{
+  border-bottom: 1px solid #979797;
+  margin-left:70px;
+  margin-right:70px;
+}
+
+.ingredients-list{
+  font-size: 32px;
+  margin-left: 100px;
+  list-style-type:none;
+}
+
+.lower-body{
+
+}
+
+.second-paragraph{
+  font-size: 32px;
+  margin-left: 100px;
+}
+
+.applepie{
+
+  ;
+}
+
+
+
+
+
+
+
+
+.container{
+
+
+
+  padding: 100px;
+  margin:100px 100px 100px 100px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+p{
+  font-family: sans-serif;
+}
+
+h1{
+  position:relative;
+  font-family: sans-serif;
+}
+
+h2{
+  font-family: sans-serif;
+  margin: 30px;
+  font-size: 40px;
+}
+
+ul{
+  font-family: sans-serif;
+}
+
+hr{
+  color:black;
+  margin: 30px
+}
+
+ol{
+  font-family: sans-serif;
+}
