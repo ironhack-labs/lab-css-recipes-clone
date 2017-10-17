@@ -2,8 +2,74 @@
 h1, body, html, main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header {
+  background-image: url('file:///Users/torgeir/IRONHACK/week1/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-position: bottom;
+}
+
+h1 {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 60%;
+  height: auto;
+  padding: 0 20%;
+  font-weight: 300;
+  font-size: 3.5em;
+}
+
+#ingredients-list li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+#ingredients-list {
+  list-style: none;
+  padding-left: 0;
+  }
+
+#story {
+  font-size: 1.2em;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+p {
+  margin-bottom: 40px;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.facts {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.facts img {
+  width: 50%;
+  margin: 0 25%;
+}
+
+#directions-list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 0;
 }
