@@ -1,4 +1,5 @@
 body {
+  color: #4c4c4c;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
@@ -78,7 +79,7 @@ ul, ol {
   width: 40%;
 }
 
-.directions {
+.direction {
   padding: 20px 0;
 }
 
