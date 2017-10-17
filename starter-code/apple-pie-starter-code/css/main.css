@@ -10,7 +10,8 @@ p {
   font-size: 21px;
 }
 
-.recipe-info-img {
+.recipe-info-img,
+.cooking-info-img {
   width: 30%;
   margin: 0% 35%;
 }
@@ -22,5 +23,6 @@ h3 {
 }
 
 ul {
-  margin-left: 30%;
+  margin-left: 27%;
+  list-style-type: none;
 }
