@@ -5,5 +5,80 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 28px
+}
+
+.header {
+  background-image: url(/Users/juancuadra/prework/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  background-position: bottom;
+}
+
+.textbody {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  padding-top: 30px;
+}
+
+p {
+  text-align: justify;
+  padding-top: 30px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.line {
+    border-bottom: 1px solid #17212e;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ol {
+  counter-reset: list;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#list li:before {
+  content: "-";
+  padding: 20px;
+}
+
+ol > li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
