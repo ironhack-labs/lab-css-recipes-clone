@@ -1,9 +1,28 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body{
+  margin: 5% 15%;
+  color: gray;
+}
+
+
+.hero-image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
