@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-h1, body, html, main {
-  margin: 20px;
-}
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-}
 
 body {
     font-family: "Open Sans";
@@ -17,42 +9,34 @@ body {
     padding-left: 0px;
 }
 
+
+
 h1 {
   font-family: "Open Sans";
   font-size: 100px;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
   color:white;
-}
 
-#soup-photo {
-  width: 100%;
 }
 
 .header {
-  background-image: cover;
+  background-size: cover;
 }
 
-#recipe-info {
-  position: relative;
-  top: 30px;
-  bottom: 30px;
-  left: 400px;
+#apple-pie {
+  width: 100%;
+
 }
 
-hr {
-  position: relative;
-  top: 30px;
-}
+
 
 h2 {
   font-family: "Open Sans";
-  position: relative;
-  top: 20px;
   padding-left: 300px;
   padding-top: 50px;
   padding-right: 300px;
@@ -60,20 +44,31 @@ h2 {
   line-height: 1.5em;
 }
 
+#cooking-info-image {
+  position: relative;
+  top: 30px;
+  left: 100px;
+  bottom: 30px;
+}
+
+
 
 h3{
   font-family: "Open Sans";
   font-size: 1.6em;
 }
 
-.ingredients {
-position: relative;
-top: 40px;
-left: 300px;}
-
-#cooking-info {
+.ingredients{
   position: relative;
-  left: 100px;
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+#recipe-info {
+  position: relative;
+  top: 30px;
+  left: 150px;
+  bottom: 40px;
 }
 
 .directions {
@@ -86,6 +81,7 @@ left: 300px;}
 
 hr {
   position: relative;
+  top: 30px;
   color: grey;
   width: 70%
 }
