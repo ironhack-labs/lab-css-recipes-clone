@@ -1,9 +1,48 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  margin: 5% 15%;
+  color: gray;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+#main {
+  margin-left:  5%;
+  margin-right:  5%;
+}
+
+#header {
+  background-image: url('file:///Users/dafneolca/prework/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+
+#headertext {
+  padding-top: 180px;
+  font-weight: lighter;
+}
+
+#description {
+  padding: 20px;
+  border-bottom-width: 10px;
+  border-bottom-color: gray;
+}
+
+
+
+img {
+  width: 400px;
+  margin: auto;
+  display: block;
+  margin: auto;
+
+}
+
+#ingredients {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 20px;
 }

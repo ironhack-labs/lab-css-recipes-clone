@@ -1,0 +1,43 @@
+/*Some necessary adjustments*/
+body {
+  margin: 5% 15%;
+  color: gray;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#main {
+  margin:  5% 10%;
+
+}
+
+#header {
+  background-image: url(file:///Users/dafneolca/prework/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  height: 300px;
+}
+
+#ingredients {
+  border-top: 2px gray solid;
+  border-bottom: 2px gray solid;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  font-weight: lighter;
+}
+
+img {
+  width: 400px;
+  margin: auto;
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  padding: 15px 0px;
+}
