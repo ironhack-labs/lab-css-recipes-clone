@@ -2,8 +2,81 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: 400;
+}
+#header-image {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+#content {
+  width: 800px;
+  margin:0 auto;
+}
+
+.header {
+  text-align: center;
+  padding-top: 200px;
+  color: White;
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0;
+}
+.text{
+  margin: 40px auto;
+  font-size: 1.1em;
+}
+
+#recipe {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.ingredients ul {
+  line-height: 1.5em;
+  list-style-type: none;
+}
+.ingredients li::before {
+  content:"-";
+}
+.ingredients h3 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#info {
+  height: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.directions {
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+.directions h3 {
+
+}
+
+.directions ol {
+  list-style-type: none;
+}
+
+.directions li {
+  counter-increment: value;
+}
+
+.directions li::before {
+  content: counter(value) ")";
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
