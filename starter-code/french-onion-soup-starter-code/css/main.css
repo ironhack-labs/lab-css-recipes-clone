@@ -7,3 +7,63 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*---IMAGES---*/
+img {
+  width: 70%;
+  margin: 0 15%;
+}
+
+.soup-img {
+  position: relative;
+}
+
+.rec-info,
+.cook-info {
+  width: 40%;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*---PARAGRAPH---*/
+p {
+  width: 650px;
+}
+
+.par-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*---HEADINGS---*/
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  color: white;
+}
+
+hr {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  margin-left: 26%;
+}
+
+/*---LISTS---*/
+
+ul {
+  list-style-type: none;
+  margin-left: 23.5%;
+}

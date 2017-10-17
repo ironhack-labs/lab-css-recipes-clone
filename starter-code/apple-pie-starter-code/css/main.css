@@ -1,0 +1,59 @@
+img {
+  width: 70%;
+  height: auto;
+  margin: 0 15%;
+}
+
+.apple-img {
+  position: relative;
+  color: white;
+}
+
+p {
+  width: 650px;
+  margin: 2% 30%;
+  font-size: 19px;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.recipe-info-img,
+.cooking-info-img {
+  width: 30%;
+  margin: 0% 35%;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 24px;
+  margin-left: 30%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  width: 70%;
+}
+
+ul {
+  margin-left: 27%;
+  list-style-type: none;
+  line-height: 25  px;
+}
+
+.directions {
+  height: 110%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
