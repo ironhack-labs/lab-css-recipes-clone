@@ -7,3 +7,45 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.french-hero{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 300px;
+  font-size: 400%
+
+}
+
+body{
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+.dot{
+  list-style-type: none;
+}
+
+ul.dot>li:before {
+  content: "-";
+}
+
+.images1{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.images2{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}

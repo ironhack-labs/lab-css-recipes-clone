@@ -1,0 +1,42 @@
+.apple-hero{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+ h1 {
+   text-align: center;
+   color: #fff;
+   padding-top: 300px;
+   font-size: 400%
+
+ }
+.images{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.small-image{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.paragraph{
+  text-align: center;
+}
+body{
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+.dashes{
+  list-style-type: none;
+}
+
+ul.dashes>li:before {
+  content: "-";
+}
