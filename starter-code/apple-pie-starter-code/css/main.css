@@ -1,0 +1,34 @@
+html {
+font-family: "opensans", sans-serif;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 7em;
+}
+h2 {
+  text-align: left;
+  font-size: 4em;
+}
+
+#apple2 {
+  display: block;
+  margin: 80px auto;
+  width: 400px;
+  }
+#apple3 {
+  display: block;
+  margin: 80px auto;
+  width: 400px;
+}
+#header {
+  background: url("file:///home/cesar/Ironhack/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") 0 0 no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+p{
+  font-size: 3em;
+}
