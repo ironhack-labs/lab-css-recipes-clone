@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto:100');
+
 
 body {
-  font-family: "Roboto";
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 25px;
   font-weight: 100px;
@@ -10,7 +10,8 @@ body {
 h1 {
   color: white;
   font-size: 70px;
-  letter-spacing: 3px;
+  font-weight: 300;
+  letter-spacing: 1px;
   text-align: center;
   font-weight: 100px;
 }
@@ -27,7 +28,6 @@ hr {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   height: 250px;
-  margin: 0 40px;
   padding: 17% 0 8% 0;
 
 }
