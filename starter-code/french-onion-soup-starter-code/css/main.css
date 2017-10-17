@@ -1,9 +1,87 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;                            /*Can not ad margin or padding on bottom?*/
+  padding: 0px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+/*size & background*/
+h1{
+  color: white;
+  background-image: url(../images/soup.jpg); /*not better solution, cannot get proper full size*/
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 20% 0px 20% 0px;
+  margin: 0px 0px 100px 0px;                          /*Don't understand why if I remove this line it leaves a space above*/
+}
+/*text properties*/
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.opening{
+/*  margin-top: 40px;                   /Ii I use margin on top it has no effect, had to write a margin on h1*/
+  font-size: 20px;
+}
+/*horizontal bar*/
+hr{
+  height: 2px;
+  background-color: rgb(150, 150, 150);
+  margin-bottom: 60px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.block{
+  margin: 0px 10% 0px 10%;
+}
+
+.image{
+  text-align: center;
+}
+
+#recipeInfo{
+  height: 60px;
+  width: auto;;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#cookingInfo{
+  height: 80px;
+  width: auto;;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul > li {
+    margin-left: 15px;
+}
+
+ul > li::before {
+    content: "- ";
+}
+
+ol {
+  counter-reset: list;
+  padding-left: 0px;
+}
+ol > li {
+  list-style: none;
+  margin-left: 15px;
+}
+ol > li:before {
+  content: counter(list) ") "; /* got lost in here*/
+  counter-increment: list;
 }
