@@ -20,12 +20,6 @@ ul, ol {
   padding-left: 10px;
 }
 
-.container {
-  margin: auto;
-  padding: 70px 0;
-  width: 700px;
-}
-
 .header {
   align-items: center;
   background-image: url(../images/apple-pie.jpg);
@@ -36,6 +30,12 @@ ul, ol {
   font-size: 40px;
   height: 600px;
   justify-content: center;
+}
+
+.recipe {
+  margin: auto;
+  padding: 70px 0;
+  width: 700px;
 }
 
 .recipe-info {
@@ -78,7 +78,7 @@ ul, ol {
   width: 40%;
 }
 
-.direction {
+.directions {
   padding: 20px 0;
 }
 
