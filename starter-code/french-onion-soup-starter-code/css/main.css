@@ -13,29 +13,47 @@ html {
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  height: 800px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  background-position: bottom;
+}
+
+.textbody {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 120px;
   color: white;
   text-align: center;
-  padding: 300px;
+  width: 100%;
+  font-weight: normal;
 }
 
 h2 {
-  margin: 0px 300px 0px 300px;
+  font-weight: normal;
+  padding-top: 30px;
 }
 
 p {
-  margin: 100px 300px 100px 300px;
   text-align: justify;
+  padding-top: 30px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .stats {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
 }
 
 .line {
@@ -46,13 +64,21 @@ p {
     margin-bottom: 100px;
 }
 
-ol, ul {
-  margin-right: 300px;
-  margin-left: 300px;
+ol {
+  counter-reset: list;
+  list-style: none;
 }
 
-.cooking {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ul {
+  list-style: none;
+}
+
+#list li:before {
+  content: "-";
+  padding: 20px;
+}
+
+ol > li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
