@@ -7,3 +7,54 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*---IMAGES---*/
+img {
+  width: 70%;
+  margin: 0 15%;
+}
+
+.rec-info,
+.cook-info {
+  width: 30%;
+  height: auto;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*---PARAGRAPH---*/
+p {
+  width: 650px;
+}
+
+.par-container {
+  display: flex;
+  justify-content: center;
+}
+
+.directions {
+  
+}
+
+/*---HEADINGS---*/
+
+hr {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  margin-left: 26%;
+}
+
+/*---LISTS---*/
+
+ul {
+  list-style-type: none;
+  margin-left: 23.5%;
+}
