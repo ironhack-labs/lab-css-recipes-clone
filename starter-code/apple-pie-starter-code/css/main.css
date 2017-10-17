@@ -14,6 +14,7 @@ p {
   margin: 2% 30%;
   font-size: 19px;
   line-height: 30px;
+  font-family: arial;
 }
 
 .recipe-info-img,
@@ -29,12 +30,14 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 100;
     color: white;
+    font-family: arial;
 }
 
 h3 {
   font-weight: 100;
   font-size: 24px;
   margin-left: 30%;
+  font-family: arial;
 }
 
 hr {
@@ -51,4 +54,5 @@ ul {
   width: 50%;
   display: flex;
   justify-content: center;
+  font-family: arial;
 }
