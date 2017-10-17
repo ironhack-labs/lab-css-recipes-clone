@@ -1,0 +1,56 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: lighter;
+  padding-top: 250px;
+}
+
+.generic{
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.imgClass{
+  width: 350px;
+  height: 50px;
+}
+
+.otherImgClass{
+  margin-top: 30px;
+  width: 350px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.center{
+  text-align: center;
+}
+
+/*This part is from Stackoverflow's post*/
+ul{
+  margin: 0;
+  list-style-type: none;
+}
+
+ul > li:before{
+  content: "- ";
+}
+/*End Stackoverflow's post*/
+
+/*This is my idea for customize list style (added in html)*/
+ol{
+  list-style-type: none;
+}
