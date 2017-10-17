@@ -1,0 +1,68 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.stageSlider{
+  background-image: url(../images/apple-pie.jpg);
+  background-size:cover;
+  height:800px;
+  display: flex;
+  align-items: center;
+  background-position: bottom;
+}
+
+h1 {
+   color: white;
+  /* padding-top: 200px;*/
+   text-align: center;
+   font-size: 100px;
+   font-weight:normal;
+   width: 100%;
+}
+
+p {
+  margin: 40px 0px;
+}
+
+.main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding-bottom: 100px;
+}
+
+h2{
+  margin: 60px auto;
+}
+
+.main img{
+  display:block;
+  margin-top: 60px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#ingredients {
+  list-style:none;
+}
+
+#ingredients li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+#directions{
+  list-style-type:decimal;
+}
+
+#directions li:before{
+
+}
