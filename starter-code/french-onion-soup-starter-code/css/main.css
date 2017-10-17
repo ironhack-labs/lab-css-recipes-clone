@@ -7,3 +7,41 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+}
+
+.french-onion-image {
+  height: auto;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.small-image {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.list {
+  list-style-type: none;
+}
