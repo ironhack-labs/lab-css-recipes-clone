@@ -16,8 +16,8 @@ img {
 
 .rec-info,
 .cook-info {
-  width: 30%;
-  height: auto;
+  width: 40%;
+
 }
 
 .img-wrapper {
@@ -37,9 +37,6 @@ p {
   justify-content: center;
 }
 
-.directions {
-  
-}
 
 /*---HEADINGS---*/
 
