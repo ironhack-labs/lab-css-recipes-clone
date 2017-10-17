@@ -1,0 +1,103 @@
+.site{
+
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+ }
+.appleppiepic{
+    position: relative;
+    width: 100px;
+    height: 800px;
+ }
+
+.grannytext{
+    width: 799px;
+    margin-left: 145px;
+
+ }
+
+
+.hr{
+    width: 50px;
+ }
+
+.reiceipeinfo{
+  width: 400px;
+margin-left: 280px;
+    align-content
+ }
+
+.firstline{
+    width: 799px;
+ }
+#cokinfo{
+    width: 400px;
+    margin-left: 280px;
+    display: block;
+    margin: auto;
+    position: relative;
+    size: relative;
+ }
+
+#applepie{
+    display: block;
+    margin: auto;
+    position: relative;
+    width:1000px;
+    height:700px;
+ }
+#rpcinfo{
+    width: 400px;
+    margin-left: 280px;
+    display: block;
+    margin: auto;
+    position: relative;
+    size: relative;
+ }
+#cooking-info{
+
+    display: block;
+    margin: auto;
+    position: relative;
+    size: relative;
+
+}
+
+.applepietext{
+  font-size: 60px;
+  color: white;
+  width: 1000px;
+  margin-top: 335px;
+  margin-left: 305px;
+  position: absolute;
+  z-index: 1;
+  font-family: monospace;
+ }
+
+#site{
+    margin-left: 300px;
+    width: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+ }
+.ingredients{
+    font-size: 10px;
+    margin-left: 100px;
+ }
+.listofingr{
+    margin-left: 80px;
+    width: 300px;
+  }
+.secondline{
+    width:799px;
+}
+.directions{
+    font-size: 10px;
+    margin-left: 100px;
+ }
+.guidelines{
+    width: 400px;
+    margin-left: 100px;
+ }
