@@ -1,9 +1,72 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body {
+  margin: 0 auto;
+  max-width: 1250px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.topHalf {
+  background-image: url("file:///Users/arielfonticiella/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px
+}
+
+.topHalf h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+  font-weight: 100;
+  font-size: 55px;
+}
+
+.infoHalf {
+  margin: 0 auto;
+  width: 745px;
+  text-align: justify;
+  padding-top: 50px;
+  font-size: 22px;
+}
+
+.imgWrap {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.fancyWrapper {
+   border-top: solid 4px #ccc;
+   padding-top: 45px;
+}
+
+.fancyHead {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.adjustImg1 {
+  width: 65%;
+}
+
+.adjustImg2 {
+  width: 35%;
+}
+
+.ingredList {
+  display: block;
+}
+
+.ingredList::before {
+  content: '-';
+}
+
+.cookingList li {
+  width: 67%;
+
 }
