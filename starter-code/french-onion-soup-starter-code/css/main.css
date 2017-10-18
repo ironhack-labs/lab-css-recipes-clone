@@ -1,9 +1,65 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+.onion-img{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+h1{
+  font-size: 8em;
+  color:#FFF;
+  text-align: center;
+  padding-top: 2em;
+  font-family: "open sans", sans-serif;
+  color:#FFF
+}
+body{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+/*.all{
+  width: 80%;
+}*/
+.p1{
+  font-size: 2em;
+  width:85%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+}
+.nav{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 40px;
+  font-size: 2em;
+}
+.p3{
+  font-size: 2em;
+  width:85%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom:50px;
+}
+#recipe{
+width: 60%;
+margin: 0 auto;
+display: block;
+padding-bottom: 35px;
+
+}
+.section2{
+padding-top: 25px;
+}
+h2{
+  font-size: 3em;
+}
+
+#cooking{
+width: 50%;
+margin: 0 auto;
+display: block;
 }
