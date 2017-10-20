@@ -5,5 +5,39 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.top-container {
+	position: relative;
+  	background-image: url("../images/soup.jpg");
+  	height: 100vh;
+  	width: 100%;
+  	background-position: 100, 200;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color: white;
+  }
+
+.title-text {
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 40vh;
+  right: 21vw;
+}
+
+.body-text {
+	margin: 100px;
+}
+
+
+.info-image {
+  margin: 10px 300px;
+ }
+
+.recipe-image {
+  margin: 10px 300px;
 }
