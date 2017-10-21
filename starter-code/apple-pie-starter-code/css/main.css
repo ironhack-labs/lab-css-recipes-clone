@@ -1,0 +1,31 @@
+h1 {
+  color : white;
+  text-align: center;
+  font-size: 3em;
+}
+
+h1, h2, p, ol, ul {
+  font-family : Lucida Grande;
+}
+
+.headerStyle {
+  background-image : url("../images/apple-pie.jpg");
+  padding: 200px 0 200px 0;
+}
+
+.bodyStyle {
+  padding :20px 30px;
+}
+
+.info {
+  padding : 20px auto;
+}
+
+.hrStyle{
+  width:100%;
+  color : grey;
+}
+
+.imgStyle {
+
+}
