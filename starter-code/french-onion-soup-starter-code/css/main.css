@@ -1,9 +1,87 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
+
 /*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 100;
+  margin: 15% auto;
+}
+
+h2 {
+  color: #293130;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 80;
+  margin-bottom: 30px;
+}
+
+.contenu {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.introduction {
+  color: #7B7E7E;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.image {
+  margin: auto;
+  width: 40%;
+}
+
+.hr {
+  margin: auto;
+  width: 55%;
+  line-height: 2px;
+}
+
+ul > li {
+  list-style-type: none;
+  color: #7B7E7E;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+  color: #7B7E7E;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
