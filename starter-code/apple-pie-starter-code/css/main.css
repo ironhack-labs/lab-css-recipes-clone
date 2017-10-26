@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 80px !important;
+  font-weight: normal;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+section h2 {
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+section p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#ingredients {
+  border-top: 2px solid #c6c6c6;
+  border-bottom: 2px solid #c6c6c6;
+}
+
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+ul > li {
+  text-indent: -5px;
+}
+
+ul > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+ol {
+  counter-reset: section;
+}
+
+ol > li {
+  list-style: none;
+  text-indent: -5px;
+}
+
+ol > li:before {
+  content: counter(section) ") ";
+  counter-increment: section;
+}
+
+section img {
+  display: block;
+  margin: 20px auto 0;
+}
+
+header a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  height: 75px;
+  width: 30px;
+  background-image: url(../images/scroll.svg);
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+}
+
+@keyframes scroll {
+  0% {bottom:40px;}
+  100% {bottom:20px;}
+}
