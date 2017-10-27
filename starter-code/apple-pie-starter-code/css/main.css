@@ -76,7 +76,7 @@ ul {
   margin-bottom: 180px;
 }
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1400px) {
   .description {
     font-size: 160%;
   }
@@ -87,7 +87,7 @@ ul {
 
   .container {
     height: 700px;
-    background-size: 1366px auto;
+    background-size: 1400px auto;
   }
 
   li {
