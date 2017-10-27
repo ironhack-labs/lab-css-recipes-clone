@@ -7,3 +7,86 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Proxima Nova";
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+header img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  /* centrar */
+  margin: 0 auto;
+  text-align: justify;
+  width: 80%;
+}
+
+.directions {  
+}
+
+.infoImg {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.ingredients {
+  border-bottom: 2px solid rgb(55, 55, 55);
+}
+
+.recipe {
+  font-size: 1.4em;
+  height: 100%;
+  width: 100%;
+}
+
+.recipeIntro {
+  border-bottom: 2px solid rgb(55, 55, 55);
+}
+
+.recipeTitle {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.recipeTitle h1 {
+  color: white;
+  font-size: 48px;
+  height: 50px;
+  margin-top: -25px; /* 1/2 height */
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  z-index: 2;
+}
+
+.recipeTitle img {
+  z-index: 1;
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -30px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
