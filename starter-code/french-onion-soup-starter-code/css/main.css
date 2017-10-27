@@ -77,3 +77,26 @@ ul {
 .thirdSection {
   margin-bottom: 180px;
 }
+
+@media screen and (max-width:1400px) {
+  .description {
+    font-size: 160%;
+  }
+
+  .center {
+    font-size: 550%;
+  }
+
+  .container {
+    height: 700px;
+    background-size: 1400px auto;
+  }
+
+  li {
+    font-size: 130%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+}
