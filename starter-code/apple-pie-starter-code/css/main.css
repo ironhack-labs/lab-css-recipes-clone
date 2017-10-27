@@ -76,7 +76,7 @@ ul {
   margin-bottom: 180px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1366px) {
   .description {
     font-size: 160%;
   }
