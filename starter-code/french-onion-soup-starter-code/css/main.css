@@ -7,3 +7,73 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*
+.soup {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+*/
+hr {
+  width: 80%;
+  margin: 50px auto;
+  border-width: 3px;
+}
+
+.container {
+  position: relative;
+  height: 1000px;
+  background-image: url('../images/soup.jpg');
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+}
+
+.center {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+}
+
+.description {
+  font-size: 2.4em;
+  width: 80%;
+  margin: 140px auto 0 auto;
+}
+
+.data {
+  width: 35%;
+  margin: 80px auto 50px auto;
+}
+
+.data img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 60px 0;
+}
+
+li {
+  font-size: 200%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.thirdSection {
+  margin-bottom: 180px;
+}
