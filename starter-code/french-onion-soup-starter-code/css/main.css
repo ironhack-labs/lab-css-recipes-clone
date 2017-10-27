@@ -1,9 +1,82 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  width: 888px;
+  margin: 0 auto;
+  font-family: Helvetica;
+  color: rgb(87, 87, 87);
+}
+h1{
+  font-size: 70px;
+  font-weight: lighter;
+}
+h2{
+  font-size: 20px;
+  font-weight: lighter;
+}
+ul {
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: "–"; /* en dash */
+  position: absolute;
+  margin-left: -1.1em;
+}
+
+.title-info>h2{
+  text-align: left;
+}
+
+.title-img {
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: 888px;
+  background-position: bottom;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-img>h1{
+  color: white;
+}
+.container{
+  width: 680px;
+  margin: 0 auto;
+  border-bottom-color: rgb(159, 159, 159);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-top: 60px;
+}
+.container>img{
+  width: 50%;
+  padding: 20px 0;
+}
+.instructions{
+  padding-top: 40px;
+  text-align: left;
+}
+.instructions>h2{
+  padding-bottom: 20px;
+}
+.instructions>ul{
+  padding-left: 25px;
+  line-height: 27px;
+}
+.instructions img{
+  margin: 0 0 0 172px;
+}
+.ol-directions{
+  list-style-position:inside;
+  line-height: 27px;
 }
