@@ -1,0 +1,56 @@
+body {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.img-cab {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-data {
+  width: 800px;
+  margin-left: 210px;
+}
+
+.logo {
+  position: absolute;
+  color: white;
+  font-size: 66px;
+  width: 800px;
+  margin-top: 200px;
+}
+
+.content {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.lguion>li {
+  list-style-type: none;
+}
+.lguion>li:before{
+  content: "- ";
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.lnum>li {
+  list-style-type: decimal;
+}
+.lnum>li:before{
+  content: ") ";
+}
