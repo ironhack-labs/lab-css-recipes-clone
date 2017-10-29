@@ -1,0 +1,76 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+}
+.hero-title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  font-size: 50px;
+  color: #fff;
+}
+.hero-title h1 {
+  font-weight: 100;
+}
+.introduce-recipe {
+  border-bottom: 2px solid lightgrey;
+  width: 80%;
+  margin-left: 10%;
+}
+.introduce-recipe p {
+  font-size: 32px;
+  font-weight: 100;
+  padding: 5%;
+}
+.introduce-recipe-img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ingredients-list {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  border-bottom: 2px solid lightgrey;
+}
+.ingredients-list p,
+.directions-list p {
+  font-size: 28px;
+  font-weight: 600;
+}
+.ingredients-list ul,
+.directions-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ingredients-list li,
+.directions-list li {
+  list-style: none;
+  font-size: 28px;
+}
+.ingredients-recipe-img {
+  margin: 30px 0;
+  text-align: center;
+}
+.directions-list {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.directions-list li {
+  margin-bottom: 10px;
+}
