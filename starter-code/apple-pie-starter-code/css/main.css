@@ -1,66 +1,65 @@
 /* General */
 * {
   border: 0;
-  margin: 0;
-	padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  margin: 0;
+	padding: 0;
 }
 
 body {
   justify-content: center;
-  text-align: left;
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+  width: 800px;
 }
 
 /* Cabecera */
-h1 {
-  font-weight: normal;
-}
 
 header {
   background: url(../../apple-pie-starter-code/images/apple-pie.jpg) no-repeat;
   background-size: cover;
   height: 250px;
-  width: 800px;
   padding-top: 15%;
+  width: 800px;
 }
 header h1 {
   color: #fff;
   font-size: 70px;
-  text-decoration: none;
+  font-weight: lighter;
   text-align: center;
+  text-decoration: none;
   vertical-align: middle;
 }
 
 .description {
-  padding: 50px 50px 25px 50px;
   font-size: 19px;
+  padding: 50px 50px 25px 50px;
 }
 
 img {
-  width: 45%;
+  margin: 5% 25% 0 25%;
   margin-top: 5%;
-  position: top center;
+  width: 45%;
 }
 
 .ingredients {
-  padding: 25px 50px;
-  font-size: 16px;
   border-top: 1px;
   border-style: solid;
+  font-size: 16px;
+  padding: 25px 50px;
 }
 
 .ingredients h1 {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .ingredients ul {
   list-style: none;
-  padding: 0;
   margin: 3% 0 0 0;
+  padding: 0;
 }
 .ingredients li {
   padding-left: 1em;
@@ -71,10 +70,10 @@ img {
 }
 
 .directions {
-  padding: 25px 50px;
-  font-size: 16px;
   border-top: 1px;
   border-style: solid;
+  font-size: 16px;
+  padding: 25px 50px;
 }
 
 .directions ol {
@@ -91,7 +90,8 @@ img {
 }
 
 .directions h1 {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Descarga */
