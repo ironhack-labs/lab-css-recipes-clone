@@ -1,9 +1,96 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   margin: 0;
+	padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+body {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 800px;
 }
+
+header {
+  background: url(../../french-onion-soup-starter-code/images/soup.jpg) no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding-top: 15%;
+  width: 800px;
+}
+header h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.description {
+  font-size: 19px;
+  padding: 50px 50px 25px 50px;
+}
+
+img {
+  margin: 5% 25% 0 25%;
+  margin-top: 5%;
+  width: 45%;
+}
+
+.ingredients {
+  border-top: 1px;
+  border-style: solid;
+  font-size: 16px;
+  padding: 25px 50px;
+}
+
+.ingredients h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ingredients ul {
+  list-style: none;
+  margin: 3% 0 0 0;
+  padding: 0;
+}
+.ingredients li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+.ingredients li::before {
+  content: "- ";
+}
+
+.directions {
+  border-top: 1px;
+  border-style: solid;
+  font-size: 16px;
+  padding: 25px 50px;
+}
+
+.directions ol {
+  counter-reset: item;
+  margin: 3% 0 0 0;
+}
+.directions ol li {
+  display: block;
+}
+.directions ol li:before {
+  content: counter(item)") ";
+  counter-increment: item;
+  color: black;
+}
+
+.directions h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Descarga */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
