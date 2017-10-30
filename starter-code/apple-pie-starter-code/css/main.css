@@ -1,0 +1,53 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0px;
+  font-size: 18px
+
+}
+.header{
+  background-size: cover;
+  background-image: url("/Users/antonellabriatore/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.title{
+  color: white;
+  padding-top: 250px;
+  text-align: center;
+  align-content: center;
+  font-size: 80px;
+  font-weight: lighter;
+}
+.titles{
+  font-weight:lighter bolder;
+}
+.list{
+  list-style-type: none;
+}
+.center-block{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 300;
+}
+.introduction{
+margin-bottom: 40px;
+}
+.image-recipe{
+  margin-left: 35%;
+  margin-right:35%;
+  margin-bottom: 15px;
+}
+.ingredients-box{
+  border-top: 2px grey solid;
+  border-bottom: 2px grey solid;
+}
+.image-cooking{
+  margin-left: 38%;
+  margin-right:35%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.directions{
+  margin-left: 1%;
+}
