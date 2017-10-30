@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+/* header */
+.heading {
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+
+h1 {
+    padding: 300px 120px;
+    font-size: 5rem;
+}
+
+#appleHeading {
+  background-image: url("../images/apple-pie.jpg");
+}
+
+#onionHeading {
+    background-image: url("../images/soup.jpg");
+}
+
+/* section */
+.introduction p {
+    font-size: 20px;
+}
+
+.separator {
+    margin: 5% 0;
+}
+
+.infomation {
+    padding: 10%;
+}
+
+.footerInfo {
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.footerInfo img {
+    height: auto;
+    width: 30%;
+}
+
+h2{
+  padding-bottom: 2%;
+  /*font-size: 1.5rem;*/
+}
+
+.ingredientsList{
+    list-style: none;
+}
+.ingredientsList > li {
+    margin-left: 45px;
+    font-size: 1rem;
+}
+
+.ingredientsList > li::before {    
+    content: "- ";
+    margin-left: -15px;
+}
+
+.directionsList {
+    counter-reset: list;
+}
+.directionsList  > li {
+    list-style: none;
+    position: relative;
+    margin-left: 45px;
+    font-size: 1rem;
+}
+.directionsList  > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: absolute;
+    left: -1.4em;
+    
+}
