@@ -7,3 +7,45 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.container.cover{
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -22rem;
+}
+.container .mainTitle{
+  color: white;    
+  text-align: center;
+  font-size: 6.3rem;
+  font-weight: inherit;
+  padding: 16rem 0 17rem;
+}
+.container.instructions{
+  padding: 46px 105px;
+}
+.steps{
+  text-align: left;
+  font-size: 1rem;
+}
+.paragraph{
+  font-size: 1.4rem;
+}
+.times{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.subTitle{
+  padding: 40px 0 5px;
+  margin:0;
+}
+.element-list{
+  list-style: none;
+  padding-left: 10px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.element-list.letters{
+  list-style-type: decimal;
+}
