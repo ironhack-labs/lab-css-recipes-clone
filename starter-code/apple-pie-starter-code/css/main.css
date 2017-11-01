@@ -1,0 +1,36 @@
+body{
+  font-family: monospace;
+  color: grey;
+}
+
+section {
+  height: 500px;
+  background-image: url("/Users/jorgeyago/code/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: 100% auto;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 200px;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.sangria{
+  text-indent: -20px;
+}
+
+.general {
+  padding: 20px 120px 0px 120px;
+  font-size: 20px;
+}
+
+.center {
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
