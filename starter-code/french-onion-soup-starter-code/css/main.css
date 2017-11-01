@@ -1,9 +1,75 @@
-/*Some necessary adjustments*/
+* {
+  box-sizing: content-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.recipe-picture {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: white;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+
+  width: 100%;
+
+}
+
+.description p {
+  height: 35%;
+  width: 75%;
+  text-align: justify;
+  padding: 5px;
+  margin: 35px auto;
+  font-size: 18px;
+  font-weight: light;
+}
+
+footer img {
+  width:300px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  width: 75%;
+}
+
+h2 {
+  margin-left: 12%;
+  margin-top: 25px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10%;
+}
+
+li:before {
+  content: " - ";
+}
+
+.directions p {
+  width: 75%;
+  margin: 15px auto;
+  text-align: justify;
+}
+
+.directions p:last-child {
+  margin-bottom: 50px;
 }
