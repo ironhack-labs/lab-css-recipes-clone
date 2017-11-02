@@ -1,10 +1,9 @@
 body{
-  font-family: "Open Sans";
-  src: url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
-  font-weight: 100;
+  font-family: 'Open Sans';
+  font-style: light;
 }
 .applepiephoto {
-background-image: url("../images/apple-pie.jpg");
+ background-image: url("../images/apple-pie.jpg");
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
@@ -12,11 +11,10 @@ background-image: url("../images/apple-pie.jpg");
 }
 
 
-
 h1 {
   color: white;
   font-size: 100px;
-  padding: 350px 0 0;
+  padding: 300px 0 0;
   text-align: center;
   font-weight: light;
 }
@@ -75,6 +73,7 @@ h1 {
 
 h2 {
   color: black;
+  font-size: 30px;
 }
 
 .listofingredients {
