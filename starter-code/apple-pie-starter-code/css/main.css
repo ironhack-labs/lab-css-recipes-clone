@@ -1,0 +1,60 @@
+/*Some necessary adjustments*/
+body, html{
+  margin: 20px 50px;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-size: 20px;
+  border: 1px ridge lightgrey;
+}
+#applepie-image{
+  background-image: url("/Users/pabloglezonieva/ironhack/modulo_1/1.\ HTML\ y\ CSS/1.\ lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  height: 500px;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+.title{
+  margin: auto;
+  vertical-align: middle;
+  padding-top: 220px;
+}
+.center-block{
+  padding: 20px 60px;
+}
+.center-block ul{
+  list-style: none;
+  padding: 5px;
+}
+.center-block h1{
+  color: black;
+  font-size: 20px;
+}
+.center-block ol{
+  list-style: none;
+  padding: 5px;
+}
+.justify-text{
+  padding: 30px 0px;
+  margin: 0px;
+}
+.info-image1{
+  padding: 30px 190px;
+  height: 60px;
+}
+.info-image2{
+  padding: 30px 190px;
+  height: 80px;
+}
+.border{
+  padding-top: 30px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-bottom: 40px;
+}
+body{
+
+}
