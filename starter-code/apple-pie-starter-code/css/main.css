@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 100px;
+  color: black;
+}
+
+#ingredients, #directions {
+  border-top: 2px solid lightgrey;
+}
+
+#ingredients li, #directions li {
+  list-style-type: none;
+}
+
+#recipe-intro {
+  padding-top: 25px;
+}
+
+#recipe-intro img {
+  padding-top: 5px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+#ingredients img {
+  padding-top: 25px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+.title-recipe {
+  background: url("/home/rafa/Documentos/201710/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: auto;
+  height: 450px;
+}
+
+.title-recipe h1 {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 50px;
+}
+
+.all-container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
