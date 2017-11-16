@@ -1,0 +1,85 @@
+body{
+  font-family: 'Open Sans';
+  font-style: light;
+}
+.applepiephoto {
+ background-image: url("../images/apple-pie.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 700px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 100px;
+  padding: 300px 0 0;
+  text-align: center;
+  font-weight: light;
+}
+
+.recipepng {
+  background-image: url("../images/recipe-info.png");
+  background-position: center;
+  background-repeat: no-repeat;
+   height: 130px;
+   width: 1000px;
+   border-bottom: 1px gray;
+   border-style: solid;
+   border-width: 0 0 2px 0;
+   padding: 0 0 0 0;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+.cookingpng {
+  background-image: url("../images/cooking-info.png");
+  background-position: center;
+  background-repeat: no-repeat;
+   height: 130px;
+   width: 1000px;
+   border-bottom: 1px gray;
+   border-style: solid;
+   border-width: 0 0 2px 0;
+   padding: 0 0 0 0;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+
+.introduction {
+  text-align: justify;
+  color: gray;
+  font-size: 25px;
+  font-weight: 50;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.ingreddescript {
+  color: gray;
+  font-size: 25px;
+  font-weight: 50;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.listofingredients {
+  list-style: none;
+}
+
+ol li:before {
+  content: ") ";
+}
