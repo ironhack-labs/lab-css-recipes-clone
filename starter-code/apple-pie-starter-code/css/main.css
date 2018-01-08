@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.main-image {
+    width:100%;
+    position:relative;
+}
+
+.ap-text {
+    left: 0;
+    font-size: 100px;
+    position:absolute;
+    top:50%;
+    left:50%; 
+    text-align:center;
+    transform: translateX(-50%) translateY(150%);
+    color: white;
+}
+
+#wrapper {
+    margin: 10% 10% 0 10%;
+}
+
+.info-cook-recipe {
+    width: 40%;
+    display:block;
+    margin: 20px auto;
+}
+
+ol.list {
+    list-style-type: none;
+}
+
+.section-title {
+    font-weight: 700;
+}
