@@ -12,7 +12,7 @@ h1, body, html, main {
     font-weight: 400;
   }
 .header1 {
-    background-image: url("/Users/adrianchaconmadueno/code/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+    background-image: url("../images/soup.jpg");
     display: block;
     height: auto;
     text-align: center;
