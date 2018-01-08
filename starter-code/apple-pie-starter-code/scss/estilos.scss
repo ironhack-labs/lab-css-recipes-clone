@@ -1,0 +1,104 @@
+@import 'reset';
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #484848;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    &:not(#hero) {
+        padding: 75px 0 0;
+        width: 960px;
+        max-width: 100%;
+        margin: 0 auto;
+        &:last-child {
+            padding-bottom: 75px;
+        }
+    }
+    &#hero {
+        .image-hero {
+            height: 100vh;
+            background: url(../images/apple-pie.jpg);
+            background-size: cover;
+            position: relative;
+            .hero-text {
+                font-weight: 300;
+                text-align: center;
+                color: white;
+                font-size: 6em;
+                position: absolute;
+                top: calc(50% - 43px);
+                left: calc(50% - 220px);
+            }
+        }
+        .claim {
+            font-size: 1.8em;
+            font-weight: 300;
+            line-height: 1.3;
+            margin: 50px 0;
+        }
+    }
+    .image-wrapper {
+        text-align: center;
+        img {
+            width: 500px;
+        }
+    }
+    hr {
+        height: 3px;
+        background: #b9b9b9;
+        border: none;
+    }
+    h2.section-title {
+        font-size: 2.2em;
+        color: black;
+        font-weight: 300;
+    }
+    ul,
+    ol {
+        margin: 25px 0 50px;
+        padding-left: 50px;
+        line-height: 1.5;
+        font-size: 1.5em;
+        font-weight: 100;
+        letter-spacing: 1px;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+        &#hero {
+            .image-hero {
+                .hero-text {
+                    font-size: 3em;
+                    top: calc(50% - 24px);
+                    left: calc(50% - 97px);
+                }
+            }
+            .claim {
+                font-size: 1.5em;
+                padding: 0 15px;
+            }
+        }
+        ul,
+        ol {
+            padding-left: 40px;
+            padding-right: 30px;
+            font-size: 1.3em;
+        }
+        h2.section-title {
+            padding: 0 15px;
+        }
+    }
+}
