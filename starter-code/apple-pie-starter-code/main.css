@@ -1,0 +1,41 @@
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.crop{ 
+  background-color: green;
+  margin: auto;
+  width: 888px;
+  height: 480px;
+  overflow: hidden;
+}
+
+.crop img{
+  position: relative; 
+  width: 888px;
+  height: 788px;
+  margin: -100px 0 0 0;
+}
+
+h1{
+    color: white;
+    position: absolute; 
+    top: 200px;
+    left: 500px;
+}
+
+.recipe-info{
+ position: relative;
+ background-color: blue;
+ margin-left: 400px; /*auto doesn't work, why?*/
+}
+
+.cooking-info{
+  margin-left: 400px; /*auto doesn't work, why?*/
+}
