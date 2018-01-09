@@ -1,0 +1,61 @@
+.imagen{
+    background-image:url(../images/apple-pie.jpg);
+    background-size:  cover;
+    width: 1542px;
+    height: 848px;
+    background-position: center center; 
+
+}
+h1{
+    
+    color: white;
+    line-height: 700px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+}
+.recipe{
+    background-image:url(../images/recipe-info.png);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+hr{
+    height: 1px;
+    background-color: gray;
+    width: 70%;
+}
+.titulo{
+    font-family: serif;
+    text-align: center;
+
+}
+ul {
+width: 25%;
+align: center;
+margin: 0 auto;
+padding: 0 auto;
+text-align: center;
+    
+   }
+.cooking{
+    background-image:url(../images/cooking-info.png);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titulo2{
+    font-family: serif;
+    text-align: center; 
+}
+ol {
+    width: 25%;
+    align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+      
