@@ -1,0 +1,42 @@
+* {
+  margin:10px;
+  padding:10px;
+}
+
+#octocat {
+  display: block;
+  width:384px;
+  margin: 50px auto;
+}
+
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+f {
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  font: 16px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.applePie {
+  background-image: url("apple-pie.jpg");
+  margin-top: 0;
+  height: 800px;
+}
+
+.recipe {
+  text-align: justify;
+  margen: auto auto;
+
+}
