@@ -1,0 +1,48 @@
+
+*{
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* -----------------------*/
+
+.Content{
+    margin:0 5rem;
+    font-size:1.5rem;
+    padding-bottom:1.5rem;
+    }
+
+.info{
+    display: block;
+    margin:1.5rem auto;
+}
+
+.top{
+    
+    height:60vh;
+    text-align: center;
+    color:white;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:3rem;
+    background-size: cover;
+
+}
+#Apple{
+    background:url("../images/apple-pie.jpg")no-repeat;
+}
+
+#Soup{
+    background:url("../../french-onion-soup-starter-code/images/soup.jpg")no-repeat;
+
+}
+.horizontal-line{
+    border-bottom: solid 3px gray;
+    margin-bottom:3rem;
+}
+
+.Menu{
+    margin-right: 10%;
+    margin-left: 10%;
+}
