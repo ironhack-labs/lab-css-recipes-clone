@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title-div {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 900px;
+}
+
+#title {
+  margin: 0;
+  padding: 25% 0;
+  font-weight: lighter;
+  font-size: 5.3em
+}
+
+.center-div {
+  margin: 0 auto;
+  width: 75%;
+}
