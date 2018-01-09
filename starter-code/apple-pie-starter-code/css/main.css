@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+/*Some necessary adjustments*/
+body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.header{
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  padding: 50px;
+  position: relative;
+}
+
+.box-intro{
+
+  font-size: 25px;
+}
+
+h1 {
+
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  margin: 0;
+  margin-top: 15%;
+}
+
+ul li{
+  list-style-type: none
+}
+
+ul li:before{
+
+  content: "-"
+}
+
+ol li{
+  list-style-type: none
+}
+
+
+.container{
+
+  width: 60%;
+  margin: auto;
+  max-width: 1000px;
+
+}
+
+.box-img{
+ 
+  width: 400px;
+  margin-left: 25%;
+
+}
