@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poiret One', cursive;
+}
+
+
+.foto{
+    background-image: url("images/apple-pie.jpg");
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+    height: 500px;
+}
+
+.Title{
+    padding: 250px;
+    font-size: 68px;
+    align-content: center;
+    color: #ffff;
+}
+
+.row{
+    margin-left: 300px;
+    margin-right:300px;
+}
+
+img{
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+p{
+    font-size: 22px;
+}
+
+ul{
+    font-size: 16px;
+}
