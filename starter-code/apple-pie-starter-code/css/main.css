@@ -41,8 +41,13 @@ ul li{
 
 ul li:before{
 
-  content: "- "
+  content: "-"
 }
+
+ol li{
+  list-style-type: none
+}
+
 
 .container{
 
