@@ -1,0 +1,75 @@
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  height: 600px;
+  margin: 0 10%;
+}
+
+h2 {
+  font-size: 4em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: arial;
+
+}
+
+h3 {
+  color: grey;
+}
+
+.recipe-section {
+  padding: 5% 15% 15% 15%;
+
+  font-family: arial;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: arial;
+  color: grey;
+}
+
+.recipe-image {
+  height: 4em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+
+.image-divisor {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-bottom-width: 3px;
+}
+
+b {
+  color: black;
+}
+
+ul.dashed {
+  list-style-type: none;
+  color: grey;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+
+ol {
+  list-style-type: decimal
+  color: grey;
+  text-indent: -5px:
