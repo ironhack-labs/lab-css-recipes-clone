@@ -1,0 +1,32 @@
+/* reset */
+
+
+/* typography  */
+body {
+    font-family: Arial; /* Or Whatever... */
+}
+
+h1 {
+    color: red;
+}
+
+/* layout */
+h1 {
+    position: absolute;
+    margin: 0 auto;
+}
+
+#splash {
+    width: 100%;
+}
+
+#main {
+    margin: 0 auto; /* Centre's the div - correct? */
+    width: 80%;
+}
+
+
+/* components */
+
+
+/* pages */
