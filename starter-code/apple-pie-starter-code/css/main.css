@@ -1,0 +1,45 @@
+.container{
+    display: block;
+}
+h1{
+     float: left;
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-top: 13%;
+}
+.appleimg{
+    margin-top: 0;
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+}
+.thisis{
+        text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+}
+.cookinginfo{
+    margin-left: 29%;
+}
+.ingredients{
+    margin-left: 29%;
+    font-size:35px;
+}
+#list{
+list-style: none;
+font-size: 25px;
+}
+#direction{
+   font-style: inherit;
+   margin-left: 29% ;
+   font-size:35px;
+}
+#howtodoit{
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: 25px;
+}
