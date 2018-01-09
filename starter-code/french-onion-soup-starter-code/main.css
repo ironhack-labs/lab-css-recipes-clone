@@ -1,0 +1,81 @@
+/* ---- typography ---- */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+      
+}
+
+p {
+  text-align: justify;
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+ul {
+  text-align: justify;
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto
+}
+
+h3 { 
+  text-align: justify;
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px; 
+}
+
+.border-style{
+  border-top: 2px solid;
+  border-top-color: darkgray;
+}
+
+.img2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+
+#bruh{
+  background-image: url('soup.jpg');
+  background-size: 75%;                     
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+
+}
+
+/* ---- layout ---- */
+
+#site-header {}
+
+#site-footer {}
+
+#site-main {}
+
+
+/* ---- components ---- */
