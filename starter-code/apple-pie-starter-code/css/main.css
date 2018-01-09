@@ -1,0 +1,104 @@
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+ /* --- typography ---*/
+
+#title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-weight: lighter;
+}
+div p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: grey;
+}
+
+
+.ingredients h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.directions h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* --- layout --- */
+
+.main-container{
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 5%;
+}
+#title{
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+#recipeinfo{
+    margin-left: 35%;
+    width: 30%;
+}
+#cookinginfo{
+    margin-left: 25%;
+    width: 50%;
+}
+hr{
+    width: 70%;
+}
+.ingredients{
+    margin-left: 15%;
+    width: 70%;
+}
+.directions{
+    margin-left: 15%;
+    width: 70%;   
+}
+
+/* --- component --- */
+
+.ingredients ul{
+    list-style-type: none;
+}
+.ingredients li{
+    list-style-type: none;
+}
+.ingredients ul > li {
+    text-indent: -20px;
+    color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.ingredients ul > li:before {
+    content: "-";
+    text-indent: -5px;
+  }  
+.directions ul{
+    list-style-type: decimal;
+    margin-top: 5%;
+}
+.directions ul > li{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 1%;
+}
+
