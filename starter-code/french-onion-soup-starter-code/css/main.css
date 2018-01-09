@@ -22,6 +22,7 @@ html {
   text-align:center;
   transform: translateX(-50%) translateY(50%);
   color: white;
+  font-weight: 600;
 }
 
 #wrapper {
