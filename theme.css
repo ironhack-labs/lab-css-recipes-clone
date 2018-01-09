@@ -1,0 +1,17 @@
+
+h1, body, html, main {
+    margin: 0;z
+  }
+  
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+  .applePies {
+    background-image: url("/home/jorge/Documentos/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  }
+  .recipestory {
+    align-content: center;
+  }
+  
