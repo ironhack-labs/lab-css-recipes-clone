@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/apple-pie.jpg")
+}
+
+h1, h2, p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cabecera img{
+    position: relative;
+}
