@@ -23,7 +23,7 @@ html {
 
 .box-intro{
 
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h1 {
@@ -51,14 +51,14 @@ ol li{
 
 .container{
 
-  width: 70%;
+  width: 60%;
   margin: auto;
 
 }
 
 .box-img{
  
-  width: 350px;
-  margin-left: 30%;
+  width: 400px;
+  margin-left: 25%;
 
 }
