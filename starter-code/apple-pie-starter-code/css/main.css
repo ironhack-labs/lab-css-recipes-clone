@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    font-family: open sans;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 500px;
+    color: white;
+    font-size: 100px;
+}
+
+.page-container {
+    margin: 200px 200px 100px 200px;
+    background-color: white;
+    position: relative;
+}
+
+.recipes-cooking-info {
+    text-align: center;
+}
+
+.background-pie {
+    background-image: url(/Users/pedroneto/Desktop/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-size: cover;
+    height: 950px;
+    margin-top: -200px;
+    margin-bottom: -100px;
+}
+
+.division-line {
+    border-width: 1px;
+}
