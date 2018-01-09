@@ -3,17 +3,17 @@
     font-family:'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+/* -----------------------*/
+
 .Content{
     margin:0 5rem;
     font-size:1.5rem;
     padding-bottom:1.5rem;
-    overflow: hidden;
     }
 
 .info{
     display: block;
     margin:1.5rem auto;
-    overflow: hidden;
 }
 
 .top{
@@ -43,4 +43,6 @@
 }
 
 .Menu{
+    margin-right: 10%;
+    margin-left: 10%;
 }
