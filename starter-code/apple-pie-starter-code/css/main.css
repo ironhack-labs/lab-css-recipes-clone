@@ -1,0 +1,101 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	color: #484848;
+	list-style: none;
+}
+
+body{
+	margin: 0;
+}
+
+section#banner{
+	background: url(../images/apple-pie.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 80vh;
+	position: relative;
+}
+
+section#banner h1{
+	color: #fff;
+    font-size: 65px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 0;
+}
+
+section#description{
+	padding: 50px 15% 0;
+	text-align: center;
+}
+
+section#description p{
+	color: #484848;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: left;
+}
+
+section#description div,
+section#ingredients div{
+	padding: 20px 15%;
+	border-bottom: 2px solid #bbb;
+	text-align: center;
+}
+
+section#description div img,
+section#ingredients div img{
+	max-width: 350px;
+}
+
+section#ingredients{
+	padding: 40px 15% 0;
+}
+
+section#ingredients h2,
+section#directions h2{
+	margin-top: 0;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+section#ingredients ul{
+	padding-left: 10px;
+}
+
+section#ingredients ul li{
+	font-weight: 300;
+	font-size: 17px;
+}
+
+section#ingredients ul li:before{
+	content: "-";
+	display: inline-block;
+	margin-right: 5px;
+}
+
+section#directions{
+	padding: 40px 15% 50px;
+}
+
+section#directions ol{
+	padding-left: 10px;
+}
+
+section#directions ol li{
+	font-weight: 300;
+	font-size: 17px;
+}
+
+section#directions ol li:before{
+	display: inline-block;
+	content: counter(item) ")";
+	counter-increment: item;
+	margin-right: 5px;
+}
+
+
+
