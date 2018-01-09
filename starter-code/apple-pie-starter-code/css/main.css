@@ -1,0 +1,106 @@
+/* ==== Reset ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==== Typography ==== */
+
+body, p, h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: rgb(75, 75, 75);
+    margin: 1.1em;
+	padding: 1em;
+}
+
+p, h2 {
+    margin: 0 1em 0 1em;
+    padding: 0; 
+}
+
+h2 {
+    font-weight: 500;
+    border-top: 1px solid grey;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+
+.recipe-title {
+    font-size: 4em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+/* ==== Layout ==== */
+
+.picture {
+  background: url(../images/apple-pie.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 35px 10px;
+  position: relative;
+  float: left;
+}
+
+.recipe-info-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.space {
+    padding-bottom: 2em;
+}
+
+.intro {
+    margin-bottom: 3em;
+    font-size: 1.3em;
+
+/* ==== Components ==== */
+
