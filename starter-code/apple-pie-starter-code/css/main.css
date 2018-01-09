@@ -1,0 +1,72 @@
+.header{
+  background-image: url(../images/apple-pie.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+body{
+  font-family:  'Open Sans', sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  padding-top: 230px;
+  font-weight: lighter;
+  font-size: 4em;
+}
+
+p{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52%;
+  font-size: 1.4em;
+}
+
+.img-recipe-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.img-cooking-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.line{
+margin: 20px auto 30px auto;
+  width: 50%;
+  background-color: rgb(100,100,100);
+}
+/* @Maxence/Eduardo : Pourquoi la couleur fonctionne uniquelment sur le premier <hr> et pas sur le second? */
+ul, ol, h2{
+  margin: 20px 22%;
+}
+
+p,ul,ol,h2{
+  color: rgb(66,66,66);
+}
+
+ol{
+  font-size: 1.2em;
+}
+
+ul{
+  font-size: 1.1em;
+}
+
+.dash {
+  list-style-type: none;
+}
+.dash:before {
+	content: "- "; /* on affiche une chaîne de caractère */
+}
