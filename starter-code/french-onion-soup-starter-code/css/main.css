@@ -1,9 +1,41 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body{
+     margin-top: 60px;
+     margin-right: 300px;
+     margin-bottom: 100px;
+     margin-left: 300px;
+
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+ul li {
+  li{list-style-type: none}
+  li:before{content: "-"}
+}
+.receta {
+  width: 900px;
+  height: 600px;
+}
+
+.recipe {
+  width: 350px;
+  margin-left: 250px;
+}
+.cooking{
+  width: 350px;
+  margin-left: 250px;
+}
+h1 {
+position: absolute;
+top: 300px;
+left: 350px;
+width: 100%;
+color: white;
+font-size: 80px
+
 }
