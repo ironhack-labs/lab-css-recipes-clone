@@ -8,19 +8,21 @@ html {
     font-size: 18px
 }
 
-.main-image {
-    width:100%;
-    position:relative;
+header {
+    background-image: url('../images/apple-pie.jpg');
+    width: 1200px;
+    height: 1000px;
+    background-size: cover;
+    position: relative;
 }
 
 .ap-text {
     left: 0;
     font-size: 100px;
     position:absolute;
-    top:50%;
-    left:50%; 
-    text-align:center;
-    transform: translateX(-50%) translateY(150%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
@@ -36,6 +38,11 @@ html {
 
 ol.list {
     list-style-type: none;
+}
+
+ul.list>li:before {
+    content: "-";
+    text-indent: -5px;
 }
 
 .section-title {
