@@ -1,9 +1,29 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+header {
+  background-image: url(../images/soup.jpg);
+  height: 500px;
+  color:white;
+  text-align: center;
+  line-height: 500px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;f;
+}
+
+p { 
+  text-align: center;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
 }
