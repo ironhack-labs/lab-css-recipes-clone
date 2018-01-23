@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+
+* {
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-size: 65px;
+    position: absolute;
+    top: 150px;
+    left: 38%;
+    color: white;
+    font-weight: 300;
+}
+
+.cover-photo {
+    width:80%;
+    height: 500px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.general-info {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 0;
+}
+
+.ingredients-list {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    padding: 0;
+    margin-left: 19%;
+}
+
+.directions {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 0;
+}
+
+.cooking-icons {
+    text-align: center;
+}
+
+.ingredients-icons {
+    text-align: center;
+}
