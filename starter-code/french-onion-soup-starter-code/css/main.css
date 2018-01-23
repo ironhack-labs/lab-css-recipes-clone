@@ -6,4 +6,65 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+  font-weight: lighter;
 }
+
+.container{
+  width: 55%;
+  margin: 0 auto;
+}
+
+/* header styling starts here */
+header{
+  background-image: url("../images/soup.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 84px;
+  font-weight: 400;
+  line-height: 600px;
+}
+
+/* section "description" starts here */
+.description{
+  font-weight: lighter;
+  font-size: 1.2em;
+  margin: 60px auto 20px auto;
+}
+
+/* recipe img */
+#recipe-info, #cooking-info{
+  display: block;
+  margin: 30px auto 20px auto;
+  width: 400px;
+}
+
+/* ingredients section starts here */
+.ingredients h3{
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.ingredients ul{
+  list-style-type: none;
+}
+
+/* directions styling starts here */
+.directions h3{
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.directions-paragraphs{
+  margin: 0 0 20px 10px;
+}
+
+.directions p{
+  margin: 0;
+}
+
