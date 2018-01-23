@@ -1,0 +1,64 @@
+
+ * {
+     font-family: Open Sans;
+ }
+ 
+ .header {
+    background: url(/Users/jonathansanchez/Desktop/Ironhack/IndependentExercises/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg) 0 0 no-repeat;
+    float: center;
+    height: 450px;
+    padding-top: 59px;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 5em;
+    padding-top: 50px;
+    float: center;
+
+  }
+
+  .recipe {
+      padding: 20px 312px 20px 312px;
+      text-align: justify;
+  }
+
+  .recipe-info {
+      margin: 0 auto;
+      height: 50px;
+      padding-left: 430px;
+      padding-right: 200px;
+  }
+
+  .ingredients {
+      margin: 0 auto;
+      padding-left: 150px;
+  }
+
+  .cooking-info {
+    margin: 0 auto;
+    height: 64px;
+    padding-left: 448px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.directions {
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
