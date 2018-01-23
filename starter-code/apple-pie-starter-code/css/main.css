@@ -1,0 +1,45 @@
+h1, body, html, main {
+    margin: 0;
+  }
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+.details {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    font-size: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.paragraph {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+.ingredientlocation {
+    margin: 0 500px;
+}
+.recipelist {
+    margin: 0 500px;   
+}
+.detailstime {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
