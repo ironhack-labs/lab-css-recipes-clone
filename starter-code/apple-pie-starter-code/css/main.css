@@ -48,6 +48,7 @@ section{
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 30px;
+    
 }
 
 .list-dash li{ 
@@ -62,12 +63,18 @@ section{
 
 .list-numbers{
     margin-top: 20px;
-    list-style-type: decimal;
     margin-bottom: 30px;
+    counter-reset: list;
+    list-style: none;
 }
 
 .list-numbers li{
     margin-top: 5px;
     margin-left: 20px;
     font-size: 1.7em;
+}
+
+.list-numbers li:before{
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
 }
