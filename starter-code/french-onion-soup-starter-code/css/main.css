@@ -7,3 +7,33 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h3 {
+  margin: 25px 0;
+}
+
+.applepies{
+    background-image: url('../images/soup.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-weight: 600px;
+ }
+
+ .title{
+   position: relative;
+   top: 200px;
+   
+ }
+
+ .container{
+   margin: 50px 100px;
+ }
+
+.images{
+ text-align: center;
+ margin: 25px;
+}
