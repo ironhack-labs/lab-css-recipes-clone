@@ -1,9 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
+body{
+    font-family: Open Sans;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.header{
+    background-image: url("../images/soup.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 600px;
+    padding-top: 320px;
+}
+.title {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+}
+
+section{
+    width: 80%;
+    margin: 0 10%;
+}
+.paragraph{
+    text-align: center;
+    padding: 100px 10px 50px 10px;
+    font-size: 2em;
+}
+
+.img{
+    width: 50%;
+    margin: 0 25%;
+}
+
+.subtitle {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.list-dash{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.list-dash li{ 
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 1.7em;
+}
+
+.list-dash li:before { 
+    content:"- ";
+}
+
+.list-numbers{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    counter-reset: list;
+    list-style: none;
+}
+
+.list-numbers li{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 1.7em;
+}
+
+.list-numbers li:before{
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
 }
