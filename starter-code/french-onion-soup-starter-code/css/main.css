@@ -7,3 +7,75 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.heading-container {
+  background: #ffffff url("../images/soup.jpg") no-repeat left top;
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+  margin: 0;
+}
+
+.heading-title {
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: lighter;
+  line-height: 8;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.instructions {
+  width: 60%;
+  margin: 30px auto 0 auto;
+}
+
+.recipe-desc {
+  margin: 50px auto;
+}
+
+.recipe-desc p {
+  color: #000000;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.recipe-img-container {
+  width: 100%;
+}
+
+.recipe-img-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  background-color: gray;
+  height: 2px;
+}
+
+.instructions h2 {
+  font-weight: lighter;
+}
+
+.ingredients{
+  list-style: none;
+  padding: 0;
+}
+
+.cooking-instructions {
+  padding-left: 1em;
+}
+
+
