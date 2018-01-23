@@ -7,3 +7,78 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body{
+  margin: 0;
+  font-size: 22px;
+}
+
+hr{
+  margin: 0 auto;
+  width: 81%;
+}
+
+img{
+  height:55px;
+  width: 380px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+.container{
+  background-size: cover;
+  background-position-y: -90px;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 750px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text-1{
+  margin: 0 auto;
+  width: 81%;
+  font-weight: lighter;
+  padding-top: 45px;
+  font-size: 28px;
+}
+
+.image-container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-ingredients{
+  width: 81%;
+  margin: 0 auto;
+  font-weight: lighter;
+  padding-top: 35px;
+}
+
+.container-ingredients p{
+  padding-left: 15px;
+}
+
+.container-ingredients span{
+  font-weight: bolder;
+}
+
+.container-directions{
+  width: 81%;
+  margin: 0 auto;
+  font-weight: lighter;
+  padding-top: 35px;
+}
+
+.container-directions p{
+  padding-left: 15px;
+}
+
+.container-directions span{
+  font-weight: bolder;
+}
