@@ -1,0 +1,11 @@
+
+h1 {
+    font-family: Helvetica, sans-serif; 
+    color: white;
+    background: url("../images/apple-pie.jpg");
+    width: 1000px;
+    height: 200px;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
