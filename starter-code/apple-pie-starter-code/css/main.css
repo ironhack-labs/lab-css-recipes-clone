@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
 .header {
-    background: url("apple-pie.jpg") 00 no-repeat;
+    background: url("../images/apple-pie.jpg") 00 no-repeat;
     background-size: cover;
     height: 500px;
     padding-top: 50px;
@@ -7,7 +9,7 @@
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Open Sans";
     color: white;
     text-align: center;
     font-size: 5em;
@@ -15,7 +17,7 @@ h1 {
 }
 
 .description_text{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Open Sans";
     text-align: center;
     font-size: 24px;
 }
@@ -50,12 +52,12 @@ figure{
 }
 
 li{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Open Sans";
     list-style-type: none;
 }
 
 .recipe_text{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Open Sans";
     text-align: left;
     padding: 5px;
     font-size: 20px;
