@@ -1,9 +1,57 @@
-/*Some necessary adjustments*/
+html{
+  font-family: 'Open Sans', sans-serif;
+}
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.home-apple-pie{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 90%;
+  margin: 0 5%;
+  padding-top: 150px;
+}
+.home-apple-pie h1{
+  text-align: center;
+  font-size: 6em;
+  color: #fff;
+}
+h2{
+  text-align: left;
+  font-size: 2em;
+}
+.home-page-container{
+  width: 90%;
+  margin: 0 5%;
+}
+.home-page-container p{
+  font-size: 1.5em;
+  text-align: center;
+  width: 75%;
+  margin: 45px 12.5%;
+}
+.ingredients_content{
+  width: 70%;
+  margin: 0 15%;
+}
+.ingredients_content ul{
+  font-size: 1.5em;
+  text-align: left;
+}
+.directions-content{
+  width: 70%;
+  margin: 0 15%;
+}
+.directions-content ol{
+  font-size: 1.5em;
+  text-align: justify;
+}
+img{
+  width: 35%;
+  margin: 0 32.5%;
+}
+hr{
+  width: 70%;
+  margin: 0 15%;
 }
