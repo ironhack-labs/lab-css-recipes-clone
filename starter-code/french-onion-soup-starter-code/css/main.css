@@ -1,9 +1,78 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+/* h1, body, html, main { */
+  /* margin: */
+
+/* } */
+
+body {
+  margin-top: 50px;
 }
+
+h1 {
+  font-size: 70px;
+  color: white;
+  font-family: "Helvetica" !important;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+}
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 20px
+}
+
+.soup {
+  height: 500px;
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  margin-left: 290px;
+  margin-top: 90px;
+  
+}
+
+ hr, h3 {
+  margin-top: 40px;
+  margin-left: 280px;
+  margin-right: 270px;
+  text-align: justify;
+
+}
+
+
+.info {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 300px;
+  margin-top: 30px;
+
+}
+
+hr{
+  display: block;
+      border-width: 2px;
+      margin-top: 40px;
+}
+
+ ol, li{
+  font-size: 17px;
+  text-align: left;
+  margin-left: 190px;
+  margin-right: 190px;
+
+}
+
+h3 {
+  font-size: 19px;
+  margin-left: 270px;
+  font-weight: normal;
 }
