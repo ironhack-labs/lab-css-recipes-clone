@@ -7,3 +7,56 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.frenchonion{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 360px;
+  width: 700px;
+display: block;
+margin: 0 auto;
+margin-top:10px;
+}
+
+
+h1{
+  text-align: center;
+  color:white;
+  padding-top: 150px;
+  font-family: Open-Sans;  
+  font-size: 70px;
+  margin: 0;
+}
+body{
+  margin: 0;
+}
+
+.introduction{
+  align: right;
+margin: 0 auto;
+  align-content: left;
+  font-size: 18px;
+  font-family: Open-Sans; 
+  width: 700px;
+}
+.ingredients{
+  align:right;
+  margin-left: 290px;
+  margin-right: 290px;
+  align-content: center;
+  font-family: Open-Sans; 
+  padding: 2px;
+}
+.direcciones{
+  align:right;
+  margin-left: 290px;
+  margin-right: 290px;
+  align-content: center;
+  font-family: Open-Sans; 
+  padding: 2px;
+}
+.info{
+  width: 200px;
+  height: 50px;;
+ padding-left: 40%;
+ padding-right: 40%;
+}
