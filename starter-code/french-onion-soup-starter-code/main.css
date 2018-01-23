@@ -1,0 +1,62 @@
+.header {
+  background: url("soup.jpg") 00 no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  margin-top: 17%;
+}
+
+.description_text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+.background_container {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+
+.description_container{
+  margin: 0 auto;
+  padding: 75px 0 30px 0;
+  width: 900px;
+}
+
+.recipe_container{
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+  width: 900px;
+}
+
+figure{
+  margin-left: 16%;
+  width: 1200px;
+}
+
+.recipe_border{
+  margin: 0 auto;
+  border-bottom: 2px solid gray;
+  width: 900px;
+}
+
+li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style-type: none;
+}
+
+.recipe_text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  padding: 5px;
+  font-size: 20px;
+}
