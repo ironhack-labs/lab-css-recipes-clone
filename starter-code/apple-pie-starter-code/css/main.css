@@ -1,0 +1,37 @@
+.border{
+    border: 2px solid black;
+}
+h1{
+    padding-top:150px; 
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+header{
+    background-image: url("/home/gabriel/Documentos/ironHack/week1/day1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin:0 auto;
+}
+p{
+    font-size: 20px;
+    padding:0 25%;
+}
+.imgIngredientes{
+    padding: 0 350px;
+}
+hr{
+    width: 50%;
+}
+h2{
+  text-align: left;  
+  width: 100%;
+  padding: 0 350px;  
+}
+ul{
+  text-align: left;  
+  width: 100%;
+  padding: 0 350px;  
+}
