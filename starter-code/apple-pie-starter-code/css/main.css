@@ -6,18 +6,47 @@
 }
 
 h1 {
-    text-align: center;
+    font-size: 65px;
+    position: absolute;
+    top: 150px;
+    left: 38%;
+    color: white;
+    font-weight: 300;
 }
 
-header {
-    /* background-image: url("images/apple-pie.jpg"); */
-    /* text-align: center; */
-    /* background-size: cover; */
-    background-image: url("images/apple-pie.jpg");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
+.cover-photo {
+    width:80%;
+    height: 500px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.general-info {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 0;
+}
+
+.ingredients-list {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    padding: 0;
+    margin-left: 19%;
+}
+
+.directions {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 0;
 }
 
 .cooking-icons {
@@ -26,14 +55,4 @@ header {
 
 .ingredients-icons {
     text-align: center;
-}
-
-.ingredients {
-    text-align: right;
-}
-
-.general-info {
-    text-align: center;
-    margin: 0;
-    padding: 0;
 }
