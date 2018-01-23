@@ -7,3 +7,82 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+
+.firstheader {
+  background-image: url(../images/soup.jpg);
+  /* .. para salir de la carpeta css y luego con el "/" ir a imagenes*/
+  background-size: cover;
+  /* siempre poner un cover para que la imagen se ajusta al block*/
+  position: relative;
+  /* a crée une marge*/
+  height: 500px;
+  color: white;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.header1 {
+  font-weight: lighter;
+  font-size: 4em;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%
+}
+
+.section1 {
+  font-size: 1.2em;
+  font-weight: 200;
+  padding: 50px 0;
+  text-align: left;
+  margin-left: 330px;
+}
+
+.imgsection1 {
+  padding-left: 150px;
+  height: 70px;
+  width: auto;
+}
+
+hr {
+  width: 750px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section2 {
+  font-size: 1em;
+  font-weight: 200;
+  margin-left: 330px;
+}
+
+.h2section2-3 {
+  font-weight: 400;
+}
+
+.textsection2 {
+  line-height: 1.4em;
+}
+
+.imgsection2 {
+  height: 80px;
+  width: auto;
+  padding-left: 150px;
+}
+
+.section3 {
+  margin-top: 80px;
+  font-size: 1em;
+  font-weight: 200;
+  margin-left: 330px;
+  line-height: 1.4em;
+}
+
+.textsection3{
+  margin-left: 0;
+  padding-left: 0;
+}
