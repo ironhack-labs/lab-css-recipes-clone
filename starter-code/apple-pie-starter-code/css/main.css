@@ -1,0 +1,39 @@
+
+.discription{
+    text-align: center;
+}
+.parrafo{
+    text-align: center;
+    
+}
+
+
+.img-1{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.img-1 h1{
+    margin: 100px
+    color:white;
+}
+
+
+.Img-2{
+    background-image: url(../images/cooking-info.png);
+}
+
+h1{
+    color:white;
+    text-align: center;
+    line-height: 15;
+    font-size: 40px;
+
+}
+
+
+.imagen2{
+    padding: 0 25%;
+}
