@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+    color: rgb(114, 116, 118)
+}
+#top {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#top span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+}
+
+#top img {
+    width: 75%;
+    height: 75%;
+}
+.description {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.ingredients{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.directions {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.stroke {
+    margin-top: 20px;
+    border-bottom: 3px solid rgba(114, 116, 118, 0.7);
+    width: 90%;
+}
+
+#container {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 20px;
+}
+li {
+    font-size: 18px;
+}
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
