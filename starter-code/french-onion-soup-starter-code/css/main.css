@@ -29,7 +29,7 @@ h1 {
     width: 80%;
     height: 500px;
     margin: auto;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .general-info {
