@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.front {
+    background-image:url(../images/apple-pie.jpg);
+    background-size: contain;
+    height: 600 px;  
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    line-height: 7;
+    color: aliceblue;
+}
+.great{
+    text-align: center;
+    font-size: 1.5em;
+    width: 70%;
+    margin: 0 15%;
+    padding-top: 5%; 
+    padding-bottom: 5%;
+}
+.time{
+    padding-bottom: 40%
+}
