@@ -1,4 +1,10 @@
 /*Some necessary adjustments*/
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
 h1, body, html, main {
   margin: 0;
 }
@@ -6,4 +12,52 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+/* -- reset --*/
+
+
+/*-- header --*/
+.header {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto 50px;
+  
+}
+.header h1{
+  margin: 0;
+  color: white;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 60px;
+  font-weight: 400;
+}
+/*-- body --*/
+.center {
+  width: 60%;
+  margin: 0 auto;
+}
+.intro h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.recipie-info img{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.fonts {
+  color: rgba(50, 50, 50, 0.8);
+  line-height: 24px;
+}
+.no-style-list {
+  list-style: none;
+  margin: 0;
+}
+.no-style-list li {
+  margin: 0;
 }
