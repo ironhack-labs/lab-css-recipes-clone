@@ -1,0 +1,96 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background-image: url("images/apple-pie.jpg"); /*I don't know why this doesn't works.*/
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* ---- components ---- */
+  
+  .img-center {
+    margin: 0 30%;
+    width: 40%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .line{
+    height: 2px;
+  
+    background: #111;
+  
+    border-bottom: 1px solid #111;
+  }
+  
+  .larger-paragraph{
+    font-size: 20px;
+  }
