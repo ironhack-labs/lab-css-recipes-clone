@@ -16,14 +16,23 @@
   font-size: 70px;
 
 }
+#introduction .first-div {
+  width: 80%;
+  margin: 0 auto;  
+}
 #introduction p {
-  text-align: center;
   font-size: 30px;
 }
-#introduction div {
+#introduction .second-div {
   text-align: center;
 }
-#ingredients  div {
+#ingredients  .first-div {
+  width: 80%;
+  margin: 0 auto;  
+}
+
+
+#ingredients  .second-div {
   text-align: center;
   
 }
@@ -31,3 +40,13 @@
   font-size: 30px;  
 }
 
+#instructions .first-div {
+  width: 80%;
+  margin: 0 auto;  
+}
+#instructions  h2, ol {
+  font-size: 30px;  
+}
+.line{
+  width: 80%;
+}
