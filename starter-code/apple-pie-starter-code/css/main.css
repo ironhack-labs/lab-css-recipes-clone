@@ -1,0 +1,33 @@
+.lista {
+  list-style-type: none;
+}
+
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  padding: 300px;
+  position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-header {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+
+}
+#introduction p {
+  text-align: center;
+  font-size: 30px;
+}
+#introduction div {
+  text-align: center;
+}
+#ingredients  div {
+  text-align: center;
+  
+}
+#ingredients  h2, ul {
+  font-size: 30px;  
+}
+
