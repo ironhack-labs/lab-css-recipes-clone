@@ -20,8 +20,13 @@ h1{
   font-size: 68px;
   font-weight: 300;
 }
-
-.contenedor p {
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+}
+/* -- Section 1 -- */
+.section1 p {
   margin-top: 6%;
   margin-left: 10%;
   margin-right: 10%;
@@ -29,8 +34,36 @@ h1{
   font-size: 18px;
   color: #535353;
 }
-.contenedor img{
+.section1 img{
   display: flex;
   margin: 0 auto;
   height: 55px;
+  margin-bottom: 2%;
+}
+
+/* -- Section 2 -- */
+.section2 h3{
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+.section2 ul{
+  margin-bottom: 4%;
+}
+.section2 li{
+  margin-left: 12%;
+  color: #535353;
+  list-style: none;
+}
+.section2 li:before{
+  content: "-";
+  margin-right: 4px;
+}
+.section2 img{
+  display: flex;
+  margin: 0 auto;
+  height: 70px;
+  margin-bottom: 2%;
 }
