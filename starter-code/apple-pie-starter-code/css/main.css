@@ -24,7 +24,7 @@ body {
   font-size: 70px;
 }
 
-.intro {
+#intro {
   text-align: center;
   padding: 50px 0;
   font-size: 20px;
@@ -37,28 +37,28 @@ body {
   text-align: center;
 }
 
-.ingredients {
+#ingredients {
   padding: 50px 0;
   font-size: 20px;
 }
 
-.ingredients h2 {
+#ingredients h2 {
   margin-bottom: 20px;
 }
 
-.ingredients ul {
+#ingredients ul {
   margin-left: 20px;
 }
 
-.directions {
+#directions {
   padding: 50px 0;
   font-size: 20px;
 }
 
-.directions h2 {
+#directions h2 {
   margin-bottom: 20px;
 }
 
-.directions ol {
+#directions ol {
   margin-left: 20px;
 }
