@@ -50,6 +50,14 @@ body {
   margin-left: 20px;
 }
 
+#ingredients li {
+  list-style-type: none;
+}
+
+#ingredients li:before {
+  content: "-";
+}
+
 #directions {
   padding: 50px 0;
   font-size: 20px;
