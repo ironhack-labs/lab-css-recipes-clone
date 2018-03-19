@@ -5,7 +5,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: normal;
 }
 
 .container {
