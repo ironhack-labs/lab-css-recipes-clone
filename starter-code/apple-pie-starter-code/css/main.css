@@ -1,0 +1,25 @@
+.header-img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image: url("images/apple-pie.jpg");
+}
+
+.header-title{
+    font-size: 4rem;
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.description{
+    padding: 60px;
+}
+.info-grandma{
+    font-size: 26px;
+}
+.recipe-info-img{
+    width: 350px;
+    height: 60px;
+}
