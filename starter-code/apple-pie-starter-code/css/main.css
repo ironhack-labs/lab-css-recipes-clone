@@ -108,6 +108,7 @@ section {
 
 #directions {
   border: none;
+  padding-right: 20px;
 }
 
 #directions li {
