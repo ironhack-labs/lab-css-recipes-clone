@@ -1,0 +1,39 @@
+header {
+    background-image: url(../images/apple-pie.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+}
+h1 {
+color: white;
+text-align: center;
+font-size: 60px;
+line-height: 10;
+padding: 0%;
+}
+
+.intro {
+width: 60%;
+margin: 0 auto;
+position: relative;
+text-align: center;
+}
+
+.cooking-info {
+width: 35%;
+margin: 0 auto;
+position: relative;
+text-align: center;
+/* revisar si hace efecto el text-align o el margin 0 */
+}
+
+hr {
+width: 60%;
+}
+
+.ingredients {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    }
