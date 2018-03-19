@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  
+}
+
+
+
+header h1 {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 100px;
+}
+
+.title {
+  padding-top: 23%;
+}
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 80px;
+}
+
+#container img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#ingredients {
+  margin-top: 45px;
+  font-size: 30px;
+}
+
+#ingredients ul {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+#ingredients h3 {
+  font-weight:300;
+}
+
+#directions {
+  padding-top: 30px;
+}
+
+#directions {
+  margin-top: 45px;
+}
+
+#directions p {
+  margin: 40px 0px 40px 20px;
+
+}
+
+#directions ol {
+  list-style: none;
+  counter-reset: list;
+}
+
+ol li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
