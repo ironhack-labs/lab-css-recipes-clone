@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  
+}
+
+h2 {}
+
+h3 {}
+
+p {
+  margin: 0;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 30px 0;
+  color: white;
+  background: #111;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* ---- components ---- */
+
+
+/* ---- had to look for the min-height thing to make the image appear as whole ---- */
+#recipe1 .recipe-picture { 
+  width:980px; 
+  min-height:500px; 
+  margin: 20px auto;
+  background-size: cover;
+  background-image: url("/Users/raphamontenegro/Documents/ironhack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  padding: 30px 0;
+}
+
+#recipe2 .recipe-picture {
+  width:980px; 
+  min-height:500px; 
+  margin: 20px auto;
+  background-size: cover;
+  background-image: url("/Users/raphamontenegro/Documents/ironhack/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  padding: 30px 0;
+}
+
+.recipe-picture h1 {
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  color: white;
+  font-size: 80px;
+  padding: 280px 0 0 50px;
+}
+
+.img-recipe-info {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+#description p {
+  text-align: center;
+  margin: 0 auto;
+}
+#ingredients li{
+list-style-type: none;
+}
+
+hr {
+  margin: 0 140px;
+  height: 1px;
+  background-color: rgb(104, 108, 110);
+    
+}
