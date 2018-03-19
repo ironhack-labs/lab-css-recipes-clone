@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
 .lista {
   list-style-type: none;
 }
@@ -14,6 +18,7 @@
   color: white;
   text-align: center;
   font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 #introduction .first-div {
