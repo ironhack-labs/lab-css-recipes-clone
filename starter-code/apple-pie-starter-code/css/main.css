@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+* {
+  font-family: Roboto, sans-serif;
+
+}
 
 .lista {
   list-style-type: none;
@@ -18,7 +22,7 @@
   color: white;
   text-align: center;
   font-size: 70px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 
 }
 #introduction .first-div {
@@ -41,7 +45,11 @@
   text-align: center;
   
 }
-#ingredients  h2, ul {
+#ingredients  h2 {
+  font-size: 40px;  
+  font-weight: 500;
+}
+#ingredients  ul {
   font-size: 30px;  
 }
 
@@ -49,9 +57,14 @@
   width: 80%;
   margin: 0 auto;  
 }
-#instructions  h2, ol {
-  font-size: 30px;  
+#instructions  h2 {
+  font-size: 40px;  
+  font-weight: 500;
+
 }
+#instructions  ol {
+  font-size: 30px;  
+
 .line{
   width: 80%;
 }
