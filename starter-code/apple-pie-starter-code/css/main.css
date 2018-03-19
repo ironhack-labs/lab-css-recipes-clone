@@ -21,7 +21,7 @@ body {
   background-repeat: no-repeat;
   padding: 300px;
   color: white;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 .intro {
@@ -30,12 +30,16 @@ body {
   font-size: 20px;
 }
 
-.recipe-info {
+.recipe-info,
+.cooking-info {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
 .ingredients {
   padding: 50px 0;
+  font-size: 20px;
 }
 
 .ingredients h2 {
@@ -46,12 +50,9 @@ body {
   margin-left: 20px;
 }
 
-.ingredients img {
-  text-align: center;
-}
-
 .directions {
   padding: 50px 0;
+  font-size: 20px;
 }
 
 .directions h2 {
