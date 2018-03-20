@@ -1,0 +1,104 @@
+/***************************************************************************
+CSS RESET
+***************************************************************************/
+
+body, p, h1, h2, h3, h4, h5, h6, p, ul, ol, li, div, section, header, img, hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+/***************************************************************************
+HEADER
+***************************************************************************/
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 900px;
+    height: 500px;
+    margin: 0 0 70px 0;
+}
+
+.apple-header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 900px;
+    background-position: center;
+}
+
+.onion-header {
+    background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+    background-size: 900px;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 4.5em;
+}
+
+
+/***************************************************************************
+RECIPE INFO
+***************************************************************************/
+
+.summary, .cook-info, .directions {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #777;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 0 0 30px;
+}
+
+.info-img {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px solid #999;
+    margin: 40px auto 60px;
+}
+
+
+/***************************************************************************
+COOKING INFO
+***************************************************************************/
+
+h4 {
+    font-size: 1.2em;
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.cook-info ul, p {
+    color: #777;
+    margin: 0 0 30px 20px;
+    line-height: 1.4em;
+}
