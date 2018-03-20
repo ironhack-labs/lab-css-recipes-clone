@@ -5,5 +5,65 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+* {
+  font-weight: lighter;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  line-height: 600px;
+  letter-spacing: 5px;
+  color: white;
+  height: 600px;
+  background-size: 1000px 600px;
+  background-image: url('/Users/briannacho/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-box {
+  width: 800px;
+  margin-left: 150px;
+  margin-right: 350px;
+}
+
+.title-size {
+  font-size: 25px;
+}
+
+.text-size {
+  font-size: 18px;
+}
+
+.info-pics {
+  height: 78px;
+  width: 280px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.recipe-pics {
+  height: 70px;
+  width: 380px;
+  margin-left: 350px;
+  margin-right: 400px;
+}
+
+.line-length {
+  width: 800px;
+  margin-left: 150px;
+  margin-right: 350px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before { 
+  content:"- ";
 }
