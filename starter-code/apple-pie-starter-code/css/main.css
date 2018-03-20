@@ -1,0 +1,59 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+.header {
+  background-image: url('/home/rod/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+  height: 800px;
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-size: 4.0em;
+  color: white;
+}
+h2{
+  font-weight: 100;
+}
+.intro{
+  font-size: 1.4em;
+}
+.ingredients ul {
+  list-style-type: none;
+}
+
+.directions ol li{
+  list-style-position: inside;
+}
+
+.directions ol,
+.ingredients ul{
+  font-weight: 100;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+img{
+  display: block;
+  margin: 0 auto; 
+}
+
+.intro,
+.ingredients,
+.directions{
+  margin: 0 80px;
+}
+
+.header h1{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 800px;  
+}
