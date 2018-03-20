@@ -1,0 +1,37 @@
+
+h1, body, html, main {
+  margin: 0;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.apple{
+  		padding-left: 20%;
+  		padding-right: 20%;
+  	}
+.apple-pie{
+	height: 300px;width: 100%;
+}
+.apple-pie-text{
+	position: relative;
+    top: -300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.grandmother{
+	padding: 20px;position: relative;top: -100px;
+}
+.recipe{
+	height: 75px;width: 350px;
+}
+.ingredients{
+	padding: 20px;
+}
+.info{
+	height: 75px;width: 350px;
+}
+.directions{
+	padding: 20px;
+}
