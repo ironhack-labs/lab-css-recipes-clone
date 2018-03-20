@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+}
+
+img { 
+    display: block;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+}
+
+#intro {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0;
+    padding: 5%;
+}
+
+#ingredients {
+    display: block;
+    margin: auto;
+    border-color: black;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0;
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -10px;
+  }
+
+#instructions {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0;
+    padding: 5%;
+}
+
+ol {
+    margin: 0;
+  }
+  
+ol li:before{
+    content: ') ';
+    position: absolute;
+    margin-left: -3.1em;
+    text-align: right;
+    width: 3em;
+  }
