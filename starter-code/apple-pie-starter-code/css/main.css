@@ -27,7 +27,7 @@ h1{
 
 }
 
-ul li, ol li {
+ul li {
 	list-style-type: none;
 }
 
@@ -35,12 +35,9 @@ ul li:before {
 	content: "- ";
 }
 
-
-ol li:before {
-	counter-increment: section;
-	content: "" counter(section) ') ';
-}
-
+ol li {
+    list-style-position:inside;
+    }
 
 
 .introduction {
