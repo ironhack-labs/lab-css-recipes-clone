@@ -54,12 +54,12 @@ ol li:before {
 .introduction img{
     display:block;
     margin:0 auto;
-    width:50%;
+    width:40%;
     
     
 }
 
-.text {
+.container {
     padding: 15px 150px;
     color:grey;
     position:relative;
@@ -75,10 +75,10 @@ ol li:before {
 .recipe img{
     margin:0 auto;
     display: block;
-    width: 50%;
+    width: 40%;
 }
 
-.direction {
+.directions {
     text-align: left;
 
 }
