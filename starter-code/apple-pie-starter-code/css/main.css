@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+header{
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+
+}
+h1{
+  line-height: 650px;
+  text-align: center;
+  font-size: 68px;
+  font-weight: 300;
+}
+h3{
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+}
+/* -- Section 1 -- */
+.section1 p {
+  margin-top: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  font-size: 18px;
+  color: #535353;
+}
+.section1 img{
+  display: flex;
+  margin: 0 auto;
+  height: 55px;
+  margin-bottom: 2%;
+}
+
+/* -- Section 2 -- */
+
+.section2 ul{
+  margin-bottom: 4%;
+}
+.section2 li{
+  margin-left: 12%;
+  color: #535353;
+  list-style: none;
+}
+.section2 li:before{
+  content: "-";
+  margin-right: 4px;
+}
+.section2 img{
+  display: flex;
+  margin: 0 auto;
+  height: 70px;
+  margin-bottom: 2%;
+}
+/* -- Section3 -- */
+.section3 ul{
+  margin-bottom: 4%;
+}
+.section3 li{
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #535353;
+  list-style: none;
+}
