@@ -1,9 +1,89 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box; /*IMPORTANT! Resets box model*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, html, body {
+  margin: 0;
+  padding: 0;
+  color: #373737;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../images/soup.jpg);
+  background-size: 100% auto;
+  background-position: bottom;
+  padding: 180px 60px;
+  width: 900px;
+  margin: auto auto 60px auto;
+}
+
+.header-text {
+  color: #f5f5f5;
+  font-size: 70px;
+  text-align: center;
+  font-weight: lighter;
+  margin: auto auto 30px auto;
+}
+
+.section {
+  width: 700px;
+  margin: 40px auto 0 auto;
+}
+
+.summary-text {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+.icon-image {
+  display: block;
+  margin: 35px auto 20px auto;
+  width: 350px;
+}
+
+.hr-style {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.regular-text {
+  font-size: 16px;
+  line-height: 1.3em;
+  padding: 0 0 0 10px;
+}
+
+.h2-text {
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: left;
+  margin: 5px auto 30px auto;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+.section2 {
+  width: 700px;
+  margin: 30px auto 100px auto;
 }
