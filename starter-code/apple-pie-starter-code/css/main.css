@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+      background-image: url("apple-pie.jpg");
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+  }
+
+  h1{
+      font-size: 10px;
+  }
