@@ -1,0 +1,79 @@
+html {
+
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+
+}
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+
+}
+
+#AppleBackgroundImage {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  width: auto;
+  height: 500px;
+}
+
+.applePie {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 200px;
+}
+.grandmother {
+  margin: 0 25%;
+  padding-top: 40px;
+  width: 50%;
+  font-size: 20px;
+}
+.listIngredients {
+  margin: 0 25%;
+}
+.list{
+  line-height: 15px;
+  margin-left:2%;
+}
+.applePieCookingTime {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.applePieCookingTimePic {
+  max-width: 40%;
+}
+
+.applePiePreparationTime {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.applePiePreparationTimePic {
+  max-width: 40%;
+}
+
+#direction {
+  margin: 0 25%;
+}
+
+hr{
+  margin:0 25%;
+}
+
+.text{
+  margin-left: 2%;
+  margin-top:0;
+}
