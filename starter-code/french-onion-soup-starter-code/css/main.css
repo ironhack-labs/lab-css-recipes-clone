@@ -7,3 +7,84 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+  text-align: justify;
+}
+
+img { 
+  display: block;
+  max-width: 100%; 
+  margin: 0 auto;
+  padding: 25px 0 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#header {
+  display:block;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  margin:0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-size: 50px;
+}
+
+#intro {
+  text-align-last: center;
+  margin: 0;
+  padding: 50px 15% 0;
+}
+
+#ingredients {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0 15%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -10px;
+}
+
+#instructions {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0 15%;
+}
+
+ol {
+  margin: 0;
+}
+
+ol li:before{
+  content: ') ';
+  position: absolute;
+  margin-left: -3.1em;
+  text-align: right;
+  width: 3em;
+}
