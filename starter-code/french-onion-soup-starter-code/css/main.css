@@ -5,5 +5,36 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  display: border-box;
+}
+
+/* ===  ===*/
+
+#onionsoup {
+  background-image: url("./../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+  padding: 25% 0;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.container {
+margin: 0 15%;
+}
+
+.image-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(102, 102, 102);
 }
