@@ -7,3 +7,12 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h1 {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+.header {
+ background-color: red; 
+}
