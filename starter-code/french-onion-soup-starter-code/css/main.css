@@ -1,9 +1,73 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+* {
+    margin: 0 90px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url(/Users/burman/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.94);
+    text-align: center;
+    padding: 25% 0;
+    font-size: 4em;
+    font-weight: 10;
+}
+
+h5{
+    padding: 0 0 30px 0;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0px 50px 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.image img{
+    margin: 0 200px;
+    size: 0.5em;
+    max-width: 300px;
+    height: auto;
+}
+
+
+
+
+.hr{
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.ingredients{
+    font-size: 18px;
+}
+
+ul{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+
