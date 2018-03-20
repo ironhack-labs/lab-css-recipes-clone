@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#top{
+  background-image: url(images/apple-pie.jpg);
+
+}
+
+#content1 h1{
+  color: white;
+}
+
+.container-2{
+  text-align: justify;
+}
