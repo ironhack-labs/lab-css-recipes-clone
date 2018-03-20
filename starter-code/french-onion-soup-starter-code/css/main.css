@@ -2,8 +2,53 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  height: 450px;
+  background-image: url("../images/soup.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#bigTitle {
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 55px;
+  padding-top: 220px;
+  letter-spacing: 2px;
+}
+
+.box {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.ingredients {
+  list-style-type: none;
+}
+
+.subTitle2 {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
