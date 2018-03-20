@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Header Styling */
+
+.header{
+    background-image: url(/home/lossbow/Documents/Code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    height:100vh;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.title{
+    color:white;
+    font-size:70px;
+    font-weight: 300;
+    margin: auto;
+}
+
+/* Description section styling */
+
+#description .article{
+    text-align:justify;
+    font-size:30px;
+    font-weight:ligher;
+    margin: 10% 15% 5% 15%;
+
+}
+
+.recipe-info{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+        
+}
+
+#description .hr-styler{
+    margin:20px 15% 30px 15%;
+   }
+
+
+  /* Ingredients section styling */
+
+#ingredients h2{
+    font-size:30px;
+    font-weight: bolder;
+    margin: 0 15%;
+}
+
+#ingredients ul{
+    margin:15px 13%;
+    list-style-type:none;
+}
+
+ul.dashed > li{
+    text-indent:-5px;
+    line-height: 1.5;
+}
+
+ul.dashed > li:before{
+    content:"-  ";
+    text-indent:-5px;
+}
+
+.cooking-info{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+        
+}
+
+#ingredients .hr-styler{
+    margin:20px 15% 30px 15%;
+  }
+
+  /* Directions section styling */
+
+#directions h2{
+    font-size:30px;
+    font-weight: bolder;
+    margin: 0 15%;
+}
+
+#directions ol{
+    margin:15px 13%;
+    list-style-type: decimal;
+}
+
+ol.ordered > li{
+    text-indent:-5px;
+}
+
+ol.ordered > li:before{
+    content:")  ";
+    text-indent:-5px;
+}
+
