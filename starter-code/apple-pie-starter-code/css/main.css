@@ -26,6 +26,24 @@ h2 {
   font-size: 1.5em;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
 
 .hero {
   width: 100%;
