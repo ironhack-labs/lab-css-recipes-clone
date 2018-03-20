@@ -1,30 +1,50 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
 
-  h1 {
-    font-size: 9em;
-    text-align: center;
-    text-transform: uppercase;
-  }
+/* ---- reset ---- */
 
-  h3 {
-    font-size: 4.2em;
-    text-align: center;
-  }
-  
-  h4 {
-    font-size: 1.5em;
-    letter-spacing: 0.4px;
-    margin-bottom: 15px;
-  }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* -- typogaphy -- */
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 400px;
+  color: white;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
 
 .header {
-    background: url("../images/apple-pie.jpg") 0 0 no-repeat;
-    background-size: cover;
-    max-width: 900px;
-  }
+  box-sizing: border-box;
+  background: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 900px;
+  margin: 0 auto 60
+}
 
 .basic {
 
