@@ -1,0 +1,41 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 50px;
+    padding: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    
+}
+
+  
+div{
+    background-image: url("../images/apple-pie.jpg");
+    width:100%;
+    background-size: cover;
+    height: 400px;
+}
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+
+p{
+    margin-bottom: 30px;
+ 
+}
+
+ul{
+    list-style-type:none;
+}
