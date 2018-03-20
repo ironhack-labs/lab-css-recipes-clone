@@ -1,0 +1,72 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+
+* {
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+  }
+
+h1 {
+    font-weight: lighter;
+    font-size: 250%;
+  }
+
+.margins {
+    margin: 10px 10px 30px 10px;
+}
+
+div {
+    margin: 50px 10px 10px 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0,0,0,0.8);
+}
+
+h3 {
+    font-weight: normal;
+    color: rgba(0,0,0,0.8);
+}
+
+.white {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left; 
+  }
+
+  ol{
+      list-style-type: list;
+  }
+
+.center {
+    text-align: center;  
+}
+
+.justify {
+    text-align: justify;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60vh;
+}
+
+img {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
