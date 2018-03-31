@@ -1,3 +1,15 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 .header{
   background-image: url('/Users/ariel/code/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
   
