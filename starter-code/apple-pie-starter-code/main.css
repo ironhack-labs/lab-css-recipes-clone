@@ -1,5 +1,6 @@
 body {
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+line-height: 140%;
 }
 
 .header-background {
@@ -8,6 +9,7 @@ max-width: 50%;
 height: 600px;
 margin-left: 25%;
 background-size: cover;
+background-position: center;
 }
 
 h1 {
@@ -38,7 +40,7 @@ hr {
 .container {
   font-size: 18px;
   width: 40%;
-  margin: 2% 0 0% 30%;
+  margin: 2% 0 2% 30%;
   color: darkslategray;
   font-weight: lighter;
 }
