@@ -21,19 +21,31 @@ h1,h3 {
   font-weight: lighter;
 }
 
+h3 {
+  color: black;
+  margin: 4% 0;
+}
+
 hr {
   width: 40%;
   background-color: lightgrey; 
   height: 2px;
   border: none;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .container {
   font-size: 18px;
   width: 40%;
-  margin: 2% 0 2% 30%;
+  margin: 2% 0 0% 30%;
   color: darkslategray;
   font-weight: lighter;
+}
+
+.container p {
+  font-size: 20px;
+  margin: 10% 0 0 0;
 }
 
 .position-corrector {
@@ -50,5 +62,5 @@ hr {
 
 .image-modification {
   width: 350px;
-  margin: 3% 0 0 25%;
+  margin: 6% 0 2% 25%;
 }
