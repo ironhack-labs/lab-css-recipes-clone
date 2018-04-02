@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.header{
+  background-image: url("/Users/administrador/Documents/IRONHACK/WEEK1/DAY1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  height: 660px;
+}
+.header h1{
+  font-family: Open Sans;
+  font-size: 70px;
+  padding-top: 250px;
+  font-weight: 20;
+  color: white;
+  text-align: center;
+}
+.subheader{
+  text-align: center;
+  font-family: open sans;
+  font-weight: 10;
+  font-size: 22px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.ingredients{
+  padding: 20px 60px 20px 60px;
+  font-family: open sans;
+  font-size: 17px;
+
+}
