@@ -8,6 +8,7 @@ p {
   font-size: 1.5em;
   font-weight: 300;
   color: #555;
+  line-height: 1.5em;
 }
 
 h3 {
@@ -21,6 +22,7 @@ li {
   font-size: 1.25em;
   font-weight: 300;
   color: #555;
+  line-height: 1.5em;
 }
 
 hr {
@@ -74,6 +76,13 @@ li:before {
   display: block;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.directions p {
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.5em;
 }
 
 .footer {
