@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+html{
+    margin: 0;
+    font-family: 'Open sans', sans-serif;
+}
+body{
+    width: 1100px;
+}
+.header{
+    background-image: url("images/apple-pie.jpg");
+    background-position: (0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 300px;
+    font-size: 85px;
+}
+.description{
+    text-align: left;
+    font-size: 25px;
+}
+.lists{
+    font-size: 20px; 
+}
+li{
+    list-style: '-';
+}
+.contain{
+    margin: 70px 115px;
+}
+.container{
+    margin: 20px 115px;
+}
+.bake{
+    width: 450px;
+    position: relative;
+    left: 200px;
+    margin: 30px 0 20px 0;
+}
+.cook{
+    width: 400px;
+    position: relative;
+    left: 225px;
+    margin: 30px 0 20px 0;
+}
+p{
+    font-size: 30px;
+    line-height: 80px;
+}
