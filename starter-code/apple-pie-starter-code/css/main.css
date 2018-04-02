@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    text-align: center;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: Arial;
+}
+
+p{
+   
+    margin: auto;
+    width: 60%;
+    padding: 30px 0px 30px 0px;
+    font-size: 22px;
+    font-family: Arial;
+}
+.recipe, .cooking{
+    position: relative;
+    text-align: center;
+}
+
+
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+    width: 60%;
+}
+.ingredients-title, .directions-title{
+font-size: 20px;
+font-family: Arial;
+padding: 0px 0px 20px 0px;
+margin:auto;
+width:60%;
+
+}
+
+.ingredients, .directions{
+    margin:auto;
+    width:65%;
+    padding:0px;
+    font-family: arial;
+}
+ul.dashed {
+    list-style-type: none;
+  }
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+    
+  }
+
+  ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
