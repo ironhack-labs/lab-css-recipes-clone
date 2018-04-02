@@ -1,0 +1,14 @@
+*{
+  margin:0px 20px;
+}
+#title{
+  font-size: 60px;
+  text-align: center;
+  background-image:url("/Users/renetorresalvarez/Documents/Ironhack/Week1/Day1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") ; 
+  background-opacity:0.1;
+  background-repeat: no-repeat;
+  background-position: center; 
+
+  height: 400px;
+  color:white;
+}
