@@ -1,0 +1,54 @@
+h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+h5 {
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  border-top-style: solid;
+  border-top-color: #999999;
+  padding-top: 60px;
+}
+
+ol {
+  counter-reset: o-counter;
+  list-style-type: none;
+}
+ol li:before {
+  content:  counter(o-counter) ') ';
+  counter-increment: o-counter;
+}
+
+ul li {
+  list-style-type: "- ";
+}
+
+.background-picture1 {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.background-picture2 {
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.content-container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  padding: 80px;
+  font-size: 20px;
+}
+.image-resize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding-top: 15px;
+}
