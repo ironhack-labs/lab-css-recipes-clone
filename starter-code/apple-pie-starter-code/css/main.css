@@ -19,4 +19,17 @@ body {
     text-align: center;
 }
 
-.descripcion h4 {}
+.descripcion h4 {
+    padding: 30px 13% 8px;
+    font-size: 24px;
+    text-align: left;
+}
+
+#info {
+    margin: 0 33%;
+    width: 33%;
+}
+
+.recipe {
+    margin: 0 10%;
+}
