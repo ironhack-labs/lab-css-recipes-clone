@@ -1,9 +1,40 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+header {
+	background: url("../images/soup.jpg") no-repeat center center;
+	height: 500px;
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+header h1 {
+	padding-top: 200px;
+}
+
+.content {
+	padding: 55px 15%;
+}
+
+.process{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.dash-list {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.pictures {
+	padding-top: 30px;
+	padding-bottom: 30px;
+    margin-left: 250px;
+    width: 40%;
 }
