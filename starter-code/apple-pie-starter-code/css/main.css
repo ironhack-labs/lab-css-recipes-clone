@@ -1,0 +1,101 @@
+
+body,html{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+}
+p{
+    font-weight: 100;
+    line-height: 20px;
+}
+h4{
+    font-weight: 400;
+}
+header{
+    width:100%;
+    height: 500px;
+    display: table;
+}
+header h1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 100;
+}
+header.apple-pie-header{
+    background: url("../images/apple-pie.jpg") no-repeat;
+    background-size:cover;
+}
+
+.recipe-wrapper{
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+.recipe-info li{
+    display: inline;
+}
+.cooking-info {
+    font-size: 11px;
+    font-weight: 300;
+    list-style-type: none;
+    width: 225px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 25px;
+}
+.cooking-info li:first-child {
+    position: relative;
+}
+.cooking-info li:first-child:before {
+    content: '';
+    background: url(../images/clock.png) no-repeat;
+    background-size: 26px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -25px;
+    top: 5px;
+}
+.cooking-info li {
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #b4b4b477;
+    margin: 30px 0;
+}
+.cooking-info li:last-child {
+    border-right:0;
+}
+.cooking-info b, .cooking-info span{
+    font-weight: 500;
+    color: #b4b4b4;
+}
+.cooking-info img{
+    float: left;
+}
+.recipe-info{
+    font-size: 10px;
+    text-align: center;
+    margin: 40px 0 30px;
+}
+.recipe-info img{
+    width: 20px;
+    margin: -5px 15px;
+}
+
+.ingredients {
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 0 15px;
+}
+.ingredients li:before{
+    content:'- '
+}
+#directions p {
+    font-size: 12px;
+    padding: 0 20px;
+}
+hr {clear:both}
