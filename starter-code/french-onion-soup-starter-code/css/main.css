@@ -1,9 +1,89 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+
+body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body{
+  font-weight: 100;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 100;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list) ")  ";
+  counter-increment: list;
+}
+
+.hero{
+  height: 500px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.hero-image{
+  background-image: url("../images/soup.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+
+}
+
+.french-onion-heading{
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.recipe-description{
+  padding: 0px 50px 0px 50px;
+  margin: 45px;
+}
+
+.recipe-estimates{
+  text-align: center;
+}
+
+.recipe-info{
+  height: 50px;
+  width: 300px;
+}
+
+.ingredients-container{
+  padding: 15px 50px 15px 50px;
+}
+
+.ingredients-list{
+  list-style-type: none;
+}
+
+.recipe-times{
+  text-align: center;
+}
+
+.cooking-info{
+  height: 45px;
+  width: 325px;
+}
+
+.directions-container{
+  padding: 15px 50px 15px 50px;
+}
+
