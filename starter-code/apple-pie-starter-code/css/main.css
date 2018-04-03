@@ -1,0 +1,126 @@
+/*Some necessary adjustments*/
+h1, body, html, main 
+{
+    margin: 0;
+}
+  /*Import the font and set the default size*/
+html 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+li
+{
+    font-size: 1em;
+}
+/*Center content of page*/
+.wrapper {
+    margin-right: auto; 
+    margin-left:  auto;  
+    max-width: 960px;  
+    padding-right: 10px;
+    padding-left:  10px;
+  }
+/*Recipe Item image*/
+/*.recipe-item .recipe-item2
+{    
+    background-size: cover;
+    text-align: center;       
+    height: 480px; 
+    margin:40px 0 60px 0;         
+}*/
+/*Recipe Item apple*/
+.recipe-image-cont
+{
+    background-size: cover;
+    text-align: center;       
+    height: 480px; 
+    margin:40px 0 60px 0; 
+}
+#recipe-item-one
+{
+    background-image: url('../images/apple-pie.jpg');
+    background-position-y:center;    
+}
+/*Recipe Item Soup*/
+#recipe-item-two
+{
+    background-image: url('../../french-onion-soup-starter-code/images/soup.jpg');     
+    background-position-y:bottom;             
+}
+/*Recipe Item image description - center text*/
+.recipe-item-description
+{
+    position: relative;
+    font-size:3.00em;
+    font-weight: lighter;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:white;          
+}
+/*Container for recipe info - not same width as image*/
+.recipe-info
+{
+    padding: 0 12%;    
+}
+/*Recipe Description*/
+.recipe-info-description
+{
+    font-size:1.15em;
+    color:darkgray;
+}
+/*Container for image*/
+.cooking-info
+{
+    text-align: center;
+}
+/*Cooking info image*/
+.cooking-image
+{
+    height:55px;
+    width:355px;
+}
+/*Add '-' to unordered list elements*/
+.ingredients-list
+{
+    list-style:none;
+    color:darkgray;
+    padding-left: 15px;
+}
+.ingredients-list li
+{
+    display:table;     
+}
+.ingredients-list li:before
+{
+    content: '-';
+    display: table-cell;
+    padding-right: 5px;
+}
+
+/*directions list - add ')' instead of '.' in order list elements*/
+.directions-list
+{
+    counter-reset: list;
+    color:darkgray;
+    padding-left:15px;
+}
+.directions-list > li
+{
+    list-style: none;    
+}
+.directions-list > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;    
+}
+h2
+{
+    color:grey;
+}
+
+.ingredients-image
+{
+    height:75px;
+    width:355px;
+}
