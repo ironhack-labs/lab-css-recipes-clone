@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(139, 221, 221);
+}
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
