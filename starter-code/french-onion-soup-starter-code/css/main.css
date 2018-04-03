@@ -7,3 +7,59 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.hero {
+  background: url(../images/soup.jpg);
+    padding: 25%;
+    background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  text-align: left;
+  font-size: 40px;
+}
+
+.content {
+  padding: 40px 120px;
+}
+
+.recipe img {
+  display: block;
+  margin: auto;
+}
+
+.recipe-text {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li:before {
+  content: "- ";
+}
+
+.prep img {
+  display: block;
+  margin: auto;
+}
+
+.directions {
+  padding-left: 30px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 30px;
+}
