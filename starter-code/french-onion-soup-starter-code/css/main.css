@@ -10,5 +10,32 @@ html {
 
 #title {
   text-align: center;
-  padding-top: 40%; 
+  padding-top: 20%; 
+  padding-bottom: 20%;
+  color: white;
+  font-size: 100px;
+}
+
+#titleBack {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+}
+
+.recipeInfo {
+  text-align: center;
+  padding: 100px 100px 60px 100px;
+}
+
+.ingredients {
+  text-align: left;
+  padding: 0px 100px 100px 100px;
+}
+
+.ingredientsImg {
+  text-align: center;
+}
+
+.directions {
+  text-align: justify;
+  padding: 0px 100px 100px 100px;
 }
