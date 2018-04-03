@@ -1,0 +1,94 @@
+body {
+ margin: 0;
+ width: 100%;
+ padding: 0;
+
+}
+
+.head {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 600px;
+  width: 100%;
+}
+
+.head h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+color: white;
+font-size: 49px;
+margin-top: 0;
+margin-bottom: 0;
+padding-top: 220px;
+padding-left: 70px;
+
+
+
+}
+.partxt{
+  
+  width: 100%;
+  height: 100px; 
+  padding-top: 50px;
+  padding-left: auto;
+  padding-right: auto;
+  
+}
+.partxt p{
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+ 
+  
+}
+.cktmimg{
+  padding-left: 0;
+  padding-bottom: 20px;
+
+
+}
+.cookinf{
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+hr{
+  width: 80%;
+}
+.cookinft{
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 20px;
+
+}
+.ingr{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 30px;
+
+}
+.ingr ul{
+  list-style: none;
+
+}
+.dir{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+.dir h2{
+  padding-bottom: 30px;
+}
