@@ -1,0 +1,68 @@
+body {
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+line-height: 140%;
+}
+
+.header-background {
+background-image: url("/home/teresa/code/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+max-width: 50%;
+height: 600px;
+margin-left: 25%;
+background-size: cover;
+background-position: center;
+}
+
+h1 {
+  padding-top: 27%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+h1,h3 {
+  font-weight: lighter;
+}
+
+h3 {
+  color: black;
+  margin: 4% 0;
+}
+
+hr {
+  width: 40%;
+  background-color: lightgrey; 
+  height: 2px;
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  font-size: 18px;
+  width: 40%;
+  margin: 2% 0 2% 30%;
+  color: darkslategray;
+  font-weight: lighter;
+}
+
+.container p {
+  font-size: 20px;
+  margin: 10% 0 0 0;
+}
+
+.position-corrector {
+  list-style-position: inside;
+  margin: 0 0 0 3%;
+  padding: 0;
+}
+
+.no-dots {
+  margin: 0 0 0 3%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.image-modification {
+  width: 350px;
+  margin: 6% 0 2% 25%;
+}
