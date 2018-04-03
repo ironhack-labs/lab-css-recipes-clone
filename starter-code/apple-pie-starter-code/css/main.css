@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.apple-pie {
+  background: url(../images/apple-pie.jpg) 0 0 no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  text-align: center;
+  color: white;
+  line-height: 500px;
+  font-size: 1.7em;
+}
+
+.french-onion {
+  background: url(../../french-onion-soup-starter-code/images/soup.jpg) 0 0 no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  text-align: center;
+  color: white;
+  line-height: 500px;
+  font-size: 1.7em;
+}
+
+body {
+  font-family: open sans;
+}
+
+p, ul, ol {
+  color: #4e4e4e;
+}
+
+p {
+  margin: 0 95px;
+  padding: 65px 0px 30px;
+  text-align: left;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 275px;
+}
+
+div {
+  margin: 20px 95px 50px;
+  padding: 40px 0 0;
+  text-align: left;
+  border-top: 2px solid #979797;
+}
+
+h3 {
+  color: #282828;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  text-indent: 10px;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol li {
+  list-style: none;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+}
+
+ol li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
