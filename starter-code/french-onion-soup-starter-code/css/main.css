@@ -1,4 +1,4 @@
-/*Some necessary adjustments*/
+
 h1, body, html, main {
   margin: 0;
 }
@@ -6,4 +6,48 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+}
+
+
+.container {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+}
+
+
+.text-block {
+  position: absolute;
+  color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: ;
+}
+
+.pie-img{
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }
