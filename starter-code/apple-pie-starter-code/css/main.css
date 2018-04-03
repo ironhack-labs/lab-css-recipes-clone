@@ -16,6 +16,7 @@ h1{
   font-weight: 100;
 }
 
+/* http://jsfiddle.net/qNjSp/ */
 ol {
   counter-reset: list;
 }
@@ -28,6 +29,7 @@ ol > li:before {
   content: counter(list) ")  ";
   counter-increment: list;
 }
+/* http://jsfiddle.net/qNjSp/ */
 
 .hero{
   height: 500px;
