@@ -9,12 +9,11 @@ html {
   font-size: 18px
 }
 .background-image {
-  background-image: url(../images/soup.jpg);
-  position: relative;
+  background-image: url(/Users/chris/Code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-position: 0 0;
   background-repeat: no-repeat;
-  size: cover;
-  height: 500px;
-  padding: 50px;
+  height: 550px;
+  background-size: cover;
 }
 
 h1, h2, h3, p, li{
@@ -23,10 +22,11 @@ h1, h2, h3, p, li{
 
 h1 {
   position: relative;
-  margin: 200px;
+  padding: 200px;
   font-weight: 500;
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
 h2 {
