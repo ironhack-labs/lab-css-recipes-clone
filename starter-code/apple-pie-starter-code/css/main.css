@@ -1,0 +1,84 @@
+/* Some necessary adjustments */
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  margin-left: 150px;
+  margin-top: 40px;
+  width: 1000px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.centertext {
+text-align: center;
+top: 50%;
+left: 50%;
+margin-top: 50px;
+
+
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+ol.para {
+  counter-reset: list;
+}
+ol.para > li {
+  list-style: none;
+  margin-left: 0;
+}
+ol.para > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+
+}
