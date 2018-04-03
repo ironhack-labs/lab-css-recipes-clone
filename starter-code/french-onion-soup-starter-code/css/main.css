@@ -1,9 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.hero-image {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+  padding: 60px 20px 180px 20px;
+  height: 20em;
+  position: relative;
+}
+
+.hero-image h1 {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+padding: 100px;
+text-indent: 1em;
+
+}
+
+.ingredients li::before {
+  content: '- ';
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 1200px;
 }
