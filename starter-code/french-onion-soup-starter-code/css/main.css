@@ -1,9 +1,72 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.list {
+  font-size: 15px;
+  margin-left: 15%;
+}
+
+.heroText {
+  font-size: 80px;
+  color: white;
+}
+
+.openingText {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* PICTURES */
+.heroImage {
+  background-image: url(../images/soup.jpg);
+  min-width: 1024px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.recipePic {
+  margin: 0 auto;
+  width: 27%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cookingPic {
+  margin: 0 auto;
+  width: 24%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* PICTURES */
+
+.container {
+  max-width: 90%;
+}
+
+.title {
+  font-size: 19px;
+  margin-left: 12%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 75%;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: square;
 }
