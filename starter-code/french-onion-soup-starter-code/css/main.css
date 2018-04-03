@@ -7,3 +7,47 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.image1 {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+}
+
+.text-image {
+  padding: 20% 20% 20% 30%;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.paragraph {
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(98, 99, 92);
+  font-weight: lighter;
+  font-size: 16px;
+
+}
+
+.headers {
+
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+
+}
+
+.hr {
+  color:  rgb(98, 99, 92);
+font-weight: bold;
+margin-left: 8%;
+margin-right: 8%;
+line-height: 50px 50px 50px 50px;
+
+}
+
+.figure {
+  text-align: center;
+}
