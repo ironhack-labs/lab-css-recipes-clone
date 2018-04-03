@@ -1,9 +1,58 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.container{
+  padding: 20px 100px 20px 100px
+}
+hr{
+  margin: 0 100px 0 100px;
+}
+.header{
+  background-image: url("/Users/administrador/Documents/IRONHACK/WEEK1/DAY1/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  height: 660px;
+}
+.header h1{
+  font-family: Open Sans;
+  font-size: 70px;
+  padding-top: 250px;
+  font-weight: 20;
+  color: white;
+  text-align: center;
+}
+.subheader{
+  text-align: center;
+  font-family: open sans;
+  font-weight: 10;
+  font-size: 22px;
+  padding-top : 50px;
+}
+.subheader img{
+  padding: 40px 0 20px 0;
+  width: 390px;
+  display: block;
+  margin: 0 auto;
+}
+.ingredients{
+  font-family: open sans;
+  font-size: 17px;
+}
+.ingredients p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.directions{
+  font-family: open sans;
+  font-size: 17px;
+}
+.directions p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ingredients img{
+  padding: 40px 0 20px ;
+  width: 330px;
+  display: block;
+  margin: 0 auto;
 }
