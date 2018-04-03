@@ -1,0 +1,68 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+  }
+
+  /*apple pie*/
+ 
+  .apple-pie h1{
+      background-image: url("../images/apple-pie.jpg");
+      background-size: 100%;
+      padding: 23%;
+    }
+    .apple-pie h1{
+        text-align: center;
+        color: white;
+    }
+
+/*grandma*/
+
+.grandma{
+    width: 60%;
+    padding: 1% 0 1% 23%
+}
+.grandma img{
+    width: 60%;
+    padding: 8% 0 0 20%;
+    
+}
+
+/*ingredients*/
+
+.ingredients{
+    width: 60%;
+    padding: 1% 0 1% 23%}
+
+.dashed{
+    list-style-type: none;
+}
+.dashed li:before {
+    content: "- ";  
+}
+
+.ingredients img{
+    width: 60%;
+    padding: 8% 0 0 20%;
+}
+
+/*directions*/
+
+.directions{
+    width: 60%;
+    padding: 1% 0 1% 23%}
+
+.right-parentheses{
+    list-style: none;
+
+}
+
+.right-parentheses li:before {
+    content: counter(section) ") ";
+
+}
+.right-parentheses li{
+    counter-increment: section;
+}
+
+.border{
+    border-bottom: 1.5px solid #BFBFBF;
+}
