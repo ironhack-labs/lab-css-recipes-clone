@@ -4,13 +4,32 @@ body {
 
 h1 {
   text-align: center;
-  padding: 410px;
-  font-size: 5.5em;
+  padding: 350px;
+  font-size: 5.0em;
+}
+
+hr {
+  width: 60%;
 }
 
 #title {
   background-image: url("/Users/yandy/ironHack/labs/recipesClone/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
   background-size: cover;
   color: white;
-  height: 820px;
+  height: 780px;
+  margin: 0 50px;
+}
+
+#description {
+  margin: 0 auto 40px auto;
+  width: 35em;
+  font-size: 1.3em;
+  block-size: cover;
+  padding-top: 50px;
+}
+
+#recipe-info {
+  display: block;
+  margin: 0 auto 30px auto;
+  width: 28%;
 }
