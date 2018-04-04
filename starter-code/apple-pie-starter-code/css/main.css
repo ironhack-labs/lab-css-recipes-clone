@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 200px;
+  font-size: 4.5em;
+}
+
+h3 {
+  margin: 40px 100px 20px;
+  font-size: 1.5em;
+}
+
+hr {
+  width: 78%;
+}
+
+#title {
+  background-image: url("/Users/yandy/ironHack/labs/recipesClone/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  color: white;
+  height: 520px;
+  margin: 0 50px;
+}
+
+#description {
+  margin: 30px auto;
+  width: 35em;
+  font-size: 1.3em;
+  block-size: cover;
+  padding-top: 50px;
+}
+
+.info {
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+}
+
+.list {
+  margin: 0 100px 50px;
+  font-size: 1.2em;
+}
+
+.dash {
+  list-style-type: none;
+}
+
+.dash > li {
+  text-indent: -20px;
+}
+
+.dash > li:before {
+  content: "-";
+}
+
+ol {
+  margin: 0 85px 50px;
+  font-size: 1.2em;
+  counter-reset: list;
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li:before {
+  counter-increment: section;
+  content: counters(section, ".") ") ";
+}
