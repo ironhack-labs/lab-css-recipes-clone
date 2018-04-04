@@ -1,3 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 410px;
+  font-size: 5.5em;
+}
+
 #title {
-  background-image: url("/Users/yandy/ironHack/labs/recipesClone/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg")
+  background-image: url("/Users/yandy/ironHack/labs/recipesClone/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  color: white;
+  height: 820px;
 }
