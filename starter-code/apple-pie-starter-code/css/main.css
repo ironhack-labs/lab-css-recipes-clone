@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+*{
+font-family: 'Open Sans','Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+body {
+    margin: 100px;
+    width: 800px;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.dashlist ul {
+    list-style-type: none;
+}
+
+.dashlist ul li:before {
+    content: "-";
+    position: absolute;
+    margin-left: -.5em; 
+}
+
+.numlist ol {
+    counter-reset: list;        
+}
+
+.numlist ol > li {
+    list-style: none;
+    position: relative;
+}
+
+.numlist ol li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: absolute;
+    margin-left: -1.4em; 
+}    
+
+
+.flexcontainerimage {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;    
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+
+.flextextwhite {
+    font-weight: 150;
+    font-size: 7.5rem;
+    color: white;
+    margin: auto;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+.centercontainer{
+    text-align: center;
+}
+
+.centered {
+    display: inline-block;
+
+}
+
+.centersmallimage{
+    text-align: center;
+}
+
+.centeredsmallimage {
+    display: inline-block;
+
+}
+
+.container-preprecipe {
+    width: auto;
+    height: 75px;
+}
+
+.container-preprecipe img {
+    width: 100%;
+    height: auto;
+}
