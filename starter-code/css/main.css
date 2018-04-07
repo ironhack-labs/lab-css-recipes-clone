@@ -1,0 +1,86 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.logo {
+  background-image: url("/home/max/libgit2/lab-css-instagram-clone/starter-code/images/brand.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+.frame {
+  background-image: url("//home/max/libgit2/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-color: white;
+  /*float: left;
+  width: 40%*/
+}
+.apple {
+background-image: url("/home/max/libgit2/lab-css-instagram-clone/starter-code/images/badge-iphone.png");
+background-position:0 0;
+background-repeat: no-repeat;
+height: 100px;
+float: left;
+width: 32%
+}
+
+.google {
+  background-image: url("/home/max/libgit2/lab-css-instagram-clone/starter-code/images/badge-android.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  height: 100px;
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.par {
+  display: inline;
+  margin-left: 15px;
+}
+
+.par > a {
+  padding-left: 10px;
+}
+
+/*#os {
+
+}*/
+
+.clearfix {
+  clear: both;
+}
+.phone {
+  background-image: url("/home/max/libgit2/lab-css-instagram-clone/starter-code/images/phones.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  height: 500px;
+  
+  float: left;
+  width: 25%;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.float {
+  float: left;
+  width: 40% ;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.blue {
+  background-color: #06365f;
+  height: 300px
+}
