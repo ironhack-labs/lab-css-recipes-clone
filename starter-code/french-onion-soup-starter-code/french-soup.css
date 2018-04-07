@@ -1,0 +1,82 @@
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+/*!Multi classes!*/
+h1 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+}
+
+.par {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.pad {
+  padding-left: 5%;
+}
+
+.list {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*Body*/
+body {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+}
+
+/*-Section(0)-*/
+
+.french-soup{
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-color: darkblue;
+}
+
+.h1 {
+  /*padding-top: 180px;
+  padding-left: 40%;*/
+  font-size: 60px;
+  color: white;
+  padding-left: 27%;
+  padding-right: 27%;
+  padding-top: 210px;
+  width: 570px;
+  margin: 0%;
+  
+}
+/*-Section(1)-*/
+.french-data {
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/images/recipe-info.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  height: 70px;
+  margin-left: 27%;
+}
+
+/*-Section(2)-*/
+.french-cook {
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/images/cooking-info.png");
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 27%;
+}
+
+/*-Section(3)-*/
