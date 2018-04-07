@@ -1,0 +1,97 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+head {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+/*!Multi classes!*/
+h1 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+}
+
+.par {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.pad {
+  padding-left: 5%;
+}
+
+.list {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*Body*/
+body {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+}
+
+/*-Section(0)-*/
+.apple {
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-color: darkblue;
+}
+
+.h1 {
+  /*padding-top: 180px;
+  padding-left: 40%;*/
+  font-size: 50px;
+  color: white;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 150px;
+  width: 207px;
+  margin: 0%;
+  
+}
+
+
+/*-Section(1)-*/
+.apple-data {
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/recipe-info.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  height: 70px;
+  margin-left: 27%;
+  /**/
+   
+}
+
+/*-Section(2)-*/
+.apple-cook {
+  background-image: url("/home/max/libgit2/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/cooking-info.png");
+  background-position:0 0;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 27%;
+}
+
+/*-Section(3)-*/
+
+
+
+
+
+
+
+
