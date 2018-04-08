@@ -1,9 +1,97 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body{
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
+
+.first-section{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  color: white;
+  justify-content: center;
+}
+
+.first-section h1{
+  align-self: center;
+  font-size: 7em;
+}
+
+.first-txt{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  border-bottom: 1px gray solid; 
+}
+.first-txt{
+  text-align: justify;
+  font-size: 2.14em;
+}
+.first-txt img{
+  align-self: center;
+}
+
+.ingredients{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 1px gray solid; 
+}
+
+.ingredients h2{
+  align-self: flex-start;
+  font-size: 2em;
+}
+
+.ingredients li{
+  font-size: 1.8em;
+}
+
+.ingredients img{
+  margin-top: 20px;
+  align-self: center;
+}
+
+.final{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.final h2{
+  font-size: 2em;
+}
+
+.final p{
+  font-size: 1.8em;
+  text-align: justify;
+}
+
+.final p:nth-child(3){
+  margin-top: -25px;
+}
+
+.final p:nth-child(4){
+  margin-top: -25px;
+}
+
+.final p:nth-child(5){
+  margin-top: -25px;
+}
+
