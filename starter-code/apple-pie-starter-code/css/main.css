@@ -1,15 +1,29 @@
-.text {
+/* .text {
     background-color: red;
-}
-.img {
-    width: 100;
-    height: 100;
+} */
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+   
+
 }
 
+
+/* .img {
+    width: 100;
+    height: 100;
+    float: right;
+} */
+/* 
 .picCenter {
     float: center;
-    
-}
+    position: absolute;
+    right: 1100px; */
+
+  
+/* }
 div {
     background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true)
-}
+} */
