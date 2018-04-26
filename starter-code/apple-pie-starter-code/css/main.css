@@ -1,0 +1,20 @@
+div {
+  border: 1px black solid;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+div, header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header h1{
+  color:rgb(255,255,255);
+  text-align: center;
+  padding-top: 250px;
+}
