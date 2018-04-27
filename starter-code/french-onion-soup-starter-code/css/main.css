@@ -7,3 +7,37 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#apple-header{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 600px;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+h2 {
+  font-size: 30px;
+}
+#container{
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.apple-image{
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+}
+.initial-paragraph{
+  font-size: 24px;
+}
