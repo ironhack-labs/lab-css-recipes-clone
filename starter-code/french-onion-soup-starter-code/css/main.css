@@ -1,9 +1,97 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/*====== Font Style ======*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+/*====== Universal Selector ======*/
+
+* {
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+/*====== Container ======*/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*====== Header ======*/
+
+.main-title-photo {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.main-title-photo h1 {
+  font-size: 5rem;
+  line-height: 500px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: 300;
+}
+
+/*====== Content ======*/
+
+.intro-text {
+  width: 75%;
+  margin: 0 auto;
+  padding: 70px 65px 20px 65px;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  text-align: justify;
+  vertical-align: middle;
+  letter-spacing: 0.04rem;
+}
+
+.cooking-time {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cooking-time img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+/*====== Recipe ======*/
+
+.ingredient-list {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ingredient-list h3 {
+  border-top: 3px solid #8EA6B4;
+  padding: 50px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+.ingredient-list ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  list-style-type: none;
+  padding-bottom: 50px;
+  line-height: 1.7rem;
+}
+
+.ingredient-list ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  list-style-type: none;
+  padding-bottom: 50px;
+  line-height: 1.7rem;
 }
