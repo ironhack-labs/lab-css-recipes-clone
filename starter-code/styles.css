@@ -22,6 +22,10 @@ header#apple {
     background-image:url('apple-pie-starter-code/images/apple-pie.jpg');
 }
 
+header#french-onions {
+    background-image:url('apple-pie-starter-code/images/soup.jpg');
+}
+
 header h1 {
     color:white;
     text-align:center;
