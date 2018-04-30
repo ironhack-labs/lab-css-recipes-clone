@@ -7,3 +7,27 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.container{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.large{
+  font-size: 18px;
+}
+.absolute
+{
+  position:absolute;
+  left:37%;
+  top: 175px;
+  color: white;
+  font-size: 40px
+}
+.imagenFoot{
+  position:relative;
+  left: 185px;;
+  width: 50%;
+}
+hr{
+  height: 1px;
+}
