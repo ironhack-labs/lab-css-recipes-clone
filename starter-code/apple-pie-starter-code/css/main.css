@@ -1,0 +1,27 @@
+  .primerElemento {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: unset;
+    background-image:
+    url(../images/apple-pie.jpg);    
+  }
+
+  .parrafo{
+    font-size: 18px;    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 115px;
+    margin-right: 115px;
+  }
+
+  .titulo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: unset;
+    margin-left: 115px;
+    margin-right: 115px;
+  }
+
+  .imagen{
+      align-content: center;
+      align-self: center;
+  }
