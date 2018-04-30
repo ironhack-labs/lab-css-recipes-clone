@@ -1,0 +1,70 @@
+h1, body, html, main {  
+    margin: 0; 
+} 
+
+html {   
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 18px; 
+}
+
+header {
+    height: 400px;
+    background-size: cover;
+}
+#apple {
+    background-image: url("../images/apple-pie.jpg");  
+}
+header h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 170px;
+}
+
+ul, ol {
+    padding-left: 10px;
+}
+
+.main-text {
+    color: #554E4E;
+    padding: 50px 0;
+    margin: 0 10%;
+}
+#ingredients {
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+#ingredients ul {
+    list-style-type: none;
+}
+#ingredients li:before {
+    content: "-";
+    margin-right: 6px;
+}
+body h2 {
+    color: #000000;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: left;
+}
+section img{
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 890px;
+    margin: 0 auto;
+}
+section {
+    padding: 
+}
+#directions ol {
+    list-style-type: none;
+    counter-reset: item;
+}
+#directions li:before {
+content: counter(item) ") ";
+counter-increment: item;
+}
