@@ -1,0 +1,101 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+
+body{
+    margin: 0 0 100px 0;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    line-height: 26px;
+    vertical-align:top;
+}
+
+header {
+    background-size: cover;
+    height: 500px;
+    
+}
+
+header#apple {
+    background-image:url('apple-pie-starter-code/images/apple-pie.jpg');
+}
+
+header h1 {
+    color:white;
+    text-align:center;
+    padding-top: 250px;
+    font-size: 70px;
+    font-weight: 300;
+    margin: 0;
+}
+
+div.content {
+    margin: 80px 30% 0;
+}
+
+div.content h2{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+div.content hr {
+    margin: 0 0 45px 0;
+}
+
+div.content div.description {
+    margin-bottom: 30px;    
+}
+
+div.content div.recipe-info {
+    text-align:center; 
+    margin: 30px 0;
+}
+
+div.content div.recipe-info img {
+    width: 350px;
+}
+
+div.content div.ingredients {
+    margin:30px 0;    
+}
+
+div.content ul {
+    padding: 0 0 0 10px;
+}
+
+div.content ul li {
+    list-style-type: none;
+}
+
+div.content div.cooking-info {
+    text-align:center
+}
+
+div.content div.cooking-info img {
+    margin-top: 45px;
+    width:350px;
+}
+
+div.content div.direction div.steps {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1065px) {
+    div.content {
+        margin: 80px 15% 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    div.content {
+        margin: 80px 5% 0;
+    }
+
+    header h1 {
+        line-height:80px;
+        font-size: 48px;
+    }
+}
