@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700');*/
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +8,93 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  text-decoration: none;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+header {
+  background: url("../images/soup.jpg");
+  background-size: cover;
+  height: 670px;
+  background-position: bottom;
+}
+
+h1 {
+  font-size: 92px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  line-height: 670px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.intro p {
+  font-size: 26px;
+  font-weight: 200;
+  text-align: left;
+  padding: 75px 150px 40px;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+hr {
+  display: block;
+  width: 75%;
+  height: 0px;
+  border-top: 2px solid grey;
+  margin: 20px auto 50px;
+}
+
+.ingredients {
+  padding: 0 156px 40px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.ingredients ul {
+  list-style: none;
+}
+
+.ingredients li:before {
+  content: "- ";
+}
+
+.ingredients li {
+  margin-left: -25px;
+}
+
+.directions {
+  padding: 0 156px 40px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.directions ol {
+  list-style: none;
+  margin-left: 0;
+}
+
+.directions li {
+  counter-increment: custom;
+}
+
+.directions li:before {
+  content: counter(custom) ") ";
+}
+
+.directions li:first-child {
+  counter-reset: custom;
 }
