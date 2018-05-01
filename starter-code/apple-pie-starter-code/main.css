@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: Montserrat;
+	font-size: 19px;
+	color: #444343;
+}
+
+header{
+	background-image: url(images/apple-pie.jpg);
+	height: 550px;
+	position: relative;
+	background-size: cover;
+}
+
+.header-2{
+	background-image: url(images-fro/soup.jpg);
+	height: 550px;
+	position: relative;
+	background-size: cover;
+	margin: 75px 0 0 0;	
+}
+
+
+h1{
+	font-size: 60px;
+	text-align: center;
+	font-weight: 400;
+	color: white;
+	padding: 225px 0 0 0;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 500;
+	margin:0px 0 20px 0;
+	padding: 0 12%;
+}
+
+p{
+	padding: 0 12%;
+	margin: 60px 0 0 0; 
+}
+
+.list{
+	padding: 0 12%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.info-img{
+	margin: 25px 35% 0px 35%;
+}
+
+hr{
+	margin: 30px 12% 40px 12%;
+	border: 1px solid #AFAFAF;
+}
