@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  font-family: arial;
+  
+}
+
+
+.foto  {
+text-align: center;
+	
+	position: relative;
+	/*display: inline-block;*/
+align-self: center;
+	
+}
+
+h2 {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	
+}
+
+h2 span {
+	color: black;
+	font:  80px/40px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	padding: 5px;
+	color: white;
+	
+}
+
+
+.text1 {
+	padding: 200px 200px 200px 200px;
+}
+.contenido {
+	padding: 1px 200px 5px 200px;
+
+}
+
+.Parrafo_1 {
+padding: 0 200px 10px 200px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 110%;
+}
+.tiempo {
+
+text-align: center;
+
+}
+
+hr {
+	border-top: 3px solid #8c8b8b;
+	width:80%;
+}
