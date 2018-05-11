@@ -28,13 +28,14 @@ ol {
   border-bottom-color: darkslategrey;
 }
 .ingredients {
+  ale
   border-bottom-style: solid;
   border-bottom-color: darkslategrey;
 }
 img {
-  text-align: center;
   display: block;
   margin: auto;
+  text-align: center;
   padding: 10px;
 }
 #recipe_info{
