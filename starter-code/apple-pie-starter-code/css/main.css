@@ -8,10 +8,6 @@ article {
   padding: 5px 120px 0 80px;
   font-size: 20px;
 }
-div{
-  border-bottom-style: solid;
-  border-bottom-color: darkolivegreen;
-}
 h1 {
   font-size: 60px;
   text-align: center;
@@ -21,22 +17,28 @@ h1 {
   background-position: center;
   padding: 220px 0;
 }
-img {
-  width: 350px;
-  height: 40px;
-  text-align: center;
-  display: block;
-  margin: auto;
-  padding: 5px;
-}
-ol {
+ul {
   list-style-position: inside;
-  list-style-type: decimal-leading-zero;
+}
+.recipe_info {
+  border-bottom-style: solid;
+  border-bottom-color: darkslategrey;
 }
 .ingredients {
   border-bottom-style: solid;
-}
-.directions {
-  border-bottom-style: ;
   border-bottom-color: darkslategrey;
+}
+img {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+#recipe_info{
+  width: 350px;
+  height: 50px;
+}
+#cooking_info{ 
+  width: 300px;
+  height: 65px;
 }
