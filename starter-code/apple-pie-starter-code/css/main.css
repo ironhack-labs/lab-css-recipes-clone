@@ -19,11 +19,9 @@ h1 {
 }
 ul {
   list-style-position: inside;
-  text-align: left
 }
 ol {
   list-style-position: inside;
-  align-self: auto;
 }
 .recipeInfo {
   border-bottom-style: solid;
