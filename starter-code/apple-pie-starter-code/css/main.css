@@ -1,0 +1,76 @@
+body{
+    padding: 0 80px;
+    /* background-color: beige; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #333333;
+}
+.capsalera
+{
+    margin-top: 100px;
+}
+.titol
+{
+    text-align: center;
+    padding: 300px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 60px;
+    color: white;
+}
+
+#apple-pie
+{
+    background-image: url(../images/apple-pie.jpg);
+}
+.introduccio-imatge
+{
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+}
+.contingut
+{
+    /* background-color: red; */
+    padding: 0 150px;
+}
+.introduccio, .ingredients
+{
+    margin: 100px 0;
+    border-bottom: 2px gray solid;
+}
+.subtitol
+{
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.llista-ingredients
+{
+    font-size: 25px;
+}
+.ingredients-imatge
+{
+    display: block;
+    margin: 30px auto;
+    width: 40%;
+}
+.ingredients li
+{
+    list-style-type: none;
+}
+.ingredients li::before
+{
+    content: "- ";
+}
+
+.instruccions li::before {
+    content: ")"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+}
+
+#soup
+{
+    background-image: url(../..);
+}
