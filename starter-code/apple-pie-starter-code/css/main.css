@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.header {
+  /* background: img position repeat attachment color */
+  background: url('images/apple-pie.jpg') no-repeat 0 0/cover fixed rgba(0, 0, 0, 0.5);
+  height: 730px;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  /* line-height = height centers the text vertically */
+  line-height: 730px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.global {
+  width: 1000px;
+  /* margin: 0 auto; horizontally centers .global */
+  margin: 0 auto;
+}
+
+.small-image {
+  text-align: center;
+}
+
+.small-image img {
+  width: 450px;
+  height: auto;
+}
+
+.intro {
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.intro p {
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+/* Both the Ingredients and Direction sections share the same styles so they are grouped
+/* into the .content class. */
+
+.content {
+  /* 40 pixel margin on top/bottom, no margin on left/right. */
+  margin: 40px 0;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.content h2 {
+  font-weight: 400;
+}
+
+.content ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
