@@ -1,27 +1,60 @@
-  .primerElemento {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-style: unset;
-    background-image:
-    url(../images/apple-pie.jpg);    
-  }
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.BGtitle{
+  background-image:url(../images/apple-pie.jpg);
+  font-size: 80px;  
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color:white;  
+  background-size: 100%;  
+}
 
-  .parrafo{
-    font-size: 18px;    
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 115px;
-    margin-right: 115px;
-  }
+.parrafo{
+  font-size: 24px;      
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  .titulo{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: unset;
-    margin-left: 115px;
-    margin-right: 115px;
-  }
+.imagen{
+  align-content: center;
+  align-self: center;
+  width: 400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
-  .imagen{
-      align-content: center;
-      align-self: center;
-  }
+hr{
+  height: 2px;
+  background-color: gray;  
+  margin-left: 50px;  
+  margin-right: 50px;
+}
+
+.titulo{ 
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.lista{
+  font-size: 22px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;  
+}
+.lista li{
+  list-style-type: none;  
+}
+.parrafo li{
+  text-align: left;
+  list-style-type: decimal;  
+}
