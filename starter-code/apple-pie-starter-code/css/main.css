@@ -1,10 +1,10 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family:  "Roboto", sans-serif;
   font-weight: lighter;
   padding: 0px 60px;
-  background-color: beige;
 }
-article {
+
+section {
   padding: 5px 120px 0 80px;
   font-size: 18px;
 }
@@ -17,17 +17,16 @@ h1 {
   background-position: center;
   padding: 220px 0;
 }
-ul {
+ul ol{
+  list-style: none;
+}
+ul li {
   list-style-position: inside;
 }
-ol {
+ol li {
   list-style-position: inside;
 }
-.recipeInfo {
-  border-bottom-style: solid;
-  border-bottom-color: darkslategrey;
-}
-.ingredients {
+.recipeInfo, .ingredients {
   border-bottom-style: solid;
   border-bottom-color: darkslategrey;
 }
