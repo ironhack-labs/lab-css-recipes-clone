@@ -1,0 +1,73 @@
+*{
+  margin-left:0px;
+}
+body{
+  margin: 0 10%;
+  width:1000px;
+  font-family: 'Roboto', sans-serif;
+
+}
+#title{
+  font-size: 55px;
+  text-align: center;
+  background-image:url("/Users/renetorresalvarez/Documents/Ironhack/Week1/Day1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") ; 
+  opacity:0.98;
+  background-repeat: no-repeat;
+  background-size: 1000px 600px;
+  height: 500px;
+  color:white;
+ margin-top:0px;
+}
+.titulo{
+  display:block;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 190px;
+  opacity: 1;
+  font-weight: lighter;
+}
+.seccion1{
+  display:block;
+  width:900px;
+  margin: auto;
+  text-align: justify;
+}
+.text{
+  font-size: 26px;
+}
+.tiempos1{
+  display:block;
+  margin:auto;
+}
+
+.listtitle{
+  font-size:30px;
+}
+
+
+ul {
+  list-style-type: none ;
+  margin-left:-20px;
+}
+
+.tiempos2{
+  display:block;
+  margin:auto;
+}
+
+.seccion3{
+  display:block;
+  width:900px;
+  margin: auto;
+  text-align: justify;
+}
+ol{
+  list-style-type: none ;
+  margin-left:-25px;
+  font-size: 18px;
+}
+
+hr {
+  opacity: .7;
+size:4px;
+}
