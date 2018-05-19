@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-apple{
+  height:100vh;
+  width: 100vw;
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#header-french-onion{
+    height:100vh;
+    width: 100vw;
+    background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    
+}
+
+.recipe{
+    margin: 0 auto;
+    padding: 50px 200px;
+    font-size: 1.4em;
+}
+
+.recipe .image{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ingredients, directions{
+    padding: 0 0 0 25px;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
+
