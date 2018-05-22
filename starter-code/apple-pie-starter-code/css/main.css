@@ -1,0 +1,32 @@
+body {
+  font-family: Avenir;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 300; 
+}
+
+
+.top {
+  background-image: url("../images/apple-pie.jpg");
+  background-size:cover;
+  font-family: sans-serif;
+  font-style: center;
+  color:white;
+  height: 100vh;
+}
+
+
+.topText{
+  position:absolute;
+  bottom: 50vh;
+  left: 50vh;
+  font-size:30px;
+}
+
+
+.hline {width:100%; height:1px; background: black}
+
+.part2 .part3 {
+
+  margin:120px;
+}
