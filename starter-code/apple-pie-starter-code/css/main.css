@@ -1,0 +1,42 @@
+.applePieImage {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.white{
+    text-align: center;
+    color: aliceblue;
+    line-height: 15;  
+    font-size: 70px;
+    font-family: "Arial", Verdana, serif;
+}
+.myh1{
+    text-align: left;
+    font-size: 30px;
+    font-family: "Arial", Verdana, serif;
+    font-weight: lighter;
+}
+.p {
+    font-family: "Arial", Verdana, serif;
+    text-align: left;
+    font-size: 20px;
+}
+.listU {
+    content: "-";
+    font-family: "Arial", Verdana, serif;
+    font-size: 20px;
+}
+.listO {
+    font-family: "Arial", Verdana, serif;
+    font-size: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.smallerBox {
+    width: 80%;
+    margin:35px;
+}
