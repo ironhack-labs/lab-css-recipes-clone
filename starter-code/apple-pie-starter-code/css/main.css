@@ -1,0 +1,47 @@
+.header-up{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .header-down{
+        background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    h1{
+        color: white;
+        font-size: 5em;
+    }
+    
+    .body{
+        font-family: Aria;
+        font-size: 20 px;
+        margin: 100px;
+    }
+    
+    .introduction{
+        margin: 50px 300px;
+        text-align: center;
+    }
+    
+    .ingredients{
+        text-align: center;
+    }
+    p {
+        width: 200px;
+        font-size: 13px;
+        line-height: 1.5;
+        
+      }
