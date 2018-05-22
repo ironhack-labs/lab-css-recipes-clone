@@ -1,0 +1,58 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body {
+    font-size: 14px;
+    weight: 300;
+    margin: 20
+  }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0px 100px 0px 0px
+ }
+
+h2 {
+    font-size: 20;
+}
+
+hr {
+    width: 100%;
+  }
+
+
+  .header{
+    background-image: url(../images/background-apple-pie.jpg);
+     background-position: 0 0; /*can deleted and added to above */
+     background-repeat: no-repeat; /*can deleted and added to above*/
+     background-size: cover;
+     height: 100vh;
+     width: 100vw;
+     position: relative;
+}
+
+.body-no-header {
+    padding: 50px;
+}
+
+.info {
+    text-align: 40px;
+
+}
+.recipe {
+    
+}
+
+.directions {
+    
+}
+
+.cooking-images {
+    text-align: center;
+    width: 700px;
+    padding: 50px 0px;
+}
