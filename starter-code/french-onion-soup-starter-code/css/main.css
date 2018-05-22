@@ -7,3 +7,33 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+#recipe_title {
+  font-size: 500%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+  
+.centered_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .container {
+  text-align: center;
+  color: white;
+}
+#heroImage {
+  background-image: url(../images/soup.jpg);
+  position: 0 0;
+  background-size: cover;
+  height: 100vh;
+  padding: 50px 0 0 0;
+  position: relative;
+  background-attachment: fixed;
+}
+#recipe_title {
+  font-size: 500%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
