@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open sans";
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+h3 {
+    padding: 30px 0px 25px 0px;
+    font-weight: 500;
+    font-family: "Open sans";
+}
+.info-img {
+    width: 45%;
+    margin: auto;
+    padding: 25px 0px;
+}
+.general-text {
+    padding: 10px 0px;
+}
+
+/*HEADER PART*/
+#header {
+    background-image: url(../images/background-food.jpg);
+    display: flex;
+    background-size: cover;
+    height: 480px;
+    align-items: center;
+    justify-content: center;
+}
+#header h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+/*some general rules for everything except for the header with the background image*/
+.all-except-header {
+    background-color: white;
+    margin: auto;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*DESCRIPTION PART*/
+#description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+.ingredient-li {
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    line-height: 1.5;
+}
+.ingredient-li:before {content: "- ";}
+
+.directions-li {
+padding: 0px 0px 0px 15px;
+line-height: 1.4;
+list-style-type: none;
+}
+
+.directions-ol{
+    counter-reset: my-counter;
+}
+.directions-li:before {
+    counter-increment: my-counter 1;
+    content: counter(my-counter) ") ";
+}
