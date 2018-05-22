@@ -5,6 +5,10 @@
     margin-left:auto;
     margin-right:auto; */
 /* } */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+} 
 .gallery {
     width:600px;
     min-height:50px;
