@@ -1,0 +1,30 @@
+
+body{
+  font-family:'Arial';
+}
+
+.header-image{
+  background-image: url(file:///home/clement/code/parttime/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0 0;
+  height:600px;
+  padding:100px;
+}
+
+.recipe-title{
+  font-size: 4em;
+  vertical-align: middle;
+  text-align:center;
+  color:white;
+}
+
+.recipe-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:50px;
+  padding-right:50%;
+  padding-left:50%;
+  border-bottom:1px solid black;
+}
