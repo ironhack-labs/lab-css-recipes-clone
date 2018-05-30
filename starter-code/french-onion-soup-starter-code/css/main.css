@@ -5,5 +5,26 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: grey;
+}
+
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  height: 590px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding-top: 270px;
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.intro {
+  font-size: 20px;
+  margin: 100px 5% 0 5%;
 }
