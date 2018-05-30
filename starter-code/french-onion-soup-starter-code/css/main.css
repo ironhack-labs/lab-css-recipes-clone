@@ -1,9 +1,36 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 500px;
+  text-align:center;
+  padding : 50%;
+  color: white;
+  padding: 100px;
+  background-color: blue;
+  line-height: 500px;
+}
+/* notice : line-height pour centrer verticalement*/
+
+.content {
+  background-color:white;
+  color: black;
+  margin: 100px 100px;
+}
+
+.ingredients {
+  text-align: center;
+
+}
+
+
+
