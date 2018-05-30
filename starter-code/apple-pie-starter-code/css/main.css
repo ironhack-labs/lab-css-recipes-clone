@@ -1,0 +1,32 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: white;
+  line-height: 600px;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+  width: 60%;
+  align-content: center;
+  margin: 5px 20%
+}
+
+.ingredients {
+  text-align: left
+}
