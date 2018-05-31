@@ -6,6 +6,7 @@ body {
 header {
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
+    padding: 80px;
 }
 
 h1 {
@@ -17,6 +18,11 @@ h1 {
 }
 
 .image {
-    margin: 0px 25%;
+    margin: 20px 20% 0px;
 }
 
+section {
+    text-align: left;
+    margin: 80px 200px;
+    font-size: 25px;
+}
