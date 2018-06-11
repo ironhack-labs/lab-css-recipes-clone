@@ -1,9 +1,91 @@
-/*Some necessary adjustments*/
+
 h1, body, html, main {
   margin: 0;
+  color: gray;
+  font-weight: 100px;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#header {
+  background: url("../images/soup.jpg") no-repeat;
+  background-size:cover;
+  height: 13.5cm;
+  background-position: center;
+
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  font-weight: 100;
+  color: white;
+}
+
+hr {
+  color: gray;
+  margin: 0 80px;
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+.intro-text {
+  text-align: justify;
+  margin: 0 80px;
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 40px;
+}
+
+#recipe-img {
+  display: block;
+  margin: 0 auto;
+  width: 420px;
+  height: 50px;
+  padding: 20px 0;
+}
+
+.instructions {
+  margin: 0 80px;
+  padding: 10px 0; 
+}
+
+.ingredients {
+  padding-top: 10px;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.ingredients li:before {
+  content: '- ';
+  margin-left: -25px;
+}
+
+#cooking-img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 60px;
+  padding-bottom: 20px;
+}
+
+.directions {
+  padding-top: 10px;  
+  list-style-type: none;
+  counter-reset: section;
+}
+
+.brace:before {
+  counter-increment: section;
+  content: counter(section) ") ";
+  margin-left: -20px;
+  line-height: 1.5;
+}
+
+
