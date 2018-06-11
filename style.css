@@ -1,0 +1,72 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+h1 {
+  vertical-align: middle;
+  line-height: 800px;
+  font-size: 80pt;
+  font-weight: 300;
+}
+
+
+h3 {
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 60px auto 34px auto;
+}
+
+
+.apple-pie-head {
+  background-image: url(./starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+}
+
+.onion-soup-head {
+  background-image: url(./starter-code/french-onion-soup-starter-code/images/soup.jpg);
+}
+
+.heading {
+  background-size: cover;
+  color: white;
+  height: 800px;
+  text-align: center;
+}
+
+
+
+.introduction {
+  font-size: 20pt;
+  padding-top: 90px;
+
+}
+
+.center {
+  margin: auto 160px;
+  
+}
+
+.infos {
+  display: block;
+  margin: 50px auto 30px auto;
+}
+
+
+.line-height p {
+  line-height: 8px;
+  font-size: 14pt;
+}
+
+.bottom {
+  font-size: 14pt;
+}
