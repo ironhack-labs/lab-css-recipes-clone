@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    background-image: url(images/apple-pie.png)
+    opacity: 50%;
+    font-weight: 500;
+}
