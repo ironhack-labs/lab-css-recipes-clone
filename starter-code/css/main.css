@@ -1,0 +1,46 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+  width: 100%;
+  align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 80px;
+}
+
+.titleImage {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+}
+
+#titleImageApple {
+  background-image: url('../apple-pie-starter-code/images/apple-pie.jpg');
+}
+
+#titleImageOnion {
+  background-image: url('../french-onion-soup-starter-code/images/soup.jpg');
+}
