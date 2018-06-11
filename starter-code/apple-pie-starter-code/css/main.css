@@ -1,0 +1,60 @@
+
+h1 {
+  text-align: center;
+  font-family:  'Open sans', sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+  padding-left: 65px;
+  font-weight: lighter;
+}
+
+.description {
+text-align: center;
+padding: 0 100px;
+font-size: 20px;
+font-family: 'Open sans', sans-serif;
+color: #3e4444;
+font-weight: lighter;
+
+}
+
+.list {
+  text-align: left;
+  padding-left: 100px;
+  font-size: 20px;
+font-family: 'Open sans', sans-serif;
+color: #3e4444;
+font-weight: lighter;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Info {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+hr {
+margin-left: 20px;
+margin-right: 20px;
+}
+   
+
+.recipe-header {
+  background-image: url("/Users/sebastianbjers/2018-06/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
