@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+*{
+  margin: 0;
+  padding: 0;
+}
+/*==RESET==*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+  margin: 0;
+  counter-reset: section;
+}
+
+li{
+  list-style: none;
+}
+.container{
+  width: 100%;
+  max-width: 500px;
+  margin:0 auto;
+  background-color: #fff;
+}
+.container .hero{
+  height: 265px;
+  background: url('../images/apple-pie.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .hero h1{
+  color: #fff;
+  font-weight: 600;
+}
+.text-wrapper{
+  font-size: 11px;
+  color: #1d1d1d;
+  padding: 0 10%;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.text-wrapper h2{
+  font-size: 11px;
+  font-weight: 600;
+  margin-top:13px;
+}
+.image-container{
+  text-align: center;
+}
+.image-container img{
+  width: 220px;
+  margin: 8px 0 5px;
+}
+
+/*SECTION 2*/
+
+#ingredients ul{
+  padding-left: 12px;
+  margin-top: 8px;
+}
+#ingredients ul li{
+  line-height:1.2;
+}
+#ingredients ul li::before{
+  content: "- ";
+}
+
+/*SECTION 3*/
+#directions{
+  padding-bottom: 20px;;
+}
+#directions h2{
+  margin-bottom: 10px;
+}
+
+#directions ul li::before{
+  content: counter(section) ") ";
+  counter-increment: section;
+}
