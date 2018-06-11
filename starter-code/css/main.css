@@ -1,0 +1,94 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background-color: rgb(12, 12, 12);
+}
+
+body {
+  width: 100%;
+  align: center;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 150px;
+  font-weight: 400;
+}
+
+p {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+  list-style: none;
+  padding-left: 10px;
+}
+
+ol li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
+
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 20px 90px;
+  background-color: white;
+}
+
+.titleImage {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#titleImageApple {
+  background-image: url('../apple-pie-starter-code/images/apple-pie.jpg');
+}
+
+#titleImageOnion {
+  background-image: url('../french-onion-soup-starter-code/images/soup.jpg');
+}
+
+.infoImage {
+  display: block;
+  margin: 30px auto;
+
+}
+
+#recipeInfo {
+    width: 350px;
+}
+
+#cookingInfo {
+  width: 300px;
+}
