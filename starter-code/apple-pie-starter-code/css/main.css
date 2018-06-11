@@ -61,4 +61,5 @@ img {
 
 .directions-list {
   margin: 0 0 30px 30px;
+  list-style-position: inside;
 }
