@@ -7,3 +7,52 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h2 {
+  font-size: 20px;
+}
+
+.background_img {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-repeat: no-repeat;
+  position: 0 0;
+  height: 600px;
+  background-size: cover;
+  width: 50%;
+  margin-left: 25%;  
+}
+
+.text_img {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 260px;
+  font-weight: 600;
+}
+
+.container {
+  width: 50%;
+  padding-left: 32%;
+  margin-top: 100px;
+}
+
+.img_1 {
+  margin-left: 15%;
+  width: 35%;
+}
+
+.img_2 {
+  margin-left: 15%;
+  width: 35%;
+}
+
+li {
+  font-size: 15px;
+}
+
+hr {
+  width: 80%;
+  float:left;
+}
+
