@@ -1,3 +1,12 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
 header{
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
@@ -17,7 +26,6 @@ h3{
   width: 90%;
   text-align: center;
   margin: 0 auto;
-  font-size: 20px;
 }
 .container img{
   width: 50%;
@@ -30,7 +38,6 @@ h3{
 
 #ingredients-list li {
   list-style-type: none;
-  font-size: 20px;
 }
 
 #ingredients-list li:before{
@@ -56,8 +63,6 @@ h3{
 }
 
 #directions li{
-  
-  font-size: 20px;
   text-align: justify;
   margin-left: -10px;
 }
