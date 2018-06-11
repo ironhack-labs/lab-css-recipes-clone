@@ -1,7 +1,6 @@
-@import url(@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
 
 * {
-  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   color: gray;
   font-weight: 100px;
@@ -60,7 +59,7 @@ hr {
 }
 
 .ingredients li:before {
-  content: '-';
+  content: '- ';
   margin-left: -25px;
 }
 
@@ -83,6 +82,7 @@ hr {
   counter-increment: section;
   content: counter(section) ") ";
   margin-left: -20px;
+  line-height: 1.5;
 }
 
 
