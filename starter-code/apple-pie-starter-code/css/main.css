@@ -1,0 +1,58 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    bottom: 700px;
+    font-size: 5em;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+
+#subheader {
+    text-align: center;
+}
+
+#cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    margin-top: -180px;
+    
+}
+
+hr {
+    margin: 20px auto 30px auto;
+    width: 80%;
+}
+
+#ingredients {
+    margin: 0 0 0 40px;
+}
+
+#directions {
+    margin: 0 0 0 40px;
+}
