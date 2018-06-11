@@ -2,9 +2,14 @@ body {
     font-family: 'Raleway', sans-serif;
     color: slategray;
     /* text-align: center; */
-    width: 95vw;
+    width: 70vw;
+    margin: auto;
 }
 
+h2 { 
+    margin: auto;
+
+}
 
 h3 {
     color: black;
@@ -12,16 +17,31 @@ h3 {
 
 .title {
     color: aliceblue;
-    letter-spacing: 0.75em;
+    font-size: 3em;
+    letter-spacing: 0.15em;
     background-image: url(../images/apple-pie.jpg);
-    height: 50vh;
+    height: 65vh;
+    width: 70vw;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.title h2 {
+    padding-top: 12vw;
+    padding-left: 3em;
     
 }
 
 p {
-    text-align: center;
-    max-width: 50vw;
+    font-size: 1.05em;
+    color: black;
+    text-align: justify;
+    max-width: 59vw;
+    margin: auto;
 }
 
 ul {
@@ -44,7 +64,8 @@ ul {
   }
 
 .info {
-align-content: center;
+    margin: 20px;
+    padding-left: 22vw;
 }
 
 .titleBackground {
