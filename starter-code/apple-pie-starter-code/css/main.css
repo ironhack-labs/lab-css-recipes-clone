@@ -1,0 +1,60 @@
+* {
+font-family: 'Montserrat', sans-serif;
+}
+.apple img {
+    height: 40rem;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apple h1 {
+    font-size: 78px;
+    color: white;
+    position: absolute;
+    margin-top: -28rem;
+    margin-left: 32rem;
+   
+}
+
+.apple-p {
+    width: 720px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin-left: 20rem;
+    margin-top: 40px;
+}
+
+.graph img{
+    width: 360px;
+    height: 50px;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+h3 {
+    margin-left: 21rem;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+ul {
+    color: gray;
+    margin-left: 20rem;
+    margin-top: 15px;
+}
+
+.info img {
+    width: 360px;
+    height: 59px;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+
+ol {
+    width: 50rem;
+    margin-left: 20rem;
+    color: gray;
+    padding-bottom: 5rem;
+}
