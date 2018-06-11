@@ -1,0 +1,87 @@
+/* ---- reset ---- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding: 0;
+  }
+  
+  /*Some necessary adjustments*/
+  h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  .recipe-header {
+    background-image: url('../images/apple-pie.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .recipe-title{
+    position: relative;
+    top: 50%;
+    color: white;
+    text-align: center;
+  }
+  
+  .recipe-title h1 {
+    font-weight: 400;
+  }
+  
+  main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .recipe-description {
+    /* text-align: center; */
+  }
+  
+  .recipe-info {
+    box-sizing: content-box;
+    padding: 4rem 10rem;
+  }
+  
+  .recipe-info span {
+    text-align: justify;
+  }
+  
+  .recipe-info-img {
+    text-align: center;
+  }
+  
+  .bar {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 1rem;
+    border-color: hsla(0,5%,14%,0.3);
+  }
+  
+  .recipe-directions {
+    padding-bottom: 2rem;
+  }
+  
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+  ol.dashed > li:before {
+      content: ") ";
+  }
