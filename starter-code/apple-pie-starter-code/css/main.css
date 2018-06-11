@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: slategray;
+    /* text-align: center; */
+    width: 95vw;
+}
+
+
+h3 {
+    color: black;
+}
+
+.title {
+    color: aliceblue;
+    letter-spacing: 0.75em;
+    background-image: url(../images/apple-pie.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    
+}
+
+p {
+    text-align: center;
+    max-width: 50vw;
+}
+
+ul {
+    margin: 0;
+    list-style-type: square;
+    list-style-position: outside;
+   }
+
+  ul.dashed {
+    list-style-type: none;
+  }
+
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+.info {
+align-content: center;
+}
+
+.titleBackground {
+ width: 90%;
+
+    
+}
+
+.info {
+    max-height: 15vh;
+    max-width: 28vw;
+}
