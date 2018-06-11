@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 2em;  
+}
+
+header .title {
+  background-image: url("./../images/apple-pie.jpg");
+  background-size: cover;
+}
+
+header .title h1 {
+  font-weight: 100;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 22% 0;
+}
+
+header .content p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+header .content img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+hr {
+  width: 86%;
+}
+
+section img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 45%;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
