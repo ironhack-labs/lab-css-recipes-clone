@@ -9,10 +9,11 @@ html {
 }
 
 .title-image-container {
-    padding: 20px 0 20px 0;
+    margin: 20px 10px 20px 10px;
     position: relative;
     text-align: center;
     color: white;
+    width: 86%;
     height: 500px;
 }
 
@@ -37,8 +38,59 @@ html {
 
 .header-image{
     display:block;
-    height: 50px;
+    height: 60px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ingredients-section{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+    border-bottom: grey solid 2px;
+}
+
+#ingredients-title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.ingredients-list{
+    list-style-type: none;
+}
+.ingredient{
+    text-indent: -5px;
+}
+.ingredient::before{
+    content: "-";
+    text-indent: -5px;
+}
+.ingredients-image{
+    display:block;
+    height: 80px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directions-section{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+}
+
+.directions-title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.directions-list{
+    list-style-type: none;
+}
+
+.direction{
+    counter-increment: step-counter;
+    text-indent: -5px;
+}
+
+.direction ::before{
+    content: counter(step-counter) ")";
 }

@@ -2,8 +2,95 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+  /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.title-image-container {
+    margin: 20px 10px 20px 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 86%;
+    height: 500px;
+}
+
+.image-header{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#title{
+    position: absolute;
+    font-size: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.subtitle{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+    border-bottom: grey solid 2px;
+}
+
+.header-image{
+    display:block;
+    height: 60px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients-section{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+    border-bottom: grey solid 2px;
+}
+
+#ingredients-title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.ingredients-list{
+    list-style-type: none;
+}
+.ingredient{
+    text-indent: -5px;
+}
+.ingredient::before{
+    content: "-";
+    text-indent: -5px;
+}
+.ingredients-image{
+    display:block;
+    height: 80px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directions-section{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+}
+
+.directions-title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.directions-list{
+    list-style-type: none;
+}
+
+.direction{
+    counter-increment: step-counter;
+    text-indent: -5px;
+}
+
+.direction ::before{
+    content: counter(step-counter) ")";
 }
