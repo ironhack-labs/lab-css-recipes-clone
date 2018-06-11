@@ -1,0 +1,44 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+  /*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.title-image-container {
+    padding: 20px 0 20px 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 500px;
+}
+
+.image-header{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#title{
+    position: absolute;
+    font-size: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.subtitle{
+    margin: 30px 20px 30px 60px;
+    width: 80%;
+    border-bottom: grey solid 2px;
+}
+
+.header-image{
+    display:block;
+    height: 50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
