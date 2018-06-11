@@ -1,0 +1,37 @@
+@import url(@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+* {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  margin: 0;
+}
+
+#header {
+  color:white;
+  background: url("../images/apple-pie.jpg") no-repeat;
+  background-size:cover;
+  height: 13.5cm;
+  background-position: center;
+
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  font-weight: 100;
+}
+
+.intro-text {
+  text-align: justify;
+  margin: 0 80px;
+  font-size: 18px;
+  font-weight: 100;
+  color: gray;
+}
+
+.img {
+  positio
+}
+
