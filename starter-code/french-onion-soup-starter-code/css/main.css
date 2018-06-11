@@ -1,9 +1,91 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+* {
+    font-family: "Open Sans";
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.header-1 {
+    background-image: url(../images/soup.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    font-size: 7em;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 3% 0 2% 10%;
+}
+
+hr {
+    width: 80%;
+}
+
+.story {
+    font-weight: 100;
+    width: 62%;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+    line-height: 46px;
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: " - ";
+}
+
+ul li, ol li {
+    padding-bottom: 8px;
+}
+
+.ingredientsList {
+    width: 80%;
+    padding-left: 55px;
+    margin-left: 6%;
+    font-size: 1.6em;
+}
+
+p {
+    margin: 0;
+}
+
+.directions {
+    width: 72%;
+    padding-left: 55px;
+    margin-left: 6%;
+    font-size: 1.6em;
+}
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+    line-height: 37px;
+}
+
+
+ol li:before { 
+    content: counter(item) ")  "; 
+    counter-increment: item;
 }
