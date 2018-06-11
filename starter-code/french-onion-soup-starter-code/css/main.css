@@ -1,9 +1,141 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* ---- reset ---- */
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.5;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 100;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -50%);
+  color: white;
+}
+
+h2 {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 38px;
+}
+
+p {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+ul {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+  font-size: 28px;
+}
+
+ol {
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+  font-size: 28px;}
+
+hr {
+  margin: 0 120px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 30px 0;
+  color: white;
+  background: #111;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+.img-apple {
+  width: 100%;
+  margin-top: -26%;
+}
+
+div {
+  overflow: hidden;
+}
+
+.img-small {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+
+/* ---- components ---- */
