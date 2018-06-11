@@ -1,0 +1,43 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.appleimg {
+  background-image: url("/Users/pablodiaz/code/module1/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  color:white;
+  width:800px; 
+  height:500px;
+  margin: 0 auto;
+
+}
+.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+.recipeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+  
+}
+.ingredients {
+  border-top:1px solid black;
+  width:800px;
+  height:300px;
+  padding-left:230px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.recipeimg2 {
+  display: block;
+  margin-left: 200px;
+  margin-right: 175px;
+  width: 30%;
+} 
