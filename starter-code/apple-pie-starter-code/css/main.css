@@ -1,0 +1,66 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/** HEADER **/
+header{
+  background: url("../images/apple-pie.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.recipe{
+  height: 50px;
+  padding-top: 130px;
+}
+h1{
+  text-align: center;
+  font-weight: 400;
+  color: #FFF;
+}
+
+/** SECTIONS **/
+h2{
+  font-size: 1.3em;
+  font-weight: 400;
+}
+section{
+  margin: 0 50px;
+  padding: 40px 0; 
+}
+#ingredients{  
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+/** Section IMGs **/
+.recipe_info{
+  display: block;
+  margin: 25px auto 0 auto;
+  width: 70%;
+  max-width: 400px;
+}
+
+/** Ingredients and Directions lists **/
+ul, ol{ 
+  font-size: .9em; 
+  padding-left: 0;
+  list-style-type: none;
+}
+li{ margin-bottom: 3px;}
+
+ul li:before{
+  content: "- ";
+  margin-right: 0;
+}
+ol{ counter-reset: item;}
+
+ol li:before{
+  content: counter(item) ")  "; 
+  counter-increment: item;
+}
