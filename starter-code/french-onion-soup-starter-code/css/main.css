@@ -7,3 +7,28 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body{
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: black;
+  font-size: 0.8em;
+}
+
+header{
+  height: 400px;
+}
+
+header h1{
+  color: white;
+  position: absolute;
+  padding: 80px 100px;
+  font-size: 3em;
+
+}
+
+#content{
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px 50px;
+}
