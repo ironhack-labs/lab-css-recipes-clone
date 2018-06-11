@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1, body, html, main {
+  margin: 0;
+}
+
+header {
+background-image: url(https://raw.githubusercontent.com/AecDigital/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+padding-top: 30%;
+}
+
+
+.header-content {
+ padding: 200px 40px;
+ text-align: center;
+ color: #f4f4f4;
+ font-family: Source Sans Pro;
+ margin: auto;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Open Sans;
+  font-weight: 100;
+  margin-top: 40px;
+  margin: auto;
+  position: relative;
+  color: #ffffff;
+  margin: auto;
+  margin-left: auto;
+}
+
+
+
+directions {
+   font-size: 1.5rem;
+   font-family: Open Sans;
+   font-weight: 200;
+   margin-left: 10%;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Open Sans;
+  padding-top: 30px;
+  width: 60%;
+  margin: auto;
+ }
+
+img {
+  padding-top: 30px;
+  margin: auto;
+  margin-left: 35%;
+  height: 70px;
+  position: relative;
+}
+
+li {
+  font-size: 0.5 rem;
+  font-family: Open Sans;
+  font-weight:400;
+  margin-left: 10%;
+
+}
+
+.line-separator {
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+margin-top: 40px;
+margin-bottom: 30px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
