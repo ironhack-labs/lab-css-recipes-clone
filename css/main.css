@@ -14,7 +14,6 @@ h1{
     text-align: center;
     line-height: 40vh;
 
-    background-image: url("../images/header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +21,14 @@ h1{
     color: white;
     font-size: 3.5em;
     font-weight: normal;
+}
+
+h1#pieHeader{
+    background-image: url("../starter-code/apple-pie-starter-code/images/header.jpg");
+}
+
+h1#soupHeader{
+    background-image: url("../starter-code/french-onion-soup-starter-code/images/header.jpg");
 }
 
 .container{
