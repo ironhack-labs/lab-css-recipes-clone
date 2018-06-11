@@ -1,26 +1,34 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
 body{
     margin: 0 auto;
     max-width: 600px;
     background-color: black;
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.8em;
-
 }
 
-#title{
+header{
     height: 400px;
 }
 
-#title h1{
+header h1{
     color: white;
     position: absolute;
-    text-align: center;
-    padding: 80px 100px;
+    padding: 80px 120px;
     font-size: 5em;
+
 }
 
 #content{
     background-color: white;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px 50px;
 }
