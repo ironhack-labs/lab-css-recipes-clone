@@ -10,10 +10,59 @@ h1, body, html, main {
   header {
       background: url("../images/apple-pie.jpg");
       background-size: cover;
-      height :450px;
+      height :650px;
+      margin-right: 5%;
+      margin-left: 5%;
      
   }
   .header-text {
     color: white;
     text-align: center;
+    padding-top: 15%;
+    font-size: 3.5em;
+    font-family: 'Open Sans', sans-serif;
   }
+  .parragraph {
+      width: 60%;
+      margin-top: 5%;
+      margin-left: 20%;
+      margin-right: 20%;
+      display: block;
+      font-size: 1.5em;
+  }
+  div {
+      height: 650px;
+  }
+  .division1 {
+      height:350px;
+  }
+
+  .picture {
+      display: block;
+      size: 80%;
+      width: 30%;
+      margin-left:30%;
+      margin-right:30%;
+      margin-top: 5%;
+  }
+  .ingredients-text {
+    display: block;
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+h2 {
+    display: block;
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+hr {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
