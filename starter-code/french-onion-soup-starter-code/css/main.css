@@ -7,3 +7,25 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+#header {
+  padding: center;
+  margin: 1em 3em;
+  color: white;
+  width: 600px;
+  height: 600px;
+  margin-top: 2em; 
+  margin-left: 2em;
+  margin-bottom: 2em;
+  background-position: center, center;
+  background-size: cover;
+  background-image: url("../images/soup.jpg");
+}
+p,h2,ul,ol{
+  margin-left: 4em;
+  margin-right: 4em;
+}
+hr {
+  color: silver;
+  margin-left: 4em;
+  margin-right: 4em;
+}
