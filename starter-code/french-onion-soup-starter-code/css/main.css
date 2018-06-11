@@ -1,9 +1,69 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+.heading img {
+  width: 80%;
+  height: 600px;
+  margin-left: 150px;
+}
+
+.heading h1 {
+  color: white;
+  position: absolute;
+  padding-left: 340px;
+  top: 180px;
+  font-size: 80px;
+}
+
+.about p {
+  text-align: center;
+  width: 800px;
+  font-size: 20px;
+  padding-left: 330px;
+  padding-top: 30px;
+}
+
+.graph img {
+  margin-left: 350px;
+  padding-bottom: 30px;
+  padding-left: 190px;
+  padding-right: 190px;
+  width: 400px;
+  border-bottom: 1px solid;
+}
+
+.list span, .instructions span {
+  font-style: bold;
+  font-size: 20px;
+  padding-left: 350px;
+}
+
+.list ul {
+  padding-left: 380px;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.list li {
+  padding-bottom: 5px;
+}
+
+.cook img {
+  margin-left: 330px;
+  padding-bottom: 30px;
+  padding-left: 230px;
+  padding-right: 230px;
+  width: 360px;
+  border-bottom: 1px solid;
+}
+
+.instructions ol {
+  padding-left: 370px;
+  width: 790px;
+  padding-bottom: 50px;
 }
