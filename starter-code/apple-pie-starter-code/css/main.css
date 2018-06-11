@@ -27,8 +27,26 @@ article p{
     padding-bottom: 30px;
     border-bottom: 2px solid;
 }
-p img{
+img{
     text-align: center;
     margin-left: 20%;
     margin-top: 5%;
+}
+ul{
+    list-style-type: square;
+    margin-top: 30px;
+}
+ul li{
+    margin-left: 40px;
+}
+article ul{
+    padding-bottom: 30px;
+    border-bottom: 2px solid;
+}
+.directions p{
+    border: none;
+}
+.directions ol{
+    margin-left: 53px;
+    margin-top: 40px;
 }
