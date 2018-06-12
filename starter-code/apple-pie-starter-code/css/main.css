@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+hr {
+    size: 2;
+}
+
+.float-clear {
+    clear: both;
+}
+
+/* HEADER */
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* INTRO */
+
+.intro {
+    height: 300px;
+    margin: 100px 10% 0 10%;
+}
+
+.blurb {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.cooking-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+/* INGREDIENTS */
+
+.ingredients {
+    height: 500px;
+    margin: 40px 10% 0 10%;
+}
+
+.ingredients-header {
+    margin-bottom: 30px;
+}
+
+.ingredients-list{
+    padding-left: 25px;
+    margin-bottom: 50px;
+}
+
+/* INGREDIENTS UL */
+
+.ingredients ul {
+    margin: 0;
+}
+
+.ingredients h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+ul.dashed {
+    list-style-type: none;
+  }
+
+ul.dashed > li {
+    text-indent: -5px;
+    font-size: 25px;
+    line-height: 1.35;
+  }
+
+ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+.recipe-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+/* DIRECTIONS */
+
+.directions {
+    margin: 100px 10% 100px 10%;
+    position: relative;
+}
+
+.directions h1 {
+    margin-bottom: 50px;
+    margin-top: 
+}
+
+.directions-ol {
+    padding-left: 25px;
+    list-style-position: inside;
+    counter-reset: list;
+    font-size: 25px;
+    line-height: 1.35;
+}
+
+.directions-ol > li {
+    font-size: 25px;
+    position: relative;
+    list-style: none;
+}
+
+.directions-ol > li:before {
+    counter-increment: list;
+    content: ") ";
+    position: absolute;
+    left: -1.4em;
+  }
+
+.directions h1 {
+    font-weight: 500;
+}
