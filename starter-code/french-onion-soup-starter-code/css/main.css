@@ -1,9 +1,88 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-}
+
+
+body {
+  margin: 0 10%;
+  background-color: white;
+  font-family: Helvetica;
+  
+  }
+  
+  .top-background {
+    background-image: url(../images/soup.jpg);
+    background-size: cover;
+    height: 100%;
+  }
+  
+  hr {
+  width: 80%;
+  height: 2px;
+  border: none;
+  background-color: dimgray;
+  }
+  
+  
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 300px 0px 240px 0px;
+    font-weight: 500;
+    font-size: 70px;
+  }
+  
+  p{
+   font-size: 22px;
+   font-weight: 200;
+   letter-spacing: 1.5px;
+   width: 80%;
+   margin-left: 110px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+  }
+  
+  .img-notes{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;  
+  }
+  
+  .img-notes2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;  
+    }
+  
+  h2 {
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  padding-top: 20px;
+  margin-left: 105px;
+  padding-bottom: 20px;
+  
+    }
+  ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+  }
+  
+  ul li {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 80px;
+   
+  }
+  
+  ol{
+    list-style-type: none;
+  
+  }
+  
+  ol li {
+    padding-top: 5px;
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 90px;
+    width: 80%;
+  }
