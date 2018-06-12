@@ -7,3 +7,28 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.titleImage{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  line-height: 500px;
+}
+
+.intro, .ingredients, .directions {
+  margin: 0px 100px 0px 100px ;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
