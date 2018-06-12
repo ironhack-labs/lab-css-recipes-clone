@@ -1,0 +1,29 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  color: #ffffff;
+  font-size: 7em;
+  font-color: "white";
+  text-align: center;
+  padding-top: 270px;
+}
+p{
+  padding-top: 40px;
+}
+.himg{
+  background-image:url("./apple-pie.jpg");
+  height: 600px;
+}
+.zimg{
+  margin: 20px 0 0 40px;
+}
+section {
+  text-align: justify;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
