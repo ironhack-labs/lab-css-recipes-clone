@@ -1,0 +1,129 @@
+h1, body, html, main {
+  margin: 0;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mainImage {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;          
+}
+
+.appleHead {
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.appleHeadDiv {
+  position: relative;
+  top: 40%;
+  left: 35%;
+  right: 25%;
+  bottom: 40%;
+  margin: auto;
+}
+
+.aboutPie {
+  font-weight: 100;
+  padding: 1px;
+  border: 1px;
+  margin:50px 20% 10px 20%;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ingredients {
+  margin-top: 3%;
+}
+
+/* prep and servings img */
+
+.recipeinfo1pic {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 0;
+  left: 34%;
+  width: 320px;
+  height: 60px;
+}
+
+.cookinginfo1pic {  
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 5%;
+  left: 35%;
+  width: 300px;
+  height: 70px;
+}
+
+hr {
+  width: 60%;
+}
+
+.ingredients {
+  margin-left: 20%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.head-ingredients {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 100;
+  font-size: 23px;
+}
+
+.sec-directions {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.head-directions {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 100;
+  font-size: 23px;
+}
+
+/* customized the ol and ul */
+ol {
+  counter-reset: custom;
+  list-style-type: none;
+}
+
+ol li:before {
+  content: counter(custom)') ';
+  counter-increment: custom;
+}
+
+ul {
+  counter-reset: custom;
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '- ';
+}
+
+
