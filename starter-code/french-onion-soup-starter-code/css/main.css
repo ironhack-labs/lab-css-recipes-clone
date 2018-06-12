@@ -1,9 +1,91 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-weight: lighter;
+  height: 100%;
 }
+
+header{
+ background-image: url("../images/soup.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 600px;
+
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.description {
+  font-weight: lighter;
+  font-size: 1.2em;
+  margin: 60px auto 20px auto;
+
+}
+
+.Ingredients {
+ width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+ul {
+  padding-left: 0;
+}
+
+.Directions {
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+#cooking-info {
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#recipe-info {
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+li {
+  list-style-type: none;
+    margin-bottom: 3px;
+
+}
+
+li::before {
+  content: "-";
+}
+
+.Directions p {
+  margin-bottom: -15px;
+}
+
