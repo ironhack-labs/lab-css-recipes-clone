@@ -1,0 +1,60 @@
+/* No puedo poner imagens background */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+.fondo {
+        background-image: url("../images/apple-pie.jpg");
+        position: relative;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -255px;
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    color: white;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.ul {
+text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;    
+    
+}
+
+hr { 
+    border: 0.5;
+    height: 1px;
+    background:gray;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 50%;
+}
+.text {
+    font-family: Roboto;
+    margin: auto; 
+    text-align: justify;
+}
+
+section {
+    padding-left: 350px;
+}
