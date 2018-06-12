@@ -1,7 +1,12 @@
+
+h1, body, html, main {
+    margin: 0;
+  }
+  
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 18px
     color: slategray;
-    /* text-align: center; */
     width: 70vw;
     margin: auto;
 }
@@ -32,7 +37,7 @@ h3 {
 
 .title h2 {
     padding-top: 12vw;
-    padding-left: 3em;
+    padding-left: 3.4em;
     
 }
 

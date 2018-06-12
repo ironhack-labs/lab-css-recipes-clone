@@ -2,8 +2,84 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
+ 
+body {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px
+  color: slategray;
+  width: 70vw;
+  margin: auto;
+}
+
+h2 { 
+  margin: auto;
+
+}
+
+h3 {
+  color: black;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 3em;
+  letter-spacing: 0.15em;
+  background-image: url(../images/soup.jpg);
+  height: 65vh;
+  width: 70vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.title h2 {
+  padding-top: 12vw;
+  padding-left: 0.7em;
+  
+}
+
+p {
+  font-size: 1.05em;
+  color: black;
+  text-align: justify;
+  max-width: 59vw;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  list-style-type: square;
+  list-style-position: outside;
+ }
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.info {
+  margin: 20px;
+  padding-left: 22vw;
+}
+
+.titleBackground {
+width: 90%;
+
+  
+}
+
+.info {
+  max-height: 15vh;
+  max-width: 28vw;
 }
