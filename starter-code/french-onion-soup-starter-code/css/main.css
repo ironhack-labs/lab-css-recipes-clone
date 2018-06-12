@@ -1,9 +1,123 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+* {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
+
+.soupImage {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/soup.jpg");
+  background-position: center center;
+}
+
+.soupHead {
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.soupDiv {
+  position: relative;
+  top: 40%;
+  left: 23%;
+  right: 25%;
+  bottom: 40%;
+  margin: auto;
+}
+
+.aboutFrenchOnionSoup {
+  font-weight: 100;
+  padding: 1px;
+  border: 1px;
+  margin:50px 20% 10px 20%;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ingredients2 {
+  margin-top: 3%;
+}
+
+/* prep and servings img */
+
+.recipeinfo2pic {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  left: 39%;
+  width: 320px;
+  height: 60px;
+}
+
+.cookinginfo2pic {  
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  left: 25%;
+  width: 300px;
+  height: 70px;
+}
+
+hr {
+  width: 60%;
+}
+
+.ingredients2 {
+  margin-left: 20%;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.head-ingredients2 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 100;
+  font-size: 23px;
+}
+
+.sec-directions2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.head-directions2 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 100;
+  font-size: 23px;
+}
+
+/* customized the ol and ul */
+ol {
+  counter-reset: custom;
+  list-style-type: none;
+}
+
+ol li:before {
+  content: counter(custom)') ';
+  counter-increment: custom;
+}
+
+ul {
+  counter-reset: custom;
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '- ';
+}
+
