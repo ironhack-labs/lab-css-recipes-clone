@@ -7,3 +7,38 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+hr {
+  margin: 20px auto 30px;
+  width: 40%;
+ }
+ .cent{
+  text-align: center;
+ }
+ .simg{
+  margin: 20px 0px 30px 600px;
+ }
+ .apple{
+  color: white;
+  margin: 450px 0px 0px 0px;
+  font-size: 7em;
+  position: relative;
+  }
+  .himg{
+    background-image: url("../images/soup.jpg");
+    height: 1200px;
+  }
+
+ .tex1{
+  font-size: 2.5em;
+
+}
+.titulos{
+ font-size: 2em;
+ margin: 20px 0px 30px 550px;
+ 
+}
+.tex2{
+ font-size: 1.5em;
+ margin: 20px 0px 30px 550px;
+}
+

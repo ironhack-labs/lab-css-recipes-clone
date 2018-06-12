@@ -1,0 +1,37 @@
+hr {
+ margin: 20px auto 30px;
+ width: 40%;
+}
+.himg{
+  background-image: url("../images/apple-pie.jpg");
+  height: 1200px;
+}
+.cent{
+  text-align: center;
+}
+.simg{
+  margin: 20px 0px 30px 600px;
+ }
+ body{
+  font-family: 'Open Sans', sans-serif;}
+ .apple{
+ color: white;
+ margin: 450px 0px 0px 0px;
+ font-size: 7em;
+ position: relative;
+ }
+
+ .tex1{
+   font-size: 2.5em;
+
+ }
+ .titulos{
+  font-size: 2em;
+  margin: 20px 0px 30px 550px;
+  
+ }
+ .tex2{
+  font-size: 1.5em;
+  margin: 20px 0px 30px 550px;
+ }
+ 
