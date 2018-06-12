@@ -1,0 +1,53 @@
+/* STYLE main.css  */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  heigth: auto;
+  font-family: Arial, Verdana, sans-serif;
+  font-size:14px;
+  line-height: 1.5em;
+}
+
+.wrapper{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+h1{
+  font-size:20px;
+  text-align: center;
+  color:white;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+h2{
+  font-size:16px;
+  text-align: left;
+}
+
+.container{
+  width: 1200;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+
+.text_over_image {
+  position: absolute;
+  margin: auto;
+  
+  color:#fff;
+  height:100px;
+}
