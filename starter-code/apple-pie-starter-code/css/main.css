@@ -1,0 +1,62 @@
+.apple-pic {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.apple-pic {
+    background: url(../images/apple-pie.jpg);
+    height: 600px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.bottom-half {
+    font-size: 25px;
+}
+
+.first-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    position: center;
+}
+
+.first-paragraph img {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 7%;
+}
+
+.bottom-half {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 5%;
+}
+
+.food-list{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.food-remove-list{
+    list-style-type: none;
+    padding: 3px;
+}
+.food-list img {/*couldnt be arsed to switch the divs arround so i made another div inside. this is the original*/
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 7%;
+}
+
+.food-ordered {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.food-ordered-list{
+    list-style-type: circle;
+}
