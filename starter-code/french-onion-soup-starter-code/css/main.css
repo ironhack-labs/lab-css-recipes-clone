@@ -1,9 +1,33 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  .texto-encima{
+    position: infront;
+    top: 780px;
+    left: 80px;
+    color: black;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+.container-body{
+  font-family: sans; 
+  text-align: center;
+}
+.main-container img{
+display:block;
+margin:auto;
+}
+.main-container{
+ font-family: sans;
+}
+.second-container{
+  font-family: sans;
 }
