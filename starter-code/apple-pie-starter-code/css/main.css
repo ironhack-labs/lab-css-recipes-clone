@@ -1,0 +1,52 @@
+.font{
+    font-family: sans-serif;
+}
+.apple-pie-img{
+    background-image: url("../images/apple-pie.jpg");
+   background-size: 100%;
+   width: 60%;
+   height: 530px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.apple-pie-txt{
+    color: white;    
+    text-align: center;
+    margin: auto;
+    padding: 35% 0;
+    font-size: 300%;
+
+}
+.grandma-p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    
+}
+.ul-list{
+    list-style-type: none;
+    
+}
+
+ul > li:before{
+    content: "- ";
+}
+
+.img-center{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 20%;    
+}
+.list-text{
+    margin-left: 25%;
+    margin-right: auto;
+    width: 35em;
+}
+.hr-margin{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+

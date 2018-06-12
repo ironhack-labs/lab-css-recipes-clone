@@ -1,9 +1,47 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+.font{
+    font-family: sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.apple-pie-img{
+    background-image: url("../images/soup.jpg");
+   background-size: 800px;
+   width: 800px;
+   height: 530px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
+.apple-pie-txt{
+    color: white;    
+    text-align: center;
+    margin: auto;
+    padding: 35% 0;
+    font-size: 300%;
+
+}
+.grandma-p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+
+}
+.ul-list{
+    list-style-type: none;
+    content: "-";
+}
+.img-center{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 20%;    
+}
+.list-text{
+    margin-left: 25%;
+    margin-right: auto;
+    width: 35em;
+}
+.hr-margin{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
