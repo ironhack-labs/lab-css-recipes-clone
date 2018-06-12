@@ -1,9 +1,36 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+h1{
+  color: white;
+  text-align: center;
+  width: 700px;
+  margin: 20px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+header{
+   background-image: url("/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+   background-size: 100%;
+   padding: 50px 50px 50px 50px;
+
+}
+h3{
+  padding: 0 30px;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.5px;
+}
+.ingredients{
+  margin: 20px;
+  padding: 40px;
+  letter-spacing: 1.2px;
+}
+img{
+  padding: 0 50%;
+}
+hr{
+  padding: 0 5px;
+}
+.space{
+letter-spacing: 1.2px;
+}
+.love{
+  text-align: center;
 }

@@ -1,0 +1,33 @@
+h1{
+  color: white;
+  text-align: center;
+}
+header{
+   background-image: url("/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+   background-size: 100%;
+
+}
+h3{
+  padding: 0 30px;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.5px;
+}
+.ingredients{
+  margin: 20px;
+  padding: 40px;
+  letter-spacing: 1.2px;
+}
+img{
+  padding: 0 50%;
+}
+hr{
+  padding: 0 5px;
+}
+.space{
+
+}
+.love{
+  text-align: center;
+}
