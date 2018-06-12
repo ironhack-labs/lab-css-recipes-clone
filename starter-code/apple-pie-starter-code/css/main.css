@@ -1,0 +1,124 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+
+
+body{
+  font-size: 22px;
+
+}
+
+.apple-pie-image img {
+  height: 600px;
+  width: 80%;
+  
+}
+.french-onion-soup-image img {
+  height: 600px;
+  width: 80%;
+}
+
+.apple-pie-image{
+  position: relative;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.french-onion-soup-image{
+  position: relative;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.bottom-half{
+  margin: 0 auto;
+ width: 80%;
+ font-size: 30px;
+
+}
+
+h1 {
+  
+  position: absolute;
+  font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.recipe-info{
+  position: relative;
+ margin:100px 20% 0 20%;
+}
+
+
+.cooking-info {
+ position: relative;
+ margin:100px 20% 0 20%;
+}
+
+
+.intro { 
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+}
+
+.ingredients {
+  margin: 0 auto;
+  font-size: 30px;
+  width: 80%;
+
+}
+
+.Directions {
+  height: 300px;
+  margin: 100px 10% 0 10%;
+}
+
+.directions
+{
+  height: 300px;
+  margin: 100px 10% 0 10%;
+  style:
+}
+
+ul {
+  /* width: 20%; */
+  /* margin: auto; */
+  list-style: none;
+  text-align: left;
+}
+
+.Ingredients ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.second-picture{
+margin: 0 auto;
+text-align: center;
+width: 80%;
+
+}
+
+/* hr {
+  margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+
