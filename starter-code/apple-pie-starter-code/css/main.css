@@ -5,8 +5,7 @@ h1, body, html, main {
   
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px
-    color: slategray;
+    font-size: 18px;
     width: 70vw;
     margin: auto;
 }
@@ -24,7 +23,7 @@ h3 {
     color: aliceblue;
     font-size: 3em;
     letter-spacing: 0.15em;
-    background-image: url(../images/apple-pie.jpg);
+    background-image: url('../images/apple-pie.jpg');
     height: 65vh;
     width: 70vw;
     background-repeat: no-repeat;
@@ -37,7 +36,8 @@ h3 {
 
 .title h2 {
     padding-top: 12vw;
-    padding-left: 3.4em;
+    padding-left: 3.5em;
+    
     
 }
 
@@ -57,6 +57,7 @@ ul {
 
   ul.dashed {
     list-style-type: none;
+    padding: 3px;
   }
 
   ul.dashed > li {
@@ -68,9 +69,15 @@ ul {
     text-indent: -5px;
   }
 
+.page-content {
+    max-width: 59vw;
+    margin: auto;
+    color: #666563;
+}
+
 .info {
     margin: 20px;
-    padding-left: 22vw;
+    padding-left: 15vw;
 }
 
 .titleBackground {
