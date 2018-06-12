@@ -3,7 +3,64 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+*{
+color:rgb(66, 66, 66)
+}
+h3{
+  color:black;
+}
+.backgroundimage{
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpghttps://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:50px;
+    height:580px;
+    margin-left: 185px;
+    margin-right:185px;
+}
+.textimage{
+    text-align:center;
+    color: white;
+    padding-top:150px;
+    font-weight: 120px;
+    font-size: 4em;
+}
+
+.intro{
+  margin-left: 320px;
+  margin-right: 320px;
+  text-align: left;
+  border-bottom: 2px solid rgba(29, 5, 5, 0.445);
+
+}
+
+img{
+  margin:auto;
+  display: block;
+}
+
+.segundafoto{
+  height:45px ;
+}
+
+.ingredientes{
+  font-size:15px;
+  text-align: left;
+}
+
+.tercerafoto{
+  height:65px;
+}
+
+.texto{
+  font-size:15px;
+  text-align: left;
 }

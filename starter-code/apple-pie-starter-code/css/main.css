@@ -1,0 +1,44 @@
+*{
+    color:rgb(66, 66, 66)
+}
+
+.backgroundimage{
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:50px;
+    height:580px;
+
+}
+.textimage{
+    text-align:center;
+    color: white;
+    padding-top:150px;
+    font-weight: 120px;
+    font-size: 4em;
+}
+
+.textunderimage{
+    text-align:center;
+    margin:50px;
+}
+
+.cookinginfo{
+    height:50px;
+}
+img{
+    margin:auto;
+    display: block;
+}
+
+.espacio{
+    margin-left: 300px;
+    margin-right:300px;
+    border-bottom: 2px solid rgba(29, 5, 5, 0.445);
+}
+
+.lastimage{
+    height:75px;
+}
