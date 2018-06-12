@@ -1,15 +1,15 @@
-/*Some necessary adjustments*/
-/* h1, body, html, main {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-} */
-
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 18px;  
+  font-size: 18px;
+  background-color: lightgray;
+}
+
+.container {
+  width: 800px;
+  background-color: white;
+  margin: 0 auto;
 }
 
 header .title {
@@ -52,6 +52,7 @@ section img {
 section {
   width: 80%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 section h2 {
@@ -59,3 +60,10 @@ section h2 {
   font-weight: 500;
 }
 
+section ul li {
+  list-style-type: none;  
+}
+
+section ul > li:before {
+  content: "- ";
+}

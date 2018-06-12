@@ -2,7 +2,14 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 18px;  
+  font-size: 18px;
+  background-color: lightgrey;
+}
+
+.container {
+  width: 800px;
+  background-color: white;
+  margin: 0 auto;
 }
 
 header .title {
@@ -45,9 +52,18 @@ section img {
 section {
   width: 80%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 section h2 {
   font-size: 1.2em;
   font-weight: 500;
+}
+
+section ul li {
+  list-style-type: none;  
+}
+
+section ul > li:before {
+  content: "- ";
 }
