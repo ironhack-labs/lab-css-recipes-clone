@@ -1,0 +1,51 @@
+hr{
+	width : 95%;
+}
+
+.whole-page{
+	
+	font-family: Arial;
+	margin = auto;
+	text-align = center;
+}
+
+.top-image{
+	background-image: url(../images/apple-pie.jpg);
+	height : 500px;
+	background-size : cover;
+	background-repeat : no-repeat;
+	color : white;
+}
+
+.heading{
+	padding : 15% 40%;
+	font size : 55px;
+}
+
+.grandmas-recipe{
+	
+}
+
+.bottom-half{
+	margin : 0px 150px;
+}
+
+.recipe-info, .cooking-info{
+	display : block;
+	margin : 0 auto;
+}
+
+.recipe-info{
+	width : 400px;
+}
+
+.cooking-info{
+	width  :500px;
+	padding-top : 50px;
+}
+
+
+.ingredients{
+	list-style-type : none;
+	padding : 2px;
+}
