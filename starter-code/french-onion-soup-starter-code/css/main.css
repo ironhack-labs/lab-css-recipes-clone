@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  color: #303030;
+  line-height: 1.4em;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.8em;
+  font-weight: 300;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+#header {
+  padding-top: 215px;
+  width: 68%;
+  margin: 0 auto;
+  height: 260px;
+  background-image: url ("file:///Users/bethshook/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  font-size: 1.1em;
+  margin-top: 50px;
+}
+
+.icon-bar {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+ul.dashed {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.dashed > li {
+  margin-left: 15px;  
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+  content: "- ";
+  margin-left: -15px;
+}
+
+ol.parens {
+  list-style: none;
+  counter-reset: list;
+}
+
+ol.parens > li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
