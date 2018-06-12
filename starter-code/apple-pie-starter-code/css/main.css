@@ -1,0 +1,35 @@
+/* No puedo poner imagens background */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+h1, h3{
+    text-align: center;
+}
+
+.text {
+text-align: left;
+}
+
+
+.center{
+font-family: roboto;
+text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;    
+}
+
+hr {
+    border: 0.5;
+    height: 1px;
+    background:gray;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 50%;
+}
