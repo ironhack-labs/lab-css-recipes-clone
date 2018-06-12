@@ -4,31 +4,32 @@
 
 .fondo {
         background-image: url("../images/apple-pie.jpg");
+        position: relative;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -255px;
         width: 500px;
         height: 500px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        margin: auto 0 20px;
       }
 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
     color: white;
-    text-align: left;
 }
 
 h1, h3{
     text-align: center;
 }
 
-.text {
-text-align: left;
-}
-
-
-.center{
-font-family: roboto;
+.ul {
 text-align: center;
-margin: auto; 
 }
 
 li {
@@ -38,6 +39,7 @@ li {
 img {
     display: block;
     margin: auto;    
+    
 }
 
 hr { 
@@ -46,4 +48,13 @@ hr {
     background:gray;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
     width: 50%;
+}
+.text {
+    font-family: Roboto;
+    margin: auto; 
+    text-align: justify;
+}
+
+section {
+    padding-left: 350px;
 }
