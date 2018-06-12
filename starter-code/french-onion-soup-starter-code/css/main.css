@@ -7,3 +7,11 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.img-first{
+  background-image: url("images/apple-pie.jpg");
+  height: 100px;
+}
+p{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  text-align: center;
+}
