@@ -1,9 +1,47 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+* {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  margin: 0 50px;
+  font-size: 24px;
+}
+
+.section-one {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding-top: 300px;
+  text-decoration-style: none;
+}
+
+.section-two {
+  padding: 70px 150px;
+}
+
+.recipe-info {
+  padding-left: 230px;
+}
+
+.section-three {
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 60px; 
+}
+
+.cooking-info {
+  padding-top: 50px;
+  padding-left: 240px;
+}
+
+.section-four {
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
