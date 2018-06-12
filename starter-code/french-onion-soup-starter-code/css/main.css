@@ -1,6 +1,9 @@
 *{
 
 }
+body{
+  font-size: 22px;
+}
 li{
   list-style-type:none;
 }
@@ -9,13 +12,21 @@ position:relative;
 text-align: center;
 padding-top: 220px;
 
-
-
-
-
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
 hr{
-  border: 1.3px solid;
+  border: 1.1px solid;
+  width: 1200px;
 
 
 }
@@ -59,7 +70,4 @@ hr{
   margin: 0 auto;
   background-position: center;
   padding-top: 50px;
-}
-body{
-
 }

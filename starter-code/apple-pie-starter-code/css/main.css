@@ -2,7 +2,17 @@
 
 }
 li{
-  list-style-type:none;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
 }
 .header h1{
 position:relative;
