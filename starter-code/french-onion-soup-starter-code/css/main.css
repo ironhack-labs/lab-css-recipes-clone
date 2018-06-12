@@ -7,11 +7,75 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
-.img-first{
-  background-image: url("images/apple-pie.jpg");
-  height: 100px;
+body{
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.main-div{
+    padding:10%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.img-second{
+  background-image: url("../images/soup.jpg");
+  background-position: left top;
+  background-size: 100% 1000px;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  position: absollute;
+  width: 100%;
+  height: 800px;
+}
+.apple-pie{
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 6em;
+    color: #fff;
+}
+.first-section{
+    border-bottom: 3px solid #ccc;
 }
 p{
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  text-align: center;
+  text-align: justify;
+  font-size: 1.95em;
+  font-weight: 200;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.first-timer{
+    margin-left: 22%;
+    margin-bottom: 1em;
+}
+h3{
+    font-size: 1.8em;
+    font-weight: 100;
+}
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+ul li:before {
+  content: '\2011';
+  position: absolute;
+  margin-left: -20px;
+  margin-bottom: 1em;
+}
+.second-timer{
+    margin-left: 22%;
+    margin-bottom: 1em;
+}
+.second-section{
+    border-bottom: 3px solid #ccc;
+}
+ol {
+    list-style-type: none;
+    counter-increment: customlistcounter;
+    margin-left: 0;
+    font-size: 1.5em;
+    font-weight: 200;
 }
