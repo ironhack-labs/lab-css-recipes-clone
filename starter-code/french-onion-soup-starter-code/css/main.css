@@ -7,3 +7,58 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align:center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-header1 img {
+  height: 25%;
+  width: 50%;
+  background-position: relative;
+
+}
+.main-header1 h1 {
+  position: absolute;
+  color: white;
+  /* padding-left: 750px;
+  padding-top: 200px; */
+  top: 30%;
+  left: 40%;
+  font-size: 40px;
+}
+
+ul {width: 20%;
+margin: auto; 
+list-style: none;
+text-align: left;
+}
+
+.directions ol{
+  list-style: none;
+ text-align: left;
+ margin: auto;
+ width: 40%
+
+}
+
+.content1 p {
+  width: 40%;
+  text-align: left;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.ingredients {
+  padding-top: 20px;
+}
+
+.directions {
+  padding-top: 20px
+}
