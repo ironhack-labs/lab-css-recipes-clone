@@ -1,9 +1,29 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+*{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+h1 {
+  color: #ffffff;
+  font-size: 7em;
+  font-color: "white";
+  text-align: center;
+  padding-top: 370px;
+}
+p{
+  padding-top: 40px;
+}
+.himg{
+  background-image:url("./soup.jpg");
+  height: 800px;
+}
+.zimg{
+  margin: 20px 0 0 40px;
+}
+section {
+  text-align: justify;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
 }
