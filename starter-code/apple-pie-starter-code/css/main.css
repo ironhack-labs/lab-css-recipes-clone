@@ -2,6 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+.fondo {
+        background-image: url("../images/apple-pie.jpg");
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: auto 0 20px;
+      }
+h1 {
+    color: white;
+    text-align: left;
+}
 
 h1, h3{
     text-align: center;
@@ -15,6 +28,7 @@ text-align: left;
 .center{
 font-family: roboto;
 text-align: center;
+margin: auto; 
 }
 
 li {
@@ -26,7 +40,7 @@ img {
     margin: auto;    
 }
 
-hr {
+hr { 
     border: 0.5;
     height: 1px;
     background:gray;
