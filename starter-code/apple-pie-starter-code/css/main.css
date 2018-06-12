@@ -1,0 +1,114 @@
+
+
+body {
+    margin: 0% auto;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    background-color: black;
+    
+}
+
+.applepie {
+    background-color: white;
+    width: 90vw;
+    margin: 0% auto;  
+    padding-bottom: 30px;
+}
+.sec1 {
+    background-image:url("../images/apple-pie.jpg");;
+    margin: 0% auto;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: grey;
+    
+}
+
+
+.sec1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;   
+    padding-top: 15%;
+    font-size: 64px;
+    
+}
+
+
+.sec2 { 
+    margin: 0% auto;
+    padding: 0%;
+    width: 55vw;
+    height: auto;
+    text-align: inherit;
+    padding-top: 40px;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
+}
+
+.ingredients {
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
+}
+.ingredients li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+  .directions {
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.recipe1 {
+    display: block;
+    margin: 0% auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 7vh;
+    width: 24vw;
+}
+
+
+.cooking1 {
+    display: block;
+    margin: 0% auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 12vh;
+    width: 26vw;
+  
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    /* font-color */
+}
+
+
