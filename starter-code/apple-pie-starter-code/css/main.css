@@ -1,0 +1,46 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+/*Import the font and set the default size*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.banner{
+    position:relative;
+    width: 90%;
+    margin: auto;
+}
+
+.banner img{
+    height: 1000px;
+}
+
+.heading{
+    color: white; 
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    font-size: 3rem
+}
+.paragraph{
+    text-align: center;
+    margin: 30px 300px;
+}
+.content img{
+    display:block;
+    margin: auto;
+}
+
+.lists{
+    margin: 30px 200px;
+}
+.paragraph{
+    font-size: 25px;
+}
+.hrTag{
+    margin: 0px 200px;
+}
