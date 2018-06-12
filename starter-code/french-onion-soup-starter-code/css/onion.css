@@ -1,0 +1,89 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+  margin: 0 10%;
+  font-family: Helvetica Neue;
+}
+
+.top-back {
+  background-image: url(../images/soup.jpg);
+  height: 100%;
+  background-size: contain;
+}
+
+hr {
+  width: 70%;
+  height: 2px;
+  background-color: dimgray;
+  border: none;
+}
+
+#top h1 {
+  padding: 300px 240px;
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 22px;
+  width: 80%;
+  text-align: left;
+  margin-left: 130px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.image-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.image-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+h2 {
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+ul, li {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.ingredients {
+  margin-left: 160px;
+  margin-top: 30px;
+}
+
+ol {
+  width: 80%;
+  padding-top: 5px;
+  font-size: 24px;
+  font-weight: 200;
+  list-style-type: none;
+  padding-left: 10px;
+}
