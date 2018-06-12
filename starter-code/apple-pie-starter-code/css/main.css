@@ -43,6 +43,8 @@ section.content {
 .section-info {
   display: block;
   margin: 0 auto;
+  width: 70%;
+  max-width: 500px;
 }
 
 ul, ol {
