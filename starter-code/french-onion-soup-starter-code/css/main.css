@@ -7,3 +7,46 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.french-pic {
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.french-pic {
+    background: url(../images/soup.jpg);
+    height: 600px;
+
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.first-paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+.first-paragraph img{
+    margin: 0 auto;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.food-list{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+.food-ordered-list{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
