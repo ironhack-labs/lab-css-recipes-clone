@@ -1,0 +1,21 @@
+@import
+url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+margin: 0;
+}
+
+h1 {
+font-size: 48px;
+text-align: center;
+}
+
+h3 {
+font-size: 20px;
+text-align: left;
+}
+
+
+
