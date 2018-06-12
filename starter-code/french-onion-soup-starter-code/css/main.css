@@ -3,7 +3,48 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  background-image: url('../images/soup.jpg');
+  background-size: 100%;
+  color: white;
+  font-size: 40px;
+  height: 600px;
+  display: flex;
+}
+
+h1, h2 {
+  align-self: center;
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+ul, ol {
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 100px;
+}
+
+.image {
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
