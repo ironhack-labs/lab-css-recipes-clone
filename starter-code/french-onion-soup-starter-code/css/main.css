@@ -7,3 +7,58 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#onionSoup {
+  width: 100%;
+  height: 800px;
+}
+#onionSoupTitle{
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+  width: 70%;
+}
+#description{
+  text-align: justify;
+  font-size: 1.7em;
+  margin-top: 50px;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.imgInfo{
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+hr{
+margin: 20px auto 30px auto;
+}
+.subtitle{
+  font-size: 1.7em;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+.list{
+  font-size: 1.4em;
+  margin-left: 40px;
+}
+ol {counter-reset: item;}
+ol li {
+	list-style: none;
+}
+ol li:before {
+	content: counter(item) ") ";
+	counter-increment: item;
+}
+ul li{
+  list-style: none;
+}
+ul li:before {
+  content: "-";
+}
