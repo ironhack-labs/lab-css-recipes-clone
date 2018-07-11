@@ -24,7 +24,12 @@ font-weight: lighter;
 
     width: 90%;
 }
-.content-1 img{
+.recipe-info{
+    margin-left:30%;
+    margin-right:30%;
+    width:45%;}
+
+.cooking-instructions{
     margin-left:30%;
     margin-right:30%;
     width:40%;
