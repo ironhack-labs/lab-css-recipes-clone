@@ -15,19 +15,25 @@ h1 {
   line-height: 800px;
 }
 
+h2 {
+  font-size: 1.55em;
+}
+
 p {
   font-size: 1.35em;
-  padding-top: 6%;
+  padding-top: 5%;
 }
 
 section{
-  padding-bottom: 6%;
+  padding-bottom: 5%;
 }
 
-#apple-image {
+#apple-background {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 
 .centered {
