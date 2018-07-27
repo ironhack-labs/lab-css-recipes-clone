@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /* HEADER */
@@ -37,12 +37,19 @@ h2 {
   padding: 5%;
 }
 
-/* Una classe para los iconos */
+/* Una classe para los imagenes */
 
 .img-center {
+  size: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img{
+  width: auto;
+  /* Un icono es mas alto que otro, por eso se usaron pixeles */
+  height: 60px;
 }
 
 hr {
