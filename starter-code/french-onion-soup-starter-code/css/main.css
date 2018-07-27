@@ -1,9 +1,58 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+/* HEADER */
+
+header {
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding: 150px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  padding: 0 0 4% 0;
+}
+
+.text {
+  margin: 0 auto;
+  width: 60%;
+  padding: 5%;
+}
+
+/* Una classe para los imagenes */
+
+.img-center {
+  size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: auto;
+  /* Un icono es mas alto que otro, por eso se usaron pixeles */
+  height: 60px;
+}
+
+hr {
+  margin: 0 auto;
+  width: 60%;
 }
