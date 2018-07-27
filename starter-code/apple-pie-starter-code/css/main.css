@@ -1,18 +1,50 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
 /* HEADER */
-header{
+
+header {
   height: 400px;
+  width: 90%;
+  margin: 0 auto;
   background-image: url("../images/apple-pie.jpg");
   background-position: center;
-  background-size: 600px;
+  background-size: 90%;
   background-repeat: no-repeat;
 }
-h1{
+
+h1 {
   padding: 150px;
   color: white;
   text-align: center;
+  font-size: 60px;
+}
+
+h2{
+  padding: 0 0 4% 0;
+}
+
+.text {
+  margin: 0 auto;
+  width: 60%;
+  padding: 5%;
+}
+
+/* Una classe para los iconos */
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  margin: 0 auto;
+  width: 60%;
 }
