@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
 }
 
@@ -27,7 +27,7 @@ h1 {
   font-size: 60px;
 }
 
-h2{
+h2 {
   padding: 0 0 4% 0;
 }
 
@@ -38,13 +38,14 @@ h2{
 }
 
 /* Una classe para los iconos */
+
 .img-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-hr{
+hr {
   margin: 0 auto;
   width: 60%;
 }
