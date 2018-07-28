@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #pie {
   height: 800px;
@@ -18,8 +18,8 @@ body {
 h1 {
   width: 100%;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 80px;  
   line-height: 620px;
   align-self: center;

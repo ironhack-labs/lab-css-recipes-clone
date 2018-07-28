@@ -1,9 +1,106 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+#soup {
+  height: 600px;
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  width: 100%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 80px;  
+  line-height: 520px;
+  align-self: center;
+  position: absolute;
+  text-align: center;
+}
+
+.info { 
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.introduction {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 27px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+.recipe {
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+hr {
+  width: 80%;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+h2#direc {
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+li {
+  line-height: 1.5em;
+  margin-left: 40px;
+  text-decoration-style: double;
+  list-style-type: none;
+}
+
+li:before {
+  content: "- ";
+}
+
+.cooking {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.direction {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 40px;
+  line-height: 1.5em;
+}
+
+li.numbers {
+  list-style-type: decimal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+li.numbers:before {
+  content: "";
+}
+
+ol {
+  margin-bottom: 70px;
 }
