@@ -12,7 +12,7 @@
 }
 header {
   background: center/cover no-repeat url("../images/apple-pie.jpg") transparent;
-  padding: 20rem 0;
+  padding: 27rem 0;
   width: 100%;
 }
 h1 {
@@ -20,6 +20,7 @@ h1 {
   font-size: 8rem;
   font-weight: 300;
   text-align: center;
+  text-shadow: 1px 1px #3f2822;
 }
 main {
   margin: 0 auto;
@@ -40,7 +41,7 @@ p {
   margin: 0 auto;
   width: 60%;
 }
-#ingredients {
+.section-space {
   padding: 6rem 0;
 }
 h2 {
@@ -48,10 +49,17 @@ h2 {
   font-weight: 400;
   margin: 0 0 3rem;
 }
-.ingredients-list {
+.steps {
   list-style-position: inside;
   list-style-type: none;
 }
-.ingredients-list li {
+.steps li {
   font-size: 1.7rem;
+}
+.ingredients-list li::before {
+  content: "–";
+  padding: 0 1rem 0 2.6rem;
+}
+.instructions-list {
+  padding-left: 2.6rem;
 }
