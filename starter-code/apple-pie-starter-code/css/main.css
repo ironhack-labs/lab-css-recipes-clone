@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#pie {
+  height: 800px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  width: 100%;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 80px;  
+  line-height: 620px;
+  align-self: center;
+  position: absolute;
+  text-align: center;
+}
+
+.info { 
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.introduction {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 27px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+.recipe {
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+hr {
+  width: 80%;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+h2#direc {
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+li {
+  line-height: 1.5em;
+  margin-left: 40px;
+  text-decoration-style: double;
+  list-style-type: none;
+}
+
+li:before {
+  content: "- ";
+}
+
+.cooking {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.direction {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 40px;
+  line-height: 1.5em;
+}
+
+li.numbers {
+  list-style-type: decimal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+li.numbers:before {
+  content: "";
+}
+
+ol {
+  margin-bottom: 70px;
+}
