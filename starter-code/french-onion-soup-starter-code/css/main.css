@@ -1,9 +1,88 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
   margin: 0;
+  padding: 0;
+  font-family: "Roboto";
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.sobre {
+  background-color: green;
+  background-size: cover;
+  background-image: url("../images/apple-pie.jpg");
+  height: 400px;
+}
+.text1 {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-size: 4em;
+}
+
+.subtext {
+  font-size: 1.5em;
+  padding: 90px 200px 90px;
+  margin: auto 20px auto;
+}
+h3 {
+  font-weight: 300;
+  padding: 15px 70px 20px;
+}
+ul {
+  margin: 0 100px 0;
+}
+ul li {
+  list-style: none;
+  text-align: justify;
+}
+
+.freOn {
+  background-size: cover;
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+  height: 400px;
+}
+
+.imgtime {
+  display: block;
+  margin: auto auto auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vh;
+  background-image: url("../images/recipe-info.png");
+}
+
+.imgtime2 {
+  display: block;
+  margin: auto auto auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vh;
+  background-image: url("../images/cooking-info.png");
+}
+.margen {
+  padding: 15px 70px 20px;
+}
+
+.ingredients {
+  font-size: 1.5em;
+  padding: 90px 150px 90px;
+}
+.direction {
+  font-size: 1.5em;
+  padding: 90px 150px 90px;
+}
+
+.linea {
+  padding: 0 200px;
+}
+
+hr {
+  color: gray;
+  border-style: double;
+}
+
+.freOn {
+  background-size: cover;
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+  height: 400px;
 }
