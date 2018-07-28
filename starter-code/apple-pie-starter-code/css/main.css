@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+.img {
+    margin: 20px auto 30px auto; 
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    line-height: 2.5;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 5em
+}
+hr {
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
+.header {
+    background-image: url("/Users/ricardomayosilva/Documents/IronHack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: auto;
+    height: auto;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+.container {
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+}
