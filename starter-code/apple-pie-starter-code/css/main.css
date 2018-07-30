@@ -1,0 +1,75 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+  }
+
+  #applePie {
+    height: 700px;
+    background-image: url(images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-shadow: 10px 10px 100px #283747;
+    background-attachment: fixed;
+} 
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 600%;
+    padding: 20% 0% 0% 0%;
+}
+p {
+    margin: 9% 0 0 0;
+    text-align: center;
+    color: #283747;
+    font-size: 180%;
+    padding: 0 100px 0 100px;
+
+}
+.RI {
+    margin: 5% 0 0 28%;
+}
+hr{
+  height: 2px;
+  width: 90%;
+  background-color: gray;
+  margin: 0 0 0 6%;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 173%;
+    margin: 5% 0 0 3%;
+    font-weight: 2px; 
+}
+ul{
+    margin: 3% 0 0 0;
+}
+li{
+    list-style: none;
+    margin: 0 0 0 %;
+}
+.L1{
+    font-size: 180%;
+}
+.CI {
+    margin: 5% 0 0 28%;
+}
+.L2{
+    font-size: 180%;
+    padding: 0 10% 0 6%;
+    margin: 0 0 0 -5%;
+}
+.L2_2{
+    margin: 3% 0 7% 1%
+}
+#frenchOnion {
+    height: 700px;
+    background-image: url(images/soup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin: 5% 0 0 0;
+    box-shadow: 10px 10px 100px #283747;
+    background-attachment: fixed;
+}
