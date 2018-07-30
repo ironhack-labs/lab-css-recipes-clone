@@ -1,0 +1,49 @@
+/* Global Font control */
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+  color:black;
+}
+/* Center all content */
+body {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+}
+/* Remove list style ??? 
+which one should we use for -? */
+.ingredients{
+  list-style-type: none;
+}
+/* text format of introduction*/
+.container {
+  text-align: justify;
+}
+/* text alignment for label on picture */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+  font-size: 50px;
+}
+/* img formatting */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*Styling Apple pie picture*/
+.a-pie {
+  height: 400px;
+  background-image: url(../images/apple-pie.jpg);
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0, Auto;
+}
