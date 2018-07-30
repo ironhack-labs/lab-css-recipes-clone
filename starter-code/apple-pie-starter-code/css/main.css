@@ -1,0 +1,29 @@
+.pic {
+    /* border: 1px red solid;  */
+    background-image: url(../images/apple-pie.jpg);
+    height: 500px;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+section {
+    text-align: center;
+}
+
+p , h2, li {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+    height: 50px;
+}
+hr {
+    width: 60%;
+}
