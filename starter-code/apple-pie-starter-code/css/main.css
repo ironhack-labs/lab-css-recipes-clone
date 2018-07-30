@@ -34,7 +34,7 @@ h1 {
 
 .recipe-info {
     align-content: center;
-    float: center;
+    padding: 0 18%;
 }
 
 .ingredients {
