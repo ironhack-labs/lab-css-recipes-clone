@@ -1,9 +1,97 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,400,500,600,700');
+
+
+*{ 
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+  font-size: 6em;
+  font-weight: 400;
+}
+
+h4 {
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.Head {
+  background-image: url("/french-onion-soup-starter-code/images/soup.jpg");
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  color: white;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 700px;
+}
+
+.width {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.introduction {
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.3em;
+  font-weight: 300;
+}
+
+.paragraph {
+  padding: 70px 0;
+}
+
+.ingredients {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  padding: 40px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ingredients li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.cooking {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  padding: 40px 0 70px 0;
+  font-weight: 300;
+}
+
+.right {
+  text-align: left;
+}
+.cooking li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+img {
+  width: 50%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(128, 128, 128);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.margin {
+  margin-left: 20px;
+  padding-bottom: 60px;
 }
