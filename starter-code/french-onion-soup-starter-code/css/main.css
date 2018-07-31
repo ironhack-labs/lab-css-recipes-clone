@@ -1,9 +1,16 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
+  background: white;
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.header {
+  height: 500px;
+  background: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 500px;
 }
