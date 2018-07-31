@@ -19,19 +19,19 @@ h4 {
 }
 
 .Head {
-  background-image: url("/apple-pie-starter-code/images/apple-pie.jpg");
-  background-position: 0 -200px;
+  background-image: url("/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 700px;
+  height: 100vh;
   color: white;
 }
 
 .center {
   margin: 0 auto;
   text-align: center;
-  line-height: 700px;
+  line-height: 100vh;
 }
 
 .width {
@@ -79,7 +79,7 @@ h4 {
 }
 
 img {
-  width: 50%;
+  width:400px;
 }
 
 hr {
