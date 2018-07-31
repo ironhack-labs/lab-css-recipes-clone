@@ -1,8 +1,8 @@
 /* Global Font control */
 * {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-  color:black;
+  font-size: 18px;
+  color: black;
 }
 /* Center all content */
 body {
@@ -10,6 +10,19 @@ body {
   margin: auto;
   width: 50%;
   padding: 0px;
+}
+/*Styling header picture*/
+.header {
+  height: 500px;
+  line-height: 500px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin: 0, Auto;
+  background-image: url(../images/apple-pie.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Remove list style ??? 
 which one should we use for -? */
@@ -21,29 +34,19 @@ which one should we use for -? */
   text-align: justify;
 }
 /* text alignment for label on picture */
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: white;
-  font-size: 50px;
-}
+  font-size: 60px;
+} */
 /* img formatting */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-/*Styling Apple pie picture*/
-.a-pie {
-  height: 400px;
-  background-image: url(../images/apple-pie.jpg);
-  position: relative;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0, Auto;
 }
