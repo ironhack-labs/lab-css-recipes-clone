@@ -2,8 +2,66 @@
 h1, body, html, main {
   margin: 0;
 }
+h2,h3,h4,h5{
+  font-weight: 100;
+}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+.clearfix{
+  clear:both;
+}
+.header{
+  background-image:url("../images/soup.jpg");
+  width:100%;
+  background-repeat: no-repeat;
+  position: relative;
+  float:left;
+  background-size: cover;
+  height: 400px;
+  padding-top: 70px;
+  margin:0 0;
+ 
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+  color:#FFF;
+}
+
+.img{
+ 
+  position: absolute;
+  margin:50%;
+  height: 86px;
+}
+hr{
+  width:60%;
+}
+
+.intro{
+  width:60%;
+  margin-left:15%
+  color:grey;
+  font-size: 1.2em;
+}
+
+.container{
+  margin:auto;
+   width: 1200px;
+   margin:0 0;
+   position: relative;
+float:left;
+}
+.ingredients .directions{  
+  padding-top:20px;
+  width:70%;
+  float:left;
+  margin-left:15%;
+}
+.ingredients li{
+  text-decoration: none;
 }
