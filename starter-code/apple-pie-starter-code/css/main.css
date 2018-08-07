@@ -1,0 +1,36 @@
+
+
+.body {
+    font-family: sans-serif;
+    font-size : 20px;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.007);
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family : sans-serif; 
+
+}
+
+#description {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 50
+    
+    
+    }
+    
+#recipeInfo {
+     position: center;
+     text-align: center;
+    
+    }
