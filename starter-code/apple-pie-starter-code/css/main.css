@@ -1,0 +1,43 @@
+
+* {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 30px;
+}
+
+.header {
+  background-image: url(file:///home/looffi/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 700px;
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 350px; 
+}
+
+hr {
+  margin: 40px 300px;
+  height: 6px;
+  background-color: gray;
+}
+
+#intro p {
+  padding: 0 100px;
+}
+
+#Ingredients{
+  padding: 0 100px;
+}
+#directions{
+  padding: 0 100px;
+}
+ul{
+  list-style-type: none;
+}
+#directions p{
+  margin: 0 0;
+}
