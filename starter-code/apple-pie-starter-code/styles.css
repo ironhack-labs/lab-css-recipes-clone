@@ -1,17 +1,11 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+/* styles.css */
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
 
 header {
-  background-image: url('../images/soup.jpg');
+  background-image: url('images/apple-pie.jpg');
   block-size: 550px;
-  background-position: center;
 }
 
 h1 {
@@ -63,3 +57,8 @@ ol > li:before {
   position: absolute;
   left: -1.4em;
 }
+
+/* 
+.clearfix { 
+  clear: both; /* clear floats */
+  } */ */
