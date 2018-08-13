@@ -34,11 +34,3 @@ h1, body, html, main {
   max-width: 900px;
   margin: 0 auto;
 }
-
-.frenchonionsoupimage {
-  background-image: url(../../french-onion-soup-starter-code/images/soup.jpg);
-  background-repeat: no-repeat;
-  height: 500px;
-  background-size: cover;
-  margin: 0; 
-}
