@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  background-color: : black
+}
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 90px
+}
+
+.firstSection{
+  background: url("/Users/alexr/Desktop/coding/ironhack/firstWeek/secondAssignment/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+
+
+}
+
+.firstImage{
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  margin-left: 27%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+
+.centerAll{
+  margin-left: 100px;
+  margin-right: 100px;
+}
