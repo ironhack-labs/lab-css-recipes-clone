@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  font-family: Open Sans;
+}
+
+header {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.pieheader {
+  height: 800px;
+  margin: 0 auto;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  }
+
+  .pietle {
+    color: white;
+  text-align: center;
+  font-size: 5em;   
+  padding-top: 400px;
+  font-weight: 100;
+  margin: 0;
+  }
+
+  .about {
+  text-align: center;
+   width: 60%;
+   margin: 0 auto;
+   padding-top: 50px;
+    font-size: 1.2em;
+    font-weight: 1;
+  }
+
+  .icons1 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .icons2 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .borderline {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid lightgrey;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .ingredients {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  .directions {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
