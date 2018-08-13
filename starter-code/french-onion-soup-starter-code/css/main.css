@@ -7,3 +7,30 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  color: rgb(84, 86, 89);
+  
+}
+.div1 {
+  background-image: url("/Users/levijskal/Desktop/Ironhack/assigment2/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  height: 475px;
+}
+.div1 h1{
+  color: white;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  font-size: 400%;
+}
+.textposition {
+  margin-left: 165px;
+  margin-right: 165px;
+}
+.styling {
+  list-style: none;
+}
+h1 {
+  font-weight: 100;
+  font-style: Arial, Helvetica, sans-serif;
+}
