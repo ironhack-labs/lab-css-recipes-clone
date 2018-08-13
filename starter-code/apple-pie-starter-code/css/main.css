@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  padding: 35px;
+}
+
+#banner-top {
+  background: url("../images/apple-pie.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.title {
+    text-align: center;
+    padding: 200px 0;
+    color: white;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-size: 75px;
+}
+
+.content {
+  display: inline-block;
+  text-align: center, justify;
+  vertical-align: middle;
+  padding: 100px;
+  color: black;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#recipe-info {
+  text-align: center;
+}
+
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 2px;
+  background-color: #989898;
+}
+
+#ingredients {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ingredients-title {
+  padding-left: 100px;
+  padding-bottom: 25px;
+  color: black;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 35px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding-left: 110px;
+  color: black;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+#cooking-info {
+  text-align: center;
+}
+
+.directions-title {
+  padding-left: 100px;
+  padding-bottom: 25px;
+  color: black;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 35px;
+}
+
+.directions-list {
+  padding-left: 110px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  text-align: justify;
+  color: black;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+ol {counter-reset: item;}
+
+ol li {
+	list-style: none;
+}
+ol li:before {
+	content: counter(item) ") ";
+	counter-increment: item;
+}
