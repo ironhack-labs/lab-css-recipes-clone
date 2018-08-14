@@ -5,7 +5,7 @@ body{
 
 h1{
   color: white;
-  background-image: url('/Users/nicholas_crispino/Desktop/Class Work/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+  background-image: url('../images/apple-pie.jpg');
   height: 500px;
   width: 80%;
   background-size: cover;
