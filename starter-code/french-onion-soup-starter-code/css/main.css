@@ -7,3 +7,112 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+.everything{
+
+width: 1300px;
+height: 3000px;
+
+
+}
+
+
+
+.title {
+text-align: center;
+
+height: 1250px;
+width: 1350px;
+background-image: url("../images/soup.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 120px
+font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.title p{
+	  font-family: 'Open Sans', sans-serif;
+
+
+	padding-top: 800px;
+
+	color: rgb(255,255,255);
+
+	font-size: 100px;
+}
+
+.intro p{
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 30px;
+text-align: left;
+
+padding-left: 155px;
+
+	
+}
+
+.ingredients p{
+
+	text-align: left;
+
+	  font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+padding-left: 165px;
+
+
+
+}
+
+.ingredients h3 {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 155px;
+
+	  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.directions h3 {
+
+
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 28px;
+	text-align: left;
+	padding-left: 155px;
+
+
+
+}
+
+.directions p {
+
+
+	text-align: left;
+
+	  font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+padding-left: 165px;
+
+}
+
+.cookingInfo img {
+
+	margin-left: 500px;
+}
+.hr{
+
+margin-right: 100px;
+
+}
+
+.recipeInfo img {
+
+	margin-left: 500px;
+}
+
+
+}
