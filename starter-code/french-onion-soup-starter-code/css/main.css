@@ -10,7 +10,7 @@ html {
 
 h1{
   color: white;
-  background-image: url('/Users/nicholas_crispino/Desktop/Class Work/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');'
+  background-image: url('../images/soup.jpg');
   height: 500px;
   width: 80%;
   background-size: cover;
