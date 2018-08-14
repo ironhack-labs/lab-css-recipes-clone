@@ -11,34 +11,36 @@ html {
 .foLogo{
   background-image: url(../images/soup.jpg);
   background-size: cover;
-  height: 12em;
-  width: 37em;
+  height: 64vh;
+  width: 62vw;
   margin: 0 auto;
   text-align: center;
-  padding-top: 13em;
+  padding: 0;
+  background-position: center 100%;
 }
 
 .h1Style{
   color: white;
-  font-size: 40px;
-
+  font-size: 3.5em;
+  font-weight: 100;
+  padding-top: 3em;
 }
 
 .para1{
-  text-align: center;
   display: inline-block;
   margin: 0 auto;
-  padding-left: 22em;
+  padding-left: 20em;
+  font-size: 20px;
 }
 
 hr{
-  width: 50em;
+  width: 39em;
 }
 
 .ulIng{
   list-style-position: inside;
-  padding-left: 15em;
-  margin: 0 autol;
+  padding-left: 22em;
+  margin: 0 auto;
 }
 
 ul{
@@ -56,11 +58,15 @@ ul > li:before{
   font-weight: 100;
 }
 
-.imgStyle{
-  height: 4em;
-  padding-left: 28em;
+.imgStyle1{
+  height: 2.5em;
+  padding-left: 32em;
 }
 
+.imgStyle2{
+height: 4em;
+  padding-left: 28em;
+}
 .directions{
   margin: 0 auto;
   padding-left: 15em;
