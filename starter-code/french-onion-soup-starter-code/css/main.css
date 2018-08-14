@@ -35,12 +35,15 @@ html {
 
 hr{
   width: 39em;
+  border-color: gray;
 }
 
 .ulIng{
   list-style-position: inside;
-  padding-left: 22em;
+  padding-left: 24em;
   margin: 0 auto;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 ul{
@@ -56,25 +59,32 @@ ul > li:before{
 
 .h2Style{
   font-weight: 100;
+  font-size: 22px;
 }
 
 .imgStyle1{
-  height: 2.5em;
+  height: 2.9em;
   padding-left: 32em;
 }
 
 .imgStyle2{
 height: 4em;
-  padding-left: 28em;
+padding-left: 33em;
+padding-top: 30px;
 }
 .directions{
   margin: 0 auto;
-  padding-left: 15em;
+  padding-left: 22.85em;
   font-weight: 100;
-  list-style-position: inside
+  list-style-position: inside;
+  font-size: 16px;
 }
 
 .h2Font{
   font-weight: 100;
+  font-size: 23px;
+}
 
+ol {
+  list-style-type: none;
 }
