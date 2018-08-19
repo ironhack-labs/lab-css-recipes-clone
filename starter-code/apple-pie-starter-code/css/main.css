@@ -1,69 +1,52 @@
 /* style.css */
 
-/*Some necessary adjustments*/
-h1,
-body,
-html,
-main {
-  margin: 0;
-}
+/*============== <Global> ==============*/
 
 body {
-  background-color: white;
-  margin-left: 200px;
-  margin-right: 200px;
+  font-family: sans-serif;
   font-size: 17px;
-  font-family: "Open Sans", sans-serif;
   color: gray;
 }
+.padding{
+  padding: 0 22%;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 20px;
+}
 
-.main-header {
-  background-image: url("../images/apple-pie.jpg");
+/*============== <header> ==============*/
 
-  border: 1px solid transparent;
+header {
+  padding: 0 15%;
+}
+.title {
+  background-image: url(../images/apple-pie.jpg);
   background-repeat: no-repeat;
-  height: 500px;
-  background-size: 1200px 1000px;
-  top: 25%;
-}
+  background-size: 100%;
 
-.first-header {
-  margin-top: 200px;
+  padding: 21%;
+  color: white;
   text-align: center;
-  font-size: 70px;
-  font-family: "Helvetica";
-
-  color: rgba(255, 255, 255);
-}
-
-.section1 {
-  background-size: center;
-}
-
-.recipe-img {
-  background-size: center;
-  width: 350px;
-  margin-left: 300px;
-}
-
-.section2 {
 
 }
 
-.ingredients-list {
-  list-style-type:none;
+
+/*============== <section 1> ==============*/
+
+.recipe-info {
+width:  40%;
+margin: 0 30%;
 }
 
-.section3 {
-  background-size: center;
+/*============== <section 2> ==============*/
+
+.cooking-info {
+ width:  40%;
+ margin: 0 30%;
 }
 
-.cooking-img {
-  background-size: center;
-  width: 300px;
-  margin-left: 300px;
-}
 
-.cooking-list {
-  list-style-type:none;
-}
+/*============== <footer> ==============*/
