@@ -7,3 +7,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+/* MEX - FRANCISC */
+
+.header-title {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: white;
+  text-align: center;
+  padding: 20% 0 24% 0;
+  font-size:4em;
+  font-weight: 100;
+}
+ p {
+  display: block;
+  width: 80%;
+  margin: 10% auto 5% auto;
+  font-size: 2em;
+}
+h3 {
+  margin: 5% auto;
+  width: 80%;
+  font-size: 3em;
+  font-weight: 100;
+}
+hr{
+  width: 80%;
+  margin: 2% 10%;
+}
+
+aside{
+  width: 70%;
+  margin-left: 25%;
+}
+
+ul {
+  display: block;
+  width: 80%;
+  margin: 0% auto 10% auto;
+}
+
+li {
+  font-size: 2em;
+  margin: 1% 0;
+}
+
+.final {
+  margin-bottom: 10%;
+}
