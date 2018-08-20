@@ -1,0 +1,52 @@
+/* style.css */
+
+/*============== <Global> ==============*/
+
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: gray;
+}
+.padding{
+  padding: 0 22%;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 20px;
+}
+
+/*============== <header> ==============*/
+
+header {
+  padding: 0 15%;
+}
+.title {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  padding: 21%;
+  color: white;
+  text-align: center;
+
+}
+
+
+/*============== <section 1> ==============*/
+
+.recipe-info {
+width:  40%;
+margin: 0 30%;
+}
+
+/*============== <section 2> ==============*/
+
+.cooking-info {
+ width:  40%;
+ margin: 0 30%;
+}
+
+
+/*============== <footer> ==============*/
