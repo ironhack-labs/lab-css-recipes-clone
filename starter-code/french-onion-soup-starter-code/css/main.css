@@ -1,9 +1,33 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+*{
+  margin: 0%;
+  padding: 0%;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+
+
+header {
+  background-image: url(../images/soup.jpg);
+  height: 650px;
+
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.section-ingredents {
+  
+  width: 80%;
+  margin: 15px auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.image-aling {
+  padding-left: 25%;
+  
+
+}
+
+.header-h1 {
+padding-top: 18%;
 }
