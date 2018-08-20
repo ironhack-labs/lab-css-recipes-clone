@@ -1,0 +1,116 @@
+
+html{
+
+background-color: #080808f8;
+
+}
+body{
+
+width: 495px;
+margin: auto;
+background-color: white
+}
+.contenedor img{
+  
+    width: 495px;
+   
+}
+
+h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.todo{
+
+position: relative;
+
+}
+p,li,h2{
+
+font-size: 13px;
+color: rgb(94, 92, 92);
+font-family: 'Times New Roman', Times, serif;
+}
+hr{
+
+width: 416px;
+
+}
+
+
+.cabecera h1{
+color: white;
+position: absolute;
+left: 155px;
+top: 115px;
+text-align: center;
+font-size: 2.7em;
+}
+
+
+.parrafo1{
+
+padding: 20px 50px 20px 45px; 
+
+ }
+
+
+.imagenTiempo{
+
+width:225px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -15px;
+padding-bottom: 10px;
+ }
+
+
+
+.ingredientes li{
+ 
+ list-style: none;
+ padding-left: 15px;
+ 
+ }
+       
+
+.imagenCoccion{
+
+width:200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+padding-bottom: 10px;
+
+ }
+
+
+.parrafo2 h2{
+
+padding: 8px 0 0px 40px;
+
+   
+ }
+
+
+.parrafo2 ol{
+list-style: none;
+padding:  8px 60px 20px 45px;      /* 8px 50px 20px 45px; */
+    
+ }
+
+ .contenedor{
+
+position: relative;
+margin-top: -40px;
+ }
+
+ .cuerpo{
+
+background-color: white;
+position: absolute;
+margin-top: -105px;
+ }
