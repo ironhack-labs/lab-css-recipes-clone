@@ -1,9 +1,85 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  font-family: 'Roboto', sans-serif; 
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+hr{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.header{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 6em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.section-recipe-info{
+  width:100%;
+  height: 30vh;
+}
+.section-recipe-info article{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+.section-recipe-info p{
+  text-align: justify;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 50px;
+  color: gray;
+}
+.section-ingredients{
+  width:100%;
+  height: 50vh;
+}
+.section-ingredients article{
+  text-align: center;
+  font-size: 1.5em;
+  color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+.section-ingredients h3{
+  text-align: justify !important;
+  margin: 20px;
+}
+.section-ingredients ul{
+  text-align: justify;
+}
+
+.section-direction{
+  width:100%;
+  height: 50vh;
+}
+.section-direction h3{
+  margin-top: 50px;
+}
+.section-direction article{
+  text-align: justify;
+  font-size: 1.5em;
+  color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
 }
