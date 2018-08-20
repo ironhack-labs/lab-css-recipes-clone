@@ -1,0 +1,64 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  h1{
+    color: white;
+  }
+
+  .imagen h1{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 5em;
+  margin: 0 auto;
+  padding-top:300px;
+  }
+
+  .imagen{
+    background-image: url("file:///Users/prueba/Ironhack/semana-1/dia-1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+  }
+
+  .imagen{
+    height: 800px;
+    width: 100%;
+  }
+  .text-grandma{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .info img{
+    width: 500px;
+    padding: 20px;
+  }
+  .info {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .texto{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .info img span{
+    width: 200px;
+  }
+
+hr{
+  width: 70%;
+  color: gray;
+}
