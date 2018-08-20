@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto"; 
+}
+
+.header{
+  width: 65em;
+  margin: auto;
+}
+.picture {
+  background-image: url("images/apple-pie.jpg");
+  background-size: cover;
+  height: 650px;
+  margin-top: 20px;
+  
+}
+
+.apple {
+  text-align:center;
+  padding-top:300px;
+  color:white;
+  font-size: 5em;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 80px;
+  color:gray;  
+}
+
+.picture-recipe {
+  background-image: url("images/recipe-info.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-left: 200px;
+}
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.list-ingre {
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.ingredients {
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 22px
+}
+
+.list-ingre ul {
+  margin-left: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  padding-bottom: 40px
+}
+
+.list-ingre li:before {
+  content: "-";
+}
+
+.picture-cooking {
+  background-image: url("images/cooking-info.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-left: 100px;
+  padding-bottom: 30px; 
+}
+
+.list-direct{
+  margin-left: 500px;
+  margin-top: 30px;
+  width: 50%;
+  font-size: 25px;
+}
+
+.direction{
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 25px
+}
+
+
+
