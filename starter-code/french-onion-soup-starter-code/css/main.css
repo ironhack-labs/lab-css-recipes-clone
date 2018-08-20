@@ -1,9 +1,53 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+#soup {
+  width: 100%;
+}
+#centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  color: white;
+}
+#intro {
+  width: 80%;
+  padding: 5%;
+  margin: auto;
+}
+#recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2%;
+}
+ol {
+  counter-reset: item;
+}
+ol li {
+	list-style: none;
+}
+ol li:before {
+	content: counter(item) ") ";
+	counter-increment: item;
+}
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+#ingredients {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
 }
