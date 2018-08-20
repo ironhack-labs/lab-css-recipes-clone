@@ -1,9 +1,46 @@
-/*Some necessary adjustments*/
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  color:white;
+  text-align: center;
+  line-height: 500px;
+  font-size: 60px;
+}
+
+.principal{
+  margin-left:40px;
+  margin-right: 40px;
+}
+
+.desc{
+  border-bottom: 1px solid gray;
+}
+
+.descripcion{
+  font-size:18px;
+}
+
+.imagen{
+  margin:10px auto;
+display:block;
+}
+
+
+
+
+
+/*Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+/*Import the font and set the default size
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
-}
+}*/

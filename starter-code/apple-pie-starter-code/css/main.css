@@ -1,0 +1,31 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    color:white;
+    text-align: center;
+    line-height: 500px;
+    font-size: 60px;
+}
+
+.principal{
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+.desc{
+    border-bottom: 1px solid gray;
+}
+
+.descripcion{
+    font-size:18px;
+}
+
+.imagen{
+    margin:10px auto;
+	display:block;
+}
+
