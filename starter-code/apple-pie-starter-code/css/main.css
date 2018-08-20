@@ -1,0 +1,72 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+}
+
+  h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    line-height: 600px;
+  }
+
+  h2 {
+      font-size: 30px;
+      margin-left: 15%;
+      color: rgb(78, 78, 78);
+  }
+
+  /*-- Header --*/
+  .header-background {
+    background-image: url("../images/apple-pie.jpg");
+    height: 650px;
+    background-size: cover;
+  }
+
+/*-- Description --*/
+.description p {
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+.description img {
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*-- Ingredients list --*/
+.ingredients li {
+    list-style: none;
+    margin-left: 18%;
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+}
+
+.ingredients li:before {
+    content: "-";
+    margin-right: 5px;
+}
+
+.ingredients img {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*-- Directions--*/
+.directions li {
+    list-style: none;
+    margin-left: 18%;
+    margin-right: 15%;
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+}
