@@ -1,0 +1,31 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#background{
+    background-image:url("file:///Users/cristiantejedor/Documents/IRONHACK/SEMANA%201/HTML%20&%20CSS/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+#background h1{
+    color:white;
+    font-size:4em;
+    text-align:center;
+}
+.sections{
+    width:75%;
+    margin:auto;
+}
+img{
+    margin: auto 35%;
+    width: 35%;
+  }
+  ul li{
+    list-style-type: none;
+  }
+  ul li:before{
+      content:"- ";
+  }
+ 
