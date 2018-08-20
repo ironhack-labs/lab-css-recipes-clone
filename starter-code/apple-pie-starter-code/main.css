@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: RGBA(0, 0, 0, 0.8);
+    text-align: justify;
+}
+
+.section-separation {
+    padding: 20px;
+}
+
+header {
+    font-size: 2em;
+    height: 400px;
+    background-image: url('./assets/apple-pie.jpg');
+    background-position: (0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.text-margin {
+    margin: 0 10%;
+}
+
+.list-Unbullet {
+    list-style-type: none;
+}
+.image-format {
+    padding: 20px 0 20px 0;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.borders {
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: RGBA(0, 0, 0, 0.2)
+}
