@@ -1,9 +1,36 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+  margin: 100px;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 100px
 }
+.contenedor{
+  background-image: url("../images/soup.jpg");
+  color: aliceblue;
+  background-size: cover;
+  height: 1800px;
+  text-align: center;
+  }
+  h1{
+    font-size: 200px;
+    /*border: 1px solid red;*/
+    padding: 550px 0 0 0;
+}
+
+.recipe{
+  border-bottom: 5px solid gray   
+}
+.recipe div img{
+  height: 500px;
+}
+
+.ingredients{
+  border-bottom: 5px solid gray   
+}
+.ingredients div img{
+  height: 500px;
+}
+
