@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 10;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 21%;
+  font-size: 100px;
+  margin: 0;
+  color: white;
+  font-weight: 10;
+}
+
+.main-article {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #3F3F3F;
+}
+
+.gral-cook-info {
+  margin-left: 33%;
+}
+
+h3 {
+  font-size: 32px;
+  margin-left: 20%;
+  color: #3F3F3F;
+}
+
+.list1 {
+  margin-left: 21%;
+  font-size: 28px;
+  color: #3F3F3F;
+}
+
+.list2 {
+  margin-left: 21%;
+  font-size: 28px;
+  color: #3F3F3F;
+}
+
+.list2 li {
+  margin-bottom: 20px;
+}
