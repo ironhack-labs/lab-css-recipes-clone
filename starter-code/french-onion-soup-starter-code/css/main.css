@@ -1,9 +1,43 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: grey;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+/* we want the webpage starting at 22% from the left */
+.general-padding{
+  padding: 0 22%;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 20px;
+}
+/* I use list-style: none because i didnt want the "1. 2. 3." and instead 1) , 2) 3)..etc */
+ol {
+  list-style: none;
+}
+
+header {
+  padding: 0 12%;
+}
+.header-soup {
+  min-height: 600px;
+  margin-top: 200px;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.header-text {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+}
+.recipe-info {
+  width: 35%;
+  margin: 0 30%;
+}
+.cooking-info {
+  width: 35%;
+  margin: 0 30%;
 }

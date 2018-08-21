@@ -1,0 +1,45 @@
+body {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: grey;
+}
+/* we want the webpage starting at 22% from the left */
+.general-padding{
+  padding: 0 22%;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 20px;
+}
+/* I use list-style: none because i didnt want the "1. 2. 3." and instead 1) , 2) 3)..etc */
+ol {
+  list-style: none;
+}
+
+header {
+  padding: 0 12%;
+}
+
+.header-apple {
+  min-height: 400px;
+  margin-top: 0px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.header-text {
+  line-height: 400px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+.recipe-info {
+  width: 35%;
+  margin: 0 30%;
+}
+.cooking-info {
+  width: 35%;
+  margin: 0 30%;
+}
