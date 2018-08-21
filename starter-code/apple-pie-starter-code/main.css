@@ -1,0 +1,19 @@
+
+.picture {
+  background-image: url('images/apple-pie.jpg');
+  background-size: cover;
+  height: 650px;
+  margin-top: 20px;
+}
+.apple {
+  color: white;
+  text-align: center;
+  padding-top: 325px;
+  background-size: cover;
+}
+p {
+  color: black;
+}
+.cals {
+  background-image: url('images/cooking-info.png')
+}
