@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+
+hr {
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*section1*/
+
+.section1 {
+  position: relative;
+    text-align: center;
+}
+
+.section1 p {
+  text-align: left;
+  font-size: 30px;
+  margin: 50px 150px;
+}
+
+#ingredients {
+  width: 100%;
+  z-index: 0;
+}
+
+#applePies {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#time1 {
+  margin-bottom:20px;
+}
+
+/*section2*/
+
+
+.section2 {
+  font-size: 20px;
+  margin: 50px 150px;
+  text-align: center;
+}
+
+.section2 img {
+  margin-top: 30px;
+}
+
+.section2 h2 {
+  margin-bottom: 25px;
+}
+
+
+.section2 h2, ul {
+  text-align: left;
+}
+
+.section2 ul{
+  margin-left: 30px;
+}
+
+/*section3*/
+
+.section3 {
+  font-size: 20px;
+  margin: 50px 150px;
+}
+
+.section3 h2 {
+  margin-bottom: 25px;
+}
