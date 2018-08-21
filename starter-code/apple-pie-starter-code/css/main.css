@@ -1,0 +1,50 @@
+
+body {
+    font-family: "Arial";
+    color: #404040;
+    letter-spacing: 0.5px;
+    Line-height: 1.5;
+}
+
+
+p {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.head-box {
+    background-image: url('/Users/mgb/Desktop/Ironhack/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 65%;
+    position: relative;
+}
+
+.middle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+}
+
+.img-middle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.img-middle img {
+    max-width: 50%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+section {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:  30px;
+}
