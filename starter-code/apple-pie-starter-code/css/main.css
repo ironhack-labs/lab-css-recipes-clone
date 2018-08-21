@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+body {
+    font-family: Helvetica;
+
+}
+header{
+    /*background-image: url(images/apple-pie.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-title {
+    color: white;
+    font-size: 9em;
+    font-weight: 100;
+    position: relative;
+    top: 420px;
+    left: 600px;
+    width: 800px;
+}
+.container-1 {
+    width: 90%;
+    height: 500px;
+    margin:  0 auto;
+    padding: 10px 0;
+}
+.container-1 .section-text{
+    font-size: 2.7em;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    width: 92%;
+    margin: 130px auto 10px auto;
+    padding: 20px,
+}
+
+.container-1 img {
+    display: block;
+	margin: 60px auto;
+    text-align: center;
+    width: 42%;
+}
+ hr {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: darkgray;
+    height: 2px;
+    width: 92%;
+}
+
+.container-2 {
+    width: 90%;
+    height: 900px;
+    margin:  0 auto;
+    padding: 10px 0;
+}
+.container-2 .section-text{
+    font-size: 2.3em;
+    font-weight: 50;
+    text-align: left;
+    list-style: none;
+    color: rgb(54, 54, 54);
+    width: 90%;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+}
+.container-2 img {
+    display: block;
+	margin: 60px auto;
+    text-align: center;
+    width: 42%;
+}
+
+.container-2 .section-title {
+    font-size: 2.7em;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    width: 92%;
+    margin: 55px auto 10px auto;
+    padding: 20px;
+
+}
+
+.container-3 {
+    width: 90%;
+    height: 660px;
+    margin:  0 auto;
+    padding: 10px 0;
+}
+.container-3 .section-text{
+    font-size: 2.3em;
+    font-weight: 50;
+    text-align: left;
+    list-style: none;
+    color: rgb(54, 54, 54);
+    width: 89%;
+    margin: 0 auto;
+}
+.container-3 .section-title {
+    font-size: 2.7em;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    width: 92%;
+    margin: 0px auto 80px auto;
+    
+
+}
