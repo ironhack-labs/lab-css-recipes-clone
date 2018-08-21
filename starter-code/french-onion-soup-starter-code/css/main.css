@@ -7,3 +7,69 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.imagen-soup {
+  background-image: url(../images/soup.jpg);
+  height: 600px;
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.imagen-soup h1 {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+}
+.introduction-soup {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.introduction-soup img {
+  width: 70%;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.ingredientes-soup h2 {
+  padding-top: 40px;
+  padding-left: 190px;
+}
+
+.ingredientes-soup ul {
+  line-height: 1.5;
+  padding-left: 230px;
+  padding-top: 30px;
+  list-style-type: none;
+}
+
+.ingredientes-soup img {
+  width: 30%;
+  padding-top: 40px;
+  padding-left: 450px;  
+}
+
+.direction-soup h2 {
+  padding-top: 40px;
+  padding-left: 210px;
+}
+
+.direction-soup ol {
+  line-height: 1.5;
+  padding-left: 260px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+}
