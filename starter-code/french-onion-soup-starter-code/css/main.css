@@ -1,9 +1,47 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+header h1{
+  padding-top: 20%;
+  font-size: 300%;
+}
+
+.ingredients h2{
+  padding-bottom: 20px;
+}
+hr{
+  width: 70%;
+  margin-left: 15%;
+}
+header{
+  background-image: url('../images/soup.jpg');
+  height: 600px;
+  background-size: cover;
+  text-align: center ;
+  text-align-last: center;
+  vertical-align: center;
+  color: white;
+ 
+}
+
+.introduction{
+  font-size: 130%;
+  padding: 50px 100px 0px 100px;  
+   text-align: center;
+}
+
+.ingredients{
+  margin-left: 50px;
+  padding: 5% 10% 5% 10%;
+  text-align: left;
+}
+.directions{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 10px;
+  text-align: left;
+  margin-bottom: 50px ;
+  }
