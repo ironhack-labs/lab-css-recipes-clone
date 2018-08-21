@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.section-one{
+  text-align: center;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height:800px;
+}
+.section-one h2{
+padding-top: 25%;
+font-size: 600%;
+color: white; 
+font-weight: 10;
+margin: 0;
+}
+.section-two p{
+  font-size: 180%;
+  font-weight: lighter;
+  width: 75%;
+  border: 0;
+  padding: 0;
+  margin-left:12.5%; 
+}
+.section-two div{
+  text-align: center;
+}
+.section-two img{
+  width: 40%;
+}
+
+.section-two hr{
+  width: 75%;
+  
+}
+.section-three h3{
+  font-size: 180%;
+  font-weight: lighter;
+  border: 0;
+  padding: 0;
+  margin-left:12.5%; 
+}
+.section-three ul{
+  border: 0;
+  padding: 0;
+  font-weight: lighter;
+  margin-left:12.5%;
+  font-size: 120%; 
+}
+.section-three img{
+margin-top: 4%;
+width: 35%;
+padding-left: 32.5%;
+}
+.section-three hr{
+  width: 75%;
+  
+}
+.section-four h3{
+  font-size: 180%;
+  font-weight: lighter;
+  border: 0;
+  padding: 0;
+  margin-left:12.5%;
+}
+.section-four ol{
+  border: 0;
+  padding: 0;
+  width: 75%;
+  font-weight: lighter;
+  margin-left:12.5%;
+  margin-bottom: 10%;
+  font-size: 120%; 
+}
