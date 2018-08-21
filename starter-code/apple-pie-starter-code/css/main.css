@@ -1,0 +1,38 @@
+ .demapples {
+
+   background-image: url("../images/apple-pie.jpg");
+   height: 600px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   text-align-last: center;
+   
+}
+h1{
+    color: white;
+
+}
+.description{
+    margin: 0;
+    padding:10% 20% 10% 20% ; 
+    text-align: center;
+    text-align-last: center;
+
+}
+a{
+    text-align: center;
+}
+.ingredients{
+    margin: 0;
+    padding:10% 20% 10% 20%;
+    text-align:center;
+    test-align-last: center;
+}
+.directions{
+    margin: 0;
+    padding:5% 20% 10% 20%;
+    text-align:center;
+    test-align-last: center;
+}
+
+

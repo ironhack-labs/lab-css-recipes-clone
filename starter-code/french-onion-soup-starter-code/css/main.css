@@ -7,3 +7,29 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.demsoup{
+   width: 100%;
+   background-image: url("../images/soup.jpg");
+   height: 400px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   text-align-last: center;
+}
+.ingredients{
+    margin: 0;
+    padding:10% 30% 10% 30% ; 
+    text-align: center;
+    text-align-last: center;
+}
+.directions{
+   margin: 0;
+    padding:10% 30% 10% 30% ; 
+    text-align: center;
+    text-align-last: center;
+}
+.lego{
+    margin: 0;
+    padding:10% 30% 10% 30% ; 
+    text-align: center;
+}
