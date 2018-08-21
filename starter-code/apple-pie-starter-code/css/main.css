@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 30px 100px 30px 100px;
+}
+.container{
+
+}
+.cover {
+    position: relative; 
+    width: 100%;
+}
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    border-top: 1px solid black;
+    margin: 0px 100px 0px 100px;
+    padding-top: 30px;
+
+}
+.list {
+    padding: 0px 120px 0px 100px;
+}
+.info {
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+}
