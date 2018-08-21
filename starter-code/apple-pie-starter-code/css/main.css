@@ -7,6 +7,10 @@ header h1{
   padding-top: 20%;
 }
 
+.ingredients h2{
+  padding-bottom: 20px;
+}
+
 hr{
   width: 70%;
   margin-left: 15%;
@@ -20,25 +24,26 @@ header{
   text-align-last: center;
   vertical-align: center;
   color: white;
- 
+ font-size: 200%;
 }
 
 .origen{
- 
-  padding-top: 50px;
-  text-align: center;
+    font-size: 130%;
+  padding: 50px 100px 0px 100px;  
+   text-align: center;
   }
 
 .ingredients{
   margin-left: 50px;
-  padding-top: 50px;
+  padding: 5% 10% 5% 10%;
   text-align: left;
   
 }
 
 .directions{
- 
-  padding-top: 50px;
-  text-align: center;
-  text-align-last: center;
-}
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 10px;
+  text-align: left;
+  margin-bottom: 50px ;
+  }
