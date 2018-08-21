@@ -7,3 +7,13 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.ingredient-list{
+  list-style-type: disc;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+
