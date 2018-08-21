@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1{
+  padding-top: 20%;
+}
+
+hr{
+  width: 70%;
+  margin-left: 15%;
+}
+
+header{
+  background-image: url('../images/apple-pie.jpg');
+  height: 600px;
+  background-size: cover;
+  text-align: center ;
+  text-align-last: center;
+  vertical-align: center;
+  color: white;
+ 
+}
+
+.origen{
+ 
+  padding-top: 50px;
+  text-align: center;
+  }
+
+.ingredients{
+  margin-left: 50px;
+  padding-top: 50px;
+  text-align: left;
+  
+}
+
+.directions{
+ 
+  padding-top: 50px;
+  text-align: center;
+  text-align-last: center;
+}
