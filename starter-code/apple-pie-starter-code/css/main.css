@@ -23,14 +23,15 @@ header {
 }
 
 .header-apple {
-  min-height: 600px;
-  margin-top: 200px;
+  min-height: 400px;
+  margin-top: 0px;
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-position: center center;
 }
 .header-text {
-  margin-top: 200px;
+  line-height: 400px;
+  vertical-align: middle;
   text-align: center;
   color: white;
 }
