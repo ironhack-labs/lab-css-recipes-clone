@@ -1,0 +1,50 @@
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover; 
+  height: 500px;
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+
+}
+
+h1{
+  color: white;
+  
+  text-align: center;
+  padding: 250px;
+}
+
+section#mother > div {
+  width: 800px;
+  margin: 20px auto;
+  border-bottom:1px solid #ccc; 
+}
+
+section#mother div .img1 {
+  text-align: center;
+}
+
+section#ingredientes1 > div {
+  width: 800px;
+  margin: 20px auto;
+  border-bottom: 1px solid #ccc;
+
+}
+
+section#ingredientes1 .ingre {
+  text-align: center;
+
+}
+
+section#directions div {
+  width: 800px;
+  margin: 20px auto;
+
+}
+
+section#ingredientes1 .img2{
+  text-align: center;
+
+}
