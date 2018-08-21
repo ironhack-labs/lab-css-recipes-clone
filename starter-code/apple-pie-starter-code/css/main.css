@@ -13,7 +13,7 @@ p {
 }
 
 .head-box {
-    background-image: url('/Users/mgb/Desktop/Ironhack/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+    background-image: url('./images/apple-pie.jpg');
     background-size: cover;
     height: 600px;
     width: 65%;
