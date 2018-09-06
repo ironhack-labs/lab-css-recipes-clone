@@ -1,9 +1,47 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+h1 {
+color: white;
+font-size: 90px;
+padding-top: 320px;   
+}
+.margen{
+  margin-left: 15%;
+  margin-right: 15%;  
+}
+.fondo{
+  height: 800px;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  background-position: 0,0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.centrado{
+text-align: center;     
+}
+.imagenes{   
+display:block;
+margin: auto;
+}
+.clearfix{
+  clear: both;
+}
+.textini{
+
+font-size: 30px;
+}
+.textlist{
+
+font-size: 25px;
+}
+.listtype{
+  list-style-type: none;
 }
