@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
@@ -18,25 +18,23 @@ h2 {
   margin-bottom: 1em;
 }
 
-ul {
+ul, ol {
   margin-left: 1em;
   list-style-position: inside;
-  list-style-type: none;
-  counter-reset: item;
-}
-
-ul li {
   list-style-type: none;
 }
 
 ul li.ingredient_l:before {
-  content: "-";
+  content: "- ";
 }
 
-ul li.ingredient_n:before {
-  list-style-type: decimal;
-  content: counter(item)")";
-  counter-increment: item;
+ol {
+  counter-reset: num;
+}
+
+ol li.ingredient_n:before {
+  content: counter(num)") ";
+  counter-increment: num;
 }
 
 header {
