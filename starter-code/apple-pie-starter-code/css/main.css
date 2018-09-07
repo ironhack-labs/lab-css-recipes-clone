@@ -20,10 +20,23 @@ h2 {
 
 ul {
   margin-left: 1em;
+  list-style-position: inside;
+  list-style-type: none;
+  counter-reset: item;
 }
 
 ul li {
   list-style-type: none;
+}
+
+ul li.ingredient_l:before {
+  content: "-";
+}
+
+ul li.ingredient_n:before {
+  list-style-type: decimal;
+  content: counter(item)")";
+  counter-increment: item;
 }
 
 header {
