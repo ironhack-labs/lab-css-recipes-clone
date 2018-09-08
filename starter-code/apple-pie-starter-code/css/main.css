@@ -1,0 +1,73 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  color: rgb(84, 84, 84);
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h1 {
+  margin: 0 auto; 
+  text-align: center;
+  padding-top: 450px;
+  font-size: 4em;
+  font-weight: light;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin: 0 210px 0 210px;
+}
+
+.headerApple {
+  background-image: url("../images/apple-pie.jpg");;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.headerOnion {
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.grandmother {
+  font-size: 26px;
+  padding: 60px 0 60px 0;
+}
+
+.iconImage {
+  padding-top: 40px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 0 210px 0 210 px;
+  height: 2px;
+  background-color: rgb(84, 84, 84);
+}
+
+.tryingOnionSoup {
+  font-size: 26px;
+  padding: 60px 0 60px 0;
+}
+
+.directions {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
