@@ -23,9 +23,10 @@ header {
 }
 h1 {
   font-size : 60px;
-  color : white;     
-}
-.main-content {
+  color : white;   
+  }
+
+  .main-content {
 width : 700px;
 margin : 30px 160px;
 }
