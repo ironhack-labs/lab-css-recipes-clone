@@ -6,7 +6,9 @@ body {
 header {
     width : 800px;
     height : 200px;
-    background : url("../images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding : 100px ;
     text-align : center;
     
