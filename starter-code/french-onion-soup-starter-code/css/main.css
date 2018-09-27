@@ -1,9 +1,46 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/*/*Some necessary adjustments*/
+/*h1, body, html, main {
   margin: 0;
-}
+}*/
 /*Import the font and set the default size*/
-html {
+/*html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}*/
+
+body {
+  font-family : Arial;
+  width : 800px;
+  font-size : 20px;
 }
+header {
+  width : 800px;
+  height : 200px;
+  background : url("../images/soup.jpg");
+  padding : 100px ;
+  text-align : center;
+  
+}
+h1 {
+  font-size : 60px;
+  color : white;     
+}
+.main-content {
+width : 700px;
+margin : 30px 160px;
+}
+p {
+  font-size : 18px;
+  padding-right : 40px;
+  /*border : 1px solid black;*/
+}
+h2 {
+/*border: 1px solid black;*/
+border-top : grey solid;
+padding-top : 65px;
+padding-bottom : 10px;  
+}
+.Ingredients {
+list-style-type : '- ';
+}
+
