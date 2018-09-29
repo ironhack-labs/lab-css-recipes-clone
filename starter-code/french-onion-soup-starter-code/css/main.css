@@ -7,3 +7,47 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.recipe-header {
+  background-image: url('../images/soup.jpg');
+  background-repeat: no-repeat;
+  height: 530px;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+section {
+  margin: 50px 120px;
+  border-bottom: 2px solid #8d8b8b;
+  padding-bottom: 35px;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+.figure { text-align: center;}
+
+.figure img {width: 300px;}
+
+ul {padding-left: 10px;}
+
+.ingredients ul li { list-style: none;}
+
+.directions ul li { list-style: decimal;}
+
+.ingredients ul li:before {
+  content: '-';
+  margin-right: 7px;
+}
+
