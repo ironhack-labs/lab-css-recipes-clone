@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
 body {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-size:11pt;
 }
 
@@ -36,6 +38,11 @@ h2 {
 .recipeIntro {
     font-size: 18pt;
     }
+
+hr {
+    height: 2pt;
+    background-color: grey;
+}    
 
 ul.Ingredients li {
     list-style-type: none;
