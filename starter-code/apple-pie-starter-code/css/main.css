@@ -1,21 +1,55 @@
+
 /*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
   }
   /*Import the font and set the default size*/
   html {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px
-  }
-  #header{
-width: 100%;
-text-align: center;
-      
-      
-  }
-  .intro{
-    margin-left: 10px;
     
-      
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
   }
-  
+header{
+text-align: center;
+background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+height: 600px;
+width: 60%;
+margin-left: 20%;
+    
+
+  }
+h1 {
+    color: beige;
+    font-size:80px;
+    padding-top: 250px;
+    font-weight: lighter;
+}
+  .intro{
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-top: 5%;
+    padding-bottom: 2%;    
+  }
+.container{
+    
+}
+hr {
+width:45%;
+}
+
+.information{
+  padding-left: 34%;
+    height: 60px;
+    width:400px;;
+}
+h3 {
+   font-weight: lighter; 
+}
+.instructions{
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+}
+ul { 
+    list-style-type:none;
+}
