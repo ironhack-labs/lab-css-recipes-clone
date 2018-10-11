@@ -1,0 +1,52 @@
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.header {
+  background: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg)
+    0 0 no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 500px;
+}
+
+.container {
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.lists {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icons {
+  text-align: center;
+  padding: 20px;
+}
+
+.hr {
+  width: 80%;
+}
