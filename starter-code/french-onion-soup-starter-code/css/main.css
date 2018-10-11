@@ -7,3 +7,26 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.container {
+    position: relative;
+}
+
+.centered{
+  position: absolute;
+  font-size: 50;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: " - ";
+  position: absolute;
+  margin-left: -10px;
+}
