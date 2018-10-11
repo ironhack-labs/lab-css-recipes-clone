@@ -1,0 +1,43 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+   
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  h1 {
+    font-size: 6em;
+    text-align: center;
+    color: white;
+  }
+  
+  .header {
+    background: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+  }
+  
+  .introText {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  .container {
+    width: 100%;
+    padding: 75px 25px 50px;
+    margin-bottom: 
+    
+  }
+  
+  .smallImage {
+    text-align: center;
+    width: 
+  }
+  
