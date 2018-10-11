@@ -1,0 +1,15 @@
+.title {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  padding: 0px 250px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.intro {
+  padding: 50px;
+}
