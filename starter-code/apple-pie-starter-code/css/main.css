@@ -1,0 +1,37 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+#header {
+   height: 600px;
+   width: 100%;
+   background-image: url("../images/apple-pie.jpg");
+   background-size: cover;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 280px;
+    margin: 0px;
+    color: white;
+} 
+
+.container {
+    width: 75%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+
+.img-info img  {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#ingredients ul {
+    list-style: none;
+}
