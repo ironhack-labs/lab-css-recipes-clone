@@ -1,10 +1,56 @@
-#apple-pie-pick {
-  height: 500px;
-  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
-  background-size: cover;
+* {font-family: 'Niramit', sans-serif;}
+
+/* the site behaves responsive besides the background image (huge gap between img and text), which is because the height is set to 800px and not %; how can I change this? */
+ 
+.header {
+  background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat; 
+  height: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 25%;
+  font-size: 4vw;
 }
 
-h1 {
-  text-align: center;
-  color: white;
+.textbody {
+    margin-left: 15%;
+    margin-right: 15%;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+    padding-top: 5%;
 }
+
+/* tried to add a small padding to the <hr> which does not work... 
+
+.hr-element {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+*/
+
+.textbody img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    width: 60%;
+    height: auto;
+}
+
+/* I guess adding the " - " manually is not the correct solution. How is it done correct? */ 
+
+.list-style-type-ul {
+  list-style-type: none;
+}
+
+.list-style-type-ol{
+  list-style-position: inside;
+}
+
+/* solution by Google*/
+
+ol>li {counter-increment:item; list-style:none inside}
+ol>li:before {content: counter(item) ")"; padding-right:0.3em}
