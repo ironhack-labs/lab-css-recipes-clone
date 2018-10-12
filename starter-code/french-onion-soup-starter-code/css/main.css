@@ -1,9 +1,55 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  padding-top: 250px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.header {
+  background: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg)
+    0 0 no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 600px;
+}
+
+.container {
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.lists {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icons {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hr {
+  margin-left: 70px;
+  margin-right: 70px;
 }

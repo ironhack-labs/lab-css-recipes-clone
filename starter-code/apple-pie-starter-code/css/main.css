@@ -14,12 +14,14 @@ html {
 h1 {
   font-size: 70px;
   font-weight: lighter;
+  padding-top: 250px;
 }
 
 h2 {
   font-weight: 500;
   font-size: 20px;
   margin-left: 70px;
+  margin-top: 40px;
 }
 
 .header {
@@ -28,7 +30,7 @@ h2 {
   background-size: cover;
   color: white;
   text-align: center;
-  height: 500px;
+  height: 600px;
 }
 
 .container {
@@ -44,9 +46,10 @@ h2 {
 
 .icons {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .hr {
-  width: 80%;
+  margin-left: 70px;
+  margin-right: 70px;
 }
