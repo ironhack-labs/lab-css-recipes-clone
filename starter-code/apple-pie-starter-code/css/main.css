@@ -1,7 +1,14 @@
-* {font-family: 'Niramit', sans-serif;}
-
+h1, body, html, main {
+  margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+  font-family: 'Open Sans', sans-serif;
+  }
+  
 /* the site behaves responsive besides the background image (huge gap between img and text), which is because the height is set to 800px and not %; how can I change this? */
  
+
 .header {
   background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
   background-size: 100% auto;
@@ -9,7 +16,7 @@
   height: 800px;
   color: white;
   text-align: center;
-  padding-top: 25%;
+  padding-top: 30%;
   font-size: 4vw;
 }
 
