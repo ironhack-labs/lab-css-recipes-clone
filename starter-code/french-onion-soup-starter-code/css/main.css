@@ -7,3 +7,55 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.header {
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat; 
+  height: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 4vw;
+}
+
+.textbody {
+    margin-left: 15%;
+    margin-right: 15%;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+}
+
+/* tried to add a small padding to the <hr> which does not work... 
+
+.hr-element {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+*/
+
+.textbody img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    width: 60%;
+    height: auto;
+}
+
+/* I guess adding the " - " manually is not the correct solution. How is it done correct? */ 
+
+.list-style-type-ul {
+  list-style-type: none;
+}
+
+.list-style-type-ol{
+  list-style-position: inside;
+}
+
+/* solution by Google*/
+
+ol>li {counter-increment:item; list-style:none inside}
+ol>li:before {content: counter(item) ")"; padding-right:0.3em}
