@@ -1,15 +1,58 @@
-img {
-    height: 500px;
-    width: 700px;
-    align: center;
+* {
+    font-family: helvetica;
+  }
+  .header {
+    background-position: top-center;
+    height: 400px;
+    padding: 60px;
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   h1 {
-    color: black;
+    color: white;
     text-align: center;
-    font-size: 30px;
-    background-image:   
+    font-size: 100px;
   }
-  h2 {
-    text-align: center;
+  
+  .open {
+    text-align: justify;
     font-size: 20px;
+    padding: 40px;
+    margin: 30px ;
+    line-height: 35px;
+  }
+  
+  .ingpic{
+    background-position: top-center;  
+    padding: 60px;
+    margin-bottom: 45px;
+    background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/recipe-info.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+  
+  .cap {
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .ing {
+    text-align: justify;
+    font-size: 20px;
+    padding: 4px;
+    margin: 3px ;
+    line-height: 35px; 
+  }
+  
+  .timepic{
+    background-position: top-center;  
+    padding: 60px;
+    margin: 45px 0px;
+    background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/cooking-info.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
   }
