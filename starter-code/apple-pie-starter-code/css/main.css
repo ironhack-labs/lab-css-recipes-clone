@@ -41,7 +41,7 @@ h1 {
 }
 
 .bg {
-    background-image: url(/images/apple-pie.jpg);
+    background-image: url(../images/apple-pie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 25%;
