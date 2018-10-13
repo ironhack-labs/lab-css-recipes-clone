@@ -1,0 +1,36 @@
+header1 
+h1 {
+   background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    size: cover;
+    Height:250px;
+  }
+
+p { font-family: 'proxima-nova', sans-serif;;
+    text-align: initial;
+    font-weight: 200;
+    font-size: 18px
+}
+li{
+  font-family: 'proxima-nova', sans-serif;;
+  font-align: left;
+  font-weight: 200;
+  font-size: 18px
+}
+h1{
+  color: white;
+  line-height:7.5em;
+  text-align: center;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 100;
+}
+header2
+h1 {
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+    size: cover;
+    Height:250px;
+}
+h3 {
+  font-weight: 400;
+  font-family: 'proxima-nova', sans-serif;
+}
