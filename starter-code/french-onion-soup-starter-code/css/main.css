@@ -1,9 +1,52 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 650px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h2 {
+  font-weight: lighter;
+  margin-top: 50px;
 }
+
+.corps {
+  margin: 50px 100px 50px 100px;
+}
+
+.intro {
+  border-bottom: 2px solid grey;
+}
+
+.img-intro {
+  margin-left: 25%;
+  margin-right:25%;
+}
+
+img {
+  width: 50%;
+}
+
+.intro p {
+  text-align: justify; 
+  font-size: 25px;
+}
+
+ul li {list-style-type: none;}
+
