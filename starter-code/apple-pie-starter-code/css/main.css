@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-*{
-    font-family: 'Open Sans'
-}
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  
 .all{
     padding: 12px 25px;
 }
@@ -14,29 +14,37 @@ header{
     color:white;
     background-size: cover;
     text-align: center;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     
 }
 .apple h1{
     text-align: center;
-    font-size: 10em;
+    font-size: 5em;
 }
-.ingredients ul{
+
+ul.dashed {
     list-style-type: none;
-}
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
 
+.content{
+    padding: 5%;
+}
 .ingredients img{
-    padding: 0 25%;
-}
-
-.footer{
-    text-align: center;
-
+    padding: 0 30%;
 }
 
 .directions{
-    text-align: center;
-
+    padding: 5%;
+}
+.directions ol{
+    text-align: left;
 }
 
