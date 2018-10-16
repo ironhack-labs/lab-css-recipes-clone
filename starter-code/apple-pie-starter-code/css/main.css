@@ -1,0 +1,71 @@
+* {
+    margin: 20px 20px;
+}
+
+header{
+    background-image: url(/Users/fareaha/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+
+h1{
+    margin: auto;
+}
+
+header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding: 20px 100px;
+    align-content: center;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+}
+
+.recipe{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+    padding: 20px 100px;
+    align-content: center;
+}
+
+.recipe ul{
+    list-style: none;
+}
+
+.recipe h3{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 25px;
+}
+
+.cooking{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+    padding: 20px 100px;
+    align-content: center;
+}
+
+.cooking h3{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 25px;
+}
