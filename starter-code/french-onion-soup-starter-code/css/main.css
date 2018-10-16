@@ -1,17 +1,21 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/* Some necessary adjustments */
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
+/* Import the font and set the default size */
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
-  color: rgba(0, 0, 0, 0.8)
+  color: rgba(0, 0, 0, 0.8);
 }
 
 h1 {
-  color: #ffffff;
+  color: #fff;
   font-size: 3.5em;
   font-weight: 400;
   text-align: center;
@@ -19,11 +23,11 @@ h1 {
 }
 
 .recipe-h2 {
- display: block;
- margin-bottom: 20px;
- padding-left: 10px;
- font-size: 1.25em; 
- font-weight: 400;
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 1.25em;
+  font-weight: 400;
 }
 
 .hr-solid-grey {
@@ -66,4 +70,3 @@ h1 {
   align-content: space-between;
   height: 500px;
 }
-
