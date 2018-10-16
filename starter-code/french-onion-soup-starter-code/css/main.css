@@ -7,3 +7,38 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+}
+
+.header {
+  background-image: url(/Users/jeffreymsmith/Documents/Projects/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  height: 500px;
+  margin: 0, Auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 65px;
+  color: white;
+  text-align: center;
+  line-height: 500px;
+
+
+
+}
+
+.ingredients  {
+  list-style-type: none;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
