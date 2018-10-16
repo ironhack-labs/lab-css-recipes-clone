@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.title{
+  color: white;
+  text-align: center;
+  margin: 25% auto;
+  font-size: 60px;
+  font-weight: 500;
+}
+.layout p {
+  max-width: 680px;
+  text-align: justify;
+  margin: 50px auto 20px auto;
+  font-size: 18px;
+  font-weight: 100;
+  color: grey;
+}
+
+.layout img {
+  max-width: 350px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.layout hr {
+  margin: 20px auto 30px auto;
+  width: 700px;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  padding: 0; 
+}
+
+.layout h2 {
+margin-left:350px;
+color: gray;
+}
+
+.layout ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 100;
+  max-width: 680px;
+  margin: 10px auto 20px auto;
+  border: 0;
+  color: grey;
+  text-align: justify;
+}
+
+.back-img {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 3px;
+  margin: 0 auto;
+  height: 550px;
+  max-width: 800px;
+  position: relative;
+}
+
+.apple-img {
+  background-image: url(./images/apple-pie/apple-pie.jpg);
+  
+}
+
+.onion-img {
+  background-image: url(./images/french-onion-soup/soup.jpg);
+}
