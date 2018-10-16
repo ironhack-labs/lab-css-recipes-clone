@@ -1,9 +1,99 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
+  padding: 0;
 }
+
 /*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.hr {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: left;
+
+}
+
+header {
+  text-align: center;
+  height: 670px;
+  background-image: url("/home/gg/Documentos/Ironhack/Week 1/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  padding-top: 17%;
+  font-size: 4em;
+}
+
+.div-sec1 {
+  text-align: center;
+  padding-top: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.div-sec1 p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.div-sec1-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ingri {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: left;
+  padding-top: 20px;
+
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+.ingri ul {
+  padding-top: 20px;
+}
+
+.ingri li {
+  list-style: none;
+  line-height: 25px;
+  font-size: 1em;
+}
+
+.ingri-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dire {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dire ul {
+  padding-top: 20px;
+}
+
+.dire li {
+  list-style: none;
+  line-height: 25px;
+  font-size: 1em;
 }
