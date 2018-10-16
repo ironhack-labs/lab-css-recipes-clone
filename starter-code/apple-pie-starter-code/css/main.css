@@ -1,0 +1,19 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  background-image: url(../images/apple-pie.jpg);
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  height: 700px;
+  background-size: 1500px;*/
+  
+}
+.text {
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+}
