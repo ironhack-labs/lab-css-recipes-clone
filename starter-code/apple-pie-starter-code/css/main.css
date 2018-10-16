@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }  
+
+h1 {
+    color: #fff;
+    font-size: 5em;
+    padding-top: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+  
+
+.recipe {
+    background: url(../images/apple-pie.jpg) 0 0 no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 50px;
+    transform: scale(0.8);
+}
+
+.history {
+    font-size: 1.5em;
+    margin: 0 auto;  
+    width: 900px;
+    height: 300px;
+    padding: 50px 0 0 0;
+}
+
+.img {
+    margin: 0 auto;
+    width: 550px;
+    padding-top: 50px;
+}
+
+hr {
+    margin: 20px auto 30px;
+    width: 62%;
+}
+
+.ingredientes {
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.lista{
+    font-size: 1.5em;
+    margin-left: 5px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.preparo{
+    margin: 0 auto;
+    width: 900px;
+    height: 300px;
+}
