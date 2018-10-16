@@ -1,0 +1,41 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+p{
+    text-align: center;
+    margin: 50px 30px 50px 30px;
+}
+.sectionone img{
+    display: block;
+    margin: auto;
+}
+hr{
+    width: 80%;
+}
+.sectiontwo{
+    margin-left: 125px;
+}
+.sectiontwo img{
+    display: block;
+    margin: auto;
+}
+
+.sectionthree{
+    margin-left: 125px;
+    margin-right: 125px;
+    
+    
+}
+.direction li{
+    margin: 10px;
+}
