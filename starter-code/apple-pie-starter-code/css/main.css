@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    font-family: 'Open Sans'
+}
+.all{
+    padding: 12px 25px;
+}
+header{
+    text-align: center;
+}
+.apple{
+    background-image: url(../images/apple-pie.jpg);
+    color:white;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    overflow: hidden;
+    
+}
+.apple h1{
+    text-align: center;
+    font-size: 10em;
+}
+.ingredients ul{
+    list-style-type: none;
+}
+
+.ingredients img{
+    padding: 0 25%;
+}
+
+.footer{
+    text-align: center;
+
+}
+
+.directions{
+    text-align: center;
+
+}
+
