@@ -3,11 +3,36 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
-.intro{
-  text-align:center; 
+h1{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+.texte{
+  margin: 20px 60px;
+  padding: 20px 60px;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  margin: 8px;
+}
+.texte img {
+  margin: 10px 300px;
 }

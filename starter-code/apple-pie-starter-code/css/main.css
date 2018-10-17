@@ -1,19 +1,38 @@
-body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
 }
-h1 {
-  background-image: url(../images/apple-pie.jpg);
-  text-align: center;
-  font-size: 65px;
-  color: white;
-  height: 700px;
-  background-size: 1500px;*/
-  
+/*Import the font and set the default size*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-.text {
-  text-align: center;
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
-h2{
-  font-size: 20px;
+h1{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+.texte{
+  margin: 20px 60px;
+  padding: 20px 60px;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  margin: 8px;
+}
+.texte img {
+  margin: 10px 300px;
 }
