@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background-image: url(/Users/jeffreymsmith/Documents/Projects/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-image: url(../images/soup.jpg);
   height: 500px;
   margin: 0, Auto;
   position: relative;
