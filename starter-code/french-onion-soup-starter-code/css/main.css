@@ -22,7 +22,7 @@ html {
 header {
   text-align: center;
   height: 670px;
-  background-image: url("/home/gg/Documentos/Ironhack/Week 1/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-image: url("../images/soup.jpg");
   background-size: cover;
 }
 
