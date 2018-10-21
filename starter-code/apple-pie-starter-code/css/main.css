@@ -37,10 +37,7 @@
 }
 
 #pic {
-  margin-top: 2em;
-  margin-bottom: 1em;
   text-align: center;
-  position: relative;
 }
 
 hr {
@@ -53,7 +50,6 @@ hr {
   font-size: 20px;
   position: relative;
   text-align: center;
-  font-display: block;
   font-weight: 400;
 }
 
