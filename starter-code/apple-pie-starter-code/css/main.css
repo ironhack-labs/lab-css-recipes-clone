@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+  background-image: url("./../images/apple-pie.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+header h2{
+  padding-top: 280px;
+  font-size: 5em;
+  text-align: center;
+}
+
+.section1 p{
+  text-align: center;
+  font-size: 1.3em;
+  width: 55%;
+  margin-top: 70px;
+  margin-left: 22%;
+}
+
+.section1 img{
+  height: 70px;
+  margin-left: 32%;
+  margin-top: 20px;
+}
+
+.section2, .section3{
+  text-align: left;
+  font-size: 1.1em;
+  margin-top: 70px;
+  margin-left: 22%;
+  width: 50%;
+}
+
+.section2 img{
+  height: 70px;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+.section2 li{
+  list-style-type: none;
+}
+.section2 li:before{
+  content: "-";
+}
+
+ hr{
+  align-content: center;
+  width: 55%;
+}
+
