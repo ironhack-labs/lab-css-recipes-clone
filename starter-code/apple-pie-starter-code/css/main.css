@@ -1,0 +1,12 @@
+.pie h1{
+color: white;
+}
+.foto-pie image{
+width: 20%;
+}
+.guion li{
+    list-style-type: none;
+}
+.guion li:before{
+    content: "-";
+}
