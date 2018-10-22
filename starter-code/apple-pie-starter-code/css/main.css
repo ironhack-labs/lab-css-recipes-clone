@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif
+}
+header {
+  height: 480px;
+  width: 100%;
+  background: url(../images/apple-pie.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+header > h1 {
+  font-family: Helvetica, sans-serif;  
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 48px;
+  margin: 0 auto;
+  padding-top: 220px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 6%;
+  font-family: Helvetica, sans-serif;
+  color: rgb(80, 80, 80);
+}
+
+.description img {
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 5%; 
+  display: block;
+  width: 80%;
+  max-width: 500px;
+}
+
+.ingredients {
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top: 1px rgb(80, 80, 80) solid;
+  border-bottom: 1px rgb(80, 80, 80) solid;
+}
+
+.ingredients h1 {
+  font-weight: lighter;
+}
+
+.ingredients ul {
+  margin-left: -24px;
+  list-style-type: none;
+  color: rgb(80, 80, 80);
+  line-height: 24px;
+}
+
+.ingredients img {
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 5%; 
+  display: block;
+  width: 80%;
+  max-width: 500px;
+}
+
+.directions {
+  padding-top: 5%; 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.directions h1 {
+  font-weight: lighter;
+}
+
+.directions p {
+  margin-bottom: -12px; 
+  padding-left: 15px;
+  color: rgb(80, 80, 80);
+  line-height: 24px;
+}
