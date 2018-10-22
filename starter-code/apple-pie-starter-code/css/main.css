@@ -1,0 +1,59 @@
+body {
+  font-family: helvetica;
+}
+
+header { 
+  height: 500px;
+  width: 75%;
+  background-image: url("/Users/rgravitte/Desktop/ftwd-october-2018/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-left: 12%;
+}
+
+h1 {
+  padding-top: 230px;
+  font-family: helvetica;
+  font-size: 50px;
+}
+
+#gma-tag {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#container {
+  text-align: center;
+}
+
+#cooking-info {
+  height: 50px;
+}
+
+hr {
+  width: 75%;
+}
+
+#ingredients {
+  margin-left: 20%;
+  font-family: sans-serif;
+}
+
+.recipe {
+  line-height: 50%;
+}
+
+#recipe-info {
+  height: 75px;
+  margin-left: 17%;
+}
+#directions {
+width: 60%;
+margin-left: 20%;
+}
+
+.width {
+  width: 75%;
+}
+
