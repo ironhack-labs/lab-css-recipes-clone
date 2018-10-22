@@ -1,3 +1,6 @@
+* {
+  box-sizing: content-box;
+}
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -5,5 +8,60 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+
+}
+
+header{
+  height: 20em;
+  background-image: url(/home/ricardo/code/Labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  position:relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255,255,255,0.8);
+}
+
+header h1{
+  text-align: center; 
+  font-size: 4em;
+}
+
+aside{
+  font-style: italic;
+  position: absolute;
+  padding-left: 2%;
+  padding-right: 50%;
+  bottom: 15vh;
+}
+
+#recipe{
+  text-align: justify;
+}
+.generalContainer{
+  margin: 2% 5% 10% 5%;
+  width: 100%;
+}
+
+.ingredients{
+  float: left;
+  width: 45%;
+
+}
+
+.preparation{
+  float: left;
+  width: 45%;
+}
+
+.clearfix{
+  clear:both;
+}
+
+#recipe img{
+  height: 3em;
+  width: auto;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
