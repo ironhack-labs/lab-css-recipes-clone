@@ -5,8 +5,9 @@
 
 body{
   font-family: avenir, Helvetica, arial, sans-serif;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: lighter;
 }
 
 h1{
@@ -17,20 +18,24 @@ h1{
 h2{
   font-size: 24px;
   font-weight: lighter;
+  margin: 25px 25px;
 }
 
 ul{
   list-style-type: none;
 }
+
 ul li p:before{
   content: "- ";
 }
-
+ol, ul{
+  padding: 0 0 100px 50px;
+}
 
 .container{
   width: 1100px ;
-  height: 600px;
-  padding: 0 auto;
+
+
   margin: 0 auto;
   
   border: 1px dashed purple;
@@ -46,11 +51,16 @@ ul li p:before{
 }
 
 #cooking-info{
-  margin-left: 270px;
+  margin: 50px 0 50px 270px;
   border: 1px solid red;
 
 } 
 #recipe-info{
-  margin-left: 250px;
+  margin: 50px 0 50px 250px;
   border: 1px solid red;
+}
+
+#description{
+  padding: 50px;
+  
 }
