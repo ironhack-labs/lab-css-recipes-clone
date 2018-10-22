@@ -16,7 +16,6 @@ h1{
   margin-left: 270px;
   color: rgb(255, 255, 255);
   font-weight: lighter;
-  border: 1px solid red;
 }
 h2{
   font-size: 36px;
@@ -38,7 +37,6 @@ ol, ul{
 .container{
   width: 1100px ;
   margin: 0 auto;
-  border: 1px dashed purple;
 }
 
 .header{
@@ -50,12 +48,10 @@ ol, ul{
 
 #cooking-info{
   margin: 25px 0 25px 270px;
-  border: 1px solid red;
 } 
 
 #recipe-info{
   margin: 25px 0 25px 250px;
-  border: 1px solid red;
   height: 200;
 }
 
