@@ -6,7 +6,7 @@
 body{
   font-family: avenir, Helvetica, arial, sans-serif;
   font-size: 28px;
-  line-height: 40px;
+  line-height: 38px;
   font-weight: lighter;
 }
 
@@ -60,5 +60,12 @@ ol, ul{
 }
 
 #description{
-  padding: 50px; 
+  padding: 50px;
+  padding-left: 70px; 
+  padding-top: 80px;
+}
+
+.line{
+  width: 300px;
+  margin-top: 100px;
 }
