@@ -1,0 +1,58 @@
+
+body{
+  line-height: 1.5em;
+}
+header {
+  width: 100%;
+  padding-top:25%;
+  padding-bottom:25%;
+  background-image: url(../images/apple-pie.jpg);
+  background-size:cover;
+  color: white;
+}
+
+header h1{
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+  padding-top: 50px;
+}
+
+.image-info{
+  margin: 20px auto;
+  display: block;
+}
+.line{
+  background-color: rgb(130, 130, 130);
+  height: 4px;
+}
+
+h3{
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+#ingredients ul{
+  margin-left: 30px;
+}
+
+#ingredients li::before{
+  content:"-";
+}
+
+#directions ol{
+  margin-left: 30px;
+  counter-reset: list;
+ 
+}
+
+#directions ol li::before{
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
+
