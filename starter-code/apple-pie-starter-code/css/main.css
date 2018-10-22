@@ -1,0 +1,84 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img{
+    position: relative;
+    width: 900px;
+    height: 600px;
+}
+
+header h1{
+    font-size: 80px;
+    font-weight: lighter;
+    position: absolute;  
+    top: 35%;
+    left: 35%;
+    /*transform: translate(-50%, -50%);*/
+}
+
+.cooking {
+    color: #444;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.cooking img {
+    width: 50%;
+}
+
+hr {
+    background-color: #999;
+    width: 60%;
+    height: 2px;
+}
+
+.ingredients {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.ingredients h4 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.ingredients li {
+    list-style-type: none;
+    font-weight: lighter;
+    color: #666;
+    font-size:18px;
+}
+
+.ingredients img {
+    width: 30%;
+    margin-left: 22%;
+}
+
+.directions {
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 60%;
+}
+
+.directions h4 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.directions li {
+    list-style-type: none;
+    font-weight: lighter;
+    color: #666;
+    font-size:18px;
+}
