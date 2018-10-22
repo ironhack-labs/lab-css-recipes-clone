@@ -1,0 +1,65 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.applePie {
+    background: url(../images/apple-pie.jpg) 0 0 no-repeat;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+}
+
+.titleApplePie {
+    text-align: center;
+    color: white;
+    height: 500px;
+    font-size: 70px;
+    position: relative;
+    top: 38%;
+}
+
+.parrafoUno {
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contenedorImagenInfo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafoDos {
+    font-size: 25px;
+    border-top: 2px solid gray;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagenCooking {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafoTres {
+    border-top: 2px solid gray;
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+}
+
+.parrafoTres h1 {
+    padding: 40px 40px 40px 0;
+    text-align: left;
+}
+
+.parrafoTres p {
+    margin: 0;
+}

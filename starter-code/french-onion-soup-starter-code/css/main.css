@@ -1,9 +1,83 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+
+h1,
+body,
+html,
+main {
+    margin: 0;
 }
+
+
 /*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.frenchOnion {
+    background: url(../images/soup.jpg) 0 0 no-repeat;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+}
+
+.titleFrenchOnio {
+    text-align: center;
+    color: white;
+    height: 500px;
+    font-size: 70px;
+    position: relative;
+    top: 38%;
+}
+
+.parrafoUno {
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contenedorImagenInfo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafoDos {
+    font-size: 25px;
+    border-top: 2px solid gray;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.parrafoDos h1,
+p {
+    padding: auto;
+}
+
+.imagenCooking {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafoTres {
+    border-top: 2px solid gray;
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+}
+
+.parrafoTres h1 {
+    padding: 60px 60px 60px 0;
+    text-align: left;
+}
+
+.parrafoTres p {
+    margin: 0;
 }
