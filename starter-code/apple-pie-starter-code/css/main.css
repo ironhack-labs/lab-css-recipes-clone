@@ -3,41 +3,46 @@
   padding: 0;
 }
 
+body{
+  font-family: avenir, Helvetica, arial, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
 h1{
-  font-size: 36px;
+  font-size: 42px;
   margin: 0 auto;
+  color: rgb(255, 255, 255);
 }
 h2{
   font-size: 24px;
+  font-weight: lighter;
 }
-p{
-  font-size: 18px;
-}
+
 ul{
   list-style-type: none;
 }
-ul li:before{
+ul li p:before{
   content: "- ";
 }
 
 
 .container{
-  width: 1200px ;
+  width: 1100px ;
   height: 600px;
   padding: 0 auto;
   margin: 0 auto;
+  
   border: 1px dashed purple;
 }
 
 .header{
-  background-image: url("./images/apple-pie.jpg");
-  width: 1400px;
-  height: 100px;
-  border: 1px solid red;
+  background-image: url("file:///Users/r.r.munozgarcia/Desktop/semana_1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  width: auto;
   background-size: cover;
-  height: 650px;
+  height: 800px;
   padding-top: 50px;
-  position: relative;
+
 }
 
 #cooking-info{
