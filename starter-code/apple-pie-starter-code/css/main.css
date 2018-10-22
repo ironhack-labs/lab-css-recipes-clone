@@ -5,22 +5,22 @@
 
 body{
   font-family: avenir, Helvetica, arial, sans-serif;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 28px;
+  line-height: 40px;
   font-weight: lighter;
 }
 
 h1{
-  font-size: 124px;
-  margin-top: 500px;
-  margin-left: 300px;
+  font-size: 122px;
+  margin-top: 480px;
+  margin-left: 270px;
   color: rgb(255, 255, 255);
   font-weight: lighter;
   border: 1px solid red;
 }
 h2{
-  font-size: 24px;
-  font-weight: lighter;
+  font-size: 36px;
+  font-weight: 400;
   margin: 25px 25px;
 }
 
@@ -45,22 +45,20 @@ ol, ul{
   background-image: url("file:///Users/r.r.munozgarcia/Desktop/semana_1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
   width: auto;
   background-size: cover;
-  height: 800px;
-
-
+  height: 1000px;
 }
 
 #cooking-info{
-  margin: 50px 0 50px 270px;
+  margin: 25px 0 25px 270px;
   border: 1px solid red;
-
 } 
+
 #recipe-info{
-  margin: 50px 0 50px 250px;
+  margin: 25px 0 25px 250px;
   border: 1px solid red;
+  height: 200;
 }
 
 #description{
-  padding: 50px;
-  
+  padding: 50px; 
 }
