@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+
+}
+hr{
+    width: 85%;
+    margin-left:8% ;
+
+}
+/* Classifications for several/all sections */
+.txt{
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-weight: lighter;
+    text-align:justify;
+    line-height: 1.5;
+    font-size: 1.7em;
+}
+.txt-s{
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.5em;
+}
+.dm{
+    padding: 80px 100px;
+}
+.recipe-img-div{
+    margin-left: 30%; 
+}
+.container{
+    width: 100%;
+    margin:5px auto;
+}
+/* Header */
+.top-header h1{
+    font-size: 4rem;
+    font-weight: 200;
+    color:white;
+    text-align: center;
+    padding-top: 6em;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-weight: lighter;
+}
+/* Section 1*/
+.section-1{
+    height: 400px;
+}
+.section 
+/* Section 2*/
+.section-2{
+    height: 650px;
+}
+.section-2 h3{
+    margin: 15px;
+}
+.section-2 ul{
+    margin-left: 55px;
+}
+/* Section 3*/
+.section-3{
+    height: 600px;
+}
+.section-3 h3{
+    margin: 15px;
+}
+.section-3 ol{
+    margin-left: 55px;
+}
+.section-3 ol {
+  counter-reset: item;
+}
+.section-3 li {
+  display: block;
+  margin-bottom: .5em;
+  margin-left: 1em;
+}
+.section-3 li::before {
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  width: 2em;
+  margin-left: -2em;
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+    margin-left: -1em;
+  }
+
+
