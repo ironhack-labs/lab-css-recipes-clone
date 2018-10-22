@@ -1,0 +1,36 @@
+h1, #description{
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#header{
+    background-image: url("file:///Users/BiancaCastro/Desktop/CLASES/WEEK1/DAY-1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    position: 0 0;
+    repeat: no-repeat;
+    size: cover;
+    height: 450px;
+    padding-top:50px;
+}
+
+h1{
+    color:white;
+    margin-top:140px;
+    text-align: center;
+    font-size: 60px;
+}
+
+div#description{
+padding: 60px;
+
+}
+
+.imagen{
+    margin-left:350px;
+
+}
+
+#ul-list li{
+    list-style-type: none;
+}
