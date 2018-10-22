@@ -1,0 +1,88 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  Width: 1200px;
+  Margin: 0 auto;
+}
+
+.header{
+  background-image: url("../images/apple-pie.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 850px; 
+}
+.header div h1{
+  font-size: 86px;
+  font-weight: normal;
+  color: white;
+  padding-top: 30%;
+  margin-bottom: 35%;
+}
+.header p{
+  font-size: 24px;
+  font-weight: lighter;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+.header img{
+  width: 35%;
+  margin-bottom: 2%;
+}
+.header hr{
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+.ingredients{
+  margin-top: 26%;  
+}
+.ingredients h3{
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 17%;
+}
+.ingredients ul{
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-bottom: 4%;
+  font-size: 20px;
+  font-weight: lighter;
+  list-style-type: none;
+}
+.ingredients img{
+  width: 30%;
+  margin-bottom: 2%;
+  margin-left: 32%;
+}
+.ingredients hr{
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+.directions{
+  margin-top: 2%;  
+
+}
+.directions h3{
+  font-size: 24px;
+  font-weight: 400;  
+  margin-left: 17%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.directions p{
+  font-size: 20px;
+  font-weight: lighter;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 4%;
+
+}
