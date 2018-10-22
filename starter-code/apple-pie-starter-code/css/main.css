@@ -1,0 +1,93 @@
+/*Styles Apple Pie*/
+h1, body, html, main {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 500;
+}
+
+h3 {
+font-size: 24px;
+padding-left: 45px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "-";
+}
+
+ol li:before {
+  content: ") ";
+}
+
+img {
+  max-width: 500px;
+}
+
+.hr__1 {
+  margin: 20px auto 30px auto;
+  width: 50%;
+}
+
+.hr__2 {
+  margin: 20px auto 30px auto;
+  width: 50%;
+}
+
+.header {
+  background-image: url(https://github.com/YaredMyers/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+  background-size: cover;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 950px;
+}
+
+.section__one {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.section__one__content {
+  font-size: 20px;
+  padding-top: 35px;
+
+}
+
+.section__one__img {
+  text-align: center;
+}
+
+.section__two {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.section__two__list {
+  font-size: 18px;
+}
+
+.section__two__img {
+  text-align: center;
+}
+
+.section__three {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.section__three__list {
+  font-size: 18px;
+  max-width: 780px;
+}
+
+
