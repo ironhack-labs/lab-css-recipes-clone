@@ -46,12 +46,11 @@ ul li p:before{
 }
 
 #cooking-info{
-
-  margin: 0 auto;
+  margin-left: 270px;
   border: 1px solid red;
 
 } 
 #recipe-info{
-  margin-left: 420px;
+  margin-left: 250px;
   border: 1px solid red;
 }
