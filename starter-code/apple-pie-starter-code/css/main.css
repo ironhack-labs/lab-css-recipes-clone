@@ -1,0 +1,98 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.7)  
+}
+
+.container{
+margin: 5px 100px 5px 100px; 
+align-content: center;
+
+}
+
+.img{
+  margin: 0;
+  height: 700px;
+  width: 100%;
+  
+  vertical-align: middle;
+}
+
+.img-text{
+     position: absolute;
+	    top: 25%; right: 0;
+	    bottom: 0; left: 20%;
+	    width: 800px;
+	    height: 200px; 
+      text-align: center;
+      color:rgba(255, 255, 255,0.9);
+      font-size: 90px;
+        vertical-align:middle;
+      font-weight: 300; 
+
+}
+
+.t-info{
+font-size: 35px;
+text-align: center;
+}
+
+.recipe-info{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+
+.line{
+     border: 0;
+    height: 7px;
+    width: 90%;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+ul li {
+  list-style: none;
+}
+/* ul li:before {
+  
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+} */
+.recipe{
+  font-size: 35px;
+  display: inline-block;
+  float: center;
+
+}
+.list ul {
+  float: center;
+}
+.direction {
+  margin-left: 15px;
+  padding: 2px;
+}
+
+ol > li {
+    
+    position: relative;
+}
+
+ol > li:before {
+    counter-increment: list;
+    content:") ";
+    position: absolute;
+    left: -0.3em;
+}
