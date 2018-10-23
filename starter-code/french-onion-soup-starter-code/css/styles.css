@@ -1,0 +1,47 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: center; 
+  background-size: 95%;
+  background-repeat: no-repeat;
+  height: 600px; 
+}
+h1{
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: bold;
+  padding: 250px 0 0 0;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+section {
+  padding: 80px 0 0 0;
+}
+section img {
+  display: block;
+  float: center;
+  margin: 30px auto;
+
+}
+.recipeTitle {
+  width: 85%;
+  margin: 0 auto;
+}
+.central {
+  width: 60%;
+  margin: 0 auto;
+}
+#description p {
+  font-size: 26px;
+}
