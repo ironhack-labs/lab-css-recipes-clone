@@ -1,0 +1,52 @@
+
+@import url ('https://fonts.googleapis.com/css?family=Helvetica')
+
+.AppleTart {
+  background: url(apple-pie.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  padding: 50px 0px 0px 0px;
+  position: relative;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin: 27%;
+}
+
+p {
+  text-align: center;
+  font-size: 36px;
+  margin: 80px 0;
+}
+
+img {
+  margin: 0 30% 20px;
+}
+
+.hr {
+  margin: 10px auto 30px auto;
+  width: 80%;
+  color: grey;
+
+}
+
+h3 {
+  margin: 60px 140px;
+  font-size: 32px;
+}
+
+ul {
+  margin: 40px 140px;
+  font-size: 31px;
+}
+
+ol {
+  margin: 40px 140px;
+  font-size: 31px;
+}
