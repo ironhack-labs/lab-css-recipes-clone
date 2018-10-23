@@ -5,6 +5,8 @@
 
 body { font-family: 'Roboto', sans-serif; counter-reset: section;        }
 
+.text-center { text-align: center; }
+.image-c { width: 53%; }
 header.masthead {
     text-align: center;
     color: #fff;    
