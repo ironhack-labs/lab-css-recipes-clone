@@ -4,7 +4,7 @@ h1 {
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 15%;
-  background-image: url(/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-image: url("../images/soup.jpg");
   background-size: cover;
   height: 250px;
   width: 75%;
