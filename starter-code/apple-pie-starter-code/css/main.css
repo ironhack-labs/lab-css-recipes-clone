@@ -17,12 +17,13 @@ html {
 .container{
 margin: 5px 100px 5px 100px; 
 align-content: center;
+height: 400px;
 
 }
 
 .img{
   margin: 0;
-  height: 700px;
+  height: 715px;
   width: 100%;
   
   vertical-align: middle;
@@ -30,13 +31,15 @@ align-content: center;
 
 .img-text{
      position: absolute;
-	    top: 25%; right: 0;
-	    bottom: 0; left: 20%;
+      top: 25%; 
+      right: 0;
+      bottom: 0; 
+      left: 20%;
 	    width: 800px;
 	    height: 200px; 
       text-align: center;
       color:rgba(255, 255, 255,0.9);
-      font-size: 90px;
+      font-size: 100px;
         vertical-align:middle;
       font-weight: 300; 
 
@@ -45,21 +48,35 @@ align-content: center;
 .t-info{
 font-size: 35px;
 text-align: center;
+padding-top:20px;
+text-align: center;
 }
 
 .recipe-info{
   display: block;
     margin-left: auto;
     margin-right: auto;
+    /* or margin:0 auto*/
+    height: 70px;
+    padding-top: 80px;
+ 
+    
+}
+.cooking-info{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* or margin:0 auto*/
     height: 70px;
 }
 
 .line{
-     border: 0;
+    border: 0;
     height: 7px;
     width: 90%;
     border-top: 2px solid rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
 }
 
 ul li {
@@ -77,22 +94,30 @@ ul li {
   float: center;
 
 }
-.list ul {
+.list li {
   float: center;
+
 }
 .direction {
   margin-left: 15px;
   padding: 2px;
 }
+ol{
+   list-style-type: decimal;
+}
 
 ol > li {
-    
+    counter-increment: customlistcounter;
     position: relative;
 }
 
 ol > li:before {
-    counter-increment: list;
+  content: counter(customlistcounter) " ";
     content:") ";
     position: absolute;
     left: -0.3em;
+}
+
+ol:first-child {
+  counter-reset: customlistcounter;
 }
