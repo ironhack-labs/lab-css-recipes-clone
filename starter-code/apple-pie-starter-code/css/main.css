@@ -1,0 +1,91 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+header h1{
+
+    width: 40%;
+    font-size: 5em;
+    color:white;
+    margin: auto;
+    padding-top:20%;
+    
+}
+
+header div{
+    height: 70%;
+    width: 70%;
+    margin: auto;
+}
+
+.header-section p{
+   width: 60%;
+   font-size: 22px;
+   text-align: justify;
+   margin: auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+   
+}
+
+
+.recipe{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+
+    
+}
+
+hr{
+    width: 60%;
+    margin: auto;
+    
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.container h2{
+    
+}
+
+.ingredients-list{
+    list-style: none;
+    
+    font-size: 18px;
+}
+
+.ingredients-list li::before{
+    content: "-";
+}
+
+
+
+ol{
+    counter-reset: item;
+}
+
+.direction-list{
+    list-style: none inside;    
+    font-size: 18px;    
+}
+
+.direction-list li::before{
+    counter-increment: item;
+    content: counter(item) ")"; 
+}
