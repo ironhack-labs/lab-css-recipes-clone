@@ -1,0 +1,42 @@
+header{
+  width: 80%;
+  height: 700px;
+  display: block;
+  margin: 100px auto;
+}
+h1{ 
+  display: block;
+  text-align: center;
+  padding-top: 300px;
+}
+hr{
+  width: 800px;
+}
+ul{
+  margin: 0 0 40px 0;
+}
+section li {
+  padding-left: 15px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+p{
+  margin: 20px 0;
+}
+section{
+  margin: 60px 0 60px 0;
+}
+.left-text {
+  margin-left: 10%;
+}
+h2{
+  margin: 15px 0;
+}
+.recipe-img{
+  width: 500px;
+}
+.cooking-img{
+  width: 400px; 
+}
