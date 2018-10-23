@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.one {
+  background-image: url("https://66.media.tumblr.com/c459371dcb68235cdbc52c130db38028/tumblr_ph0l85mkfN1vp5j01o1_1280.jpg") ;
+  /* background-image: url("../images/apple-pie.jpg"); */
+  height: 500px;
+  margin-right: 40px;
+  margin-left: 40px;
+
+
+
+}
+h1 {
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 175px;
+
+
+}
+img {
+ margin-left : 25%;
+
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+hr {
+  width: 55%;
+
+}
+
+h3 {
+  font-weight: 200;
+  margin-left: 275px;
+  
+}
+
+ul li {
+  list-style: none;
+  margin-left: 285px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+ol li {
+  margin-left: 285px;
+  font-style: italic;
+  padding-top: 10px;
+}
