@@ -4,7 +4,7 @@ h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 15%;
-    background-image: url(/Users/rachelhofer/Desktop/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-image: url(/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
     background-size: cover;
     height: 250px;
     width: 75%;
@@ -16,13 +16,15 @@ p {
     font-size: 20px;
     color: rgb(79, 73, 73);
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .Ingredients {
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(79, 73, 73);
     text-align: left;
     padding-left: 25%;
@@ -31,7 +33,7 @@ p {
 
 .Directions {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(79, 73, 73);
     text-align: left;
     padding-left: 25%;

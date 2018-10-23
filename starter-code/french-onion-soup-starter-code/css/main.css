@@ -1,9 +1,55 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+h1 {
+  font-size: 60px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 15%;
+  background-image: url(/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 75%;
+  margin-left: 12%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: rgb(79, 73, 73);
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.Ingredients {
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(79, 73, 73);
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.Directions {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(79, 73, 73);
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+h3 {
+  font-family: Helvetica;
+  text-align: left;
+  padding-left: 25%;
+}
+
+.apple-pie {
+  text-align: center;
+}
+
+hr {
+  width: 75%;
 }
