@@ -7,7 +7,7 @@
 
 #cover{
     background-image: url(../images/apple-pie.jpg);
-    background-size: 100%; /*la imagen de la foto queda más subida y no sé como ajustarlo*/
+    background-size: 100%; 
     background-repeat: no-repeat;
     height: 800px; ;
     width: 100%; 
