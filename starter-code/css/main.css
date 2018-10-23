@@ -1,0 +1,62 @@
+/*
+  Main.css file
+  lab-css-recipes-clone
+*/
+
+body { font-family: 'Roboto', sans-serif; counter-reset: section;        }
+
+header.masthead {
+    text-align: center;
+    color: #fff;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+	padding: 230px 0px;
+}
+
+#pie { background-image: url(../images/apple-pie.jpg); }
+#soup { background-image: url(../images/soup.jpg); }
+
+.container {
+    width: 980px;
+	margin: 0 auto;
+}
+
+#text .container { padding: 50px 80px; width: 800px}
+#ingredients { padding:30px 0px }
+h1, h1 { color:white; font-weight: 500; }
+
+h1 { font-size: 40px }
+h2 { font-size: 20px; margin-bottom: 15px }
+
+p { font-size:18px }
+p.big { font-size:22px }
+
+ul { padding-left: 10px; }
+
+ul.recipe, ul.directions {
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.recipe > li, ul.directions > li {
+  text-indent: -5px;
+}
+
+ul.recipe > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+ol {
+  padding-left: 10px;
+  list-style: none;
+  counter-reset: my-counter;
+}
+ol li {
+  counter-increment: my-counter;
+}
+ol li::before {
+  content: counter(my-counter) ") ";
+}
