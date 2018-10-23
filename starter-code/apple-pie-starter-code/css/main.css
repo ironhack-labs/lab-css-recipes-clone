@@ -1,0 +1,53 @@
+body{
+    margin:0;
+}
+.bigimg{
+    width: 100%;
+    
+}
+h1{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 45%;
+    
+}
+p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+main{
+    width: 60%;
+    margin: auto;
+    
+}
+#cook-vals{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: auto; 
+    padding: 30px;
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+ul li:before{
+    content: "-";
+}
+
+#cook-time{
+    
+    
+    display: block;
+    margin: auto; 
+    padding: 30px;
+}
+#cook-time img{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: auto; 
+    padding: 30px;
+}
