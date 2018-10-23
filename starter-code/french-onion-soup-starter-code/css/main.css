@@ -15,7 +15,7 @@ body {
 header { 
   height: 500px;
   width: 75%;
-  background-image: url("/Users/rgravitte/Desktop/ftwd-october-2018/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-image: url("../images/soup.jpg");
   background-size: cover;
   color: white;
   text-align: center;
@@ -65,4 +65,9 @@ margin-left: 20%;
 
 .width {
   width: 75%;
+}
+
+li {
+  line-height: 20px;
+  padding-top: 2px;
 }
