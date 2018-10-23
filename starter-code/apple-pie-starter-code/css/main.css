@@ -1,0 +1,78 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+body{
+
+    margin:0;
+    padding:0;
+    line-height:1.4;
+}
+
+.container{
+
+margin:50px auto;
+width: 90%;
+
+}
+
+header div{
+    width:100%;
+    margin:0 auto;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 50vh;
+   
+}
+
+header h1{
+    text-align: center;
+    padding: 140px 0;
+    font-size:4em;
+    color: white;
+    font-weight: 200;
+    
+}
+
+
+.cooking-img{
+    display:block;
+    width:60%;
+    margin:30px auto;
+
+}
+
+ul{
+  
+    margin: 0 0 50px 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+ul > li{
+
+    list-style-type: none;
+}
+ul > li:before{
+    content:'-';
+}
+
+ol{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ol li{
+    
+    margin: 15px;
+    
+}
+
+

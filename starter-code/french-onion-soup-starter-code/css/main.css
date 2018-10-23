@@ -7,3 +7,52 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+body{
+
+  margin:0;
+  padding:0;
+  line-height:1.4;
+  font-family:open sans;
+}
+
+.container{
+
+margin:50px auto;
+width: 70%;
+
+}
+
+header div{
+  width:80%;
+  margin:0 auto;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+ 
+}
+
+header h1{
+  text-align: center;
+  padding: 140px 0;
+  font-size:3em;
+  color: white;
+  font-weight: 200;
+  line-height:1;
+  
+}
+
+
+.cooking-img{
+  display:block;
+  width:60%;
+  margin:30px auto;
+
+}
+
+
+
+
