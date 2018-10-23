@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+
+h1{
+    background: url("file:///home/sofia/Downloads/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 250px;
+}
+
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border-bottom: 1px solid black;
+    padding: 20px 300px;
+}
+
+.dashed{
+    list-style: none;
+}
+
+ul.dashed>li:before{
+    content: "-";
+}
+
+.text{
+    font-size: 16px;
+    padding: 0 120px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 120px;
+}
+
+ul li, ol li{
+    padding: 5px 0;
+}
+h3{
+    font-weight: 520;
+    font-size: 20px;
+}
