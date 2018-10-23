@@ -1,7 +1,52 @@
 * {
-  font-family: arial;
+  font-family: helvetica, arial, sans-serif;
+  color:gray;
 }
 
-.order {
-  list-style-type: none;
+.big-apple-pie-pic {
+  background-image: url('../images/apple-pie.jpg');
+  height:400px;
+  background-size:cover;
+  padding:25%;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin:-8px;
+}
+
+.grandmother {
+  margin: 100px 7%;
+  font-size:30px;
+  text-align:center;
+}
+
+.recipe-img {
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1.5px solid gray;
+}
+
+.ingr {
+  padding-left:20% 10%
+}
+
+.ing-list {
+  margin-top:30px;
+  font-size:26px;
+}
+
+h2{
+  font-size:35px;
+}
+
+.ing-list > li {
+  list-style-type:none;
+}
+
+.ing-list > li:before {
+  content:'-';
+}
+
+.ingr > div {
+  padding-left:3%;
 }
