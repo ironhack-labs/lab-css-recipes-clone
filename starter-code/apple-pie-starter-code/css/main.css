@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica';
+  font-weight: lighter;
+  font-size: 25px;
+}
+.headImg{
+  background-image: url("/Users/YoliC/Desktop/ironHackHTML/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 40px;
+  height: 600px;
+}
+h1{
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  padding-top: 250px;
+  font-size: 250%;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+.introTxt{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+h3{
+  margin-left: 10%;
+  font-weight: normal;
+}
+ol{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+ul{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  list-style: none;
+}
+hr{
+  align : center;
+  width: 80%;
+}
+.image{
+  width: 70%;
+  margin-left: 40%;
+ 
+
+}
+
