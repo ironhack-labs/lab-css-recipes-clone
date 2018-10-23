@@ -40,10 +40,11 @@ ol, ul{
 }
 
 .header{
-  background-image: url("file:///Users/r.r.munozgarcia/Desktop/semana_1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-image: url("../images/apple-pie.jpg");
   width: auto;
   background-size: cover;
   height: 1000px;
+  border: 1px dashed red;
 }
 
 #cooking-info{
@@ -61,7 +62,3 @@ ol, ul{
   padding-top: 80px;
 }
 
-.line{
-  width: 300px;
-  margin-top: 100px;
-}
