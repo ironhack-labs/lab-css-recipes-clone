@@ -1,6 +1,6 @@
 * {
   font-family: helvetica, arial, sans-serif;
-  color:gray;
+  color: rgb(40, 41, 45);
 }
 
 .big-apple-pie-pic {
@@ -15,7 +15,7 @@
 }
 
 .grandmother {
-  margin: 100px 7%;
+  margin: 100px 6%;
   font-size:30px;
   text-align:center;
 }
