@@ -17,7 +17,7 @@ There's a bit of starter code, so you can jump right into it.
 
 ## Requirements
 
-- [Learn how to fork this repo](https://guides.github.com/activities/forking/)
+- [Fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `~/code/labs`
 - Make sure you use `class` and `id` selectors throughout your exercise. Remember, only use type selectors if you want to modify *every* element of that type
 - Use a single external CSS stylesheet to style all pages
