@@ -1,9 +1,61 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+body, html, main {
   margin: 0;
+  color: grey;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+header {
+  background-image: url("/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.borderTest {
+  border: 1px solid black;
+}
+
+.text-container {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.divider-line {
+  width: 80%;
+  border: 0.5px solid gray;
+  margin: 30px 10%;
+}
+.paragraph-image {
+  display: flex;
+  justify-content: center;
+}
+.paragraph-image img {
+  width: auto;
+  height: 60px;
+  margin-top: 20px;
 }
