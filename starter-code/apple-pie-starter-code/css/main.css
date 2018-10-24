@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'SegoeUI';
+    src: url(../fonts/SegoeUI.ttf);
+}
+
+*{font-family: 'SegoeUI';}
+
+*{margin: 0;
+  padding: 0;}
+
+body{
+ height: 100%;
+ padding-top: 1px;
+ margin-top: -1px;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+#header{
+margin: 40px 0 60px 0;
+}
+
+.containerHeader{
+  width: 65%;
+  height: 650px;
+}
+
+.appleBackground{
+  background-image: url(../images/apple-pie.jpg);
+}
+
+.backgroundSize{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.sizeOne{
+  background-position: center 26%;
+}
+
+.sizeTwo{
+  background-position: center 36%;
+
+}
+
+h1{
+  font-size: 5.5em;
+  font-weight: 100;
+  position: relative;
+  top: 250px;
+  color: white;
+  width: 30%;
+  text-align: center;
+}
+
+.container{
+  width: 50%;
+
+}
+
+#comment,#ingredient{
+  margin-bottom: 40px;
+}
+
+.commentText{
+  width: 100%;
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.commentImg{
+  width: 48%;
+  height: 25%;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.line{height:20px;
+    border-bottom: 1px darkgreen solid;
+}
+
+h2{
+    font-size: 1.5em;
+font-weight: 100;
+}
+
+ul,ol{
+  list-style-type: none;
+   margin:35px 0 50px 10px;
+}
+
+ul li, ol li{
+   padding: 1px 0 2px 0;
+  font-size: 1.3em;
+}
+ol li{width: 95%;}
