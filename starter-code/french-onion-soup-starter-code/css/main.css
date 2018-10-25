@@ -1,9 +1,82 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+body{
+    font-family: 'Raleway';
+    height: 6000px;
+    font-weight: normal;
+    
 }
+#apple_pie{
+
+    background-image:url(../images/soup.jpg);
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+#apple_pie p, p{
+    position: relative;
+}
+#apple_pie p{
+    top: 444px;
+    left: 50px;
+    width: 1800px;
+    font-size: 170px;
+}
+#description{
+    font-size: 25px;
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 25%;
+    margin: 15px 10px;
+}
+section{
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+h2{
+    width: 500px;
+    margin-left: 420px;
+}
+ul{
+    width: 500px;
+    height: auto;
+    display:inline-block;
+    margin: 30px 0px 30px 450px;
+
+}
+ol{
+    width: 800px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+#first_image{
+    width: 606px;
+    height: 94px;
+}
+#second_image{
+    width: 556pxç;
+    height: 128px;
+}
+img{
+    display: inline;
+    position: relative;
+    left: 580px;
+    
+}
+hr{
+    color: grey;
+    width: 1000px;
+    position: relative;
+    left: 420px;
+}
+
