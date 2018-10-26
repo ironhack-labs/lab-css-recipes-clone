@@ -2,8 +2,89 @@
 h1, body, html, main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 18px
+  color: #555555;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18pt;
+  color: black;
+  /* width: 75%;
+  margin: 0 auto; */
+}
+
+section {
+  width: 66%;
+  margin: 0 auto;
+}
+
+/* ¿Cómo alinear las imágenes del fondo? */
+#recipe-name {
+  background-image : url(../images/soup.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  width: 75%;
+  height: 35em;
+  line-height: 35em;
+}
+
+.name--fancy {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 50pt;
+  font-weight: 300;
+}
+
+#description p {
+  margin : 3em auto;
+  text-align : justify;
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+hr {
+  width: 66%;
+}
+
+ul, ol {
+  margin: 0, auto;
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+#ingredients li {
+  list-style-type: none;
+}
+
+#ingredients li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1em;
+}
+
+#directions li {
+  list-style-type: none;
+}
+
+#directions li:before {
+  counter-increment: list;
+  content:  counter(list, decimal) ") ";
+}
+
+ol {
+  text-indent: 0em;
+  counter-reset: list;
+}
+
+img.img__info {
+  width: 50%;
+  display: block;
+  margin: 3em auto 0 auto;
 }
