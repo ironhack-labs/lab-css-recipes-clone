@@ -7,3 +7,86 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body{
+  width: 1400px;
+
+}
+h1, body, html, main {
+  margin: 0;
+}
+#header{
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+  margin: 0 auto;
+}
+#headertext{
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  padding: 250px 250px 250px 250px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  font-weight: lighter;
+}
+#parraftext{
+  height: 10%;
+  padding: 6% 6% 3% 6%;
+  width: 88%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  line-height: 1.3;
+}
+#imagesre{
+  padding: 0 23% 0 23%;
+  height: auto;
+  border-color: black;
+  width: auto;
+  border-bottom: 2px solid grey;
+}
+
+.rec-img-size{
+  width: 100%;
+  height: 3%;
+}
+
+.Ingredients{
+  font-family: 'Open Sans', sans-serif;
+  height: 30%;
+  width: 88%;
+  padding: 0% 6% 3% 6%;
+  line-height: 1.3;
+}
+
+#imagesr2{
+  padding: 0 28% 0 28%;
+  height: auto;
+  border-color: black;
+  width: auto;
+  border-bottom: 2px solid grey;
+}
+
+.ingre-head{
+  font-size: 2em;
+}
+
+.ingre-text{
+  font-weight: lighter;
+  font-size: 1.5em;
+  list-style-type: none;
+}
+ul > li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1.1em; 
+}
+
+
+.ingre-text-o{
+  font-weight: lighter;
+  font-size: 1.5em;
+  list-style-type: none;
+  line-height: 1.3;
+}
