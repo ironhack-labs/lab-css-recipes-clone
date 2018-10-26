@@ -1,9 +1,54 @@
-/*Some necessary adjustments*/
+/*Some necessary adjustments
+I dont understand this?????
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+*/
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large
+}
+
+/* Centered text */
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    }
+
+    img.resize {
+  max-width: 33%;
+  max-height: 33%;
+}
+
+.cooking-info-image {
+text-align:center;
+}
+
+.recipe-info-image {
+text-align:center;
+}
+
+.all-text-container {
+  margin: 50px;
+
+}
+
+.ingredients {
+  margin-top: 5%;
+}
+
+.directions {
+  margin-top: 5%;
 }
