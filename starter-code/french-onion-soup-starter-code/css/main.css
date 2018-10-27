@@ -1,9 +1,83 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body{
+  font-family: 'Montserrat', sans-serif;
+
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.bg-image-recipe{
+  width: 100%;
+  height: 600px;
+  background: url(../images/soup.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.container {
+
+  margin: 0 auto;
+}
+
+
+
+.center
+{
+  margin: 0 auto;
+
+}
+.center h1
+{
+  position: relative;
+  top: 48%;
+  transform: perspective(1px) translateY(-50%);
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.text-description-recipe{
+  width: 1170px;
+  height: auto;
+  margin: 0 auto
+}
+
+.text-description-recipe p{
+  padding-top: 5%;
+  text-align: justify;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-bottom: 2%;
+}
+
+
+.image-info-recipe{
+  width: 600px;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: "–"; /* en dash */
+  position: absolute;
+  margin-left: -1.1em;
+}
+
+.image-info-recipe-cooking{
+  width: 556px;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+
+.mar-10{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
