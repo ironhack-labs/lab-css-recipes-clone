@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif}
+.text {
+  font-size: 1em;
+  font-weight: 100;
+  color: black;
+  margin: 20px;
+}
+.container {  
+  width: 550px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+.size {
+ width: 300px;
+ padding: 30px 0 0 0; 
+}
+.container-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.subtitle {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+.img {
+  background-image: url('/Users/LeFinancier/code/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg'); 
+  background-position: 0 0; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  size: 650px;
+  padding: 3px 0 13px 0;
+  position: relative;
+}
+.title {
+  text-align: center;
+  color: white;
+  height: 5px;
+  padding: 3em 0 3em 0;
+  font-size: 100px;
+}

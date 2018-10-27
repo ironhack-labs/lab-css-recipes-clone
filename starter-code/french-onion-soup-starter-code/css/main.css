@@ -1,9 +1,60 @@
-/*Some necessary adjustments*/
+/*Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+Import the font and set the default size
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}*/
+* {
+  font-family: sans-serif}
+.text {
+  font-size: 1em;
+  font-weight: 100;
+  color: black;
+  margin: 20px;
+}
+.container {  
+  width: 580px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: ;
+}
+.container-img {
+  width: 580px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+.size {
+ width: 300px;
+ padding: 30px 0 0 0; 
+}
+.container-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.subtitle {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+.img {
+  background-image: url('/Users/LeFinancier/code/labs/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg'); 
+  background-position: 0 0; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  size: 650px;
+  padding: 250px 0 250px 0;
+  position: relative;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  color: white;
+  height: 2px;
+  padding: 30em 0 3em 0;
+  font-size: 80px;
 }
