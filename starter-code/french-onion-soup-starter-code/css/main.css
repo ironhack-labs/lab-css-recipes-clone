@@ -37,6 +37,16 @@ html {
   font-weight: lighter;
 }
 
+.fuente-receta-onion{
+  font-size: 100px;
+  position: absolute;
+  color: white;
+  left: 13%;
+  right: 13%;
+  bottom: 40%;
+  font-weight: lighter;
+}
+
 .primary-container{
   width: 1200px;
   margin: 0 auto;
