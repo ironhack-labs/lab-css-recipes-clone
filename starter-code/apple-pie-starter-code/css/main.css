@@ -30,6 +30,7 @@ html {
 
 .primary-container{
   width: 1200px;
+  color: rgb(80, 79, 79);
   margin: 0 auto;
   padding: 20px 0px 0px 0px;
 }
