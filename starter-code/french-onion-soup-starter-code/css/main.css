@@ -1,4 +1,3 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
@@ -7,3 +6,66 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+img{
+  display:block;
+  margin:auto;
+  }
+  
+.titulo
+{
+  color:white;
+  font-size: 620.5%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/soup.jpg");
+  height: 500px;
+  width:100%;
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+
+.descri
+{
+  color:black;
+  font-size: 180.0%;
+  width:80%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.subti
+{
+  color:black;
+  font-size: 150.0%;
+  width:80%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.lista li{list-style-type: none}
+.lista li:before{content: "- "}
+.lista {  color:black;
+  font-size: 120.0%;
+  width:80%;}
+
+  .instr {  color:black;
+    font-size: 120.0%;
+  width:80%;}
+  
+ol {
+    counter-reset: list;
+  }
+ol > li {
+    list-style: none;
+  }
+ol > li:before {
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
+  }
