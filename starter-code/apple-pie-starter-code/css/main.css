@@ -1,0 +1,40 @@
+body{
+  width: 1024px;
+  display:center;
+}
+
+.border{
+  border-button:5px solid red;
+  width:100px;
+}
+
+
+.title{
+  text-align: center;
+  }
+
+h1{
+  color: black;
+
+
+}
+
+h2{
+  color: black;
+  font-style:"helvetica";
+  font-weight;800;
+
+}
+
+ul {
+    list-style: square inside url("sqpurple.gif");
+}
+
+.component1{
+  align-content: center;
+
+}
+
+.inter-text{
+  text-align:left;
+}
