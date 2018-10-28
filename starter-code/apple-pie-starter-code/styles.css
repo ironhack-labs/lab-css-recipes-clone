@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#apples-image{
+  background-image: url(apple-pie.jpg);
+  background-size: cover;
+  height: 350px;
+}
+
+h1{
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.pharagraph{
+  font-family: roboto;
+  width: 650px;
+  padding: 50px 0px 50px 400px;
+}
