@@ -1,0 +1,51 @@
+.title
+{
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.title{
+    background: url("../images/apple-pie.jpg") no-repeat center center fixed;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+   margin: auto;
+}
+
+.text{
+    width: 100%;
+    text-align: center; 
+    margin-top: 50px;
+    font-family: arial;
+    font-size: x-large;
+}
+
+.prepImg{
+display: block;
+margin: auto;
+margin-top: 50px;
+}
+
+.ingredients{
+
+    font-size: xx-large;
+    display: block;
+}
+
+.directions{
+
+    font-size: x-large;
+    display: block;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
