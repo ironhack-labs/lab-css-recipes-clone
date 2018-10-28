@@ -1,0 +1,74 @@
+* {
+    font-family: "Open Sans";   
+}
+
+.page-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #736f72;
+}
+
+hr {
+    color: #343b3f;
+    background-color: #343b3f;
+}
+
+.principal-box{
+    background-image: url("/Users/gonzalosobrino/Documents/Ironhack/Labs/module-1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 20%;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Helvetica;    
+    }
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 350%;
+}
+
+h3 {
+    color: #736f72;
+    font-weight: normal;
+    font-size: 175%;
+
+}
+
+h3.color {
+    color: #343b3f;
+}
+
+.first-intro {
+    padding-bottom: 0%;
+    padding-top: 4%;
+
+}
+
+.center-cooking {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+}
+
+.div-prep {
+    padding-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.div-cook {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.directions-class {
+    padding-bottom: 3%;
+}
