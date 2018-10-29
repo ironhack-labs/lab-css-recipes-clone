@@ -1,3 +1,10 @@
+* {
+  /* always use border box so that the elements 
+  only affect thamselves not each other.
+  Asterisco es para todo los elementos */
+  box-sizing: border-box; 
+}
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +13,76 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+#first-div {
+  background-image: url("../images/soup.jpg");
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
+.header{
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  padding:0;
+  margin: 0 auto;
+  top: 55%;
+  left:25%;
+  text-align: center;
+}
+
+.text {
+  opacity: 0.7;
+  font-size: 20px;
+  padding: 5px 350px 5px 350px;
+}
+
+.paragraph1 {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.recipe-info {
+  height: 50px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 100%;
+}
+
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+
+.cooking-info {
+  height: 60px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
 }
