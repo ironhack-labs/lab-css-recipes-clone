@@ -9,18 +9,59 @@
 #apples-image{
   background-image: url(apple-pie.jpg);
   background-size: cover;
-  height: 350px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
   font-family: roboto;
-  display: flex;
-  justify-content: center;
-  padding-top: 150px;
+}
+
+h2{
+  font-family: roboto;
 }
 
 .pharagraph{
   font-family: roboto;
   width: 650px;
-  padding: 50px 0px 50px 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.info-image{
+  display: flex;
+  justify-content: center;
+  margin-left: 280px;  
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  width: 70%;
+}
+
+#ingredients{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.ingredients-list{
+  padding-top: 25px;
+  font-family: roboto;
+  line-height: 1.5;
+}
+
+.sub-title{
+  padding-top: 40px;
+  padding-left: 350px;
+}
+
+.directions-list{
+  line-height: 1.5;
+  width: 800px;
+  font-family: roboto;
+  padding-top: 40px;
+  margin-bottom: 80px;
 }
