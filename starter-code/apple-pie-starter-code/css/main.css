@@ -1,0 +1,53 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+h1{
+  font-size: 4em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+hr{
+  width: 90%;
+}
+
+section{
+  padding: 0 3em;
+}
+
+#hero{
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.titulo{
+  color: white;
+  position: absolute;
+  left: 41%;
+  top: 25%;
+}
+
+#descripcion{
+  text-align: center;
+}
+
+.parrafo{
+  font-size: 1.5em;
+  padding: 2em 3em;
+}
+
+.info-receta{
+  text-align: center;
+}
+
+.titulo-receta{
+  margin-bottom: -1em;
+}
