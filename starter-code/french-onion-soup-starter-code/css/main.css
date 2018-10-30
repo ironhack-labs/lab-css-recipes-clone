@@ -1,9 +1,54 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  text-align: center;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+hr{
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+ul{
+  padding: 1rem;
+}
+li{
+  list-style: none;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.padding{
+  padding: 1rem 6rem 1rem 6rem;
+  text-align: justify;
+}
+
+.bckgImg{
+  width: 100%;
+}
+
+.centerTitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+
+.boxCard {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40px 120px 40px;
+  text-align: justify;
 }
