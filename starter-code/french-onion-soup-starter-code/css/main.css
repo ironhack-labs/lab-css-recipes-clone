@@ -7,3 +7,48 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  margin: 0%;
+}
+h1{
+  color:white;
+  padding: 300px 500px;
+  font-size: 50px;
+margin: 0%;}
+
+
+
+#container {
+  width: 100%;
+  height: 600px;
+  background-image: url('/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-size: cover;
+
+      display: block;
+     
+      
+  }
+      
+
+  #segunda{
+    padding: 10px 80px 10px 250px;
+    width: 80%;
+  }
+  #imagensegunda {
+    width: 70%;
+    height: 100px;
+    background-image: url("/starter-code/french-onion-soup-starter-code/images/recipe-info.png")
+    
+  }
+
+#tercera{
+  padding: 10px 80px 10px 250px;
+  width: 80%;
+
+} 
+
+#cuarta{
+  padding: 10px 80px 10px 250px;
+  margin-right: 200px;
+}
