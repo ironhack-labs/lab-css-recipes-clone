@@ -1,9 +1,65 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 35px
+}
+
+.soup-background{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+color: white;
+text-align: center;
+line-height: 1300px;
+margin-top: 0px;
+}
+.soup-background h1{
+  font-size: 120px; 
+}
+
+.article-container{
+  margin: auto 15%;
+  
+}
+
+.introduction{
+  display: block;
+  border-bottom: solid grey;
+  margin-top: 80px;
+
+}
+.introduction img{
+  display: block;
+  margin: auto;
+}
+.ingredients{
+  display: block;
+  border-bottom: solid grey;
+  margin-top: 100px;
+  font-size: 30px;
+
+}
+.ingredients img{
+  display: block;
+  margin: auto;
+}
+.ingredients ul{
+  list-style: none;
+    
+    
+}
+.ingredients ul li:before{
+  content: "- "
+}
+.directions ol li:before{
+  content: ") ";
+}
+.directions ol li{
+  
+  
+  font-weight: inherit;
+}
+.directions{
+  margin-top: 100px;
+  font-size: 30px;
 }
