@@ -1,0 +1,44 @@
+#top{
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  display: block;
+  height: 600px ;
+  width: 100%;
+  
+
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#middle{
+  padding: 50px 200px; 
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+h1{
+  margin: 0;
+  padding: 250px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+h3{
+  font-size: 30px;
+}
+img{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+ 
+}
+article{
+  padding: 30px;
+}
+p{
+  font-size: 25px;
+}
