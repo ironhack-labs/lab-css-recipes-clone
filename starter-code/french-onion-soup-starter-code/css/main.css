@@ -12,14 +12,15 @@ html {
   width:600px;
   margin:0 auto;
   padding: 75px 0;
-  height:250px;
+  height:350px;
 }
 
 
-.container-pie{
+.container-soup{
   width:1000px;
   margin:0 auto;
   height:780px;
+  font-size: 0.8em;
 }
 
 .centrado {
