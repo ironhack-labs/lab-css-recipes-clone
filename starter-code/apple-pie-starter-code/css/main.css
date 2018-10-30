@@ -1,0 +1,94 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+
+#background-1 {
+  background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  text-align: center;
+  line-height: 700px;
+  color: rgb(255, 255, 255);
+  font-size: 70px
+}
+
+#text-grandma {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.cooking-info {
+    float: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100px
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.ingredients {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.list {
+  margin-left: 120px;
+}
+
+.recipe-info {
+  float: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100px
+}
+
+.directions {
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+#background-2 {
+  background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/french-onion-soup-starter-code/images/soup.jpg?raw=true");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  text-align: center;
+  line-height: 700px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  margin-top: 100px;
+}
+
+#text-frenchonion {
+  margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
