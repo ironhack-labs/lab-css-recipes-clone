@@ -1,9 +1,28 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.centered{
+  /* Centered text */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_centrado{
+  position: relative;
+  margin: 4em;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen_receta{
+  position: relative;
+  text-align: center;
+  widows: 1em;;
 }
