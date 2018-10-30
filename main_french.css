@@ -1,0 +1,47 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+.block {
+  margin: 10%;
+}
+
+header {
+  height: 650px;
+  background-image: url(file:///C:/Users/paila/OneDrive/Documentos/lab-css-recipes-clone-master/starter-code/french-onion-soup-starter-code/soup.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  padding: 70px;
+  position: relative;
+  opacity:0.8;
+}
+
+.header{
+  text-align: center;
+  font-size: 8em;
+  margin-top: 20%;
+  color: white;
+}
+
+.img-recetas{
+  margin-right: 25%;
+  margin-left: 25% ;
+  margin-bottom: 2%;
+  margin-top:2%;
+}
+
+li, p{
+  font-size: 2.3em;
+}
+
+h3{
+  font-size: 3em;
+}
