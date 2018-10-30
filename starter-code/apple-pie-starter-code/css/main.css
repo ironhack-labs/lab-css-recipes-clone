@@ -15,6 +15,9 @@ h1{
 body{
     margin: 0;
 }
+li{
+    list-style: none;
+}
 #intro{
     font-size: 23px;
     padding: 40px 200px 40px 200px;
