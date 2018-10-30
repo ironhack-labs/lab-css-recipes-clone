@@ -1,0 +1,66 @@
+body {
+  color: rgb(80, 80, 80);
+  font-family: 'Raleway', sans-serif;
+  margin: 0px 50px;
+}
+
+
+header {
+  
+  background-size: cover; 
+  height: 1000px;
+  margin: 0 0 100px;
+  width: 100%;
+}
+
+.img-apple {
+  background-image: url(file:../apple-pie-starter-code/images/apple-pie.jpg);
+}
+
+.img-onion {
+  background-image: url(file:../french-onion-soup-starter-code/images/soup.jpg);
+}
+
+.title {
+color: #ffffff;
+font-size: 6.5em;
+text-align: center;
+padding-top: 450px;
+}
+
+section {
+  margin: 50px 10%;
+}
+
+.sect-intro {
+  font-size: 2.15em;
+}
+
+section {
+  font-size: 1.75em;
+}
+
+.info {
+  display: block;
+  margin: auto;
+
+}
+
+hr {
+  background-color:  rgb(109, 109, 109);
+  margin: 0px 10%;
+  height: 2px;
+}
+
+h3 {
+  color: rgb(0,0,0);
+  /* font-size: 2em; */
+}
+
+ul li {
+  list-style-type: none
+}
+
+ol li {
+  list-style-type: decimal
+}
