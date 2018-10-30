@@ -1,3 +1,5 @@
+@import url('"https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +8,40 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+h1{
+  padding: 15% 30%;
+  position: absolute;
+  color: white; 
+  font-size: 50px;
+
+}
+
+.s1texto{ 
+  font-size: 145%;
+  text-align: left;
+  padding: 5% 20%;
+  color: black; 
+  font-style: inherit;
+}
+
+.img{
+  padding: 5% 25%
+}
+
+.s2texto{
+  font-size: 120%;
+  text-align: left;
+  padding: 5% 20%;
+  color: black; 
+  font-style: inherit;
+}
+
+
+hr {
+  color: lightgray;
+  size: 1px;
+  padding: 0 20%;
+  
 }

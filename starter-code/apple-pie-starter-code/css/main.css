@@ -1,0 +1,48 @@
+@import url('"https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"');
+
+h1, body, html, main {
+    margin: 0;
+  }
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+h1{
+    padding: 20% 35%;
+    position: absolute;
+    color: white; 
+    font-size: 50px;
+
+}
+
+.s1texto{
+    font-size: 145%;
+    text-align: left;
+    padding: 5% 20%;
+    color: black; 
+    font-style: inherit;
+}
+
+.img{
+    padding: 5% 25%
+}
+
+.s2texto{
+    font-size: 120%;
+    text-align: left;
+    padding: 5% 20%;
+    color: black; 
+    font-style: inherit;
+}
+
+
+hr {
+    color: lightgray;
+    size: 1px;
+    padding: 5% 20%;
+    width: 80%
+    
+}
+
