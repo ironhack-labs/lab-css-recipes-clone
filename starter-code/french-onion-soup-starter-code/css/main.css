@@ -7,3 +7,56 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+header {
+  width: 100%;
+  text-align: center;
+  background-image: url("/home/zagz/Ironhack/Day 1 HTML/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  height: 600px;;
+  color: white;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  position: relative;
+  padding-top: 250px;
+  font-size: 2.9em;
+}
+
+.container {
+
+width: 80%;
+margin: 50px 10% 50px;
+text-align: justify;
+letter-spacing: 3px;
+}
+
+.container img{
+  display: block;
+  min-width: 350px;
+  max-width: 350px;
+  width:40%;
+  margin: 30px auto;
+}
+
+hr  {
+  height: 2px;
+  border: 0;
+  background-color: grey;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin-left: 5%;
+}
