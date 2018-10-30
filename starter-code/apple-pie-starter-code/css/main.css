@@ -2,7 +2,7 @@
   background-image: url('../images/apple-pie.jpg');
   background-size: cover;
   display: block;
-  height: 600px ;
+  height: 650px ;
   width: 100%;
   
 
@@ -32,7 +32,7 @@ h3{
 img{
   display: block;
   margin: auto;
-  padding: 10px;
+  padding: 15px;
   width: 400px;
  
 }
