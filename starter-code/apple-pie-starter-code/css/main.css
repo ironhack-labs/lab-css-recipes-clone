@@ -7,27 +7,39 @@
   background-image: url('../images/apple-pie.jpg');
   height:400px;
   background-size:cover;
-  padding:25%;
+  padding:700px 100px 550px;
   color: white;
-  font-size: 80px;
+  font-size: 180px;
   text-align: center;
   margin:-8px;
 }
 
+.aPie {
+  color:white;
+}
+
 .grandmother {
-  margin: 100px 6%;
-  font-size:30px;
+  margin: 200px 8%;
+  font-size:55px;
   text-align:center;
+  background-color:yellow;
 }
 
 .recipe-img {
   display: block;
   margin: 0 auto;
-  border-bottom: 1.5px solid gray;
+  height:160px;
+  weight:160px;
+  padding:0 400px;
+  border-bottom: 3.5px solid gray;
+}
+
+h2{
+  font-size:35px;
 }
 
 .ingr {
-  padding-left:20% 10%
+  padding-left:
 }
 
 .ing-list {
@@ -35,9 +47,6 @@
   font-size:26px;
 }
 
-h2{
-  font-size:35px;
-}
 
 .ing-list > li {
   list-style-type:none;
