@@ -15,14 +15,14 @@
 }
 
 .big-soup-pic {
-  background-image: url('../images/soup.jpg');
+  background-image: url('../../french-onion-soup-starter-code/images/soup.jpg');
   height:100px;
   background-size:cover;
-  padding:700px 100px 700px;
+  padding:700px 100px 300px;
   color: white;
   font-size: 180px;
   text-align: center;
-  margin:-250px;
+  margin:-150px;
 }
 
 .aPie {
