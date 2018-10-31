@@ -39,7 +39,7 @@
   display: block;
   margin: 0 auto;
   height:130px;
-  weight:130px;
+  width:130px;
   padding:0 500px;
   border-bottom: 3.5px solid gray;
 }
@@ -48,7 +48,7 @@
   display: block;
   margin: 0 auto;
   height:150px;
-  weight:150px;
+  width:150px;
   padding:0 800px;
   border-bottom: 3.5px solid gray;
 }
@@ -57,10 +57,16 @@ h2 {
   padding-top:40px;
   font-size:55px;
   padding-left:180px;
-  font-weight:
 }
 
 .ing-list {
+  margin-top:30px;
+  font-size:45px;
+  padding:40px 0 0 210px;
+  margin-bottom:140px;
+}
+
+.ing-list2 {
   margin-top:30px;
   font-size:45px;
   padding:40px 0 0 210px;
@@ -73,4 +79,12 @@ ul {
 
 ul > li:before {
   content: "-";
+}
+
+ol {
+  list-style-type:none;
+}
+
+ol > li:before {
+  content: ")";
 }
