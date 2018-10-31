@@ -1,5 +1,5 @@
 * {
-  font-family: helvetica, arial, sans-serif;
+  font-family: calibri, arial, sans-serif;
   color: rgb(40, 41, 45);
 }
 
@@ -7,11 +7,11 @@
   background-image: url('../images/apple-pie.jpg');
   height:400px;
   background-size:cover;
-  padding:700px 100px 550px;
+  padding:700px 100px 700px;
   color: white;
   font-size: 180px;
   text-align: center;
-  margin:-8px;
+  margin:-250px;
 }
 
 .aPie {
@@ -19,43 +19,47 @@
 }
 
 .grandmother {
-  margin: 200px 8%;
+  margin: 400px 8% 0 8%;
   font-size:55px;
   text-align:center;
-  background-color:yellow;
 }
 
 .recipe-img {
   display: block;
   margin: 0 auto;
-  height:160px;
-  weight:160px;
-  padding:0 400px;
+  height:130px;
+  weight:130px;
+  padding:0 500px;
   border-bottom: 3.5px solid gray;
 }
 
-h2{
-  font-size:35px;
+.recipe-img2 {
+  display: block;
+  margin: 0 auto;
+  height:150px;
+  weight:150px;
+  padding:0 800px;
+  border-bottom: 3.5px solid gray;
 }
 
-.ingr {
-  padding-left:
+h2 {
+  padding-top:40px;
+  font-size:55px;
+  padding-left:180px;
+  font-weight:
 }
 
 .ing-list {
   margin-top:30px;
-  font-size:26px;
+  font-size:45px;
+  padding:40px 0 0 210px;
+  margin-bottom:140px;
 }
 
-
-.ing-list > li {
+ul {
   list-style-type:none;
 }
 
-.ing-list > li:before {
-  content:'-';
-}
-
-.ingr > div {
-  padding-left:3%;
+ul > li:before {
+  content: "-";
 }
