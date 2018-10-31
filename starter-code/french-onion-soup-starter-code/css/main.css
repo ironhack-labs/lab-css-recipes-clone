@@ -7,3 +7,26 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.recipe-title-apple {
+  background-image: url("/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  text-align: center;
+}
+ .recipe-title-onion {
+  background-image: url("/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+  text-align: center;
+ }
+ 
+ img {
+  display:block;
+  margin:auto;
+}
+
+hr {
+  width: 70%;
+}
+
+.container {
+  padding-left: 200px; 
+  padding-right: 200px;
+}
