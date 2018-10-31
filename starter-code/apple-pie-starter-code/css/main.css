@@ -5,7 +5,18 @@
 
 .big-apple-pie-pic {
   background-image: url('../images/apple-pie.jpg');
-  height:400px;
+  height:100px;
+  background-size:cover;
+  padding:700px 100px 700px;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  margin:-250px;
+}
+
+.big-soup-pic {
+  background-image: url('../images/soup.jpg');
+  height:100px;
   background-size:cover;
   padding:700px 100px 700px;
   color: white;
