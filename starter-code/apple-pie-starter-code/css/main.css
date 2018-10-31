@@ -1,0 +1,97 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+header {
+  background-image:	url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  margin: 5%;
+}
+
+body {
+  font-size:10px;
+  counter-reset: cooking-counter;
+}
+
+h1 {
+  font-size: 9em; 
+  text-align: center;
+  color: white;
+  font-weight:300;
+  padding-top: 290px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+.container {
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 2.4em;
+}
+
+.container .text {
+  text-align: center;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 70%;
+}
+
+.container1 {
+  margin-top: 100px;
+  height: 450px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 1.9em; 
+}
+
+ul {
+  height: 400px;
+  text-align: left;
+  padding-left: 260px;
+  font-size: 1.2em;
+}
+
+ul li  {
+  list-style-type: none;
+  text-align: left;
+}
+ul li:before{content: "- "}
+
+.container2 {
+  margin-top: 200px;
+  height: 500px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 1.9em;
+  width: 80%;
+}
+
+ol {
+  height: 400px;
+  text-align: left;
+  padding-left: 260px;
+  font-size: 1.2em;
+}
+
+ol li  {
+  list-style-type: none;
+  text-align: left;
+}
+ol li:before {
+  counter-increment: cooking-counter;
+  content: counter(cooking-counter) ") "
