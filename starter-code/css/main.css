@@ -1,0 +1,98 @@
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+  max-width:90%;
+  align-content: center;
+  margin: auto;
+
+}
+
+#img-apple {
+  background-image: url(../apple-pie-starter-code/images/apple-pie.jpg);
+  
+}
+
+#img-soup {
+  background-image: url(../french-onion-soup-starter-code/images/soup.jpg);
+}
+
+header {
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+header h1 {
+  color: white;
+  font-size: 5em;
+  line-height: 500px;
+  text-align: center;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.intro p{
+  margin: 40px auto 20px auto;
+  font-size: 1.3em;
+}
+
+.icons {
+  margin: 40px auto 40px auto;
+  display: block;
+}
+
+hr {
+  height: 1px;
+  background-color: grey;
+  margin-bottom: 50px;
+}
+
+
+li {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  list-style-position: inside;
+  list-style-type:none;
+} 
+  
+.ingredients ul li::before {
+  content: "- ";
+}
+
+.directions ol {
+  counter-reset: num-li;
+}
+
+.directions ol li::before {
+  content: counter(num-li) ") ";
+  counter-increment: num-li 1;
+  
+}
+
+.directions li:last-child {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
