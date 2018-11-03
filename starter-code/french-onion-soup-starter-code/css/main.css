@@ -36,13 +36,11 @@ body {
   font-size: 70px;
   color: white;
 }
-.recipe-Ingredients{
 
 
-}
-.info-img {
-  width: 50%; /* Full width */
-  height: 50%; /* Full height */
+.info-img{
+  width: 50%; 
+  height: 50%; 
 }
 
 hr {
