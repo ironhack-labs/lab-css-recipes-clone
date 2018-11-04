@@ -38,6 +38,13 @@ body {
  }
 
 
+.info-img {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+}
+
 hr {
   display: block;
   unicode-bidi: isolate;

@@ -38,10 +38,11 @@ body {
 }
 
 
-.info-img{
-  width: 50%; 
+.info-img {
+  width: 50%;
   height: 50%;
-  
+  margin-top: 30px;
+  margin-left: 25%;
 }
 
 hr {
@@ -55,6 +56,15 @@ hr {
   border-style: inset;
   border-width: 2px;
   margin-bottom: 23px;
+}
+
+.recipe-Ingredients {
+  margin-top: 30px;
+}
+
+
+.recipe-directions {
+  margin-top: 30px;
 }
 
 .list-ingredients{
