@@ -1,9 +1,71 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+body hr {
+  width: 80%;
+  color: gray;
+}
+
+.first-content {
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-image: url(../images/soup.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.first-content h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+}
+
+.second-content {
+  text-align: center;
+  color: #000;
+  padding: 50px 50px 50px 130px;
+  font-size: 20px;
+}
+
+.third-content {
+  /* text-align: center; */
+  color: #000;
+  padding: 50px 50px 50px 130px;
+  font-size: 20px;
+}
+
+.third-content-image {
+  text-align: center;
+}
+
+.fourth-content {
+  /* text-align: center; */
+  color: #000;
+  padding: 50px 50px 50px 130px;
+  font-size: 20px;
 }
