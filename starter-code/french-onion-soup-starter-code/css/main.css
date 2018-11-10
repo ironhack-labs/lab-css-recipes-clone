@@ -52,7 +52,7 @@ ul {
 }
 
 ul > li:before {
-  content: "–";
+  content: "-";
   position: absolute;
   margin-left: -0.5em; 
 }
@@ -69,6 +69,10 @@ ol > li:before {
   content: counter(directions) ")";
   position: absolute;
   margin-left: -1.0em; 
+}
+
+footer{
+  margin: 100px;
 }
 
 .section {
