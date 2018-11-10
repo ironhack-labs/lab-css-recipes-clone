@@ -1,0 +1,73 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.full-div {
+  border-width:2px;
+  border-style:groove;
+  padding: 30px;  
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+.bg-image {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  font-weight: lighter;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:650px;
+  width: 30cm;
+  position: relative;
+  margin: 0 auto;
+  }
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  font-family: Calibri;
+  line-height: 8em;
+  margin: 0 auto;
+}
+
+.text {
+  letter-spacing: normal;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto;
+  font-family: Calibri;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.ingredients-div {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  justify-content:center;
+  font-family: Calibri;
+  margin-left: 105px;
+  margin-right: 105px;
+}
+
+.directions-div {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: center;
+  font-family: Calibri;
+  margin-left: 105px;
+  margin-right: 105px;
+}
