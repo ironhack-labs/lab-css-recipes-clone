@@ -1,9 +1,78 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600');
+
+* {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
+
+header {
+  padding: 310px 0;
+  background-image: url("../images/soup.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+body {
+  font-size: 18px;
+  counter-reset: directions;
+}
+
+hr {
+  margin: 75px 100px 50px 100px; 
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+}
+
+h1 {
+  margin: 100px 100px 0px 100px;
+  padding: 25 25 0 0;
+  text-align: left;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  margin: 100px 100px 50px 100px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0px 125px;
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -0.5em; 
+}
+
+ol li {
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0px 175px;
+  list-style-type: none;
+  counter-increment: directions;
+}
+
+ol > li:before {
+  content: counter(directions) ")";
+  position: absolute;
+  margin-left: -1.0em; 
+}
+
+.section {
+  margin: 50px 0px 0px 0px;
+  text-align: center;
+}
+
