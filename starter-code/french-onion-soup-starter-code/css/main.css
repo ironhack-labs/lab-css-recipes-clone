@@ -5,5 +5,60 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.top-image {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: white;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+.main-title {
+  margin: 0;
+  padding-top: 300px;
+  font-size: 8em;
+}
+
+.img-formatting {
+  width: 40%;
+}
+
+.content-formatting {
+  margin: 30px 90px;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+/* CHANGES BULLET POINTS TO DASHES */
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+/* CHANGES "." TO ")" */
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
