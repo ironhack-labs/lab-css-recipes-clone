@@ -1,66 +1,68 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	line-height: 1.5em;
 }
-
 
 body {
-    background: white;
+	background: white;
 }
 
-h1{
-    background-image: url('../images/apple-pie.jpg');
-    height: 50vh;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    padding-top: 400px;
-    font-size: 100px;
+h1 {
+	background-image: url('../images/apple-pie.jpg');
+	height: 50vh;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding-top: 400px;
+	font-size: 100px;
 }
 h2 {
-    padding-left: 25px;
-  
+	padding-left: 25px;
 }
 
 .hr {
-    margin-top: 40px;
-    width: 100%;
+	margin: 40px 0px;
+	width: 99%;
+	height: 0px;
+	color: darkgray;
+	border: 1px solid darkgray;
 }
 
 .section1 {
-    text-align: center;
-    padding: 50px 0 50px 350px;
-    width: 50vw;
+	text-align: center;
+	padding: 50px 0 50px 350px;
+	width: 50vw;
 }
 
 .section1-img {
-    padding: 60px 0 0 0;
-    
-    
+	padding: 60px 0px 6px 68px;
 }
 
-section{
-    
-    font-size: 21px;
-    margin: 65px 0 0px 50px;
-    padding-left: 20px;
-   
-   }
+.div-padding {
+	padding: 0px 310px;
+}
+
+section {
+	font-size: 21px;
+	margin: 65px 0 0px 50px;
+	padding-left: 20px;
+}
 
 .section2-img {
-    padding: 50px 0 50px 350px;
+	padding: 60px 0px 6px 68px;
 }
 
 .section3 {
-padding: 0 85px 20px 0;
+	padding: 0 85px 20px 0;
+	line-height: 1.5em;
 }
 
 .ing-list > li {
-list-style-type: none;
+	list-style-type: none;
 }
 
 .ing-list > li:before {
-    content: '-'
+	content: '-';
 }
