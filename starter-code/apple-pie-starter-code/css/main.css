@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 600px;
+    margin: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    padding: 280px 0;
+    font-size: 5em;
+}
+
+article {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img {
+    margin-left: 20%;
+}
+
+.border {
+    border-top: 2px solid gray;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+div {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.3em;
+}
