@@ -8,7 +8,7 @@ body{
 header{
   background-image: url('../images/apple-pie.jpg');
   background-size: cover;
-  height: 600px;
+  height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
