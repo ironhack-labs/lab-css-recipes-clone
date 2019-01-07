@@ -1,0 +1,53 @@
+.imgPrincipal{
+  display: block;
+  margin: auto;
+  position: relative;
+  padding: 5px 50px;
+  height: 600px;
+  width: 1200px;
+}
+
+
+.textoImagen{
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: white; 
+  font-size: 100px;
+  text-align: center;
+}
+
+p {
+text-align: center;
+padding: 30px 100px;
+margin: 30px 200px;
+font-size: 25px;
+
+}
+
+.img2 {
+  display: block;
+  margin: auto;
+  position: relative;
+  padding: 5px 50px;
+  height: 100px;
+  width: 400px;
+}
+
+hr{
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 800px;
+}
+
+.ingredients {
+padding: 20px 10px 10px 300px;
+font-size: 18px;
+}
+
+.directions {
+  padding: 20px 200px 10px 300px;
+  font-size: 18px; 
+  }
