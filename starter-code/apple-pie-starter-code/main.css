@@ -1,0 +1,63 @@
+body {
+
+    font-family: "Open Sans", "OpenSans";
+}
+
+
+.container {
+    background-image: url("/Users/CarlosIM/IronHack/day1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    height: 600px;
+    background-size: cover;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+#title {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.texto {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.grandmother {
+    font-size: 28px;
+    padding-top: 40px;
+    text-align: justify;
+    
+
+}
+
+.img-time {
+
+    height: 60px;
+    
+    
+}
+
+.text-left {
+     text-align: left;
+
+}
+
+.text-left li {
+    font-size: 22px;
+
+}
+
+.img-ready {
+    margin: auto;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.title-margin {
+    margin-top: 50px;
+}
