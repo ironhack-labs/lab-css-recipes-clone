@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+header{
+  background: url(../images/apple-pie.jpg) 0 0 no-repeat;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  margin: 0 3%;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+h2{
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 3% 0 1.5% 25%;
+}
+
+p{
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 25%;
+  line-height: 1.25em;
+}
+
+  h3{
+    font-size: 1.17em;
+  }
+
+.recipe-image {
+  height: 70px;
+  margin: 3% 0 2%;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hr {
+  margin: 0 25%;
+}
+
+
+.lists{
+  list-style-type: none;
+  margin: 0 25% 0 26%;
+  font-size: 1.25em;
+  font-weight: lighter;
+  line-height: 1.25em;
+}
+
+.cooking-image {
+  height: 90px;
+  margin: 3% 0 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#final-section{
+  margin-bottom: 5%;
+}
