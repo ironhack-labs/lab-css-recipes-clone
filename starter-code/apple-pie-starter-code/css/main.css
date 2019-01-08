@@ -1,0 +1,23 @@
+body{
+    font-size: 125%;
+}
+header{
+    background: url("../images/apple-pie.jpg");
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20%;
+    font-size: 250%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div, hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+img{
+    width: 350px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
