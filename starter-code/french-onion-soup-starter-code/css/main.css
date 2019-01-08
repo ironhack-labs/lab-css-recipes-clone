@@ -1,9 +1,61 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5em;
+  font-size: 16px
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+header {
+  background-image: url(../images/soup.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative
+}
+section {
+  position: relative;
+  width: 80%;
+  margin: 0 10%
+}
+
+h1 {
+  position: relative;
+  top: 40%;
+  color: white;
+  font-size: 3rem
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 1.4rem
+}
+h1, p {
+  text-align: center
+}
+li {
+  list-style-type: none;
+  margin: .5rem auto;
+  font-size: 1.4rem
+}
+ul {
+  padding: 2rem
+}
+hr {
+  margin: 4rem 0
+}
+.recipe-info {
+  background-image: url(../images/recipe-info.png);
+  background-repeat: no-repeat
+}
+.cooking-info {
+  background-image: url(../images/cooking-info.png);
+  background-repeat: no-repeat
+}
+.cooking-info, .recipe-info {
+  width: 40%;
+  margin: 0 auto;
+  height: 6rem
 }
