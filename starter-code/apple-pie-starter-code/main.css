@@ -1,0 +1,16 @@
+.jeder{
+    background-image: url(images/apple-pie.jpg);
+    background-size: cover;
+        
+}
+
+img{
+    display: block;
+    margin:auto;
+}
+h1{
+    color: white;
+    margin: auto;
+    padding:300px 0;
+    padding-left:375px;
+}
