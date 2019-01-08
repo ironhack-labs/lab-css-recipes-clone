@@ -1,3 +1,5 @@
+/* Author: Delphine */
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +8,65 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header {
+  background-image: url("../images/soup.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 300;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.img-center {
+  display: block;
+  margin: 30px auto 50px auto;
+  width: 40%; 
+
+}
+
+.intro p {
+  width: 100%;
+  text-align: left;
+  padding-top: 5%;
+  font-size: 22px;
+}
+
+h2{
+  font-weight: 600;
+}
+
+.ingredients ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ingredients img{
+  margin-bottom: 50px;
+}
+
+
+.directions ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.directions li {
+  line-height: 30px;
+}
+
+.directions li:last-child {
+  margin-bottom: 50px;
 }
