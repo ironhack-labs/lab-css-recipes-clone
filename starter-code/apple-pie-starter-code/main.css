@@ -1,0 +1,62 @@
+ body{
+     font-family:"Open Sans";
+ }
+ 
+ header{
+    background-image: url(images/apple-pie.jpg);
+    background-size: cover; 
+    height: 500px;
+    text-align: center;
+    
+}
+
+
+h1{
+color:white;
+position:absolute;
+top: 175px;
+left: 500px;
+font-size: 3em;
+
+}
+p{
+  margin:0 50px;
+  padding:20px 0;
+}
+/*  .guion{
+    list-style:none;
+    background-color: aqua;
+    li:after{content: "-"}
+
+    no entiendo porque no me hace caso este class!,
+    la intención es quitar los puntos y añadir un guión)
+} */
+
+hr{
+    margin: 0 100px;
+}
+
+
+img{
+
+    display: block;
+    margin: auto;
+    height: 75px;
+    padding-top:20px;
+
+}
+
+article{
+    padding: 20px 0;
+    width: 85%;
+    margin: 0 50px;
+}
+
+ /* no le dí el posicionamiento
+ ni el tamaño a por ejemplo las img, 
+ porque no me hacía caso como class y usé la etiqueta */
+
+ .secondImg{
+     height: 80px;
+     padding:0 0 50px 0;
+ }
