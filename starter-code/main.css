@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  border: 2px solid gray;
+  margin: 10px 150px;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  padding: 200px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+section {
+  text-align: left;
+  margin: 20px auto;
+  width: 600px;
+}
+
+img {
+  position: relative;
+  padding: 0 0 0 150px;
+  margin: 10px auto;
+  height: 60px;
+  width: 300px;
+}
+
+ul{
+  list-style: square;
+}
+
+.background1 {
+  background-image: url("apple-pie-starter-code/images/apple-pie.jpg");
+  height: 500px;
+  width: 800px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.background2 {
+  background-image: url("french-onion-soup-starter-code/images/soup.jpg");
+  height: 500px;
+  width: 800px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin: 100px auto 0 auto;
+}
