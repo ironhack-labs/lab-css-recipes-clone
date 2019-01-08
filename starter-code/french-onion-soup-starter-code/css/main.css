@@ -1,9 +1,40 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+body,
+html,
+main {
   margin: 0;
+}
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.border {
+  margin: 50px;
+  border-bottom: 2px solid grey;
+}
+.picto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+.lastBlock {
+  margin: 50px;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }

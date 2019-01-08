@@ -1,0 +1,29 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  background-image: url("file:../images/apple-pie.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  line-height: 800px;
+  margin: 10px;
+}
+
+.intro {
+  margin: 50px;
+  border-bottom: 2px solid grey;
+}
+
+.img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
