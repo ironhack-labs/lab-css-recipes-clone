@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+/* General adjustments */
+
+body {
+    font-family: 'Roboto', sans-serif;	  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 2px solid #9c9c9c;;
+}
+
+img { 
+    display: block;
+    margin: 30px auto;
+}
+
+/* Header Section */
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+    color: white;
+}
+
+/* List Configuration */
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li:before {
+    content: '- ';
+}
+
+p, li {
+    line-height: 1.8rem;
+  }
+
+ol li {
+    counter-increment: my-counter;
+  }
+
+ol li::before {
+    content: counter(my-counter) ") ";
+}
+
+
+/* Sections */
+
+#container {
+    margin: 85px 200px 60px 200px;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+#description p {
+    font-size: 25px;
+    text-align:center;
+    line-height: 2rem;
+}
