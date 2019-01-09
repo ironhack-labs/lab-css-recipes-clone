@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+}
+
+.applepie
+{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+h1
+{
+    font-size: 50px;
+    color: white;
+    padding-top: 300px;
+    text-align: center; 
+}
+
+.infos
+{
+    margin: 0 37.5%;
+    width: 25%;
+}
+
+hr
+{
+    width: 60%;
+    margin: auto;
+}
+
+p
+{
+    text-align: justify;
+    width: 60%;
+    margin: 4% auto 2% auto;
+    font-size: 24px;
+}
+
+ol, ul
+{
+    width: 60%;
+    margin: 1% auto;
+}
+
+h2
+{
+    width: 60%;
+    margin: 2% auto;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul > li::before 
+{
+    content: "– ";
+}
