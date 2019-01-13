@@ -1,0 +1,89 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, body, html, main {
+    margin: 0;
+  }
+
+.picture {
+    color: white;
+    text-align: center;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.picture h1 {
+    font-weight: 100;
+    font-size: 60px
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 70px
+}
+
+.recipe p{
+    font-weight: 100;
+    font-size: 17px
+}
+
+.recipe img {
+    width: 45%
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.images img{
+    margin: 10px
+}
+
+.images hr {
+    margin: 0 0 15px 0;
+    border: 0;
+    height: 1.5px;
+    width: 100%;
+    background-color: grey
+}
+
+.recipe h2{
+    width: 100%;
+    text-align: left;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.recipe ul{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+    width: 98%
+}
+
+.recipe ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -10px;
+}
+
+.recipe ol {
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
+    list-style-position: inside;
+}
