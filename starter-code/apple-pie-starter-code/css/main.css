@@ -1,0 +1,36 @@
+.image-pie{
+    background-image: url(../images/apple-pie.jpg);
+    background-size:cover;
+    height: 650px;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size: 100px;
+    padding: 350px;
+}
+.recipe-info{
+    padding: 0 400px 0;
+}
+.cook-info{
+    padding: 0 400px 0;
+}
+hr{
+    margin: 20px auto 30px;
+    width: 60%;
+    border: 1.5px solid black;
+}
+.info-general{
+    text-align: justify;
+    padding: 0 200px 0;
+    font-size: 1.5em;
+}
+h3{
+    padding: 0 300px 0;
+}
+.steps{
+    padding: 0 250px 0;
+}
+.instructions{
+    padding: 0 250px 0;    
+}
