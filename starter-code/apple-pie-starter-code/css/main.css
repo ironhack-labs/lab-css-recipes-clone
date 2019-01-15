@@ -34,3 +34,23 @@ header {
 .bottomspacing {
   padding-bottom: 100px;
 }
+
+.bullets {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.bullets li { 
+  padding-left: 16px; 
+}
+
+.bullets li:before {
+  content: "-"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: black; /* Or a color you prefer */
+}
+
+#decimal {
+  list-style: decimal;
+}
