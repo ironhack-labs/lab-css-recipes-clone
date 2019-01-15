@@ -7,3 +7,29 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+header{
+  background-image: url("../images/soup.jpg");
+  color:white;
+ background-size: cover;
+ width: 100%;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#magen{
+  text-align: center;
+  height:150px;
+
+  }
+  #bloque{
+    height: 200px;
+    width: 600px
+    text-align:"center"
+  }
+  html{
+    font-size:30px
+  }
