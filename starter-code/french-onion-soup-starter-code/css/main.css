@@ -1,9 +1,111 @@
-/*Some necessary adjustments*/
+/* general tag selectors */
 h1, body, html, main {
   margin: 0;
 }
+
+hr{
+  border: 2px solid #979797;
+}
+
+h3{
+  line-height: 3em;
+}
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  padding: 0;
+}
+
+/* Class selectors */
+/* style for text in general */
+.text{
+  color: #0d0d0d;
+  line-height: 1.5em;
+}
+
+/* styling for image */
+.photo-onion{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  text-align: center;
+  /* For centering */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styling for h1 in image */
+.photo-onion h1{
+  padding: 200px 0;
+  color: white;
+  vertical-align: middle;
+  font-size: 5em;
+}
+
+/* container to size sections */
+.container{
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* centering an sizing of recipe info image */
+.rec-onion{
+  width: 30%;
+  /* For centering */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* centering an sizing of cooking info image */
+.cook-onion{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* styles for unordered list, to add an hyphen - */
+.no-type{
+  list-style-type: none;
+}
+
+/* The ::before selector inserts something before the content of each selected element(s). */
+.list-it::before{
+  content: " - ";
+}
+
+.list-it{
+  /* to allow the left property to work */
+  /* relative to its container */
+  position: relative;
+  left: -1em;
+}
+
+/* styles for ordered list, to use: number) */
+ol {
+  /* counter-reset: to define a counter named "list" */
+  counter-reset: list;
+}
+
+/* selects all tags li inside tag ol */
+ol > li {
+  /* removes list style to add a custom */
+  list-style: none;
+  /* to allow the left property to work */
+  position: relative;
+  left: 1em;
+}
+
+ol > li::before {
+  /* increments counter for each element */
+  counter-increment: list;
+  /* adds content using counter named list and adding a right parenthesis*/
+  content: counter(list) ") ";
+  /* Makes the content (before) positions itself as absolute, the item li will be positioned relative to this content*/
+  position: absolute;
+  left: -1.5em;
 }
