@@ -1,9 +1,59 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+*{
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
+.onion_soup{
+  height: 300px;
+  width: 850px;
+  background-image: url('file:///C:/Users/SAMSUNG/Documents/IH/jueves/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  position: relative;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin-left: 40px;
+  font-weight: 500;
+}
+body{
+  background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+  margin-bottom: 80px;
+}
+ul{
+  list-style-type: none;
+}
+p{
+  margin-top: 50px;
+  margin-left: 125px;
+  margin-right: 125px;
+  text-align: justify;
+}
+.img1{
+  margin-top: 20px;
+  margin-left: 285px;
+  margin-right: 285px;
+  width: 350px;
+  height: 55px;
+}
+.img2{
+  margin-top: 20px;
+  margin-left: 325px;
+  margin-right: 325px;
+  width: 250px;
+  height: 60px;
+}
+h3{
+  margin-left: 120px;
+  font-weight: 550;
+}
+hr{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
