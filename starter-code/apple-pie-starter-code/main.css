@@ -1,0 +1,59 @@
+.apple{
+    background-image: url("../apple-pie-starter-code/images/apple-pie.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.appletext{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font: 'arial';
+}
+
+.onion{
+    background-image: url("./imagesonion/soup.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.oniontext{
+    text-align: justify;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font: 'arial';
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.imagecoking{
+    text-align: center;
+    font-size: 30px;
+    text-align: ;
+    margin-top: 60px;
+}
+
+.ingredientes{
+    text-align: left;
+    font-size: 30px;
+    text-align: ;
+    margin-top: 60px;
+}
+
+/* si es clase .    si es id #*/
