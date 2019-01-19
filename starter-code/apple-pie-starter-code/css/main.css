@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.mainbackground {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.maintitle {
+  color: white;
+  padding: 20% 50% 0 39%;
+  width: 25%;
+  text-align: left;
+  font-weight: 450;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.sectiontwo {
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid grey;
+}
+
+.mainparagraph {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 8%;
+  padding-left: 3%;
+  letter-spacing: 2px;
+}
+
+.recipe-image {
+  margin-left: 33%;
+}
+
+.section-three {
+  height: 350px;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid grey;
+}
+
+.ingredients-title {
+  font-size: 25px;
+  margin-left: 3%;
+  font-weight: 540;
+}
+
+.ingredients-list {
+  margin-left: 0%;
+  list-style-type: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+}
+
+.cooking-img {
+  margin-left: 36.5%;
+}
+
+.section-four {
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.directions-title {
+  font-size: 25px;
+  margin-left: 3%;
+  font-weight: 540;
+}
+
+.directions-list {
+  margin-left: 0%;
+  list-style-type: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+}
