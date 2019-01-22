@@ -1,0 +1,50 @@
+body{
+    background-color:black;
+    margin: auto; 
+}
+#content{
+    background-color: white;
+    margin: 0px 250px 0px 250px;
+    font-family: sans-serif;
+     
+    
+}
+h1{
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    height: 500px;
+    margin-top: 0px;
+         
+}
+h3{
+    padding-left: 50px;
+}
+hr{
+    Width: 600px;
+}
+.grandmasPie{
+    text-align: center;
+    margin:  auto 70px;
+}
+.recipeInfoImg{
+    margin: auto;
+    text-align: center;
+}
+.timer1{
+    height: 40px;
+    width: 300px;
+}
+.timer2{
+    height: 50px;
+    width: 300px;
+}
+.nineIngridients{
+    list-style-type: none;
+}
+.nineIngridients li::before{
+    content: before;
+}
