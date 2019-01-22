@@ -47,6 +47,7 @@ hr {
 
 ul {
     list-style: none;
+    padding-left: 30px;
 }
 
 .recipe-info {
