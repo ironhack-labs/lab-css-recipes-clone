@@ -1,4 +1,7 @@
 /*Some necessary adjustments*/
+body{
+  counter-reset: paren;
+}
 h1, body, html, main {
   margin: 0;
 }
@@ -7,3 +10,105 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li:before {
+  content: "- ";
+  
+}
+
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+ol.parenthesis {
+  list-style-type: none;
+}
+
+ol.parenthesis > li:before {
+  counter-increment: paren;
+  content: counter(paren) ") ";
+}
+
+.parenthesis{
+  padding-left: 5px;
+}
+
+.recipeContent{
+  padding: 100px;
+}
+
+.recipeTitle{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.soupPicture{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 150px 0px;
+  
+  
+}
+.soupPrep{
+  background-image: url(../images/recipe-info.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 0 50px 50px 50px;
+}
+.soupTimer{
+  background-image: url(../images/cooking-info.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 0 50px 50px 50px;
+  margin-top: 20px;
+}
+
+.piePicture{
+  background-image: url(../../apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 150px 0px;
+  
+  
+}
+.piePrep{
+  background-image: url(../../apple-pie-starter-code/images/recipe-info.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 0 50px 50px 50px;
+}
+.pieTimer{
+  background-image: url(../../apple-pie-starter-code/images/cooking-info.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 0 50px 50px 50px;
+  margin-top: 20px;
+}
+
+
+
+
