@@ -2,8 +2,77 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  margin-top: 0;
+}
+
+.dash {
+  text-align: left;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+ul.dash > li:before {
+  content: "- ";
+}
+
+
+h1 {
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 64px;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  text-align: left;
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.recipe-description {
+  margin: auto auto;
+  width: 40%;
+  height: 40%;
+}
+
+
+li {
+  text-align: left;
+}
+
+.container-2 {
+  position: relative;
+  text-align: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ol {
+  padding-left: 20px;
 }
