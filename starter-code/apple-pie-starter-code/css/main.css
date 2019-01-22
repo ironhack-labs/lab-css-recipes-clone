@@ -21,7 +21,7 @@ body {
 }
 .apple{
   display:block;
-  margin-left: 250px;
+  margin-left: 280px;
   margin-top: 300px; 
 
   color: white;
@@ -39,7 +39,7 @@ body {
   margin-right: auto;
   width: 50%;
   height: 60px;
-  width: 400px;
+  width: 350px;
   
 }
 .recipe-info{
@@ -62,8 +62,16 @@ body {
  font-size: 18px;
  text-align: justify
 }
+.column2 li{
+  list-style-type: none;
+}
+.column2 li::before{
+  content: '- '
+}
 
-
+ol li::before{
+  content: ') '
+}
 
 
 
