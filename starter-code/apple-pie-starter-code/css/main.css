@@ -1,0 +1,65 @@
+
+.section-three{
+  margin: 15px 15vw;
+}
+.section-two-ul{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.section-two{
+  margin: auto 15vw;
+}
+.section-one{
+  align-items: center;
+  text-align: center;
+  margin: 50px 20%;
+}
+.background-container{
+  background: url('/apple-pie-starter-code/images/apple-pie.jpg');
+  background-position: center;
+  margin:  8vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+.section{
+
+}
+.img-container{
+
+}
+#cooking-info{
+  width: auto;
+  height: 55px;
+  display: block;
+  margin: auto;
+}
+#recipe-info{
+  width: auto;
+  height: 55px;
+  margin-top: 20px
+}
+li{
+  list-style: none;
+}
+hr{
+  width: 70%;
+  text-align:center;
+   margin: 0 auto;
+
+}
+h1{
+  color: White;
+  font-size: 48px;
+  font-weight: 100px;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 32%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
