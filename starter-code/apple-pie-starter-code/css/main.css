@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+.head-container {
+  position: relative;
+  width: 100%;
+  height: 90rem;
+}
+
+.head-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.head-position {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%)
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 8rem;
+  font-weight: 100;
+}
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+}
+
+.intro-text-container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 9rem;
+}
+
+.intro-text-container p{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 100;
+}
+
+.info-img {
+  display: block;
+  margin: 2rem auto 0;
+}
+
+.ingredients {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+}
+
+.ingredients-text-container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 9rem;
+  border-top: solid 3.8px rgba(0, 0, 0, .3);
+  border-bottom: solid 3.8px rgba(0, 0, 0, .3);
+}
+
+h3 {
+  display: block;
+  margin-top: 2.5rem;
+  font-size: 2.8rem;
+  font-weight: 100;
+}
+
+.ingredients-text-container ul{
+  margin: 2rem;
+}
+.ingredients-text-container li {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: 3rem;
+}
+
+.directions {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+}
+
+.directions-text-container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 9rem;
+}
+
+.directions-text-container ol {
+  margin: 2rem;
+}
+
+.directions-text-container li {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: 3rem;
+}
