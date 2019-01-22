@@ -7,3 +7,32 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  font-family:'Times New Roman', Times, serif;
+  width: 900px;
+  margin-left: 210px; 
+  border: 2px solid rgb(187, 182, 182);
+  border-top: white;
+  border-bottom: white;
+  padding: 20px;
+  color: rgb(116, 113, 113)
+}
+.soup-pic {
+  background-image:url('../images/soup.jpg');
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 750px;
+  width: 850px;
+  background-size: cover;
+}
+h1{
+ 
+  display:block;
+  margin-left: 250px;
+  margin-top: 300px; 
+
+  color: white;
+  font-size: 50px;
+}
