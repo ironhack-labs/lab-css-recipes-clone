@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 600px;
+  background-size: 100%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  line-height: center;
+  margin-bottom: 70px;
+}
+.headerText {
+  padding-top: 250px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.h1 {
+  font-weight: 50;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.image{
+  display: block;
+  margin: 0 auto;
+}
