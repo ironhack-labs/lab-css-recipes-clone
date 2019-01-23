@@ -1,3 +1,21 @@
+/* Resetea todos los estilos por defecto del navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
 .main-title {
   color: blue;
+  text-align: center;
+  vertical-align: center;
+}
+
+.apple-pie-photo{
+  width: 100%;
+  /*height: 300px;*/
+}
+
+.info-photo{
+  width: 50%;
 }
