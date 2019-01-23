@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SectionHeader{
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.MainTitle{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 190px;
+}
+.MainContainer{
+  width: 900px;
+  margin: 50px auto 150px;
+}
