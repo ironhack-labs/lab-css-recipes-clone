@@ -59,10 +59,10 @@ li{
   height: 50px;
   width: 270px;
 }
-.nineIngridients{
+.elevenIngridients{
   list-style-type: none;
 }
-.nineIngridients li::before{
+.elevenIngridients li::before{
   content: "- ";
 }
 
