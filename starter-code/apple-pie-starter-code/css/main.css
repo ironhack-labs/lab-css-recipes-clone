@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), 
+         local('Roboto-Regular'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+         format('woff');
+  }
+
+body, html{
+    font-family: Roboto;
+    height: 100%;
+}
+
+.container {
+    background-image: url("../images/apple-pie.jpg");
+    color: white;
+    height: 600px;
+    background-size: cover;
+}
+
+.caption {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+.main {
+    margin: auto;
+    width: 570px;
+}
