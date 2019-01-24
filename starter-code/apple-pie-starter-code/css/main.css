@@ -17,7 +17,52 @@
   line-height: 450px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .description {
+  margin: 50px 10%;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.list-ingredients {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.list-ingredients li::before {
+  content: "- ";
+}
+
+.list-directions {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.5;
+  counter-reset: item;
+}
+
+.list-directions li::before {
+  content: counter(item)") ";
+  counter-increment: item;
+}
+
+.picture {
+  display: block;
+  margin: 10px auto;
+}
+
+#ingredients {
+  margin: 0 10%;
+}
+
+#directions {
+  margin: 0 10%;
+}
+
+.separation-line {
+  margin: 0 10%;
 }
