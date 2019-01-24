@@ -1,0 +1,23 @@
+.apple-bowl{
+  background-image:url(https://i.ibb.co/d5y59k5/apple-pie.jpg);
+  background-repeat: no-repeat;
+  height:100%;
+  font-size:30px;
+  color:white;
+  text-align: center;
+  line-height:500px;
+}
+.grandfather {
+  font-size:26px;
+  font-type: arial;
+  text-align:center;
+}
+.calories{
+  display:block;
+  margin-left:650px
+}
+
+.ingredient{
+  font-size:26px;
+    text-align:left;
+}
