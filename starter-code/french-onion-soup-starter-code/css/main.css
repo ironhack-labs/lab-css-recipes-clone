@@ -1,9 +1,95 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+
+*{
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
+
 html {
+  width: 100%;
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
 }
+
+.container {
+  width: 100%;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+#main-section {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HERO SECTON */
+#hero-section {
+  background: url('../images/soup.jpg');
+  position: right;
+  height: 500px;
+  text-align: center;
+  background-position: left;  
+  background-size: cover;
+}
+
+#hero-section h1 {
+  color: white;
+  padding-top: 200px;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+
+/* RECIPE */ 
+.recipe-info {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.recipe-info p {
+  text-align: left;
+}
+
+.recipe-info img {
+  margin-top: 40px;
+}
+
+/* INGREDIENTS */ 
+
+#ingredients {
+  text-align: center;
+}
+#ingredients-list {
+  margin: 60px 0;
+  text-align: left;
+}
+
+#ingredients-list h2 {
+  margin-bottom: 20px;
+}
+
+#ingredients-list p {
+  line-height: 28px;
+}
+
+/* DIRECTION */
+
+#direction {
+  margin-top: 60px;
+}
+
+#direction h2 {
+  margin-bottom: 20px;
+}
+
+#direction p {
+  line-height: 23px;
+}
+
