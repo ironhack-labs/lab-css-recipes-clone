@@ -35,3 +35,11 @@ body {
 .icons {
  text-align: center;
 }
+.separadorlinea {
+    height: 1px;
+    background-color: #868686;
+    margin: 2% 9%;
+}
+.textingredients {
+  
+}
