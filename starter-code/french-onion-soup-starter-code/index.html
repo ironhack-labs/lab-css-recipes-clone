@@ -5,43 +5,63 @@
   <!-- Google fonts gives us access to the Open Sans Font -->
   <!-- Google fonts is also awesome! Make sure to check it out -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
-  <link rel="stylesheet" href="../apple-pie-starter-code/css/main.css">
+  <!--Si queremos unificar los estilos con la receta apple pie podemos añadir su main.css y tan solo modificar la imagen de cabecera en el-->
+  <!--<link rel="stylesheet" href="../apple-pie-starter-code/css/main.css">-->
+  <!--Si usamos el css propio de esta receta-->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="SectionHeader">
-        <h1 class="MainTitle">French Onion Soup</h1>
-      </header>
-  
-
-  We have been trying French onion soup in restaurants for years and my family
-and friends agree none can compare to my recipe for taste and simplicity of
-preparation.
-
-Ingredients
-1/2 cup unsalted butter
-2 tablespoons olive oil
-4 cups sliced onions
-4 (10.5 ounce) cans beef broth
-2 tablespoons dry sherry (optional)
-1 teaspoon dried thyme
-salt and pepper to taste
-4 slices French bread
-4 slices provolone cheese
-2 slices Swiss cheese, diced
-1/4 cup grated Parmesan cheese
-
-Directions
-Melt butter with olive oil in an 8 quart stock pot on medium heat. Add onions and
-continually stir until tender and translucent. Do not brown the onions.
-
-Add beef broth, sherry and thyme. Season with salt and pepper, and simmer for 30
-minutes.
-
-Heat the oven broiler.
-
-Ladle soup into oven safe serving bowls and place one slice of bread on top of each
-(bread may be broken into pieces if you prefer). Layer each slice of bread with a slice of
-provolone, 1/2 slice diced Swiss and 1 tablespoon Parmesan cheese. Place bowls on
-cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.
+  <header class="SectionHeader OnionSoup">
+    <h1 class="MainTitle">French Onion Soup</h1>
+  </header>
+  <section class="MainContainer">
+    <div class="FirstSection">
+      <div class="FirstSection__text">
+        We have been trying French onion soup in restaurants for years and my family
+        and friends agree none can compare to my recipe for taste and simplicity of
+        preparation.
+      </div>
+      <img src="images/recipe-info.png" class="FirstSection__img" alt="Recipe info">
+    </div>
+    <div class="RecipeList">
+      <h2 class="SecondaryTitle RecipeList__title">Ingredients</h2>
+      <ol class="RecipeList__list">
+        <li class="RecipeList__list-item ListStyleItems">1/2 cup unsalted butter</li>
+        <li class="RecipeList__list-item ListStyleItems">2 tablespoons olive oil</li>
+        <li class="RecipeList__list-item ListStyleItems">4 cups sliced onions</li>
+        <li class="RecipeList__list-item ListStyleItems">4 (10.5 ounce) cans beef broth</li>
+        <li class="RecipeList__list-item ListStyleItems">2 tablespoons dry sherry (optional)</li>
+        <li class="RecipeList__list-item ListStyleItems">1 teaspoon dried thyme</li>
+        <li class="RecipeList__list-item ListStyleItems">salt and pepper to taste</li>
+        <li class="RecipeList__list-item ListStyleItems">4 slices French bread</li>
+        <li class="RecipeList__list-item ListStyleItems">4 slices provolone cheese</li>
+        <li class="RecipeList__list-item ListStyleItems">2 slices Swiss cheese, diced</li>
+        <li class="RecipeList__list-item ListStyleItems">1/4 cup grated Parmesan cheese</li>
+      </ol>
+      <img src="images/cooking-info.png" class="RecipeList__img" alt="Recipe list">
+    </div>
+    <div class="DirectionsList">
+        <h2 class="SecondaryTitle RecipeList__title">Directions</h2>
+        <ol class="DirectionsList__list">
+          <li class="DirectionsList__item ListStyleItems">
+            Melt butter with olive oil in an 8 quart stock pot on medium heat. Add onions and
+            continually stir until tender and translucent. Do not brown the onions.
+          </li>
+          <li class="DirectionsList__item ListStyleItems">
+            Add beef broth, sherry and thyme. Season with salt and pepper, and simmer for 30
+            minutes.
+          </li>
+          <li class="DirectionsList__item ListStyleItems">
+            Heat the oven broiler.
+          </li>
+          <li class="DirectionsList__item ListStyleItems">
+            Ladle soup into oven safe serving bowls and place one slice of bread on top of each
+            (bread may be broken into pieces if you prefer). Layer each slice of bread with a slice of
+            provolone, 1/2 slice diced Swiss and 1 tablespoon Parmesan cheese. Place bowls on
+            cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.
+          </li>
+        </ol>
+    </div>
+  </section>
 </body>
 </html>

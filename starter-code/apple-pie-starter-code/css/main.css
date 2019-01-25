@@ -5,6 +5,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: rgba(49, 49, 49, 1);
+  font-size: 18px;
+  line-height:  26px;
 }
 img{
   max-width: 100%;
@@ -13,14 +15,6 @@ img{
   font-size: 25px;
   line-height: 30px;
   font-weight: 100;
-}
-.SectionHeader{
-  width: 100%;
-  height: 500px;
-  background-image: url("../images/apple-pie.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .MainTitle{
   color: #ffffff;
@@ -63,7 +57,7 @@ img{
 }
 .RecipeList__list-item{
   font-size: 17px;
-  line-height: 22px;
+  line-height: 25px;
 }
 .RecipeList__img{
   width: 400px;
@@ -76,5 +70,17 @@ img{
 }
 .DirectionsList__item{
   font-size: 17px;
-  line-height: 22px;
+  line-height: 25px;
+}
+/* Si vinculamos la misma hoja de estilos a la french onion podemos reutilizar estilos para ambas recetas*/
+.SectionHeader{
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SectionHeader.OnionSoup{
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
 }
