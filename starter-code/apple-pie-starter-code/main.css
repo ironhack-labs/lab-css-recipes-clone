@@ -1,0 +1,50 @@
+.centered-text {
+    text-align : center;
+}
+
+.centered-element {
+    width : fit-content;
+    margin : 0 auto ;
+}
+
+.white-text {
+  color : white ;
+}
+
+.main-recipe {
+    color : white ;
+    font-size : 8em;
+    padding-top : 350px;
+  }
+
+.background{
+    background-image : url(./images/apple-pie.jpg);
+    background-position : 0 0 ;
+    background-repeat : no-repeat ;
+    background-size : cover ;
+    height : 850px ;
+}
+.main-text{
+    color :  rgb(75, 75, 50);
+    font-size : 2em;
+
+}
+
+body {
+    font-family: "avenir", OpenSans, sans-serif;
+}
+
+.container {
+    width : 75%;
+    margin : 30px auto ; 
+    padding : 75px 0;
+}
+
+.line {
+    width : 75%;
+}
+
+.ul {
+
+}
+

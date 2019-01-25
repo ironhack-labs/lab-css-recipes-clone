@@ -1,0 +1,24 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Misc, OS files
+._*
+.AppleDouble
+.DS_Store
+.LSOverride
+*~
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Dependencies and package managers
+.npm
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors, extensions and external tools
+.idea
+.history
+.vs
+.vscode
