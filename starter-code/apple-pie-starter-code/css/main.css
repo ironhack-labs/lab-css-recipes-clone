@@ -1,0 +1,93 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*white margin ruining my thunder*/
+}
+
+.header-title {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    line-height: 800px;
+    margin-top: 0px;
+    
+
+        
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.header-intro {
+    font-size: 1.2em;
+    display: block;
+    margin: 5% 20%;
+    text-align: justify;
+
+}
+
+.img-container {
+width: 100%;
+text-align: center;
+}
+
+.img-info {
+ width: 30%;
+ margin-left: auto; 
+ margin-right: auto;
+ margin-top: 1%; 
+ margin-bottom: 3%;
+ padding: 0% 20%;
+
+}
+
+.line {
+    margin: 0% 20%;
+    border-bottom: solid black 1px;   
+}
+
+h2 {
+    font-size: 1.5em; 
+    margin: 3% 20%;
+}
+
+.ingredient-list {
+padding: 0;
+
+}
+
+.ingredient-item {
+    list-style-type: none;
+    padding: 3px 0;
+    font-size: 1em;
+    margin: 1% 20%;
+}
+
+.directions-list {
+    padding: 0;
+    
+    }
+.directions-item {
+    list-style-type: none;
+    padding: 3px 0;
+    font-size: 1em;
+    margin: 1% 20%;
+    
+}
+
+.footer {
+    height: 100px;
+}
