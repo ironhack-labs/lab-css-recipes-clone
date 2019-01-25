@@ -7,10 +7,11 @@
   text-align: center;
   line-height:500px;
 }
-.grandfather {
-  font-size:26px;
+.grandmother {
+  font-size:28px;
   font-type: arial;
   text-align:center;
+  word-spacing:6px;
 }
 .calories{
   display:block;
@@ -18,6 +19,39 @@
 }
 
 .ingredient{
-  font-size:26px;
+  font-size:28px;
     text-align:left;
+  margin-left:200px;
+  word-spacing:6px
 }
+.recipe{
+  list-style-type:none;
+}
+.recipe > li {
+  text-indent: -5px;
+}
+.recipe > li:before {
+  content:"-  ";
+  text-indent: -5px;
+}
+.prep-time{
+  display:block;
+  margin-left:650px
+}
+.directions{
+  font-size:28px;
+    text-align:left;
+  margin-left:200px;
+  margin-right:200px
+}
+.oven{
+  list-style-type:none;
+counter-reset: number;
+}
+.oven > li{
+  text-indent:5px;
+}
+.oven > li:before{
+  counter-increment: number;
+  content: counter(number)") ";
+}          
