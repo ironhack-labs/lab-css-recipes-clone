@@ -1,7 +1,8 @@
 body {
-  font-family: monospace;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: black 
+  background-color: black;
+  font-size: 18px
 }
 .container {
   width: 80%;
@@ -46,7 +47,7 @@ body {
 .paragrahp p {
   margin: 0;
   text-align: justify;
-  font-size: 1.6em;
+  font-size: 23px;
 
 }
 
@@ -88,7 +89,7 @@ body {
 }
 
 .textingredients {
-  font-size: 16px;
+  font-size: 23px;
   line-height: 1.2;
 }
 
@@ -112,7 +113,11 @@ body {
   font-size: 43px;
   color: white;
   position: absolute;
-  top: 60%;
+  top: 42%;
   left: 35%;
   margin-left: -200px;
+}
+
+.h1onion {
+
 }
