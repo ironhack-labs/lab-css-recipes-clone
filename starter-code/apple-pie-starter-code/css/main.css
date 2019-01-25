@@ -1,16 +1,21 @@
-* {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 24px; 
-  font-weight: lighter;
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 h1 {
+  margin-top: 0;
   font-size: 150px;
   text-align: center;
   color: white;
   padding: 400px 0;
   background-image: url('../images/apple-pie.jpg');
   background-size: 100%;
+  font-weight: 300;
 }
 h2 {
   margin-top: 60px;
