@@ -1,9 +1,104 @@
-/*Some necessary adjustments*/
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.main{
+border:1px solid rgb(197, 194, 29);
+height: 500px;   /*altura caja */
+width: 90%;    /*anchura de la caja*/
+background-image: url("../images/soup.jpg"); 
+background-size: 1198px ;  /*altura imagen */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-position: center; /*centras imagen*/
+text-align: center;
+margin-left:auto; /*centras la caja*/
+margin-right:auto;/*centras la caja*/
+/*centras texto verticalmente*/
+}
+.text1{
+border:1px solid rgb(82, 197, 29);
+margin-top:220px;
+color:white;
+font-size:60px;
+}
+
+
+.general{
+    margin-top:50px;
+    border:1px solid rgb(207, 153, 162);
+    width: 70%;    /*anchura de la caja*/
+    margin-left:auto; /*centras la caja*/
+    margin-right:auto;/*centras la caja*/
+    text-align: justify;
+}
+
+
+.box1{
+    border:1px solid rgb(159, 204, 206);
+    width: 70%;    /*anchura de la caja*/
+    margin-left:auto; /*centras la caja*/
+    margin-right:auto;/*centras la caja*/
+}
+
+.box2{
+    border:1px solid rgb(218, 221, 195);
+    width: 50%;    /*anchura de la caja*/
+    height: 100px;
+    margin-left:auto; /*centras la caja*/
+    margin-right:auto;/*centras la caja*/
+    background-image: url("../images/recipe-info.png"); 
+    background-size: 325px ;  /*altura imagen */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /*centras imagen*/
+}
+
+.box3Titulo{
+     border:1px solid rgb(178, 156, 184);
+     height: 40px;
+     margin-top: 20px;
+     font-size:20px;
+}
+
+ul.box4List{
+     border:1px solid rgb(136, 216, 179);
+     margin-left:20px;
+     text-align:left;
+     list-style-type: none;
+}
+
+ul.dash > li:before{
+    content: "-";  
+}
+
+ol.box5List{
+     border:1px solid rgb(136, 216, 179);
+     margin-left:20px;
+     text-align:left;
+     counter-reset: o-counter;
+     list-style-type: none;
+
+}
+
+ol.parentheses > li:before{
+  content: counter(o-counter) ") ";
+  counter-increment: o-counter;
+}
+
+
+.cookingInfo{
+    border:1px solid rgb(218, 221, 195);
+    width: 50%;    /*anchura de la caja*/
+    height: 100px;
+    margin-left:auto; /*centras la caja*/
+    margin-right:auto;/*centras la caja*/
+    background-image: url("../images/cooking-info.png"); 
+    background-size: 325px ;  /*altura imagen */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /*centras imagen*/
 }
