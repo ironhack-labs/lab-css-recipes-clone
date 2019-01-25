@@ -57,3 +57,19 @@ hr{
     border: 2px solid lightgray;
     width: 70%;
 }
+
+.list{
+    margin-top: 15px;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+
+.ingredients {
+    margin: 50px 150px 0 150px;
+}
+
+.content {
+    margin: 50px 150px 0 150px;
+}
