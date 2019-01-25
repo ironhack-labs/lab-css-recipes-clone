@@ -7,6 +7,7 @@
 > ***Note:*** _This can be a pair programming activity or done independently._
 
 
+
 We've only learned the very basics today with HTML and CSS, so what the hell can we really build, right? Wrong, we can build some cool stuff already, and we're going to do just that.
 
 We all have to eat (I think) so let's make some handy recipe pages for when we do. We're going to be recreating a French Onion Soup recipe, as well as an Apple Pie recipe.
