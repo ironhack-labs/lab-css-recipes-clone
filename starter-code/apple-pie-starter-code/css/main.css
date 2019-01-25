@@ -1,3 +1,48 @@
+*{
+  font-family:arial;
+}
+
 .section1{
-    color: red;
-  }
+  text-align:justify;
+  width: 100%;
+  height: 33%;
+  text-align:center;
+}
+
+.imagenfondo{
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.parrafo{
+  text-align:justify;
+  margin-top:6%;
+  padding-left:10%;
+  padding-right:10%;
+}
+.recipeInfo{
+  margin-top:5%;
+  padding-bottom:3%;
+  max-width: 100%; 
+   width: 100%;
+  height: auto;
+  
+}
+.ingredientList{
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:3%;
+}
+.direcciones{
+  padding-left:10%;
+  padding-right:10%;
+}
+.section2{
+  width: 100%;
+  height: 33%;
+}
+.section3{
+  width: 100%;
+  height: 33%;
+}
