@@ -1,0 +1,92 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0 100px;
+  
+  }
+  
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 1000px;
+  }
+   
+  header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 425px;
+  
+  }
+  
+  .tittle {
+    padding-top: 20%;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  
+  .description-one {
+    margin: 100px 50px 50px 50px;
+    font-size:20px;
+  }
+  
+  .image-two {
+    width: 60%;
+    height: 70%;
+    margin: 0 20%;
+  }
+  
+  .hline {
+    margin-top: 40px;
+    width: 100%;
+    height:2px;
+    background:grey;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  .description-two {
+    margin: 0px 50px 50px 50px;
+  }
+  
+  .dash {
+    list-style-type: none;
+    margin-left: 0%;  
+  }
+  
+  .dash li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -10px;
+  }
+  
+  .image-three {
+    width: 60%;
+    height: 70%;
+    margin: 25px 20% 0 20%;
+  }
+  
+  ol {
+    margin-top: 40px;
+    counter-reset: list; 
+  }
+  
+  ol  li {
+    list-style: none;
+    position: relative;
+  }
+  
+  ol li::before {
+    counter-increment: list;
+    content: counter(list)")";
+    position: absolute;
+    left: -1.4em;
+  }
+  
+  
+  
+  
