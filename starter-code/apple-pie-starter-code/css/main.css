@@ -1,0 +1,20 @@
+h1, body, html, main {
+    margin: 0;
+  }
+
+.apple {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.image {
+    background-image: url("../images/apple-pie.jpg");
+    height: 50vh;
+    width: 100vw;
+    padding-top: 30vh;
+}
+
+.deux {
+    margin : 20px 20px 0;
+}
