@@ -14,7 +14,7 @@ h1, body, html, main {
   header {
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     height: 425px;
   
   }
