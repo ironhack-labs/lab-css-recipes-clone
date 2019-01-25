@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +10,61 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+header {
+  background-image: url("../images/soup.jpg");
+  height: 600px;
+  background-size: 100%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  line-height: center;
+  margin-bottom: 70px;
+}
+.headerText {
+  padding-top: 250px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto 60px;
+  border-bottom: 1px solid black;
+}
+.h1 {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.image{
+  display: block;
+  margin: 0 auto 30px;
+}
+.h2{
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.ingredient-list{
+  margin-left: 40px;
+  list-style-type: none;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.ingredient-list li{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.direction-list{
+  margin-left: 40px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.direction-list li{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.container.last-container{
+  border-bottom: none;
 }
