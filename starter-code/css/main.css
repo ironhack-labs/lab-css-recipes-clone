@@ -1,0 +1,88 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+
+h1 {
+  font-size: 400%;
+  /* 400 = normal, 700 = bold (standard for h1) */
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
+  margin-top: 1.5em;
+}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+/* Change circle to - */
+/* https://stackoverflow.com/questions/3200249/html-list-style-type-dash */
+ul {
+  list-style-type: none;
+  padding-left: 2em;
+}
+
+ul li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1em;
+}
+
+/* Change 1. to 1) */
+ol {
+  counter-reset: ol-list;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: ol-list;
+  content: counters(ol-list,".") ") ";
+  margin-left: -1em;
+}
+
+
+/* Header image with recipe name */
+.intro-image {
+  position: relative;
+  /* show full image */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  /* vertical center image */
+  background-position: center; 
+  width: 100%;
+  height: 700px; 
+}
+
+.intro-image-apple {
+  background-image: url(../apple-pie-starter-code/images/apple-pie.jpg);
+}
+
+.intro-image-onion {
+  background-image: url(../french-onion-soup-starter-code/images/soup.jpg);
+}
+
+.image-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Total recipe container */
+.recipe-container {
+  margin: 60px 100px;
+}
+
+.specifications-img {
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  /* an image is an inline element */
+  display: block;
+}
