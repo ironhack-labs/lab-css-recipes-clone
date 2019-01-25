@@ -1,16 +1,22 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-}
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
 
 h1 {
+    margin-top: 0;
     background-image: url('../images/apple-pie.jpg');
     background-size: 100%;
     text-align: center;
     color: white;
     padding: 400px 0;
     font-size: 100px;
+    font-weight: 300;
 }
 
 .content {
