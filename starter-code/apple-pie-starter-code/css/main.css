@@ -1,24 +1,41 @@
 body {
   font-family: monospace;
   margin: 0;
+  background-color: black 
 }
 .container {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: white;
 }
 .img {
-  max-width: 100%;
-  max-height: 100vh;
-  background-repeat: no-repeat;
-  background-image: url("/home/santiago/Desktop/Ironhack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
-  background-size: cover;
+
+    background-image: url(/home/santiago/Desktop/Ironhack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    height: 100vh;
 }
 .pictext {
   text-align: center;
-    margin: auto;
-    padding: auto;
-    padding: 314px;
-    font-size: 43px;
-    color: white;
+  padding: auto;
+  font-size: 43px;
+  color: white;
+  position: absolute;
+  top: 22%;
+  left: 47%;
+  margin-left: -200px;
+}
+
+.recipe_container {
+  width: 74%;
+  margin: auto;
+  margin-top: 7em;
+
 }
 
 .paragrahp {
@@ -27,19 +44,75 @@ body {
 }
 
 .paragrahp p {
-  margin: 5% 9%;
+  margin: 0;
   text-align: justify;
-  font-size: 30px;
+  font-size: 1.6em;
+
 }
 
 .icons {
- text-align: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+#fotoreceta {
+  width: 60%;
+  height: auto;
+}
+
+#fotorecetasegunda {
+  width: 50%;
+  height: auto;
 }
 .separadorlinea {
     height: 1px;
     background-color: #868686;
-    margin: 2% 9%;
+    margin:0;
 }
+
+.subtitles {
+  margin-left: 0.2em;
+  margin-top: 3em;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+.olist {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
 .textingredients {
-  
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.directions {
+  padding-bottom: 7em;
+}
+
+/* ONION */
+.imgonion {
+  background-image: url(/home/santiago/Desktop/Ironhack/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  height: 620px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  background-position: center;
+  position: relative;
+}
+.pictextonion {
+  text-align: center;
+  font-size: 43px;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  margin-left: -200px;
 }
