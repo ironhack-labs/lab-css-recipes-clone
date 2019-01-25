@@ -5,8 +5,8 @@
 
   .contenedor {
       background-image: url("../images/apple-pie.jpg");
-      height: 530px;
-      width: 899px;
+      height: 519px;
+      width: 798px;
       background-repeat: no-repeat;
       position: relative;
       margin-left: 42px;
@@ -22,7 +22,7 @@
    .h1-text {
     position: absolute;
     color: white;
-    left: 296px;
+    left: 266px;
     bottom: 50%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
@@ -33,14 +33,14 @@
 
       font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
-      padding: 0px 0px 0px 130px;
+      padding: 20px 0px 0px 100px;
       color: #293553;
       font-weight: lighter;
 
   }
 
   .img-info {
-      padding: 33px 282px 20px 282px;
+      padding: 33px 282px 20px 252px;
       height: 55px;
       width: 340px;
   }
@@ -54,7 +54,7 @@
       font-family: Arial, Helvetica, sans-serif;
       font-weight: lighter;
       font-size: 20px;
-      margin-left: 128px;
+      margin-left: 98px;
       padding-bottom: 29px;
       padding-top: 42px;
   }
@@ -63,7 +63,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    margin-left: 128px;
+    margin-left: 98px;
     padding-bottom: 25px;
     list-style-type: none;
     color: #293553;
@@ -81,7 +81,7 @@ ol li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    margin-left: 128px;
+    margin-left: 98px;
     padding-bottom: 25px;
     color: #293553;
     padding-left: 9px;
