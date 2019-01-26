@@ -1,0 +1,42 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.header {
+	background-image: url("../images/apple-pie.jpg");
+	background-size: cover;
+	height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.title {
+	font-size: 3em;
+    font-weight: 400;
+	color: white;
+}
+
+section.container {
+	padding: 6em;
+	color: #333;
+}
+
+section.container article {
+	text-align: center;
+	border-bottom: 2px solid #666;
+    padding: 2.4em 0em;
+}
+
+section.container article div.description {
+	text-align: left;
+}
+
+section.container article img {
+	margin-top: 2em;
+}
+
+section.container article.ingredients ul {
+	list-style-type: none
+}
