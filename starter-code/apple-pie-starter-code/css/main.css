@@ -1,0 +1,36 @@
+.image{
+    background-image: url('../images/apple-pie.jpg');
+    height: 70vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+    font-size: 2em;
+}
+
+.bloctext{
+    text-align: center;
+    margin: 3% 15%;
+    font-size: 2em;
+}
+
+hr{
+    margin: 5% 15%;
+}
+
+p {
+    font-size: 2em;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients{
+    font-size: 2em;
+    margin-left: 5%;
+}
