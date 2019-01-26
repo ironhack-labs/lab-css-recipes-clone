@@ -7,3 +7,58 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+h1{
+  color:white;
+  text-align: center;
+  padding-top: 30%;
+  font-family: sans-serif;
+  font-size: 4.1rem;
+  font-weight: 100;
+
+}
+.intro{
+  
+  background-image:url(/home/alvaro/CURSOWEB/lab-css-recipes-clone/starter-code/french-onion-soup-starter-code/images/soup.jpg);
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  background-size: 100%;
+  width: 1000px;
+  height: 700px;
+}
+.textointro{
+  width:52%;
+  text-align: center;
+  font-size: 1.3rem;
+  margin:auto;
+  
+}
+.centrar{
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+li{
+  list-style-type: none;
+  margin-left:0.8rem;
+  font-size:1.4rem;
+}
+.h2{
+  font-weight: bold;
+}
+hr{
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  color:grey;
+}
+img{
+  width:40%;
+  display:block;
+  margin:auto;
+}
+img.peque{
+  width:40%;
+  display:block;
+  margin:auto;
+}
