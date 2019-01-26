@@ -3,18 +3,22 @@
     color: #ffffff;
     text-align: center;
     margin:auto;
-    
+    position: absolute;
+    top:30px;
+    right: 50%;
 }
 .principal-img{
     display: block;
     margin: auto;
     width: 800px;
     height: 500px;
+    
 }
 
 .description{
     text-align: center;
     color: grey;
+    box-sizing: border-box
 }
 
 .first-img{
