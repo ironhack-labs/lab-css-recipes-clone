@@ -1,0 +1,28 @@
+
+.title{
+    color: #ffffff;
+    text-align: center;
+    margin:auto;
+    
+}
+.principal-img{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+
+.description{
+    text-align: center;
+    color: grey;
+}
+
+.first-img{
+    display: block;
+    margin: auto;
+}
+
+.second-img{
+    display: block;
+    margin: auto;
+}
