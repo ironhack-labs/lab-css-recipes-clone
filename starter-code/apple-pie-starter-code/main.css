@@ -4,17 +4,10 @@
     margin:
 }
 
-
-/*.recipe-general{
-    box-sizing: border-box;
-    width:90%;
-}
-*/
 .title{
     color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    margin:auto;
     position: absolute;
     top:200px;
     right: 50%;
@@ -26,7 +19,6 @@
     width: 800px;
     height: 500px;  
 }
-
 .description{
     text-align: justify;
     color: grey;
@@ -38,12 +30,10 @@
     width: 60%;
     font-size: 125%;
 }
-
 .first-img{
     display: block;
     margin: auto;
 }
-
 .ingredients{
     color: grey;
     box-sizing: border-box;
@@ -54,12 +44,10 @@
     width: 60%;
     font-size: 125%; 
 }
-
 .second-img{
     display: block;
     margin: auto;
 }
-
 .directions{
     color: grey;
     box-sizing: border-box;
@@ -74,4 +62,7 @@
 .line{
     right: 60%;
     left:60%;
+}
+h2{
+    font-weight: bold
 }
