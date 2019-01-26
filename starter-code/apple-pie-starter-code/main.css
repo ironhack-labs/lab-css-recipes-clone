@@ -1,24 +1,40 @@
 
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:
+}
+
+
+.recipe-general{
+    box-sizing: border-box;
+    width:90%;
+}
 .title{
     color: #ffffff;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin:auto;
     position: absolute;
-    top:30px;
+    top:200px;
     right: 50%;
 }
 .principal-img{
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
-    height: 500px;
-    
+    height: 500px;  
 }
 
 .description{
-    text-align: center;
+    text-align: justify;
     color: grey;
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    right: 50%;
+    width: 50%;
+    font-size: 150%;
 }
 
 .first-img{
