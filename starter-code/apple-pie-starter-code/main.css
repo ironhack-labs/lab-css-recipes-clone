@@ -5,10 +5,11 @@
 }
 
 
-.recipe-general{
+/*.recipe-general{
     box-sizing: border-box;
     width:90%;
 }
+*/
 .title{
     color: #ffffff;
     margin-left: auto;
@@ -32,9 +33,10 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    right: 50%;
-    width: 50%;
-    font-size: 150%;
+    right: 60%;
+    left:60%;
+    width: 60%;
+    font-size: 125%;
 }
 
 .first-img{
@@ -42,7 +44,34 @@
     margin: auto;
 }
 
+.ingredients{
+    color: grey;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    right: 60%;
+    left:60%;
+    width: 60%;
+    font-size: 125%; 
+}
+
 .second-img{
     display: block;
     margin: auto;
+}
+
+.directions{
+    color: grey;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    right: 60%;
+    left:60%;
+    width: 60%;
+    font-size: 125%;  
+}
+
+.line{
+    right: 60%;
+    left:60%;
 }
