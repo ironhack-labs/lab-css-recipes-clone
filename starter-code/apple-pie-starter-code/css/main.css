@@ -1,0 +1,50 @@
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  margin-top: -1.4em;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Trebuchet MS;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  line-height: 10em;
+}
+
+h2 {
+  font-family: Trebuchet MS;
+  font-size: 25px;
+  text-align: left;
+}
+
+
+p {
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  text-align: center;
+}
+
+ol, li {
+  font-family: Trebuchet MS;
+  font-size: 18px;
+}
+
+table {
+  line-height: 140%;
+  font-family: 'Trebuchet MS';
+  color: #919191;
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto 40px;
+}
+
+.trait {
+  border-top: 2px solid #919191;
+  padding: 3em 0em;
+}
