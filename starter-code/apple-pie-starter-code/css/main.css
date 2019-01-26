@@ -11,6 +11,8 @@
 body, html{
     font-family: Roboto;
     height: 100%;
+    width: 700px;
+    margin: auto;
 }
 
 .container {
@@ -27,10 +29,13 @@ body, html{
     justify-content: center;
 }
 
+.img_container {
+    text-align: center;
+}
+
 .img {
     margin: auto;
     width: 400px;
-    text-align: center;
 }
 .main {
     margin: auto;
