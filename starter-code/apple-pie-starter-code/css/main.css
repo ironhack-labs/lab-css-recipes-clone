@@ -2,6 +2,11 @@ h1, body, html, main {
     margin: 0;
   }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
 .apple {
     color: white;
     text-align: center;
@@ -13,8 +18,9 @@ h1, body, html, main {
     height: 50vh;
     width: 100vw;
     padding-top: 30vh;
+    margin: 0 20px;
 }
 
 .deux {
-    margin : 20px 20px 0;
+    margin : 30px 30px;
 }
