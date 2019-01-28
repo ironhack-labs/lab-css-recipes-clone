@@ -1,9 +1,57 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.background {
+  background: url(../images/soup.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin: 30px 0;
+}
+
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+}
+
+.background h1 {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 48px;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.info {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 600px; 
+}
+
+.sectioncontainer {
+  padding: 2% 10%;
+}
+
+.line {
+  border-bottom: 1px solid;
 }
