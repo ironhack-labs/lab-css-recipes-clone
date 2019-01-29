@@ -10,6 +10,13 @@ body {
   width: 50%;
 }
 
+@media (max-width: 800px) {
+  .img-info img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .hero {
   height: 100vh;
   background-image: url(../images/apple-pie.jpg);
