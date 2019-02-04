@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.headerimg {
+    height: 600px;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.headertitle {
+    text-align: center;
+    font-size: 4.5em;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+    padding-top: 300px;
+    line-height: 0;
+}
+
+.headertext {
+    text-align: left;
+    width: 900px;
+    margin: 60px auto 30px auto;
+    font-size: 1.4em;
+
+}
+
+.imglittle {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.line{
+    margin: 30px auto;
+    width: 900px;
+}
+
+h2{
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.section{
+    width: 900px;
+    margin: 50px auto;
+}
+
+ul, ol{
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+    counter-reset: li;
+}
+
+li {
+    margin-left: 15px;  
+}
+
+.list > li::before {
+    content: "- ";
+    margin-left: -15px;
+}
+
+
+.list2 > li::before {
+    content: counter(li)") "; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    counter-increment: li;
+}
