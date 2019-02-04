@@ -7,3 +7,34 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.header-background {
+  background-image: url("../images/soup.jpg");
+  padding: 280px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+
+figure {
+  text-align: center
+}
+
+main, h2 {
+  padding: 40px;
+}
+
+.header-class {
+  padding: 40px;
+}
+
+ ul li {
+  list-style-type: square;
+}
+
+
