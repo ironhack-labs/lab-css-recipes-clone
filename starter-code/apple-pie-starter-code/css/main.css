@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.background {
+  padding: 500px 0px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: lighter;
+  color: rgb(250,250,250);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#introduction article{
+  width: 1400px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#introduction article p{
+  padding: 100px;
+  font-size: 1.5em;
+  line-height: 1.5;
+  width: 1200px;
+  margin: auto;
+}
+
+#introduction figure{
+  text-align: center;
+}
+
+hr {
+  width: 1400px;
+  margin: auto;
+}
+
+#ingredients {
+  width: 1400px;
+  margin: auto;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+#ingredients ul li{
+  font-size: 1.2em;
+  list-style-type: square;
+}
+
+#ingredients ul li:nth-child(-n+7){
+  margin-bottom: 5px;
+}
+
+#ingredients figure{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#directions {
+  width: 1400px;
+  margin: auto;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+
+#directions ol li{
+  font-size: 1.2em;
+}
+
+#directions ol li:nth-child(-n+2){
+  margin-bottom: 5px;
+}
