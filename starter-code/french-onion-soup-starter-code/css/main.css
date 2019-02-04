@@ -1,9 +1,37 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  margin: 25px; 
+}
+
+.hero {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 75px;
+}
+
+.centered {
+  width: 70%;
+  margin: 80px auto;
+}
+
+.img {
+  width: 60%;
+  margin: 0 20%;
 }
