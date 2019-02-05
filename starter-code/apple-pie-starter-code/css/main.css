@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+hr {
+  margin: 10px auto;
+  width: 75%;
+  
+}
+
+.font {
+  color: #333333;
+  font-size: 1.04em;
+  text-align: left;
+  width: 70%;
+  margin: 20px auto;
+  letter-spacing: 0.05em;
+}
+
+header {
+  margin: 0 auto;
+  width: 90%;
+  height: 430px;
+  background-image: url(../images/apple-pie.jpg); 
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 30vh;
+  color: white;
+  font-size: 2.5em;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+section span {
+  margin: 20px auto;
+}
+
+.ul-style, .ol-style {
+  list-style-type: none;
+  
+}
+
+.ul-style li, .ol-style li{
+  font-size: 0.7em;
+  margin: 5px auto 5px 10px;
+}
+
+.ul-style li::before{
+  content: "-";
+  margin-left: -10px;
+}
+
+/* Sé que para dar estilos a ol debo emplear pseudo-elements (como en el caso anterior ) pero,
+no sé como eliminar el punto de esa enumeración, mañana preguntaré.
+PD: no he encontrado la info o no la he sabido buscar bien*/
+
+.ol-style li::first-letter {
+  margin-left: 25px;
+}
+
+.ol-style li::before {
+  margin-left: -25px;
+  content: " )";
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  height: 50px;
+}
+
+.cooking-stats {
+  height: 65px;
+}
