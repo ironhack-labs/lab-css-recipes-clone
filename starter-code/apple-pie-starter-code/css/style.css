@@ -1,0 +1,65 @@
+/*Some necessary adjustments*/
+* {
+    font-family: sans-serif;
+  }
+  h1,
+  body,
+  html,
+  main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+  header {
+    padding-top: 50px;
+    height: 750px;
+    width: 100%;
+    position: relative;
+    background-image: url(file:///C:/Users/asus/DAY1/lab-javascript-basic-algorithms-master/lab-css-recipes-clone-master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 7em;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+  }
+  .section1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    height: 100px;
+  }
+  .section1,
+  .section2,
+  .section3 {
+    margin: 10%;
+  }
+  .section2 ul {
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  li {list-style-type: none;}
+  li:before{content: "- "} 
+  .recepie-info {
+    text-align: center;
+  }
+  hr {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    width: 80%;
+    height: 3px;
+  }
+  .directions {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  
