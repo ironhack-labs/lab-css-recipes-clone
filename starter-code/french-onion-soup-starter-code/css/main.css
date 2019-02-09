@@ -9,7 +9,7 @@ html {
 }
 
 .header {
-  background: url("images/soup.jpg");
+  background: url("../images/soup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
