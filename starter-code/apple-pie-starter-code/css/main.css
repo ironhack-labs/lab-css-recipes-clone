@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/*-----Aplicar para o corpo-----*/
+body {
+    font-family: open sans;
+}
+
+/*-----Configuração da imagem de fundo inicial-----*/
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    position: relative;
+    padding-top: 1px;
+}
+
+/*-----Aplicar para o titulo-----*/
+h1 {
+    font-family: open sans;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 5em;
+    font-weight: 10;
+    color: white;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+p {
+    color: #777;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*-----Configuração borda no final-----*/
+.align-text{
+    margin: 40px 70px;
+    line-height: 1.3em
+}
+
+
+.img-border {
+    border-bottom: 3px solid #aaa;
+}
+
+/*-----Configuração da imagem Ingredients-----*/
+.img-time {
+    height: 70px;
+    padding: 20px;
+    position: relative;
+    margin: 0 30%;
+}
+
+/*-----Configuração da imagem Directions-----*/
+.img-cook {
+    height: 90px;
+    padding-bottom: 10px;
+    position: relative;
+    margin: 10px 33% 0;    
+}
+
