@@ -1,9 +1,62 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+*{
+    margin: 20px 50px;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.header{
+    background-position: center;
+    background: url("../images/soup.jpg");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.infos {
+    margin-top: 50px;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 150px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+hr {
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+.infos {
+    text-align: center;
+}
+
+.infos img {
+    height: 50px;
+    width: 325px;
+}
+
+.ingredients {   
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.ingredients ul{
+    list-style-type: none;
+}
+
+.cooking img {
+    height: 74px;
+    width: 325px;
+}
+
+.directions h1 {
+    margin-top: 50px;
 }
