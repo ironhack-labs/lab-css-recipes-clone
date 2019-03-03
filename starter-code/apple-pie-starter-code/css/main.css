@@ -1,55 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 /*Some necessary adjustments*/
 h1, body, html, main {
-    margin: 0;
-  }
-  /*Import the font and set the default size*/
+  margin: 0;
+}
+	
+
+  
+    
   html {
-    
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
+    line-height:1.5;
+  }		
+  
+  
+  header {
+    display:flex;
+    justify-content:center;
+    background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    height: 600px;
+    width:100%;
   }
-header{
-text-align: center;
-background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/raw/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
-height: 600px;
-width: 60%;
-margin-left: 20%;
-    
-
-  }
-h1 {
+  
+  h1 {
     color: beige;
-    font-size:80px;
-    padding-top: 250px;
-    font-weight: lighter;
-}
-  .intro{
-    padding-left: 28%;
-    padding-right: 28%;
-    padding-top: 5%;
-    padding-bottom: 2%;    
+    font-size:10rem;
+    font-weight: 1;
   }
-.container{
+  
+  .recipe-direction{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left: 15%;
+    margin-right:15%;
+    color:#808B96 ;
+  }
+  
+  .intro {
+    padding: 3% 0 ;
+    align-self:center;
     
-}
-hr {
-width:45%;
-}
-
-.information{
-  padding-left: 34%;
+  }
+  
+  .information{
+    align-self:center;
+  }
+  
+  .information img{
     height: 60px;
-    width:400px;;
-}
-h3 {
-   font-weight: lighter; 
-}
-.instructions{
-    margin-left: 27.5%;
-    margin-right: 27.5%;
-}
-ul { 
-    list-style-type:none;
-}
+    min-width: 300px;
+  }
+  .ingredients{
+    align-self:flex-start;
+    padding:2% 0;
+  }
+  p {
+    font-weight:bold;
+  }
+  ingredients ul { 
+    list-style-type:square-button;
+  }
+  directions ul { 
+    list-style-type:decimal;
+  }
