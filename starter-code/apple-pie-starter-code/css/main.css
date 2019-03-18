@@ -28,7 +28,7 @@ body {
   }
 
   .header {
-  background-image: "/Users/rafaelarrietagarcia/code/semana1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg";
+  background-image: url("/Users/rafaelarrietagarcia/code/semana1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
 	position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
