@@ -1,0 +1,118 @@
+
+  
+div{
+  border: 1px solid transparent;
+}
+
+col-1{
+  width: 100%;
+}
+
+col-60{
+  width: 60%;
+}
+
+
+.col-2{
+  width: 50%;
+}
+
+.col-3{
+  width: 33%;
+}
+
+.col-4{
+  width: 25%;
+}
+
+.col-5{
+  width: 20%;
+}
+
+.col-8{
+  width: 12.5%
+}
+
+.col-10 { 
+  width: 10%;
+} 
+
+.col-15{
+  width: 15%;
+}
+
+.clearfix { clear: both; }
+
+.container-image {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 825px;
+  overflow: hidden;
+}
+
+.head-image{
+  width:75%;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 500%;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  text-align: center;
+}
+
+.inside-centered{
+  width: 65%;
+  display: inline-block;
+  text-align: centered;
+  text-justify: inter-word;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 150%;
+}
+
+.justify-text{
+  text-align: justify;
+}
+
+.left-text{
+  text-align: left;
+}
+
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+
+ol.parenth {
+  counter-reset: list;
+}
+ol.parenth > li {
+  list-style: none;
+}
+ol.parenth > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+.div-bottom{
+  border-bottom-color: grey;
+  border-Bottom-Width: 5px;
+}
