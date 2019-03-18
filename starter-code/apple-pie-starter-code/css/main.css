@@ -1,0 +1,62 @@
+
+
+p {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 2em;
+}
+ul{
+    font-size: 1.4;
+}
+.imagenFondo    {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.imagenTexto{
+    position: absolute;
+    font-size: 120px;
+    color: white;
+    top: 35%;
+    left: 30%;
+}
+.intro{
+    text-align: center;
+    margin: 10%;
+}
+.intro p{
+    text-align: left;
+}
+.ingredients {
+    margin: 10%;
+    width: 80%;
+    font-size: 1.3em;
+}
+.directions {
+    margin: 10%;
+    width:80%;
+    font-size: 1.5em;
+}
+ul{
+    margin-bottom: 5%;
+}
+ul li {
+    margin-left: 4%;
+    list-style-type: none;
+}
+ul li:before {
+    content: "- ";
+}
+
+ol li {
+    margin-left: 6%;
+    list-style-type: decimal;
+}
+
+.imgIngredientes {
+    text-align: center;
+    height: 50%;
+}
+
