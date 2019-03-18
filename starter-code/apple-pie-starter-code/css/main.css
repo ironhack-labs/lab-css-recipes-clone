@@ -10,8 +10,6 @@
 body {
     font-family: 'roboto';
     font-size: 10px;
-    line-height: 3.5em;
-    font-weight: 300;
   }
   
   h1 {
@@ -27,19 +25,11 @@ body {
       text-align: center;
       text-transform: uppercase;
       line-height: 4em;
-    color: #fff;
-    text-shadow: #020819 6px -2px 6px;
-    text-transform: uppercase;
-  
   }
 
   .header {
-  background-image: "/starter-code/apple-pie-starter-code/images/apple-pie.jpg";
+  background-image: "/Users/rafaelarrietagarcia/code/semana1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg";
 	position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 650px;
-	position: relative;
-
-
 }
