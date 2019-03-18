@@ -190,6 +190,12 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 800px;
+    margin: auto;
+    padding: 100px;
+}
+
 header {
     width: auto;
     height: 800px;
@@ -200,6 +206,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -207,4 +214,29 @@ header h1 {
     font-size: 75px;
     font-weight: 300;
     color: white;
+}
+
+hr {
+    height: 2px;
+    color: solid #9c9c9c;
+    width: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.lista {
+    list-style: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+ol {
+    font-size: 16px;
+    line-height: 19px;
 }
