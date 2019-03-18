@@ -1,0 +1,117 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: #111;
+}
+
+h2{
+  font-size: 2.4rem;
+}
+
+h3{
+  font-size: 1.7rem;
+}
+
+h4{
+  font-size: 1.6rem;
+}
+
+h5{
+  font-size: 1.4rem;
+}
+
+h6{
+  font-size: 1.2rem;
+}
+
+ul,
+ol{
+  padding-left: .5rem;
+}
+
+ul > li::before{
+  content: '-';
+  margin-right: .1rem;
+}
+
+ol{
+  list-style: none;
+  counter-reset: instructions;
+}
+
+ol > li{
+  counter-increment: instructions;
+}
+
+ol > li::before{
+  content: counter(instructions) ") ";
+}
+
+strong, b{
+  font-weight: 700;
+}
+
+.header{
+  width: 100%;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 75vh;
+}
+
+.header .main-title{
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 5.4rem;
+
+}
+
+.main{
+  padding: 5rem;
+  color: #333;
+  line-height: 1.35;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.secondary-heading{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section.introduction p{
+  /* letter-spacing: .075rem; */
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.recipe-image{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.recipe-image > img{
+  max-height: 6rem;
+  width: auto;
+}
+
+hr{
+  padding: .1rem;
+  background-color: #aaa;
+  border-radius: 1rem;
+  border: none;
+}
