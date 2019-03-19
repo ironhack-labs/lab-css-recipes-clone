@@ -1,30 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
+html {
+  font-family: 'Raleway', sans-serif;
+}
 
 * {
   margin: 0;
   padding: 0;
 
 }
-
 body {
-    font-family: 'roboto';
-    font-size: 10px;
-  }
-  
+  color: darkgrey;
+  font-size: 1em;
+}
+
+
+
   h1 {
-      font-family: 'Roboto Condensed';
-      font-size: 9em;
+      font-size: 3em;
       text-align: center;
-      text-transform: uppercase;
+      vertical-align: middle;
+
   }
   
   h2 {
-      font-family: 'Roboto Condensed';
-      font-size: 5em;
-      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 1em;
+      text-align: justify;
       text-transform: uppercase;
-      line-height: 4em;
+      color: black;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+img {
+  padding-top: 1em;
+}
+  ul li{
+    list-style-type: none;
+    text-align: justify;
+  }
+  ul li:before {
+    content: "-"
+  }
+  ol {
+    text-align: justify;
+  }
+
+  ol li::before {
+    content: ")"
   }
 
   .header {
@@ -34,4 +60,42 @@ body {
     background-size: cover;
     height: 600px;
     width: 100%;
+    margin-bottom: 40px;
+
 }
+
+
+.header h1 {
+  color: white;
+  font-size: 50px;
+  top: 250px;
+  padding-top: 250px;
+}
+
+.Section {
+  margin: 40px auto;
+  width: 60%;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+
+
+}
+
+.Section:last-child {
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
