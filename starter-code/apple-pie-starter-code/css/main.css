@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+  font-family: Roboto;
+}
+
+* {
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-image: url("/Users/nataliafranquetlopez-mosteiro/Desktop/IRONHACK/BOOTCAMP/WEEK-1/Day-1/LAB/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 900px;
+  display: flex;
+}
+
+h1 {
+  font-weight: lighter;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: 450px;
+}
+
+p {
+  text-align: justify;
+  margin: 0 auto;
+  margin: 100px 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+hr {
+  border-top: 2px solid gray;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+}
+
+ul {
+  list-style: none; 
+  font-weight: 300;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+h2 {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.ingredients,
+.directions {
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.directions {
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
