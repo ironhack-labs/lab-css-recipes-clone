@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5em; 
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight:400;  
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 50px 0 30px 0;;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section li {
+    font-size: 1.2em;
+}
+
+.header-title {
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-title h1 {
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 400; 
+}
+
+.header-paragraph {
+    padding: 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #000; 
+    margin: 0 auto; 
+}
+
+.header-paragraph p {
+    text-align: justify;
+    font-size: 1.4em;   
+    margin: 50px 0; 
+}
+
+.img-info {
+    width: 50%;
+    margin-left:25%; 
+}
+
+.section-Ingredients {
+    border-bottom: 1px solid #000;   
+}
+
+.section-Ingredients ul {
+    list-style: none;
+    padding: 0;
+    margin:50px 0;
+}
+
+.section-Ingredients ul li:before {
+    content: "-";
+    margin-right: 10px;
+}
+
+.section-directions ol {
+    margin:50px 0;
+}
+
+
+
