@@ -1,0 +1,98 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("/images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.divider {
+  border: 1px solid #888888;
+}
+
+h1 {
+  color:white;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 40px auto;
+}
+
+.ingredients, .directions {
+  margin: 0 auto;
+}
+
+.introduction p {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 50px auto;
+}
+
+.list {
+  list-style-type: none;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 25px 0;
+  line-height: 1.4;
+}
+
+.image-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0 25px;
+}
+
+.image-container img{
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.instructions-container {
+  padding: 20px 0 40px;
+}
+
+.instructions-list {
+  text-align:center;
+}
+
+.instructions-list li, .instructions-list li > * {
+  display: inline;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 14px;
+  color: #555555;
+}
+
+.instructions-list li {
+  padding: 0 5px;
+}
+
+.instructions-list img {
+  width: 40px;
+  transform: translateY(30%);
+}
