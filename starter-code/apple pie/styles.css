@@ -1,0 +1,53 @@
+body {
+    
+}
+
+header {
+    display: relative;
+    top: 0;
+    left: 0;
+    width: cover;
+    
+    margin-block-end: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.header {
+    background-image: url(images/apple-pie.jpg)
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header_paragraphe {
+    align-content: center;
+    margin: 50px;
+    background-color: red;
+    
+}
+
+.info {
+    align-items: center;
+}
+
+.ingredients {
+    display: flex
+    padding: 2em;
+    text-align: center;
+  vertical-align: middle;
+}
+
+.receipe {
+    display: flex
+    padding: 2em;
+    text-align: center;
+  vertical-align: middle;
+}
+
+ul {
+    display: block;
+    align-content: center;
+}
