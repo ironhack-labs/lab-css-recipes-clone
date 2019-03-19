@@ -1,5 +1,16 @@
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
 body {
-  font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -20,7 +31,7 @@ header h1 {
   color: white;
   text-align: center;
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 article {
@@ -41,7 +52,7 @@ section:last-child {
 
 section h1 {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 600;
   padding: 1.6rem 0;
 }
 
