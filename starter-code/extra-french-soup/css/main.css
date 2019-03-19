@@ -7,3 +7,82 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+article {
+  margin: 0 20% 5% 20%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 0 0.8rem 0;
+  border-bottom: 1px solid black;
+  font-weight: 300;
+}
+
+section:last-child {
+  border-bottom: 0px;
+}
+
+section h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 0;
+}
+
+section ol {
+  padding-left: 1rem;
+}
+
+section img {
+  align-self: center;
+  padding: 1rem;
+  max-width: 25vw;
+}
+
+.cooking-info {
+  margin-top: 5rem;
+  font-size: 1.4rem;
+}
+
+.recipe-info ul li:before {
+  content: "- ";
+}
+
+.directions ol {
+  counter-reset: list;
+  list-style-type: decimal;
+}
+
+.directions ol li {
+  list-style: none;
+}
+
+.directions ol li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
