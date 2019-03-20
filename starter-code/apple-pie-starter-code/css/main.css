@@ -1,0 +1,31 @@
+/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+font-weight: 300;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+/* h1, body, html, main {
+  margin: 0;
+} */
