@@ -1,0 +1,44 @@
+.folder{
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: auto auto;
+    position: absolute;
+
+}
+h1{
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 250px;
+}
+.container{
+    margin-top: 550px;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+div > p{
+  padding: 0 400px;  
+  font-size: 20px;
+  text-align: justify;
+}
+hr{
+  width: 1100px;
+}
+.container-2{
+    padding: 0 400px;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+ul{
+  list-style-type: "-";
+  font-size: 20px;
+}
+.prepare{
+    font-size: 20px;
+    padding: 0 780px 0 30px;
+}
