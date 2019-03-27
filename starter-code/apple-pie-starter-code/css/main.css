@@ -1,0 +1,42 @@
+body{
+  margin: 5%;
+  padding: 0;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+.landing{
+  color: whitesmoke;
+  height: 450px;
+  width: 100%;
+}
+.abosolutely{
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.relatively{
+  position: relative;
+}
+.sections{
+  margin: 5%;
+}
+#landing-img{
+  position: relative center;
+  vertical-align: middle;
+  max-height: 100%;
+  width: 100%;
+  
+}
+article{
+  height:100px;
+}
+article img{
+  display: block;
+  margin: auto;
+  max-height: 80%;
+
+}
