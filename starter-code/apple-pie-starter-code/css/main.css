@@ -1,13 +1,14 @@
-*,
-*:before,
-*:after {
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
   margin: 0;
-  padding: 0;
 }
-
+/*Import the font and set the default size*/
 html {
-  font-display: swap;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 hr {
@@ -29,7 +30,7 @@ hr {
 .cover h1 {
   text-align: center;
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 300;
   color: white;
 }
 
@@ -53,7 +54,7 @@ hr {
 .content h2 {
   margin: 20px 0;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .content ol,
@@ -64,4 +65,8 @@ hr {
 .content li {
   list-style-position: inside;
   margin-bottom: 5px;
+}
+
+.content ul > li {
+  list-style-type: '- ';
 }
