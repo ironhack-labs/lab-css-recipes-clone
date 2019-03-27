@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
 } 
-
+ 
 #header h1 {
   position: absolute;
   top: 50%;
@@ -31,12 +31,68 @@ body {
 /* -----------DESCRIPTION--------------*/
 
 #description {
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
 }
 
-.cooking-img {
+.center-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#description p {
+  width: 80%;
+  margin: 60px auto 40px auto;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+.line-division {
+  margin: 20px 0 40px 0;
+  height: 1px;
+  background-color: gray;
+}
+
+.info-img {
   width: 400px;
   height: auto;
 } 
+
+/* ---------------INGREDIENTS--------------- */
+
+#ingredients h1 {
+  font-size: 1.8em;
+  font-weight: 100;
+}
+
+#ingredients ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.recipe-img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------------DIRECTIONS--------------- */
+
+#directions {
+  margin-bottom: 50px;
+}
+
+#directions h1 {
+  font-size: 1.8em;
+  font-weight: 100;
+}
+
+#directions ul {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+
+
+
