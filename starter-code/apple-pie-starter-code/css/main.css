@@ -40,3 +40,10 @@ margin:auto;
   padding-left: 150px;
   padding: 20px 90px 20px 90px;
 }
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
