@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+header{
+    background-image: url("../images/apple-pie.jpg");
+    height: 400px;
+    
+}
+
+header  h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 160px; 
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.section1{
+    width: 800px;
+    margin: 60px auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.section1 img{
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.section1 hr{
+    margin-top: 20px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.section2{
+    width: 800px;
+    margin: 60px auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.section2 h2{
+    margin: 0 0 20px 0;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+.section2 ul{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.section2 ul li:before
+{
+    content: "- ";
+    
+}
+
+.section2 img{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.section2 hr{
+    margin-top: 20px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.section3{
+    width: 800px;
+    margin: 60px auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.section3 h2{
+    margin: 0 0 20px 0;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+.section3 p{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
