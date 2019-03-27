@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: gray;
+  font-weight: 300;
+  
+}
+*{
+  margin:0;
+  padding: 0;
+}
+#main_header{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 750px;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  position: relative;
+  padding: 6em;
+  font-family: 'Lato', sans-serif;
+}
+
+.intro{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.intro img{
+  padding-top: 20px;
+}
+
+.ingredients{
+  font-size: 20px;
+   
+  text-align: center;
+}
+
+.ingredients h3{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.ingredients img{
+  width: 400px;
+  height: 100px;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid gray;
+  margin: 20px auto 30px;
+  width: 80%;
+}
+
+
+
+.directions{
+  font-size: 20px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  
+}
+
+.directions h3{
+  
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+ 
