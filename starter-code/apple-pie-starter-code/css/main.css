@@ -1,0 +1,31 @@
+.contenedor{
+    position:relative;
+    display:inline-block;
+    text-align:center;
+
+}
+.texto-encima{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.centrado{position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%)
+}
+.caja{
+    position:relative;
+    top;200px;
+    bootom:;
+    right:10%;
+    left:10%;
+}
+h1{color:white;
+    font-family:Arial, Helvetica, sans-serif;
+font-size:100px;}
+p{
+    text-align:center;
+}
+h2{text-align:center;}
+h3{text-align:center;}
