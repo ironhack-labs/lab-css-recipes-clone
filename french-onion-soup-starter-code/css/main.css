@@ -7,3 +7,55 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.header {
+  margin: 0 auto;
+  color: white; 
+  text-align: center;
+  vertical-align: middle;
+}
+.cover-image {
+  background-image: url("/Users/tanjameinert/Desktop/ironhack/clone-test/lab-css-recipes-clone/french-onion-soup-starter-code/images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 500px;
+}
+
+#intro {
+  text-align: center;
+  color: dimgray;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+
+hr{
+  /*margin-bottom: 30px;
+  margin-left: 12%*/
+  margin: 30px 0 30px 12%;
+}
+
+#ingredients {
+  margin-left: 12%;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+li {
+ list-style: none;
+}
+
+.list-heading {
+  color: black;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#directions {
+  /*margin-left: 12%;*/
+  padding: 10px; 
+  margin: 10px 12% 50px 12%;
+}
+
+.cooking-info-image {
+  margin: 30px 0 10px 14%;
+}

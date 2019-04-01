@@ -1,11 +1,24 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1, body, html, main {
   margin: 0;
-  padding: 0;
 }
-header {
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.header {
   margin: 0 auto;
-  background-image: cover;
+  color: white; 
+  text-align: center;
+  vertical-align: middle;
+  text-size: 100px;
+}
+.cover-image {
+  background-image: url("/Users/tanjameinert/Desktop/ironhack/clone-test/lab-css-recipes-clone/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 500px;
 }
 
 #intro {
@@ -33,7 +46,7 @@ li {
 
 .list-heading {
   color: black;
-  font-size: 18px;
+  font-size: 30px;
   padding-bottom: 20px;
 }
 
