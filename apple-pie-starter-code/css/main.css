@@ -1,0 +1,52 @@
+*{
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+ }
+ 
+ 
+ #background-apple{
+  height: 1000px;
+  background-size: cover;
+  position: relative;
+  background-image: url("apple-pie.jpg"); /* no-repeat and specifing position to 0 0 made the image disappear*/
+  margin-bottom: 150px;
+ }
+ .apple-pie{
+ color:white;
+ font-size: 4rem;
+ position: absolute;
+ margin:0;
+ top: 40%;
+ right: 40%;
+ }
+ 
+ header > p, hr{
+ text-align: justify;
+ font-size: 1.43rem;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+ 
+ .small-image{
+  margin: 10px 30% 0 30%;
+  text-align: center;
+  width: 40%
+ }
+ 
+ h2{
+  margin-left: 10%;
+  margin-top: 100px;
+  font-size: 1.43rem;
+ }
+ 
+ li{
+  margin-left:11%;
+  margin-right:11%;
+  font-size: 1.15rem;
+ }
+ 
+ section{
+ margin-bottom: 100px;
+ }
+ 
+ 
