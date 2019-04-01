@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url("/apple-pie-starter-code/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 40px auto 25px auto;
+}
+
+h3 {
+    margin: 40px auto 30px auto;
+}
+
+.list {
+    margin-bottom: 40px;
+    list-style-type: none;
+}
