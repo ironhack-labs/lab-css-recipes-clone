@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+background-image: url("/Users/jasoncuellar/code/labs/lab-css-recipes-clone/apple-pie-starter-code/images/apple-pie.jpg");
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+line-height: 450px;
+text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: white;
+  font-size: 65px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 120px 0;
+  
+}
+.images-center1 {
+  
+  padding: 10px 170px 10px;
+  height: 60px;
+}
+.images-center2 {
+  
+  padding: 10px 180px 10px 180px;
+  height: 60px;
+}
+.image-container {
+  text-align: center;
+}
