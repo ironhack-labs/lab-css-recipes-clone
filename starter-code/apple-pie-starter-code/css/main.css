@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px 150px;
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.heroText {
+  font-size: 72px;
+  color: white;
+  position: relative;
+  top: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstpara {
+  text-align: center;
+  font-size: 25px;
+}
+
+.dvdimg {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ingredients {
+  
+}
+
+.inglist {
+  list-style-type: none;
+  text-align: left;
+}
