@@ -1,3 +1,15 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+
+
 header {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
@@ -6,7 +18,7 @@ header {
 
 h1 {
   color: white;
-  font: 70px calibri;
+  font-size: 70px;
   text-align: center;
   margin: auto;
   line-height: 520px;
@@ -14,7 +26,7 @@ h1 {
 }
 
 #intro article {
-  font: 20px calibri;
+  font-size: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10%;
@@ -42,7 +54,7 @@ hr {
   padding-left: 10%;
 }
 h2 {
-  font: 25px calibri;
+  font-size: 20px;
 }
 
 ul {
@@ -52,7 +64,7 @@ ul {
 
 ul.dashed li {
   list-style-type: none;
-  font: 18px calibri;
+  font-size: 18px;
 }
 ul.dashed li:before {
   content: "- ";
@@ -73,7 +85,7 @@ ul.dashed li:before {
 }
 
 #directions article {
-  font: 18px calibri;
+  font-size: 18px;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 30px;
