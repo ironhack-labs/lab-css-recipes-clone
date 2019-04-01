@@ -1,9 +1,78 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  height: 100%;
+  width: 100%;
+  min-width: 900px;
+  max-width: 900px;
+
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  background-image: url("/Users/yvonnemoser/Desktop/Ironhack/Module 1/clone/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  padding: 250px;
+}
+section {
+  padding: 40px 12%;
+  color: rgba(8, 8, 8, 0.74);
+  line-height: 1.5;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+}
+
+hr{
+margin-left: 12%;
+margin-right: 12%;
+}
+
+h2 {
+  padding: 10px 5px;
+}
+
+#ingredients{
+  margin-bottom: 10px;
+}
+
+li {
+  margin-left: 40px;
+}
+
+#list-ingredients > li {
+  list-style: none;
+  }
+
+.recipe-info-img {
+  height: 60px;
+  padding-top: 40px;
+}
+
+#cooking-info-img {
+  height: 80px;
+  padding-top: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
