@@ -1,0 +1,75 @@
+@import url(./reset.css);
+
+header {
+  height: 600px;
+  background: url(../images/apple-pie.jpg) center center/cover no-repeat;
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+header h1 {
+  font: 80px arial;
+  color: white;
+  text-align: center;
+}
+
+#sumary {
+  width: 800px;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 22px arial;
+  color: #333;
+  padding: 50px 0 120px 0;
+  background: url(../images/cooking-info.png) center bottom no-repeat;
+  background-size: 50%;
+}
+
+#ingredients {
+  width: 800px;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 20px arial;
+  color: #333;
+  padding: 40px 0 120px 0;
+  border-top: 2px solid #999;
+  background: url(../images/cooking-info.png) center bottom no-repeat;
+  background-size: 50%;
+}
+
+#ingredients h2,
+#directions h2 {
+  font: 30px arial;
+  padding-bottom: 20px;
+}
+#ingredients ul {
+  padding-left: 30px;
+}
+
+#ingredients li {
+  padding-bottom: 10px;
+}
+#ingredients li:before {
+  content: "-";
+}
+
+#directions {
+  width: 800px;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 20px arial;
+  color: #333;
+  padding: 40px 0 120px 0;
+  border-top: 2px solid #999;
+}
+#directions ol {
+  padding-left: 30px;
+  counter-reset: list;
+}
+
+#directions li {
+  padding-bottom: 10px;
+
+  counter-increment: section;
+}
+#directions li:before {
+  content: counter(section, decimal) ") ";
+}
