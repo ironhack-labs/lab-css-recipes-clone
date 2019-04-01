@@ -40,7 +40,7 @@ In the Pull request name, add your name and last names separated by a dash "-"
 
 ## Starter code
 
-The starter-code contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and a css file is created in `main.css`.
+Each folder contains all the files, images, and text content needed to create the page. The text is in the `index.html`, and a css file is created in `main.css`.
 
 ## Deliverable
 
