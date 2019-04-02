@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  background-image: url(/Users/AnghyPomar/Desktop/Ironhack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  padding: 200px;
+  max-width: 100%;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 0 100px;
+}
+
+.sections {
+  text-align: left;
+  margin: 80px 200px;
+}
+
+p {
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+hr {
+  margin: 0 150px;
+}
+
+.sections > img {
+  background-position: middle;
+  margin: 30px 180px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+  font-weight: 200;
+}
+
+.sections > ul > li {
+  font-size: 18px;
+  list-style: none;
+  font-weight: 100;
+}
+
+.sections > ol > li {
+  font-size: 18px;
+  font-weight: 100;
+}
+
