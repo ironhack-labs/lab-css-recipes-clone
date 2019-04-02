@@ -1,0 +1,134 @@
+#wrapper {
+    height: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+p, li{
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+  
+
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-width: 1.5px;
+    border-style: solid;
+    width: 100%;
+    color: rgb(182, 182, 182);
+}
+.hero {
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url("/images/apple-pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: inherit;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description { 
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.description-inner {
+    padding: 20px 20px 20px 20px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.description-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.ingredients {
+    height: 430px;
+    width: 100%;
+}
+
+.ingredients-inner {
+    padding: 50px 20px 20px 20px;
+    height: auto;
+    justify-content: left;
+}
+
+.cooking-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.directions {
+    height: 350px;
+    width: 100%;
+}
+
+.directions-inner {
+    padding: 50px 20px 20px 20px;
+    height: auto;
+    justify-content: left;
+}
+
+.directions li{
+    padding-bottom: 10px;
+}
+
+.directions li:before {
+    content: " ) ";
+    padding-right: 5px;
+}
+
+
