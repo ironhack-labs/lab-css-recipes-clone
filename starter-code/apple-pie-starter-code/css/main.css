@@ -1,0 +1,38 @@
+*{
+    border: 20px;
+    margin-top:0;
+    margin-left:5px;
+    margin-right:5px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#heading{
+    display:flexbox;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+    height:10em;
+    padding-top:150px;
+}
+#intro{
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:5px;
+    width:100%;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
+#ingredients{
+    font-size: 20px;
+}
+#directions{
+    font-size: 20px;
+}
+h2{
+    text-align:center;
+}
+section{
+    border-bottom: 1px solid black;
+}
