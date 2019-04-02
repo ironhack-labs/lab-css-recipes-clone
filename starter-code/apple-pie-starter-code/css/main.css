@@ -1,11 +1,58 @@
-header{
-  background: url(../images/apple-pie.jpg);
-  background-size: cover;
-  backgroud-position:center;
-  color:white;
-  height:150px;
-  text-align:center;
-  font-size: 3em;
+body{
   font-family: Arial, Helvetica, sans-serif;
-  padding: 350px
-}
+  margin:0 auto;
+ }
+ 
+ header{
+  background-image: url(../images/apple-pie.jpg);
+  background-size:cover;
+  background-position:center;
+  height:500px;
+  margin:150px;
+ }
+ 
+ h1{
+  text-align: center;
+  color:white;
+  margin:0 auto;
+  font-weight:100;
+  font-size:4em;
+  padding-top:200px;
+  }
+ 
+  .gma{
+    padding-left:200px;
+    padding-right:200px;
+    text-align:justify;
+    font-weight:100;
+    font-family:sans-serif;
+  }
+ 
+  img{
+    text-align:center;
+    padding-left:500px;
+    padding-right:200px;
+  }
+ 
+  hr{
+    width:800px;
+  }
+ 
+ .ingredients{
+    padding-left:250px;
+  }
+ .i{
+    list-style:none;
+  }
+ 
+  p{
+    font-size:1.75em;
+  }
+ 
+ .directions{
+  padding-left:250px;
+ }
+ li{
+   padding-right:290px;
+   list-style:none;
+ }
