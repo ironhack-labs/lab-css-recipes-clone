@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+  margin: auto;
+}
+
+* h2 {
+  font-size: 12pt;
+  color: rgb(92, 92, 92);
+}
+#container {
+  width: 75%;
+  margin: auto;
+}
+
+* hr {
+  width: 600px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 110px;
+}
+
+#intro {
+  width: 70%;
+  margin: auto;
+}
+
+#ingredients {
+  width: 70%;
+  margin: auto;
+}
+
+#directions {
+  width: 70%;
+  margin: auto;
+}
+
+.content {
+  color: grey;
+}
+
+#image {
+  width: 20%;
+  display: block;
+}
