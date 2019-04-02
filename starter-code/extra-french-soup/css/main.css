@@ -1,9 +1,102 @@
-/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
 h1, body, html, main {
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: lighter; 
 }
+
+h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 450px repeat(3, 200px);
+    grid-gap: 2px;
+    justify-content: center;
+    align-content: center;
+    justify-items: stretch; 
+
+}
+
+.heading {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 450px;
+    align-self: center;
+    justify-self: center;
+    background-image: url(../images/soup.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: bottom center;
+    
+    background-repeat: no-repeat;
+}
+
+.sub-heading {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 150px;
+    border-bottom: 1.5px solid grey;
+    padding-bottom: 30px;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.info-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.ingredients {
+    margin: 12% 10%;
+    text-align: left;
+} 
+
+.ingredients ul {
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.ingredients li:before {
+    content: "- "
+}
+
+.ingredients-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+
+.directions {
+    margin: 35% 10%;
+    border-top: 1.5px solid grey;
+    padding-top: 15px;
+}
+
+.directions p {
+    line-height: 150%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
