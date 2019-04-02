@@ -7,3 +7,6 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+h1 {
+  background-image: url("../images/apple-pie.jpg");
+}
