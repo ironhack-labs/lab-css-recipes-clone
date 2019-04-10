@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-container {
+    position: relative;
+    background-image: url('../images/apple-pie.jpg');
+    height: 600px;
+    width: 90%;
+    margin: 30px auto 20px;
+}
+
+.title-container {
+    color: #fff;
+    font-size: 1.7em;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.description {
+    width: 70%;
+    margin: 5em auto;
+    text-align: justify;
+}
+
+.description p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: rgb(46, 46, 46);
+}
+
+.cook-info {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.end-section {
+    width: 70%;
+    border: 1px solid rgb(165, 160, 160);
+    margin: auto auto;
+}
+
+.ingredients-container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.ingredients-container h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: rgb(46, 46, 46);
+    margin-bottom: 20px;
+}
+
+.ing-div {
+    margin-bottom: 10px;
+}
+
+.ingred-list {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 5px;
+    color: rgb(46, 46, 46);
+}
+
+.cook-img {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.directions-container {
+    width: 70%;
+    margin: 20px auto 40px;
+}
+
+.directions-container h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: rgb(46, 46, 46);
+    margin-bottom: 30px;
+}
+
+.parag-container {
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+.parag-container p {
+    margin: 10px 0;
+}
