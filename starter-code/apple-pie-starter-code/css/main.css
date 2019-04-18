@@ -1,15 +1,19 @@
+*{
+    margin: 0;
+    padding: 0}
+
 .mainbackground{
     background-image:url("../images/apple-pie.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 100vh;
 
    
 }
 
 .maintitle{
     color: white;
-    padding: 20% 50% 0% 40%;
+    padding: 43% 50% 0% 40%;
     width: 25%;
     text-align: center;
     font-family: Helvetica, sans-serif;
@@ -18,15 +22,15 @@
 }
 
 .sectiontwo{
-    height: 180px;
+    height: 220px;
     width: 90%;
-    margin-left: 10%;
+
     margin-right: 10%;
     border-bottom: 1px solid grey;
 }
 
 .mainparagraph{
-    width: 70%;
+    width: 90%;
     text-align: justify;
     margin-left: 10%;
     font-family: Helvetica, sans-serif;
@@ -64,11 +68,11 @@ li:before{
 .sectionfour{
     height: 400px;
     width: 90%;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 50%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    text-align: left;
+    text-align: justify;
     border-bottom: 1px solid grey;
     font-weight: 100;
 }
