@@ -1,9 +1,99 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+body {
+  font-family: 'Roboto';
+}
+
+.hero {
+  background-image: url("../images/soup.jpg"), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background-size: contain;
+  padding: 400px 0;
+  /*  background-position: 0 -400px; */
+  background-repeat: no-repeat;
+}
+
+/* h1,h2, p {
+  font-family: 'Roboto';
+} */
+
+h1 {
+  font-weight: 300;
+  color: white;
+  font-size: 6em;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.intro {
+  padding-top: 80px;
+}
+
+.intro p {
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+
+img {
+  max-width: 650px;
+
+}
+
+.recipe-info-img {
+  text-align: center;
+  padding: 50px 0 30px 0;
+  border-bottom: 2px rgb(190, 190, 190) solid;
+}
+
+.directions {
+  padding-bottom: 100px;
+}
+
+
+h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+ul li::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+li {
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter) ") ";
+
 }
