@@ -1,0 +1,78 @@
+
+*{
+	margin:0;
+	padding:0; 
+}
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.hero {
+
+  background-image: url("../images/apple-pie.jpg");
+  height: 500px;
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 4.1em;
+  font-weight: normal;
+ 
+  text-align: center;
+  color: white;
+  padding: 193px;
+}
+.container {
+  /*margin: 0 auto;*/
+  font-weight:lighter;
+
+  padding: 2em 9em;
+}
+.recipe-info {
+  padding: 22px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+}
+.cooking-info{
+  padding: 22px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+}
+
+h2 {
+  font-weight: light;
+  padding:40px 0 23px 0;
+}
+ol {
+  padding-left: 31px;
+  line-height: 24px;
+  
+}
+
+ul {
+  padding-left: 31px;
+  line-height: 24px;
+  list-style-type: none;
+}
+ul > li:before {
+  content: "-";
+}
+ol > li:before {
+  content: ")";
+}
+p {
+  font-size: 1.2em;
+  padding-top:30px;
+}
