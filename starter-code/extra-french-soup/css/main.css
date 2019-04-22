@@ -56,6 +56,7 @@ h2 {
 ol {
   padding-left: 31px;
   line-height: 24px;
+  list-style-type: none;
 }
 
 ul {
@@ -66,9 +67,7 @@ ul {
 ul > li:before {
   content: "-";
 }
-ol > li:before {
-  content: ")";
-}
+
 p {
   font-size: 1.2em;
   padding-top:30px;
