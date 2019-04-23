@@ -1,0 +1,15 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ div {
+  height: 600px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+ }
+ h1 {
+   padding: 500px 0;
+  color: white;
+  text-align: center;
+  }
