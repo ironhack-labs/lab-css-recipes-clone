@@ -1,0 +1,27 @@
+{
+  "name": "lab-css-recipes-clone",
+  "version": "1.0.0",
+  "description": "![Ironhack logo](https://i.imgur.com/1QgrNNw.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqdavidh/lab-css-recipes-clone.git"
+  },
+  "author": "davidh <david@productividadti.com.mx> (productividadti.com.mx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqdavidh/lab-css-recipes-clone/issues"
+  },
+  "homepage": "https://github.com/iqdavidh/lab-css-recipes-clone#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-load-plugins": "^1.5.0"
+  },
+  "dependencies": {
+    "st": "^1.2.2"
+  }
+}
