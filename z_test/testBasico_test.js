@@ -13,6 +13,6 @@ Scenario('Probando titulo', (I) => {
     I.dontSee('Page Not Found');
     I.dontSee('Error code');
     I.dontSee('Call Stack');
-    I.see('<img');
+    I.see('Ingredients');
 
 });
