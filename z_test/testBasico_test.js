@@ -9,7 +9,7 @@ Feature('Que el sitio tenga las imagenes indicadas');
 
 Scenario('Probando titulo', (I) => {
     I.amOnPage(urlSite);
-    I.seeInTitle("x");
+    I.seeInTitle("Apple Pie");
     I.dontSee('Page Not Found');
     I.dontSee('Error code');
     I.dontSee('Call Stack');
