@@ -8,7 +8,6 @@ body {
 
 
 #panMain {
-    width: 800px;
     margin: 0 auto;
     padding-top: 0;
 
@@ -29,44 +28,103 @@ article {
 article h1 {
     color: #fff;
     text-align: center;
-    font-size: 60px;
-    font-weight: normal;
-    padding: 180px 10px;
     margin-top: 0;
 }
 
 
-
-article p{ font-size: 23px; line-height: 28px}
-article hr {margin:0 60px}
-
-article h2{  margin-top: 30px; margin-bottom: 30px; font-weight: normal}
-
-ul.listaResaltarDatos {
-    list-style-type: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+article p {
+    font-size: 23px;
+    line-height: 28px
 }
 
-ul.listaResaltarDatos li {
-    display: inline-block;
-    width: 30%;
-    text-align: center
+article hr {
+    margin: 0 60px
+}
+
+article h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: normal
 }
 
 
-li.time{ background-image: url("images/")}
+/*ul.listaResaltarDatos {*/
+/*list-style-type: none;*/
+/*margin-top: 50px;*/
+/*margin-bottom: 50px;*/
+/*}*/
+
+/*ul.listaResaltarDatos li {*/
+/*display: inline-block;*/
+/*width: 30%;*/
+/*text-align: center*/
+/*}*/
 
 
-ul.listaIngredientes {list-style-type: none}
-ul.listaIngredientes li{ padding-bottom: 4px}
-ul.listaIngredientes li:before{ content:  '- '}
+ul.listaIngredientes {
+    list-style-type: none
+}
 
-ol.listaInstrucciones {list-style-type: decimal;}
-ol.listaInstrucciones li{ padding-bottom: 4px;  }
+ul.listaIngredientes li {
+    padding-bottom: 4px
+}
+
+ul.listaIngredientes li:before {
+    content: '- '
+}
+
+ol.listaInstrucciones {
+    list-style-type: decimal;
+}
+
+ol.listaInstrucciones li {
+    padding-bottom: 4px;
+}
+
 ol.listaInstrucciones li:before {
-    content:") ";
+    content: ") ";
     counter-increment: list;
 }
 
-.panImagen {margin: 40px; text-align: center}
+.panImagen {
+    text-align: center
+}
+
+/* responsivo para que no se vea mal */
+
+
+
+@media only screen and (max-width: 799px) {
+
+
+    article h1 {
+        font-size: 40px;
+        padding: 80px 10px;
+    }
+
+    main { padding: 0 10px}
+
+    #panMain {
+        width: 100%;
+    }
+
+    .panImagen{ margin: 0}
+
+    .panImagen  img{
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    article h1 {
+        font-size: 60px;
+        padding: 180px 10px;
+
+    }
+
+    #panMain {
+        width: 800px;
+    }
+}
