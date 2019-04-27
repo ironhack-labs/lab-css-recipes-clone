@@ -12,6 +12,11 @@ h1, body, html, main {
 h2{
   font-size: 18px
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* style.css */
 .receipe-name{
   background-image: url("https://i.imgur.com/lGGM68Q.jpg");
