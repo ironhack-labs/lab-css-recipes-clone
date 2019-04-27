@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html {
+  font-family: Roboto;
+  font-size: 18px
+}
+h1, body, html, main {
+  margin: 0;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+h2{
+  font-size: 18px
+}
+/* style.css */
+.receipe-name{
+  background-image: url("https://i.imgur.com/lGGM68Q.jpg");
+  background-position:left;
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 500px;
+  background-size: cover;
+  }
+  #rec-times {
+    align-content: center;
+    height: 50px;
+  }
+  #cook-times {
+    align-content: center;
+    height: 70px;
+  }
+  ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
