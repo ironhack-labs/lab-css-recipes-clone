@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+	
+	text-align: justify;
+	font-family: arial;
+	color: grey;
+	font-size: 30px;
+}
+
+h1{
+	text-align: center;
+	position: absolute;
+	top: 14%;
+	left: 45%;
+	color: white;
+}
+
+header {
+	background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+	width: 100%;
+	height: 500px ;
+	background-position: 0px,0;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+
+}
+
+.parrafo{  
+	margin-right: 40px;
+	margin: 40px;
+	position: relative;
+	left: 100px;
+  }
+img{
+	position: relative;
+	left: 250px;
+}
+
+.list_ing{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+
+hr {
+ 	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+h3{
+	margin-right: 40px;
+	margin: 30px;
+	position: relative;
+	left: 10px;
+}
+
+
+.list_ing
+{
+	list-style-type: "-";
+}
+
+.imagenDos
+{
+	position: relative;
+	left: 350px;
+}
+
+
+.list_dir{
+	list-style-type: lower-latin;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
