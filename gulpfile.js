@@ -23,6 +23,8 @@ function validar() {
 }
 
 
+
+
 gulp.task("watch", () => {
 
     gulp.watch("./public/", crearPublic)
@@ -30,3 +32,4 @@ gulp.task("watch", () => {
 
 
 gulp.task("validar", validar);
+

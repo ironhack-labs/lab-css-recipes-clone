@@ -4,7 +4,8 @@
   "description": "![Ironhack logo](https://i.imgur.com/1QgrNNw.png)",
   "main": "index.js",
   "scripts": {
-    "test": "npx codeceptjs run --steps"
+    "test": "npx codeceptjs run --steps",
+    "subir": "aws s3 sync public s3://iqdavidhironhack2 --delete"
   },
   "repository": {
     "type": "git",
