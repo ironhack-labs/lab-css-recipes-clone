@@ -1,9 +1,32 @@
 img{
-    background-image: back
-    display:aline;
+    
     margin:auto;
+    justify-content: center;
     }
 p {
     text-align: center;
     width: 40%;
+    text-align: justify;
+    margin-left: 2%;
 }
+
+#ingredientes {
+    margin-left: 2%;
+    text-align: justify;
+  }
+
+  .receta {
+    text-align: justify;
+  }
+
+  .tiempos {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    }
+
+.imagen1 {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    }
