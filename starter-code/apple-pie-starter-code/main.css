@@ -1,0 +1,117 @@
+/*first div*/
+
+* {
+  box sizing: border-box
+}
+
+.imgheader {
+  background-image: url(https://nsa40.casimages.com/img/2019/05/27/190527054826555017.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleheader {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*second div*/
+
+.presentation {
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  color: #686665;
+  margin-top: 70px;
+
+}
+
+.cookinginfoimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hr {
+  width: 68%;
+  border-top: 2px solid #686665;
+  margin-top: 40px;
+
+}
+
+/*third div*/
+
+.h2ingredients {
+  width: 50%;
+
+  position: relative;
+  left: 226px;
+  top: 28px;
+  color: #2E2C2C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+
+
+}
+
+
+.recipelist {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #2E2C2C;
+  font-size: 1.2em;
+  position: relative;
+  left: 200px;
+  top: 40px;
+
+
+
+
+}
+
+
+
+
+.recipeinfoimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+
+}
+
+/*fourth div*/
+
+.h2directions {
+  width: 50%;
+  position: relative;
+  left: 230px;
+  top: 28px;
+  color: #2E2C2C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+
+}
+
+.directionslist {
+  list-style-type: none;
+
+  font-family: 'Montserrat', sans-serif;
+  color: #2E2C2C;
+  font-size: 1.28em;
+  position: relative;
+  left: 220px;
+  top: 28px;
+  margin-top: 30px;
+  margin-bottom: 160px;
+}
