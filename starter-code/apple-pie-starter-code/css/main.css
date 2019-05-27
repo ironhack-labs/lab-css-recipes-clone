@@ -1,0 +1,33 @@
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'montserrat';
+    font-size: 18px
+  }
+  #center {
+    text-align: center;
+  }
+  #blocimage {
+    background-image: url("./../images/apple-pie.jpg");
+    height: 600px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #justify {
+      text-align: justify;
+  }
+  #left{
+      text-align: left;
+  }
+  ul{
+      list-style-type: none;
+  }
+  
+
