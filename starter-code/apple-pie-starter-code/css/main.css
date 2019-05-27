@@ -1,0 +1,44 @@
+header {
+  background-image: url("https://nsa40.casimages.com/img/2019/05/27/190527054826555017.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 0 0 no-repeat;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20em;
+  font-size: 5rem;
+}
+
+p {
+  text-align: center;
+}
+
+.cooking {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.recipe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
