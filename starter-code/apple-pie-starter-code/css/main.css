@@ -1,0 +1,75 @@
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Overpass", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.apple-pie {
+  position: relative;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 950px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+.apple-pie h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-weight: normal;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+}
+.recipe-info p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 35em;
+  font-size: 2em;
+}
+.recipe-info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 77%;
+  margin-bottom: 45px;
+}
+h2 {
+  font-size: 2em;
+}
+.container {
+  margin-left: 11.5%;
+  width: 70%;
+}
+.cooking-info ul {
+  font-size: 2em;
+  list-style: none;
+}
+.cooking-info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.directions {
+  margin-bottom: 80px;
+}
+.directions ol {
+  font-size: 2em;
+  list-style: none;
+}
