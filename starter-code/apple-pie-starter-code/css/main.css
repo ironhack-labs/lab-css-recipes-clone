@@ -1,0 +1,49 @@
+body {
+  font-family: Lato;
+  font-weight: 200;
+}
+
+section {
+  margin: 20px;
+}
+
+.title {
+  background-image: url("../images/apple-pie.jpg");
+  color: white;
+  font-size: 100px;
+  padding: 200px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 30px;
+  padding: 100px 300px 100px 300px;
+  text-align: center;
+}
+
+.cookingInfo {
+  padding: 100px 0 50px 0;
+}
+
+.ingredient {
+  font-size: 30px;
+  padding: 0px 300px 100px 300px;
+}
+
+.list {
+  list-style: none;
+}
+
+.recipeInfo {
+  padding: 100px 0 50px 0;
+  text-align: center;
+}
+
+.directions {
+  font-size: 30px;
+  padding: 0px 300px 100px 300px;
+}
+
+.listDir {
+  list-style: none;
+}
