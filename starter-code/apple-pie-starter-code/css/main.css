@@ -1,0 +1,47 @@
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
+
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0 100px 0 100px;
+}
+
+.pic {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+body {
+  color: black;
+  font-size: 1em;
+  padding: 10px;
+  font-family: overpass;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  position: center;
+}
+
+div.container4 {
+  position: relative;
+}
+
+div.container4 p {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.ingredients {
+  text-align: left;
+  list-style: circle;
+}
