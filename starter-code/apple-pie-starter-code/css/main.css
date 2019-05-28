@@ -1,1 +1,16 @@
-body { background-color: red}
+
+.apple{
+    background-image:url("../images/apple-pie.jpg");
+    padding : 200px; 
+    color: white;
+    text: center;
+    font-size: 60px;    
+}
+
+img.heure{
+    display:block; 
+    margin : auto; 
+}
+h4{
+    text : center; 
+}
