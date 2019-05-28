@@ -53,8 +53,8 @@ h2 {
   font-size: 2em;
 }
 .container {
-  margin-left: 11.5%;
-  width: 70%;
+  margin: 0 auto;
+  width: 75%;
 }
 .cooking-info ul {
   font-size: 2em;
