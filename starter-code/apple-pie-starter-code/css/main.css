@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url(/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.text {
+    text-align: justify;
+    padding: 4% 5%;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
