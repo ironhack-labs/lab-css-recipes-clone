@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+   
+}
+.head-background{
+  background-size: cover;
+  background-image: url("../images/apple-pie.jpg");
+  height: 720px;
+  vertical-align: middle;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
