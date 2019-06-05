@@ -1,6 +1,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  line-height: 150%;
+
 
 }
 h1{
@@ -8,6 +10,18 @@ h1{
   padding-top: 44vh;
   color: white;
   font-size:100px
+}
+.ingredientes{
+  padding-left: 150px;
+  list-style-type: armenian;
+}
+.ul1{
+  list-style-type: none;
+
+}
+.ul2{
+  list-style-type: decimal;
+  
 }
 nav{
   background-image: url("../images/apple-pie.jpg");
@@ -27,7 +41,16 @@ nav{
 hr{
   width: 750px;
   margin-bottom: 50px;
-
-
+}
+.img{
+  padding-top:50px;
+  width: 420px;
+  height: 74px;
+  padding-left: 300px
+}
+.img2{
+  padding-left: 300px;
+  width: 400px;
+  padding-top: 30px;
 }
 
