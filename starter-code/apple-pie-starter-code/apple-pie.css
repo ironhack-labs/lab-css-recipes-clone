@@ -1,14 +1,13 @@
-/*Some necessary adjustments*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 *{
   margin: 0;
   padding: 0;
   font-family: "Roboto"
-S
+
 }
 .header {
 
-  background: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/extra-french-soup/images/soup.jpg?raw=true) 0 0 no-repeat;
+  background: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true) 0 0 no-repeat;
   background-size: cover;
   height: 550px;
   position: relative;
@@ -44,4 +43,3 @@ section{
 .item{
    list-style-type: none;
 }
-
