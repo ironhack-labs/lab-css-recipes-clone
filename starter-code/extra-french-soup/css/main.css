@@ -4,6 +4,71 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-size: 18px
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  line-height: 150%;
+
+
+}
+h1{
+  margin-top: 0;
+  padding-top: 44vh;
+  color: white;
+  font-size:100px
+}
+h2{
+  padding-bottom: 40px;
+
+}
+.ingredientes{
+  padding-left: 150px;
+  padding-right: 150px;
+  list-style-type: armenian;
+  text-align: justify;
+}
+.ul1{
+  list-style-type: none;
+  padding-left: 0px;
+
+
+}
+.ul2{
+  list-style-type: decimal;
+  text-align: justify
+  
+}
+nav{
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+  text-align: center
+  
+}
+.seccion1{
+  text-align: justify;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+hr{
+  width: 750px;
+  margin-bottom: 50px;
+}
+.img{
+  padding-top:50px;
+  width: 420px;
+  height: 74px;
+  padding-left: 250px
+}
+.img2{
+  padding-left: 300px;
+  width: 400px;
+  padding-top: 30px;
+}
+
