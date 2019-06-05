@@ -1,0 +1,24 @@
+ .inicio{
+    height:10%;
+    width: 90%;
+  }
+  image{
+      position: relative;
+      align-self: center;
+  }
+  h1{
+    font-size: 65px;
+    color: white;
+    position: relative;
+    bottom:530px;
+    left:400px;
+  }
+  div{
+    text-align: justify
+    position: absolute 50px ;
+  }
+
+  h3{
+    font-weight:bold;
+
+  }
