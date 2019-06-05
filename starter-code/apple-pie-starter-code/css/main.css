@@ -1,3 +1,21 @@
+body {
+    margin-top: 0;
+    padding-top: 0;
+}
+
 .apple {
-    background-image: url("../images/apple-pie.jpg")
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: center center;
+    position: relative;
+    height: 800px;
+    min-width: 10px;
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+    
 }
