@@ -1,9 +1,89 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+/* h1, body, html, main {
   margin: 0;
-}
+} */
 /*Import the font and set the default size*/
-html {
+/* html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 650px;
+  background-image: url("../images/soup.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  position: relative;
+
+}
+
+h1 {
+  position: absolute;
+  top: 250px;
+  left: 23%;
+  text-align: center;
+
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.separator {
+  width: 70%;
+  margin-left: 15%;
+}
+
+section {
+  margin: 30px 0;
+  font-size: 20px;
+  color: rgba(0,0,0, .7);
+}
+
+section p {
+  width: 70%;
+  margin-left: 15%;
+}
+
+section img {
+  width: 30%;
+  margin-left: 35%;
+}
+
+section h3 {
+  margin-left: 15%;
+  
+}
+
+section ul,
+section ol {
+  width: 68%;
+  margin-left: 15%;
+  padding-left: 2%;
+  counter-reset: list;
+  padding-bottom: 20px;
+}
+
+section li {
+  list-style-type: none;
+}
+
+section li::before {
+  content: "- ";
+}
+
+
+section ol > li {
+  list-style: none;
+}
+
+section ol > li::before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
 }
