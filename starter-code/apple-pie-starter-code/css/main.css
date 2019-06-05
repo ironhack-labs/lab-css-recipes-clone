@@ -1,19 +1,33 @@
 body{
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 
 }
 h1{
   margin-top: 0;
-  padding-top: 56vh;
+  padding-top: 44vh;
   color: white;
   font-size:100px
 }
 nav{
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
-  height: 1000px;
+  height: 700px;
   width: 100%;
   text-align: center
   
+}
+.seccion1{
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+hr{
+  width: 750px;
+  margin-bottom: 50px;
+
+
 }
 
