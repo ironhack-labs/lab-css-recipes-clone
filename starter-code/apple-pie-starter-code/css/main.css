@@ -1,0 +1,44 @@
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#begin {
+  background: url("apple-pie.jpg");
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  padding-top: 20%;
+  font-size: 3.0em;
+  font-weight: 300;
+  
+}
+
+#first {
+  margin: 20px auto;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+img {
+  margin-left: 20%;
+}
+
+#list {
+  list-style-type: none;
+  font-size: 1.3em;
+}
+
+#second {
+  width: 60%;
+  font-size: 1.3em;
+  margin: 0 auto;
+}
