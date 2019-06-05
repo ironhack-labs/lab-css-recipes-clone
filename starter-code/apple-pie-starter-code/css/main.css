@@ -1,0 +1,58 @@
+.inicio{
+    position: relative;
+    height: 500px;
+}
+.imagen1{
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    left: 10%;
+}
+.texto1{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 36%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 500%;
+    font-weight: 10;
+}
+.segundo{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%; 
+    margin-bottom: 3%;
+    margin-top:3%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.segundo ol{
+    color: gray;
+}
+.segundo ul{
+    color:gray;
+}
+.segundo h2{
+    font-weight: 200;
+}
+.segundo img{
+    position: relative;
+    height: 60px;
+  
+    
+}
+.segundo p{
+    color: gray;
+    font-size: 24px;
+}
+.img2{
+    position: relative;
+    margin-left: 35%;
+}
+.img1{
+    position: relative;
+    margin-left: 31%;
+    
+}
+body{
+    margin:0;
+}
