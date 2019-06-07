@@ -63,11 +63,12 @@ hr {
 }
 
 .divHeader {
-  background-image: url(images/apple-pie.jpg);
+  background-color: #cccccc;
+  background-image: url("../images/apple-pie.jpg");
   marging: 0;
   width: 100%;
   height: 25%;
-  background-color: #cccccc;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
