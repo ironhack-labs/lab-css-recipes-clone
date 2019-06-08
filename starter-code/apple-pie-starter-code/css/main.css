@@ -1,0 +1,109 @@
+
+/* Header Section */
+
+.apple-pie-section{
+  background-image: url("../images/apple-pie.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+.apple-pie-header {
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* Introduction Section */
+
+.introduction-section p {
+  
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 50%;
+  text-align: justify;
+  margin-left: 25%;
+}
+
+.meal-information li {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 5px; 
+
+}
+
+.meal-information {
+  margin-left: 35%;
+}
+
+/* Ingredients Section */
+
+.ingredient-section {
+  margin-left: 25%;
+}
+
+.recipe {
+  list-style-type: none;
+}
+
+.recipe li::before {
+  padding: 2px;
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+.prep-time li {
+  list-style: none;
+  display: inline;
+  
+}
+
+.prep-col {
+  display: inline-flex;
+  flex-direction: column;
+  
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#mid-border {
+  border-left: 1px solid grey;  
+  border-right:  1px solid grey; 
+}
+
+.prep-col span {
+  margin: 5px;
+}
+
+
+
+/* Directions */
+.direction-section{
+  margin-left: 25%;
+}
+
+.directions li{
+  width: 75%;
+  text-align: justify;
+  padding:5px;
+}
+
+.prep-elements {
+  margin-left: 10%;
+}
+
+hr {
+  width: 60%;
+}
