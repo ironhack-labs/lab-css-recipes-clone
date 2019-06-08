@@ -1,0 +1,118 @@
+/* Remove browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+}
+
+/* Use this font for whole page */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* Header Image */
+header {
+  /* Resize header with image */
+  width: 60%;
+  height: 550px;
+
+  /* Place the image here in background so we can put header on top  */
+  background-image: url(../images/apple-pie.jpg);
+
+  /* Center Header */
+  margin: 0 auto;
+
+  /* Resize image in header to make image fit perfectly in header */
+  background-size: cover;
+}
+
+/* Header Text Inside Image */
+header h1 {
+  /* Design Text */
+  color: white;
+  font-size: 60px;
+
+  /* Make h1 inline block so its easier to manipulate */
+  display: inline-block;
+  
+
+  /* resize header block */
+  width: 300px;
+
+  /* Position Header */
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 20%;
+}
+
+/* div containing intro */
+.intro {
+  /* Resize the div */
+  width: 40%;
+
+  /* Postion the div */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-info {
+  margin: 0 38%;
+}
+
+/* resize image */
+.recipe-info img {
+  width: 390px;
+}
+
+hr {
+  width: 50%;
+  margin: 30px auto;
+}
+
+h2 {
+  margin-left: 25%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ingredients {
+  display: inline-block;
+
+  margin-left: 25%;
+}
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.cooking-info {
+  margin: 0 38%;
+  margin-top: 25px;
+}
+
+/* To adjust image of cooking info */
+.cooking-info img {
+  width: 370px;
+}
+
+/* Container for directions */
+.directions {
+  display: inline-block;
+
+  /* Resize container of directions list */
+  width: 30%;
+  margin: 0 26%;
+
+}
+
+/* Space between list elements */
+.directions ol li {
+  padding: 10px;
+}
+
+/* Space between bottom of page and directions */
+.directions ol {
+  margin-bottom: 60px;
+}
