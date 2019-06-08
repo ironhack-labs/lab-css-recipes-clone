@@ -1,9 +1,78 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+h1 {
+    font-size: 25px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+hr {
+    width: 40%;
+   
+}
+.imageRecipe img{
+    padding: 15px;
+    display: block;
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    color:white;    
+}
+.imageRecipe p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipeDescription img{
+    padding: 20px;
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.recipeDescription p{
+    padding: 10px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.recipeIngredients {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.recipeIngredients img{
+    padding: 20px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.recipeDirections {
+    padding: 10px 0px 0px 50px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-justify: auto;
 }
