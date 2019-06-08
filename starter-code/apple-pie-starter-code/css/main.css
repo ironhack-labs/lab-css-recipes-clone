@@ -1,43 +1,44 @@
-.header {
-  width: 1024px;
-  position:relative;
- 
+body {
+  font-family: "Open Sans", sans-serif;
 }
+
+.header {
+  max-width: 100%;
+  height: 130vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
 .h1 {
   text-align: center;
   color: white;
   font-size: 60px;
-  position:absolute;
-  left:30%;
-  top:30%;
-
+  font-weight: lighter;
+  /*padding: 50vh 0;*/
+  line-height:130vh;
 }
-.img-header {
-  width: 100%;
-  height: 300px;
-}
-
 
 .h3 {
-  margin: 10px 80px;
-  margin-bottom: 20px;
+  margin: 20px 90px;
 }
+
 .paragraph {
   margin: 0px 80px;
-  font-size: 1em;
-  padding: 0 20px;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: lighter;
 }
 
 .image {
-  display: inline-block;
-  margin: 20px 0;
-  width: 250px;
+  width: 300px;
   padding: 0 33%;
 }
 
 .hr {
   margin: 0 70px;
 }
+
 .content {
   margin: 10px 20px;
 }
