@@ -1,0 +1,48 @@
+div.applePie {
+  background: url("../images/apple-pie.jpg") no-repeat center center;
+  height: 600px;
+
+  background-size: cover;
+  border-color: #161414;
+}
+
+img.instructions {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+ul.dashed {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.dashed > li {
+  margin-left: 15px;
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+  content: "-";
+  margin-left: -15px;
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 30px;
+}
+
+p.description {
+  font-size: 18px;
+  justify-content: center;
+}
+
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
