@@ -1,0 +1,91 @@
+.main-func{
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+}
+
+.body-func{
+    background-color: white;
+
+}
+
+.apple-pie{
+  height:400px;
+  background-image: url('../images/apple-pie.jpg');  
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  background-size: cover; /*this is to show all the image*/
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.line-one{
+border-top: 1px solid black;
+}
+
+.first-par{
+    text-align: justify;
+}
+
+.apple-pie h1{
+    margin: auto 0;
+    font-size: 50px;
+}
+
+.first-img {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    margin:0;
+}
+
+.first-list{
+    list-style-type: none;
+}
+
+.first-list > li{
+    text-indent: -30px;
+}
+
+.first-list > li:before{
+    content:"-";
+    text-indent:-30px;
+}
+
+.second-img {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line-two{
+    border-top: 1px solid black;
+    }
+
+ol{
+    counter-reset: list;
+    margin:0;
+}
+
+ol > li{
+    list-style: none;
+    position: relative;
+}
+
+ol > li:before {
+    counter-increment: list;
+    content: counter(list,decimal)")";
+    position: absolute;
+    left: -1.4em;
+}
