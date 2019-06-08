@@ -5,5 +5,50 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: #666;
+}
+
+header{
+    margin-top: 0em;
+    background-image: url(../images/soup.jpg);
+    padding:10%
+    width:80%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+   
+   font-size: 5em;
+   color: white;
+   text-align: center;
+   position: relative;
+   padding-top: 20%;
+   font-weight: 300
+}
+.content{
+    padding-right: 20em;
+    padding-left: 20em;
+    padding-top: 5em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li{
+    line-height: 30px;
 }
