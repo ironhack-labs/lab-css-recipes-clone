@@ -1,9 +1,80 @@
-/*Some necessary adjustments*/
+/* Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
-html {
+/* html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+} */ 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+background-color: black;
+font-size: 25px;
+font-family: Sans-serif;
+font-weight: normal;
+}
+.appleImage{
+  background-image: url("../images/soup.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto 150px;
+  background-attachment: fixed;
+}
+.appleHeader{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 300px;
+}
+.content{
+  margin: auto 150px;
+  background-color: white;
+  padding-bottom: 65px;
+}
+.nanaPie{
+  padding-top: 75px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  
+}
+.ingridientsHeader{
+  padding-left: 8%;
+  padding-bottom: 25px; 
+  padding-top: 15px; 
+}
+
+.ingridientsLi{
+  padding-left: 10%;   
+}
+.recipePics{
+  width: auto;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 15px;
+
+  /* width: 50%; */
+}
+.directionsHeader{
+  padding-left: 8%;
+  padding-bottom: 25px; 
+  padding-top: 15px; 
+
+}
+.directions{
+  margin: 0px auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
 }
