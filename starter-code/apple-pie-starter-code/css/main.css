@@ -1,0 +1,69 @@
+.main-img {
+  text-align: center;
+}
+
+.main-img h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4em;
+  font-weight: lighter;
+  
+}
+
+#intro {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.2em;
+}
+
+body {
+  font-family: Roboto, "Gotham SSm A", "Gotham SSm B", sans-serif;
+  font-size: 1.10em;
+  color: rgb(78, 78, 78);
+  margin-top: 0;
+}
+
+.ingredients {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 60px;
+}
+
+.directions {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 60px;
+}
+
+.ingredients-list {
+  text-align: left;
+}
+
+.directions-img {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+
+.directions-list {
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
+li {
+  list-style-type: none;
+}
+
+hr {
+  color: lightgray;
+  border: solid 1px lightgray;
+}
