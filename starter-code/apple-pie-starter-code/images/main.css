@@ -1,0 +1,56 @@
+.big-image {
+
+    background-image: url("apple-pie.jpg");
+    height: 450px;
+    width: 775px;
+    background-size: cover;
+    position: relative;
+    left: 22%
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 65px;
+    top: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 10%
+}
+.breakfast-info{
+    position: relative;
+    left: 35%;
+    width: 8%;
+
+}
+ul{
+    font-size: 20px;
+    position: relative;
+    left: 24%
+}
+
+.ingredient-info{
+    position: relative;
+    left: 35%
+}
+.paragraphs{
+    font-size: 20px;
+    position: relative;
+    left: 28%;
+    }
+.paragraph-2{
+    text-align: left;
+    font-size: 18px;
+}
+
+hr{
+    margin-right: 26%;
+    margin-left: 24%;
+}
