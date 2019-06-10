@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    line-height: 22px;
+}
+
+header {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    height: 650px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    line-height: 650px;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 45px 0;
+}
+
+#info-recipe {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.main-paragraph {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.recipes-elements {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.recipes-elements-cooking {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+}
+
+.recipes-elements-cooking  p {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.recipes-elements-cooking > div {
+    padding: 0 25px;
+}
+
+.middle-div {
+    margin: 0 15px;
+    border-left: 2px solid #fafafa;
+    border-right: 2px solid #fafafa;
+}
