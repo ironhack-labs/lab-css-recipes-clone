@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 50%;
+  margin: 10px auto;
+}
+.main-contain{
+  padding: 0 5% ;
+}
+
+.background-title {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 400px;
+  font-size: 25px;
+}
+
+.main-title {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 11%;
+}
+
+.recipe-text {
+  width: 45%;
+  margin: 50px auto;
+  padding-top: 10px;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.4em;
+}
+
+.recipe-info {
+  display: block; 
+  margin: 0 auto;
+  width: 400px;
+  height: 30%;
+  padding-bottom: 3%;
+}
+
+.cooking-info {
+  display: block; 
+  margin: 0 auto;
+  width: 300px;
+  height: 15%;
+  padding: 5%;
+}
+
+.container {
+  padding: 3%;
+}
+
+.ingredient-list {
+  width: 50%;
+  margin: 10px auto;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.4em;
+}
+
+.ingredient-list ul li {
+  list-style-type: none;
+  line-height: 1.4em;
+}
+
+.ingredient-list ul{
+  line-height: 1.6em;
+}
+
+h2 {
+  margin-bottom: 4%;
+}
+
+.preparing {
+  width: 50%;
+  margin: 10px auto;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.4em;
+
+}
+
+.preparing ol {
+  line-height: 1.6em;
+
+}
