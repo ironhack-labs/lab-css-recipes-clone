@@ -17,7 +17,7 @@ body {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1292px;
+  height: 700px;
 }
 
 h1 {
@@ -30,7 +30,8 @@ h1 {
 }
 
 h2 {
-  
+  font-size: 28px;
+  padding: 45px 0 30px 0;
 }
 
 .description {
@@ -39,9 +40,28 @@ h2 {
   padding: 60px 0 30px 0;
 }
 
-.recipe-img{
+img{
   width: 507px;
   margin: 0 auto;
   display: block;
   margin-bottom: 10px;
+}
+
+
+ul li{
+  list-style-type: none;
+  font-size: 25px;
+}
+
+ul{
+  margin-bottom: 40px;
+  
+}
+
+.list{
+  padding: 0 20px;
+}
+
+.list-bottom {
+  padding-bottom: 100px;
 }
