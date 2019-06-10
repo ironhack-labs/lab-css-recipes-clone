@@ -18,16 +18,14 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  height: auto;
 }
 
 h1 {
   color: #FFF;
   font-size: 80px;
   text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 35%;
+  padding: 250px 0;
 }
 
 h2 {
