@@ -1,0 +1,90 @@
+*{
+  font-family: 'Arial'; 
+}
+body{
+  margin: 0;
+}
+.background-apple{
+  background: url("../images/apple-pie.jpg") 0 0 no-repeat;
+  background-size: cover;
+  height: 90vh;
+  padding-top: 300px;
+  color:white;
+  text-align:center;
+  font-size: 2.5em;
+}
+.background-apple h1{
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  color:rgb(56,56,56);
+}
+.container-full-size {
+  margin-bottom: 5%;
+  width: 100%;
+}
+/* .first-section figure{
+  margin: 0;
+  width: 50%
+} */
+.first-section img {
+  margin-left: 20%;
+  width: 70%;
+}
+.first-section figure {
+  margin: 0 auto;
+  margin-left: 20%;
+  width: 60%;
+}
+.first-section p {
+  width: 100%;
+  margin: 0 0 5% 0;
+  text-align: left;
+ font-size: 1.8em;
+}
+hr {
+  width: 85%;
+}
+ h4{
+  font-size: 1.6em;
+}
+.second-section figure {
+  margin: 0 auto;
+  margin-left: 20%;
+  width: 60%;
+}
+.second-section img {
+  margin-left: 20%;
+  width: 60%;
+}
+.bullet-to-dash {
+  list-style-type: none;
+}
+.bullet-to-dash li {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+.bullet-to-dash > li::before{
+  content: "- ";
+  margin-left: -15px;
+}
+.third-section li{
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+.third-section {
+  margin-bottom: 5%;
+}
+.third-section ol {
+  padding-left: 10px;
+  counter-reset: list;
+  width:90%;
+}
+.third-section ol > li {
+  list-style: none;
+}
+.third-section ol > li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
+}
