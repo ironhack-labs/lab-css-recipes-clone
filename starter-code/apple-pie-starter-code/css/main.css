@@ -1,0 +1,42 @@
+body {
+  font-family: "Calibri";
+}
+
+.apple-pie {
+  background-image: url('../images/apple-pie.jpg');
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 700px;
+  font-size: 35px;
+  background-size: 100%;
+}
+
+.apple-pie2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  text-align: center;
+  font-size: 25px;
+  width: 800px;
+  margin-left: 25vw;
+  margin-top: 75px;
+ }
+
+.cooking-info{
+max-width: 450px;
+margin-left: 35vw;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+
+
+.ingredients-list ul{
+
+}
