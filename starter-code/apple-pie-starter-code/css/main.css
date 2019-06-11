@@ -1,0 +1,100 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(87, 87, 87);
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+.apple-pic {
+  text-align: center;
+  height: 110vh;
+  margin: 0 auto 100px;
+  width: calc(100% - 175px);
+  background-size: cover;
+  background-image: url("../images/apple-pie.jpg");
+}
+
+.apple-pic > h1 {
+  color: white;
+  font-weight: 400;
+  padding-top: calc(55vh - 2.5rem);
+  font-size: 5rem;
+}
+
+.apple p {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.img-info {
+  margin: 50px auto 20px;
+  width: calc(100% - 950px);
+}
+
+.img-info-2 {
+  margin: 50px auto 20px;
+  width: calc(100% - 550px);
+}
+
+hr {
+  background: rgb(112, 112, 112);
+}
+
+.align-left {
+  text-align: left;
+}
+
+.ingredients {
+  margin-top: 55px;
+}
+
+.dashed {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.dashed > li {
+  text-indent: -25px;
+}
+
+.ingredients ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.titles h2 {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 1.6em;
+}
+
+.directions ol {
+  counter-reset: list;
+  margin: 0 0 0 -20px;
+  /* padding-top: 45px; */
+  line-height: 1.5em;
+  font-size: 1.3rem;
+}
+
+.directions li {
+  list-style: none;
+  position: relative;
+}
+
+.directions li:before {
+  counter-increment: list;
+  content: counter(list) ") ";
+}
+
+.directions {
+  margin-top: 30px;
+}
+
+.directions h2 {
+  padding: 17px 0 0 0;
+}
