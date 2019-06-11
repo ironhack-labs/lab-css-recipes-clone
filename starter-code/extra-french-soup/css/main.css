@@ -1,8 +1,7 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
@@ -34,9 +33,6 @@ body {
   padding-top: calc(50vh - 2.5rem);
   font-size: 5rem;
 }
-
-/* 954 648 0251
-Eric */
 
 .soup p {
   text-align: left;
