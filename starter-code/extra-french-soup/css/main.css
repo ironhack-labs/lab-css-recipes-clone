@@ -5,5 +5,108 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: 400;
 }
+
+.french-onion-photo {
+  background-image: url('../images/soup.jpg');
+  color: white;
+  text-align: center;
+  height: 525px;
+  font-size: 40px;
+  background-size: 100%;
+  background-position-x: 70%;
+  background-position-y: 100%;
+}
+
+.french-onion-soup {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  font-weight: 500;
+}
+
+.description {
+  text-align: left;
+  font-size: 24px;
+  width: 750px;
+  margin-left: 28vw;
+  margin-top: 120px;
+ }
+
+.recipe-info{
+max-width: 420px;
+margin-left: 36vw;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.line-break {
+  width: 60%;
+}
+
+
+.ingredients {
+padding-top: 20px;
+margin-left: 20vw;
+}
+
+.ingr-title {
+font-size: 27px;
+font-weight: 500;
+padding-bottom: 20px;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ul.ingredients-list > li:before {
+  content: "- ";
+}
+
+.cooking-info {
+max-width: 375px;
+margin-left: 18vw;
+padding-top: 25px;
+margin-bottom: 10px;
+}
+
+.directions {
+padding-top: 20px;
+margin-left: 20vw;
+padding-bottom: 20px;
+width: 45%;
+}
+
+.directions-title {
+  font-size: 27px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.directions-list {
+  font-size: 20px;
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.directions-list li {
+  display: block;
+  margin-bottom: .5em;
+  margin-left: 2em;
+}
+.directions-list li::before {
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
