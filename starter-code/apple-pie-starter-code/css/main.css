@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+}
+ .image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      object-fit: cover;
+}
+.image h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-weight: lighter;
+}
+.ingredients {
+    margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      margin: 20px 70px 20px 70px;
+      
+      
+}
+.ingredients ul{
+    list-style-type: none;
+}
+.ingredients li:before {
+    
+    content: "- ";
+}
+h1{
+    font-size: 60px;
+}
+h4{
+}
+ .cooking-info-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 15%;
+ }   
+
+
+.directions{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      margin: 40px 70px 40px 70px;
+      
+}
+.parag1{
+    margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      margin: 40px 100px 40px 100px;
+      
+}
