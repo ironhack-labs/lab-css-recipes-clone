@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 3em;
+  font-weight: normal;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  background-image: url(/Users/juliaramos/code/labs/week1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: cover;
+  height: 850px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 400px;
+  font-size: 9em;
+  font-weight: normal;
+}
+
+aside {
+  margin: 80px auto 0px;
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+.center {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.separator {
+  margin: 60px 0;
+}
+
+h2 {
+  margin: 50px 0 20px;
+  font-weight: normal;
+  font-size: 2.3em;
+}
+
+li {
+  font-size: 2em;
+  margin-left: 40px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+}
+ul li::before {
+  content: '- ';
+}
+ol {
+  counter-reset: contador;
+}
+ol li::before {
+  content: counter(contador) ") ";
+	counter-increment: contador;
+}
