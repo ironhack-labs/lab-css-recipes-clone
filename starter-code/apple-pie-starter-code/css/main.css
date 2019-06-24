@@ -1,0 +1,62 @@
+/* main.css */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-size: 1.15em;
+  line-height: 1.45em; 
+}
+
+header {
+  height: 700px;
+  background-size: cover;
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  font-size: 5.5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.content {
+  margin: 0px 400px;
+  text-align: justify;
+}
+
+.blurb {
+  margin: 60px 0px 30px 0px;
+}
+
+.ingredients {
+  margin: 0 0 60px 0;
+}
+
+.info-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.instructions-list {
+  margin-left: 1em;
+  font-size: 0.9em;  /* Why is this necessary? */
+  line-height: 1.45em; 
+}
+
+.line {
+  margin: 20px 0 50px 0;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+.directions {
+  margin: 0 0 60px 0;
+}  /* Could be merged with .ingredients? */
