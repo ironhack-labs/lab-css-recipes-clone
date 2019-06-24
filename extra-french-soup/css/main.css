@@ -1,0 +1,44 @@
+h1, body, html {
+  margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: 0 10%;
+}
+
+header {
+  background-image: url("../images/head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  padding: 15% 0;
+  font-size: 5em;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+section img {
+  width: 60%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section.introduction, section.ingredients {
+  border-bottom: 3px solid lightgray;
+}
