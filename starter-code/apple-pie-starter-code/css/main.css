@@ -1,5 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0 10% 0 10%;
 }
 
 .article-title {
@@ -8,7 +10,7 @@ body {
   text-align: center;
   padding:20%;
   color: white;
-  font-size: 30px;
+  font-size: 3em;
 }
 
 .separator {
@@ -23,10 +25,30 @@ body {
   list-style-type:none;
 }
 
-.unordered-list-item:before {
+.unordered-list li:before {
   content: "- ";
+}
+
+.ordered-list{
+  counter-reset: my-directions;
+  list-style-type: none;
+}
+
+.ordered-list li:before{
+  counter-increment: my-directions;
+  content: counter(my-directions) ") ";
+}
+
+.no-indent{
+  padding-inline-start:10px;
 }
 
 h2 {
   padding: 0 0 10px 0;
 }
+
+.icons {
+  display:flex;
+  justify-content: center;
+}
+
