@@ -1,0 +1,76 @@
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+hr {
+    border-width: 3px;
+    border-color: grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+ul.dash>li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+.contents {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.headerText {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 7rem;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+
+.description {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 80px;
+}
+
+.direction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.ingreList {
+    font-size: 1.7rem;
+}
+
+.direct {
+    margin-top: 50px;
+}
+
+.directList {
+    font-size: 1.7rem;
+}
