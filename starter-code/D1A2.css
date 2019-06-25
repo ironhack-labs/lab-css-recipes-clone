@@ -1,0 +1,54 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+#Apple {
+  background: url(https://github.com/IfeomaOkah/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+  background-size: cover;
+  height: 70vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+h1 {
+  color: white;
+  font-size: 40px;
+} 
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 11rem 3rem 11rem;
+ 
+}
+
+#cooking-center {
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+ 
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -20px;
+}
+
+#Onion {
+background: url(https://github.com/IfeomaOkah/lab-css-recipes-clone/blob/master/starter-code/extra-french-soup/images/soup.jpg?raw=true);
+background-size: cover;
+height: 70vh;
+display: flex; 
+justify-content: center;
+align-items: center;
+}

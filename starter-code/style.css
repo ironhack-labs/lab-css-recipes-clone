@@ -1,0 +1,78 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 8px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: white; 
+  height: 100%px;
+  width: 100%;
+  padding-top: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.npmlogo {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.collab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-top: 40px;
+    width: 100%;
+    height: 550px;
+  
+}
+
+/* Build Amazing things*/
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Build Amazing things*/
+.build {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+#sec1 {
+  background-image: url();
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  padding-top: 40px;
+  width: 100%;
+  height: 550px;
+}
