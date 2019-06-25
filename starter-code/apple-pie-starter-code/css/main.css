@@ -1,0 +1,74 @@
+header {
+  background-image: url("file:///Users/tatianekomrij/Desktop/Labs/apple-pie-starter-code/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  color: white;
+  font-size: 4.5em;
+  font-family: "Arial";
+  line-height: 11em;
+}
+
+img {
+  display: block;
+  width: 350px;
+  margin: 40px auto;
+  border-bottom: 1px solid #000;
+  }
+  
+  .thoughts {
+      font-size: 20px;
+      text-align: center;
+      width: 80%;
+      margin-left: 150px;
+      font-family: "Arial";
+      font-weight: 100;
+  }
+  
+  .rec-info {
+      /* margin-left: 600px; */
+      /* height: 60px; */
+      }
+      
+      .ingredients {
+          font-family: "Arial";
+          margin-left: 140px;
+          margin-bottom: 40px;
+      }
+      
+      .recipe {
+          margin-left: 150px;
+          text-align: left;
+          line-height: 0px;
+          font-family: "Arial";
+      }
+      
+      .directions {
+          margin-bottom: 40px;
+          font-family: "Arial";
+          margin-left: 140px;
+          margin-top: 40px;
+          font-weight: 100;
+      }
+      /*
+       .cook-info {
+       margin-left: 460px;
+       margin-top: 40px;
+       height: 80px;
+       border-bottom: 1px solid #000;
+       } */
+      
+      .instructions {
+          margin-left: 130px;
+          line-height: 30px;
+          width: 600px;
+          font-family: "Arial";
+}
