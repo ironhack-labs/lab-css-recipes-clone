@@ -1,24 +1,95 @@
 body, html{
     margin: 0; 
-    padding: 0;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'barlow',  Helvetica, Arial, sans-serif;
+    color: #2d2d2d;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
 }
-.flex{
+
+h4 {
+    font-size: 1.4rem;
+}
+
+
+#header{
+    background: url(../images/apple-pie.jpg) no-repeat center center; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40vh; 
 }
 
-#header{
-    background: url(/images/apple-pie.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+.flex-center{
+    display: flex;
+    justify-content: center;
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+.intro-text{
+    font-size: 1.4rem;
+}
+
+.image-info {
+    margin: 1rem 0 1rem 0;
+    max-width: 300px;
+}
+
+.divider{
+    position: relative;
+    height: 2px;
+    background: lightgrey;
+}
+
+/* Let`s makes a list */
+
+.ingredients{
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+    line-height: 1.5rem;
+}
+
+.ingredients li:before{
+    content: '- ';
+    display: inline-block;
+    position: absolute;
+    margin-left: -10px;
+}
+
+/* For bigger screens */
+
+@media only screen and (min-width: 600px) {
+    #header {
+        height: 70vh; 
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .main{
+        padding: 4rem 6rem;
+    }
+
+    .image-info {
+        max-width: 400px;
+    }
+
+  }
