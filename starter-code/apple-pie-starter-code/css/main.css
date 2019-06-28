@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    font-style: initial;
+}
+.text-page-center {
+    margin-right: 150px;
+    margin-left: 80px;
+}  
+h1 {
+    color:white;
+    font-size: 80px;z
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.text-justify {
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.listaguion-li  {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+li:before   {
+    content: "-";
+}
+
