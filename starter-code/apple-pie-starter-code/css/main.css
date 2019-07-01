@@ -1,0 +1,56 @@
+body {
+    font-size: 1em;
+    font-weight: 20;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    padding: 150px;
+    background: url("../images/apple-pie.jpg") no-repeat center /cover;
+    text-align: center;
+    color:white;
+    background-size: 100%;
+    font-size: 3em;
+}
+
+h1 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 80;
+    font-size: 1.8em;
+}
+
+h2{
+    font-size: 1.3em;
+    font-weight: 50;
+    margin: 40px 0;
+}
+ .intro {
+     text-align:center;
+     margin: 50px 230px;
+     font-size:1.5em;
+     font-weight: 100;
+ }
+
+ .intro2 {
+    margin: 50px 200px;
+    font-size:1.3em;
+    font-weight: 100;
+}
+
+ul {
+    list-style-type:none;
+    
+}
+ol {
+    list-style-type:none;
+    
+}
+img{
+    display: flex;
+    width:400px;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+}
