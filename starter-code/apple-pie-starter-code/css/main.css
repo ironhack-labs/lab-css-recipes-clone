@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  /* border: 2px solid blue; */
+  height: 25%;
+  padding: 25%;
+  font-size: 70px;
+  font-family: Roboto;
+  font-weight: lighter;
+}
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 850px;
+}
+
+h3 {
+  font-size: 27px;
+  font-family: Raleway;
+  /* border: 2px solid green; */
+  padding: 1%;
+}
+
+.list {
+  font-family: Raleway;
+}
+
+.introduction {
+  /* border: 2px solid green; */
+  font-family: Raleway;
+  text-align: center;
+  width: 70%;
+  padding: 10% 0 0 0;
+  margin: auto;
+  font-size: 25px;
+}
+
+.img-container {
+  /* border: 2px solid green; */
+  text-align: center;
+  width: 70%;
+  padding: 2% 2%;
+  margin: auto;
+}
+
+.line-container {
+  text-align: center;
+  width: 70%;
+  padding: 0 15% 3% 15%;
+}
+
+.line {
+  border: 1px solid;
+  color: #969696;
+  margin: 2%;
+}
+
+.part {
+  /* border: 2px solid blue; */
+  text-align: justify;
+  width: 70%;
+  padding: 0 15% 4% 15%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1%;
+}
+
+ol {
+  padding: 1em;
+  list-style: decimal;
+}
+
+li {
+  font-size: 20px;
+}
+
+#cooking-info {
+  width: 57%;
+  height: 57%;
+  padding-bottom: 0;
+  padding-top: 0;
+}
