@@ -25,11 +25,20 @@ p {
   line-height: 1.4em;
   margin: 1em 0;
 }
+ul {
+  margin-bottom: 30px;
+}
+
+ul li {
+  padding: 5px;
+  list-style: none;
+  font-size: 1.3em;
+}
 
 /* Customized styles */
 
 .bottomLine {
-  border-bottom: 2px solid #cbcbcb;
+  border-bottom: 3px solid #cbcbcb;
 }
 .container {
   max-width: 900px;
@@ -42,6 +51,17 @@ p {
   text-align: center;
   margin: 0 auto;
 }
+section {
+  margin: 30px 0;
+}
+.recipeInfo {
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  display: inherit;
+}
+
 /* Hero section */
 #hero {
   display: flex;
@@ -59,4 +79,12 @@ p {
   -o-background-size: cover;
   background-size: cover;
   display: flex;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 768px) {
+  .recipeInfo {
+    width: 100%;
+  }
 }
