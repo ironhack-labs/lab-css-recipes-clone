@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 4em;
+    position: relative;
+    left: 20%;
+}
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    height: 500px;
+    padding: 50px;
+}
+.intro{
+    font-size: 1.5em;
+    text-align: justify;
+    width: 60%;
+    margin: 10px auto;
+    padding-top: 5%;
+}
+.instructions {
+    display: block;
+    width: 25%
+    position: relative;
+    text-align: center;
+}
+img {
+    position: relative;
+    left: 30%;
+}
+hr{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
