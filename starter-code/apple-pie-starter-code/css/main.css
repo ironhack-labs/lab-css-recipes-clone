@@ -1,0 +1,43 @@
+/* General styles */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+}
+
+/* Customized styles */
+
+.bottomLine {
+  border-bottom: 2px solid #cbcbcb;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 10%;
+}
+
+/* Hero section */
+
+.hero {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
