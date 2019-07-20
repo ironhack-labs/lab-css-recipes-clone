@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+}
+
+hr{
+  border: 1px solid grey;
+  width: 1150px;
+}
+h2{
+  margin-bottom: 30px;
+  font-size: 1.7em;
+}
+ .applepie{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: image()
+}
+.applepie h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 10em;
+} 
+.receipeinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 70px 260px 40px 260px;
+}
+.receipeinfo p{
+  font-size: 1.9em;
+}
+.receipeinfo img{
+  width: 500px;
+  margin-top: 50px;
+}
+.containers{
+  margin-top: 60px;
+  margin-left: 265px;
+}
+  
+.ingredients ul{
+  list-style-type: none;
+  font-size: 1.3em;
+}
+.ingredients li::before{
+  content: "-";
+}
+.ingredients img{
+  width: 400px;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.directions ol{
+  margin-right: 260px;
+  font-size: 1.4em;
+  margin-bottom: 100px;
+}
+
