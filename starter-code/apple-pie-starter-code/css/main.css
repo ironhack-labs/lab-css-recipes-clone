@@ -1,0 +1,57 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 15rem 3rem 15rem;
+}
+h2 {
+  color: #fff;
+  bottom: 15vh;
+  font-size: 5em;
+  justify-content: center;
+}
+.header {
+  background-image: url(/Users/chanty/Desktop/labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  box-shadow: 0 0 0 4px #fff;
+  background-color: #fff;
+}
+
+.heading {
+  justify-content: center;
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+.Ingredient-list {
+  list-style-type: circle;
+}
+.DirectionsLi {
+  list-style: decimal;
+}
+.Directions {
+  padding: 0rem 4rem 4rem 10rem;
+}
+
+.cooking {
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.Ingredients {
+  justify-content: center;
+  padding: 0rem 4rem 2rem 10rem;
+}
