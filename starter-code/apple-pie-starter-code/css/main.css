@@ -15,8 +15,6 @@
     word-spacing: 5px;
     color: white;
     margin-left: 90px;
-
-    
 }
 
 h1 {
@@ -42,13 +40,13 @@ h1 {
 .margin-text {
     margin-left: 380px;
     text-align: left;
-
 }
 
 .info-img {
     margin-left: 540px;
     width: 290px;
 }
+
 hr {
     width: 47%;
     margin-left: 375px;
