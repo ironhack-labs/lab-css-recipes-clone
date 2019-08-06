@@ -2,8 +2,55 @@
 h1, body, html, main {
   margin: 0;
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header{
+  background-image: url("../images/soup.jpg");
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+h1{
+  color:white;
+  text-transform: uppercase;
+}
+
+h2{
+  margin: 20px 50px;
+  text-transform: uppercase;
+}
+hr{
+  margin: 30px 50px;
+}
+
+ul{
+  margin: 30px 50px;
+  list-style-type: none;
+}
+
+#ingredients li:before{
+  content:"-";
+}
+
+ol{
+  margin: 30px 50px;
+}
+
+img{
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+p{
+  margin: 30px 50px;;
 }
