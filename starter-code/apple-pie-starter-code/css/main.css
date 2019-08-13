@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    box-sizing:border-box;
+  }
+  
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  figure{
+    margin:0;
+  }
+
+  .absolute-pie{
+      top: 10%;
+    text-align:center;
+      /* transform: translate(-50%, -50%); */
+      font-size:5em;
+      color:white;
+
+   
+      
+  }
+
+  body{
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height:1.3;
+    padding:2em;
+    color: #333333;
+    margin: 0 5%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin:2em 0;
+}
+
+header{
+    width:100%;
+    margin:0;
+    height:50vh;
+    background-image: url("./../images/apple-pie.jpg");
+}
+
+
+main{
+    margin:0 15%;
+}
+
+.div-paragraph{
+  border-bottom: 1px solid #333333;
+  padding:1em;
+  padding-bottom:3em;
+
+
+}
+.div-pargraph2{
+  padding:1em;
+  padding-bottom:3em;
+}
+img{
+  display:block;
+  margin:0 auto;
+}
