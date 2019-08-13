@@ -1,0 +1,66 @@
+/*Some necessary adjustments*/
+* {
+  box-sizing: border-box;  
+}
+
+
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Roboto','Open Sans', 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #333333;
+}
+
+body {
+  font-family: 'Roboto';
+  line-height: 1.5em;
+}
+
+main {
+  max-width: 900px;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+header.main-header {
+  font-family: 'Open Sans';
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  background-image: url("./../images/soup.jpg");
+  background-size: cover;
+}
+ 
+.title {
+  padding: 900px 0;
+}
+
+.title-2 {
+  padding: 2em;
+  font-family: sans-serif;
+  border-top: 0.1em solid #333333;
+}
+
+.content {
+  padding: 2em;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol.directions li {
+  list-style: none;
+  counter-increment: my-awesome-counter;
+}
+
+ol.directions li::before {
+  content: counter(my-awesome-counter) ") ";
+}
+
+ul.ingredients li::before {
+  content: "- ";
+} 
