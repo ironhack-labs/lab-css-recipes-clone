@@ -1,0 +1,25 @@
+* {
+  font-family: Roboto, 'Open Sans', Montserrat
+}
+
+.title {
+  color: white;
+}
+
+.header {
+  background-image: url("./../images/apple-pie.jpg");
+  height: 900px;
+}
+
+.introduction {
+  text-align: center
+}
+
+.cooking {
+  border-bottom: 1px solid black;
+  
+}
+
+.recipe {
+  border-bottom: 1px solid black;
+}
