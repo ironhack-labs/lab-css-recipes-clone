@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300, 400,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+i {
+    margin: 0 0.5rem;
+    color: lightgrey;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.border {
+    border-bottom: 1px solid #000;
+}
+
+.l-heading {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-center {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+/* =================================== */
+
+
+#header {
+    height: 100vh;
+    background: url(../images/apple-pie.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+/* =================================== */
+
+
+#recipe .time {
+    padding-top: 2rem;
+}
+
+#recipe .time .time-details {
+    font-weight: 400;
+}
+
+/* =================================== */
+
+#ingredients .img {
+    padding-top: 3rem;
+}
+
+#ingredients .img img {
+    height: 90px;
+}
+
+/* =================================== */
