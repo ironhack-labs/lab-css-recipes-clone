@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+
+body {
+    margin: 0;
+}
+
+.apple-pie-image {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; nice parallax effect*/
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 320px;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 235px;
+    font-size: 1.5em;
+}
+
+.introduction {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    padding: 50px 200px 50px 200px;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.info-images {
+    margin: auto;
+    width: 45%;
+}
+
+hr {
+    border-top: 2px solid grey;
+    width: 65%;
+}
+
+.ingredients-styling {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0px 200px 50px 200px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+ol li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.directions-styling {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 220px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    width: 65%;
+    text-align: left;
+}
