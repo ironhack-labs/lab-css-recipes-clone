@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  outline: 2px solid red;
 }
 
 body,
@@ -39,26 +38,38 @@ h2 {
 
 figure {
   border-bottom: 2px solid #615d5dbb;
-  padding: 50px;
+  padding: 20px;
   margin: 0 auto;
   display: block;
 }
 
 .text {
+  max-width: 900px;
   margin: 0 px;
   font-size: 20px;
   text-align: justify;
-  padding: 60px;
+  padding: 20px;
 }
 
 .block-ingredients {
+  max-width: 900px;
   margin: 0 auto;
-  font-size: 15px;
   display: block;
 
 }
 
 .block-cooking {
+  max-width: 900px;
   margin: 0 auto;
   display: block;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  margin-bottom: 25px;
+  padding: 15px 0;
 }
