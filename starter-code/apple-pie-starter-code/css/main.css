@@ -30,26 +30,42 @@ h1{
     padding: 250px 0;
     font-size: 4em;
 }
-figure{
-    margin: 0 auto;
-    width: 70%;
+img{
+    height: 80px;
+    display: block;
+    margin: auto;
 }
 hr{
     border: 0.09em solid gray;
 }
 
 main, h3{
-    padding: 1em;
-}
-
-ul{
-    padding-bottom: 1em;
-    list-style-type: square;
+    padding: 1em 0;
 }
 p{
     padding-top:2em; 
     padding-bottom: 1em;
 }
-ol{
+
+ul{
     padding-bottom: 1em;
+    list-style-type: square;
+    list-style: none;
 }
+ul li:before {
+    content: "-";
+    margin-right: 4px; 
+}
+
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li{
+    counter-increment: my-counter;
+}
+ol li:before {
+    content: counter(my-counter) ")";
+    transform: translateX(-1em);
+}
+
