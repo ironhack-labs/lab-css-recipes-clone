@@ -1,0 +1,30 @@
+body {
+    margin:auto;
+    padding:0;
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    color:white;
+    text-align: center;
+    width: 100%;
+    height:auto;
+}
+h3 {
+    text-align: center;
+}
+p{
+    text-align: center;
+    size:10px;
+}
+.image {
+        display: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+.lists{
+    text-align: center;
+    list-style-position: inside;
+
+}
