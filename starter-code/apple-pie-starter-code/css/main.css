@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container-img {
+    background-image: url("C:/Users/alikuc/Desktop/codingProjects/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-centered {
+    color: white;
+    font-size: 130px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#all-sections {
+padding: 150px;
+}
+
+#section1, #section2 div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+#section1, #section2 {
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgrey;
+
+} 
+
+#section2, #section3 {
+    padding-top: 30px;
+} 
+
+#section1 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    text-align: justify; 
+}
+
+#section2 li, #section3 p  {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: justify; 
+}
+
+#section1 p, #section2 ul {
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+ul, #section3 p {
+    padding-left: 70px;
+}
+
+ul {
+    list-style-type: none;
+  }
+ul > li {
+    text-indent: -5px;
+  }
+ul > li:before {
+    content: "-";
+  }
+
