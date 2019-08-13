@@ -1,0 +1,43 @@
+body {
+  height: 100%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-heading {
+  font-size: 4em;
+  color: white;
+}
+
+#section-1 {
+  margin: 3rem 6rem;
+}
+
+#section-2 {
+  margin: 3rem 6rem;
+}
+
+#section-3 {
+  margin: 3rem 6rem;
+}
+
+#recipe-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#cooking-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
