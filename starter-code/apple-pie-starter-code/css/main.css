@@ -28,11 +28,9 @@ h1 {
 }
 
 h3 {
-    font-family: 'Roboto',
-        Geneva,
-        Verdana,
-        sans-serif;
-    color: black font-size: 1.2em;
+    font-family: 'Roboto', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.2em;
     font-weight: 100;
     margin: 40px 0px;
     text-align: left;
