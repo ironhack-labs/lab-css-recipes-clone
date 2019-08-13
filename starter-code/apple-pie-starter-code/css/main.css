@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+
+html, body, h1, h2, h3, p, ul, figure{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+main, figure{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+header{
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size: cover;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 250px 0;
+    font-size: 4em;
+}
+figure{
+    margin: 0 auto;
+    width: 70%;
+}
+hr{
+    border: 0.09em solid gray;
+}
+
+main, h3{
+    padding: 1em;
+}
+
+ul{
+    padding-bottom: 1em;
+    list-style-type: square;
+}
+p{
+    padding-top:2em; 
+    padding-bottom: 1em;
+}
+ol{
+    padding-bottom: 1em;
+}
