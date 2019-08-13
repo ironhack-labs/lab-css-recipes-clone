@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+
+figure,
+main,
+p,
+h2{
+  padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1em;
+  color: #3d3c3c;
+}
+
+header {
+  background: url("../images/apple-pie.jpg");
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 8em;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 150px 0;
+  font-size: 4em;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
