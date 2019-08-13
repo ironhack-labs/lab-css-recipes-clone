@@ -1,3 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
-    background-color: aquamarine
+    background-color: white;
+    font-family: 'Roboto',
+        Geneva,
+        Verdana,
+        sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+h1 {
+    font-family: 'Roboto', Geneva,
+        Verdana,
+        sans-serif;
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+
+}
+
+h3 {
+    font-family: 'Roboto',
+        Geneva,
+        Verdana,
+        sans-serif;
+    color: black font-size: 1.2em;
+    font-weight: 100;
+    margin: 40px 0px;
+    text-align: left;
+}
+
+header {
+
+    background-image: url(../images/apple-pie.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0%;
+    padding: 20px;
+}
+
+.intro {
+    text-align: left;
+    margin: 0% 10%;
+
+
+}
+
+.recipe {
+    text-align: center;
+    margin: 0% 10%;
+
+
+}
+
+ul {
+    text-align: left;
+    margin: 0% 20px;
+    list-style-type: none;
+
+
+}
+
+.directions {
+    text-align: left;
+
+}
+
+img {
+    width: 45%;
+}
+
+.text-direction {
+    text-align: left;
+    margin: 30px 20px;
+
 }
