@@ -2,10 +2,12 @@
 
 * {
   box-sizing: border-box;
+  margin: 0 auto
 }
 
 body {
   font-family: roboto;
+  font-size: 1.3em;
 }
 
 header {
@@ -20,16 +22,50 @@ h2 {
   text-align: center;
 }
 
+.text-logo {
+  font-size: 5em;
+}
+
 .recipe {
   text-align: justify;
-  margin: 45px;
+  margin: 75px 75px 55px;
 }
 
 figure {
   border-bottom: 0.10em solid #a3a3a3;
+  margin: 0 75px;
 }
 
 .graphics {
   display: block;
   margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.ingredients {
+  margin: 45px;
+}
+
+.ingredients li {
+  list-style-type: none;
+}
+
+.title1 {
+  padding: 15px 30px 0px;
+}
+
+.list-content {
+  padding: 0px 40px 15px;
+}
+
+.directions {
+  margin: 45px;
+}
+
+.directions li {
+  list-style-type: none;
+}
+
+.title2 {
+  padding: 15px 30px 15px;
 }
