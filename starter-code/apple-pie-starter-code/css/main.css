@@ -1,0 +1,99 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+   color: #9b9b9b;
+}
+
+/* Background image + Centering of title */
+header {
+   height: 100vh;
+   background-image: url(../images/apple-pie.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   margin: 0;
+}
+
+.main-title {
+   text-align: center;
+   color: white;
+   font-size: 6em;
+   font-weight: 100;
+}
+
+/*  General Rules for other */
+
+.directions,
+.ingredients,
+.intro {
+   width: 80%;
+   margin: 45px auto;
+}
+
+img {
+   width: 500px;
+   margin: 0 auto;
+   padding: 2em 0 1em 0;
+}
+
+h3 {
+   font-size: 1.5em;
+   padding-bottom: 1em;
+   font-weight: 400;
+   color: black;
+}
+
+/* Intro */
+.intro {
+   text-align: center;
+   padding-top: 3em;
+}
+
+
+.intro p {
+   width: 98%;
+   font-size: 1.7em;
+   text-align: justify;
+   color: #848484;
+   font-weight: 300;
+}
+
+/* Ingredient Section */
+
+.ingredients {
+   text-align: center;
+}
+
+.ingredients h3,
+ul {
+   text-align: left;
+}
+
+ul {
+   text-indent: 1em;
+   list-style-type: none;
+   font-size: 1.3em;
+}
+
+
+
+/* Directions Section */
+
+.directions {
+   position: relative;
+   padding-bottom: 5em;
+}
+
+.indent {
+   position: relative;
+   left: 1em;
+   width: 100%;
+   margin: 0 auto;
+   font-size: 1.3em;
+}
