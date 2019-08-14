@@ -1,0 +1,58 @@
+header{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+  width:100%;
+  height: 500px;
+  position: relative;
+ background-position: center;
+ margin-left:10px;
+ margin-right: 10px;
+
+}
+
+
+
+  h1{
+    font-size: 100px;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 225px;
+    font-family: Roboto; 
+    }
+#myhistory{
+color:black;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight:100;
+position:relative;
+width: 50vw;
+left: 30%;
+text-align: justify;
+
+}
+#Ingredients{
+    color:black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight:100;
+    position:relative;
+    width: 40vw;
+    left: 30%;
+    text-align: justify;
+    
+    }
+
+    #Directions{
+        color:black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight:100;
+    position:relative;
+    width: 60vw;
+    left: 25%;
+    right:20%;
+        
+      
+        
+        }
