@@ -61,6 +61,11 @@ body{
     border-bottom: solid 3px #888;
 }
 
+.section--ingredients li::before {
+    content: "- ";
+    display: inline;
+}
+
 .section--directions {
     height: 40vh;
 }
@@ -85,4 +90,8 @@ ul, ol {
 
 ol {
     list-style: decimal inside;
+}
+
+ul {
+    list-style: none;
 }

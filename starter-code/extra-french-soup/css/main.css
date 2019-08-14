@@ -1,9 +1,98 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Headings*/
+.heading--primary {
+    color: #fff;
+    font-size: 84px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    left: 35vw;
+    top: 40vh;
+}
+
+.heading--secondary {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/*Header*/
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../images/soup.jpg');
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/*Sections*/
+.section {
+    margin: 40px 240px 20px 240px;
+    position: relative;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.section--summary {
+    height: 25vh;
+    border-bottom: solid 3px #888;
+}
+
+.section--ingredients {
+    height: 70vh;
+    border-bottom: solid 3px #888;
+}
+
+.section--ingredients li::before {
+    content: "- ";
+    display: inline;
+}
+
+.section--directions {
+    height: 44vh;
+    padding-bottom: 60px;
+}
+/*Info*/
+.info {
+    width: 24vw;
+    position: absolute;
+    left: 25vw;
+    bottom: 15px;
+}
+
+.info > img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Listas*/
+ul, ol {
+    padding-left: 50px;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ul {
+    list-style: none;
 }
