@@ -10,6 +10,8 @@ body {
 
 #backContainer {
     background-image: url('./../images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 400px;
     width: auto;

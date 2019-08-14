@@ -1,9 +1,95 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+html{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+body {
+  counter-reset: item;
+}
+
+
+#backContainer {
+  background-image: url('./../images/soup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 400px;
+  width: auto;
+  background-size: 100%;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-size: 28px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#description article{
+  margin: 25px 10% 25px 10%; 
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  width: 350px;
+}
+
+.image hr{
+  margin: 15px 70px 0 70px;
+}
+
+.image2 {
+  text-align: center;
+}
+
+.image2 img {
+  width: 320px;
+}
+
+.image2 hr {
+  margin: 15px 70px 0 70px;
+}
+
+#ingredients h2 {
+  margin: 25px 10% 25px 10%; 
+}
+
+#ingredients ul {
+  margin: 25px 10% 25px 12%; 
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  font-size: 16px;
+  list-style-type: "- ";
+}
+
+#directions div{
+  margin: 25px 10% 50px 10%; 
+}
+
+#directions ol {
+  list-style-position: inside;
+  font-size: 16px;
+  list-style: none;
+}
+
+ol li::before{
+  content: counter(item) ")  ";
+  counter-increment: item;
+} 
