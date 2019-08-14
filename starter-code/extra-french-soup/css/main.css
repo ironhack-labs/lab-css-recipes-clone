@@ -41,9 +41,10 @@ h1{
 /*este es un hijo*/
 color: white;
 position: absolute;
-left:40%;
+left:23%;
 top: 45%;
 display: inline;
+font-size: 4rem
 }
 
 #ingredientes {
