@@ -1,0 +1,63 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+header {
+    background-image: url("/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: 1000px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 220px;
+    margin-right: 220px;
+    height: 450px;
+    position: relative;
+    }
+h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 80px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+#p1 {
+    position: relative;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+#h2i {
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+#Ingredients {
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    margin-left: 220px;
+    margin-right: 220px;
+
+}
+#h2d {
+
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+#Directions {
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+
