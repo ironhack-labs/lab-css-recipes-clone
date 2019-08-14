@@ -49,10 +49,7 @@ hr {
 }
 
 #description img{
-    position: absolute;
-    left: 30%;
-
-
+    margin: 0 auto;
 }
 img {
     padding: 20px;
