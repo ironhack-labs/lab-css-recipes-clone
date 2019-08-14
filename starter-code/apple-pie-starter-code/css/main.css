@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    counter-reset: item;
+}
+
+header{
+    background-image: url('./../images/apple-pie.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    background-color: peru;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color:white;
+    padding-top: 200px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#resumen {
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    text-align: center;
+    /* padding: 5%; */
+}
+
+#resumen p {
+    margin: 5% 10% 5% 10%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    /* background-color: blueviolet; */
+}
+
+#resumen img{
+    width: 400px;
+    margin-bottom: 2%;
+}
+
+#resumen hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ingredientes {
+    width: 100%;
+    text-align:center;
+}
+
+#ingredientes div{
+    margin: 5% 10% 5% 10%
+}
+
+#ingredientes img {
+    width: 350px;
+}
+
+#ingredientes hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ingredientes ul{
+    text-align: left;
+    list-style-type: '- ';
+    margin: 5% 10% 5% 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+#instrucciones div {
+    margin: 5% 10% 5% 10%
+}
+
+#instrucciones ol {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5em;
+    list-style: none;
+    margin: 2% 1%;
+}
+
+#instrucciones ol li {
+    list-style: none;
+}
+
+#instrucciones ol li:before {
+    content: counter(item) ") ";
+    counter-increment: item;
+}
