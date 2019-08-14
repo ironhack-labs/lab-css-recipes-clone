@@ -1,0 +1,59 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+  padding: 0%;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+header {
+  background-image: url(/soup.jpg);
+  background-position: 0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:650px; 
+  padding-top:50px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 3em;
+}
+.present {
+  color: gray;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  text-align: justify;
+}
+
+#presen p {
+  text-align: justify;
+}
+
+.ingredients {
+    padding-right: 20vw;
+    padding-left: 20vw;
+    list-style-type: none;
+    text-align: center;
+}
+
+#ingred ul{
+  list-style-type: none;
+  text-align: justify;
+}
+
+h2 {
+  text-align: justify;
+}
+
+#recipe {
+  text-align: center;
+}
