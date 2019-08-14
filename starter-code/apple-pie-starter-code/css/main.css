@@ -1,0 +1,33 @@
+p{
+    font-size: 20px;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+#header{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height:400px;
+}
+h1{
+    position: absolute;
+    color: white;
+    left:46%;
+    top:40%;
+}
+#receta p{
+    padding:20px 70px;
+}
+#receta img{
+    position: relative;
+    left:30%;
+    width:400px;
+}
+#ingredients img{
+    position: relative;
+    left:30%;
+    width:350px; 
+}
