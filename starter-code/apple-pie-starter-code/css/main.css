@@ -1,0 +1,40 @@
+header {
+    height: 100vh;
+    background-image: url(/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    position: relative;
+}
+
+body {
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 100px;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+}
+
+section {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+img{
+    width: 400px;
+    left: 50%;
+}
+
+div{
+    width: 80vw;
+    left: 10%;
+    position: absolute;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
