@@ -1,0 +1,66 @@
+
+
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-img {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.info-img {
+    margin-left: 150px; 
+    margin-top: 40px;
+}
+
+#Presentation {
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.line_break {
+        width:1000px;
+        height: 5px;
+        float: left;
+        color: black;
+        padding-top: 3px;
+        background-color: rgba(255,255,255,.5);
+}
+
+#instructions {
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.deco {
+    list-style-type: none;
+}
+
+#Directions {
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+}
