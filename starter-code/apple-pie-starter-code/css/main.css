@@ -1,0 +1,15 @@
+.header {
+    background: url(file:///Users/pauline/ironhack/semana1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    position: relative
+}
+
+
+h1 {
+    color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
