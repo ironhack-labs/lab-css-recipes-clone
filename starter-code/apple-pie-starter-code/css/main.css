@@ -28,23 +28,25 @@ body {
   line-height: 1.5;
   font-size: 1em;
   color: #3d3c3c;
+  font-weight: lighter;
 }
 
 header {
   background: url("../images/apple-pie.jpg");
-  margin: 0 auto;
-  line-height: 1.5;
-  padding: 8em;
   color: white;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
   text-align: center;
-  padding: 150px 0;
+  padding: 300px 0;
   font-size: 4em;
+  font-weight: inherit;
 }
 
 img {
   margin: 0 auto;
   display: block;
+  max-width: 40%;
 }
