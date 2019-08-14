@@ -1,0 +1,36 @@
+#top{
+   width:70vw;
+   left:15%;
+   height: auto;
+   display:block;
+   /*position: relative;*/
+}
+
+#recipe-text{
+   background-color:lightcoral;
+   position:relative;
+}
+
+#recipe-top{
+   position:relative;
+}
+#recipe-info-image{
+   position: absolute;
+   margin-top:100px;
+   left:30%;
+}
+
+
+#cooking-image{
+   position: absolute;
+   margin-top:100px;
+   left:30%;
+}
+
+#recipe-title{
+   position:absolute; 
+   color:white;
+   font-size:150px;
+   left:15%;
+   top:25%;
+}
