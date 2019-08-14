@@ -1,13 +1,17 @@
+body{
+   font-family: 'Lexend Deca', sans-serif;
+}
+
 #top{
-   width:70vw;
-   left:15%;
+   width:90vw;
+   left:55%;
    height: auto;
    display:block;
    /*position: relative;*/
 }
 
 #recipe-text{
-   background-color:lightcoral;
+  /* background-color:lightcoral; */
    position:relative;
 }
 
@@ -23,7 +27,7 @@
 
 #cooking-image{
    position: absolute;
-   margin-top:100px;
+   margin-top:300px;
    left:30%;
 }
 
