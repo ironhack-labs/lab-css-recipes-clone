@@ -13,6 +13,7 @@ body{
 #recipe-text{
   /* background-color:lightcoral; */
    position:relative;
+   width:90vw;
 }
 
 #recipe-top{
@@ -20,6 +21,7 @@ body{
 }
 #recipe-info-image{
    position: absolute;
+   margin:100px;
    margin-top:100px;
    left:30%;
 }

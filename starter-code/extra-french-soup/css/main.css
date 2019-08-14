@@ -5,5 +5,66 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ 
 }
+
+#title{
+  position:absolute; 
+  color:white;
+  font-size:150px;
+  left:15%;
+  top:45%;
+
+}
+
+h1{
+font-size:80px;
+}
+
+#all-headline{
+  position: relative; 
+}
+
+
+
+#image-soup{
+  width:100vw;
+}
+
+#about-text{
+width:70vw;
+padding-left:10%;
+padding-right:10%;
+padding-top:30px;
+padding-bottom:30px;
+}
+
+#ingredients{
+  padding-right:10vw;
+  padding-left:10vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+#directions{
+  padding-right:10vw;
+  padding-left:10vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+#time-info{
+ position:absolute; 
+ width:60%;
+}
+
+#cookinginfo{
+  left:25%
+}
+
+#recipeinfo{
+ left:25%
+  }
