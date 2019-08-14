@@ -1,0 +1,59 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+    font-size: auto;}
+    
+body {
+    margin: 0 auto;
+    border: solid grey;
+    padding: 5px;
+    width: 80%;
+    height: 100%;   
+}
+
+h1, h2 {text-align: center;}
+
+.contenedor {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: url("images/soup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.encima {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    width: 100%;
+    height: 34%;
+    text-align: justify; }
+
+p {        
+    margin: 2em;        
+    padding: 2em;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.IMG {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    right: -120px;
+     }
+
+ul li {
+    list-style: none;
+    font-size: 0.8em;        
+    color: grey;
+    text-align: justify;}
+   
