@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    background-image: url(/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-image: url(../images/apple-pie.jpg);
     position: relative;
 }
 
