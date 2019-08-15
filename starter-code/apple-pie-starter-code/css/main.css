@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.receta-header {
+    background-image: "./images/apple-pie.jpg";
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    margin-top: -50px;
+    height: 100px;
+    text-align: center;
+    font-size: 4rem;
+}
+h2{
+    margin-bottom: 15px;
+    
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.descripcion{
+    width: 80%;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.descripcion img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.instrucciones{
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
