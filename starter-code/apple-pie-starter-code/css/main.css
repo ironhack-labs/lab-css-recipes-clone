@@ -5,13 +5,7 @@ header{
   height: 500px;
   position: relative;
  background-position: center;
- margin-left:10px;
- margin-right: 10px;
-
 }
-
-
-
   h1{
     font-size: 100px;
     position: relative;
@@ -29,7 +23,6 @@ position:relative;
 width: 50vw;
 left: 30%;
 text-align: justify;
-
 }
 #Ingredients{
     color:black;
@@ -40,7 +33,6 @@ text-align: justify;
     width: 40vw;
     left: 30%;
     text-align: justify;
-    
     }
 
     #Directions{
@@ -51,8 +43,5 @@ text-align: justify;
     position:relative;
     width: 60vw;
     left: 25%;
-    right:20%;
-        
-      
-        
-        }
+    right:20%;   
+    }
