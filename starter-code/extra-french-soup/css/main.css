@@ -7,3 +7,50 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#Nombre.header {
+  background-image: (./images/soup.jpg);
+  background-position:center;
+  background-size: cover;
+  height: 35rem;
+}
+
+h1 {
+color: white;
+position: absolute;
+top:45%;
+left:30%;
+margin-top: -30px;
+height: 100px;
+text-align: center;
+font-size: 5rem;
+
+}
+
+h2 {
+  margin-top: 16px;
+  font-style: 1.2rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+.ingredientes{
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.ingredientes img{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.instrucciones{
+  margin-bottom: 30px;
+}
+
+
