@@ -12,8 +12,10 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
+    width:100%;
     position: relative;
-    background-color: peru;
+    background-position: center;
+    background-size: cover;
 }
 
 header h1 {
