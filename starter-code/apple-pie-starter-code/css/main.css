@@ -46,13 +46,7 @@ h4 {
 }
 
 #intro p {
-    border-bottom-color: black;
-    border-block-end-width: 30px;
-    border-block-end-style: style;
     width: 850px;
-}
-
-#intro p {
     font-size: 24px;
     font-weight: 1000; 
 
