@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
 body {
-  font-family: Arial;
+  font-family: 'Montserrat';
 }
 
 #heading-image {
   background-image: url(../images/apple-pie.jpg);
-  height: 500px;
+  height: 700px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -19,7 +22,7 @@ body {
 
 
 #about {
-  font-size: 1.2em;
+  font-size: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +52,24 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  margin: 25px 75px;
+}
+
+#directions h2,
+#ingredients h2 {
+  font-size: 1.5em;
 }
 
 .img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 25px;
+}
+
+li {
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 
 
