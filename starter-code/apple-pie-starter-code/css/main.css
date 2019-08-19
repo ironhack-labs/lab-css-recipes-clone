@@ -1,0 +1,44 @@
+
+#title {
+   background-image: url(file:///Users/christianroque/Desktop/Recipes/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+   color: white;
+   height: 400px;
+   object-fit: cover;
+   font-size: 3.5em;
+   background-size: 100%;
+   text-align: center;
+   padding: 240px 0px 0px 0px;
+
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.img-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.img-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+html {
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: 300;
+}
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+body {
+    margin: 0px;
+}
