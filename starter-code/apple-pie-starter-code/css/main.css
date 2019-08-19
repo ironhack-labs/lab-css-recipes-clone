@@ -13,11 +13,20 @@ header {
     height: 300px;
 }
 
+header h1 {
+    margin:0;
+    padding: 3em 0px 0px 0px;
+}
+
+body {
+    margin:0 0;
+}
+
 
  img {
     margin: 0 auto;
-    padding:0;
-    height: 2em;
+    padding:0px 0px 0px 120px;
+    height: 3em;
     margin: 30px 0px 0px 0px;
 }
 
