@@ -1,10 +1,67 @@
-h1, h2, p {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+/*Some necessary adjustments*/
+
+h1, body, html, main {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+/*Import the font and set the default size*/
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.justify-center {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ul, ol {
+    padding-inline-start: 20px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+ol {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ol li:before {
+    content: "-";
+    position: absolute;
+    margin-left: -.5em;
+}
+
+#body-recipe {
+    margin: 10% 10%;
+}
+
+#header {
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: url('../images/apple-pie.jpg');
 }
 
 .flex {
