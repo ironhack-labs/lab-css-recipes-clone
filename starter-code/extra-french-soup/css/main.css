@@ -1,9 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  text-align: justify;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: 300px;
+}
+
+#splash{
+  display:block;
+  background-image: url("../images/soup.jpg");
+  text-align: center;
+  line-height: 12em;
+  color: white;
+  font-weight: 300;
+  font-size: 3em;
+  letter-spacing: 2px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  min-width: 800px;
+}
+
+.opening p {
+  display: block;
+  margin: 50px;
+  font-size: 19px;
+  font-weight: 300;
+  max-width: 800px;
+}
+.opening img{
+  max-height: 60px;
+  display: block;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/*Import the font and set the default size*/
+.ingredients h3{
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.ingredients ul {
+  font-weight: 300;
+  margin: 5px;
+}
+.ingredients ul.dashed {
+  list-style-type: none;
+}
+.ingredients ul.dashed > li {
+  text-indent: -5px;
+}
+.ingredients ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.ingredients img{
+  max-height: 80px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+hr {
+  margin: auto;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.directions h3{
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.directions ol {
+  counter-reset: list;
+  font-weight: 300;
+  margin:5px;
+  max-width: 800px;
+  padding-bottom: 50px;
+}
+.directions ol > li {
+  list-style: none;
+}
+.directions ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
