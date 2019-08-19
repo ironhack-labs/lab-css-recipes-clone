@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Hind', sans-serif;
+  font-size: 10px;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.text-box {
+  margin: 2rem 10rem;
+
+
+}
+
+p {
+  padding: 3.5rem 0;
+  font-size: 3.7rem;
+  line-height: 5rem;
+}
+
+.intro {
+  padding: 2rem 0;
+}
+
+.image-preparation {
+  display: block;
+  margin: 0 auto;
+}
+
+.ingredients {
+  border-top: 2px solid rgba(99, 96, 96, 0.872);
+  border-bottom: 2px solid rgb(99, 96, 96, 0.872);
+  padding: 4.5rem 0;
+  font-size: 3rem;
+  line-height: 3.9rem;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
+.lines-list {
+  padding-bottom: 4rem;
+}
+
+.lines-list li {
+  margin-left: 1.5rem;
+}
+
+.lines-list li::before {
+  content: "- "
+}
+
+.directions {
+  padding: 4.5rem 0;
+  font-size: 3rem;
+  line-height: 3.9rem;
+}
+
+ol {
+  counter-reset: initial;
+  margin-left: 1.5rem;
+
+}
+.numbered-list li {
+  counter-increment: list;
+}
+
+.numbered-list li::before {
+  content: counter(list) ") ";
+}
