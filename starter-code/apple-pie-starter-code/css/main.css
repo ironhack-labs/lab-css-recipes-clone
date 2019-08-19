@@ -1,0 +1,40 @@
+img{
+    width: auto;
+    position: relative;
+    width: 45%;
+    height: 45%;
+    left: 400px;
+}
+
+h1{
+    position: relative;
+    color: white;
+    left: 610px;
+    bottom: 300px;
+    font-size: 50px
+}
+
+#a{
+    margin: 0 auto;
+    width: 690px;
+    word-spacing: 4px;
+    font-size: 20px;
+    opacity: 0.8;
+    
+}
+#b{
+    opacity: 0.8;
+}
+
+#c{
+    width: 700px;
+    word-spacing: 4px;
+    opacity: 0.8;
+}
+.ing{
+    font-size: 22px
+}
+
+#a, #b, #c{
+    margin-left: 100px
+}
