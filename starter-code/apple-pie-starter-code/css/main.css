@@ -1,0 +1,51 @@
+body, section, hr
+ {
+  margin: 0 auto;
+}
+section {
+
+  width: 860px;
+  max-width: 80%;
+}
+hr {
+    margin: 0 2rem;
+}
+#banner {
+    text-align: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 5rem;
+    padding: 15rem;
+}
+#about p {
+ padding: 1rem 10rem;
+ font-size: 1.5rem;
+}
+ img {
+    align-self: center;
+    width: 20rem;
+    height: 4rem;;
+}
+#ingred ul{
+    list-style: none;
+}
+#ingred li::before {
+    content: "-";
+  }
+#ingred ul,#ingred h2{
+    padding-left: 5rem;
+}
+#directions {
+    padding: 2rem;
+
+}
+#directions ol, #directions h2 {
+    padding: 1rem 5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
