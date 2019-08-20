@@ -1,0 +1,33 @@
+
+header {
+ background: url('../images/apple-pie.jpg');
+ height:100%;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ height:500px;
+ width:100%;
+
+}
+
+.info {
+	margin-left:200px;
+	margin-right:200px;
+}
+header h1{
+text-align:center;
+color:white;
+line-height:500px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.decimal {
+	list-style-type: decimal;}
+}
+
