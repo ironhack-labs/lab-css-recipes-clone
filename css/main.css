@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 300px;
+    color: white;
+    font-size: 60px;
+}
+
+.recipe {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: 1.5px;
+}
+
+.recipe-picture {
+    padding-left: 400px;
+    padding-right: 400px;
+}
