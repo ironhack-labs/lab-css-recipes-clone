@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    color: white;
+    height: 500px;
+    padding: 150px;
+    font-size: 65px; 
+    background-image: url('/Users/vitortomazzi/Desktop/IronHack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+}
+
+#about {
+    background-color: yellow;
+    text-align: left;
+    padding: 10px 100px;
+}
+
+.picture {
+    text-align: center;
+}
+
+#prep {
+    background-color: blue;
+    text-align: center;
+    /* margin: 100px; */
+}
+
+#prep img {
+    text-align: center;
+}
+
+.ingredients {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+  
+.ingredients li { 
+    padding-left: 16px; 
+  }
+  
+.ingredients li:before {
+    content: "-"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+  }
