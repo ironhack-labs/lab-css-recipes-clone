@@ -33,11 +33,13 @@ h4 {
 }
 
 .introduction p {
-    width: 60%;
+    width: 70%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 hr {
-    width: 60%;
+    width: 70%;
     height: 1px;
     background-color: gray;
 }
@@ -53,7 +55,7 @@ img{
 }
 
 .container article {
-    margin-left: 13rem;
+    margin-left: 10rem;
 }
 
 .receiptList ul {
@@ -66,6 +68,10 @@ img{
 }
 
 .directions p {
-    width: 80%;
-    margin-bottom: -0.5em;
+    width: 85%;
+    margin-bottom: -0.4em;
+}
+
+#lastitem {
+    margin-bottom: 5rem;
 }
