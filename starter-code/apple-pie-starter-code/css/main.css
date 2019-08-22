@@ -1,74 +1,92 @@
-.block {
-  
-  display: inline-flex;  
-  float: right; 
+body {
 
-}
-
-.block a{
-  font-size: 1.2em;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right:10px;
-  color: black;
   display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  
+}.apples {
+
+  background-image: url("../images/apple-pie.jpg");
+  height: 600px;
+  width: auto%;
+  margin: 20px 80px 50px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; 
+  background-repeat:no-repeat;
+
+  
+}
+
+h1 {
+
+  color: white; 
+  font-weight: 400;
+  font-size: 4.2em;
+}
+
+.grandma {
+
+  font-size: 22px;
+  margin: 20px 400px 50px 400px;  
+  justify-content: center;
+}
+
+.servings {
+  width: 500px;
+  justify-content: center;
+  align-self: center;
+}
+
+.ingredients{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-right: 400px;
+}
+
+h2 {
+
+  font-weight: 200;
+  font-size: 24px;
+  margin-bottom: -30px;
+}
+
+.ingredients p {
+  font-size: 20px;
+  margin-bottom: 75px;
+}
+
+.cooking{
+
+  width: 400px;
+  justify-content: center;
+  align-self: center;
+  margin-left: 120px;
+  margin-bottom: 70px;
+  
+}
+
+.directions {
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
 
 }
 
-.music{
-  
-  color: white;
-  background-image: url("../images/landing.jpg");
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+.directions h2 {
 
+  margin-bottom: 20px;
 }
 
-.music h1 {
-
-  
-  line-height: 400px;
-  font-size: 5em;
-  margin-bottom: 10px;
 
 
 
-}
-
-.music h2{
-
-  font-weight: 10;
-  text-align: center;
-  font-size: 2.5em;
-  width: 45%;
-  margin: 0 auto;
-}
-
-.spotify {
-
-  height: 900px;
-  text-align: center;
-
-}
-
-.spotify h1{
-
-  font-size: 2.5em;
-  text-decoration: underline #00B172;
-  text-underline-position: under;
-  
-}
-  
-  
-  
-  
-  
-  Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
