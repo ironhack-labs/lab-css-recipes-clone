@@ -1,0 +1,38 @@
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0 0 10%;
+}
+.background-image{
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    width: 1000px;
+    background-size: cover;
+}
+
+.background-image h1{
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 10%;
+text-align: center;
+font-size: 90px
+}   
+.Everything{
+  padding: 20px 0 0 10%;
+  margin: -10px
+}
+.Ingredients{
+    font-size: larger;
+    font-weight: 600;
+ 
+
+}
+.Lists::before{
+    content: "-";
+
+}
+.Directions{
+    font-size: larger;
+    font-weight: 600;
+    
+
+}
