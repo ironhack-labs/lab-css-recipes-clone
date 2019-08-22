@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0 25% 0 25%;
+}
+section {
+    text-align: center;
+}
+article {
+
+}
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 30% 0 30% 0;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ulstyle > li:before {
+    list-style-type: none;
+    content: "-";
+    text-indent: -5px;
+}
