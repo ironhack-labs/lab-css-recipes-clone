@@ -1,0 +1,43 @@
+:root {
+    text-align: center;
+    justify-content: center;
+order:     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: burlywood;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    opacity: 0.7;
+}
+
+li, p {
+    padding:1rem 30rem; 
+    width:30rem;
+    overflow:auto;
+}
+
+hr {
+    display: block;
+    height: 1rem;
+    border: 0;
+    border-top: 5px solid brown;
+    margin: 3rem 16rem;
+    padding: 0;
+    width: 60rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
