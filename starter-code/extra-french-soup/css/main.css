@@ -1,9 +1,86 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+.bg {
+  background-color: blue;
+  background-image: url('../images/soup.jpg');
+  height: 500px;
+  text-decoration-color: white;
+  border: 2px solid transparent;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+.todo {
+  box-sizing: border-box;
+  border-style: groove;
+  border-color: transparent;
+}
+.todo p {
+  padding: 100px;
+  font-size: 30px;
+}
+.loquesea {
+  margin-left: 50px;
+}
+
+li {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.imgrec {
+  background-image: url('../images/recipe-info.png');
+  height: 120px;
+  background-repeat: no-repeat;
+  margin-left: 350px;
+  padding: 20px 20px 30px 20px;
+}
+
+.imgrec2 {
+  background-image: url('../images/cooking-info.png');
+  height: 120px;
+  background-repeat: no-repeat;
+  margin-left: 350px;
+  margin-top: 30px;
+  padding: 20px 20px 30px 20px;
+}
+
+.bg h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 200px;
+}
+
+.first {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+hr {
+  width: 80vw;
+}
+h3 {
+  font-size: 30px;
+  margin-left: 115px;
+}
+
+.footer ol li {
+  list-style: none;
+  margin-top: 3px;
+  margin-right: 50px;
+  font-size: 5px;
 }

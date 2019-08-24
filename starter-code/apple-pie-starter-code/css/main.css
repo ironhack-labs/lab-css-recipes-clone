@@ -1,92 +1,84 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.bg{
-	background-color: blue;
-	background-image: url("../images/apple-pie.jpg");
-	height: 500px;
-	text-decoration-color: white;
-	border: 2px solid transparent;
-	width: 100%;
-	background-size: cover; 
-	margin-bottom: 0px;
+.bg {
+  background-color: blue;
+  background-image: url('../images/apple-pie.jpg');
+  height: 500px;
+  text-decoration-color: white;
+  border: 2px solid transparent;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 0px;
 }
- .todo{
-	 box-sizing: border-box;
-	 border-style: groove;
-	 border-color: transparent
- }
-
-.loquesea{
-	margin-left: 50px;
+.todo {
+  box-sizing: border-box;
+  border-style: groove;
+  border-color: transparent;
 }
 
-li{
-	margin-left: 50px;
-	font-size: 20px;
-
-}
- 
-
-.imgrec{
-	background-image: url("../images/recipe-info.png");
-	height: 120px;
-	background-repeat: no-repeat;
-	margin-left: 420px;
+.loquesea {
+  margin-left: 50px;
 }
 
-
-.imgrec2{
-	background-image: url("../images/cooking-info.png");
-	height: 120px;
-	background-repeat: no-repeat;
-	margin-left: 420px;
+li {
+  margin-left: 50px;
+  font-size: 20px;
 }
 
-}
-.bg h1{
-	text-align: center;
-	font-size: 50px;
-	color: white;
-	margin-top: 200px;
-}
-
-.first{
-	text-align: center;
-	padding: 50px;
-	font-size: 30px;
-	margin-left: 10px;
-	
+.imgrec {
+  background-image: url('../images/recipe-info.png');
+  height: 120px;
+  background-repeat: no-repeat;
+  margin-left: 420px;
 }
 
-.imgmedio{
-	background-image: url(../applepie.jpg);
-}
-hr{`
-width: 80vw;
-h3{
-	font-size: 30px;
-	padding: 50px;
-	margin-left: 50px;
+.imgrec2 {
+  background-image: url('../images/cooking-info.png');
+  height: 120px;
+  background-repeat: no-repeat;
+  margin-left: 420px;
 }
 
-h3 p{
-	margin-left: 20px;
-}
-.second{
-
-	padding: 50px;
-	
+.bg h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 200px;
 }
 
-.third{
-	padding: 50px;
-
+.first {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
-.fourth{
-	padding: 30px;
+.imgmedio {
+  background-image: url(../applepie.jpg);
+}
+hr {
+  width: 80vw;
+}
+h3 {
+  font-size: 30px;
+  padding: 50px;
+  margin-left: 50px;
+}
 
+h3 p {
+  margin-left: 20px;
+}
+.second {
+  padding: 50px;
+}
+
+.third {
+  padding: 50px;
+}
+
+.fourth {
+  padding: 30px;
 }
