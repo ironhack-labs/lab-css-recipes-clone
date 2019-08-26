@@ -1,9 +1,51 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+* {
+  box-sizing: border-box;
+  font-weight: 200;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 27%;
+  font-size: 80px;
+}
+
+#main p {
+  font-size: 28px;
+}
+
+#whole {
+  padding: 100px 200px;
+  font-size: 20px;
+}
+
+#main div,
+#Ingredients div {
+  text-align: center;
+}
+
+#Ingredients ul {
+  font-size: 20px;
+}
+
+#Directions ol {
+  font-size: 20px;
 }
