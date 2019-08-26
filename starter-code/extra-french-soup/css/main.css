@@ -1,9 +1,90 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+#french-soup {
+  width: 80vw;
+  height: 53vh;
+  color: white;
+  position: relative;
+  background-image: url('../images/soup.jpg');
+  background-size: 100%;
+  background-position: center;
+  left: 10%;
+}
+.title {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+section {
+  padding: 20px;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #6b6767;
+}
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.description {
+  position: absolute;
+  left: 30%;
+  font-size: 1em;
+}
+h2 {
+  font-size: 1.5em;
+  color: #3d3b3b;
+}
+
+#description {
+  width: 900px;
+  height: 15vh;
+  position: relative;
+  text-align: center;
+  left: 20%;
+}
+hr {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+#description img {
+  margin: 0 auto;
+}
+img {
+  padding: 20px;
+  width: 340px;
+  height: auto;
+}
+#ingredients {
+  width: 900px;
+  height: 55vh;
+  position: relative;
+  text-align: left;
+  left: 20%;
+}
+
+#ingredients img {
+  position: absolute;
+  left: 30%;
+}
+
+#directions {
+  width: 900px;
+  height: auto;
+  position: relative;
+  text-align: left;
+  left: 20%;
+  margin-bottom: 30px;
+}
+ol {
+  text-align: justify;
 }
