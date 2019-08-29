@@ -7,12 +7,20 @@ html {
     font-size: 18px
 }
 
+.first-div{
+    border: 1px solid;
+    border-color: rgb(202, 202, 201);
+    margin: 0% 20%;
+    max-width: 100%;
+}
+
 .top-log{
     background-origin: unset;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/apple-pie.jpg);
     padding: 150px;
+    margin: 0px 10%;
 
 }
 
@@ -29,6 +37,8 @@ html {
 
 .apresentation img{
     width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 .Ingredients{
     text-align: left;
@@ -47,5 +57,15 @@ html {
     text-align: center;
 }
 .img-center img {
-    width: 400px;
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+.direction{
+    text-align: left;
+    margin: 1% 10%;
+}
+.direction h3{
+    color: grey;
+    padding: 5px;
 }
