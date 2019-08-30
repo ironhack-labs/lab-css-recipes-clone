@@ -3,9 +3,8 @@
     padding: 0;
 }
 
-.margins{
-margin-left: 100px;
-margin-right: 100px;
+.fonts{
+  font-family: sans-serif;
 }
 
 
@@ -79,3 +78,18 @@ margin-right: 100px;
   counter-increment: item;
   }
   
+  header {
+    background:url(../../apple-pie-starter-code/images/apple-pie.jpg);
+    background-size: cover;
+    height: 630px;
+  }
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
