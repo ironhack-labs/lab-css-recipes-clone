@@ -1,0 +1,48 @@
+.banner {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100%;
+    padding: 200px;
+    text-align: center;
+}
+
+.banner > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.descricao {
+    text-align: center;
+    margin: 10% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: #4f4f4f;
+}
+
+.img-desc {
+    width: 50%;
+}
+
+hr {
+    margin: 0 10%;
+}
+
+.ingredientes {
+    margin: 10% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #4f4f4f;
+}
+
+.ingredientes > h1 {
+    font-weight: lighter;
+}
+
+.img-cook-div {
+    text-align: center;
+}
+
+.img-cook {
+    width: 50%;
+}
