@@ -1,0 +1,46 @@
+.receipt {
+  background-image: url("./images/apple-pie.jpg");
+  background-size: 100%;
+  
+  margin-bottom: 3%;
+}
+
+
+.firstpart{
+  border-bottom: 1px solid lightgray;
+  margin: 0 15%;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.firstpart img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 15% 2% 15%;
+  font-size: 40px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container img {
+  width: 80%;
+  height: 30%;
+  margin: 3%;
+}
