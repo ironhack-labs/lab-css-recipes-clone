@@ -1,0 +1,36 @@
+#fs-img {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+}
+
+#fs-txt {
+  margin: auto;
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#fullBody {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 25px;
+}
+
+.cookImg {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+.ulfix{
+    margin-bottom: 50px
+}
