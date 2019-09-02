@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text');
+
+* {
+  font-family: 'Red Hat Text';
+  font-weight: lighter;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 6.5em;
+}
+
+h2, p {
+  font-size: 1.8em;
+}
+
+
+hr {
+  width: 1000px;
+  border-color: rgb(220, 220, 220);
+}
+
+img {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+#header {
+  height: 790px;
+  /*max-width: 1000px;*/
+  min-width: 600px;
+  margin: 0 auto;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /*¿
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ?*/
+}
+
+#sectionIntro {
+  color: rgb(100, 100, 100);
+}
+
+/*#sectionIngredients {
+}*/
+
+.section {
+  width: 1000px;
+  margin: 60px auto 0 auto;
+    /*background-color: red;*/
+}
+
+.ingredientsList {
+  list-style-type: '- ';
+  font-size: 1.5rem;
+  color: rgb(100, 100, 100);
+}
+
+/*#sectionDirections {
+}*/
+
+.directionsList {
+  list-style-type: + ') ';
+  font-size: 1.5rem;
+  color: rgb(100, 100, 100);
+}
