@@ -40,3 +40,6 @@ img {
 ul{
     list-style: none;
 }
+ul li:before{
+    content: "-";
+  } 
