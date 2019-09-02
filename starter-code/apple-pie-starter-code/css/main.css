@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/a78cfad3beb089a6ce86d4e280fa270b?family=Calibri);
+
+body{
+    margin: 0 0 0 0;
+    font-family: Calibri;
+    font-weight: 10;
+}
+.apple {
+background: url(../images/apple-pie.jpg) no-repeat center center;
+height: 600px;
+background-size: cover;
+color: white;
+text-align: center;
+justify-items: center;
+justify-content: center;
+}
+.apple h1 {
+    margin: auto;
+    font-size: 50px;
+ }
+
+ .apple div{
+     padding-top: 20%;
+ }
+ section {
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 5%;
+ }
+ section img {
+     width: 50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ section ul {
+    list-style-type: none;
+ }
+ section ol {
+    counter-reset: list;
+ }
+ section ol li {
+        list-style: none;
+      }
+      ol > li:before {
+        content: counter(list, decimal) ") ";
+        counter-increment: list;
+      }
+footer {
+    height:100px
+}
