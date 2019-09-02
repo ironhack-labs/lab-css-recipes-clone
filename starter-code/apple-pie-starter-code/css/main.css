@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Titillium Web';
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  background: url(../images/apple-pie.jpg) no-repeat center center;
+  background-size: 100%;
+  height: 600px;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  display: table;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+p {
+  font-size: 1.5em;
+  align-content: center;
+}
+
+#content {
+  margin: 5% 10%;
+  align-content: center;
+}
+
+img {
+  display: block;
+  margin: 25px auto;
+  width: 50%;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: '- ';
+}
+
+h2 {
+  font-size: 2em;
+  margin: 50px 0;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-counter;
+}
+
+ol li {
+  counter-increment: my-counter;
+}
+
+ol li::before {
+  content: counter(my-counter) ') ';
+}
+
+hr {
+  border: 1px solid gray;
+}
