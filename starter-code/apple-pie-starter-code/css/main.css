@@ -1,0 +1,100 @@
+body {
+    font-family: 'sans-serif';
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+#applePieIngredients {
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+#centerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+}
+
+#article1 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto 50px;
+    padding-bottom: 75px;
+    font-weight: 350;     
+}
+
+#recipeInfo {
+    margin-bottom: 50px;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 130px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#section2 {
+    border-bottom: rgba(0, 0, 0, 0.5) 2px solid;
+    border-top: rgba(0, 0, 0, 0.5) 2px solid;
+    margin: auto 130px;
+    text-align: left;
+}
+
+#section3 {
+    margin: auto 130px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 27px;
+    font-weight: 375;
+    margin-bottom: 30px;
+}
+
+#ingredientsList {
+    font-size: 20px;
+    justify-content: left;
+    display: block;
+}
+
+#directionsList {
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+#cookingInfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+ul li {
+    font-size: 22px;
+    margin-left: -30px;
+}
+
+ul li::before {
+    content: "-"; color: black
+}
+
+ol {
+    margin-top: 10px;
+}
