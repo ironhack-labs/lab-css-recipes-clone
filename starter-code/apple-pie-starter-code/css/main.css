@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/ProximaNova-Light.ttf') format('truetype')
+}
+html {
+    font-family: ProximaNova;
+}
+
+h1 {
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+
+}
+article {
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+ul {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 100;
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+ol {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: auto 200vh;
+    height: 100vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    margin: 8vh;
+}
+
+#introduction > div {
+    align-items: flex-start;
+}
+
+#introduction > div > article {
+    width: 70vw;
+}
+
+.insimg {
+    width: 55vh;
+    padding-top: 2em;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    margin: 6vh;
+}
+
+#directions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    margin: 6vh;
+
+}
+
+.secWidth {
+    width: 70vw;
+}
+
+hr {
+    background-color: rgb(152, 152, 152);
+    color: rgb(152, 152, 152);
+    border: solid 0.8px rgb(152, 152, 152);
+    width: 70vw;
+    height: 1px;
+}
