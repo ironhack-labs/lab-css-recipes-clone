@@ -1,0 +1,51 @@
+body {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#title{
+  background: url("../images/apple-pie.jpg") 0 0 no-repeat;
+  background-size: cover;
+  height:800px;
+  padding-top:5px;
+  position:relative;
+}
+.margin{
+  margin: 100px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 7em;
+  margin:300px;
+}
+
+h2{
+  text-align: left;
+  font-size: 2.5em;
+}
+
+p{
+  text-align: justify;
+  font-size: 2em;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter-size{
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5em
+  
+}
+
+.dash li:before  {
+  content: '\2013';
+}
