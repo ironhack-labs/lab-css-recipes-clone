@@ -21,14 +21,13 @@ h1 {
 .second-apple p {
     text-align: center;
     margin-top: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-bottom: 3%;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .img-recipes {
-    margin: 0 auto;
     width: 25%;
     margin-bottom: 1%;
     margin-top: 1%;
@@ -36,14 +35,13 @@ h1 {
 }
 
 .img-rec2 {
-    margin: 0 auto;
     width: 25%;
     margin-bottom: 1%;
     margin-top: 1%;
     margin-left: 38%;
 }
 
-h2 {
+h3 {
     margin-top: 3%;
 }
 
@@ -53,4 +51,12 @@ h2 {
 
 ul {
     list-style-type: none;
+    margin-left: -36px;
     }
+
+
+    ol {
+        list-style-type: none;
+        margin-left: -36px;
+        }
+    
