@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, sans-serif;
+    font-size: 10px;
 }
 
 
@@ -18,7 +19,7 @@ h1{
     align-items: center;
     justify-content: center;
     color:white;
-    font-size:8em;
+    font-size:10em;
     font-weight: 300;
 
 }
@@ -37,14 +38,14 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 50px 160px;
     color: #333;
  }
 
  ul{
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 30px 180px;
     color: #333;
     
@@ -55,13 +56,13 @@ h1{
 
 h2{
     padding: 0 160px;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 50;
     color: #333;
 }
 
 ol{
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 30px 180px;
     list-style-position: inside;
     color: #333;
