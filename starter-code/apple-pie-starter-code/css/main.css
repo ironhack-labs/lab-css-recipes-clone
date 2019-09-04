@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.header{
+    background-image: url('C:/Users/rosir/Documents/Ironhack/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 650px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 7em;
+    text-align: center;
+    color: white;
+    position: absolute;
+
+}
+#recipe-information{
+    padding: 50px 150px;
+}
+#recipe-information > div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: left;
+    margin: 20px 0;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description img{
+    width: 40%;
+    padding: 15px 0;
+}
+.ingredients{
+    padding: 40px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+}
+.dash{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+.dash > li:before{
+    display: inline-block;
+    content: "-";
+    width: 0.5em;
+    
+}
+.ingredients img{
+    width: 35%;
+    padding: 15px 0;
+    align-self: center;
+
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-weight: 525;
+    
+}
+.ingredients ul{
+    margin: 10px 0;
+}
+.parentheses{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+.parentheses li{
+    counter-increment: section;
+}
+.parentheses > li:before{
+    display: inline-block;
+    content: counter(section, decimal) ")";
+    width: 1em;
+    
+}
