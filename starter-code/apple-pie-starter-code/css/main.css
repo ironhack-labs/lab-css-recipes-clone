@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Roboto', 'Arial', sans-serif; 
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg"); 
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.header2 {
+    background-image: url("../images\ extraFrenchSoup/soup.jpg"); 
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.header2 h1 {
+    font-size: 110px; 
+    color: white;
+    font-weight: 100; 
+}
+
+.header h1 {
+    font-size: 110px; 
+    color: white;
+    font-weight: 100; 
+}
+
+hr {
+    display: block;
+    position: relative; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    margin-left: 140px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color:#989898;
+}
+
+.section1 p {
+    font-size: 32px;
+    text-align: justify; 
+    line-height: 1.5em; 
+    position: relative; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: center;
+    margin-top: 100px; 
+    margin-bottom: 50px;
+    margin-left: 140px;
+    width: 80%; 
+}
+
+.section1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section2 h2 {
+    font-size: 35px;
+    position: relative;
+    text-align: left; 
+    margin-left: 140px;
+    margin-top: 30px; 
+}
+
+.nobull {
+    font-size: 25px;
+    line-height: 1.5em; 
+    position: relative;
+    text-align: left; 
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-content: left; 
+}
+
+.section2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.section3 h3 {
+    font-size: 35px;
+    position: relative;
+    text-align: left; 
+    margin-left: 140px;
+    margin-top: 30px; 
+}
+
+.section3 ol {
+    font-size: 25px;
+    text-align: left;
+    line-height: 1.5em; 
+    position: relative; 
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-content: left;
+    margin-left: 140px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%; 
+    list-style-type: none; 
+}
