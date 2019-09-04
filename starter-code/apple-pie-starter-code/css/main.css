@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Verdana';
+    margin: 0;
 }
 
 .header{
@@ -11,8 +12,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    padding: 60px;
+    justify-content: center;  
     position: relative;
     align-items: center;
 }
@@ -45,10 +45,39 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    padding-bottom: 15px;
 }
 
-li{
-    color: darkgray;
+ul {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+ul li:before{
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
+ul li{
+    color: black;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 5px;
+}
+
+ol{
+    list-style-type: none;
+    counter-reset: list;
+}
+
+ol li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+ol li{
+    color: black;
     margin-left: 180px;
     margin-right: 180px;
     padding: 5px;
