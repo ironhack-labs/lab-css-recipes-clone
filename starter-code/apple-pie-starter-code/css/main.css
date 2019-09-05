@@ -1,0 +1,89 @@
+* {
+    font-family: roboto;
+}
+
+header {
+    background:  url("/Users/adrianajvazi/Documents/GitHub/lab_exercise/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg") no-repeat;
+    height: 100vh;
+    margin-top: -100px;
+    background-size: cover;
+}
+
+
+
+
+header h1 {
+    height: 100vh;
+    color: white;
+    font-size: 10rem;
+    font-family: roboto;
+    font-weight: 400;
+    text-align: center !important; 
+}
+
+@media only screen and (min-width: 1200px) {
+    header h1{
+        padding: 320px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header h1{
+        padding: 240px;
+    }
+}
+
+main #title-subtext {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 1.6;
+    margin-top: -100px;
+}
+
+main #icons {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.6;
+    padding-bottom: 50px;
+  }
+  
+  ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+  main {
+      margin: 200px;
+  }
+
+
+  hr {
+    border: 1.5px solid grey;
+  }
+  
+  .under {
+      font-size: 1.8rem;
+      font-weight: 300;
+  }
+
+.title {
+      font-weight: 300 ;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  #directions
+ {
+    font-weight: 300;
+    font-size: 2rem;
+   
+ }
