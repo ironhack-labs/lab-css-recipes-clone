@@ -1,0 +1,45 @@
+*{
+    font-display: serif;
+}
+
+body div{
+    margin: 0;
+    padding: 0;
+}
+
+.image-background{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image-background img{
+    width: 100%;
+    position: relative;
+}
+
+
+h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-size: 70px;
+}
+
+.data-container{
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+hr {
+    width: 70%;
+}
+
+.time-images{
+    width: 50%;
+    margin-left: 25%;
+}
