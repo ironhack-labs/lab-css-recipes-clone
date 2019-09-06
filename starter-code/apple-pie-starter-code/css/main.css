@@ -1,0 +1,37 @@
+*{
+  font-family: Verdana, Geneva, sans-serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  color: #f5f5f5;
+  font-size: 72px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  
+  .intro {
+    width: 500px;
+    margin: auto;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  #recipe-info {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+  
+  #prep-time {
+    width: 300px;
+    display: block;
+    margin: auto;
+  } 
