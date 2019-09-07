@@ -1,0 +1,79 @@
+.appleimage{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.appleimage img{
+    width: 100%;
+    height: 900px; 
+}   
+
+.appleimage #text{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+    color: antiquewhite;
+    font-size: 250%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cooking-instructions{
+    width: 50%;
+    margin: 0 560px;  
+    font-family: 'Roboto Slab', serif;
+}
+
+.cooking-instructions p{
+    text-align: left;
+    font-size: 190%;
+}
+
+.cooking-instructions img{
+    text-align: center;
+    height: 80px;
+    margin-left: 260px;
+}
+
+.ingredients{
+    width: 50%;
+    margin: 0 560px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ingredients h2{
+    font-size: 190%;
+}
+
+.ingredients ul{
+    font-size: 140%;
+}
+
+.ingredients img{
+    text-align: center;
+    height: 100px;
+    margin-left: 290px;
+}
+
+.directions{
+    width: 50%;
+    position: relative;
+    margin: 0 560px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+.directions h3{
+    font-size: 190%
+}
+
+.directions p{
+    font-size: 140%;
+}
+
