@@ -4,8 +4,6 @@
 body,ul {
     font-family: 'Poppins',
     sans-serif;
-    margin: 0 0;
-    padding: 0 0;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,39 +11,65 @@ body{
     padding: 0;
 }
 section{
-    padding: 0 50px;
+    padding-top: 1rem;
 }
-
+.border-bottom{
+    border-bottom: lightgray solid .2rem;
+}
+.container{
+    margin:0 10rem;
+}
+p,ul,ol{
+    font-size: 1.5rem
+}
+.section-title{
+    font-size:3rem;
+    font-weight: lighter;
+    padding: 1.3rem 0;
+}
+h1,h2,h3{
+    margin:0;
+    padding: 0;
+}
 /* header */
 #header{
     background-image: url(../images/apple-pie.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 50rem;
 }
 .title{
     color:#fff;
     font-size: 120px;
     font-weight: 100;
     text-align: center;
-    margin: 0;
-    padding-top: 400px; 
+    padding-top: 15rem; 
 }
-
+.recipe-info{
+    width: 100%;
+}
+.recipe-info img{
+    width: 50%;
+}
 /* introduction */
 #introduction{
-    font-size: 24px;
-    display: flex;
-    width: 600px
+    font-size: 1.5rem;
 }
 #introduction > div{
     text-align: center;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+}
+.intro-text{
+    width: 53rem;
+    max-width:100%;
+    margin: 0 auto;
 }
 
 /* ingredients */
-
+.cooking-info{
+    text-align: center;
+    width: 100%;
+}
+.cooking-info img{
+    width: 50%;
+}
 
 /* directions */
