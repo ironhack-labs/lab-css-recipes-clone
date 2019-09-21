@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-class {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.title-name {
+  color: white;
+  text-align: center;
+  padding: 220px;
+  height: 50em;
+}
+
+.cooking {
+  padding-left: 100px;
+  width: 500px;
+}
+
+.recipe-info {
+  width: 70%;
+  padding-left: 55px;
+}
+
+.recipe-info ul {
+  list-style: none;
+}
+
+.cooking-info {
+  width: 50%;
+  padding-left: 150px;
+}
