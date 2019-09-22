@@ -1,8 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 .header {
     background-image: url(../images/apple-pie.jpg);
-    height: 500px;
-    width: 100%;
+    width: 900px;
+    height: 510px;
     background-size: 100% 100%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -10,17 +19,68 @@
     text-align: center;
     color: white;
     font-size: 40px;
-    font-family: 'Courier New';
+    padding: 70px 0;
+    top: 200px;
+    left: 35%;
+    color: #ffffff;
+    font-size: 70px;
 }
 
+
 .subtitle-div {
-    text-align:center;
+    padding-right: 205px;
+    padding-left: 220px;
+    padding-top: 80px;
+    text-align: justify;
+    padding-top: 15px;
+    display: inline-block;
+    width: auto;
+}
+.subtitle-div img {
+    width: 400px;
+    padding: 0 220px;
+    border-bottom: 2px solid #989898;
 }
 
 .ingredients-div {
+    padding-right: 205px;
+    padding-left: 220px;
+    padding-top: 80px;
+    text-align: justify;
+    padding-top: 15px;
+    display: inline-block;
+    width: auto;
+}
+.ingredients-div ul {
+    padding-left: 0;
 
+}
+.ingredients-div li {
+    list-style:none;
+}
+.ingredients-div img {
+    width: 400px;
+    padding-top: 15px;
+    border-bottom: 2px solid #989898;
+    padding: 0 220px;
 }
 
 .directions-div {
-
+    padding-right: 205px;
+    padding-left: 220px;
+    padding-top: 80px;
+    text-align: justify;
+    padding-top: 15px;
+    display: inline-block;
+    width: auto;
+}
+    
+.directions-div ul {
+        padding-left: 0px;
+        width: 700px;
+}
+    
+.directions-div ul li {
+        list-style: none;
+        text-align: justify;
 }
