@@ -1,0 +1,61 @@
+/* ---- reset ---- */
+​
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+​
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- My CSS ---- */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  align-items: center;
+  justify-content: center;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+}
+
+.card {
+  width: 80%;
+}
+
+.card img {
+  height: 60px;
+  width: auto;
+}
+
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
