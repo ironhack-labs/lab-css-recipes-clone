@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+	font-weight: 200;
+}
+
+/*header*/
+.header {
+  /*background: url("../images/apple-pie.jpg") no-repeat center center cover;*/
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 290px;
+  position: relative;
+  padding-top: 20vw;
+  margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left:100px;
+	margin-right: 100px;
+
+} 
+
+.header h1 {
+color: white;
+font-weight: lighter; 
+text-align: center;
+font-size: 70px;
+}
+
+
+/*story section*/
+
+.story {
+  margin-left:220px;
+  margin-right:220px;
+  margin-top: 40px;
+  
+}
+
+.story>p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.story img{
+  width: 300px;
+  height: 50px;
+  position: relative;
+  margin-left: 100px;
+}
+
+/*Ingredients section*/
+.Ingredients {
+ padding: 15px, 0;
+}
+
+.Ingredients h6 {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.Ingredients ul {
+  list-style-type: none;
+}
+
+.Ingredients li:before {
+  margin-left: 230px;
+  content: '- ';
+  font-weight: 100;
+
+}
+
+.Ingredients img {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  margin-left: 310px;
+  margin-top: 15px;
+}
+
+/*Directions section*/
+
+.Directions h6 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.Directions ol {
+  counter-reset: list;
+  list-style-type: none;
+  
+}
+
+.container{
+  margin-left: 230px;
+  margin-right: 90px;
+}
+
+.container ol li {
+  list-style: none;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.Directions ol li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+hr {
+  width: 60%;
+  border-top: 0.05px solid;
+  color: grey;
+  margin-left: 220px;
+}
+
+
+
+
