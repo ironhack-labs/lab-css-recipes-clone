@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-image: url(../images/apple-pie.jpg);
+    background-image: url(../images/soup.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,7 +50,7 @@ section > ul {
     padding: 1em .7em 0em .7em;
     line-height: 1.2em;
     font-size: 1.1em;
-    height: 18em;
+    height: 21em;
     background-image: url(../images/cooking-info.png);
     background-position: 50% 90%;
     background-repeat: no-repeat;
