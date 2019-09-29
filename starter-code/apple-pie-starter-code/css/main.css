@@ -1,0 +1,93 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+.image {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.title {
+    color: white;
+    position: absolute;  
+    left: 42%;                     /* horizontal alignment */
+    top: 50%;                        /* vertical alignment */
+    font-size: 50px;
+}
+
+.info {
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info img {
+    width: 250%;
+    height: 150%;
+}
+
+.ingredients {
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.recipe {
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+  body {
+      text-align: center;
+  }
+
+  .description {
+      margin-top: 30px;
+      margin-left: 120px;
+      margin-right: 120px;
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+  }
+
+  .info-table {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-table img {
+      width: 30%;
+      height: 15%;
+      margin-left: 50%;
+      margin-right: 50%;
+  }
+
+  .directions {
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .rules {
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
