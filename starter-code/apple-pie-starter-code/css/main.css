@@ -1,27 +1,52 @@
 body{
   margin: 0;
 }
+
+p,li{
+  font-family: 'Actor';
+  font-size: 2em;
+}
+
+li{
+  font-size: 2em;
+}
+
 section{
   height: 100vh;
   width: 100vw;
+}
+
+#sec2{
+  height: 60vh;
 }
 
 img{
  width:100%;
  height: 100%;
 }
+
 #sec1{
   display: flex;
   flex-direction: column;
+  height: 120vh;
 }
+
+.img-cont{
+  height:50%;
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
 .img-cont > p{
   display: flex;
   color: white;
 }
 
 .info-img{
-  width: 70%;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 #apples{
@@ -49,15 +74,23 @@ img{
   word-wrap: break-word;
   align-self: center;
 }
-
+#sec2 {
+  display: flex;
+  flex-flow: column;
+  height: 90vh;
+}
 #sec2 > p{
   text-align: center;
   font-family: cursive;
 } 
 
-.left-text > p{
+#sec2 > .img-cont{
+  height: 120%;
+}
+:not(#sec3) > .left-text > p{
   font-size: 3em;
   text-align: center;
 }
+
 
 
