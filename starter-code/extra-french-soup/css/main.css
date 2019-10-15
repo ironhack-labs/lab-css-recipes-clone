@@ -1,9 +1,59 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.background-container {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center bottom;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+h2 {
+  margin: 30px 0px;
+  font-weight: 300;
+}
+
+.container {
+  padding: 50px 60px;
+}
+
+img {
+  width: 40%;
+  margin: 30px auto 30px;
+  display: block;
+}
+
+.cooking-img {
+  width: 35%;
+}
+
+ul {
+  list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+  padding-left: 0px;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 20px;
 }
