@@ -1,0 +1,49 @@
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 600px;
+    line-height: 600px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.intro {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    margin: 5% 12% 0%;
+    padding: 0px 0px 50px 0px;
+}
+
+.ingredients {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
+    margin: 5% 12% 0%;
+    padding: 0px 0px 50px 0px;
+}
+
+.directions {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
+    margin: 5% 12% 0%;
+    padding: 0px 0px 50px 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+hr {
+    margin: 0% 12% 0%;
+}
+
+li {
+    margin-left: 30px;
+}
