@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+header {
+  background: white url("../images/apple-pie.jpg") no-repeat center;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  padding: 15em;
+  margin-bottom: 3em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+h2 {
+  padding: 1em 0 .5em;
+}
+
+.mainPart {
+  margin: 0 20%;
+}
+
+img {
+  display: block;
+  margin: 1em auto 0;
+  width: 400px;
+
+}
+
+section {
+  border-bottom: solid 2px lightgray;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:before {
+  content: "-";
+}
