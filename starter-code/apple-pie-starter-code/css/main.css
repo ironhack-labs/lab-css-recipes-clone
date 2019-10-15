@@ -1,0 +1,87 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-image{
+    width:1200px;
+    height: 600px;
+}
+
+.container{
+    position:relative;
+    text-align: center;
+    color:#fff;
+}
+
+h1{
+    font-size:70px;
+    position:absolute;
+    margin-left:550px;
+    margin-top: 150px;
+    font-weight: lighter;
+
+   
+}
+
+h2{
+    font-weight: lighter;
+}
+
+p{
+    font-size: 20px;
+    margin: 40px 60px;
+    text-align: left;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.info-image1{
+    width:400px;
+    
+
+    margin-bottom: 10px;
+}
+
+.info-image2{
+    width: 350px;
+    margin-left:530px ;
+    height:80px;
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+
+.list-container{
+    margin: 40px 180px;
+    
+}
+
+.list-container h2{
+    margin-left:50px;
+    
+}
+
+ul li{
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==')
+}
+
+ol li{
+    list-style-type: none;
+}
+
+.container-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+.container-ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    width:1000px;
+}
