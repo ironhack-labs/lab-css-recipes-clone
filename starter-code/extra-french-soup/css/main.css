@@ -1,9 +1,73 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
+.header {
+  background-image: url("/images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  height: 40rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  padding: 17rem 5rem;
+  color: white;
+  font-weight: 400;
+}
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: auto;
+  width: 70%;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.div-img-icon {
+  text-align: center;
+}
+
+.img-icon {
+  width: 35%;
+  margin-bottom: 2rem;
+}
+
+hr {
+  margin-bottom: 2rem;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+ul li,
+ol li {
+  font-size: 0.9rem;
+  list-style-type: none;
 }
