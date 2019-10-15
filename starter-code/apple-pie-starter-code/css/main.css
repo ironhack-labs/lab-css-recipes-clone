@@ -15,7 +15,7 @@ h1 {
 }
 
 .topimage {
-    background-image: url("/images/apple-pie.jpg");
+    background-image: url("./../images/apple-pie.jpg");
     background-size: cover;
     height: 100vh;
     margin: auto;

@@ -20,7 +20,7 @@ h1 {
 }
 
 .topimage {
-  background-image: url("/images/soup.jpg");
+  background-image: url("./../images/soup.jpg");
   background-size: cover;
   height: 100vh;
   margin: auto;
