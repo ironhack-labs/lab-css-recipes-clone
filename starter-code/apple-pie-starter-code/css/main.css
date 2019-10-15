@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #FFF;
+  font-family: Poppins, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  margin: 1em 0;
+  font-size: 1.8rem;
+}
+
+section {
+  margin: 3em 0 1em;
+}
+
+.intro {
+  font-size: 1.6rem;
+}
+
+.specs {
+  font-size: 1.3rem;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+/* banner */
+
+.banner-image {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 90%;
+  background-image: url("../images/apple-pie.jpg");
+}
+
+/* intro */
+
+.intro-description {
+  margin-bottom: 1.3em;
+}
+
+.recipe-info {
+  display: block;
+  margin: auto;
+  width: 18em;
+}
+
+/* ingredients */
+
+.cooking-info {
+  display: block;
+  margin: auto;
+  width: 18em;
+}
+
+.steps {
+  list-style: none;
+  margin-bottom: 2.5em;
+  padding-left: 1em;
+}
+
+/* directions */
+.directions {
+  margin-bottom: 5em;
+}
+
+.instructions {
+  padding-left: 1em;
+  list-style: none;
+}
