@@ -1,0 +1,72 @@
+body{
+    font-size : 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-size: 3em
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+hr{
+    width: 800px;
+}
+
+#apple-pie{
+    background-image: url("../images/apple-pie.jpg" );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#apple-pie h1{
+    margin: 0 auto;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    
+}
+
+.intro article{
+    width: 800px;
+    margin: 0 auto 30px;
+}
+
+#icone-recipe {
+    margin: 0 auto;
+    height: 90px;
+}
+
+.instructions{
+    width: 800px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+#icone-cooking {
+    margin: 0 auto;
+    height: 110px;
+}
+
+.instructions ul{
+    list-style: none;
+    padding: 20px;
+    
+}
+.instructions ul li::before{
+    content: "- ";
+}
+
+
