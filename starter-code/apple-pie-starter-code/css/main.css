@@ -26,6 +26,17 @@
     padding: 0px 0px 50px 0px;
 }
 
+.ingredients ul {
+    list-style-type: none;
+
+}
+
+.ingredients li:before {
+    content: "-";
+    padding-right: 5px;
+
+}
+
 .directions {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: left;
