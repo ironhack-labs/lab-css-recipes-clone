@@ -1,9 +1,63 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  line-height: 1.5em;
+}
+
+header {
+  text-align: center;
+  background-image: url("/starter-code/extra-french-soup/images/soup.jpg");
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+
+}
+
+div {
+  margin: 50px 100px 20px 100px;
+  border-bottom: 1px solid grey;
+
+}
+
+div p {
+  text-align: center;
+}
+
+.directions {
+  border-bottom: none;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 15px;
+}
+
+ol {
+  list-style: inside decimal;
+  margin-left: 15px;
+}
+
+ul li::before {
+  content: "– ";
+}
+
+ol li {
+  margin-top: 1em
 }
