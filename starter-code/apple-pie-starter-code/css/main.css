@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    height:100%;
+    font-family:'Open Sans', sans-serif;
+}
+.imageContainer {
+height:600px;
+width: 800px;
+margin:0;
+
+}
+
+.cover-image {
+    height:600px;
+    width:100%
+}
+
+.text-over-image {
+position: absolute;
+top:200px;
+left:250px;
+color: white;
+font-size:40px;
+}
+
