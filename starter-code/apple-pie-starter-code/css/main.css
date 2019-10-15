@@ -1,38 +1,62 @@
 body {
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 #header {
-  height: 400px;
+  height: 100vh;
+  width: 100%;
   background-image: url(../images/apple-pie.jpg);
   background-size: cover;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  margin: O auto;
 }
-#header h1 {
+
+h1 {
   color: white;
-  font-size: 3em;
-  font-weight: 100;
+  font-size: 7.6em;
+  font-weight: 50;
   text-align: center;
+  margin: 0 auto;
+  padding-top: 25%;
 }
+
 .intro p {
-  display: block;
-  text-align: center;
+  text-align: justify;
+  font-size: 2.2em;
+  font-weight: lighter;
 }
 .intro img {
-  display: block;
   margin: 0 auto;
-  height: 50px;
+  height: 80px;
+  padding-left: 30%;
+  padding-right: 15%;
+}
+ul li::before {
+  content: "- ";
+}
+ul {
+  list-style: none;
 }
 .ingredients img {
-  display: block;
+  position: relative;
   margin: 0 auto;
-  height: 75px;
+  height: 85px;
+  padding-left: 35%;
+  padding-right: 15%;
+}
+.content {
+  margin: O 200px O 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.ingredients p {
+  font-size: 3em;
+  font-weight: lighter;
+}
+.directions p {
+  font-size: 5em;
+  font-weight: lighter;
 }
