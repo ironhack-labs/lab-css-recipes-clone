@@ -1,0 +1,96 @@
+#pie-pic {
+  box-sizing: border-box;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  text-align: center;
+  color: white;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  color: slategray;
+}
+
+.section1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#opening-text {
+  width: 80%;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 200;
+}
+
+.recipe {
+  text-align: left;
+  box-sizing: border-box;
+}
+
+#recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+hr {
+  width: 70%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin: auto;
+}
+.section2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#prep-time {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#prep-space {
+  margin-top: 10px;
+}
+
+.section3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
