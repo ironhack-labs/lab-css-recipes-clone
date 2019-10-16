@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700%7CRoboto:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-image: url("./../images/apple-pie.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 200px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.container {
+    padding: 60px;
+}
+
+.image {
+    width: 350px;
+    margin: 20px auto 0;
+    /* want to separate the 2 elements from the margin top: image & txt,
+    auto = CENTREE droite & gauche, et rien en bas*/
+    display: block;
+}
+
+.ingredients,
+.directions {
+    padding-left: 20px;
+    /* just left cause no need on the right */
+    margin-top: 20px;
+    /* to separate 2 elements ! */
+}
+
+
+
+/* ul li {    doesn't work
+    list-style-type: '-';
+} */
