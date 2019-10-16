@@ -7,3 +7,81 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.main-image{
+  width: 100%;
+  margin-top: -450px;
+  overflow: hidden;
+}
+
+.header{
+  position: relative;
+}
+
+h1{
+font-size: 7em;
+position: absolute;
+color: white;
+font-weight: lighter;
+text-align: center;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p{
+  font-size: 2.1em;
+  margin-top: 180px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h2{
+  margin-bottom: 45px;
+  font-weight: 501;
+}
+
+.lists {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.8em;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.receipt-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.cooking-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin-right: 150px;
+  margin-left: 150px;
+  height: 4px;
+  border: none;
+  background-color: gray;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+ol li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+ol {
+  margin-bottom: 130px;
