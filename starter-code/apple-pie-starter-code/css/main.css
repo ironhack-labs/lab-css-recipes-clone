@@ -55,4 +55,18 @@ ol li,
 ul li {
   margin-left: 30px;
   font-size: 1.1rem;
+  list-style-type: none;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+ul > li:before {
+  content: "- ";
 }
