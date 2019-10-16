@@ -1,0 +1,26 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+  }
+
+/* Header */
+header {
+    width: 100vw;
+    height: 100vh;
+    background: url("/starter-code/apple-pie-starter-code/images/apple-pie.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+header div {
+    background: crimson;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
