@@ -8,7 +8,7 @@ main {
 }
 
 .header {
-  background-image: url("/images/soup.jpg");
+  background-image: url("./../images/soup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
