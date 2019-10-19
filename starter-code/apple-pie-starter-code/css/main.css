@@ -1,0 +1,74 @@
+html {
+font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.boxesPie {
+    padding: 0 15%;
+}
+
+#bckPie {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 100%;
+    height: 518px;
+    width: 100%;
+}
+
+#bckPie h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 500;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.boxesPie p {
+    font-weight: 100;
+    margin: 5% 0;
+    padding: 0 17%;
+    text-align: justify;
+}
+
+.imgHour {
+    width: 100%;
+}
+
+.imgHour img {
+    padding-left: 30%;
+    width: 35%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 50px 0 30px 0;
+    padding: 0 14%;
+}
+
+.boxesPie ul, ol {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    padding: 0 17%;
+}
+
+ol, ul {
+    counter-reset: list;
+}
+ol > li , ul > li {
+    list-style: none;
+    position: relative;
+}
+ol > li:before {
+    counter-increment: list;
+    content: counter(list) ") ";
+    position: absolute;
+    left: -1.4em;
+}
+
+ul > li:before {
+    counter-increment: list;
+    content: "- ";
+    position: absolute;
+    left: -1.4em;
+}
