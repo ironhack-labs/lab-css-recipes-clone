@@ -43,6 +43,15 @@ ol li:before {
     counter-increment: item 
 }
 
+ul{
+    margin-left: 25px;
+    counter-reset: item;
+    list-style-type: none;
+}
+ul li:before {
+    content: "-";
+}
+
 img{
     margin-left: 30%;
     width: 40%;
