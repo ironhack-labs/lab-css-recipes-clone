@@ -29,6 +29,7 @@ section.description > img {
     display: block;
     margin: 0 auto;
     width: 35%;
+    margin-bottom: 20px;
 }
 section.ingredients {
     margin: 0px 120px;
@@ -56,4 +57,36 @@ section.ingredients > ul > li:before{
 
 section.ingredients > ul{
     margin-left: 10px;
+}
+section.ingredients > img {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+section.directions {
+    margin: 0px 120px 50px;
+    padding-top: 40px;
+    border-top: 2px solid black;
+}
+
+section.directions > h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+section.directions > ol{
+    margin-left: 10px;
+    counter-reset: list;
+}
+
+section.directions > ol >li{
+    text-indent: -5px;
+}
+section.directions > ol >li::before{
+    content: counter(list) ") ";
+    counter-increment: list;
+    text-indent: -5px;
 }
