@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.section1 {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.division1 {
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.parrafo1 {
+  margin: 0;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+.text-wrapper {
+  width: 50%;
+  margin: auto;
+  padding: 50px 50px 20px 50px;
+}
+
+.image-wrapper {
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
