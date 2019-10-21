@@ -1,0 +1,72 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.apple-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.apple-image {
+    max-width:100%;
+    height:auto;
+    height: 100%;
+    width: 100%;
+}
+
+.section-1 {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.section-2 {
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.recipe-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 80%;
+}
+
+.section-2 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.alinear {
+    margin-left: 50px;
+}
+
+.uli {
+    list-style-type: decimal;
+}
+
+.uli2 {
+    list-style-type: circle;
+}
