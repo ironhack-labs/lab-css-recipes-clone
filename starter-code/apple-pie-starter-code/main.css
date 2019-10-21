@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 300 1.2em/1.5 sans-serif;
+}
+p {
+    margin-bottom: 20px;
+}
+p{
+    padding: 100px 300px;
+}
+section {
+    padding: 100px 300px;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    font-size: 4em;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1, h2, h3 {
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+img {
+    display:block;
+    margin:auto;
+    }
+    
+img {
+     width: 70%
+    }
+ 
+p{
+    text-align: center
+}    
+
+p{
+    padding-block: 100px
+}
+    
