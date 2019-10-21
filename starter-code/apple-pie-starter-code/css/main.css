@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherHeit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#general-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.section-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    width: 881px;
+    height: 521px;   
+}
+
+.section-class h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.description {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 50px 0 0 0;
+}
+
+.image-class {
+    padding-top: 10px;
+    width: 400px;
+    padding: 10px 0 20px 0;
+}
+
+.lists h2{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.lists {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.1;
+    /* padding: 0 0 30px 0; */
+    width: 700px;
+    margin-left: 370px;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+}
+
+.lists ul {
+    padding-left: 10px;
+}
+
+.lists ul li:before {
+    content: "- ";
+}
+.div-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lists ol {
+    padding-left: 10px;
+    line-height: 1.3;
+}
+
+
+
