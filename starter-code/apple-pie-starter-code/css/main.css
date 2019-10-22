@@ -1,0 +1,24 @@
+@import url();
+
+body {
+    font-family:  sans-serif;
+}
+
+.background-img {
+    background-image: url("../images/apple-pie.jpg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+     color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
