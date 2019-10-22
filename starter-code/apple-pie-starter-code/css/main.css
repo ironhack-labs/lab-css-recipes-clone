@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: lighter;
+
+}
+
+h1 {
+	color: white;
+  	text-align: center;
+  	margin: 0 auto;
+	padding: 200px 100px;
+	font-size: 70px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h1, h2 {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.header {
+	background-image: url("file:///Users/macbook/Documents/Ironhack/Web Development/Module 1/Week_1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+	background-size: cover;
+	background-position: center;
+  	width:900px;
+  	height:500px;
+  	margin: 0 auto;
+}
+
+#info-recipe .section-text{ 
+	font-size: 1.4em;
+ 	text-align: justify-all;
+ 	padding: 0px;
+}
+
+.img-info {
+	margin: 50px 290px;
+}
+
+#info img {
+	display: block;
+  	margin: 0 auto;
+	height: 55px;
+	width: 350px;
+}
+
+#ingredients img{
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 350px;
+}
+
+#info-recipe hr {
+ 	margin: 30px auto 30px;
+}
+
+#ingredients-recipe hr{
+	margin: 30px auto 30px;
+}
+
+#ingredients-recipe li {
+	display:block;
+	padding: 0px 30px;
+}
+
+#ingredients-recipe {
+	font-size: 1.2em;
+}
+
+#directions-recipe {
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+	
+#directions-recipe li {
+	display:block;
+	padding: 0px 30px;
+}
+
