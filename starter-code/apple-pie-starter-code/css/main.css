@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    justify-content:center;
+}
+.main {
+    background-image:url("file:///Users/ulisesar/Desktop/WDBCM1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    height:500px;
+    margin-left:15%;
+    margin-right:15%;
+
+}
+body hr{
+    margin-left:25vw;
+    margin-right:25vw;
+    font-family: 'Helvetica Neue';
+}
+.main h1{
+    padding-top:20%;
+    font-size: 3.5em;
+    text-align:center;
+}
+.container{
+    text-align:center;
+    margin-left:25vw;
+    margin-right:25vw;
+}
+.intro-text{
+    margin-top:30px;
+    font-size:1.25em;
+    display:inline-block;
+    text-align:center;
+}
+
+
+.ingredients {
+    text-align: left;
+}
+.ing-image {
+    text-align: center;
+}
+.ingredients ul{
+    text-align:left;
+    font-size: 1.105em;
+    padding-top:20px;
+    list-style-type: None;
+}
+.directions {
+    text-align:left;
+    font-size:1.105em;
+}
+.directions p{
+    padding-top:20px;
+    padding-left: 2%;
+}
