@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+h1 {
+    background-image: url("/Users/jessica/code/Ironhack/semana-1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    color: white;
+    padding: 405px;
+    background-size: cover;
+    font-size: 4em;
+    font-weight: 100;
+}
+h2 {
+    padding: 25px 0;
+}
+ol, ul {
+    padding: 0 50px;
+} 
+.text-center {
+    text-align: center;
+}
+
+.padding-box {
+    padding: 100px 100px 10px 100px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.border-margin {
+    border-bottom: 1px solid #A6ACAF;
+
+}
