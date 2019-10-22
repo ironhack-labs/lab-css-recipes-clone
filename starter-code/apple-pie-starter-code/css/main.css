@@ -1,0 +1,56 @@
+
+#top {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  font-family: Arial;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  color: white;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#intro {
+  margin-left: 3em;
+  margin-right: 3em;
+  align-content: center;
+}
+
+#ingredients {
+  margin-left: 3em;
+  margin-right: 3em;
+  align-content: center;
+}
+
+/* parrafo text */
+.parrafo {
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+}
+
+h2 {
+  font-family: Arial;
+  align-content: left;
+  font-size: 22px;
+  color: black;
+  margin-left: 2em;
+}
+
+ul li {
+  list-style-type: none;
+}
