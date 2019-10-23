@@ -5,6 +5,7 @@
 
 .container {
   position: relative;
+  width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
@@ -12,12 +13,24 @@
   background: blanchedalmond;
 }
 
-header {
+.hero {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
   width: 100vw;
-  height: 10vh;
-  position: fixed;
-  top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
   text-align: center;
+  color: white;
+}
+
+.hero-title {
+  font-size: 70px;
+  font-weight: 800;
 }
 
 #apple-pie-img {
