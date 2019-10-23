@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: ;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Apple-pie */
+  .Apple-pie {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: black solid 1px
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: absolute;
+    left: 10px;
+    right: 10
+  }
+
+  h1{
+      font-size: 50px;
+  }
+
+
+  /* section*/
+
+section {
+    width: 80%;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 150px;
+    align-items: center;
+    font-size: larger;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* ingredients area */
+
+.Ingredients {
+    font-size: medium;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+/*directions area*/
+
+.Directions {
+    font-size: medium;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
