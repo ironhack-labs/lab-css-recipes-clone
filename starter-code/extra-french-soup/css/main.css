@@ -7,3 +7,70 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.imagen {
+  background-image: url("../images/soup.jpg");
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+#onion-soup {
+  text-align: center;
+  height: auto;
+  padding-top: 50px;
+}
+.parrafo{
+  text-align:center; 
+  vertical-align: middle;
+  margin-bottom: 30px;
+  width: 45%;
+  /*margin-left: 388px;*/
+  margin-left: 25%;
+  font-size: 25px;
+}
+.parrafo-img {
+  margin-bottom: 30px;
+}
+.linea {
+  width: 45%;
+  margin-left: 27%;
+}
+#ingredientes{
+  text-align: center;
+  height: auto;
+  padding-top: 50px;
+}
+.ing-title{
+  margin-right: 45%;
+  margin-bottom: 30px;
+}
+.lista {
+  text-align: left;
+  margin-left: 22%;
+  list-style-type: none;
+  line-height: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+#direcciones {
+  text-align: center;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.parrafo-dir{
+  text-align:justify; 
+  vertical-align: middle;
+  margin-bottom: 30px;
+  width: 45%;
+  margin-left: 25%;
+  font-size: 20px;
+}
