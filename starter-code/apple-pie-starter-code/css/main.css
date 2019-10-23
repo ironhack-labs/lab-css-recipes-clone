@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("../images/apple-pie.jpg");
+    color: white;
+    height: 550px;   
+}
+
+.titulo{
+    position: absolute;
+    display: inline-block;
+    font-size: 500%;
+    top: 27%;
+    right: 37%;
+}
+.intro{
+    font-size: 30px;;
+    padding: 30px 200px 20px 200px;
+    text-justify: distribute;
+}
+.servings{
+    position: relative;
+    height: 60px;
+    left: 400px;
+}
+
+.barra{
+    position: relative;
+    width: 70%;
+    left: 180px;
+}
+
+.lista {
+    position: relative;
+    left: 180px;
+    padding: 3% 0;
+}
+
+.subtitulo{
+position: relative;
+left: 170px;
+}
+
+.cooking{
+    position: relative;
+    height: 80px;
+    left: 420px;
+}
+
+.lista2 {
+    padding: 30px 200px 20px 200px;
+    text-justify: distribute;
+}
