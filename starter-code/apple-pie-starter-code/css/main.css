@@ -1,23 +1,25 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 10;
     font-size: 8em;
     /* letter-spacing: 0.1em; */
 }
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 10;
     font-size: 4em;
     /* letter-spacing: 0.1em; */
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
     font-size:2em;
 }
 
