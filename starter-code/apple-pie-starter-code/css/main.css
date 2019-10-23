@@ -1,5 +1,6 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 #title-image{
     background-image: url(../images/apple-pie.jpg);
@@ -20,8 +21,15 @@
     align-items: center;
     margin: 100px;
     border-bottom-style: solid;
+    border-color: gray;
+    color:gray;
     
 }
+
+cooking-time>p{
+margin: 20px;
+}
+
 #recipe-img{
     width: 300px;
     padding-bottom: 10px;
@@ -35,8 +43,8 @@
     display: flex;
     flex-direction: column;
     border-bottom-style: solid;
-
- 
+    border-color: gray;
+    color:gray;
 }
 ul{
     list-style:none;
@@ -54,9 +62,15 @@ ul{
     margin: 100px;
     display: flex;
     flex-direction: column;
+    color:gray;
     
 }
 
 ol{
-    list-style-type: symbols());
+    list-style-type: lower-alpha;
+}
+
+h3{
+    color:black;
+    font-weight: 200;
 }
