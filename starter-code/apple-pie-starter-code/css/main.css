@@ -39,14 +39,15 @@ h1,h2,h3{
 #header{
     background-image: url(../images/apple-pie.jpg);
     background-size: cover;
-    height: 50rem;
+    height: 80rem;
 }
 .title{
     color:#fff;
     font-size: 120px;
     font-weight: 100;
     text-align: center;
-    padding-top: 15rem; 
+    position: relative; 
+    top: 30%;
 }
 .recipe-info img{
     width: 60%;
