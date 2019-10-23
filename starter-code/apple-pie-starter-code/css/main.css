@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-apple{
+    width: 100%;
+}
+
+.recipe-info{
+    margin: auto;
+    width: 500px;
+}
+
+span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-img{
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
