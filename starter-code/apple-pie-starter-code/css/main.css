@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: blanchedalmond;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+#apple-pie-img {
+  position: absolute;
+  object-fit: cover;
+}
