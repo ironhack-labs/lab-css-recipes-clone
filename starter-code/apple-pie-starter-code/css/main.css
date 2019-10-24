@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Open sans', sans-serif;
+    /* width: 100%; */
+    
+}
+
+.p {
+    font-size: 40em;
+}
+
+
+
+#header {
+  
+    background-image: url(https://i.imgur.com/9AVVGHf.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apple-pie {
+    
+    text-align: center;
+  }
+  
+  .pie-text {
+    font-size: 4em;
+    display: inline-block;
+      
+/*     
+    color: white;
+    position: absolute;
+          top: 10%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%)  */
+  }
+hr {
+    margin-top: 5%;
+    background-color: gray;
+    border: 0 none;
+    color: black;
+    height: 1px;
+}
+.center {
+    padding: 9% 9% 0% 9%;
+
+}
+  
+.center p {
+    font-size: 2em;
+    margin-bottom: 4%;
+
+}
+.center img {
+   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+  
+}
+
+.ingredients {
+    padding: 5% 9% 0% 9%;
+    font-size: 2em;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ingredients ul {
+ margin-bottom: 4%;
+ padding-top: 30px;
+ padding-left: 60px;
+}
+
+
+.ingredients img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+}
+  
+.directions {
+    padding: 5% 9% 0% 9%;
+    font-size: 2em;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.directions ol {
+    margin-bottom: 4%;
+    padding-top: 30px;
+    padding-left: 60px;
+   }
