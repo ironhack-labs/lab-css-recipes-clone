@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+h1, h2, h3, h4, h5, h6, p, li {font-family: 'Open Sans', sans-serif;}
+p {font-size: 1.5em;}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header h1 {
+  color: white;
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/*Introduction */
+.introduction, .directions {
+  margin: 70px auto 50px;
+}
+p.pie-intro {
+  font-weight: 300;
+}
+.recipe-img {
+  margin: 0 auto 10px;
+  text-align: center;
+}
+.recipe-img img {
+  width: 50%;
+}
+hr.gray-line {
+  color: gray;
+  margin: 15px 0;
+}
+/*Ingredients*/
+.ingredients h3, .directions h3 {
+  margin-top: 0;
+}
+.ingredients-list {
+  list-style: none;
+  padding-left: 25px;
+}
+.ingredients-list li {
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-bottom: 2px;
+}
+.ingredients-list li::before{
+  content: '-';
+  position: absolute;
+  margin-left: -10px;
+}
+/*Directions*/
+.directions p {
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-left: 25px;
+}
