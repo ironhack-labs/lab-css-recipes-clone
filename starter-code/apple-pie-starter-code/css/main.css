@@ -11,7 +11,39 @@ h1{
     text-align: center;
 }
 
+h3{
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+
 #content{
     width: 60%;
     margin: 0 auto;
 }
+
+/* Sections */
+
+.introduction{
+    margin: 40px 0;
+}
+
+.introduction p{
+    font-size: 1.5em;
+}
+
+#ingredients {
+    margin: 40px 0;
+}
+
+#ingredients ul li{
+    font-size: 1.2em;
+}
+
+#directions{
+    margin: 40px 0;
+}
+
+#directions p{
+    font-size: 1.2em;
+}
+
