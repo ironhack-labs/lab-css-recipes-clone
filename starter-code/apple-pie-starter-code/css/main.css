@@ -1,0 +1,20 @@
+/* commun */
+body{
+  color:#3e3e3e;
+  font-family: arial, helvetica, sans-serif;
+}
+/* end commun */
+
+/* header */
+header{
+  background:url('../images/apple-pie.jpg') no-repeat center;
+  background-size: cover;
+  padding: 210px 0 250px;
+  width: 100%;
+}
+header h1{
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+/* end header */
