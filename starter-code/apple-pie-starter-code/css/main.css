@@ -37,24 +37,44 @@ header h1{
 
 
 .container {
-    margin: 0 18%;
-   
-}   
+    margin: 0 15%;
+}  
 
 
 
 .text {
-    font-size: 20pt;
+    font-size: 18pt;
     line-height: 1.5;
     font-weight: 100;
 }
 
 #intro {
     margin: 90px 0;
+    font-size: 22pt;
 }
 
 .img {
     margin: 0 auto;
     width: 500%;
 
+}
+
+#ingredients ul {
+    list-style: none;
+}
+
+#ingredients li:before {
+    content: "- ";
+    }
+
+
+#directions ol {
+    list-style: none;
+    counter-reset:my-counter;
+    }    
+#directions li {
+    counter-increment: my-counter;
+}    
+#directions li:before {
+    content: counter(my-counter) ") ";
 }
