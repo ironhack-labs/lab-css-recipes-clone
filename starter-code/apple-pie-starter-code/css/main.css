@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+h1, h2, p, li {
+  font-family:'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+h1{
+  font-size: 90px;
+  color: white;
+}
+h2{
+  font-size: 18px;
+  font-weight: 600;
+}
+p{
+  font-size: 15px;
+}
+.icons{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 0px 40px 0px;
+}
+.header{
+  text-align: center;
+  padding: 345px;
+  background: url(../images/apple-pie.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main{
+  padding: 100px 200px;
+}
+.intro p{
+  font-size: 35px;
+  line-height: 42px;
+}
+.section{
+  border-top: solid 2px #151515;
+  padding-top: 100px;
+}
+.section h2{
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.section > ul , .section > ol {
+  padding-left: 35px;
+}
+.section > ul > li, .section > ol >li{
+  font-size: 29px;
+  line-height: 44px;
+}
+.section > ul > li:before{
+  content: "-";
+  margin-right: 10px;
+}
+.section > ol{
+  counter-reset:li;
+}
+.section > ol >li{
+  position:relative; /* Create a positioning context */
+	list-style:none; /* Disable the normal item numbering */
+}
+.section >ol > li:before{
+  content:counter(li) ")"; /* Use the counter as content */
+	counter-increment:li; /* Increment the counter by 1 */
+	position:relative;
+	margin-right:8px;
+}
