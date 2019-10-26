@@ -32,8 +32,14 @@ h1{
 }
 .rmg {
     display: block;
-
     margin-left: auto;
     margin-right: auto;
 
+}
+hr{
+    width: 80%;   
+    height: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
 }
