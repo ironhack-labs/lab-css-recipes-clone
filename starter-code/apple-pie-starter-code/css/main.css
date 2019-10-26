@@ -1,6 +1,8 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  line-height:1.5em;
+  font-size:20px;
 }
 
 h1 {
@@ -11,11 +13,22 @@ h1 {
   
 }
 
- header {
+header {
   background-image: url("/home/dgb_01/Documentos/Ironhack/exercises/htmlcss/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
   background-size:cover;
-  height: 400px;
+  height: 350px;
   padding-top:200px;
-  margin: auto 200px;
+  margin: auto 250px;
 
-  };
+}
+
+.container{
+  width:800px;
+  Margin:0 auto;
+  Padding:75px 0;
+}
+
+ #description {
+  text-align: center;
+}
+
