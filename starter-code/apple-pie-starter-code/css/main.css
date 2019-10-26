@@ -9,12 +9,13 @@ body{
 
 article{
   padding: 40px 40px 40px 40px;
+  color: rgb(24, 24, 24);
 }
 
 h1 {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 90px;
 }
 
 h2 {
@@ -23,10 +24,16 @@ h2 {
   padding-bottom: 20px;
 }
 
+p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 header {
   background-image: url(../images/apple-pie.jpg);
-  position: center;
+  background-size: cover;
   height: 100vh;
+  position: center;
 }
 
 .title{
@@ -52,5 +59,13 @@ ul li::before{
 }
 
 ol {
-  padding-left: 10px;
+  list-style: none;
+  margin-left: 10px;
+  counter-reset: counter;
+}
+ol li {
+  counter-increment: counter;
+}
+ol li::before {
+  content: counter(counter) ") ";
 }
