@@ -27,6 +27,10 @@ h3{
     margin: 0 auto;
 }
 
+hr{
+    border-top: 1.3px solid black;
+}
+
 /* Sections */
 
 #slider{
@@ -58,6 +62,7 @@ h3{
 #ingredients ul li{
     font-size: 1.2em;
     line-height: 125%;
+    margin-left: 10px;
     
 }
 
@@ -69,8 +74,17 @@ h3{
     margin: 40px 0;
 }
 
-#directions p{
+#directions ul li{
     font-size: 1.2em;
     line-height: 125%;
+    margin-left: 10px;
+}
+
+.images{
+    text-align: center;
+}
+
+.images img{
+    width: 400px;
 }
 
