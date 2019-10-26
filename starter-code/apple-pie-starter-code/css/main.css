@@ -1,0 +1,52 @@
+/*Estilo textos generales*/
+h1, h2, p, li {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.3em;
+}
+hr {
+    width: 80%;
+    margin: 0 auto;
+    color:#333;
+}
+body {
+    margin: auto;
+}
+.body-recipe{
+    width: 100%;
+}
+/*Header*/
+.header-recipe{
+    width: 80%;
+    background-image: url("/Users/greciapatriciabusquetssifuentes/IRONHACK/PRACTICAS IRONHACK/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    background-position: 0 0;
+    padding: 12% 10%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color:#fff;
+    font-weight: 300;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+.description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+}
+/*Sections*/
+.general-section{
+    padding: 2% 10%;
+}
+h2 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+.ingredients {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+}
