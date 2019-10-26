@@ -1,9 +1,64 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html{
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  
 }
+.img-header{
+  background: url("/home/mario/Documents/ironhack/Exercises/Excercise1/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg")0 0 no-repeat;
+  background-size: cover;
+  height: 850px;
+  position: relative;
+  }
+  
+  h1{
+      color:white;
+      font-size: 60px;     
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%; 
+      
+      transform: translate(-50%, -50%)
+  }
+      
+  #quote p {
+      width: 80%;   
+      height: 50%;  
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2%;
+      text-align: justify;
+      font-size: 29px;
+      
+  }
+  .rmg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
+  }
+  hr {
+      width: 80%;   
+      height: 50%;  
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid gray;
+  }
+  
+  .text {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      height: 50%; 
+      font-size: 25px;
+      text-align: justify;   
+  }
+  ul{
+      list-style-type:none
+  }
