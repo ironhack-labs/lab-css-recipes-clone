@@ -1,13 +1,24 @@
+/* COMMON RULES */
 * {
 	margin: 0;
+	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+.container {
+	margin: 70px auto;
+	width: 70%;
+}
+hr {
+	border: none;
+	height: 2px;
+	background-color: #989898;
+}
 
+/* HEADER */
 header {
 	background-image: url('../images/apple-pie.jpg');
 	background-size: cover;
 	background-position: center 25%;
-	width: 100vw;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -16,5 +27,17 @@ header {
 	margin: auto;
 	color: white;
 	font-weight: 300;
-	font-size: 4rem;
+	font-size: 6rem;
+}
+
+/* RECIPE DESCRIPTION */
+.rcp-description p {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.rcp-description img {
+	display: block;
+	margin: 40px auto 20px;
+	width: 45%;
 }
