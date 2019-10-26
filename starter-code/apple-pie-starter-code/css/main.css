@@ -10,3 +10,8 @@ h1{
     font-size: 4em;
     text-align: center;
 }
+
+#content{
+    width: 60%;
+    margin: 0 auto;
+}
