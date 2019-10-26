@@ -32,3 +32,14 @@ header {
   text-align: center;
 }
 
+ul{
+  list-style:none;
+}
+
+li::before{
+  content: '- ';
+}
+
+#ingredients div {
+  text-align: center;
+}
