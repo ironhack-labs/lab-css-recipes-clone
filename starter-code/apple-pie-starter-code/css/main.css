@@ -36,10 +36,18 @@ ul{
   list-style:none;
 }
 
-li::before{
+#ingredients li::before{
   content: '- ';
 }
 
 #ingredients div {
   text-align: center;
+}
+
+/* ol{
+  list-style: none;
+} */
+
+#directions li::before{
+  content: ')';
 }
