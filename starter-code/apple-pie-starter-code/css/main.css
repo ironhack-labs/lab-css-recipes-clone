@@ -1,9 +1,9 @@
 /* General */
 
 body{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 
 }
@@ -11,6 +11,10 @@ body{
 h1{
     font-size: 4em;
     text-align: center;
+    color: white;
+    display: block;
+    position: relative;
+    top: 40%;
 }
 
 h3{
@@ -19,14 +23,26 @@ h3{
 }
 
 #content{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* Sections */
 
+#slider{
+    background-image: url('/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+.dark-background{
+    background: rgb(0, 0, 0, 0.2);
+    height: 100%;
+}
+
 .introduction{
-    margin: 40px 0;
+    margin: 60px 0;
 }
 
 .introduction p{
