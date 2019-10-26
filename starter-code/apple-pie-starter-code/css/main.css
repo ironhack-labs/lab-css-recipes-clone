@@ -1,0 +1,29 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 5%; 
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    margin:0;
+    height:650px;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    
+      
+    }
+
+img {
+    margin: 0 auto;
+}    
+
+#intro {
+    font-size:20pt;
+    margin: 90px 0;
+}
