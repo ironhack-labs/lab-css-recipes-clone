@@ -14,6 +14,7 @@ html,body{overflow-x: hidden;}
 body {
     width:100%;
     height:100%;
+    margin:0;
 }
 
 header {
@@ -22,14 +23,16 @@ header {
     background-repeat: no-repeat; 
     background-size: 100%;
     margin:0;
-    height:700px;
+    height:720px;
     padding-top: 100px;
     position: relative;
     }
 
 header h1{
     text-align: center;
+    font-weight: 600;
     color: white;
+    padding-top:120px;
     font-size: 80pt;
     font-weight:500;
 
@@ -38,7 +41,13 @@ header h1{
 
 .container {
     margin: 0 15%;
+    margin-bottom: 8%;
 }  
+
+h2 {
+    font-size: 20pt;
+    font-weight:400;
+}
 
 
 
@@ -53,9 +62,11 @@ header h1{
     font-size: 22pt;
 }
 
-.img {
-    margin: 0 auto;
-    width: 500%;
+.img img {
+    display:block;
+    margin:0 auto;
+    width: 55%;
+
 
 }
 
