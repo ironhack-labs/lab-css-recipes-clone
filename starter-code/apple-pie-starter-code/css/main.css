@@ -3,6 +3,8 @@
 body{
     width: 80%;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    
 
 }
 
@@ -29,6 +31,8 @@ h3{
 
 .introduction p{
     font-size: 1.5em;
+    line-height: 125%;
+    
 }
 
 #ingredients {
@@ -37,6 +41,12 @@ h3{
 
 #ingredients ul li{
     font-size: 1.2em;
+    line-height: 125%;
+    
+}
+
+#ingredients ul li:before{ /* PAra poner el "-" delante de cada ingrediente */
+    content:"- ";
 }
 
 #directions{
@@ -45,5 +55,6 @@ h3{
 
 #directions p{
     font-size: 1.2em;
+    line-height: 125%;
 }
 
