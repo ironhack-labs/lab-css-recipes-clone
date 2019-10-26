@@ -1,14 +1,14 @@
 html {
   min-height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif; /* La fuente de la imagen es Proxima Nova Regular pero no está en Google Fonts */
 }
 
 body{
   font-weight: 300;
 }
 
-article{
-  padding: 40px 40px 40px 40px;
+section{
+  margin: 105px 135px 105px 136px;
   color: rgb(24, 24, 24);
 }
 
@@ -16,15 +16,18 @@ h1 {
   text-align: center;
   color: white;
   font-size: 90px;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 24px;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 p {
+  font-size: 18px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -45,13 +48,19 @@ header {
 }
 
 .intro {
-  font-size: 24px;
-  padding-bottom: 40px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  line-height: 1.2;
 }
 
 ul {
-  padding-left: 20px;
+  margin-left: 30px;
   list-style-type: none;
+}
+
+ul li {
+  font-size: 24px;
+  line-height: 1.4;
 }
 
 ul li::before{
@@ -60,12 +69,19 @@ ul li::before{
 
 ol {
   list-style: none;
-  margin-left: 10px;
+  margin-left: 30px;
   counter-reset: counter;
 }
 ol li {
   counter-increment: counter;
+  font-size: 24px;
+  line-height: 1.4;
 }
 ol li::before {
   content: counter(counter) ") ";
+}
+
+hr{
+  border-top: 2px solid grey;
+  margin-top: 40px;
 }
