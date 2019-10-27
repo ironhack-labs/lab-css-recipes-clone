@@ -1,6 +1,6 @@
 /*Estilo textos generales*/
 h1, h2, p, li {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.3em;
 }
 hr {
@@ -14,6 +14,28 @@ body {
 .body-recipe{
     width: 100%;
 }
+/*Menu*/
+.header {
+    height: 50px;
+}
+.menu-recipe ul li a{
+color: #333;
+text-decoration: none;
+}
+.menu-recipe ul li a:hover{
+    color:green;
+    }
+.menu-recipe ul{
+    list-style-type: none;
+}
+.menu-recipe{
+    display: inline-block;
+    float: right;
+}
+.menu-recipe li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
 /*Header*/
 .header-recipe{
     width: 80%;
@@ -22,12 +44,12 @@ body {
     background-position: 0 0;
     padding: 12% 10%;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 0px auto 20px;
 }
 h1 {
     text-align: center;
     color:#fff;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 42px;
     letter-spacing: 1px;
 }
@@ -49,4 +71,20 @@ h2 {
     font-size: 14px;
     font-weight: 300;
     color: #333;
+}
+/*Información Iconos*/
+.icons-info{
+    width: 100%;
+}
+.icons-info img{
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+/*Footer*/
+.footer {
+    background-color: #333;
+    padding: 5px 30px;
+    color: #fff;
+    font-size: 12px;
 }
