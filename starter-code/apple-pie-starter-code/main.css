@@ -30,7 +30,7 @@ font-size: 50px;
 font-family: Arial;
 }
 .section1{
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
 .section1 li{
@@ -39,3 +39,10 @@ font-family: Arial;
     
 }
 .section1 li::before{content: "-"}
+
+.section2 li{
+    margin: 0 40px;
+    font-size: 50px;
+}
+
+.section2 li::before{content: ")"}
