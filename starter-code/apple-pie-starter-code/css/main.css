@@ -19,7 +19,7 @@ h2 {
 }
 
 p, li {
-  font-size: 3em;
+  font-size: 3.4em;
   font-weight: 100;
   text-align: justify;
 }
@@ -37,7 +37,7 @@ header {
 }
 
 .text {
-  width: 1000px;
+  width: 1150px;
   margin: 20px auto;
   padding: 50px 0 0 0;
 }
@@ -45,4 +45,8 @@ header {
 .text li {
   list-style-type: none;
   list-style-position: inside;
+}
+
+#intro {
+  padding: 100px 0 0 0;
 }
