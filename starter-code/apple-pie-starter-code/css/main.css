@@ -31,6 +31,10 @@ section {
   line-height: 1.3em;
   padding: 30px 0 0px 0;
 }
+ul {
+  font-size: 20px;
+  line-height: 1.3em;
+}
 .description {
   font-size: 22px;
   margin-top: 20px;
@@ -45,9 +49,6 @@ section {
 }
 hr {
   height: 2px;
-}
-.ingredients {
-  font-size: 20px;
 }
 .ingredients ul li {
   text-indent: 15px;
