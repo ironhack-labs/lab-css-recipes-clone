@@ -29,6 +29,30 @@ img {
     height: auto;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+ul li:before {
+    content: '-';
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+ol li:before {
+    content: '-';
+    display: inline-block;
+    margin-right: 8px;
+}
+
 
 /*
 // Utility classes
@@ -61,13 +85,4 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-}
-
-.leading-text {
-    font-size: 23px;
-}
-
-.section-title {
-    font-size: 24px;
-    font-weight: normal;
 }
