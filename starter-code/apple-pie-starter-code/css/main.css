@@ -17,6 +17,11 @@ h1 {
   position: relative;
   top: 250px;
 }
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
 p, li {
   font-weight: 300;
 }
@@ -24,10 +29,11 @@ section {
   width: 750px;
   margin: auto;
   line-height: 1.3em;
+  padding: 30px 0 0px 0;
 }
 .description {
-  padding: 60px 0;
   font-size: 22px;
+  margin-top: 20px;
 }
 .info-imgs {
   display: block;
@@ -39,4 +45,10 @@ section {
 }
 hr {
   height: 2px;
+}
+.ingredients {
+  font-size: 20px;
+}
+.ingredients ul li {
+  text-indent: 15px;
 }
