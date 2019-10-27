@@ -4,41 +4,47 @@
     width: 100%;
 } */
 
-img{
-    width: 100%;
-    
+img {
+  width: 100%;
 }
-h1{
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 /* nav */
-p{  
-    text-align: left;
+p {
+  text-align: left;
 }
 
-.container-text{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+.container-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
-.recipe-picture{
-width: 50%;
-margin-right: 25%;
-    margin-left: 25%;
+.recipe-picture {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 /* section */
 
-li{
-list-style-type: none;
+li {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.cooking-picture {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
 }
