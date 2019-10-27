@@ -5,12 +5,15 @@
 header {
   background-image: url(../images/apple-pie.jpg);
   background-size: cover;
-  height: 1000px;
+  height: 600px;
+  width: 950px;
+  margin: auto;
 }
 h1 {
   text-align: center;
-  vertical-align: middle;
   color: white;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 400;
+  position: relative;
+  top: 250px;
 }
