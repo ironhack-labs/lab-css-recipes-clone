@@ -1,9 +1,44 @@
+/*
+// Base
+// -------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+    margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+body {
+    font: 18px 'Open Sans', sans-serif;
+    color: #535353;
+}
+
+hr {
+    margin: 20px 0 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+// Utility classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 800px;
+    margin: auto;
 }
