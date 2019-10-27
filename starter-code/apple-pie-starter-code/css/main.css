@@ -39,7 +39,6 @@ header {
 .text {
   width: 1150px;
   margin: 20px auto;
-  padding: 50px 0 0 0;
 }
 
 .text li {
@@ -49,4 +48,28 @@ header {
 
 #intro {
   padding: 100px 0 0 0;
+  border-bottom: 2px solid #888888;
+}
+
+#intro img{
+  padding: 50px 275px 20px ;
+}
+
+#ingredients {
+  border-bottom: 2px solid #888888;
+}
+
+#ingredients h2 {
+  padding: 40px 0 30px ;
+}
+
+#ingredients img{
+  padding: 80px 325px 20px ;
+}
+
+#directions {
+  padding-bottom: 100px;
+}
+#directions h2 {
+  padding: 40px 0 30px ;
 }
