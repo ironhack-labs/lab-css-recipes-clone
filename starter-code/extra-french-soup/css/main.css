@@ -1,9 +1,98 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+/*Estilo textos generales*/
+h1, h2, p, li {
+  line-height: 1.3em;
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+  color:#333;
+}
+.body-recipe{
+  width: 100%;
+}
+/*Menu*/
+.header {
+  height: 50px;
+}
+.menu-recipe ul li a{
+color: #333;
+text-decoration: none;
+}
+.menu-recipe ul li a:hover{
+  color:green;
+  }
+.menu-recipe ul{
+  list-style-type: none;
+}
+.menu-recipe{
+  display: inline-block;
+  float: right;
+}
+.menu-recipe li{
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+/*Header*/
+.header-recipe{
+  width: 80%;
+  background-image: url("/Users/greciapatriciabusquetssifuentes/IRONHACK/PRACTICAS IRONHACK/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  padding: 12% 10%;
+  background-repeat: no-repeat;
+  margin: 0px auto 20px;
+}
+h1 {
+  text-align: center;
+  color:#fff;
+  font-weight: 400;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+}
+/*Sections*/
+.general-section{
+  padding: 2% 10%;
+}
+h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+}
+.ingredients, .directions {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+}
+.directions {
+  margin: 0px;
+}
+/*Información Iconos*/
+.icons-info{
+  width: 100%;
+}
+.icons-info img{
+  width: 300px;
+  margin: auto;
+  display: block;
+}
+/*Footer*/
+.footer {
+  background-color: #333;
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 30px;
 }

@@ -24,7 +24,7 @@ text-decoration: none;
 }
 .menu-recipe ul li a:hover{
     color:green;
-    }
+}
 .menu-recipe ul{
     list-style-type: none;
 }
@@ -32,12 +32,12 @@ text-decoration: none;
     display: inline-block;
     float: right;
 }
-.menu-recipe li{
+.menu-recipe li {
     display: inline-block;
     margin: 0 20px 0 0;
 }
 /*Header*/
-.header-recipe{
+.header-recipe {
     width: 80%;
     background-image: url("/Users/greciapatriciabusquetssifuentes/IRONHACK/PRACTICAS IRONHACK/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
     background-size: cover;
@@ -67,10 +67,14 @@ h2 {
     color: #333;
     font-weight: 400;
 }
-.ingredients {
+.ingredients, .directions {
     font-size: 14px;
     font-weight: 300;
     color: #333;
+}
+
+.directions {
+    margin: 0px;
 }
 /*Información Iconos*/
 .icons-info{
@@ -87,4 +91,5 @@ h2 {
     padding: 5px 30px;
     color: #fff;
     font-size: 12px;
+    margin-top: 30px;
 }
