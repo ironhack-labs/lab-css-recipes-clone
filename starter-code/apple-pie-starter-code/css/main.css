@@ -42,4 +42,7 @@ header {
   padding: 50px 0 0 0;
 }
 
-
+.text li {
+  list-style-type: none;
+  list-style-position: inside;
+}
