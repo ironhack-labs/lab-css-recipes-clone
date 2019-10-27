@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font: 20px 'Arial', sans-serif;
+    font: 18px 'Open Sans', sans-serif;
     color: #535353;
 }
 
@@ -77,6 +77,7 @@ ol li:before {
 
 .main-image {
     position: relative;
+    margin-bottom: 50px;
 }
 
 .main-image figcaption {
@@ -90,12 +91,12 @@ ol li:before {
 }
 
 .leading-text {
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .section-title {
-    color: #333;
-    font-size: 24px;
+    color: #222;
+    font-size: 22px;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
