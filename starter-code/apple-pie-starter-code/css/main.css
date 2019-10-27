@@ -1,0 +1,56 @@
+ h1, h4 {
+    font-family: 'Fira Code', monospace;
+  }
+
+  hr {
+    width: 50%;
+    padding: 0%;
+}
+
+  /* Header Section */
+  
+    
+  .header {
+    background-image: url(/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    margin: 3% 20%;
+  }
+
+  h1 {
+    font-size: 4em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+  }
+
+ 
+
+  /* Description Section */
+
+  .description {
+    font-size: 1.5em;
+    text-align: justify;;
+    padding: 0 30% 3%;
+    line-height: 1em;
+  }
+
+  /* Ingredients and Direction Section */
+
+  .list {
+      font-size: 1.3em;
+      text-align: left;
+      margin: 3% 30%;
+      line-height: 1.5em;
+  }
+
+  .info-img {
+    position: relative;
+    width: 45%;
+    left: 30%;
+    padding-top: 5% 0;
+}
+
