@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   padding-bottom: 100px;;
@@ -21,8 +21,8 @@ h1 {
   top: 250px;
 }
 h3 {
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   padding-bottom: 30px;
 }
 p, li {
@@ -34,25 +34,23 @@ section {
   line-height: 1.3em;
   padding: 30px 0 0px 0;
 }
-ul {
-  font-size: 20px;
+ul li {
+  font-size: 18px;
   line-height: 1.3em;
+  padding-left: 15px;
 }
 .description {
-  font-size: 22px;
-  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 .info-imgs {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 350px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
 hr {
   height: 2px;
-}
-.ingredients ul li {
-  text-indent: 15px;
 }
