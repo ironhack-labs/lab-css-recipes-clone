@@ -83,6 +83,7 @@ ol li:before {
 .main-image figcaption {
     color: #fff;
     font-size: 80px;
+    font-weight: 600;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,6 +98,5 @@ ol li:before {
 .section-title {
     color: #222;
     font-size: 22px;
-    font-weight: normal;
     margin-bottom: 25px;
 }
