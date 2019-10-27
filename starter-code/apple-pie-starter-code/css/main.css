@@ -53,3 +53,39 @@
       padding-bottom: 29px;
       padding-top: 42px;
   }
+  
+  ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 98px;
+    padding-bottom: 25px;
+    list-style-type: none;
+    color: #293553;
+    padding-left: 9px;
+    margin-bottom: -20px;
+    
+    
+  }
+
+  ul li:before {
+      content: "- ";
+    }
+
+ol li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 98px;
+    padding-bottom: 25px;
+    color: #293553;
+    padding-left: 9px;
+    list-style-type: none;
+    width: 645px;
+    margin-bottom: -20px;
+    counter-increment: section;
+}
+
+ol li:before {
+    content: counter(section, decimal) ") ";
+}
