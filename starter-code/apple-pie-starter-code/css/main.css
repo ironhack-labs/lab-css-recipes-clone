@@ -42,13 +42,15 @@ ul li:before {
 }
 
 ol {
+    counter-reset: li;
     list-style-type: none;
     padding-left: 20px;
     margin-bottom: 40px;
 }
 
 ol li:before {
-    content: '-';
+    counter-increment: li;
+    content: counter(li) ") ";
     display: inline-block;
     margin-right: 8px;
 }
@@ -92,6 +94,8 @@ ol li:before {
 }
 
 .section-title {
+    color: #333;
     font-size: 24px;
     font-weight: normal;
+    margin-bottom: 30px;
 }
