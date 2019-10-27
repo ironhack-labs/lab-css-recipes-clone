@@ -84,4 +84,10 @@ ol li::before {
 hr{
   border-top: 2px solid grey;
   margin-top: 40px;
+  color: grey;
+}
+
+.info {
+  margin-top: 40px;
+  text-align: center;
 }
