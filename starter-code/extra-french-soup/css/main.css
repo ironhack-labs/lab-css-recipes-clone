@@ -1,9 +1,100 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+/*--------------- GENERAL ---------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap');
+
+body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-size: 19px;
+    line-height: 25px;
+    color: #0f0f0f;
+}
+
+h1, h2 {
+    padding: 25px 0;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 57px;
+    color: #fff;
+    text-align: center;
+}
+  
+h2 {
+    font-size: 23px;
+    margin: 5px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/*---------------- BASIC ----------------*/
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.width-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.width-60 {
+    width: 60%;
+    margin: 0 auto;
+    display:flex;
+}
+
+.width-55 {
+    width: 55%;
+    margin: 25px auto;
+    display:flex;
+}
+
+.end-page {
+    height: 50px;
+}
+
+/*---------------- HEADER ----------------*/
+header {
+    background-image: url(../images/soup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 550px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+/*---------------- INTRO ----------------*/
+.intro p{
+    font-size: 23px;
+    line-height: 31px;
+    margin: 40px auto;
+}
+
+/*---------------- UL LIST ----------------*/
+ul.dashed > li {
+text-indent: -5px;
+}
+
+ul.dashed > li:before {
+content: "- ";
+text-indent: -5px;
+}
+
+/*---------------- OL LIST ----------------*/
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
