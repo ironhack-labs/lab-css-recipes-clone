@@ -1,9 +1,50 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+h1,
+body,
+html,
+main {
+	margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+/* GLOBAL RULES */
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* HEADER */
+header {
+	height: 750px;
+	background: url("../images/soup.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.recipe-title {
+	color: white;
+	font-weight: 400;
+	font-size: 4.5rem;
+}
+
+/* RECIPE DESCRIPTION */
+.rcp-description {
+	margin-top: 90px;
+	border-bottom: 3px solid #989898;
+}
+.rcp-description p {
+	font-size: 1.3rem;
+	font-weight: 100;
+	line-height: 1.5;
+}
+.rcp-description img {
+	display: block;
+	margin: 40px auto 80px;
+	width: 45%;
 }
