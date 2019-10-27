@@ -5,12 +5,13 @@
 } */
 
 img {
-  width: 100%;
+  width: 80%;
 }
 h1 {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 30%;
+  font-size: 300%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -25,8 +26,8 @@ p {
 }
 
 .container-text {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
 }
 
@@ -40,7 +41,8 @@ p {
 
 li {
   list-style-type: none;
-  margin-left: 5%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .cooking-picture {
