@@ -1,9 +1,67 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+html {font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 5em;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h2 {
+  margin-bottom: 40px;
+  color: rgb(40, 40, 40);
+  font-weight: lighter;
+  font-size: 1.5em;
 }
+
+hr {
+  border: 1px solid rgb(200, 200, 200);;
+  margin: 0 auto;
+  width: 70%;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+
+p, li {
+  color: rgb(60, 60, 60);
+  font-weight: lighter;
+}
+
+p { font-size: 2em; }
+
+li { font-size: 1.2em; }
+
+.introduction-section { 
+  margin: 50px auto 20px auto; 
+  width: 70%;
+}
+
+.introduction-section p { font-size: 1.6em; }
+
+.img-information {
+  margin-top: 40px;
+  width: 40%;
+}
+
+.information-section {
+  width: 70%;
+  margin: 50px auto 20px auto;
+}
+
+.box-img-information { text-align: center; }
+
+.information-list { margin-left: 35px; }
+
+.information-list li { padding: 5px 0; }
+
+.ingredients-list li { list-style: circle; }
+
+.directions-list li { list-style: decimal;}
+
+.directions-section { margin-bottom: 70px; }
