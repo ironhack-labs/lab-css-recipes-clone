@@ -7,3 +7,12 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.header{
+  background-image: url(/images/soup.jpg);
+}
+h1{
+  color:white;
+  text-align: center;
+  
+}
