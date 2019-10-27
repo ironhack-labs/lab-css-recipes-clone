@@ -67,3 +67,8 @@ ol li:before {
     max-width: 800px;
     margin: auto;
 }
+
+.centered-img {
+    margin: auto;
+    display: block;
+}
