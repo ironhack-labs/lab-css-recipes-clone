@@ -1,0 +1,70 @@
+body{
+    counter-reset: list;
+    margin: 0;
+}
+
+header{
+    background-image: url(../images/apple-pie.jpg);
+    height: 100vh;
+    widows: 100vw;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 110px;
+    font-family: avenir;
+    font-weight: 100;
+}
+
+.text{
+    font-size: 35px;
+    text-align: left;
+    font-family: avenir;
+    padding: 40px 81px 40px 81px;
+    font-weight: 100;
+    margin-left: 20px;
+    color: #010101;
+}
+
+hr{
+    height: 2px;
+    background-color:#979797;
+    margin: 25px 81px;
+}
+
+.image2-3{
+    display:block;
+    margin:auto;
+}
+
+h2{
+    text-align: left;
+    font-family: avenir;
+    padding: 60px 81px 0 81px;
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.list1 li{ 
+    list-style-type: none
+    
+}
+
+.list1 li:before { 
+    content: "-"
+}
+
+.list2 > li {
+    list-style: none; 
+  }
+  .list2 > li:before {
+    counter-increment: list;
+    content: counter(list) ") "; 
+     
+  }
