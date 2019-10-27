@@ -35,5 +35,17 @@ header {
 }
 
 .info{
-  margin: 0 auto;
+  text-align: center;
+}
+
+ul{
+  list-style:none;
+}
+
+#ingredients li::before{
+  content: '- ';
+}
+
+#directions li::before{
+  content: ')';
 }
