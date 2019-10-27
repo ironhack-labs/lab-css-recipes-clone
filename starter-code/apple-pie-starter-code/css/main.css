@@ -2,3 +2,8 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 1000px;
+}
