@@ -1,0 +1,73 @@
+/*
+// Base
+// -------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font: 20px 'Arial', sans-serif;
+    color: #535353;
+}
+
+figure {
+    margin: 0;
+}
+
+hr {
+    margin: 20px 0 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+// Utility classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+.centered-img {
+    margin: auto;
+    display: block;
+}
+
+
+/*
+// Main classes
+// -------------------------------------------------- */
+
+.main-image {
+    position: relative;
+}
+
+.main-image figcaption {
+    color: #fff;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.leading-text {
+    font-size: 23px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: normal;
+}
