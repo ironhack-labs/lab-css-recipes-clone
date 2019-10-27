@@ -33,6 +33,31 @@ img {
     height: auto;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+ul li:before {
+    content: '-';
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ol {
+    counter-reset: li;
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+ol li:before {
+    counter-increment: li;
+    content: counter(li) ") ";
+    display: inline-block;
+    margin-right: 8px;
+}
 
 /*
 // Utility classes
