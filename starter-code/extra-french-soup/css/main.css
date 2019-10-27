@@ -32,12 +32,13 @@ li {
 header {
   background-image: url("../images/soup.jpg");
   width: 1440px;
-  height: 960px;
+  height: 720px;
   background-size: 1440px;
+  background-position-y: bottom;
 }
 
 #title {
-  padding: 30% 0;
+  padding-top: 20%;
   text-align: center;
 }
 
