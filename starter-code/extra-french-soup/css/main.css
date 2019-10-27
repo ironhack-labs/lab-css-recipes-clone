@@ -13,7 +13,7 @@ html {
   height: 1900px;
 }
 h1{
-  color:white;
+  color:#ffffff;
   text-align: center;
   position: absolute;
   top: 90%;
@@ -28,7 +28,7 @@ h1{
 hr {
    height: 8px;
    width: 80%;
-   background-color: grey;
+   background-color: #808080;
 }
 h2 {
 text-align: left;

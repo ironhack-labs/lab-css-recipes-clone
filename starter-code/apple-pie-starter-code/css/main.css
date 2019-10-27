@@ -4,7 +4,7 @@
 }
 
 h1{
-    color:white;
+    color:#ffffff;
     font-family: Arial;
     text-align: center;
     position: absolute;
@@ -21,7 +21,7 @@ h1{
 hr {
     height: 8px;
     width: 80%;
-    background-color: grey;
+    background-color: #808080;
 }
 h2 {
 text-align: left;
