@@ -13,3 +13,43 @@
     
     
   }
+
+  .h1-text {
+    position: absolute;
+    color: white;
+    left: 266px;
+    bottom: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+  }
+
+  pre {
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding: 20px 0px 0px 100px;
+      color: #293553;
+      font-weight: lighter;
+
+  }
+
+  .img-info {
+      padding: 33px 282px 20px 252px;
+      height: 55px;
+      width: 340px;
+  }
+
+  hr {
+      width: 700px;
+      margin-left: 128px;
+  }
+
+  h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      font-size: 20px;
+      margin-left: 98px;
+      padding-bottom: 29px;
+      padding-top: 42px;
+  }
