@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
 * {
-  font-family: Roboto;
+  font-family: Open sans;
   font-size: 10px;
   margin: 0;
   padding: 0; 
@@ -9,35 +9,36 @@
 
 h1 {
   color: #ffffff;
-  font-size: 10em;
-  font-weight: 300;
+  font-size: 11em;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 4em;
-  font-weight: 300;
+  font-size: 3.5em;
+  font-weight: 400;
 }
 
 p {
-  font-size: 3.4em;
-  font-weight: 100;
+  font-size: 3.2em;
+  font-weight: 300;
   text-align: justify;
 }
 
 li {
-  font-size: 3em;
-  font-weight: 100;
+  font-size: 2.8em;
+  font-weight: 300;
 }
 
 header {
   background-image: url("../images/apple-pie.jpg");
   width: 1440px;
-  height: 960px;
+  height: 900px;
   background-size: 1440px;
+  background-position-y: -60px;
 }
 
 #title {
-  padding: 30% 0;
+  padding: 25% 0;
   text-align: center;
 }
 
