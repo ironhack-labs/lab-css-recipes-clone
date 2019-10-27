@@ -1,9 +1,9 @@
-#image{
+#header{
     background-image: url(images/apple-pie.jpg);
     height: 1900px;
 }
 
-#image h1{
+#header h1{
     color:white;
     font-family: Arial;
     text-align: center;
@@ -11,4 +11,10 @@
     top: 90%;
     left: 50%;
     font-size:100px;
+}
+
+.section{
+   font-size: 60px;
+   color: black;
+   text-align: center;
 }
