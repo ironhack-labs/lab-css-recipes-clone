@@ -51,7 +51,7 @@ hr {
 }
 
 .ingredients {
-  margin: 30px 40px;
+  margin: 20px 40px;
   padding: 50px;
 } 
 
@@ -61,6 +61,7 @@ hr {
 }
 
 .cooking_info {
+  margin-bottom: 1px;
   display: flex;
   justify-content: center;
   size: 20px;
