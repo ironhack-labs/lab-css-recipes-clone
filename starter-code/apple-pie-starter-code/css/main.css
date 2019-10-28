@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: url('images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    //background-size: contain;
+    //border: 1px solid red;
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    //color: #ffffff; //texto "Apple Pie en blanco, pero como no consigo poner la imagen de fondo, y el fondo de la web es blanco, lo comento de momento"   
+}
+
+header img{
+    color: #000000; 
+    margin: 10% 10%;
+}
+
+#description{
+    text-align: justify;
+    margin: 0px 35%;
+}
+
+#description img{
+    width: 350px;
+    height: auto;
+    margin: 15px 20% 0;
+}
+
+hr{
+    margin: 0 0 30px 0;
+}
+
+#ingredients{
+    text-align: justify;
+    margin: 0px 35%;
+}
+
+#ingredients img{
+    width: 350px;
+    height: auto;
+    margin: 15px 20% 0;
+}
+
+li{
+    list-style: none;
+}
+
+li:before { 
+    content: "- " 
+}
