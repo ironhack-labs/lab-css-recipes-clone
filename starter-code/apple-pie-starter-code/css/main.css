@@ -1,6 +1,6 @@
 html {
   min-height: 100%;
-  font-family: 'Montserrat', sans-serif; /* La fuente de la imagen es Proxima Nova Regular pero no está en Google Fonts */
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   color: white;
   font-size: 90px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
