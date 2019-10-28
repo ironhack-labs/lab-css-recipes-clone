@@ -48,6 +48,31 @@ li{
     list-style: none;
 }
 
-li:before { 
+ul li:before { 
     content: "- " 
+}
+
+#directions{
+    margin: 0px 25%;
+}
+
+
+//Para conseguir que la lista ordenada tenga parentesis y no el punto después del numero:
+
+ol li:before {
+    content: ") ";
+}
+
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    }
+    
+ol li {
+    display: block;
+}
+    
+ol li:before {
+    content: counter(item) ") ";
+    counter-increment: item;
 }
