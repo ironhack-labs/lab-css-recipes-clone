@@ -1,48 +1,76 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
-
-header{
-    background: url('images/apple-pie.jpg');
-    background-repeat: no-repeat;
-    //background-size: contain;
-    //border: 1px solid red;
-    width: 100%;
-    margin: auto 0;
-    text-align: center;
-    //color: #ffffff; //texto "Apple Pie en blanco, pero como no consigo poner la imagen de fondo, y el fondo de la web es blanco, lo comento de momento"   
+header {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: center;
 }
 
 header img{
-    color: #000000; 
-    margin: 10% 10%;
+    margin: 0, 0, 100px, 0;
 }
+
+h1{
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+/*header{
+    background: url('images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    /*background-size: contain;
+    border: 1px solid red;*/
+    /*width: 100%;
+    margin: auto 0;
+    text-align: center;
+    /*color: #ffffff; texto "Apple Pie" en blanco, 
+    pero como no consigo poner la imagen de fondo, 
+    y el fondo de la web es blanco, lo comento de momento"*/   
 
 #description{
     text-align: justify;
-    margin: 0px 35%;
+    margin: 70px 25% 0;
 }
 
-#description img{
-    width: 350px;
+/*#description img{
+    width: 450px;
     height: auto;
     margin: 15px 20% 0;
 }
 
 hr{
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
+}*/
+
+#div-description{
+    width: 70%;  /*No consigo centrar la imagen y la linea horizontal, incluidas en este contenedor*/
+    height: auto;
 }
 
 #ingredients{
     text-align: justify;
-    margin: 0px 35%;
+    margin: 0px 25%;
 }
 
-#ingredients img{
+#div-ingredients{
+    width: 70%; /*Lo mismo*/
+    height: auto;
+}
+/* #ingredients img{
     width: 350px;
     height: auto;
     margin: 15px 20% 0;
-}
+} */
 
 li{
     list-style: none;
@@ -53,11 +81,11 @@ ul li:before {
 }
 
 #directions{
-    margin: 0px 25%;
+    margin: 0px 15%;
 }
 
 
-//Para conseguir que la lista ordenada tenga parentesis y no el punto después del numero:
+/* Para conseguir que la lista ordenada tenga parentesis y no el punto después del numero: */
 
 ol li:before {
     content: ") ";
@@ -66,7 +94,7 @@ ol li:before {
 ol {
     counter-reset: item;
     list-style-type: none;
-    }
+}
     
 ol li {
     display: block;
