@@ -83,6 +83,6 @@ hr {
   margin-bottom: 50px;
 }
 
-ul_list {
- list-style-type: armenian; 
+ul {
+ list-style: symbols("-"); 
 }
