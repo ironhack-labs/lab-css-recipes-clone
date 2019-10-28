@@ -79,3 +79,6 @@ header {
 #directions h2 {
   padding: 40px 0 30px ;
 }
+#ingredients li::before {
+  content: '- '
+}
