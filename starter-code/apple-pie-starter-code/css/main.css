@@ -33,6 +33,11 @@ header .title{
   margin: 20px auto;
 }
 
+h2{
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 20px 0;
+}
 ul.dash {
   list-style: none;
   margin-left: 0;
