@@ -2,6 +2,15 @@ header{
     background-image: url("../images/apple-pie.jpg");
     height: 500px;
     width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+   /* 
+   If you want to use it
+   background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    width: -webkit-fill-available;
+    min-height: 16rem; */
  }
 
 h1{
@@ -11,9 +20,53 @@ h1{
     position: relative;
     top: 50%;
 }
-
+p{
+    font: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+hr {
+    height: 5px;
+    width: 80%;
+    position: relative;
+    background-color: rgb(105, 104, 104);
+  }
 li {
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+hr {
+    height: 5px;
+    width: 80%;
+    position: relative;
+    background-color: rgb(105, 104, 104);
+}
+
+.line {
+    color: rgb(105, 104, 104);
+    height: 1px;
+}
+
+.different-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+.container-body {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-body .sub-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.container-body .sub-container li {
+    margin-left: 1rem;
+    margin-left: 5rem;
+}
+.container-body .sub-container .details {
+    margin-left: 1rem;
 }
 
 .abstrac{
@@ -23,6 +76,12 @@ li {
 }
 
 .ingredients{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.directions{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
