@@ -1,0 +1,108 @@
+/**** Google Font ****/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+/**** Global ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/**** Header *****/
+header {
+    position: relative;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 620px;
+}
+
+#heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 6vw;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/**** Main Section ****/
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.img {
+    display: inline-block;
+    margin: 40px 0 20px 0;
+    width: 60%;
+    height: auto;
+}
+
+/**** Intro Section ****/
+#text {
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 1.8vw;
+    margin: 40px 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+/**** Recipe Section ****/
+#recipe ul {
+    list-style: none;
+    text-align: left;
+    font-size: 1.9vw;
+    margin-left: 15px;
+}
+
+/**** Prep Section ****/
+#prep {
+    margin-bottom: 75px;
+}
+
+#prep ol {
+    counter-reset: list;
+    font-size: 2vw;
+    margin-left: 15px;
+}
+
+#prep ol > li {
+    list-style: none;
+}
+
+#prep ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+/**** Media Queries ****/
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: .8em; 
+    }
+    #heading {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        width: 400px;
+        height: 80px;
+    }
+}
+  
