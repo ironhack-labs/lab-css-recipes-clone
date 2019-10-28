@@ -7,3 +7,18 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.div2 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div3 {
+  position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.div4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
