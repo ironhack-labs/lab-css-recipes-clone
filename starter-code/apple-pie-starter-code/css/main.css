@@ -50,6 +50,7 @@ header {
 .text li {
   list-style-type: none;
   list-style-position: inside;
+  counter-increment: li;
 }
 
 #intro {
@@ -82,4 +83,8 @@ header {
 
 #ingredients li::before {
   content: '- '
+}
+
+#directions li::before {
+  content: counter(li) ") ";
 }
