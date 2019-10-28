@@ -14,7 +14,16 @@
     
   }
 
+<<<<<<< HEAD
   .h1-text {
+=======
+  h1 {
+    font-weight: lighter;
+    position: relative;
+  }
+
+   .h1-text {
+>>>>>>> 172737ceb6185b32527d3e1044732c62dc1442f1
     position: absolute;
     color: white;
     left: 266px;
@@ -53,7 +62,11 @@
       padding-bottom: 29px;
       padding-top: 42px;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 172737ceb6185b32527d3e1044732c62dc1442f1
   ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -89,3 +102,7 @@ ol li {
 ol li:before {
     content: counter(section, decimal) ") ";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 172737ceb6185b32527d3e1044732c62dc1442f1
