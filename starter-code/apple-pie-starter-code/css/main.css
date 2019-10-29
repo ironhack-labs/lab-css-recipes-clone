@@ -4,7 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: 'Roboto', sans-serif; }
+}
+
+htm {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 18px;
+}
 
 .container {
   background-image: url(../images/apple-pie.jpg);
