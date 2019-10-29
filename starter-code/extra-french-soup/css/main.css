@@ -1,6 +1,7 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  padding: 0;
 }
 /*Import the font and set the default size*/
 html {
@@ -15,6 +16,7 @@ html {
   width: 100%;
   height: 800px;
 }
+
 
 .title {
   text-align: center;
@@ -50,4 +52,41 @@ hr {
   width: 1250px;
   align-content: center;
   size: 2px;
+}
+
+.ingredients {
+  margin: 20px 40px;
+  padding: 50px;
+} 
+
+.directions {
+  margin: 30px 40px;
+  padding: 50px;
+}
+
+.cooking_info {
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  size: 20px;
+}
+
+.recipe_ingredients {
+  font-size: 1.5rem;
+  align-content: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.recipe_directions {
+  font-size: 1.5rem;
+  align-content: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+ol {
+ list-style: symbols("-"); 
 }
