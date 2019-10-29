@@ -14,3 +14,40 @@ html {
   background-position: top;
   width: 100%;
   height: 800px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  padding-top: 380px;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+.container_recipe {
+  margin: 30px 40px;
+  padding: 50px;
+}
+
+.recipe_info {
+  display: flex;
+  justify-content: center;
+  size: 20px;
+}
+
+.description {
+  font-size: 2rem;
+  align-content: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 1250px;
+  align-content: center;
+  size: 2px;
+}
