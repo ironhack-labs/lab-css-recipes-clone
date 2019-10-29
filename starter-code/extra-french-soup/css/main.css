@@ -1,9 +1,101 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  min-height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-weight: 300;
+}
+
+section {
+  margin: 105px 135px 105px 136px;
+  color: rgb(24, 24, 24);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: center;
+}
+
+.title {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro {
+  font-size: 30px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+ul {
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+ul li::before {
+  content: "- ";
+}
+
+ol {
+  list-style: none;
+  margin-left: 30px;
+  counter-reset: counter;
+}
+ol li {
+  counter-increment: counter;
+  font-size: 24px;
+  line-height: 1.4;
+}
+ol li::before {
+  content: counter(counter) ") ";
+}
+
+hr {
+  border-top: 2px solid grey;
+  margin-top: 40px;
+  color: grey;
+}
+
+.info {
+  margin-top: 40px;
+  text-align: center;
 }
