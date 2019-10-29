@@ -1,39 +1,126 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: blanchedalmond;
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	align-items: stretch;
+	width: 100vw;
+	flex: 1;
 }
 
 .hero {
-  background-image: url('../images/apple-pie.jpg');
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	background-image: url('../images/apple-pie.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 615px;
+	justify-content: center;
+	align-items: center;
 }
 
 .text-wrapper {
-  text-align: center;
-  color: white;
+	text-align: center;
+	color: white;
 }
 
 .hero-title {
-  font-size: 70px;
-  font-weight: 800;
+	font-size: 70px;
+	font-weight: 800;
 }
 
 #apple-pie-img {
-  position: absolute;
-  object-fit: cover;
+	position: absolute;
+	object-fit: cover;
+}
+
+.description {
+	display: flex;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	justify-content: space-around;
+}
+
+.description > p {
+	padding-top: 20px;
+	width: 50%;
+	text-align: justify;
+	align-self: center;
+}
+
+.description > img {
+	width: auto;
+	height: 25%;
+	text-align: center;
+	align-self: center;
+}
+
+.ingredients {
+	display: flex;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	justify-content: space-around;
+}
+
+.ingredients > img {
+	width: auto;
+	height: 15%;
+	text-align: center;
+	align-self: center;
+}
+
+.ingredients > div {
+	display: flex;
+	text-align: left;
+	padding-left: 150px;
+}
+
+.ingredients-list {
+	list-style: none;
+}
+
+.directions {
+	display: flex;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	justify-content: space-around;
+}
+
+.directions > div {
+	display: flex;
+	text-align: center;
+	padding-left: 300px;
+	align-self: center;
+}
+
+.directions-list {
+	text-align: justify;
+	width: 80%;
+	list-style: none;
+}
+
+hr {
+	width: 1100px;
+	align-self: center;
 }
