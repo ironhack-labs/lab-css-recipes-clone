@@ -27,11 +27,19 @@ html {
 }
 
 h1 {
-  font-weight: lighter;
+  font-weight: 400;
 }
 
+h2 {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
 .container_recipe {
-  margin: 30px 40px;
+  margin: 10px 60px;
   padding: 50px;
 }
 
@@ -47,11 +55,12 @@ h1 {
 }
 
 hr {
-  margin-top: 20px;
-  margin-left: 90px;
-  width: 1250px;
+  margin-top: 60px;
+  margin-left: 110px;
+  width: 1200px;
   align-content: center;
-  size: 2px;
+  height: 1px;
+  background-color: gray;
 }
 
 .ingredients {
@@ -75,8 +84,9 @@ hr {
   font-size: 1.5rem;
   align-content: left;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
 .recipe_directions {
@@ -84,9 +94,26 @@ hr {
   align-content: left;
   margin-top: 30px;
   margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
 ol {
- list-style: symbols("-"); 
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li:before {
+  content: "- ";
 }
