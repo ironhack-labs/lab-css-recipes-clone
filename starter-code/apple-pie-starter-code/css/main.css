@@ -1,13 +1,13 @@
 html {
   min-height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
   font-weight: 300;
 }
 
-section{
+section {
   margin: 105px 135px 105px 136px;
   color: rgb(24, 24, 24);
 }
@@ -39,7 +39,7 @@ header {
   position: center;
 }
 
-.title{
+.title {
   position: relative;
   float: left;
   top: 50%;
@@ -63,7 +63,7 @@ ul li {
   line-height: 1.4;
 }
 
-ul li::before{
+ul li::before {
   content: "- ";
 }
 
@@ -81,7 +81,7 @@ ol li::before {
   content: counter(counter) ") ";
 }
 
-hr{
+hr {
   border-top: 2px solid grey;
   margin-top: 40px;
   color: grey;
