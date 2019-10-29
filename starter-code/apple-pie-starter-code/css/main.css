@@ -1,14 +1,12 @@
-*,
-*::after,
-*::before {
+/*Some necessary adjustments*/
+h1, body, html, main {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
-
-htm {
-  font-family: 'Roboto', sans-serif; 
-  font-size: 18px;
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
 }
 
 .container {
@@ -28,8 +26,15 @@ htm {
 }
 
 h1 {
-  font-weight: lighter;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
+
+h2 {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
 
 .container_recipe {
   margin: 30px 40px;
@@ -45,6 +50,7 @@ h1 {
 .description {
   font-size: 2rem;
   align-content: center;
+  font-weight: 300;
 }
 
 hr {
@@ -52,7 +58,8 @@ hr {
   margin-left: 90px;
   width: 1250px;
   align-content: center;
-  size: 2px;
+  height: 1px;
+  background-color: gray;
 }
 
 .ingredients {
@@ -78,6 +85,7 @@ hr {
   margin-top: 30px;
   margin-left: 40px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
 .recipe_directions {
@@ -86,8 +94,24 @@ hr {
   margin-top: 30px;
   margin-left: 40px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
-ul {
- list-style: symbols("-"); 
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li:before {
+  content: "- ";
 }
