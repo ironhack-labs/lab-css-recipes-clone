@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+h1 {
+    position: relative;
+    top: 35%;
+    font-size: 15vh;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#apple-header{
+    background-image:  url(apple-pie.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+#pie-description{
+    font-size: 1.8em;
+    text-align: left;
+    margin: 100px 260px 50px;
+}
+
+
+#cooking-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 0 0 50px 0;
+}
+
+#ingredients img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 50px 0 50px 0;
+}
+
+.line-break{
+    margin: 0 200px;
+}
+
+#ingredients, #directions{
+    font-size: 1.3em;
+    text-align: left;
+}
+
+#ingredients h2, #directions h2{
+    padding: 30px 230px 15px;
+}
+
+#ingredients li{
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    margin: 5px 260px;
+    font-size: 1.5em;
+}
+
+#directions li{
+    font-size: 1.5em;
+    margin: 5px 230px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+#directions{
+    padding: 0 0 50px 0;
+}
+
+#directions ul{
+    list-style-type: none;
+}
