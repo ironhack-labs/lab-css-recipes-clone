@@ -1,12 +1,15 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
   padding: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 .container {
@@ -16,7 +19,6 @@ html {
   width: 100%;
   height: 800px;
 }
-
 
 .title {
   text-align: center;
@@ -35,9 +37,15 @@ h2 {
   font-weight: 400;
 }
 
-p {
-  font-weight: 300;
+hr {
+  margin-top: 60px;
+  margin-left: 110px;
+  width: 1200px;
+  align-content: center;
+  height: 1px;
+  background-color: gray;
 }
+
 .container_recipe {
   margin: 10px 60px;
   padding: 50px;
@@ -52,21 +60,13 @@ p {
 .description {
   font-size: 2rem;
   align-content: center;
-}
-
-hr {
-  margin-top: 60px;
-  margin-left: 110px;
-  width: 1200px;
-  align-content: center;
-  height: 1px;
-  background-color: gray;
+  font-weight: 300;
 }
 
 .ingredients {
   margin: 20px 40px;
   padding: 50px;
-} 
+}
 
 .directions {
   margin: 30px 40px;
