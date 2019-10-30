@@ -1,92 +1,9 @@
 /*Some necessary adjustments*/
-h1,
-body,
-html,
-main {
-	margin: 0;
+h1, body, html, main {
+  margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-}
-
-/* GLOBAL RULES */
-.container {
-	width: 60%;
-	margin: 0 auto;
-}
-.container h2 {
-	font-weight: 400;
-	font-size: 1.4rem;
-}
-
-/* HEADER */
-header {
-	height: 750px;
-	background: url("../images/soup.jpg");
-	background-position: center bottom;
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.recipe-title {
-	color: white;
-	font-weight: 400;
-	font-size: 4.5rem;
-}
-
-/* RECIPE DESCRIPTION */
-.rcp-description {
-	margin-top: 90px;
-	border-bottom: 3px solid #989898;
-}
-.rcp-description p {
-	font-size: 1.3rem;
-	font-weight: 100;
-	line-height: 1.5;
-}
-.rcp-description img {
-	display: block;
-	margin: 40px auto 70px;
-	width: 45%;
-}
-
-/* RECIPE INGREDIENTS */
-.rcp-ingredients {
-	margin-top: 50px;
-	border-bottom: 3px solid #989898;
-}
-.rcp-ingredients ul {
-	list-style-type: none;
-	margin-left: -2rem;
-	font-weight: 100;
-	font-size: 1.2rem;
-	line-height: 1.5;
-}
-.rcp-ingredients img {
-	display: block;
-	width: 40%;
-	margin: 40px auto;
-}
-
-/* RECIPE DIRECTIONS */
-.rcp-directions {
-	margin: 50px auto 100px;
-}
-.rcp-directions h2 {
-	margin-bottom: 50px;
-}
-.rcp-directions ol {
-	counter-reset: list;
-	list-style-type: none;
-	margin-left: -1.5rem;
-	font-size: 1.2rem;
-	font-weight: 100;
-	line-height: 1.5;
-}
-.rcp-directions li:before {
-	content: counter(list) ") ";
-	counter-increment: list;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
 }
