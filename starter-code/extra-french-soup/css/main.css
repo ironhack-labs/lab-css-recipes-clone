@@ -1,138 +1,67 @@
-/*Some necessary adjustments*/
-h1,
-body,
-html,
-main {
-	margin: 0;
-}
-/*Import the font and set the default size*/
-html {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+html {font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 5em;
 }
 
-/* GLOBAL RULES */
-.container {
-	width: 60%;
-	margin: 0 auto;
-}
-.container h2 {
-	font-weight: 400;
-	font-size: 1.4rem;
-}
-
-/* HEADER */
-header {
-	height: 750px;
-	background: url("../images/soup.jpg");
-	background-position: center bottom;
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.recipe-title {
-	color: white;
-	font-weight: 400;
-	font-size: 4.5rem;
-}
-
-/* RECIPE DESCRIPTION */
-.rcp-description {
-	margin-top: 90px;
-	border-bottom: 3px solid #989898;
-}
-.rcp-description p {
-	font-size: 1.3rem;
-	font-weight: 100;
-	line-height: 1.5;
-}
-.rcp-description img {
-	display: block;
-	margin: 40px auto 70px;
-	width: 45%;
-}
-
-/* RECIPE INGREDIENTS */
-.rcp-ingredients {
-	margin-top: 50px;
-	border-bottom: 3px solid #989898;
-}
-.rcp-ingredients ul {
-	list-style-type: none;
-	margin-left: -2rem;
-	font-weight: 100;
-	font-size: 1.2rem;
-	line-height: 1.5;
-}
-.rcp-ingredients img {
-	display: block;
-	width: 40%;
-	margin: 40px auto;
-}
-
-/* RECIPE DIRECTIONS */
-.rcp-directions {
-	margin: 50px auto 100px;
-}
-.rcp-directions h2 {
-	margin-bottom: 50px;
-}
-.rcp-directions ol {
-	counter-reset: list;
-	list-style-type: none;
-	margin-left: -1.5rem;
-	font-size: 1.2rem;
-	font-weight: 100;
-	line-height: 1.5;
-}
-.rcp-directions li:before {
-	content: counter(list) ") ";
-	counter-increment: list;
-}
-
-#header{
-  background-image: url(../images/soup.jpg);
-  height: 1900px;
-}
-h1{
-  color:#ffffff;
-  text-align: center;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  font-size: 100px;
-}
-.section{
-  font-size: 60px;
-  color: black;
-  text-align: center;
-}
-hr {
-   height: 8px;
-   width: 80%;
-   background-color: #808080;
-}
 h2 {
-text-align: left;
-margin: 50px;
-font-size: 50px;
-font-family: Arial;
-}
-.section1{
-   font-size: 50px;
-   text-align: center;
-}
-.section1 li{
-   text-align: left;
-   list-style-type: none;
-   
-}
-.section1 li::before{content: "-"}
-
-.section2 li{
-   margin: 0 40px;
-   font-size: 50px;
+  margin-bottom: 40px;
+  color: rgb(40, 40, 40);
+  font-weight: lighter;
+  font-size: 1.5em;
 }
 
-.section2 li::before{content: ")"}
+hr {
+  border: 1px solid rgb(200, 200, 200);;
+  margin: 0 auto;
+  width: 70%;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+
+p, li {
+  color: rgb(60, 60, 60);
+  font-weight: lighter;
+}
+
+p { font-size: 2em; }
+
+li { font-size: 1.2em; }
+
+.introduction-section { 
+  margin: 50px auto 20px auto; 
+  width: 70%;
+}
+
+.introduction-section p { font-size: 1.6em; }
+
+.img-information {
+  margin-top: 40px;
+  width: 40%;
+}
+
+.information-section {
+  width: 70%;
+  margin: 50px auto 20px auto;
+}
+
+.box-img-information { text-align: center; }
+
+.information-list { margin-left: 35px; }
+
+.information-list li { padding: 5px 0; }
+
+.ingredients-list li { list-style: circle; }
+
+.directions-list li { list-style: decimal;}
+
+.directions-section { margin-bottom: 70px; }
