@@ -1,7 +1,11 @@
+html {
+    font-family: 'Roboto', sans-serif;
 
-   #textp {
+}
 
- z-index: auto;
+#texto {
+
+ z-index: -1000;
  }
 
  #img-principal {
@@ -10,3 +14,4 @@
 
 
  } 
+
