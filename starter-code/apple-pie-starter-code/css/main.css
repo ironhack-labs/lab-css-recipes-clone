@@ -1,17 +1,59 @@
+
+
+
 html {
     font-family: 'Roboto', sans-serif;
 
 }
+body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    }
 
 #texto {
 
- z-index: -1000;
+ color: white;
+ position: absolute;
+ top: 15%;  
+ left: 45%;
+ font-size: 48px;
  }
 
  #img-principal {
 
- background-image;: url("images/apple-pie.jpg") 
-
-
+    width: 100%;
+    max-height: 450px;
  } 
 
+
+ .big-block { 
+
+    width: 100%;
+
+    
+ }
+
+ .block {
+    border-bottom: #cccccc solid 3px;
+ }
+
+ .small-block {
+ 
+     border-bottom: #cccccc solid 3px;
+     padding: 25px;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .infoimg {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 25px;
+ }
