@@ -1,73 +1,77 @@
-body{
+body {
   margin: 0;
 }
-
-p,li{
-  font-family: 'Actor';
+ul {
+  list-style-type: none;
+}
+p,
+li {
+  font-family: "Actor";
   font-size: 2em;
 }
 
-li{
+li {
   font-size: 2em;
 }
-
-section{
+li::before {
+  content: "-";
+}
+section {
   height: 100vh;
   width: 100vw;
 }
 
-#sec2{
+#sec2 {
   height: 60vh;
 }
 
-img{
- width:100%;
- height: 100%;
+img {
+  width: 100%;
+  height: 100%;
 }
 
-#sec1{
+#sec1 {
   display: flex;
   flex-direction: column;
   height: 120vh;
 }
 
-.img-cont{
-  height:50%;
+.img-cont {
+  height: 50%;
   width: 60%;
   display: flex;
   flex-flow: column;
   align-self: center;
 }
 
-.img-cont > p{
+.img-cont > p {
   display: flex;
   color: white;
 }
 
-.info-img{
+.info-img {
   width: 100%;
   height: 100%;
 }
 
-#apples{
+#apples {
   height: 100vh;
   width: 100vw;
   background-image: url("../images/apple-pie.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#apples > p{
+#apples > p {
   color: white;
   font-size: 200%;
 }
-.justify-text{
+.justify-text {
   width: 80%;
   font-size: 1em;
   color: brown;
@@ -79,18 +83,15 @@ img{
   flex-flow: column;
   height: 90vh;
 }
-#sec2 > p{
+#sec2 > p {
   text-align: center;
   font-family: cursive;
-} 
+}
 
-#sec2 > .img-cont{
+#sec2 > .img-cont {
   height: 120%;
 }
-:not(#sec3) > .left-text > p{
+:not(#sec3) > .left-text > p {
   font-size: 3em;
   text-align: center;
 }
-
-
-
