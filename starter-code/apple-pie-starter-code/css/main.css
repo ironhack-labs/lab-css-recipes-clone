@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Century Gothic;
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: 300;
+    } 
+
+
+.Main-Photo {
+    max-width: 100%;
+    max-height: 25%;
+    position: relative;
+    }
+
+#header {
+    font-size: 100px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    top: 500px;
+    right: 50%;
+    width: 100%;
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    color: white;    
+    }
+
+
+p   {
+      text-align: center;
+      width: 68%;
+      font-size: 22px;
+      line-height: initial;
+      color: gray;
+      margin:auto;
+      padding: 20px 20px 30px 20px;
+      
+    }
+
+.Recipe-Info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 32%;   
+    padding: 25px; 
+}
+
+div > hr  {
+    border: none;
+    border-top: solid grey;
+    overflow: visible;
+    text-align: center;
+    margin: auto;
+    height: 5px;
+    border-top: solid grey;
+    width: 68%;
+    align-items: center;
+}
+
+h3{
+    text-align: left;
+    width: 68%;
+    font-size: 33px;
+    line-height: initial;
+    color: gray;
+    margin: auto;
+    padding: 55px 20px 2px 20px;
+}
+
+ul{
+    text-align: left;
+    width: 62%;
+    font-size: 22px;
+    line-height: initial;
+    color: gray;
+    margin:auto;
+    padding: 20px 20px 30px 20px;
+}
+
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -30px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  .ingredients-list{
+    list-style-type: none;
+  }
+
+  .cooking-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 32%;   
+    padding: 25px; 
+}
+
+.directions{
+    list-style-type: none;
+    width: 65%;
+    font-size: 20px;
+}
