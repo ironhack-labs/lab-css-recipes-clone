@@ -1,5 +1,8 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
@@ -23,7 +26,7 @@ html {
 
 #main-text {
   margin: 40px;
-  padding:15px;
+  padding: 15px;
 }
 
 .main {
@@ -42,7 +45,6 @@ img {
   width: 330px;
   float: right;
   /* border-bottom: 1px solid gray; */
-
 }
 #dir {
   border-bottom: 3px solid gray;
