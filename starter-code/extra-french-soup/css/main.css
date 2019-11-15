@@ -7,3 +7,9 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+section {
+  background-image: url('../images/soup.jpg');
+  height: 400px;
+  background-size: cover;
+}
