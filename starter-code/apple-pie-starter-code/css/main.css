@@ -1,0 +1,57 @@
+/*
+sorry, not having used this
+@import url('_intro.css');
+@import url('_ingredients.css');
+@import url('_directions.css');
+*/
+
+/* use 500px width */
+.main {
+    width:700px;
+    margin:auto;
+}
+
+/* show elements centered */
+.inside {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+/* show background image and text centered */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/apple-pie.jpg");
+    background-size:cover; /* this worked for making the image fit */
+    width:100%;
+    height:450px;
+}
+
+.textoverimage {
+    color:white;
+    position:absolute;
+    margin:auto;
+    height:100px;
+}
+
+.contents {
+    display:flex;
+    flex-direction:column;
+    width:80%;
+}
+
+/* scaling images within their containers */
+img { 
+    width:100%;
+}
+
+.separator {
+    background:black;
+    height:3px;
+    width:100%;
+}
+
