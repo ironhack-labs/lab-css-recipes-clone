@@ -1,0 +1,29 @@
+.instructions {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.instructions h2{
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+
+.instructions img {
+    width: 400px;
+    position: relative;
+    left:30%;
+}
+
+.instructions ul, ol {
+    list-style: none; 
+    font-size: 1.2em;
+}
+
+.divider {
+    height: 1px;
+    background-color: grey;
+    margin: 10px 0;
+}
+

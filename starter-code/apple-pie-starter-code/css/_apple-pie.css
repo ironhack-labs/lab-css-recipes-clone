@@ -1,0 +1,19 @@
+.apple-pie {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100%;
+    background-repeat: none;
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#headline {
+    font-size: 72px;   
+    font-weight: 200; 
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
