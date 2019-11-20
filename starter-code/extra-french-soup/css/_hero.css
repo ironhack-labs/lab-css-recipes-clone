@@ -1,0 +1,17 @@
+.hero {
+    background-image: url(../images/soup.jpg);
+    width: 100vw;
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 25%;
+}
