@@ -1,0 +1,63 @@
+*{
+    font-family:'Montserrat', sans-serif;
+    color: #444141;
+}
+
+section{
+    margin: 7%;
+}
+.header-image{
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image h1{
+    font-weight: lighter;
+    font-size: 6vw;
+    color: whitesmoke;
+}
+
+.vertical-line{
+    border: 1px solid #9b9a9a;
+    margin-bottom: 5%;
+}
+
+.recipe-image{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.list-line{
+        list-style: none; /* Remove list bullets */
+        padding: 0;
+        margin: 0;
+      }
+      
+.list-line li {
+        padding-left: 16px;
+      }
+      
+.list-line li:before {
+        content: "-"; /* Insert content that looks like bullets */
+        padding-right: 8px;
+      }
+
+
+.counter-num {
+    counter-reset: breakCounter;
+    list-style: none;
+    margin-left: -18px;
+}
+.counter-num li {
+    counter-increment: list;
+    
+}
+.counter-num li:before {
+    content: counter(list) ") ";
+    }
