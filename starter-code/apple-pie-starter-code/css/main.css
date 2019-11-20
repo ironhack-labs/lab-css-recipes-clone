@@ -1,0 +1,88 @@
+#ApplePie {
+    height: 90%;
+    width: 90%;
+    margin: 0px 90px;
+}
+
+#div-pie-pic {
+  background-image: url("./images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+/* Centered text */
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-size: 130px;
+    font-weight: normal;
+}
+
+.text-center {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 300px;
+    line-height: 1.1;
+}
+
+.info-pics {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 370px;
+    padding-right: 370px;
+    padding-bottom: 30px;
+    width: 500px;
+    border-bottom: 3px solid grey;
+}
+
+.left-oriented {
+  margin: 0px 330px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.font-style {
+    font-size: 33px;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+ul > li {
+    text-indent: -25px;
+}
+
+ul > li:before {
+    content: "- ";
+}
+
+ol {
+    counter-reset: my-counter;
+    list-style-type: none;
+    margin-bottom: 135px;
+}
+
+ol > li {
+    margin-left: -20px;
+}
+
+ol > li:before {
+    counter-increment: my-counter;
+    content: counters(my-counter,  ".") ") ";
+}
