@@ -15,11 +15,24 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto 120px;
 }
 .header-image h1{
     font-weight: lighter;
     font-size: 6vw;
     color: whitesmoke;
+}
+
+section{
+    font-size: x-large;
+}
+
+section div{
+    padding: 0px 200px;
+}
+
+section div li{
+    font-size: smaller;
 }
 
 .vertical-line{
@@ -36,6 +49,7 @@ section{
 .list-line{
         list-style: none; /* Remove list bullets */
         padding: 0;
+        padding-bottom: 30px;
         margin: 0;
       }
       
