@@ -1,11 +1,10 @@
-*{
+:root{
     font-family:'Montserrat', sans-serif;
     color: #444141;
+    margin: 1vw;
+    font-size: 1.1vw;
 }
 
-section{
-    margin: 5vw;
-}
 .header-image{
     background-image: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
@@ -15,35 +14,35 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto 120px;
+    
 }
 .header-image h1{
     font-weight: lighter;
     font-size: 6vw;
     color: whitesmoke;
 }
-
+    
 section{
-    font-size: x-large;
-}
-
-section div{
-    padding: 0px 200px;
+    font-size: 1.8rem;
+    margin: 7vw;
 }
 
 section div li{
-    font-size: smaller;
+    font-size: 1.4rem;
 }
 
 .vertical-line{
     border: 1px solid #9b9a9a;
-    margin-bottom: 5%;
+    margin-bottom: 3rem;
 }
 
 .recipe-image{
     display: flex;
     justify-content: center;
-    padding: 1vw;
+}
+.recipe-image img{
+    width: 60%;
+    height: 60%;
 }
 
 .list-line{
