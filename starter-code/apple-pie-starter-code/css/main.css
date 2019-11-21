@@ -4,22 +4,35 @@
 }
 
 section{
-    margin: 7%;
+    margin: 5vw;
 }
 .header-image{
     background-image: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    height: 600px;
+    height: 42vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto 120px;
 }
 .header-image h1{
     font-weight: lighter;
     font-size: 6vw;
     color: whitesmoke;
+}
+
+section{
+    font-size: x-large;
+}
+
+section div{
+    padding: 0px 200px;
+}
+
+section div li{
+    font-size: smaller;
 }
 
 .vertical-line{
@@ -36,6 +49,7 @@ section{
 .list-line{
         list-style: none; /* Remove list bullets */
         padding: 0;
+        padding-bottom: 30px;
         margin: 0;
       }
       
