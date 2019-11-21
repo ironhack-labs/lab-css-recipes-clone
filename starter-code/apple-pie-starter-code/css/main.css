@@ -2,7 +2,7 @@
     font-family:'Montserrat', sans-serif;
     color: #444141;
     margin: 1vw;
-    font-size: 1.1vw;
+    font-size: 10px;
 }
 
 .header-image{
@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    height: 42vw;
+    height: 44vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,14 +21,17 @@
     font-size: 6vw;
     color: whitesmoke;
 }
-    
+
+h2 {
+    font-size: 2.4rem;
+}
 section{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 7vw;
 }
 
 section div li{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .vertical-line{
@@ -41,8 +44,8 @@ section div li{
     justify-content: center;
 }
 .recipe-image img{
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
 }
 
 .list-line{
