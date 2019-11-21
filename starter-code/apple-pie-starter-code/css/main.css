@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 header{
@@ -21,8 +22,11 @@ h1 {
 }
 
 .padding{
-    padding: 100px 700px;
-    font-size: 2.5em;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50Px;
+    font-size: 1rem;
+    
 }
 
 .image1 {
@@ -32,6 +36,10 @@ h1 {
 
 .ul-list {
     list-style-type: none;
+}
+
+.ul-list li::before {
+    content: "- ";
 }
 
 .ol-list {
