@@ -4,14 +4,14 @@
 }
 
 section{
-    margin: 7%;
+    margin: 5vw;
 }
 .header-image{
     background-image: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    height: 600px;
+    height: 42vw;
     display: flex;
     justify-content: center;
     align-items: center;
