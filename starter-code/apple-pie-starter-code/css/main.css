@@ -1,17 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
-
-body {
-  font-size: 10px;
   box-sizing: border-box;
 }
 
-#hero {
-  height: 500px;
-  background-image: url("../images/apple-pie.jpg");
+body {
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.hero {
+  height: 95vh;
+  background-image: url(../images/apple-pie.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,23 +22,77 @@ body {
 h1 {
   color: white;
   font-size: 6em;
+  font-weight: 100;
   position: absolute;
-  left: 40%;
-  top: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
-#description {
-  padding: 50px 200px;
-  border-bottom: 2px solid gray;
+.description {
+  padding: 20px 0;
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-weight: 100;
 }
 
-#description > p {
+.description > p {
   font-size: 1.7em;
-  padding-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
-#description > img {
-  width: 50%;
-  padding-left: 30%;
+.recipe-time {
+  height: 30px;
+  margin: 0 auto;
+  width: fit-content; 
+}
+
+.description img {
+  height: 100%;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.ingredients {
+  padding: 5% 15%;
+}
+
+.ingredients-list {
+  padding: 5%;
+}
+
+.ingredients img {
+  height: 100%;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li:before {
+  content: '-';
+}
+
+
+.directions {
+  padding: 5% 15%;
+}
+
+.directions > p {
+  padding: 5%;
+}
+
+.directions-list {
+  padding: 5%;
 }
 
