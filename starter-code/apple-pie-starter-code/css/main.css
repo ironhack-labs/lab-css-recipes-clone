@@ -1,0 +1,49 @@
+* {
+    margin: none;
+    padding: none;
+}
+body {
+    font-family: Calibri;
+
+}
+
+header div {
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-image: url("/Users/Alex/Desktop/Ironhack/Homework/01_1_Recipies/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+h1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+  #intro {
+      width: 600px;
+      font-size: 1.2em;
+  }
+
+  .info-grafic {
+      width: 250px;
+      margin: 0 25%;
+  }
+
+  ul li:before{
+    content: "-";
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  section {
+    border-bottom: 1px solid lightgray;
+    width: 600px;
+    margin: 0 25% ;
+    
+  }
