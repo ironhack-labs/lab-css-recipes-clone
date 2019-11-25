@@ -7,12 +7,20 @@ h1 {
     font-size: 4em;
 }
 
-.partone {
+.position {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subposition {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-column {
  display: flex;
  flex-direction: column;
  align-items: center;
- width: 90%;
- margin: 0 auto;
 }
 
 .background-img {
@@ -32,16 +40,39 @@ h1 {
 }
 
 .paragraph {
-    margin: 5% 10%;
+    /* margin: 5% 10%; */
     font-size: 1.2em;
 }
 
-hr {
-    width: 100%;
-    margin: 5% 10%;
+.no-line-break {
+    white-space: nowrap;
 }
 
 p img {
     height: 1em;
     margin-right: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    margin: 0 1em;
+    padding-left: 0 1em;
+}
+
+.border-right {
+    padding-right: 1em;
+    border-right: 1px solid rgb(150, 150, 150);
 }
