@@ -24,14 +24,11 @@ body {
 .header-img {
   background-image: url(../images/soup.jpg);
   height: 400px;
-  /*padding: 0px;*/
   margin:  50px 250px;
   background-size: 100%;
   background-position: bottom; 
-  /*position: absolute;
-  height: 100px;
-  width: 200px; 
-  clip: rect(0px,60px,200px,0px);*/
+  /*height: 100px;
+  width: 200px;*/
 }
 
 .header-img > h1 {
@@ -41,7 +38,7 @@ body {
   text-align: center;
   position: absolute;
   top: 33%;
-  left: 30.5%;
+  left: 29.2%;
 }
 
 .container {
@@ -88,5 +85,5 @@ hr {
 }
 
 #directions > h2 {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
