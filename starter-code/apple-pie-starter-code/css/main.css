@@ -1,0 +1,52 @@
+/*
+Comentarios personales:
+- Estrategia de css no pensada, solo a apuntar.
+- Puede que algunas classes sin usar, falta limpiar.
+- Responsive no controlado, solo mi monitor al 100%
+- Prohibido usar flexbox.
+*/
+
+* {
+    font-size: 16px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+header{
+    position: relative;
+    color: white;
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 650px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 56px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    
+}
+
+#abstract {
+    text-align: center;
+}
+#abstract p{
+    font-size: 22px;
+}
+
+.info-images{
+    text-align: center;
+}
+
+h2{
+    font-size: 22px;
+}
