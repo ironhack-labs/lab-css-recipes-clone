@@ -1,0 +1,23 @@
+header {
+    max-width: 100%;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+  }
+  
+  body {
+    font-family: helvetica neue thin;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: align;
+    max-width: 900px;
+  }
+  
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  section {
+    font-family: helvetica neue;
+  }
