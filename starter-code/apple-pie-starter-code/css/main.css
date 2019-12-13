@@ -4,40 +4,40 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     background: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 40em;
     margin: 2em 2em 4em 2em;
+    position: relative;
 }
 
 h1 {
     color: white;
-    font-size: 5em;
+    font-size: 6em;
     margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 ul {
     list-style: none;
 }
 
-.sections {
-    margin: 2.5em 5em;
-}
-
 #first-section {
     font-size: 1.75em;
 }
 
-#second-section {
-    font-size: 1.5em;
-}
-
-#third-section {
+#second-section, #third-section {
     font-size: 1.5em;
 }
 
@@ -50,7 +50,7 @@ img {
 }
 
 hr {
-    margin: 2.5em 7.5em;  
+    margin: 2.5em 0;  
     height: 2px;
     background: #636e72;
 }
