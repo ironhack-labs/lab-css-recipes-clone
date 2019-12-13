@@ -1,7 +1,12 @@
 container{
     max-width: 100%;
+
 }
-h1{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+.h1-wrap{
+    display: flex;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     font-size: 80px;
     color: white;
     align-items: center;
@@ -9,7 +14,12 @@ h1{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ub
     height: 500px;
     background-size: cover;
     background-image: url("../images/apple-pie.jpg");
-    
+
+}
+
+.h1-wrap h1{
+    margin: 0;
+    font-size: 87px;
 }
 
 .timeCook{
@@ -23,9 +33,6 @@ li{
     line-height: 1.5;
 }
 
-ol{
-    line-height: 1.5;
-}
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
