@@ -7,3 +7,48 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.bg-image {
+    background-image: url(/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg);
+    background-size: cover;
+    width: 960px;
+    height: 500px;
+    background-position: bottom;
+    margin: 0 auto;
+}
+.title {
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+  font-size: 60px;
+}
+.container {
+  margin: 0 260px 100px;
+}
+.recipe-introduction {
+  margin-top: 80px;
+  font-size: 21px;
+}
+.recipe-img {
+  width: 40%;
+  margin: 15px 250px;
+}
+.ingredients {
+  margin-top: 40px;
+}
+.subtitle-recipe {
+  font-size: 20px;
+}
+.list-ingredients {
+  list-style-type: none;
+  padding: inherit;
+}
+.list-ingredients li::before {
+  content: "-";
+}
+.list-directions {
+  margin-top: inherit;
+  padding-left: 25px;
+}
+.list-directions li::before {
+  content: ") ";
+}
