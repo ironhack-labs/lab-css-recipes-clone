@@ -1,0 +1,47 @@
+.width{
+    width: 97%;
+    margin: 0% 2% 0% 2%; /* Space from this element (entire page) and others*/
+    max-width: 1800px;
+    padding-left: 5%;
+    font-family: "Courier";
+}
+h1{
+    color: white;
+    font-size: 68px;
+    font-style: oblique;
+    text-align: center;  
+    padding: 290px;
+}
+.photo {
+    background-image: url("/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: 1800px;
+    height: 680px;
+}
+.text {
+	width: 73%;
+	margin: 30px 14% 30px 14%;
+}
+p{
+    font-size: 35.8px;
+    text-align: center justify;
+    text-justify: auto;
+}
+.recipe {
+    margin: 0px 34% 0 34%;
+    width: 30%;
+}
+hr{
+	width: 73%;
+	margin: 30px 14% 30px 14%;
+}
+.articles{
+    width: 73%;
+    margin: 30px 14% 30px 14%;
+    font-size: 22px;
+}
+ul { 
+    list-style-type: none; 
+}
+ul > li:before { 
+    content: "–";
+}
