@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+    font-family: "Raleway";
+}
+
+header {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+#content {
+    padding: 50px 50px;
+}
+
+#intro {
+    font-size: 1.2em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-info {
+    width: 350px;
+}
+
+#cooking-info {
+    width: 300px;
+}
