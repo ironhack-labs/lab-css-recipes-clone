@@ -1,9 +1,46 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header img{
+  position: relative;		
+  max-width: 100%;
+}
+
+header h1{
+  position: absolute;
+  font-size: 50px;
+  width: 100%;
+  top: 200px;
+  left:0;
+  text-align: center;
+  color:white
+  
+}
+
+
+.recipeinfo img{
+  position: relative;		
+  width: 50%;
+  height: 50%;
+  left:150px;
+
+}
+
+.cookinginfo img{
+  position: relative;		
+  width: 50%;
+  height: 50%;
+  left:150px;
+
+}
+
