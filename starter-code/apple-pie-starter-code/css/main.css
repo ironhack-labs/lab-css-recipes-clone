@@ -1,0 +1,36 @@
+body {
+    margin: 50px 200px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    background: url("../images/apple-pie.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 85px;
+    font-weight: 100;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.noBullet {
+    list-style-type: none;
+}
+
+.cookingInfo {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 60%;
+}
