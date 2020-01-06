@@ -1,15 +1,17 @@
  .apple-pie{
     background-image: url(../images/apple-pie.jpg);
-    height: 40vh;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .apple-pie-text{
    font-size: 70px;
-   padding-top: 14vh;
    font-family: arial;
    margin-top: 0;
 }
@@ -17,6 +19,15 @@
 img{
     width: 61vh;
 }
+
+ul li{
+   list-style:none ;
+} 
+
+
+ul li:before{
+    content: "- ";
+} 
 
 body{
     margin:0;
@@ -30,11 +41,22 @@ body{
     margin-bottom: 20px;    
 }
 
-.ingredient{
+h2{
     border-top-color: gray;
     border-top-style: solid;
     border-top-width: 1px;
+    padding-top: 20px;
 }
 .image-gm{
     text-align: center
+}
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol li:before { 
+    content: counter(item) ""; 
+    counter-increment: item 
 }
