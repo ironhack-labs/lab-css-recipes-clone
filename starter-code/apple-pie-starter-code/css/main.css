@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:not(h1){
+    margin: 20px 50px;
+}
+
+.apple-pie{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+    
+h2 {
+    border-top: grey;
+    border-top-style: solid;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image {
+    text-align: center;
+}
