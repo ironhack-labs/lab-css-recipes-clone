@@ -1,0 +1,34 @@
+ .apple-pie{
+    background-image: url(../images/apple-pie.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.apple-pie-text{
+   font-size: 70px;
+   padding-top: 180px;
+   font-family: arial;
+}
+
+body{
+    margin:0;
+}
+
+.grand-other{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.ingredient{
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.image-gm{
+    text-align: center
+}
