@@ -1,0 +1,49 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+        background: url(./images/apple-pie.jpg) 0/cover no-repeat;
+        height:1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+header p {
+        font-size: 100px;
+        color:white
+}
+
+.section1 {
+        margin-right: 420px;
+        margin-left: 400px;
+}
+
+
+.section2 {
+        margin-right: 450px;
+        margin-left: 400px;
+}
+
+.ul {
+        list-style-type: "- ";
+}
+
+.section3 {
+        margin-right: 450px;
+        margin-left: 400px;
+}
+
+.ol {
+        list-style-type: none;
+        counter-reset: Compteliste;
+}
+.ol li:before{
+        counter-increment: Compteliste 1;
+        content: counter(Compteliste) ")";
+}
+        
+        
