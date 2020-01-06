@@ -14,6 +14,10 @@
    margin-top: 0;
 }
 
+img{
+    width: 61vh;
+}
+
 body{
     margin:0;
     font-family: verdana;
