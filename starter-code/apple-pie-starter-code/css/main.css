@@ -9,13 +9,14 @@
 
 .apple-pie-text{
    font-size: 70px;
-   padding-top: 180px;
+   padding-top: 160px;
    font-family: arial;
    margin-top: 0;
 }
 
 body{
     margin:0;
+    font-family: verdana;
 }
 
 .grand-other{
