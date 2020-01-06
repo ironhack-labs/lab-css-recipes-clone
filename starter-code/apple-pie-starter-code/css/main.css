@@ -11,6 +11,8 @@ h1 {
     font-size: 5em;
     text-align: center;
     color: white;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 hr {
@@ -19,6 +21,8 @@ hr {
 
 .header {
     height: 500px;
+    width: 100%;
+    display: table;
     background-image: url(../images/apple-pie.jpg);
     background-position: 0,0;
     background-repeat: no-repeat;

@@ -13,7 +13,8 @@ h1 {
   font-size: 5em;
   text-align: center;
   color: white;
-  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 hr {
@@ -22,6 +23,8 @@ hr {
 
 .header {
   height: 500px;
+  width: 100%;
+  display: table;
   background-image: url(../images/soup.jpg);
   background-position: 0,0;
   background-repeat: no-repeat;
