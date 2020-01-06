@@ -1,0 +1,52 @@
+html {
+    font-family:Arial;
+}
+
+
+.header {
+    background-image: url('../images/apple-pie.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-top: -100px /* pourquoi espace blanc? */
+    
+}
+
+.header p {
+    font-size:100px;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+
+}
+
+div {
+    padding: 0px 150px;
+    margin-top: 40px;
+}
+
+hr {
+    margin: 0px 150px;
+    padding: 0.5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro {
+    text-align: center justify;
+    font-size: 20px
+}
+
+li {
+    line-height: 25px;
+}
+
+.directions{
+    margin-bottom: 80px;
+}
