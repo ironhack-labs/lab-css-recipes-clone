@@ -9,7 +9,8 @@ html {
 h1 {
   color: white;
   background-image: url("../images/apple-pie.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   line-height: 1000px;
   font-weight: 200;
