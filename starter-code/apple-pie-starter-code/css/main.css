@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+section,
+hr {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+section img {
+    display: block;
+    margin: 25px auto 0;
+    max-width: 500px;
+    width: auto;
+}
+
+header {
+    background: url("../images/apple-pie.jpg") no-repeat top center;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+header.soup {
+    background-image: url(../../extra-french-soup/images/soup.jpg);
+}
+
+h1 {
+    font-size: 70px;
+    color: #FFF;
+}
+
+section p {
+    font-size: 28px;
+}
+
+#ingredients ul,
+#directions ol {
+    list-style: none;
+    font-size: 24px;
+}
+
+#ingredients ul>li,
+#directions ol>li {
+    padding-left: 10px;
+}
+
+#ingredients ul>li:before {
+    content: "-";
+    padding-right: 3px;
+}
+
+#directions ol {
+    counter-reset: orderedList;
+}
+
+#directions ol>li:before {
+    content: counter(orderedList) ") ";
+    counter-increment: orderedList;
+    padding-right: 3px;
+}
+
+section:last-of-type {
+    margin-bottom: 75px;
+}
