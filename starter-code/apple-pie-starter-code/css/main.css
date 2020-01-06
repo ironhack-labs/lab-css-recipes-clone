@@ -1,11 +1,10 @@
-html, body {
+h1, body, html, main {
     margin: 0;
-    padding: 0;
-}
+  }
 
 body {
-    font-family: "Open Sans";
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -43,6 +42,7 @@ section img {
 }
 
 #about p {
+    font-size: 20px;
     text-align: justify;
 }
 
