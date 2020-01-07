@@ -1,0 +1,42 @@
+#head-container {
+  background-image: url("/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  padding-top: 50vh;
+  color: white;
+  font-size: 70px;
+}
+#recipe-info {
+}
+.img {
+  width: 30%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+
+#everything {
+  padding: 0vh 40vh;
+}
+ul {
+  list-style-type: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #555;
+}
+li {
+  margin-left: 5vh;
+}
+#first-p {
+  margin-top: 5vh;
+}
+h2 {
+  padding: 15px 0;
+}
