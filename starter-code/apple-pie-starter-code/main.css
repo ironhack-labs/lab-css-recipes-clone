@@ -1,18 +1,24 @@
 
-  
+html{
+	height:100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+	height:130%;
+}  
+
 .header{
 	
 	background-image:url("./images/apple-pie.jpg");
 	background-repeat:no-repeat;
 	background-position: center;
-	background-size: contain;
-	height: 1400px;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	align-content: center;
 	color: white;
 	font-size: 40px;
 }
@@ -24,7 +30,6 @@ section{
 
 .section1{
 	text-align: center;
-	margin:auto;
 }
 .ligne{
 	margin-left: 300px;
@@ -32,19 +37,22 @@ section{
 	border-width:3px;
 }
 .info{
-	margin:auto
+	text-align: center;
 }
 
 ul{
 	list-style-type: '- ';
 }
-.recipe-info{
-	margin: auto;
-	position: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+
+ol{
+	counter-reset: count;
+	list-style-type: none;
+}
+
+ol>li{
+	counter-increment: count;
+}
+
+ol>li::before{
+	content:counter(count) ") ";
 }
