@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.container {
+    max-width: 1280px;
+    margin: auto;    
+}
+
+body {
+    font-family: 'Poppins';
+    color: #808080;
+    font-weight: normal;
+    margin: 0;
+}
+
+#img-top {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+h2 {
+    width: 800px; 
+    margin: 40px auto;
+    font-weight: bold;
+}
+#top-desc {
+    margin-top: 50px;
+    width: 800px;
+    font-size: 26px;
+    margin: 50px auto;
+}
+
+#recipe-info {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#cooking-info {
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    width: 800px;
+    list-style: none;
+    font-size: 22px;
+    margin: auto;
+    
+}
+
+ol li {
+    width: 800px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: auto;
+}
+
+
+hr {
+    width: 800px;
+}
