@@ -34,8 +34,9 @@
 }
 
 .lists {
-    padding-left: 150px;
-    padding-right: 180px;
+    padding-left: 180px;
+    padding-right: 225px;
+    padding-bottom: 50px;
 }
 
 h2, p, ul, ol {
