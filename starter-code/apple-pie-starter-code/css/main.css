@@ -1,5 +1,9 @@
-*, * > * {
-    font-family: "Open Sans", "Helvetica Neue", "sans-serif";
+* {
+    font-family: open, helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
 }
 
 #mainTitle {
