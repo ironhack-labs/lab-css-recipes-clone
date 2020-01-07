@@ -3,6 +3,7 @@
   margin:0;
   padding:0;
   font-weight: 100;
+  color:#777;
 }
 
 .header {
@@ -24,10 +25,10 @@
 h2 {
   font-size:25px;
   padding:10px 0;
+  color:black;
 }
 
 p {
-  color:grey;
   margin:10px 0;
 }
 
@@ -51,7 +52,6 @@ p {
 
 ul {
   list-style-type:none;
-  color:grey;
 }
 
 ul > li {
