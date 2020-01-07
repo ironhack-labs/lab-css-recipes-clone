@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Verdana");
+
+body {
+  font-family: "Verdana";
+  margin: 5px;
+  padding: 0 5px;
+  width: 80%;
+  height: 80%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no repeat;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+img {
+  height: 60px;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+  align-items: center;
+}
+
+#items {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
