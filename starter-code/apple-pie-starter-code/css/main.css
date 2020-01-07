@@ -1,0 +1,57 @@
+
+div #header {
+    position: relative;
+    text-align: center;
+}
+
+div #container {
+    padding: 100px;
+}
+
+#applePie {
+    display: block;
+    width: 60%;
+    height: 30%;
+    margin: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#text-intro {
+    padding: 5px 250px;
+    text-align: center;
+}
+
+#ingredients {
+    padding: 5px 250px;
+    text-align: left;
+}
+
+#ingredients ul li {
+    list-style: none;
+}
+
+#ingredients ul li:before {
+    content: "-";
+    margin-left: -15px;
+}
+
+#directions {
+    padding: 5px 250px;
+    text-align: left;
+}
+
+.logos {
+    display: block;
+    margin: auto;
+    width: 280px;
+}
