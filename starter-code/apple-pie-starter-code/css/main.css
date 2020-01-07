@@ -1,0 +1,43 @@
+.header {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 750px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    padding-top: 215px;
+}
+
+#intro {
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-top: 60px;
+}
+
+.cooking-info {
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 80%;
+}
+
+.lists {
+    padding-left: 150px;
+    padding-right: 180px;
+}
+
+h2, p, ul, ol {
+    font-family: 'Roboto', sans-serif;
+}
