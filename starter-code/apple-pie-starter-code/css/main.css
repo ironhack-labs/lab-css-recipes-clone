@@ -1,0 +1,30 @@
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.1em;
+}
+
+.header-container {
+  background-image: url("/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 50px auto;
+}
+
+.content {
+  margin: 50px 80px;
+}
