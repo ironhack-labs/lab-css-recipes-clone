@@ -1,0 +1,42 @@
+body{
+    font-family: Roboto, sans-serif;
+    margin:0,0,0,0;
+    color: black;
+    font-weight: 300;
+}
+.tit{
+    background-image: url(https://github.com/alejandraavaez/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+    height: 600px;
+    width: 100%;
+    color: white;
+    background-size:cover;
+}
+
+.titulo{
+    font-family: Roboto,sans-serif;
+    font-size: 70px;
+    text-align: center;
+    line-height: 600px;
+    font-weight: 400;
+    }
+
+.text{
+    text-align: justify;
+    padding: 50px 100px 100px 100px;
+}
+
+/*#figure{
+    position:center;
+}*/
+
+.center {
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+  }
+
+
+
+
