@@ -1,0 +1,44 @@
+.header{
+    height: 350px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/apple-pie.jpg');
+    }
+.mainName{
+  color: whitesmoke;
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  line-height:51px;
+  font-size: 100px;
+  top: 25%;
+  text-align: center;
+}
+section{
+    margin: auto 100px 25px 100px;
+
+}
+h2{
+    font-size: 2.5em;
+}
+p,ul,ol{
+    font-size: 2em;
+}
+
+
+.section1 img, .section2 img{
+    
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto;
+    
+}
+hr{
+    width: 70em;
+    
+}
