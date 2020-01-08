@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    font-size: medium;
+    font-family: "Sans-serif";
+}
+
+header{
+    background-image: url(https://github.com/AleOchoa/lab-css-recipes-clone/blob/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg?raw=true);
+    height: 600px;
+    background-size: 1200px 600px;
+    margin: 0px 100px;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 275PX;
+    color: white;
+    
+}
+
+h2{
+    font-weight: normal;
+}
+
+.lineas {
+    color: dimgray;
+    height: 2px;
+    background-color: dimgray;
+    border: none;
+    margin-top: 30px;
+}
+#notHeader{
+    margin: 0px 250px ;
+}
+
+section{
+    margin-top: 30px;
+}
+#intro{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#ingredientes{
+    text-align: left;
+}
+
+#direcciones{
+  text-align: justify;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 400px;
+}
+ul{
+    list-style:none;
+}
