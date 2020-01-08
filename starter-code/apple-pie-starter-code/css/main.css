@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  
+  header {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      size: 300px;
+      margin-left:90px;
+  }
+  
+  #Pie {
+      width: 900px;
+      height: 500px;
+      margin-left: 190px;
+      /* margin-right: 200px; */
+  }
+  
+  #receta {
+    margin-left: 310px;
+    margin-right: 100px;
+  }
+  
+  h2{
+    text-align: left;
+    padding-left: 300px;
+  }
+  
+  ul{
+    padding-left: 300px;
+  }
+  
+  #Tiempo{
+    margin-left: 310px;
+    margin-right: 100px;
+  }
+  
+  ol{
+    padding-left: 300px;
+    padding-right: 300px;
+  }
