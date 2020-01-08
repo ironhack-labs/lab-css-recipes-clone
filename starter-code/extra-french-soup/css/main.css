@@ -1,9 +1,66 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  height: 800px;
+  width: 1500px;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  font-family: Arial;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+section {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.size {
+  font-size: 1.5em;
+}
+
+hr {
+  border-color: slategray;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+li::before {
+  content: "\2013";
+  padding-right: 8px;
 }
