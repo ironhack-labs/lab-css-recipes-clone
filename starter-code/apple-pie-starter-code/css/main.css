@@ -1,0 +1,46 @@
+
+*{
+   
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    margin: auto;
+}
+
+.header{
+    background-image:url("../images/apple-pie.jpg");
+    height:600px;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+    font-size:35px;
+    
+}
+
+.header-title{
+padding-top:15% ;
+
+}
+
+.section{
+    margin:40px 100px;
+    font-size:20px;
+}
+
+.figure-center{
+    display:block;
+    margin:0 auto;
+    height:80px;
+    width:300px;
+}
+
+.padding-h3{
+
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
