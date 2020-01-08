@@ -32,6 +32,21 @@ body {
     text-align: center;
 }
 
-.lista {
-    list-style: circle;
-}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  ul li::before {
+    content: '\002D';
+  }
+  
+  ol li{
+    padding-left: 0;
+    list-style-type: none;
+    counter-increment: lista;
+  }
+  
+  ol li::before {
+    content: counter(lista) ")";
+  }
