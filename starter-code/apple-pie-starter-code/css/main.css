@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+color: darkred;
+text-align: center;
+}
+
+h2 {
+font-size: px
+}
+
+.recipe {
+
+}
+
+p {
+  color: black;
+}
+
+
+.background-image {
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-sizing: border-box
+  position: relative;
+}
+  /*padding-top: 10px;
+  position: relative;
+  box-sizing: border-box*/
