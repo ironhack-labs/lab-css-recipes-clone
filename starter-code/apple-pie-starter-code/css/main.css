@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,400,700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    margin: 0 10% 0 10%;
+    padding: 0;
+}
+
+header {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    resize: both;
+    height: 35em;
+    margin: 0 0 4em 0;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    padding: 2.5em 0 0 0;
+
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+ol li{
+    list-style: none;
+}
+
+ol li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+ul li:before {
+  content: '-';  
+  padding-right: 2px;
+}
+
+hr {
+    margin: 20px auto 30px auto;
+    border: 1px solid;
+    color: rgb(152, 153, 154);
+    margin: 0 0 2em 0;
+}
+
+img {
+    width: 50%
+}
+
+section {
+    text-align: center;
+    margin: 0 10% 0 10%;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.adjustText {
+    text-align: left;
+}
+
