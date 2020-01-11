@@ -1,0 +1,66 @@
+/* . {
+    margin: 0;
+    padding: 0; 
+} */
+
+header {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+header img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+header h1 {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+}
+
+#intro {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#intro img {
+    width: 50%;
+    margin: 20px 0px;
+}
+
+
+#ingredients {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#ingredients ul{
+    list-style: none;
+    text-align: left;
+}
+#ingredients h4{
+    text-align: left;
+}
+
+#ingredients img {
+    width: 45%;
+    margin: 20px 0px;
+}
+
+#directions {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#directions ol {
+    list-style: none;
+}
+
