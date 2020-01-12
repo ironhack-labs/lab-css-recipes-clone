@@ -8,7 +8,7 @@ font-size: 21px;
 
 
 
-div.container {
+header {
 
 background-image: url('../images/apple-pie.jpg');
 height: 100vh;
@@ -16,7 +16,7 @@ background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
 color: white;
-margin: 5px 200px 30px 200px;
+
 
 }
 
@@ -32,7 +32,7 @@ transform: translate(-50%, -50%);
 
 div.article {
 
-margin: 10px 400px 10px 400px;
+margin: 30px 200px 10px 200px;
 
 
 }
