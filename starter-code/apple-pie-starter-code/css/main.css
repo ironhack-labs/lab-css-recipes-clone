@@ -16,9 +16,7 @@ h1 {
 }
 .section-style {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 .font-serif {
   font-family: sans-serif;
@@ -35,8 +33,5 @@ hr {
   display: block;
   width: 35%;
   height: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto;
 }
