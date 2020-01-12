@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: white;
+}
+
+.background-image {
+  background-image:
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  height:832px;
+  margin:0px;
+  width: auto;
+
+}
+
+header h1 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 5em;
+}
+
+h2 {
+font-size: 1em;
+}
+
+
+
+
+
+#recipe, p { 
+color: black;
+font-size: 22px;
+width: 66%;
+}
+
+#recipe img { 
+width: 30%;
+}
+
+#ingredients ul {
+color: black;
+font-size: 19px;
+}
+
+#ingredients, img { 
+width: 45%;
+}
+

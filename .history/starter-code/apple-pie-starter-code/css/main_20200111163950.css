@@ -1,0 +1,56 @@
+body {
+ font-family: "Roboto";
+ background-color: yellowgreen;
+ width: 100%;
+ height: 100%;
+}
+
+.background-image {
+ background-image: url(src="/ima");
+
+ 
+ background-position: 0 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 10px;
+ position: relative;
+ box-sizing: border-box;
+}
+
+#apple-pie h1 {
+ color: white;
+ text-align: center;
+ font-size: 50px;
+}
+
+#apple-pie p {  
+ color: black;
+ font-size: 22px;
+ width:  43.5%;
+}
+
+h2 {
+font-size: 18px;
+}
+ 
+#ingredients ul {
+ color: black;
+ font-size: 19px;
+}
+ 
+#directions p {
+ color: black;
+ font-size: 19px;
+ width:  43.5%;
+}
+ 
+.recipe-info {
+ align-items: center;
+ width:  43.5%;
+ }
+
+.recipe-info {
+ align-items: center;
+ width:  43.5%;
+ }
+
