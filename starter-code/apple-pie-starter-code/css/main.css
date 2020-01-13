@@ -10,6 +10,7 @@ header div {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 #recipe-title {
@@ -44,24 +45,35 @@ section {
 
 h3 {
     font-size: 32px;
+    margin: 40px 0;
 }
 
-ul {
-    margin: 30px 0;
-}
 
 li {
     font-size: 26px;
     font-weight: 100;
     line-height: 1.3em;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-li::before {
+ul li::before {
     content: "- ";
 }
 
 .center {
     display: flex;
     justify-content: center;
+}
+
+.center img {
+    height: 100px;
+    margin: 50px auto;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+section:nth-of-type(1) {
+    border-bottom: 3px solid darkgrey;
 }
