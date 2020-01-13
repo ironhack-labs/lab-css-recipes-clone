@@ -1,5 +1,6 @@
+
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, body, html, main,p {
   margin: 0;
 }
 /*Import the font and set the default size*/
@@ -7,3 +8,35 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h1 {
+  font-size: 100px;
+  color: white;
+}
+h3 {
+  font-size: 30px;
+}
+.soupheader {
+  background-image: url(/starter-code/extra-french-soup/images/soup.jpg);
+  height: 900px;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-margin {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+}
+header p {
+  font-size: 1.5rem;
+}
+.info-img-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
