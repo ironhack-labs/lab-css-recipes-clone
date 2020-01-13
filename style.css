@@ -42,3 +42,14 @@ h2 {
     margin: 40px auto;
 }
 
+ul li{
+    list-style-type: none;  
+}
+
+ul li::before{
+    content:"-";
+}
+
+ol li {
+line-height: 1;
+}
