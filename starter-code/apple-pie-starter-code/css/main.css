@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+#title {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture{
+    background-image: url('../images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.summary {
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 3px solid grey;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.text-summary{
+    text-align: left;
+    font-size: 30px;
+}
+
+.ingredients{
+    width: 75%;
+    font-size: 26px;
+    margin: 0 auto;
+    border-bottom: 3px solid grey;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+h2 {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+.directions {
+    width: 75%;
+    font-size: 25.5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+ol {
+    margin-top: 60px;
+    list-style: none;
+    counter-reset: my-style;
+}
+
+ol li {
+    counter-increment: my-style;
+}
+
+ol li::before {
+    content: counter(my-style) ") ";
+}
