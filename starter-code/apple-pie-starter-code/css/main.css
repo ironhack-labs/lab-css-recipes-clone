@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 20%;
+}
+
+h1 {
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: 3.5em;
+  font-weight: 100;
+}
+
+main {
+  margin: 10px 50px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.section1 p {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.section1 > img {
+  width: 25%;
+  margin-bottom: 0.2em;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.section2 h2 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.section2 ul {
+  margin: 10px 40px;
+}
+
+.section2 li {
+  list-style-type: none;
+}
+
+.section2 li:before {
+  content: "- ";
+}
+.section2 > img {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin-left: 37%;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.section3 h2 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+
+
+.section3 ol {
+  margin: 1.5em 1.5em;
+  padding: 10px;
+}
+
+.section3 li{
+    counter-increment: section;
+    list-style-type: none;
+}
+
+.section3 li:before {
+    content: counter(section) ") ";
+}
