@@ -25,17 +25,24 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 20px 0px;
 }
 
 main {
     margin: 50px 80px;
     font-size: 1.5em;
-    
 }
 
-section {
-    
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+ul li:before {
+
+    content:"- ";
 }
 
 hr{
@@ -44,15 +51,25 @@ hr{
 
 .img-info {
     width: 60%;
+    margin: 30px;
 }
 
-.display-flex{
-    display: flex;
-    align-items: center;
-}
 
 .center {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
+
+ol {
+    list-style: none;
+    padding: 0px;
+    margin-left: 30px;
+    counter-reset: lista;
+}
+
+ol li:before {
+    content: counter(lista) ") ";
+    counter-increment: lista;
+}
+
