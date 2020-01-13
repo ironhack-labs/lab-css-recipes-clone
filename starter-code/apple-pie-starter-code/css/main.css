@@ -78,6 +78,11 @@ h1 {
     margin: 50px 150px;
 }
 
+img {
+    display: block;
+    width: 90vh;
+    margin:50px auto
+}
 .directions {
     margin: 50px 150px 150px 150px;
 }
@@ -99,4 +104,10 @@ ul li::before {
 li {
     font-size: 3vh;
     line-height: 5vh;
+}
+ol li {
+    counter-increment: mycounter;
+}
+ol li::before {
+    content: counter(mycounter) ") ";
 }
