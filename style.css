@@ -1,0 +1,44 @@
+* {
+    margin: 10px;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+#apple {
+    background-image: url("/Users/pedro/ironhack/labs/w1d1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.1em; 
+}
+
+h2 {
+    font-size: 1.3em; 
+    margin: 10px 0;
+    font-weight: bold; 
+}
+
+.box {
+    margin: 60px auto;
+    width: 70%;
+}
+
+.box img {
+    width: 400px;
+    display: block;
+    margin: 40px auto;
+}
+
