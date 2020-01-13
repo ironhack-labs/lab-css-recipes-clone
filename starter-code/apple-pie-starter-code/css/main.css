@@ -1,0 +1,56 @@
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header */
+
+header {
+    background-image: url(/home/luciano/w1/d1/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size:4em;
+}
+
+/* Section One */
+
+#section-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid black;
+}
+
+#section-one h2 {
+        width: 70%;
+        font-weight: lighter;
+        
+}
+
+#section-one img {
+        width: 40%;
+}
+
+/*Section two */
+
+#section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+}
+
+#section-two img {
+    align-self: center;
+    width: 35%;
+}
+
+#section-two h2{
+    font-size: ;
+}
