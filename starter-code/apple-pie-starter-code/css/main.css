@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -20,18 +20,28 @@ header h1 {
 
 /* Section One */
 
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
 #section-one {
         display: flex;
         flex-direction: column;
         align-items: center;
         border-bottom: 2px solid black;
+        width: 80%;
 }
+
 
 #section-one h2 {
         width: 70%;
         font-weight: lighter;
         
 }
+
 
 #section-one img {
         width: 40%;
@@ -44,13 +54,20 @@ header h1 {
     flex-direction: column;
     align-items: flex-start;
     border-bottom: 2px solid black;
+    width: 80%;
 }
 
 #section-two img {
     align-self: center;
     width: 35%;
 }
-
+/*
 #section-two h2{
-    font-size: ;
+    font-size: 30px;
+}
+*/
+
+
+#section-three{ 
+    width: 80%;
 }
