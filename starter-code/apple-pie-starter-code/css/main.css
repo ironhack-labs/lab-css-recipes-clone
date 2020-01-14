@@ -66,8 +66,13 @@ body{
     font-size: 30px;
 }
 */
+#section-two ul li{list-style:none;}
+#section-two ul li:before{content:"-"}
+
 
 
 #section-three{ 
     width: 80%;
 }
+
+#section-three ol li:before{content:")"}
