@@ -7,6 +7,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: #272b2e;
 }
 
 header {
@@ -46,15 +48,6 @@ section {
   padding-top: 10px;
   width: 60vw;
 }
-/* 
-#intro-text p {
-}
-
-#ingredients-text {
-}
-
-#directions-text {
-} */
 
 p {
   /* padding-top: 0px; */
@@ -73,9 +66,22 @@ ul {
 ul > li::before {
   content: "-";
   position: absolute;
-  margin-left: -1.1em;
+  margin-left: -1em;
 }
 
 .images-recipes {
-  padding-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 20px;
+  align-content: center;
+}
+
+img {
+  align-self: auto;
+}
+
+h2 {
+  font-weight: 400;
 }
