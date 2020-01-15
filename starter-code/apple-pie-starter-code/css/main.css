@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18pt;
+    line-height: 1.5em;
+}
+
+#recipe-title {
+    position: relative;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#recipe-title>h1 {
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+    color: white;
+    font-size: 46px;
+}
+
+.content-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recipe-intro {
+    padding: 50px 0% 30px 0%;
+    border-bottom: 2px solid grey;
+}
+
+.info-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#ingredients {
+    padding: 50px 0% 30px 0%;
+    border-bottom: 2px solid grey;
+}
+
+#ingredients h2 {
+    font-size: 22pt;
+}
+
+ul.dashed {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+ul.dashed>li {
+    text-indent: 10px;
+}
+
+ul.dashed>li:before {
+    content: "- ";
+    text-indent: 10px;
+}
+
+#directions {
+    padding: 50px 0% 30px 0%;
+}
+
+#directions h2 {
+    font-size: 22pt;
+}
+
+#directions > ol {
+    padding-left: 20px;
+    padding-top: 30px;
+}
