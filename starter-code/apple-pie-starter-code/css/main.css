@@ -43,7 +43,7 @@ table {
 body {
     line-height: 1.4;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 section {
@@ -99,9 +99,8 @@ h2 {
     padding-top: 25px;
 }
 hr {
-    max-width: 700px;
     margin-left: 50px;
-    margin-right: auto;
+    margin-right: 50px;
     height: 1px;
     background-color:#666;
 }
