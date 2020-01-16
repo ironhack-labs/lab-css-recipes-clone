@@ -82,7 +82,6 @@ section {
 img {
   margin-top: 50px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 hr {
@@ -94,3 +93,14 @@ section h2 {
   margin-top: -20px;
   margin-bottom: 35px;
 }
+
+#ingredients ul li {
+  font-size: 20px;
+  text-indent: 20px;
+  margin: 10px;
+}
+
+#ingredients li::before {
+  content: "- ";
+}
+
