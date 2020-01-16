@@ -54,17 +54,48 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 35%;
-	margin-top: 2rem;
-	margin-bottom: 4rem;
+	margin-top: 0.85rem;
+	margin-bottom: 0.7rem;
 }
 
-.bottom-border {
+#bottom-border {
 	border-bottom: 4px grey solid;
-	width: 70%;
+	width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-h3 {
-	
+.info-section {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.info-section h3 {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-align: left;
+	color: black;
+	font-size: 1.5rem;
+}
+
+.info-section ul li {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: black;
+	font-size: 1.2rem;
+	margin-left: 0.1rem;
+	list-style-type: none;
+}
+
+.info-section p {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: black;
+	font-size: 1.2rem;
+	margin-left: 0.1rem;
+	list-style-type: none;
 }
