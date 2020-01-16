@@ -50,18 +50,32 @@ table {
 
 /* My CSS style starts here */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: url("../images/apple-pie.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 800px;
   position: relative;
 }
 
 h1 {
   position: absolute;
   color: white;
-  font-size: 60px;
-  left: 30%;
-  bottom: 45%;}
+  font-size: 90px;
+  left: 35%;
+  bottom: 50%;}
+
+#info {
+  text-align: center;
+  font-size: 35px;
+  margin: 100px 100px 50px 100px;
+}
+
+#info .recipe-info-img {
+  margin-top: 50px;
+}
