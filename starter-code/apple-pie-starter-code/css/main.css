@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* My CSS style starts here */
+
+header {
+  background: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  left: 30%;
+  bottom: 45%;}
