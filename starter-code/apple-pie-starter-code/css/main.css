@@ -70,17 +70,27 @@ h1 {
   left: 35%;
   bottom: 50%;}
 
+section {
+  margin: 100px 100px 0px 100px;
+}
+
 #info {
   text-align: center;
   font-size: 35px;
-  margin: 100px 100px 50px 100px;
 }
 
-#info .recipe-info-img {
+img {
   margin-top: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 hr {
   border: 1.5px solid grey;
+}
+
+section h2 {
+  font-size: 35px;
+  margin-top: -20px;
+  margin-bottom: 35px;
 }
