@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset*/
+
+main{
+	width: 75%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#jumbatron {
+    font-size: 36px;
+	background: url(../images/apple-pie.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	color: white;
+}
+
+ol{
+	
+}
+
+#jumbatron h1{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 300px;
+}
+
+.note{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 90%;
+	line-height: 30px;
+}
+
+.ingredients,
+.directions{
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+.ingredients h2,
+.directions h2
+{
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.ingredients ul li::before{
+	content: '-';
+}
+
+.small-img{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.ingredients .small-img{
+	position: relative;
+	left: 230px;
+}
