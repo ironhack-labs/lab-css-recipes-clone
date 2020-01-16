@@ -1,0 +1,72 @@
+/* Make sure you use class and id selectors throughout your exercise. Remember, only use type selectors if you want to modify every element of that type
+Use a single external CSS stylesheet to style all pages
+Use the images provided to construct the appropriate elements on the page:
+The background with a picture of the apple pie
+The recipe servings / nutrients section
+The prep section */
+
+#recipe-title {
+    position: relative;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#recipe-title>h1 {
+    text-align: center;
+    padding: 300px 0px 300px 0px;
+    color: white;
+    font-size: 60px;
+}
+
+#cooking{
+    background-image: url("../images/cooking-info.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    position: relative;
+}
+
+#cooking>p {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 46px;
+}
+
+#ingredients{
+    background-image: url("../images/recipe-info.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    position: relative;
+}
+
+#ingredients>p {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 46px;
+}
+
+.grandma{
+    text-align: justify;
+    margin: 100px 200px;
+    font-size: 28px;
+}
+
+.ingredientslist{
+    padding: 0px 130px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.directionslist{
+    padding: 0px 130px;
+    text-align: left;
+    font-size: 25px;
+}
+
+hr{
+    margin: 60px;
+}
