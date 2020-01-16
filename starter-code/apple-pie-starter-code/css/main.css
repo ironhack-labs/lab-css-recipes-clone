@@ -1,25 +1,16 @@
-/* header {
-	background-image: url('images/apple-pie.jpg');
-	max-width: auto;
-	max-height: auto;
-}  */
-
 .hero {
-	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 	background-image: url('images/apple-pie.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	/* background-size: 50% auto; */
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	height: 1000px;
 	object-fit: cover;
-	
-  }
-  
-  /* Place text in the middle of the image */
+}
+
+/* Place text in the middle of the image */
 header h1 {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-weight: 500;
@@ -30,7 +21,7 @@ header h1 {
 	transform: translate(-50%, -50%);
 	color: white;
 	font-size: 5rem;
-  }
+}
 
 h1 {
 	position: absolute;
@@ -69,7 +60,6 @@ h1 {
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .info-section h3 {
