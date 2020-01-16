@@ -56,11 +56,12 @@ body {
 
 header {
   background: url("../images/apple-pie.jpg");
-  background-position: 0 0;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
   position: relative;
+  margin: auto 0;
 }
 
 h1 {
@@ -94,9 +95,12 @@ section h2 {
   margin-bottom: 35px;
 }
 
-#ingredients ul li {
-  font-size: 20px;
-  text-indent: 20px;
+#ingredients {
+  text-indent: 10px;
+}
+
+li {
+  font-size: 25px;
   margin: 10px;
 }
 
@@ -104,3 +108,27 @@ section h2 {
   content: "- ";
 }
 
+.cooking-img {
+  margin-left: 28%;
+}
+
+ul {
+  text-indent: 20px;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+#directions {
+  margin-left: 110px;
+}
+
+#directions ol {
+  padding-left: 20px;
+  margin-bottom: 110px;
+}
+
+#directions p {
+  line-height: 100%;
+}
