@@ -1,0 +1,32 @@
+.header{
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 650px;
+    padding: 50px 0 0 0;
+    position: relative;
+    margin: 10px 50px 10px 50px;
+}
+
+h1 {
+    color : white;
+    font-size: 6em;
+    text-align: center;
+  }
+
+  .imagemReceita{
+    text-align: center;
+    border-bottom: solid grey;
+  }
+
+  .imagemPreparo{
+    text-align: center;
+    border-bottom: solid grey;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0;
+    padding: 75px 0
+  }
