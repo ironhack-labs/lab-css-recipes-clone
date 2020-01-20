@@ -1,32 +1,82 @@
-.header{
-    background-image: url(../images/apple-pie.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    height: 650px;
-    padding: 50px 0 0 0;
-    position: relative;
-    margin: 10px 50px 10px 50px;
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px
 }
 
-h1 {
-    color : white;
-    font-size: 6em;
-    text-align: center;
-  }
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
 
-  .imagemReceita{
-    text-align: center;
-    border-bottom: solid grey;
-  }
+.header{
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  height: 900px;
+  padding: 0px 0 0 0;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  line-height: 3.5em;
+}
 
-  .imagemPreparo{
-    text-align: center;
-    border-bottom: solid grey;
-  }
+.header h1{
+  color : white;
+  font-size: 6em;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 425px 0px 0px 0px;
+  font-weight: 400
+}
 
-  .container {
-    width: 1200px;
-    margin: 0;
-    padding: 75px 0
-  }
+#recipe-details {
+  margin: 110px 120px 0px 120px;
+  text-align: justify;
+  font-size: 30px;
+
+}
+
+#imagemReceita{
+  text-align: center;
+  border-bottom: solid grey;
+}
+
+#recipe-ingredients {
+  margin: 80px 120px 0px 120px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+#recipe-ingredients ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#recipe-ingredients ul > li:before {
+  content: counter(list, none) "- ";
+}
+
+#imagemPreparo{
+  text-align: center;
+  border-bottom: solid grey;
+}
+
+#recipe-directions{
+  margin: 80px 120px 0px 120px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+#recipe-directions ol{
+  list-style-type: none;
+  counter-reset: list;
+  padding-left: 20px;    
+}
+
+#recipe-directions ol > li:before {
+  counter-increment: list;
+  content: counter(list) ") ";
+}
