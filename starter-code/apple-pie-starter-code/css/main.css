@@ -1,0 +1,113 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#section1{
+    align-items: center;
+    justify-content:center;
+    background-size: cover;
+    display: flex;
+    flex: auto;
+    background-image: url('../images/apple-pie.jpg');
+    color: white;
+    height: 1000px;
+}
+
+#section1 > h2{
+    font-size: 150px;
+    text-align: center;
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#p1section2{
+    font-size: 35px;
+    word-wrap: break-word;
+    margin-top: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-weight: 100;
+    color:black;   
+}
+
+#section2 > img{
+    width: 40%;
+
+}
+
+#section3{
+    display:flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-right: 165px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-top: solid;
+    border-top-color: grey;
+    border-top-width: 4px;
+
+}
+
+#section3 > h2{
+    font-size: 45px;
+    margin-bottom: 5px;    
+}
+#section3 > ul {
+    font-size: 37px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0.7em;
+}
+#section3 > ul > li{
+    margin: 7px;
+}
+#section3 > ul> li:before {
+    display: inline-block;
+    content: "-";
+    width: 0.2em;
+    margin-left: 0em;
+}
+#section3 > img{
+    margin-top:45px;
+    align-self: center;
+    width: 43%;
+}
+
+#section4 {
+    margin-left: 170px;
+    margin-right: 165px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid;
+    border-top-color: grey;
+    border-top-width: 4px;
+}
+
+#section4 > h2{
+    font-size: 45px;
+    margin-bottom: 5px;    
+}
+
+#section4 > ol {
+    counter-reset: list;
+    font-size: 37.9px;
+    list-style: none;
+    margin-top: 75px;
+    padding-left: 0.7em;
+}
+#section4 > ol > li {
+    list-style: none;
+    line-height: 130%;
+    position: relative;
+    margin-top: 0px;
+  }
+
+#section4 > ol > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+  }
