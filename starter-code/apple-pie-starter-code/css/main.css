@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+main {
+  width: 75%;
+  margin: 40px auto;
+}
+
+#header {
+  background-image: url('../images/apple-pie.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+h2 {
+  color: black;
+  font-weight: 300;
+}
+
+.divider {
+  background-color: gray;
+  height: 1px;
+  margin-top: 40px;
+}
+
+article {
+  padding: 30px;
+}
+
+.info-img {
+  width: 400px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: '- ';
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, decimal) ') ';
+  counter-increment: list;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+}

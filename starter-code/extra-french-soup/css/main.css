@@ -1,9 +1,64 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.header {
+  background-image: url('../images/soup.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: 300;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: '- ';
+}
+
+.divider {
+  background-color: black;
+  height: 2px;
+}
+
+article > img {
+  align-self: center;
+  width: 450px;
+  margin-top: 15px;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, decimal) ') ';
+  counter-increment: list;
 }
