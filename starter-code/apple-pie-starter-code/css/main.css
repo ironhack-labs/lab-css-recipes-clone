@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+header {
+  background-image: url('https://raw.githubusercontent.com/RaqueCoelho/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header h1 {
+  display: flex;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  padding: 300px 0;
+  font-size: 2em;
+}
+
+#section-one {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  margin-bottom: 200px;
+  margin: auto;
+  text-align: justify;
+  padding: 50px 0px;
+}
+
+.recipeinfopic {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+#section-two {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  margin-bottom: 200px;
+  margin: auto;
+  text-align: justify;
+}
+
+.cookinginfopic {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+#section-three {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  margin-bottom: 200px;
+  margin: auto;
+  text-align: justify;
+}
+
+hr {
+  border-width: 2px;
+}
+
+#section-two ul {
+  list-style-type: '-';
+}
+
+#section-three ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-weight: 100;
+}
