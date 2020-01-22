@@ -41,9 +41,9 @@ ul {
   list-style-type: '- ';
 }
 
-.divider {
-  background-color: black;
-  height: 2px;
+ol,
+ul {
+  padding-left: 0;
 }
 
 article > img {

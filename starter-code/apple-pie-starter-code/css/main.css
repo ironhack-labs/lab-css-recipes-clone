@@ -33,12 +33,6 @@ h2 {
   font-weight: 300;
 }
 
-.divider {
-  background-color: gray;
-  height: 1px;
-  margin-top: 40px;
-}
-
 article {
   padding: 30px;
 }
@@ -49,8 +43,10 @@ article {
   margin-top: 20px;
 }
 
-ul {
+ul,
+ol {
   list-style-type: '- ';
+  padding-left: 0;
 }
 
 ol {
