@@ -7,3 +7,11 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.container{
+background-image: url(/images/soup.jpg);
+width: 100%;
+height: 600px;
+position: relative;
+background-size: cover;
+}
