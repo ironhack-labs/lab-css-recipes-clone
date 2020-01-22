@@ -11,14 +11,25 @@ h1 {
   padding : 300px;
 }
 
+h3 {
+  font-weight: 500;
+}
+
 section {
   width : 900px;
-  margin : 0 auto;
+  margin : 60px auto 60px auto;
 }
 
 body {
   margin : 0;
   line-height: 32px;
+  font-family : Optima;
+  font-size: x-large;
+}
+
+#main {
+  font-weight: 100;
+  font-size: 100px;
 }
 
 img {
