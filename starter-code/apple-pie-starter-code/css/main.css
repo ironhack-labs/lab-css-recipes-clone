@@ -1,0 +1,84 @@
+/** General **/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin : 0;
+  padding : 0
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto
+}
+/** Image Header **/
+
+#image-header {
+  background-image : url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 900px;
+}
+
+#image-header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23% 0 0 0 
+}
+
+h1 {
+  color: white;
+  font-size: 5em
+}
+
+
+/** Description Section **/
+
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px
+}
+
+#description > img {
+  margin-top: 50px;
+}
+/**Ingredients Section **/
+
+#ingredients {
+  margin-left: 80px;
+  margin-top: 50px
+}
+
+#ingredients > ul {
+  margin-left: 20px
+}
+
+.ing-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 75px;
+  margin-bottom: 50px  
+}
+
+/**Direction**/
+#direction {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 80px
+}
+
+#direction > ol {
+  margin-left : 10px;
+  text-align: justify
+}
+
