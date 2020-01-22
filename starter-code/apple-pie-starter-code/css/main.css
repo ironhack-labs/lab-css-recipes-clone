@@ -10,15 +10,23 @@ header {
   height: 600px;
   color: white;
   margin-top: 0;
+  text-align: center;
+  line-height: 600px;
+  font-size: xx-large; 
 }
 
 section{
+  text-align: justify;
+  text-justify: inter-word;
 
 }
 
 
 
 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
