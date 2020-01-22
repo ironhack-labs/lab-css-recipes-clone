@@ -1,9 +1,81 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Div Lines*/
+.line {
+  border: 1px solid;
+  width: 90%;
+  margin: auto;
+}
+
+/*Header*/
+#header {
+  display: flex;
+  min-height: 100vh;
+  background-image: url('/starter-code/extra-french-soup/images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.heading-head {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/*Small Intro*/
+#intro {
+  width: 90%;
+  margin: 5rem auto 2rem auto;
+}
+
+#intro img {
+  width: 35%;
+}
+/*Ingredients*/
+#ingredients {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ingredients-header {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#ingredients img {
+  width: 35%;
+}
+
+/*Directions*/
+#directions {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading-directions {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.ordered-links {
+  margin: 2rem;
 }
