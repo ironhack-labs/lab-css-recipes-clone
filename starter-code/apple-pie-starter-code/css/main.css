@@ -1,15 +1,19 @@
 * {
+  box-sizing: border-box;
+  margin: 0%;
+}
+body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
-  margin: 0%;
 }
 
-h3 {
-  font-size: 2em;
+hr {
+  border-bottom: 2px solid grey;
+  margin: 0% auto;
+  width: 80%;
 }
-
 .header {
   background-image: url('/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
   background-size: cover;
@@ -24,61 +28,51 @@ h3 {
   color: white;
   text-align: center;
   font-size: 7em;
+  font-weight: 100;
 }
-
 .presentation {
-  margin: 0% 5% 0% 5%;
-  height: 300px;
   text-align: center;
-  border-bottom: 2px solid grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  margin: 1.5% auto;
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 200;
+  padding: 5% 0% 2.5% 0%;
 }
-
 .presentation article {
-  margin: 0% auto;
-  width: 70%;
-  font-size: 2em;
-  line-height: 1.3em;
-}
-
-.presentation img {
-  margin: 0% auto 2.5% auto;
-  width: 300px;
-  margin: 0% auto;
+  margin: 4% auto;
 }
 
 .ingredients {
-  margin: 0% 5% 0% 5%;
-  padding: 0% 5%;
-  border-bottom: 2px solid grey;
-}
-.ingredients ul li {
-  margin: 0% auto 2.5% auto;
-  font-size: 1.7em;
-  line-height: 0em;
-  list-style-type: none;
-}
-
-.ingredients img {
-  width: 300px;
-  margin: 0% auto 2.5% auto;
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 200;
+  padding: 2.5% 5%;
+  margin: auto 5%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
+.ingredients h3 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 2.5%;
+  align-self: flex-start;
+}
+.ingredients ul {
+  list-style-type: none;
+  margin: 5% 0%;
+  align-self: flex-start;
+}
 .directions {
-  margin: 0% 5% 0% 5%;
-  border-bottom: 2px solid grey;
-  padding: 0% 5%;
+  margin: 1.5% auto;
+  width: 80%;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 2.5% 0%;
+  list-style-position: inside;
 }
-
-.directions ol {
-  margin: 0% auto 2.5% auto;
-}
-
-.directions ol li {
-  font-size: 1.7em;
-  line-height: 1.3em;
+.directions h3 {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-weight: 525;
 }
