@@ -1,0 +1,13 @@
+.applePage {
+    background-image: url(apple-pie.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.applePage h1 {
+    color: beige;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+}
