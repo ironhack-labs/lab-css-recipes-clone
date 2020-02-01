@@ -1,0 +1,25 @@
+
+body { 
+    
+    padding: 20 x 40;
+    color: grey;
+    font-family: verdana;
+   
+    
+
+}
+
+.main {
+    background-image: url("../images/apple-pie.jpg");
+}
+
+h1 {
+    
+    text-align: center;
+    color: white;
+}
+
+.recipe {
+    
+
+}
