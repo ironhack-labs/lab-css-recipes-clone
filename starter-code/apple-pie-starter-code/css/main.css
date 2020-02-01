@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+.first-img.resize {
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+
+
+.header {
+  position: relative;
+  text-align: center;
+}
