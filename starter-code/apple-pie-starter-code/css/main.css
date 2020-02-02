@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5em;
 }
 
 header {
@@ -19,26 +20,29 @@ h1 {
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     /* display: flex; */
     /* flex-wrap: no-wrap; */
-    margin-left: 80px;
+    margin: 0 10%;
     width: 80%;
 }
 
-/* not in use yet
-
 #introduction {
-    justify-content: center;
+    margin: 40px 0;
 
 }
 
 #ingredients {
-    justify-content: center;
+    margin: 40px 0;
+}
+
+#ingredients ul li {
+    list-style-type: square;
 }
 
 #directions {
-    justify-content: center;
-} */
+    margin: 40px 0;
+} 
 
 hr {
     border: 1px solid darkgrey;
