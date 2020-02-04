@@ -1,21 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins';
 }
 
-.heropage {
+body {}
+
+#heroPage-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 68%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    ;
+}
+
+.heroPage {
     background-image: url(apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100%;
-    max-width: 100%; */
-    height: 444px;
+    height: 500px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 
-.heropage h1 {
+.heroPage h1 {
     color: #fff;
+    font-size: 60px;
+    font-family: 'Poppins';
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section2 img {
+    margin-top: 20px;
+    width: 350px;
+}
+
+.ingredients-section ul {
+    list-style: none;
+}
+
+.ingredients-section li {
+    font-size: 18px;
+}
+
+.ingredients-section ul>li:before {
+    content: "-";
+    text-indent: -7px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.ingredients-section img {
+    width: 350px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.direction-section ol {
+    list-style-type: none;
+}
+
+.direction-section li {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.direction-section ol>li:before {
+    content: counter(section) ") ";
+    counter-increment: section;
 
 }
