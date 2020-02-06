@@ -1,16 +1,15 @@
 body{
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
-margin: 30px }
+margin: 30px 50px }
 #header{
 background-size: cover;
 background-image: url(../images/apple-pie.jpg);
 height: 600px;
 }
 
-h1{
+header>div {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    margin: 150px 0 0 300px;
     font-style: normal;
     color: white;
     font-size: 3em;
@@ -20,5 +19,67 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 
+section{
+    width: 70%;
+}
+
+#intro{
+    margin: 30px auto; 
+    border-bottom: solid 2px lightgrey;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+#intro > p {
+    font-size: 1.5em;
+    line-height: 1,5 em;
+}
+
+#intro > div >img{
+height: 60px;
+padding: 10px 0 30px 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#ingredients{
+    border-bottom: solid 2px  lightgrey
+}
+h2{
+    font-style: normal;
+}
+#ingredients > ul{
+    line-height: 1.5em;
+    list-style-type: none;
+     }
+
+#ingredients > ul> li:before {
+        content: '- ';
+     }
+
+
+#ingredients >div >img{
+    height: 70px;
+    padding: 10px 0 30px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#directions{
+    width: 70%;
+}
+#directions > ol{
+    counter-reset: list;
+}
+#directions >ol >li {
+    list-style: none;
+}
+#directions >ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
