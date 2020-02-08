@@ -25,10 +25,13 @@ body {
       color: #FFF;
       text-align: center;
       margin: auto;
+      font-weight: 400;
+      font-size: 3.5rem;
   }
 
   h2 {
       text-align: center;
+      font-weight: 400;
   }
 
  p, ul, ol {
