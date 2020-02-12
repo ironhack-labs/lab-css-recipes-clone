@@ -1,9 +1,80 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.img-main {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  color: #FFF;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: 10;
+}
+
+.main {
+    margin-top: 80px;
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.img-recipe-info {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 23px;
+  height: 50px;
+}
+.receita {
+  margin-top: 40px;
+  width: 900px;
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type:none
+}
+/* ol{
+  list-style: none; 
+  counter-reset: li;
+
+} */
+
+
+.img-cooking-info {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-left: 20px;
 }
