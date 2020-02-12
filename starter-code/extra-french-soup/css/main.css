@@ -7,3 +7,56 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  padding: 0 300px;
+}
+
+.backgroung_img {
+  background-image: url(/starter-code/extra-french-soup/images/soup.jpg);
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+p, h3, ul, ol {
+    text-align: justify;
+}
+
+.stats_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ingredients_list li, .steps li {
+  list-style-type: none;
+}
+
+.ingredients_list, .steps {
+  padding-left: 0;
+}
+
+.ingredients_list li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+.separator {
+  border: 1px solid gray;
+  background-color: gray;
+  padding: 0 50px;
+}
+
+

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.img-background {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0px 170px;
+  font-size: 5em;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.h2 {
+  font-size: 1.5em;
+  text-align: left;
+  font-family: 'Roboto';
+  padding: 30px 170px;
+}
+
+.p {
+  font-size: small;
+  text-align: justify;
+  font-family: 'Roboto';
+}
+
+.section1 {
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 1.6em;
+  padding: 40px 170px;
+}
+
+.section2 {
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 1.4em;
+  padding: 4px 170px;
+  list-style-type: none;
+}
+
+.section2:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+.section3 {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 1.4em;
+  padding: 4px 145px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.hr {
+  margin: 10px 170px;
+  border-width: 2px;
+}
+
+.body{
+  padding: 0px 50px 100px 50px
+}
+
+ul.normal {
+  list-style-type: none;
+}
