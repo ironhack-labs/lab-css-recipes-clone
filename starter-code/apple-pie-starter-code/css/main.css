@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+#pop-image {
+    background-image: url(/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    max-width: 100%;
+    padding: 20%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pop-image h1 {
+    text-align: center;
+    color: white;
+}
+}
+img {
+    max-width: 100%;
+}
