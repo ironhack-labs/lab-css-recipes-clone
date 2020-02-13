@@ -43,5 +43,9 @@ section div {
 }
 
 ul {
-    list-style: ;
+    list-style-type: none;
+}
+
+li::before {
+    content: "- ";
 }
