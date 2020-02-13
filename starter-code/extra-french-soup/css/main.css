@@ -17,20 +17,25 @@ body {
 .title {
   background-image: url("../images/soup.jpg");
   background-size: cover;
+  background-position: bottom;
   color: white;
-  height: 60vh;
+  height: 52vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .title h1 {
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.introduction {
+  font-size: 20px;
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 25px;
   margin: 40px 0;
 }
@@ -46,13 +51,25 @@ section div {
 }
 
 .page-content {
-  margin: 80px;
+  margin: 100px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.ingredients > ul::before {
+.ingredients > ul ::before {
   content: "- ";
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+  width: 95%;
+}
+
+#recipe-info {
+  width: 50%;
+  margin: 20px 20px 40px 20px;
+}
+
+#cooking-info {
+  width: 40%;
+  margin: 20px 20px 40px 20px;
 }
