@@ -7,3 +7,88 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body{
+  font-family: 'Lato', sans-serif;
+  max-width: 1400px;
+  margin: auto;
+}
+
+#section-one{
+  background-image: url("/Lab/lab-css-recipes-clone/starter-code/extra-french-soup/images/soup.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 2px solid red; */
+
+}
+
+#section-one h1{
+  color: white;
+  font-size: 64px;
+}
+
+#section-one div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+
+#section-two div{
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#section-two h3{
+  
+}
+
+#section-two img{
+  max-width: 30%;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+#section-two hr{
+  
+}
+
+#section-three h4{
+  font-weight: bold;
+}
+
+#section-three div{
+  width: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  /* border: 2px solid red; */
+
+}
+
+#section-three img{
+  max-width: 30%;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+#section-three li{
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+}
+
+#section-four li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
