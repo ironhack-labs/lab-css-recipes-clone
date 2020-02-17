@@ -1,0 +1,92 @@
+/* NOTA: Creo que no tiene sentido usar id's o muchas 
+clases en este ejercicio, ya que las etiquetas 
+son suficientes para identificar los selectores. */
+
+/* base */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-weight: 400;
+    line-height: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+li {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+
+/* Cabecera: img background + h1 */
+.header {
+    background-image: url(/Class-01/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* secciones */
+section {
+    margin: auto 20% ;
+    border-bottom: 1px solid black;
+}
+
+.none_bottom {
+    border-bottom: none;
+}
+
+article {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+/* img */
+div {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+div img {
+    inline-size: 20em;
+}
+
+/* estilos listas */
+ul li:before {
+    content: "- ";
+}
+
+ol li:before { 
+    content: counter(item) ") ";
+    counter-increment: item;
+}
+
+.list {
+    padding-left: 1em;
+}
