@@ -1,0 +1,60 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+}
+
+header {
+  background-image: url(images/soup.jpg);
+  height: 700px;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 280px;
+  font-size: 4em;
+  color: white;
+  font-weight: lighter;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.separator {
+  align-content: center;
+  margin: 5% 20%;
+}
+
+.separator img{
+  height: 4em;
+}
+
+section {
+  margin: 5% 20%;
+}
+
+ul li {
+  padding-left: 30px;
+  text-align: left;
+  list-style-type: "- ";
+}
+
+ol {
+  counter-reset: receta;
+}
+
+ol li {
+  padding-left: 30px;
+  text-align: left;
+  list-style: none;
+}
+
+
+ol li:before {
+  content: counter(receta) ") ";
+  counter-increment: receta;
+}

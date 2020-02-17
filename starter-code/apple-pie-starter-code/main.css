@@ -13,7 +13,6 @@ header {
 }
 
 h1 {
-    font: comic-sans;
     padding-top: 280px;
     font-size: 4em;
     color: white;
@@ -44,6 +43,9 @@ ul li {
     list-style-type: "- ";
 }
 
+ol {
+    counter-reset: receta;
+}
 
 ol li {
     padding-left: 30px;
@@ -51,9 +53,6 @@ ol li {
     list-style: none;
 }
 
-ol {
-    counter-reset: receta;
-}
 
 ol li:before {
     content: counter(receta) ") ";
