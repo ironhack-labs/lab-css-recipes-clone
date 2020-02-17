@@ -11,14 +11,14 @@ header {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     color: white;
 }
 section {
     display: flex;
-    margin: 30px 150px;
+    margin: 30px 50px;
     align-items: left;
     flex-direction: column;
 }
