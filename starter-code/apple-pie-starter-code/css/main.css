@@ -1,0 +1,78 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.one {
+    overflow: hidden;
+    width: 100%;
+    height: 80%; 
+}
+
+.one > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+    margin-bottom: -300px;
+}
+
+h1 {
+    font-size: 120px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.two {
+    margin-top: 100px;
+    
+}
+
+.two > div {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: justify;
+    padding: 0 170px;
+    color: rgb(59, 56, 63);
+}
+
+.two .image {
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.two .instructions {
+    font-size: 27px;
+    color: rgb(59, 56, 63);
+    margin-top: 60px;
+}
+
+h3 {
+    font-weight: 300;
+    color: rgb (43, 40, 46 );
+}
+
+ul li::before {
+    content: "- ";
+} 
+
+ul  {
+    list-style-type: none;
+}
+
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
