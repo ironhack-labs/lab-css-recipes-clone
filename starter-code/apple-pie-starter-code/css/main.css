@@ -1,0 +1,63 @@
+*{
+ font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+ text-align: justify;
+}
+.header{
+    background-image: url(https://i.ibb.co/5BJpS3r/apple-pie.jpg);
+    background-size: cover;
+    color: white;
+  justify-content: center;
+  height: 500px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+h1{
+    font-size: 55px;
+    padding: 4em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.centrado{
+   width: 300px;
+   display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    padding-top: 2em;
+    margin: 0 auto;
+    
+}
+.seccion{
+    
+    padding-top: 3em;
+    width: 800px;
+   margin: 0 auto;
+}
+h2{
+    padding-bottom: 2em;
+}
+hr{
+    color: black;
+    width: 800px;
+}
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+.parent { display: block; }
+.parent:before { 
+    content: counter(item) " ) "; 
+    counter-increment: item 
+}
+ul { 
+    counter-reset: item;
+    list-style-type: none;
+}
