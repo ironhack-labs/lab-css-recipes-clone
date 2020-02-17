@@ -57,22 +57,6 @@ ol li:before {
     content: counter(lista-receta) ") ";
     counter-increment: lista-receta;
 }
-/* h2 {
-    text-align: left;
-}
-.start {
-    text-align: justify;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
-    margin: 5em 0 5em 0;
-    }
-.start p{
-    width: 50%;
-} */
 ul {
     width: 60%;
 }

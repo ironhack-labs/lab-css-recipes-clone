@@ -1,9 +1,68 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+* {
+  margin:0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+header:first-child{
+  background: url("../images/soup.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 30em;
+}
+p {
+  width: 60%;
+}
+section {
+  height: 40%;
+  margin: 2em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+h2 {
+  margin: 2em 0 2em 0;
+  padding-top: 2em;
+  width: 60%;
+  border-top: black solid 1px;
+  
+}
+ul {
+  width: 60%;
+  list-style-type:none;
+}
+ul li:before{
+  content: "-";
+}
+ol {
+  width: 60%;
+  counter-reset: lista-receta;
+}
+ol li {
+  list-style-type: none;
+}
+ol li:before {
+  content: counter(lista-receta) ") ";
+  counter-increment: lista-receta;
+}
+
+ul {
+  width: 60%;
+}
+.center > img {
+  width: 40%;
+  margin: 3em 0 1em 0;
 }
