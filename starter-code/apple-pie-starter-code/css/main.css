@@ -1,0 +1,64 @@
+*{
+    font-family:system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  
+  }
+  
+  .header{ background-image: url(https://drive.google.com/uc?export=download&id=1qkOvpWaFuA19L5Ha4TpH0ywcfcHmJJ4g); 
+    height: 500px;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  h1{
+    color:white;
+    font-size: 64px;
+  }
+  
+  .article-one  p{
+    width:70%;
+    margin:0 auto;
+    text-align:justify;
+    padding:50px;
+  }
+  
+   img {
+   display:flex;
+   width:40%;
+   padding:50px;
+   margin:0 auto;
+   justify-content:center;
+  
+  }
+   
+  .article-2{
+      width:70%;
+    margin:0 auto;
+    text-align:justify;
+    padding:50px;
+  
+  }
+  
+  ul{
+     list-style-type: "-";
+  }
+  
+  ol { list-style: none; 
+  }
+  ol { counter-reset: list; 
+  }  
+  ol li::before { 
+    content: counter(list) ")"; 
+    counter-increment: list; 
+  } 
+  
+  hr{
+    width:auto;
+  }
+  
+  .article-3{
+     width:70%;
+    margin:0 auto;
+    padding:50px;
+  }
