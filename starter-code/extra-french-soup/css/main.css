@@ -7,3 +7,47 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body div{
+  background-size: cover;
+  display: flex;
+  text-align-last: center;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: white;
+}
+
+section img{
+  display: flex;
+  margin:auto;
+  width: 400px;
+  justify-content: center;
+
+}
+section{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+section hr {
+  margin-bottom: 40px;
+}
+
+ol li:before { 
+  content: counter(lista) ")"; 
+  counter-increment: lista 
+}
+ol { 
+  counter-reset: lista;
+  list-style-type: none;
+}
+ul li::before{
+   
+  content: "- ";
+  font-weight: bold;
+
+}
+ul li{
+list-style-type: none;
+
+}
