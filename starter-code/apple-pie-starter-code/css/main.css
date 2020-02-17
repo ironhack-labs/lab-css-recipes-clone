@@ -24,3 +24,23 @@ h1 {
     font-size: 64px;
     letter-spacing: 2px;
 }
+
+.explanation  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px;
+    flex-direction: column;
+}
+
+.explanation article {
+    max-width: 60%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.cooking-images {
+    margin-top: 40px;
+    width: 400px;
+}
