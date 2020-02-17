@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: grey;
+    color: darkgray;
 
 }
 header {
@@ -23,7 +23,7 @@ h1 {
 }
 
 ul, ol, h2, p, hr {
-    margin: 50px 10% 50px 10%;
+    margin: 50px 15% 50px 15%;
     text-justify: auto;
     text-align: left;
     font-size: 20px;
@@ -32,10 +32,14 @@ ul, ol, h2, p, hr {
 p {
     font-size: x-large;
     font-weight: lighter;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
 }
 
 h2 {
     font-size: x-large;
+    color: grey;
 }
 
 ul > li {
@@ -55,5 +59,4 @@ ol > li::before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
 }
