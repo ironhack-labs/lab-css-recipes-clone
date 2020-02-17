@@ -1,0 +1,128 @@
+/*general specifications*/
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+p, li{
+    color: rgb(97, 97, 97);
+}
+
+
+h1 {
+    font-weight: 100;
+}
+
+section{
+    width: 50%;
+}
+
+.section1 p{
+    font-size: 19px;
+}
+
+.theGreatDiv{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+
+/*HEADER SPECIFICATION*/
+
+.header{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 1300px 728px;
+    margin: 5px 20px 40px 20px;
+    width: auto;
+    height: 550px;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+	align-content: center;
+}
+
+
+
+
+
+
+
+
+/*SECTION 1 SPECIFICATIONS*/
+
+.section1{
+    padding-bottom: 30px;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.recipeInfo{
+    padding: 0px 100px;
+    width: 60%;
+}
+
+
+
+
+/*SECTION 2 SPECIFICATIONS*/
+
+.section2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    border-top: 2px solid rgb(190, 190, 190);
+    border-width: 90%;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cookingInfo{
+    width: 50%;
+}
+
+ul>li{
+    list-style-type: none;
+}
+
+
+
+/*SECTION 3 SPECIFICATIONS*/
+
+.section3{
+    padding-top: 30px;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+
+
+
+
