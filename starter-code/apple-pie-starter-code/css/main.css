@@ -57,9 +57,6 @@ ol li:before {
     content: counter(lista-receta) ") ";
     counter-increment: lista-receta;
 }
-ul {
-    width: 60%;
-}
 .center > img {
     width: 40%;
     margin: 3em 0 1em 0;
