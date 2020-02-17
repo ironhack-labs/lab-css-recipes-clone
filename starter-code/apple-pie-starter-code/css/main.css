@@ -1,0 +1,58 @@
+ul li::before{
+   
+        content: "- ";
+        font-weight: bold;
+    
+}
+ul li{
+    list-style-type: none;
+
+}
+
+body div{
+    background-size: cover;
+    display: flex;
+    text-align-last: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: white;
+}
+
+.margenes{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+section{
+ margin-top:30px ;
+ width: 80%;
+align-items: center;
+
+}
+section b{
+    font-weight: bold;
+}
+ 
+section img{
+    display: flex;
+    margin:auto;
+    width: 400px;
+    justify-content: center;
+
+}
+
+/* https://stackoverflow.com/questions/11946098/how-to-remove-dot-after-number-in-ordered-list-items-in-ol-li */
+ol li { display: block; }
+ol li:before { 
+    content: counter(item) ")"; 
+    counter-increment: item 
+}
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
