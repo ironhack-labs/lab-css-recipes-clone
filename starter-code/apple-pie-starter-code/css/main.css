@@ -1,5 +1,8 @@
 * {
     margin: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: grey;
+
 }
 header {
     height: auto;
@@ -19,12 +22,32 @@ h1 {
     font-weight: lighter;
 }
 
+ul, ol, h2, p, hr {
+    margin: 50px 10% 50px 10%;
+    text-justify: auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+p {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: x-large;
+}
+
 ul > li {
     list-style-type: none;
 }
 
 ul > li::before {
     content: "- ";
+}
+
+ol > li::before {
+    content: ")";
 }
 
 .imginfo {
@@ -34,4 +57,3 @@ ul > li::before {
     margin-right: auto;
     width: 20%;
 }
-
