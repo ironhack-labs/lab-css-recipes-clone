@@ -1,0 +1,81 @@
+*{
+    margin:0 auto;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+
+}
+
+body{
+    width: 100%;
+    padding-bottom: 200px;
+    line-height: 45px;
+}
+header{
+    background-image: url(https://drive.google.com/uc?export=download&id=1UO0xfX2AqzLcOUJ3x4AaOZ1m8sDkUHXv);
+    background-size: cover;
+    height: 1100px;
+    text-align: center;
+    color:white;
+    display:flex;
+    align-content: center;
+
+
+}
+header h1{
+    padding-top: 450px;
+    font-size: 150px;
+    font-weight: lighter;
+}
+ .intro{
+     width: 80%;
+     text-align: center;
+ }
+
+ .intro p{
+     text-align: center;
+     font-size: 30px;
+     padding-top:150px;
+     padding-bottom:80px;
+     text-align: justify;
+
+     
+ }
+ .foto1{
+     padding-bottom: 50px;
+
+}
+ .foto2{
+    display: flex; 
+    align-content: center;
+    align-items: center;
+     padding-top: 40px;
+     padding-bottom:40px;
+ }
+ 
+ ul li{
+     list-style-type: "-  ";
+     text-decoration: none;
+ }
+
+ .directions{
+     font-size: 25px;
+     width: 80%;
+     padding-top: 40px;
+     margin-bottom: 40px;
+
+ }
+
+ ol{
+     list-style:none;
+     counter-reset:list;
+ }
+
+ 
+ ol li::before{
+     content: counter(list) ") ";
+     counter-increment: list;
+
+ }
+ section{
+     margin: 40px none;
+
+ }
