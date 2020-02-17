@@ -41,12 +41,9 @@ section {
 ul li {
     padding-left: 30px;
     text-align: left;
-    list-style-type: none;
+    list-style-type: "- ";
 }
 
-ul li::before {
-    content: "-  ";
-}
 
 ol li {
     padding-left: 30px;
@@ -58,7 +55,7 @@ ol {
     counter-reset: receta;
 }
 
-ol li::before {
+ol li:before {
     content: counter(receta) ") ";
     counter-increment: receta;
 }
