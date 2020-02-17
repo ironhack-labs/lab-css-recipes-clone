@@ -5,16 +5,16 @@
     margin: 0px;
     font-size: 16pt;
 }
+
 header {
     background-image: url(images/apple-pie.jpg);
-    height: 600px;
+    height: 700px;
     background-size: cover;
-
 }
 
-h1{
+h1 {
     font: comic-sans;
-    padding-top: 220px;
+    padding-top: 280px;
     font-size: 4em;
     color: white;
     font-weight: lighter;
@@ -25,14 +25,17 @@ h2 {
     margin-bottom: 1em;
 }
 
-.separator{
+.separator {
     align-content: center;
-    margin: 5% 15%;
+    margin: 5% 20%;
+}
+
+.separator img{
+    height: 4em;
 }
 
 section {
-    width: 70%;
-    margin: 5% 15%;
+    margin: 5% 20%;
 }
 
 ul li {
@@ -42,7 +45,7 @@ ul li {
 }
 
 ul li::before {
-  content: "-  ";
+    content: "-  ";
 }
 
 ol li {
@@ -52,13 +55,10 @@ ol li {
 }
 
 ol {
-    counter-reset: list;
+    counter-reset: receta;
 }
 
- ol li::before {
-     content: counter(list) ") ";
-     counter-increment: list;
-     }
-
-
-
+ol li::before {
+    content: counter(receta) ") ";
+    counter-increment: receta;
+}
