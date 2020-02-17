@@ -1,0 +1,78 @@
+* {
+    font-family:  'Avenir', 'Trebuchet MS', sans-serif,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background-image: url(https://drive.google.com/uc?export=download&id=1pBei9CeuBaWfXG_klil2evDMvJzzdz1-);
+    background-size: cover;
+    height: 820px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+h1 {
+    position: center;
+    padding-top: 320px;
+    font-size: 78px;
+    
+}
+
+p {
+    text-align: left;
+    justify-content: center;
+    font-size: 22px;
+    width: 80%;
+    padding: 60px 120px;
+
+}
+
+img {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 40%;
+   
+}
+
+.ingredients {
+    border-top: 1px solid gray;
+    padding-top:50px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.directions > h2 {
+    border-top: 1px solid gray;
+    padding-top:50px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+
+ul {
+    padding-top:20px;
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+
+ul li {
+    list-style-type: '-';
+}
+
+ol {
+    counter-reset: list;
+    list-style: none;
+    margin-left: 100px;
+}
+
+ ol li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
