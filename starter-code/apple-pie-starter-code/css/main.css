@@ -1,0 +1,60 @@
+/* aqui va el css*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height:100vh;
+  font-family: 'Roboto', sans-serif;
+  
+}
+h1 {
+    color: white;
+    text-align:  center;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    font-size: 4em;
+}
+
+h4 {
+    margin-left: 40px;
+}
+.ingredients {
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+}
+
+}
+.cooking {
+
+}
+p {
+    margin-top: 5%;
+    text-align: center;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ ul{
+    align: center;
+    list-style: none;
+}
+
+.receta {
+    align: center;
+}
+
+article {
+    align: right;
+}
