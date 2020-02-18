@@ -8,15 +8,18 @@ body{
     width: 100%;
     padding-bottom: 200px;
     line-height: 45px;
+    font-size: 25px;
 }
 header{
     background-image: url(https://drive.google.com/uc?export=download&id=1UO0xfX2AqzLcOUJ3x4AaOZ1m8sDkUHXv);
     background-size: cover;
-    height: 1100px;
+    background-position: bottom;
+    height: 1000px;
     text-align: center;
     color:white;
     display:flex;
     align-content: center;
+    margin: 70px;
 
 
 }
@@ -25,57 +28,46 @@ header h1{
     font-size: 150px;
     font-weight: lighter;
 }
- .intro{
-     width: 80%;
-     text-align: center;
- }
-
- .intro p{
-     text-align: center;
-     font-size: 30px;
-     padding-top:150px;
-     padding-bottom:80px;
-     text-align: justify;
-
-     
- }
- .foto1{
-     padding-bottom: 50px;
-
-}
- .foto2{
-    display: flex; 
-    align-content: center;
-    align-items: center;
-     padding-top: 40px;
-     padding-bottom:40px;
- }
- 
- ul li{
+section{
+    margin: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    align-items:  center;
+  }
+  
+  .intro p{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  
+  img{
+    width: 45%;
+    display: block;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .foto1{
+  margin-bottom: 10%;
+  }
+  .directions{
+    margin: 5% 15%;
+  }
+  
+  ul li{
      list-style-type: "-  ";
      text-decoration: none;
- }
-
- .directions{
-     font-size: 25px;
-     width: 80%;
-     padding-top: 40px;
-     margin-bottom: 40px;
-
- }
-
- ol{
+  }
+  
+  ol{
      list-style:none;
      counter-reset:list;
- }
-
- 
- ol li::before{
+  }
+  
+  ol li::before{
      content: counter(list) ") ";
      counter-increment: list;
-
- }
- section{
-     margin: 40px none;
-
- }
+  
+  }
+  
