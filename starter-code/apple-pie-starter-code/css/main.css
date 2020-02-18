@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    text-align: justify;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 700px;
+    font-size: 100px;
+}
+header {
+    height: 700px;
+    background-image: url("https://www.recetasderechupete.com/wp-content/uploads/2019/11/Apple-Pie-Manzana.jpg");
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.primertexto {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:block;
+    margin:auto;
+}
+
+h3 {
+    text-align: justify;
+}
+
+.centrado {
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 2em;
+    margin:0 auto;
+}
+
+.ingredientes {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: '-';
+ }
+
+ .guion li::before {
+     content: '-';
+ }
+
+ .seccion {
+     padding-top: 3em;
+     width: 800px;
+     margin: 0 auto;
+ }
+ 
+ hr {
+     color: black;
+     width: 800px;
+     margin: 0 auto;
+ }
+
+ ol { 
+    counter-reset: item;
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+li { display: block; }
+ol li:before { 
+    content: counter(item) ") "; 
+    counter-increment: item 
+}
