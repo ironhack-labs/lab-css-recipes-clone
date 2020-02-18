@@ -15,11 +15,13 @@ body {
     color: white;
 }
 #recipe-history {
-    width: 80%;
+    width: 70%;
+    margin: 30X 20X;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 img {
     max-width: 100%;
