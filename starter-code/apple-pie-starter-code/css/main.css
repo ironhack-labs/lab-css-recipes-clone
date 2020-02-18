@@ -1,14 +1,17 @@
 *{
     font-family:system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size:20px;
+    line-height:1.5;
   
   }
   
   .header{ background-image: url(https://drive.google.com/uc?export=download&id=1qkOvpWaFuA19L5Ha4TpH0ywcfcHmJJ4g); 
-    height: 500px;
+    height: 600px;
     background-size:cover;
     display:flex;
     align-items:center;
     justify-content:center;
+    margin:2% 19% ;
   }
   
   h1{
@@ -17,23 +20,23 @@
   }
   
   .article-one  p{
-    width:70%;
+    width:40%;
     margin:0 auto;
     text-align:justify;
-    padding:50px;
+    padding:1px;
   }
   
    img {
    display:flex;
-   width:40%;
-   padding:50px;
-   margin:0 auto;
+   width:25%;
+   padding:10px;
+   margin:auto;
    justify-content:center;
   
   }
    
   .article-2{
-      width:70%;
+    width:40%;
     margin:0 auto;
     text-align:justify;
     padding:50px;
@@ -57,8 +60,3 @@
     width:auto;
   }
   
-  .article-3{
-     width:70%;
-    margin:0 auto;
-    padding:50px;
-  }
