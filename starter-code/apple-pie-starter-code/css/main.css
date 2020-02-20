@@ -1,3 +1,6 @@
+html {
+    font-size: 10px;
+}
 body {
     margin: 0;
     font-family: sans-serif;
@@ -5,24 +8,63 @@ body {
 #pop-image {
     background-image: url(/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
     max-width: 100%;
+    height: auto;
     padding: 20%;
-    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #pop-image h1 {
     text-align: center;
     color: white;
+    font-size: 7rem;
 }
 #recipe-history {
-    width: 70%;
-    margin: 30X 20X;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 7%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    border-bottom: 1px solid black;
 }
-img {
-    max-width: 100%;
+#recipe-history div {
+    font-size: 3.2rem;
+}
+.recipe-info {
+    padding: 3.5rem;
+    max-width: 45%;
+}
+#recipe-ingredients {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-bottom: 1px solid black;
+}
+#recipe-ingredients h3{
+    font-size: 3.5rem;
+}
+#recipe-ingredients ul {
+    font-size: 3rem;
+}
+.cooking-info {
+    padding: 3.5rem;
+    max-width: 45%;
+    align-items: center;
+}
+#recipe-directions {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#recipe-directions h3 {
+    font-size: 3.5rem;
+}
+#recipe-directions ol {
+    font-size: 3rem;
 }
