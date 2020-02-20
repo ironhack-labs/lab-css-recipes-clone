@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.top img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+}
+
+h1 {
+    font-size: 4em;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+     left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    color: #fff;
+    width: 60%;
+    }
+
+.introduction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.recipe-info img {
+    width:250px;
+    padding: 40px 40px 0 40px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cooking-info img {
+    width:250px;
+    padding: 40px 40px 0 40px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+/*
+.introduction-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw; 
+    padding: 60px; 
+    }
+
+.recipe-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.text {
+    height: 450px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+h2 {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+#recipe-info-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cooking-info {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+*/
