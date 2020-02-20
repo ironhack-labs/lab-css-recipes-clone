@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    /* height: 110vh; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.recipe-hero-banner {
+    display: flex;
+    background-image: url("/Users/neilgursahani/Desktop/Ironhack/Labs/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recipe-title {
+    color: white;
+    font-size: 10vh;
+}
+
+.recipe-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-content {
+    width: 50vw;
+}
+
+.recipe-introduction-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipe-introduction {
+    padding-top: 5vh;
+}
+
+.recipe-introduction p {
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+
+li {
+    color: rgb(100, 100, 100);
+}
+
+.recipe-introduction-images, .recipe-ingredients-images {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.recipe-introduction-images img {
+    width: 25vw;
+}
+
+.line-border {
+    border: 0.5px black solid;
+}
+
+.recipe-ingredients {
+    padding-top: 2vh;
+}
+
+.recipe-ingredients-images img {
+    width: 20vw;
+}
+
+.recipe-ingredients-list {
+    list-style-type: ' - ';
+}
+
+.recipe-directions-container {
+    padding-top: 3vh;
+    padding-bottom: 15vh;
+}
