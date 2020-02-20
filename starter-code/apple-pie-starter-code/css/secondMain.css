@@ -1,8 +1,7 @@
-
-
+@import (https://fonts.googleapis.com/css?family=Open+Sans:300,600)
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
 }
 
 header {
@@ -29,63 +28,27 @@ header p {
     font-size: 5em;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 article {
     display: flex;
-    justify-content: center;
-}
-
-#description {
-    margin-top: 45px;
-}
-
-#description p{
-    font-size: 1.2em;
-}
-
-#description div {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    border-bottom: 2px solid darkgray;
-    padding-bottom: 35px;
-}
-
-#description div div {
-    border: none;
-    padding-bottom: 0;
-}
-
-#ingredients {
-    padding-top: 25px;
-}
-
-#ingredients div {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    border-bottom: 2px solid darkgray;
-    padding-bottom: 35px;
-
-}
-
-#ingredients div div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: none;
-    padding-bottom: 0;
-}
-
-#ingredients img {
-    width: 45%;
-}
-
-article >div {
     width: 60%;
 }
 
 .infographic {
-    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infographic img {
+    width: 45%;
 }
 
 .title {
@@ -95,7 +58,7 @@ article >div {
 }
 
 img {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 ul, ol {
@@ -107,7 +70,6 @@ ul {
     list-style-type: none;
 }
 
-
 ul li::before {
     
         content: "-"; 
@@ -116,11 +78,3 @@ ul li::before {
 
 }
 
-#steps {
-    padding-bottom: 50px;
-    margin-top: 20px;
-}
-
-#steps p {
-    margin-bottom: 25px;
-}
