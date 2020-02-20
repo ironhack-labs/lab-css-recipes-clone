@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -10,6 +10,7 @@ h1 {
 
 h2 {
     font-size: 1.3em;
+    font-weight: 500;
 }
 
 header {
