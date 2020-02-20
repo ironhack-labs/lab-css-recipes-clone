@@ -1,3 +1,65 @@
 body {
-    font-family: Helvetica;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
 }
+
+h1 {
+    font-size: 5em;
+    color: white;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+header {
+    display: flex;
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 0;
+}
+
+.container{
+    padding: 7%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.intro img {
+    width: 50%;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ingredients img {
+    justify-self: center;
+    align-self: center;
+    width: 45%;
+}
+
+.ingredients ul {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.directions ol {
+    font-size: 1.3em;
+}
+
