@@ -8,3 +8,90 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+header div {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.infographic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infographic img {
+  width: 45%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 15px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+ul, ol {
+  line-height: 1.3em;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  
+      content: "-"; 
+      padding-right: 4px;
+      color: black; 
+
+}
+
+.bottom-bordered {
+  border-bottom: 2px solid darkgray;
+  padding-bottom: 30px;
+}
+
+
