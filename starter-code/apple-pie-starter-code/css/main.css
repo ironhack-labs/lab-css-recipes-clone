@@ -58,6 +58,11 @@ ul, ol {
     list-style: none !important;
 }
 
+ol {
+    padding-left: 10px;
+    list-style: none !important;
+}
+
 h4 {
     font-size: 2em;
     margin: 4% 10% 2% 10%;
