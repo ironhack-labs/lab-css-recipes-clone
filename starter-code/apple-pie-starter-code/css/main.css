@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 0 5%;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  /* width: 90%; */
+}
+
+header {
+  background-image: url('/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
+  background-size: cover;
+  height: 45rem;
+}
+
+.hero-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+}
+
+#main-title {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.info-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ingredient-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 80%;
+}
+
+.direction-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  width: 80%;
+}
+
+.direction-container p {
+  width: 70%;
+}
+
+.small-icon-container {
+  display: flex;
+  width: 80%;
+}
+
+img.cooking-info {
+  width: 20rem;
+}
+
+ul li.ingredient {
+  list-style: none;
+}
+
+.section-content {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 70%;
+}
+
+hr {
+  border-bottom: 2px solid #d3d3d3;
+  width: 90%;
+}
+
+.debug {
+  justify-content: center;
+  border: 1px solid red;
+}
