@@ -51,8 +51,8 @@ header {
 .ingredient-container {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  width: 80%;
+  padding-left: 5%;
+  width: 95%;
 }
 
 .direction-container {
@@ -69,11 +69,12 @@ header {
 
 .small-icon-container {
   display: flex;
-  width: 80%;
+  justify-content: center;
+  width: 100%;
 }
 
 img.cooking-info {
-  width: 20rem;
+  width: 15rem;
 }
 
 ul li.ingredient {
@@ -92,6 +93,5 @@ hr {
 }
 
 .debug {
-  justify-content: center;
   border: 1px solid red;
 }
