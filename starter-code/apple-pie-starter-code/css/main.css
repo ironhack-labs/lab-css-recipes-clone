@@ -78,6 +78,10 @@
     font-size: 18px;
 }
 
+.section3 dd::before {
+    content: "- ";
+  }
+
 
 /*SECTION 4 STYLE*/
 
@@ -96,6 +100,16 @@
     font-size: 25px;
 }
 
+.section4 dl {
+    font-size: 18px;
+    counter-reset: my-awesome-counter;
+}
+
 .section4 dd {
     font-size: 18px;
+    counter-increment: my-awesome-counter;
 }
+
+.section4 dd::before {
+    content: counter(my-awesome-counter) ") ";
+  }
