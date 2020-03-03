@@ -12,8 +12,6 @@ Cloning something that already exists is the best way to get better at frontend 
 
 Some starter code is already provided, so you can jump right into it.
 
-## Exercise
-
 ## Requirements
 
 - [Fork](https://guides.github.com/activities/forking/) this repo
@@ -25,7 +23,7 @@ Some starter code is already provided, so you can jump right into it.
   - The recipe servings / nutrients section
   - The prep section
 
-### Submission
+## Submission
 
 Upon completion, run the following commands:
 
