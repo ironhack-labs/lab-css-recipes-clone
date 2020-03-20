@@ -50,7 +50,9 @@ p {
 ul{
 padding:20px 0px 0px 40px ;
 }
-
+li {
+   font-size: 24px;
+}
 #Ingredients li{
     list-style-type: none;
 }
