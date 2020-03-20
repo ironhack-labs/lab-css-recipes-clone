@@ -21,7 +21,7 @@ ul li {
 /*HERO*/
 
 .hero {
-    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-image: url('images/apple-pie.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 20%;
