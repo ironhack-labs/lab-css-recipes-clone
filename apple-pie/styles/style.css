@@ -1,0 +1,61 @@
+body{
+    font-family: 'Baloo 2', cursive; 
+}
+hr {
+    width: 900px;
+    background-color: grey;
+    
+}
+/*------------------   Header  -------------------------*/
+#hero {
+    background-image: url('../images/apple-pie.jpg');
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+   
+}
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 450px;
+    font-size: 90px;
+}
+
+/*------------------   1st paragraph  -------------------------*/
+#Intro p {
+    text-align: center;
+    font-size: 30px;
+}
+ #Intro img {
+     display: block;
+     margin: auto;
+     padding: 20px;
+     height: 80px;
+ }
+ /*------------------    Ingredients  -------------------------*/
+ #Ingredients {
+     font-size:  20px; ;
+ }
+ #Ingredients h3 {
+   font-size: 30px;
+   margin-left: 500px;
+    }
+ 
+#Ingredients nav{
+    margin-left: 500px;
+}
+#Ingredients img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    height: 80px;
+}
+/*------------------    Directions -------------------------*/
+#Directions {
+    font-size:  20px; 
+    margin-left: 500px;
+}
+    #Directions h3 {
+        
+        font-size: 30px;
+    }
