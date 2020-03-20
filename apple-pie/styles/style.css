@@ -52,7 +52,7 @@ padding:20px 0px 0px 40px ;
 }
 
 #Ingredients li{
-    list-style: disc;
+    list-style-type: none;
 }
 
 #Directions{
