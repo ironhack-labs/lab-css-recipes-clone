@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background: url("https://tinyurl.com/yyht9ob6");
+    background-image: url("../images/apple-pie.jpg"); 
     height: 600px;
     width: 1000px;
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@ body {
 	justify-content: center;
     align-content: center;
     padding-top: 200px;
+    color: white;
 }
 
 .ingredientslist {
@@ -31,7 +32,7 @@ body {
 }
 
 .intro > p {
-    padding: 25px 200px;
+    padding: 25px 300px;
     font-size: 1.5em;
 }
 
@@ -41,21 +42,21 @@ body {
 }
 
 hr {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .ingredients {
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .ingredients > img {
-    padding: 25px 350px;
+    padding: 25px 250px;
     width: 300px;
 }
 
 .directions {
-    margin-left: 200px;
-    width: 1000px;
-    padding-bottom: 20px;
+    margin-left: 300px;
+    width: 800px;
+    padding: 0px 100px 20px 0px;
 }
