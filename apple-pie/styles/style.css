@@ -78,11 +78,11 @@ html,body{
 }
 
 .ingredients{
-    list-style: none;
+   
     padding: 0px 10px;
 }
 
-ol{
+ol, ul{
     list-style: none; 
 }
 
