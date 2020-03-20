@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  margin: 0em;
+}
+
+.hero-image {
+    background-image: url("/home/claudi/Ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1210px;
+}
+
+.hero-image h1 {
+  text-align: center;
+  padding-top: 450px;
+  font-size: 6em;
+  color: white;
+}
+
+.intro {
+    margin: 0 140px;
+    text-align: center;
+}
+
+.intro-text{
+    font-size: 2em;
+}
+
+.list {
+    margin: 0 140px;
+}
+
+.list h3 {
+    font-size: 2em;
+}
+
+.list li {
+    font-size: 1.5em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.dashed > li {
+    margin-left: 15px;  
+}
+
+ul.dashed > li::before {
+    content: "-";
+}
