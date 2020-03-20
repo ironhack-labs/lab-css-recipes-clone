@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.banner {
+.hero {
   width: 100%;
   height: 800px;
   background-image: url(../images/soup.jpg);
@@ -27,7 +27,9 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-
+#recipe {
+  text-align: center justify;
+}
 .instructions {
   font-size: 40px;
   text-align: left;
