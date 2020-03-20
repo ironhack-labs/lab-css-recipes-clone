@@ -7,7 +7,7 @@
 
 .hero {
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,7 @@ hr {
 p {
     font-size: 24px;
     text-align: center;
+    margin-top: 80px;
 }
 
 ul{
