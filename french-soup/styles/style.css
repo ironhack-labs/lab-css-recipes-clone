@@ -1,9 +1,45 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body{
+    font-family: 'Baloo 2';
+    font-size: 20px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.image{
+    height: 480px;
+    width: 1080;
+    background-image: url(../images/soup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 100px;
+    color:white;
+    padding-top:280px;
+}
+
+#introduction{
+    font-size:28px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 0 15% 0 15%;
+}
+
+.imageinfo{
+    text-align: center;
+}
+
+.part{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+hr{
+    border: 2.5px solid lightgrey;
+    margin: 0 15% 0 15%;
+}
+
+ul{
+    list-style-type: '- ';
+}
+
+#directions{
+    margin-bottom: 150px;
 }
