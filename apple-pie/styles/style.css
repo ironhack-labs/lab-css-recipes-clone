@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin:0px;
+    padding: 0px;
+    line-height: 1.3em;  
+}
+
+.large-container{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    display: block;
+    margin: 0 auto;
+    max-width:1024px; 
+    width:100%;
+    margin-bottom: 200px;
+}
+
+.hero{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 650px; 
+    overflow: hidden;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0% 0%;
+    background-size: cover;
+    
+}
+
+.hero h1{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0px;
+}
+
+#intro{
+    padding:50px 0px; 
+    text-align: justify;
+}
+
+.box{
+    display: block;
+    margin-bottom:50px; 
+}
+
+.box .title{
+    margin: 0px;
+}
+
+.box p{
+    padding: 15px 0px;
+}
+
+.box-img{
+    text-align: center;
+}
+
+.box-img img{
+    max-width: 450px;
+    text-align: center;
+    margin:20px 0px;
+}
+
+.box-line{
+    display: block;
+    border-bottom: 1px solid grey;
+}
+
+.ingredients{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+ol{
+    list-style: none; 
+}
+
+
+.ingredients li:before{
+    content:"-  ";
+}
+
+.directions li:before{
+    margin:0px;
+    padding:0px;
+}
