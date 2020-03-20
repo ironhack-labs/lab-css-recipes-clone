@@ -18,7 +18,7 @@ html,body{
 .container{
     display: block;
     margin: 0 auto;
-    max-width:1024px; 
+    max-width:1280px; 
     width:100%;
     margin-bottom: 200px;
 }
