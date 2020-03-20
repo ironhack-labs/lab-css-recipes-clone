@@ -1,0 +1,54 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+.header-bg{
+    position:relative;
+    background-image: url(/Users/Robert/IronHack-Course/Apple-exercise/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top:325px;
+  }
+
+h1{
+      font-size: 100px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+  }
+
+.parrafo{
+    padding-left: 15em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: gray;
+}
+
+.recipeImg{
+    padding-left: 650px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+ul{
+    list-style: none;
+}
+
+.sectionTwo{
+    color: gray;
+    padding-left: 15em;
+}
+
+.recipecook{
+    padding-left: 650px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
