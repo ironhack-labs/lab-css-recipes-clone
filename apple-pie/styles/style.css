@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans&display=swap');
+
+.parte-uno {
+    background-image: url("../images/apple-pie.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.parte-uno h1{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    padding: 25%;
+    margin-block-start: 0px;
+}
+
+.parte-dos p {
+    text-align: justify;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    color: #686967;
+    padding: 100px 160px;
+    margin: 0px;
+}
+
+.parte-dos img{
+    display:block;
+    margin:auto;
+    margin-bottom: 50px;
+    width: 37%;
+}
+
+hr{
+    width: 75%;
+}
+
+.parte-tres h2{
+    margin: 50px;
+    margin-left: 164px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #3D3D3C;
+}
+
+.parte-tres ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color:#545453;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+
+.parte-tres img {
+    display:block;
+    margin:auto;
+    margin-bottom: 50px;
+    width: 33%;
+}
+
+.parte-cuatro h2{
+    margin: 50px;
+    margin-left: 164px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #3D3D3C;
+}
+
+.parte-cuatro ol{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color:#545453;
+    margin: 0px 160px;
+    list-style-type: none;
+    line-height: 150%;
+}
+
+.vspacing40{
+    height: 40px;
+}
