@@ -57,7 +57,7 @@ article #intro, article #ingredients, article #directions {
 
 article .intro-text h2 {
   font-weight: 300;
-  font-size: 1.35em;
+  font-size: 1.10em;
   margin: 0;
 }
 
@@ -68,7 +68,7 @@ article .media-container {
   margin: 35px 0 0;
 }
 
-article .media-container.receipt-info img {
+article .media-container.recipe-info img {
   width: 350px;
   height: auto;
 }
