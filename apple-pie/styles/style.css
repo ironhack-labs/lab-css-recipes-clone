@@ -1,0 +1,61 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/apple-pie.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+} 
+
+hr {
+    margin: 40px 100px 40px 100px;
+}
+
+.content{
+    margin: 0px 100px 0px 100px;
+}
+
+.content img{
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+    display: block;    
+    width: 400px;
+    
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul{
+padding:20px 0px 0px 40px ;
+}
+
+#Ingredients li{
+    list-style: disc;
+}
+
+#Directions{
+    margin-bottom: 80px;
+}
+
