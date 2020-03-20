@@ -25,7 +25,7 @@ ul li {
 /*HERO*/
 
 .hero {
-  background-image: url('images/soup.jpg');
+  background-image: url('../images/soup.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 20%;
