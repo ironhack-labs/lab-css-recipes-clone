@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,7 +53,7 @@ article #intro, article #ingredients, article #directions {
 
 article .intro-text h2 {
     font-weight: 300;
-    font-size: 1.35em;
+    font-size: 1.20em;
     margin: 0;
 }
 
