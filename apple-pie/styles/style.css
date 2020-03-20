@@ -22,6 +22,7 @@ body {
 .intro {
     margin: 0 140px;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .intro-text{
@@ -30,6 +31,7 @@ body {
 
 .list {
     margin: 0 140px;
+    border-bottom: 1px solid black;
 }
 
 .list h3 {
