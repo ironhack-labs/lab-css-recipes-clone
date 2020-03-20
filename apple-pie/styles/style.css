@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: url("https://tinyurl.com/yyht9ob6");
+    height: 600px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 200px;
+}
+
+.header > h1 {
+    font-size: 5em;
+    display: flex;
+	justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+}
+
+.ingredientslist {
+    list-style-type: none;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro > p {
+    padding: 25px 200px;
+    font-size: 1.5em;
+}
+
+.intro img {
+    padding: 10px 500px;
+    width: 400px;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ingredients {
+    margin-left: 200px;
+}
+
+.ingredients > img {
+    padding: 25px 350px;
+    width: 300px;
+}
+
+.directions {
+    margin-left: 200px;
+    width: 1000px;
+    padding-bottom: 20px;
+}
