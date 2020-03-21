@@ -1,0 +1,35 @@
+body {
+  font-family: 'Baloo Tammudu 2';
+  justify-content: center;
+}
+
+.main {
+  background-image: url('../apple-pie/images/apple-pie.jpg');
+  height: 600px;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 7cm;
+}
+
+
+.main>h1 {
+  color: white;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 25mm;
+  padding-top: 5cm;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.image {
+  justify-content: space-around;
+  flex-direction: column;
+  width: 330px;
+  padding-left: 300px;
+}
