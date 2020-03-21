@@ -1,0 +1,72 @@
+body{
+    font-family: 'Raleway', 'Raleway Thin', sans-serif;
+    margin: 0 0 5% 0 ;
+}
+
+
+h1 {
+    font-size: 5em;
+}
+
+h3{
+    font-family: 'Raleway Thin';
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.6em;
+    padding: 1% 10%;
+}
+
+.cover {
+    font-family: 'Raleway Thin';
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 600px;
+    overflow: hidden;
+}
+
+.center-text {
+    letter-spacing: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro > div {
+    text-align: center;
+    padding: 1% 10%;
+}
+
+.intro img {
+    text-align: center;
+}
+
+hr {
+    margin: 0 10%;
+    border-color: grey;
+}
+
+.ingredients-list {
+    list-style: none;
+    padding: 0 10%;
+}
+
+.ingredients-list li {
+    font-size: 1.2em;
+}
+
+.ingredients-image {
+    text-align: center;
+    padding: 1% 0;
+}
+
+.instructions {
+    padding: 0 11%;
+}
+
+.instructions li {
+    font-size: 1.2em;
+}
