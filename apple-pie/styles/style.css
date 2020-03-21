@@ -4,6 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 20%;
 	padding-right: 20%;
+	counter-reset: list;
 }
 
 header {
@@ -61,9 +62,9 @@ hr {
   margin: 20px 0 20px 0;
 }
 
-.listaordenada {
+/*.listaordenada {
 	counter-reset: list;
-}
+}*/
 
 ul, ol {
 	margin-top: 25px;
