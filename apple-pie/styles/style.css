@@ -56,6 +56,27 @@ h1.apple-pie {
     margin-top: 30px;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li:before{
+    content: '- ';
+}
+
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ") ";
+  }
+  
+
 .block-recipe li {
     font-weight: 300;
     font-size: 17px;
