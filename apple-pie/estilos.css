@@ -1,0 +1,61 @@
+.manzana{
+    padding-left: 400px;
+    padding-right: 100px;
+
+}
+
+.instrucciones{
+    padding-left: 500px;
+    padding-right: 800px;
+    margin-left: 150px;
+    }
+
+.Ingredients{
+    padding-left: 500px;
+    padding-right: 400px;
+}
+
+.Directions{
+    padding-left: 500px;
+    padding-right: 400px;  
+}
+
+.coccion{
+    padding-left: 500px;
+    padding-right: 600px;
+    margin-left: 150px
+}
+
+.contenedor{
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 400px;
+}
+
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  
+        
+}
+
+hr{
+    padding-left: 500px;
+    padding-right: 400px;
+}
+
+
+
+h3 {
+    font-size: 20px;
+    font-family: sans-serif; 
+}
+
+li{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
