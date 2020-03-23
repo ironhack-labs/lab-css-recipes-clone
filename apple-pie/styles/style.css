@@ -5,6 +5,7 @@
 
 body {
     font-family: sans-serif;
+    font-weight: 200;
 }
 
 section {
@@ -23,6 +24,9 @@ section {
 .hero h1 {
     color: white;
     text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 400;
 }
 
 .introduction {
@@ -72,7 +76,6 @@ section {
 }
 
 .directions {
-    padding-top: 40px;
     padding-bottom: 40px;
 }
 
