@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+section {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hero {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/apple-pie.jpg);
+}
+
+.hero h1 {
+    color: white;
+    text-align: center;
+}
+
+.introduction {
+    padding-top: 60px;
+}
+
+.introduction figure {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.introduction figure img {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.ingredients {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ingredients h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.ingredients figure {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.ingredients figure img {
+    display: block;
+    margin: auto;
+    height: 80px;
+}
+
+.ingredients ul li {
+    list-style: none;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.ingredients ul li::before {
+    content: "- ";
+}
+
+.directions {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.directions h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.directions ol li {
+    list-style-type: none;
+    counter-increment: lista;
+    /* Un nombre identificativo que te guste */
+}
+
+.directions ol li::before {
+    content: counter(lista) ") ";
+    /* Indica el separador para tu contenido */
+    text-align: right;
+}
