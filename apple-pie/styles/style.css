@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url("/home/patylla/Documentos/bootcamp-wemad-0320/week1_day1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    height: 600px;
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+img {
+    width: 300px;
+
+}
+
