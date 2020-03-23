@@ -17,3 +17,34 @@ h1 {
 	line-height: 850px;
     color:white;
 }
+p {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 50px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 40%;
+}
+
+}
+hr {
+    margin: 0 220px 0;
+    color: grey;
+    border: 1px solid;
+}
+.margin {
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.bigger-text{
+    font-size: 1.4em;
+}
+.ingredients li{
+    list-style-type: '-';   
+}
+
+
