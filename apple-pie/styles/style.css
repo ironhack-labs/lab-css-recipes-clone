@@ -1,0 +1,29 @@
+body {
+    width:;
+    font-family: sans-serif;
+}
+
+
+
+header {
+    height: 1200px;
+    color: white;
+    text-align: center;
+    background-image: url(/home/ruben/Escritorio/Ironhack/Week1/Day1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+section {
+    padding: 0px 150px;
+    font-size: 1.5em;
+    color: rgb(61, 61, 61);
+}
+
+ul {
+    list-style-type: none;
+    li: before{content: "-"}
+};
