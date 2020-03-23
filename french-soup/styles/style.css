@@ -1,9 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* h1,
+body,
+html,
+main {
+	margin: 0;
+} */
+/* Import the font and set the default size
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+} */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	width: 100vmin;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+h1 {
+	background-image: url("../images/soup.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 0;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+	line-height: 50vh;
+	font-size: 7.5vmin;
+}
+
+p {
+	text-align: justify;
+	font-size: 1.2rem;
+	margin-top: 4.5rem;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+}
+
+section {
+	width: 75%;
+	margin: 3rem auto 3rem auto;
+	line-height: 1.5rem;
+}
+
+h3 {
+	font-weight: 600;
+}
+
+.ingredients-list {
+	list-style-type: "- ";
+}
+
+li {
+	font-size: 1rem;
+}
+
+ol {
+	counter-reset: list;
+}
+
+ol > li {
+	list-style: none;
+}
+
+ol > li:before {
+	content: counter(list) ") ";
+	counter-increment: list;
 }

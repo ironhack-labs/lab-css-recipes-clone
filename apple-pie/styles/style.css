@@ -2,7 +2,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	width: 100vmin;
+	/* width: 100vmin; */
 	margin: 0 auto 0 auto;
 	padding: 0;
 }
@@ -35,7 +35,7 @@ img {
 }
 
 section {
-	width: 75%;
+	width: 75vmin;
 	margin: 3rem auto 3rem auto;
 	line-height: 1.5rem;
 }
