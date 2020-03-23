@@ -1,46 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin-right:30px;
-    margin-left:30px;
     font-family: roboto;
-    
 }
 
 article {
-    margin-right:70px;
-    margin-left:70px;
+    margin-right: 70px;
+    margin-left: 70px;
 }
 
 header {
-   background-image: url("../images/apple-pie.jpg");
-   background-position:0 0;
-   background-repeat: no-repeat;
-   background-size:cover;
-   height:600px;
-   text-align:center;
-   color:white;
-   margin-bottom: 50px;;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding-bottom: 30px;
 }
 
 h1 {
-    font-weight:normal;
+    font-weight: normal;
     font-size: 60px;
 }
 
-h2, h3 {
-    font-weight:normal;
+h2,
+h3 {
+    font-weight: normal;
+    padding-bottom: 15px;
 }
 
-header h1{
-    padding:300px;
+header h1 {
+    line-height: 600px;
 }
 
 #intro {
-    text-align:center;
+    text-align: center;
     margin: 30px;
-    font-size:20px
+    font-size: 20px
 }
 
-#infos {
+.infos {
     margin: auto;
     width: 50%;
 }
@@ -50,9 +58,9 @@ header h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height:60px;
-    width:auto;
-    margin-bottom:10px;
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
 }
 
 #img2 {
@@ -60,22 +68,21 @@ header h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height:75px;
-    width:auto;
-    margin-bottom:10px;
+    height: 75px;
+    width: auto;
+    margin-bottom: 10px;
 }
 
 #line {
-
-    background			  : transparent;
-    border-color			  : #000;
-    border-width			  : 0 0 1px;
-    border-style			  : solid;
-    width:100%;
-    margin:auto;
-    margin-bottom:40px;
+    background: transparent;
+    border-color: #000;
+    border-width: 0 0 1px;
+    border-style: solid;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
 }
