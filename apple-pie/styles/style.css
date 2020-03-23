@@ -1,58 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap");
+
 html,
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 400;
+	margin: 0;
 }
 
 h2 {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 header {
-    background-image: url("../images/apple-pie.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+	background-image: url("../images/apple-pie.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
 }
 
 header h1 {
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    line-height: 400px;
+	color: #fff;
+	text-align: center;
+	line-height: 650px;
 }
 
 section,
 hr {
-    width: 70%;
-    margin: 0 auto;
+	width: 50%;
+	margin: 0 auto;
 }
 
 hr {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 ul {
-    list-style-type: none;
+	list-style: none;
 }
 
 ul li:before {
-    content: "- "
+	content: "- ";
+}
+
+ol.custom {
+	list-style: none;
+	counter-reset: custom-ol;
+}
+
+ol.custom li {
+	counter-increment: custom-ol;
+}
+
+ol li::before {
+	content: counter(custom-ol) ") ";
 }
 
 .info {
-    align-self: center;
-    justify-self: center;
-    height: 90px;
-    margin-top: 10px;
+	align-self: center;
+	justify-self: center;
+	height: 90px;
+	margin-top: 10px;
 }
