@@ -29,24 +29,27 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .recipe-text {
   margin: 0px 250px;
+  margin-top: 100px;
 }
 
 .recipe-text p {
   margin: 40px;
+
 }
 
 .recipe-text h2 {
   margin: 25px;
-  text-align: center;
+  font-weight: 400;
 }
 
 .recipe-text div {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 ul {
