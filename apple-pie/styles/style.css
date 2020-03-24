@@ -1,5 +1,10 @@
-body {
-    font-family: "Roboto", sans-serif;
+h1, body, html, main {
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 header {
@@ -7,6 +12,7 @@ header {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 50px;
 }
 
@@ -31,6 +37,10 @@ img {
     margin-right: auto;
     width: 400px;
     padding: 30px;
+}
+
+.intro p {
+    padding-top: 30px;
 }
 
 p, li {
