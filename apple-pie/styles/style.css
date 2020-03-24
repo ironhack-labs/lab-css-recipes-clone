@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    margin: 100px;
+    margin: 150px;
 }
 
 h1 {
@@ -11,4 +11,10 @@ h1 {
 
 .image-apple {
     background-image: url("../images/apple-pie.jpg");
+}
+
+img {
+    display: block;
+    margin: 0 300px;
+    width: 50%;
 }
