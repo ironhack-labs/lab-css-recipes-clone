@@ -58,11 +58,6 @@ hr {
     padding-right: 8px;
 }
 
-/*@counter-style bracket-list {
-    system: extends decimal;
-    suffix: ')';
-}*/
-
 .directions ol {
     list-style: none;
     counter-reset: bracket-list;
