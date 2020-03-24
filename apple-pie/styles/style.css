@@ -1,11 +1,14 @@
 body {
-    background-color: red;
+    background-color: white;
+    margin: 100px;
 }
 
 h1 {
-    color: red;
+    color: white;
+    padding: 200px;
+    text-align: center;
 }
 
 .image-apple {
-    
+    background-image: url("../images/apple-pie.jpg");
 }
