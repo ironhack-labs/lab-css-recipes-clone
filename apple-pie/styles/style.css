@@ -86,3 +86,20 @@ header h1 {
 ul {
     list-style-type: none;
 }
+
+.dashes li::before {
+    content: "- "
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-counter;
+}
+
+ol li {
+    counter-increment: my-counter;
+}
+
+ol li::before {
+    content: counter(my-counter) ") ";
+}
