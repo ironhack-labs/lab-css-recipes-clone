@@ -1,0 +1,54 @@
+body{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.container {
+    position: relative;
+   height: 800px;
+   width: 800px;
+    background-size: cover;
+    background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+}
+.text{
+    text-align: center;
+    width: 400px;
+    
+}
+h1{
+    height: 600px;
+    color: white;
+    font-size: 4em;
+   display: flex;
+   justify-content:center;
+align-items:center
+}
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: "–";
+}
+.recipe{
+    align-items: center;
+}
+#img{
+    width: 400px;
+}
+
+.section2{
+ margin-left: 200px;
+}
+.section3{
+    margin-left: 200px;
+    width: 570px;
+   }
+   .section1{
+    margin-left: 200px;
+   }
