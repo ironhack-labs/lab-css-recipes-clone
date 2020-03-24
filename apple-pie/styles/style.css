@@ -13,7 +13,6 @@ section{
     color:white;
     font-size: 4em;
     text-align: center;
-    line-height: 375px;
     font-weight: lighter;
     }
 
@@ -27,8 +26,13 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
-    padding-top: 50px;
     position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
   }
 
  #presentation article{
