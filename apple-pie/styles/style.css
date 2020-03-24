@@ -53,22 +53,28 @@ hr {
     list-style: none;
 }
 
-.ingredients li:before {
+.ingredients ul li::before {
     content: "-";
     padding-right: 8px;
 }
 
-@counter-style bracketList {
+/*@counter-style bracket-list {
     system: extends decimal;
     suffix: ')';
-}
-
-.directions li {
-    list-style: bracketList;
-}
+}*/
 
 .directions ol {
+    list-style: none;
+    counter-reset: bracket-list;
     margin-bottom: 60px;
+}
+
+.directions ol li {
+    counter-increment: bracket-list;
+}
+
+.directions ol li::before {
+    content: counter(bracket-list) ") ";
 }
 
 
