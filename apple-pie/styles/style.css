@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    font-family: sans-serif;
+    background-image: url("images/apple-pie.jpg");
+}
+
+h2{
+    color: rgb(61, 51, 51);
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+ul{
+    margin: 20px;
+    color: rgb(61, 51, 51);
+    font-size: .8em;
+    font-family: sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+}
+ul>li:before{content:"- ";}
+
+ol{
+    margin: 20px;
+    color: rgb(61, 51, 51);
+    font-size: .8em;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+img{
+ align-items: center;
+ display:
+}
