@@ -1,9 +1,63 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Futura", sans-serif;
 }
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 0 8vh 0;
+}
+
+#imgHeading {
+  z-index: 1;
+  color: white;
+}
+
+#headImg {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+main {
+  position: relative;
+  width: 80%;
+  /* text-align: center; */
+  margin: auto;
+  /* margin-top: 50vh; */
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.subpicture {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: "– ";
+}
+
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+ol li {
+  counter-increment: item;
+}
+ol li:before {
+  content: counter(item) ")";
+}
+
+/* YOU ARE A GENIUS SEBASTIAN!  */
+
+/* :) */
