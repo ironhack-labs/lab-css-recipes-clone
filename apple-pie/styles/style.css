@@ -1,0 +1,99 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
+#header-image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-image-apples {
+    /*background-image:*/
+    object-fit: cover;
+    object-position: -15% 30%;
+    width: 700px;
+    height: 420px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 350%;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+#section1 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#section1 p{
+    text-align:center;
+    width:572px;
+    margin-top:5%;
+    font-size: 17px;
+}
+
+#recipe-info{
+    width: 20em;
+
+}
+
+hr{
+    width:660px;
+}
+
+#section2{
+    display: flex;
+    flex-direction:column;
+}
+
+#section2-h-li{
+    width:660px;
+    align-self:center;
+    margin-bottom:3%;
+}
+
+ul {
+  margin: 0;
+  padding-left:20px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+#cooking-info{
+    width: 18em;
+    align-self:center;
+}
+
+
+#section3{
+    display: flex;
+    flex-direction:column;
+
+}
+
+#section3-h-div{
+    width:660px;
+    align-self:center;
+}
+
+#directions{
+    padding-left:20px;
+}
+
+#directions p{
+    padding-bottom:0;
+}
+
