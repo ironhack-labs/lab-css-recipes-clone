@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+  size: 180%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#pie-image {
+  background-image: url("../images/apple-pie.jpg");
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+#pie-image img {
+  max-width: 70%;
+  padding-top: 2em;
+}
+ul {
+  list-style-type: "-";
+}
+
+ .little {
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 0 200px 0 200px;
+}
