@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700');
 
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto;
 }
@@ -18,7 +24,7 @@ header>h1 {
     font-size: 70px;
     color: white;
     text-align: center;
-    padding-top: 28%;
+    line-height: 600px;
 }
 
 hr {
@@ -43,6 +49,10 @@ font-size: 20px;
 
 section {
     margin: 0 20%;
+}
+
+section>h3{
+    margin: 25px 0;
 }
 
 #ingredients {
