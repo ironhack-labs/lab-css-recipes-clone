@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* General styling */
+h1{
+    font-size: 100px;
+    color: white;  
+}
+h3{
+    text-align: justify;
+}
+.apple{
+    height: 100vh; 
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cooking-info{
+    margin: 90px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cooking-recipe{
+    margin: 90px;
+    text-align: center;
+}
+.cooking-recipe ul{
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cooking-recipe li{
+    list-style-type: none;
+    text-align: justify;
+    margin-top: 5px;
+}
+.cooking-recipe img{
+
+}
+.cooking-directions{
+    margin: 90px;
+    text-align: center;
+}
+.cooking-directions ul{
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.cooking-directions li{
+    list-style-type: decimal;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+#recInfo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%; 
+    text-align: left
+
+}
