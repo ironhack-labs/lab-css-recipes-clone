@@ -1,0 +1,55 @@
+body {
+    margin: 20px 40px;
+    padding: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.header{
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    width: 1800px;
+}
+
+.header h1 {
+    font-size: 75px;
+    font-family: Ubuntu;
+    position: relative;
+    top: 320px;
+    left: 700px;
+}
+
+.introduction {
+    background-color: white;
+    padding: 40px 70px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: grey solid 5px;
+}
+
+.introduction img {
+    padding-top: 30px;
+}
+
+.ingredients {
+    background-color: white;
+    padding: 40px 70px;
+    font-size: 25px;
+    border-bottom: grey solid 5px;
+}
+
+.ingredients img {
+    position: relative;
+    left: 550px;
+}
+
+.directions {
+    background-color: white;
+    padding: 40px 70px;
+    font-size: 25px;
+    padding-bottom: 140px;
+}
