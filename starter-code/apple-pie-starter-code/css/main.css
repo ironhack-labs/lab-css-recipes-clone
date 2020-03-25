@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -18,12 +20,12 @@ h1{
 }
 
 body{
-    font-family: helvetica;
+    font-family: 'Roboto', sans-serif;
 }
 .text1{
     margin-bottom: 3%;
     font-size: 1.4em;
-    text-align: center;
+    text-align: justify;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 3%;
