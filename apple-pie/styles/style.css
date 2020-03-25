@@ -1,0 +1,42 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: gray;
+  }
+
+  body {
+      margin: 0;
+      margin-bottom: 8%;
+  }
+
+  .header {
+      width: 100%;
+      height: 650px;   
+  }
+
+  .recipeName {
+      color: white;
+      font-size: 90px;
+      font-weight: lighter;
+      position: absolute;
+      left: 37%;
+      bottom: 40%;
+  }
+
+  section {
+      margin: 5% 14% 0 14%;
+  }
+
+  .middleSection {
+      border-bottom: 3px solid gray;
+  }
+
+  .recipeSupport {
+    margin: 3% 0;  
+    position: relative;
+    left: 20%;
+  }
+
+  h3 {
+      font-size: 35px;
+  }
