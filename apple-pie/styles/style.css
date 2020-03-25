@@ -1,0 +1,87 @@
+h1, body, html, main {
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 70px;
+}
+.apple{
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.section1, .section2, .section3{
+    position: relative; 
+    width: 100%;
+}
+#recipe{
+    font-size: 28px;
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.info {
+    width: 600px;
+    position: relative;
+    left: 300px
+}
+hr{
+    width: 1000px;
+    position: absolute;
+    left: 125px;
+}
+
+
+h2{
+    font-size: 30px;
+    width: 1000px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+ul{
+    font-size: 25px;
+    width: 1000px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+.cooking{
+    width: 500px;
+    position: relative;
+    left: 350px;
+    top: 275px;
+}
+.strong{
+    top: 300px;
+    position: relative;
+
+}
+#directions{
+    top: 700px;
+    position: relative;
+    font-size: 25px;
+    width: 1000px;
+    height: 85px;
+    left: 150px;
+    top: 275px;
+    bottom: 75px;
+}
+
