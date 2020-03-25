@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 250px;
+}
+
+h1 { 
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-image: url(https://okdiario.com/img/2019/08/06/receta-de-apple-pie-655x368.jpg);
+    background-repeat: no-repeat;
+    background-position: relative;
+}
+
+.sect1{
+    font-size: 25px;
+    margin: auto 50px;
+}
+
+.sect2 {
+    margin: auto 50px;
+}
+
+.sect3 {
+    margin: auto 50px;
+}
+
+
+#imaPrep {
+    position: relative;
+    left: calc(50% - 250px);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+#imaRec {
+    position: relative;
+    left: calc(50% - 250px);
+}
+}
