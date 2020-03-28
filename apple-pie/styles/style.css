@@ -1,7 +1,7 @@
 * {
     margin-left: 0;
     margin-right: 0;
-     border: 1px solid rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 body {
@@ -23,7 +23,6 @@ body {
     font-size: 5em;
     text-align: center;
     border-top: 20vh solid rgba(0, 0, 0, 0);
-    /* margin-top: ; */
 }
 
 .margin {
