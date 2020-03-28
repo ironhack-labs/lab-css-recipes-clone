@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+
+html {
+    font-family: "Helvetica";
+    font-size: 18px;
+}
+
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    text-shadow: black;
+    font-size: 8em;
+    margin: 1em;
+}
+
+body {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+section{
+    padding: 0px 10%;
+}
+
+div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+}
+
+img {
+    height: 80px;
+}
+
+ul.dashed {
+    list-style-type: "- ";
+    
+  }
