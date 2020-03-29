@@ -7,3 +7,94 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.mainImg {
+  height:100vh;
+  width:auto;
+  background-image: url("../images/soup.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  color:white;
+}
+
+img {
+  width:50%;
+  height:auto;
+  margin-top:3.5%;
+}
+
+h1 {
+  text-align:center;
+  line-height:100vh;
+  font-size:5vw;
+}
+
+h2 {
+  font-size:1.3vw;
+  font-weight: 550;
+  line-height:2em;
+  color:black;
+  padding-bottom:0.5%;
+}
+
+section {
+  width:65%;
+  margin:0 auto;
+  padding-bottom:5%;
+}
+
+#resume {
+  text-align:center;
+}
+
+p {
+  text-align:center;
+}
+
+.p {
+  font-size:1.2vw;
+  line-height:1.5em;
+  padding-top:5%;
+  text-align:left;
+}
+
+hr {
+  color:rgb(154, 154, 154);
+  font-size:1em;
+  background-color: rgb(154, 154, 154);
+  margin-bottom:5%;
+  margin-top:1.5%;
+  height:0;
+  padding:0;
+}
+
+#ingredients {
+  padding-bottom:1%;
+}
+
+ul, ol {
+  padding-bottom:1.5%;
+  list-style-type:none;
+}
+
+li {
+  line-height:1.5em;
+  font-size:1.2vw;
+  position: relative;
+  left: -35px;
+}
+
+ul li:before {
+  content:"- ";
+}
+
+ol {
+  counter-reset:number;
+}
+
+ol li:before {
+  content: counter(number) ") ";
+  counter-increment: number;
+}
+
