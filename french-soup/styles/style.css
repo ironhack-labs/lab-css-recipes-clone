@@ -4,6 +4,102 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: normal;
+  font-size: 90px;
+}
+
+#background {
+  background-image: url(../../apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  width: 580px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: 50px 0px 0px;
+}
+
+#general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;      
+  height: auto;
+  
+}
+
+.recipe-info, .cooking-info {
+  width: 300px;
+  margin: 30px 0px 10px;
+}
+
+/* line 44 and 45 only worked when I put this information on both img and div */
+.div-cooking-info {
+  display: flex;
+  justify-content: center;
+}
+
+.cooking-info {  
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 580px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin: 30px 10px 10px;
+  padding: 10px 160px 10px;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.dashed > li {
+    margin-left: 170px;  
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "-";
+    margin-left: -15px;
+}
+
+#directions {
+  display: flex;
+  flex-direction: column;
+}
+
+#directions div {
+  margin-left: 140px;
 }
