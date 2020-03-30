@@ -1,0 +1,45 @@
+.backgroundimg {
+   background-image: url(../images/apple-pie.jpg); 
+   height: 800px;
+
+
+}
+
+.title  {
+    color: white;
+    text-align: center;
+    line-height: 800px;
+    font-family: Verdana ;
+    font-weight: 100;
+    font-size: 70px;
+}
+
+header p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.cooking {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.recipe {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.div1 {
+    border-bottom-style: solid;
+    border-width: 2px;
+    width: 1500px;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+}
+
+
