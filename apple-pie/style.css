@@ -21,11 +21,11 @@ h1 {
 }
 
 .intro {
-    margin: 50px 5px;
+    margin: 50px 35px;
 }
 
 .main-section {
-    color: rgb(50, 50, 50);
+    color: rgb(40, 40, 40);
     font-weight: lighter;
 }
 
@@ -39,4 +39,10 @@ h1 {
     list-style-type: none;
     margin-left: -20px;
     
+}
+
+.cooking-info {
+    height: 60px;
+    position: relative;
+    margin: 10px 100px;
 }
