@@ -41,8 +41,20 @@ h1 {
     
 }
 
-.cooking-info {
+.recipe-info {
     height: 60px;
     position: relative;
-    margin: 10px 100px;
+    margin: 10px 150px;
+    padding-left: 50px;
+}
+
+.cooking-info {
+    height: 70px;
+    position: relative;
+    margin: 10px 200px;
+    padding-left: 20px;
+}
+
+.second-section {
+    margin: 50px 35px;
 }
