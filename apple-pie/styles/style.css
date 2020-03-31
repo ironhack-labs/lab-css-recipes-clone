@@ -1,0 +1,54 @@
+@import url(//db.onlinewebfonts.com/c/89ae54dce639c81879ada39d63f8d238?family=CoreSansGW01-35Light);
+@font-face {font-family: "CoreSansGW01-35Light"; src: url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.eot"); src: url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.woff") format("woff"), url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/89ae54dce639c81879ada39d63f8d238.svg#CoreSansGW01-35Light") format("svg"); }
+
+* {
+    max-width: 580px;
+    margin: 0 auto;
+    font-family: CoreSansGW01-35Light;
+    font-weight: 150%;
+}
+
+hr { 
+    margin: 0px 10%;
+}
+
+#apple-pie {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    height: 350px; /* TODO: Adjust?? */
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: white;
+    align-self: center;
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 120%;
+    margin: 5px 0 10px 0;
+}
+
+p, ul, ol {
+    font-size: 80%;
+    font-weight: 500;
+    align-self: flex-start;
+    margin: 0;
+}
+
+section {
+    padding: 0px 10%; /* TODO: Adjust?? */
+    margin: 15px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    align-self: center;
+    object-fit: cover;
+    height: 40px;
+    margin: 10px auto;
+}
