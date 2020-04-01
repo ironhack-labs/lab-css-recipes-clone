@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(/fonts/Roboto-Medium);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: white;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-image {
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+.container-image img {
+  width: 90%;
+  height: 600px;
+}
+
+.container-image h1 {
+  font-size: 85px;
+  font-style: italic;
+  font-weight: 400;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recepie-intro {
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.cooking-info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 20%;
+}
+
+.cooking-info hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid grey;
+  width: 90%;
+  margin-bottom: 3%;
+  opacity: 50%;
+}
+
+.igredients-list h5 {
+  margin-left: 5%;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.igredients-list li {
+  margin-left: 6%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1%;
+  list-style-type: none;
+}
+
+.igredients-list hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-top: 3px solid grey;
+  width: 90%;
+  margin-bottom: 3%;
+  opacity: 50%;
+}
+
+.igredients-list img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+  width: 20%;
+}
+
+.preparation-list h5 {
+  margin-left: 5%;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.preparation-list li {
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 20px;
+  font-weight: 300;
+}
