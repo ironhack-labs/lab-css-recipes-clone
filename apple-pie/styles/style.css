@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*STYLES*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1;
+}
+
+/* HEADER */
+
+ .bkgimg {
+    background-image: url("./../images/apple-pie.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 70px;
+	padding-top: 200px;
+	padding-bottom: 200PX;
+	padding-right: 200px;
+	padding-left: 200px;
+	margin-top: 50px;
+	/*display: flex;*/
+}
+
+h1 {
+    color: white;
+	text-align: center;
+	font-size: 62px;
+}
+
+.titulo {
+	font-size: 19px;
+	color: black;
+	font-weight: 800px;
+	text-indent: -5px;
+}
+
+
+
+#presentation {
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#recipe {
+	padding-top: 20px;
+	width: 370px;
+	height: 60px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+
+/* INGREDIENTS */
+#ingredients {
+	text-align: left;
+	padding: 30px 200px 45px;
+	line-height: 20px;
+
+}
+
+#cooking {
+	padding-top: 45px;
+	padding-left: 360px;
+	padding-right: 500px;
+	width: 300px;
+	height: 70px;
+}
+
+
+/*DIRECTIONS*/
+
+#directions {
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 70px;
+	line-height: 20px;
+}
+
+
+
+
+
+
