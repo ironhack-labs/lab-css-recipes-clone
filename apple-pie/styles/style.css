@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* OUR CODE BELOW */
+/*
+header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 150%;
+  width: 90%;
+  text-align: center;
+  position: center;
+  //background-size: 300px 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+*/
+main {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-color: salmon;
+  background-position: center;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  height: 1000px;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: ;
+  padding-top: 330px;
+}
+
+section {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.triche {
+  margin-top: -280px;
+  background-color: white;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+}
+
+#cooking-info {
+  width: 35%;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+ul li:before {
+  content: "- ";
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+  line-height: 25px;
+  font-weight: lighter;
+}
