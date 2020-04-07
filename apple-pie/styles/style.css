@@ -1,0 +1,31 @@
+
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    position:absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 40%;
+    left:50%;
+    position: absolute;
+}
+p{
+    color:black;
+   font-size: 18px;
+    text-align: center;
+}
+.ingredients{
+    font-size: 18px;
+    margin-left: 275px;
+}
+.directions{
+    font-size: 18px;
+    margin-left: 275px;
+}
+.center{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
