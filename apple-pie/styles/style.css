@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apple-pies {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    color:  white;
+    margin-left: 220px;
+    margin-right: 200px;
+}
+
+.apple-pies h1 {
+    padding-top: 200px;
+    font-size: 55px;
+    width: 800px;
+}
+
+p {
+    text-align: center;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+h2 {
+    margin-left: 220px;
+    padding-top: 20px;
+}
+
+.list-ingredients {
+    margin-left: 230px;
+}
+
+.list-directions {
+    margin-left: 230px;
+    padding-right: 230px;
+    text-align: justify
+    ;
+}
