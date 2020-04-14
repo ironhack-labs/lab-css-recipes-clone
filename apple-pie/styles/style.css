@@ -1,7 +1,6 @@
 body {
-    padding: 200px;
+    padding: 150px;
     font-family: sans-serif;
-    width: 75%;
 }
 
 h1 {
@@ -10,14 +9,9 @@ h1 {
   }
 
 img {
-    justify-content: center;
-    width: 400px;
+    background-size: cover;
+    width: 100%;
   }
-
-  .header {
-    background: url("/images/apple-pie.jpg")
-    background-display: cover;
-}
 
   .center {
     display: block;
