@@ -1,0 +1,38 @@
+html * {
+    font-family: Arial;
+}
+
+.topBackground {
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-image: url('/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.topBackground h1 {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: normal;
+}
+
+.secondTitle {
+    text-align: center;
+}
+
+.secondTitle h2 {
+    font-size: 30px;
+    color: grey;
+    font-weight: normal;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.hr {
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
