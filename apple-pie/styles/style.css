@@ -1,0 +1,32 @@
+    body {
+        padding: 30px;
+    }
+    
+    .main {
+        background-image: url(/apple-pie/images/apple-pie.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        color: #FFF;
+        font-size: 60px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-paragraph {
+        padding: 10px 220px 20px;
+        text-align: center;
+    }
+    
+    .cooking-info {}
+    
+    s .steps li,
+    .ingredients-list li {
+        list-style: none;
+    }
