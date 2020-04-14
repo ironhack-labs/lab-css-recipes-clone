@@ -1,5 +1,5 @@
 html * {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topBackground {
@@ -17,7 +17,7 @@ html * {
     font-weight: normal;
 }
 
-.secondTitle {
+.recipe-image {
     text-align: center;
 }
 
@@ -34,5 +34,41 @@ html * {
 
 .hr {
     margin: 20px auto 30px auto;
-    width: 40%;
+    width: 70%;
+}
+
+.cooking-image {
+    text-align: center;
+}
+
+.recipe {
+    padding-left: 200px;
+    padding-right: 200px;
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.recipe h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.recipe ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+
+/*Searched how to put a dash and a parenthesis on lists*/
+
+ul li:before {
+    content: "–";
+    position: absolute;
+    margin-left: -1em;
+}
+
+ol>li:before {
+    content: ") ";
 }
