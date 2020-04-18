@@ -1,16 +1,19 @@
 body {
     padding: 150px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  max-width: 100%;
 }
 
 h1 {
       font-size: 72px;
+      margin: 0;
+      font-weight: lighter;
       text-align: center;
-  }
-
-img {
-    background-size: cover;
-    width: 100%;
   }
 
   .center {
