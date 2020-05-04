@@ -1,0 +1,50 @@
+html {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: rgb(39, 29, 29);
+  }
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    padding-top: 300px;
+}
+
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    position: relative;
+    repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 75px;
+}
+
+.instructions {
+    width: 350px;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+.steps {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.unorderlist {
+    list-style-type: '- ';
+}
+
+.orderlist {
+    list-style-type: ;
+}
+
+hr {
+    margin-right: 10%;
+}
