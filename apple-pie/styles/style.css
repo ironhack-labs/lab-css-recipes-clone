@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    color: #0E0F0E;
+}
+
+h1,
+h2,
+h3,
+hr {
+    margin: 1rem 0;
+}
+
+p.lead {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+ul>li:before {
+    content: "-";
+    margin-right: 5px;
+}
+
+ol>li {
+    counter-increment: step-counter;
+}
+
+ol>li:before {
+    content: counter(step-counter)')';
+    margin-right: 5px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+}
+
+.hero-section h1 {
+    display: block;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 568px) {
+    .hero-section h1 {
+        font-size: 3.5rem;
+    }
+    .container {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-section h1 {
+        font-size: 5rem;
+    }
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-section h1 {
+        font-size: 7rem;
+    }
+    .container {
+        max-width: 1170px;
+    }
+}
