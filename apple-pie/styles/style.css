@@ -1,0 +1,70 @@
+@page { 
+	size: portrait;
+}
+
+header {
+    background-color: #000000;
+    background-image: url("../images/apple-pie.jpg");
+    position = 100% 100%;	
+    background-repeat:  no-repeat;
+    height: 700px;
+	background-size: cover;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*
+*/
+
+#title {
+	position: absolute; 
+    margin: 0 auto;
+    left: 0;
+	right: 0;       
+	top: 35%;
+    text-align: center;
+    width: 35%;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+	font-size: 600%;
+	font-weight: 400;
+		
+}
+
+.line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid #343434;;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 70px 150px 30px;
+	text-align: center;
+	color: #343434;
+	font-size: 20px ;
+
+}
+
+.info {
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   ;
+}
+
+
+.listSection {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 70px 150px 30px;
+	text-align: left;
+	color: #343434;
+	font-size: 20px ;
+}
+
+footer {
+	margin-top: 50px;
+}
