@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    padding: 0 5vw 40px 5vw ;
+    padding: 0 5vw 40px 5vw;
 }
 
 h1 {
@@ -38,6 +38,7 @@ ol {
     text-align: center;
     padding-bottom: 20px;
 }
+
 
 .icons-cooking {
     text-align: center;
