@@ -29,17 +29,16 @@ h1 {
 
 .top-recipe {
     text-align: center;
-    padding: 60px 500px;
+    padding: 50px 300px;
 }
 
 .top-recipe p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
 
 .top-recipe img {
     text-align: center;
-    padding: 20px;
 }
 
 .ingredients {
@@ -49,11 +48,8 @@ h1 {
 
 .ingredients ul li{
     color: rgb(43, 42, 42);
-    line-height: 30px;
+    line-height: 25px;
     list-style: none;
-    font-size: 22px;
+    font-size: 18px;
 }
 
-.ingredients h2 {
-    padding-bottom: 15px;
-}
