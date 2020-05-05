@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Heebo:wght@300&family=Hind:wght@300&display=swap');
+
+* {
+    font-family: "Hind", "sans-serif";
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+#header {
+    font-size: 4.5em;
+    text-align: center;
+    line-height: 510px;
+    background: url("../images/apple-pie.jpg");
+    background-size: 100% auto ;
+    background-position: center 30%;
+    color: white;
+}
+
+main {
+    margin: 50px;
+}
+
+.introduction {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.recipe-info-image-holder,
+.cooking-info-image-holder {
+    text-align: center;
+}
+
+.recipe-info-image-holder > img {
+    height: 70px;
+}
+
+.cooking-info-image-holder > img {
+    height: 100px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: black;
+}
+
+ul {
+    font-weight: 600;
+    color: black;
+    margin-bottom: 50px;
+    list-style-position: inside;
+    list-style-type: "- ";
+    padding-inline-start: 5px;
+}
+
+li {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+ol {
+    counter-reset: list;
+    padding-inline-start: 15px;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
