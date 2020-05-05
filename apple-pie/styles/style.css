@@ -25,14 +25,14 @@ h3 {
 }
 
 hr {
-    margin: 0 10% 40px;
+    margin: 0 10% 20px;
     width: 80%;
 }
 
 #general {
     width: 80%;
     padding: 0 10%;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #general img {
@@ -50,7 +50,7 @@ hr {
 }
 
 #ingredients ul {
-    font-size: 26px;
+    font-size: 24px;
     list-style: none;
 }
 
@@ -79,5 +79,5 @@ ol > li::before {
     margin: 0 10%;
     align-items: center;
     padding: 20px;
-    font-size: 26px;
+    font-size: 24px;
 }
