@@ -14,6 +14,7 @@ body {
   color: #474747;
   line-height: 1.5;
   padding-bottom: 60px;
+  counter-reset: directions-counter;
 }
 
 h1 {
@@ -28,8 +29,18 @@ h4 {
   font-size: 30px;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol li:before {
+  counter-increment: directions-counter;
+  content: counter(directions-counter) ") ";
 }
 
 img {
