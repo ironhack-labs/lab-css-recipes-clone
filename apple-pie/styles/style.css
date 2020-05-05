@@ -3,6 +3,7 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
+    counter-reset:cooking-counter;
   }
 /*Import the font and set the default size*/
 html {
@@ -51,5 +52,14 @@ h1 {
     line-height: 25px;
     list-style: none;
     font-size: 18px;
+}
+
+ol li {
+    list-style: none;
+}
+
+ol > li:before {
+    counter-increment: cooking-counter;
+    content:  counter(cooking-counter) ") ";
 }
 
