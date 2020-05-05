@@ -1,9 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px
 }
+
+body {
+  counter-reset: cooking-counter;
+}
+
+header {
+    background-image: url(../images/soup.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 400px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+hr {
+    margin: 0 10% 20px;
+    width: 80%;
+}
+
+#general {
+    width: 80%;
+    padding: 0 10%;
+    font-size: 28px;
+}
+
+#general img {
+    height: 100px;
+    text-align: center;
+}
+
+#cooking {
+    text-align: center;
+}
+
+#ingredients {
+    margin: 0 10%;
+    padding: 20px;
+}
+
+#ingredients ul {
+    font-size: 24px;
+    list-style: none;
+}
+
+#ingredients ul > li::before {
+    content: "- ";
+}
+
+#recipe {
+    text-align: center;
+}
+
+#recipe img {
+    height: 75px;
+}
+
+ol {
+    list-style: none;
+}
+
+ol > li::before {
+    counter-increment: cooking-counter;
+    content:  counter(cooking-counter) ") ";
+}
+
+#directions {
+    margin: 0 10%;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
