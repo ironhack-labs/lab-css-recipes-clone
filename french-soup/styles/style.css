@@ -1,9 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
-}
+    margin: 0;
+    counter-reset:cooking-counter;
+  }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-recipe {
+    text-align: center;
+    padding: 50px 300px;
+}
+
+.top-recipe p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.top-recipe img {
+    text-align: center;
+}
+
+.ingredients {
+    text-align: left;
+    padding: 20px 0px;
+} 
+
+.ingredients ul li{
+    color: rgb(43, 42, 42);
+    line-height: 25px;
+    list-style: none;
+    font-size: 18px;
+}
+
+ol li {
+    list-style: none;
+}
+
+ol > li:before {
+    counter-increment: cooking-counter;
+    content:  counter(cooking-counter) ") ";
 }
