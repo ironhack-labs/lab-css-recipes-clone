@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+/*Import the font and set the default size*/
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-recipe {
+    text-align: center;
+    padding: 60px 500px;
+}
+
+.top-recipe p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.top-recipe img {
+    text-align: center;
+    padding: 20px;
+}
+
+.ingredients {
+    text-align: left;
+    padding: 20px 0px;
+} 
+
+.ingredients ul li{
+    color: rgb(43, 42, 42);
+    line-height: 30px;
+    list-style: none;
+    font-size: 22px;
+}
+
+.ingredients h2 {
+    padding-bottom: 15px;
+}
