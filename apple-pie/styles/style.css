@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding: 0px;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#underPic{
+    margin:60px 60px 60px 60px;
+}
+
+#picApple {
+ 
+    background-image: url(../images/apple-pie.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+   margin: 0 20px;
+    background-position: center; 
+    }
+
+#picApple p{
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        }
+
+img {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+
+/* ------------------- Ingredients */
+
+.listIngredients{
+    list-style: none;
+}
+
+.listIngredients li:before {
+    content: '- ';
+ }
+
+/*--------------- direction */
+
+.direction  {
+    list-style-type: decimal;
+}
