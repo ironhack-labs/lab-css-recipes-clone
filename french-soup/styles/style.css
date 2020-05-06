@@ -7,9 +7,9 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 1.2;
+  font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
 }
 
 body{
@@ -40,20 +40,23 @@ h3{
   justify-content: center;
 }
 
-.content{
-  margin: 4em;
+.container{
+  width: 60%;
+  margin: auto;
 }
+section{
+  margin:3em 0 1em;
+}
+
 
 #image-info{
   width: 50%;
-  
-
 }
+
 #image-info-cooking, #image-info{
   display: block;
   margin: auto;
   margin-top: 2em;
-
 }
 
 #image-info-cooking{
