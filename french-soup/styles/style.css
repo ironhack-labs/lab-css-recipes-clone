@@ -1,9 +1,106 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  padding: 0;
+  margin: 0;
+  font-family: "raleway";
+  color: rgb(54, 54, 54);
+}
+
+li {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+/*Header Style*/
+
+header{
+  height: 50em;
+  width: 100%;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .recipe {
+  color: white;
+  font-size: 5em;
+}
+
+
+/*Introduction Style*/
+
+.introduction {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid grey; 
+  padding-bottom: 40px;   
+  margin: 50px auto;
+}
+
+.introduction h2{
+  font-weight: 400;
+  text-align: justify;
+}
+
+.introduction img {
+  width: 50%;
+}
+
+/*Ingredients Style*/
+
+.ingredients {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 2px solid grey;
+  padding-bottom: 30px;   
+  margin: 50px auto;
+}
+
+.ingredients ul {
+  list-style-type: "- ";
+}
+
+.ingredients img {
+  margin: 20px auto;
+  width: 50%;
+  height: 50%;
+}
+
+/*Instruction Style*/
+
+.instruction {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 40px;   
+  margin: 50px auto;
+}
+
+.instruction ol {
+  counter-reset: list;
+}
+.instruction ol > li {
+  list-style: none;
+}
+.instruction ol > li:before {
+  content: counter(list) ")  ";
+  counter-increment: list;
 }
