@@ -14,17 +14,22 @@
     color: white;
   }
 
-  section{
+  .container{
       margin: 1% 20% 1% 20%;
       font-family: 'Arial';
       font-weight: 100;
-      padding: 10px;
-      border-bottom: .5px solid;
+      
   }
 
-  section h2{
+  .container div {
+    padding: 10px;
+    border-bottom: .5px solid;
+  }
+
+  .container div h2{
     margin-bottom: 50px;  
   }
+
 
 
   .header {
@@ -66,8 +71,8 @@
     margin-top: 50px;
   }
 
-  .directions {
-    border-bottom: 1000px;
+  #directions {
+    border-bottom: 0px;
   }
 
 
