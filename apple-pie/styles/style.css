@@ -1,0 +1,32 @@
+.all {
+    width: 1000px;
+    margin: 20px 150px;
+}
+.top img {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+h1 {
+    position: relative;
+    left: 320px;
+    bottom: 400px;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 8px;
+    word-spacing: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ingr img {
+    width: 300px;
+    margin-left: 300px;
+}
+.intro img {
+    width: 300px;
+    margin-left: 300px;
+}
+.else {
+    margin: 0px 25px;
+}
+
+
