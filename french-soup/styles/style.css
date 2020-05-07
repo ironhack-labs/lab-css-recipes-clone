@@ -1,9 +1,91 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+* {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 700px;
+  background-image: url("/home/ubuntu15/Ironhack/labs/lab-css-recipes-clone/french-soup/images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  color: white;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 50px 0;
+  font-weight: 300;
+}
+
+
+.container {
+  width: 80%;
+}
+
+img {
+  display: flex;
+  align-items: center;
+}
+
+#info {
+  height: auto;
+  width: 42%;
+  margin: 50px auto;
+}
+
+#time {
+  height: auto;
+  width: 35%;
+  margin: 40px auto;
+}
+
+
+p {
+  font-size: 1.9em;
+  text-align: justify;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  color: rgb(24, 23, 23);
+  line-height: 1.2em;
+}
+
+section p {
+  margin-top: 90px;
+  font-size: 1.65em;
+  color: rgb(90, 89, 89);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 2.5em;
+  color: rgb(24, 23, 23);
+  line-height: 0.65em;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  font-size: 3em;
+  color: rgb(24, 23, 23);
+  line-height: 0.8em;
+  margin-bottom: 80px;
 }

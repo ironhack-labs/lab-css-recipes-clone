@@ -1,5 +1,6 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -8,6 +9,7 @@ header {
     height: 700px;
     background-image: url("/home/ubuntu15/Ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +21,15 @@ h1 {
     font-size: 64px;
 }
 
-h2{
+h2 {
     font-size: 2.3em;
     margin: 50px 0;
     font-weight: 300;
 }
 
+
 .container {
-    width: 80%;    
+    width: 80%;
 }
 
 img {
@@ -34,15 +37,16 @@ img {
     align-items: center;
 }
 
-#info{
+#info {
     height: auto;
     width: 42%;
-    margin-bottom: 30px;
+    margin: 50px auto;
 }
 
 #time {
     height: auto;
     width: 35%;
+    margin: 40px auto;
 }
 
 
@@ -57,13 +61,16 @@ main p {
 ul {
     list-style: none;
     padding: 0;
-    font-size: 1.7em;
+    font-size: 2.5em;
     color: rgb(24, 23, 23);
+    line-height: 0.65em;
 }
 
 ol {
     list-style: none;
     padding: 0;
-    font-size: 1.7em;
+    font-size: 3em;
     color: rgb(24, 23, 23);
+    line-height: 0.8em;
+    margin-bottom: 80px;
 }
