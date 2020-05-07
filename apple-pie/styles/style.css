@@ -1,9 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+
 /*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
   }
   /*Import the font and set the default size*/
   html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px
   }
+
+body {
+    counter-reset: cooking-counter;
+}
+/*-----------HEADER------------*/
+ 
+
+#introduction h1 {
+    padding-bottom: 700px;
+    color: white;
+    text-align: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 100%;
+}
+
+.container-introduction {
+    width: 640px;
+    height: 100px;
+    padding: 60px 400px 80px 400px;
+    border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
+}
+
+.container-introduction img {
+    display: block;
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/*-----------INGREDIENTS------------*/
+
+
+#ingredients {
+    padding-bottom: 300px;
+}
+
+#ingredients ul {
+    list-style: none;
+}
+
+.container-ingredients {
+    width: 640px;
+    height: 100px;
+    padding: 60px 400px 80px 400px;
+    border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
+}
+
+.container-ingredients img {
+    display: block;
+    width: 60%;
+    height: auto;
+    padding-left: 120px;
+    padding-right: 80px;
+}
+
+
+/*-----------STEPS------------*/
+
+#steps {
+    width: 640px;
+    height: 100px;
+    padding: 60px 400px 80px 400px;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    counter-increment: cooking-counter;
+    content:  counter(cooking-counter) ") ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#recipe-name {
+
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 100%;
+    color: white;
+    height: 650px;
+    display: flex;
+
+}
+*/
