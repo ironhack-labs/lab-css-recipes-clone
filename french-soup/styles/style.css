@@ -1,9 +1,110 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position-y: 20%;
+  width: 100%;
+  height: 60vw;
+  font-size: 10vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.history{
+  display: flex;
+  width: 80%;
+  text-align: justify;
+  font-size: 2vw;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 80%;
+}
+
+.ingredients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  width: 80%;
+  font-size: 2vw;
+  padding-top: 5vw;
+  border-top: 2px solid gray;
+  font-weight: bold;
+}
+
+.direction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul, ol{
+  width: 80%;
+  font-size: 1.8vw;
+  list-style-type: none;
+}
+
+ol {
+  counter-reset: list-item;
+}
+
+li{
+  line-height: 1.45em;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol > li::before {
+  content: counter(list-item) ") ";
+}
+
+@media (max-width: 600px) {
+  h1{
+      height: 360px;
+      font-size: 60px;
+  }
+
+  .history, h2 {
+    font-size: 12px;
+  }
+
+  h2 {
+      padding-top: 30px;
+  }
+
+  li {
+      font-size: 10.8px;
+    }
+}
+
