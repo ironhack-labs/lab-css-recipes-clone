@@ -1,0 +1,120 @@
+/* +++++++++++++++++++++++RESET STYLES+++++++++++++++++++++++++++++++++++++ */
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 3%;;
+    
+}
+#banner{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#heading{
+    position: relative;
+    font-size: 8rem;
+    color: white;
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    
+}
+#container2 .box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    }
+
+#description{
+    align-content: center;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 75%;
+    margin: 5% 0 5% 0;
+  
+}
+ 
+hr{
+    width: 70%;
+    border: black solid 1px;
+}
+#container3{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+#container3 .box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    margin-left: 12%;
+}
+#container3 .box h2{
+    font-size: 2.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2% 0 1% 14%;
+}
+
+#container3 .box ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0.9% 0 0 10%;
+}
+#container3 .box img{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+
+
