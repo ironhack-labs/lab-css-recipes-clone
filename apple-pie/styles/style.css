@@ -1,13 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=Raleway)
 
 /*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
+
   }
-  /*Import the font and set the default size*/
-  html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px
+/*Import the font and set the default size*/
+
+html {
+    font-family: Raleway;
+    font-size: 25px;
   }
 
 body {
@@ -17,17 +19,20 @@ body {
  
 
 #introduction h1 {
-    padding-bottom: 700px;
+    padding-bottom: 1px;
+    margin-top: -100px;
     color: white;
     text-align: center;
     background-image: url(../images/apple-pie.jpg);
     background-size: 100%;
+    font-size: 100px;
+    line-height: 950px;
 }
 
 .container-introduction {
-    width: 640px;
+    width: 800px;
     height: 100px;
-    padding: 60px 400px 80px 400px;
+    padding: 0px 350px 150px 350px;
     border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
 }
 
@@ -42,9 +47,8 @@ body {
 
 /*-----------INGREDIENTS------------*/
 
-
 #ingredients {
-    padding-bottom: 300px;
+    padding-bottom: 500px;
 }
 
 #ingredients ul {
@@ -52,9 +56,9 @@ body {
 }
 
 .container-ingredients {
-    width: 640px;
-    height: 100px;
-    padding: 60px 400px 80px 400px;
+    width: 800px;
+    height: 0px;
+    padding: 0px 350px 150px 350px;
     border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
 }
 
@@ -69,10 +73,11 @@ body {
 
 /*-----------STEPS------------*/
 
+
 #steps {
-    width: 640px;
+    width: 950px;
     height: 100px;
-    padding: 60px 400px 80px 400px;
+    padding: 0px 350px 150px 350px;
 }
 
 ol > li {
@@ -83,50 +88,3 @@ ol > li:before {
     counter-increment: cooking-counter;
     content:  counter(cooking-counter) ") ";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-#recipe-name {
-
-    background-image: url(../images/apple-pie.jpg);
-    background-size: 100%;
-    color: white;
-    height: 650px;
-    display: flex;
-
-}
-*/
