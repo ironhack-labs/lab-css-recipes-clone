@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html {
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-image{
+    max-width: 100%;
+    max-height: auto;
+}
+
+h1 {
+    position: absolute;
+    margin: auto;
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 7.5%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-introduction{
+    margin-bottom: 5%;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid darkgrey;
+}
+
+.ingredients {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.recipe-stats {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.roadmap{
+
+}
