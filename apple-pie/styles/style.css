@@ -1,0 +1,69 @@
+html { 
+ margin: 0;
+ padding: 0;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 18px
+}
+body { 
+    margin: 0;
+    padding: 0;
+   }
+   p {
+    margin:0;
+    padding:0;
+}
+.theApple {
+    display: flex;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+.theApple p {
+    font-size: 80px;
+    color :white;
+}
+.container {
+    display: flex;
+	flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.container img {
+    height: 100px;
+    width: 450px;
+    margin-top: 5%;
+}
+.container article {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.container ul {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.container ol {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.container h2 {
+    font-size: 30px;
+    font-weight: lighter;
+} 
+hr {
+    display: block;
+    border-style: inset;
+    border-color: darkgrey;
+    width: 100%;
+    border-width: 1px;
+}
+
+
+
+
