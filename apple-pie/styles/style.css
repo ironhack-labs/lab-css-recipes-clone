@@ -83,6 +83,7 @@ h2 {
 .directions-list {
   padding-bottom: 40px;
 }
+
 .directions-list li {
   padding-left: 5px;
   line-height: 1.5;
@@ -90,12 +91,14 @@ h2 {
 }
 
 .directions-list {
-    counter-reset: list;
+  counter-reset: list;
 }
-.directions-list > li {
-    list-style: none;
+
+.directions-list>li {
+  list-style: none;
 }
-.directions-list > li:before {
-    content: counter(list) ") ";
-    counter-increment: list;
+
+.directions-list>li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
