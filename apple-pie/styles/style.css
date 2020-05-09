@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,19 +7,29 @@
 }
 
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 
 h2 {
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: 500;
 }
+
+.text-title {
+  padding-bottom: 30px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -26,10 +38,13 @@ h2 {
 
 .title {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: 1.5;
+  font-weight: 500;
   margin: 0 auto;
-    
+
 }
+
 .main-header {
   background-image: url('../images/apple-pie.jpg');
   background-size: cover;
@@ -38,6 +53,10 @@ h2 {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.recipe-intro {
+  padding-top: 60px;
 }
 
 .recipe-info {
@@ -53,8 +72,30 @@ h2 {
 
 .steps-list {
   list-style-type: "-";
+  padding-bottom: 40px;
 }
 
 .steps-list li {
   padding-left: 5px;
+  line-height: 1.5;
+}
+
+.directions-list {
+  padding-bottom: 40px;
+}
+.directions-list li {
+  padding-left: 5px;
+  line-height: 1.5;
+
+}
+
+.directions-list {
+    counter-reset: list;
+}
+.directions-list > li {
+    list-style: none;
+}
+.directions-list > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
