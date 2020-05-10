@@ -1,9 +1,86 @@
-/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+    margin: 0;
+
+  }
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: Montserrat;
+    font-size: 19px;
+  }
+
+body {
+    counter-reset: cooking-counter;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.border {
+    text-decoration: underline;
+}
+
+/*-----------HEADER------------*/
+ 
+
+#introduction h1 {
+    padding-bottom: 1px;
+    color: white;
+    text-align: center;
+    background-image: url(../images/soup.jpg);
+    background-size: 100%;
+    font-size: 100px;
+    line-height: 950px;
+}
+
+.container-introduction {
+    padding: 50px 350px 25px 350px;
+    border-bottom: 2px solid  #929292;
+}
+
+.container-introduction img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/*-----------INGREDIENTS------------*/
+
+#ingredients ul {
+    list-style: none;
+}
+
+.container-ingredients {
+    padding: 0px 350px 25px 350px;
+}
+
+.container-ingredients img {
+    display: block;
+    width: 60%;
+    height: auto;
+    padding-left: 120px;
+    padding-right: 80px;
+}
+
+
+/*-----------STEPS------------*/
+
+
+#steps {
+    padding: 0px 350px 0px 350px;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    counter-increment: cooking-counter;
+    content:  counter(cooking-counter) ") ";
 }
