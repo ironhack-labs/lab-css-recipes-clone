@@ -1,26 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway)
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
 
   }
-/*Import the font and set the default size*/
 
 html {
-    font-family: Raleway;
-    font-size: 25px;
+    font-family: Montserrat;
+    font-size: 19px;
   }
 
 body {
     counter-reset: cooking-counter;
+    margin: 0;
 }
+
+h3 {
+    font-weight: bold;
+}
+
+.border {
+    text-decoration: underline;
+}
+
 /*-----------HEADER------------*/
  
 
 #introduction h1 {
     padding-bottom: 1px;
-    margin-top: -100px;
     color: white;
     text-align: center;
     background-image: url(../images/apple-pie.jpg);
@@ -30,10 +37,8 @@ body {
 }
 
 .container-introduction {
-    width: 800px;
-    height: 100px;
-    padding: 0px 350px 150px 350px;
-    border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
+    padding: 50px 350px 25px 350px;
+    border-bottom: 2px solid  #929292;
 }
 
 .container-introduction img {
@@ -47,19 +52,12 @@ body {
 
 /*-----------INGREDIENTS------------*/
 
-#ingredients {
-    padding-bottom: 500px;
-}
-
 #ingredients ul {
     list-style: none;
 }
 
 .container-ingredients {
-    width: 800px;
-    height: 0px;
-    padding: 0px 350px 150px 350px;
-    border-bottom: 2px solid #8A8A8A; /*No entiendo por qué no se ajusta al width del container*/
+    padding: 0px 350px 25px 350px;
 }
 
 .container-ingredients img {
@@ -75,9 +73,7 @@ body {
 
 
 #steps {
-    width: 950px;
-    height: 100px;
-    padding: 0px 350px 150px 350px;
+    padding: 0px 350px 0px 350px;
 }
 
 ol > li {
