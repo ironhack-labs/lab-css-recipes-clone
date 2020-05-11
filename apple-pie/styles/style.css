@@ -21,7 +21,7 @@ header {
     margin: 0 auto;
     left: 0;
 	right: 0;       
-	top: 35%;
+	line-height: 700px;
     text-align: center;
     width: 35%;
 	color: white;
@@ -52,7 +52,8 @@ p {
    margin-top: 50px;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   width: 35%;
+
    ;
 }
 
@@ -63,7 +64,31 @@ p {
 	text-align: left;
 	color: #343434;
 	font-size: 20px ;
+	
 }
+
+.listSection2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 70px 150px 30px;
+	text-align: left;
+	color: #343434;
+	font-size: 20px ;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.listSection li:before {
+	content: "- "
+}
+
+
+ol {
+	list-style-type: none;
+}
+
 
 footer {
 	margin-top: 50px;
