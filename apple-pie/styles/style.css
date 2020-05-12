@@ -115,6 +115,30 @@ hr{
     flex: 0 1 auto;
     align-self: auto;
 }
+#container4 .box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+#container4 .box h2{
+    font-size: 2.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5% 0 3% 3%;
+}
+#container4 .box ol{
+    margin-left: 2%;
+}
+#container4 .box ol li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
 
 
 
