@@ -12,6 +12,7 @@ html {
 
 body {
   counter-reset: cooking-counter;
+  margin: 0 auto;
 }
 
 header {
