@@ -71,7 +71,7 @@ img {
   margin: 75px 0 50px 0;
 }
 
-.imageBlock {
+.image-block {
   display: flex;
   justify-content: center;
   border-bottom: solid 1px #9c9c9c;
