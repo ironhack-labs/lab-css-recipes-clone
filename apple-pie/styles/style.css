@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 900px;
+    
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+
+}
+
+p, ol, ul {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.image{
+    display: block;
+    margin: auto;
+    width: 400px;
+    padding-top: 30px;
+}
+
+.text{
+    text-align: center, justify;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+
+}
+
+.list{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.separator{
+    width: 1000px;
+    padding-left: 200px;
+    
+}
