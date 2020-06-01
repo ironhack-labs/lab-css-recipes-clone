@@ -1,0 +1,40 @@
+* {
+    padding: 1auto;
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    line-height: 400px;
+    background: url("/Users/ksunu/Desktop/bootcamp-webmad-0620/lab/week1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: 600px;
+    height: 400px;
+}
+
+img {
+    width: 300px;
+    display: block;
+}
+
+article {
+    padding: 10px;
+    margin: auto;
+}
+
+.content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+hr {
+    width: 450px;
+    margin: auto;
+    color: grey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
