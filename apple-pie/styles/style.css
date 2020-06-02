@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: Montserrat;
+}
+
+#recipe {
+    margin: 0 15%;
+}
+
+.header-container {
+    display: flex;
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: 300;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.cooking-info {
+    width: 40%; 
+}
+
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid grey;
+}
+
+#ingredients {
+    border-bottom: 1px solid grey;
+}
+
+ul {
+    list-style-type: "-   ";
+}
+
+.ordered-list {
+    list-style-type: decimal;
+}
+
