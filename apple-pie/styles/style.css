@@ -1,0 +1,125 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-page {
+    position: relative;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    background-position: 0 0;
+}
+
+.main-page h1{
+    position: relative;
+    color: white;
+    font-size: 6em;
+    font-weight: 150;
+    text-align: center;
+    padding: 15% ;
+    margin: 0;
+}
+
+#recipie{
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    position: relative;
+    margin: 0 auto;
+}
+
+#recipie p{
+
+    color: darkgray;
+    font-size: 16px;
+}
+
+ img{
+    position: relative;
+    height: 60px;
+    width: auto;
+    padding: 10px;
+}
+
+.container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#cooking 
+    ul {
+        margin:0;
+        list-style-type: none;
+        position: relative;
+        padding: 0;
+        color: darkgray;
+        }
+ #cooking       
+    li:before { content: "- ";}
+        
+
+#cooking {
+
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: stretch;
+    position: relative;
+    margin: 0 auto;
+}
+
+#directions{
+
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#directions 
+    p {
+        margin:0;
+        position: relative;
+        padding: 1px;
+        color: darkgray;
+        }
+
+ 
+
+h2{
+    color: darkgray;
+}
+
+#directions {
+
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: stretch;
+    position: relative;
+    margin: 0 auto;
+}
+
+hr{
+
+    width: 1000px;
+    color: darkgray;
+}
