@@ -1,0 +1,18 @@
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 220px;    
+}
+
+.intro {
+    
+}
