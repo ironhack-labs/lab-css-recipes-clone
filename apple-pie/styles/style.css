@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 800px;
+    background-image: url("/Users/asdf/Desktop/Ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 300;
+    color: white;
+  }
+
+h2 {
+    padding: 20px;
+    font-size: x-large;
+}
+
+li {
+    font-size: larger;
+}
+
+main {
+    margin: 50px 150px;
+}
+
+.section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+}
+
+.section ul {
+    margin-top: 0;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.section p {
+    font-size: x-large;
+}
+
+.section img {
+    align-self: center;
+    width:50%;
+    padding: 10px 0 30px 0;
+}
+
