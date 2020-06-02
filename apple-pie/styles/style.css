@@ -1,0 +1,94 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    margin: auto;
+    width: 900px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 13pt;
+    color: rgb(77, 77, 77);
+    background-color:white;
+}
+
+.main-img {
+    width: 900px;
+    background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: 1000px;
+    height: 600px;
+}
+
+.intro {
+    margin: auto;
+    padding: 20px 0 20px 0;
+    width: 90%;
+    font-size: 16pt;
+    border-color: rgb(141, 141, 141);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: white;
+}
+
+.ingredients {
+    margin: auto;
+    padding: 20px 0 20px 0;
+    width: 90%;
+    border-color: rgb(141, 141, 141);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    background-color: white;
+}
+
+.direction {
+    margin: auto;
+    padding: 20px 0 100px 0;
+    width: 90%;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px; 
+    color: white;
+    font-weight: 300;
+    font-size: 60pt;
+    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.direction > ul {
+    list-style-type:decimal;
+}
+
+li {
+    padding: 2px 10px 0 0;
+}
+
+.iconsOne {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.iconsTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+}
