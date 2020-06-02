@@ -1,10 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
 
+hr {
+    width: 80%;
+}
 
 .Apple-pie-image {
     background: url(/apple-pie/images/apple-pie.jpg);
     background-repeat: 0 0 auto;
     background-size: cover;
     height: 650px;
+    padding: 0%;
 }
 
 .Apple-pie-image div {
@@ -14,7 +22,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -22,7 +29,6 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 5%;
-
 }
 
 .recipebio {
@@ -31,17 +37,12 @@
     font-size: 20px;
 }
 
-.ingredients {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .ingredients ul {
     list-style: none;
     font-size: 14px;
     padding-left: 20%;
-}
-.ingredients li {
-    content: "-";
+    list-style-type: "- ";
 }
 
 .ingredients h4 {
@@ -56,5 +57,8 @@
     padding-left: 18%;
     padding-right: 20%;
     padding-bottom: 5%;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.how-to-do-it li {
+    list-style-type: decimal;
 }
