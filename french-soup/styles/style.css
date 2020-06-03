@@ -1,6 +1,7 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+ 
 }
 /*Import the font and set the default size*/
 html {

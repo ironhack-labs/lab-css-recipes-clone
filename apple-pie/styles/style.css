@@ -1,0 +1,24 @@
+.image {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: center;
+    padding: 10px;
+    
+}
+
+.text-image {
+    position: center;
+    color: white;
+   
+
+    /*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+   
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+}
