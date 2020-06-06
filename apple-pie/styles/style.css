@@ -1,0 +1,25 @@
+#applepie{
+    width: 100%;
+}
+
+header {
+        background-image : url("apple-pie/images/apple-pie.jpg");
+}
+
+body {
+    width : 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 210px;
+    font-size: 32px;
+}
+
+.duree {
+    width : 47%;
+}
+
+
+
