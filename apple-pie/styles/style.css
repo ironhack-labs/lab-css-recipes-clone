@@ -1,62 +1,53 @@
-html, body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.4em;
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4em;
 }
 
+/* really unsure about this , big struggle to fit the image and text*/
 h1 {
-    color:white;
-    text-align: center;
-    font-size: 6em;
-    padding: 400px 250px 390px 250px;
-    background-color: black ;
-    background-image: url(../images/apple-pie.jpg);
-    font-weight: normal;
-    background-size: 100%;
-    margin: 0px 10% 5% 10%;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 5.5em;
+  padding: 400px 250px 420px 250px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100%;
+  background-position-y: 30%;
+  margin: 0px 0px 5% 0px;
 }
 
 /* Class container is used to center all the content in the page regarding the header image*/
 .container {
-    margin: 10px 300px 30px 300px;
+  margin: 10px 300px 30px 300px;
 }
 
 .container > section {
-    text-align: justify;
-    margin: 30px 0px;
-    border-bottom: 1px solid darkgrey;
-    font-size: 1.1em;
-} 
+  text-align: justify;
+  margin: 30px 0px;
+  border-bottom: 1px solid darkgrey;
+  font-size: 1.1em;
+}
 
 /* The introduction text is bigger than the others sections'*/
 
 p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
-
 
 /* the lists have no (to a very little) margin regarding the title
 the styles we wanted to give to the lists aren't listed in list-style, so it's easier to add them directly in the li area*/
 
 li {
-    list-style: none;
-    
-    }
-    
-     ul, ol {
-        padding-left: 10px;
-    }
-
-
-
-img {
-    width: 20em;
-    margin : 1em 13em;
-
+  list-style: none;
 }
 
+ul,
+ol {
+  padding-left: 10px;
+}
 
-
-
-
-
-
+img {
+  width: 20em;
+  margin: 1em 13em;
+}
