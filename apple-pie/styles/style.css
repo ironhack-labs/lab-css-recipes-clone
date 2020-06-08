@@ -1,10 +1,18 @@
 #cover {
-    background-image:url('apple-pie/images/apple-pie.jpg'); /*A corriger*/
+    background-image: url("../images/apple-pie.jpg");
     text-align: center;
-    font-size: 155px;
+    font-size: 155px; 
+    height: 1700px;
+
 }
 
-#introduction{
+h1 {
+    color: white;
+
+
+}
+
+#introduction {
     font-size: 60px;
 }
 
@@ -38,6 +46,6 @@ body div{
 }
 
 .orderedlist {
-    list-style: symbols(symbolic ")"); /*A corriger*/
+    list-style-type: symbols(symbolic ")"); /*A corriger*/
     margin-left: 25px;
 }
