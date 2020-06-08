@@ -1,25 +1,43 @@
-#applepie{
-    width: 100%;
+#cover {
+    background-image:url('apple-pie/images/apple-pie.jpg'); /*A corriger*/
+    text-align: center;
+    font-size: 155px;
 }
 
-header {
-        background-image : url("apple-pie/images/apple-pie.jpg");
+#introduction{
+    font-size: 60px;
 }
 
-body {
-    width : 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 210px;
-    font-size: 32px;
+body{
+    font-family: 'Poppins', sans-serif;
+    width:2300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.duree {
-    width : 47%;
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
 
+h2{
+    font-size: 55px;
+    font-style: bold;
+}
 
+body div{
+    font-size:50px;
+}
 
+.dotlist {
+    list-style-type: '- ';
+    margin-left: 25px;
+}
+
+.orderedlist {
+    list-style: symbols(symbolic ")"); /*A corriger*/
+    margin-left: 25px;
+}
