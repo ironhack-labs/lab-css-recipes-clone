@@ -7,16 +7,22 @@ body {
     font-weight: lighter;
     width: 100%;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header {
     height: 500px;
+    background-image: url('../images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-size: 30px;
     color: white;
-    background: url("images/apple-pie.jpg") no-repeat;
-    background-position: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* QUEL AUTRE MOYEN DE CENTRER LE TEXTE ??? */
 
 .content {
     margin: 30px 70px;
@@ -26,7 +32,8 @@ body {
     font-size: 20px;
 }
 
-.ingredients, .directions {
+.ingredients,
+.directions {
     border-top: 1.5px solid rgb(160, 160, 160);
 }
 
@@ -40,4 +47,23 @@ body {
 
 .img-box {
     text-align: center;
+}
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.ingredients li:before {
+    content: "- ";
+}
+
+ul,
+ol {
+    padding-inline-start: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
