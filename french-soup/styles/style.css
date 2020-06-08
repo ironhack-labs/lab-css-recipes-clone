@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-size: 9.3em;
   font-weight: 200;
-
+/* Position absolute to fix the title in the image - I don't think this is ideal because very impractical when resizing*/
   position: absolute;
   top: 45%;
   left: 17%;
