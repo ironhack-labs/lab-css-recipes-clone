@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.header {
+    height: 500px;
+    font-size: 30px;
+    color: white;
+    background: url("images/apple-pie.jpg") no-repeat;
+    background-position: 0 0;
+}
+
+.content {
+    margin: 30px 70px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.ingredients, .directions {
+    border-top: 1.5px solid rgb(160, 160, 160);
+}
+
+#intro-logos {
+    height: 60px;
+}
+
+#ingredients-logos {
+    height: 70px;
+}
+
+.img-box {
+    text-align: center;
+}
