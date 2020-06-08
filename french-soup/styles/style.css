@@ -7,3 +7,92 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header img{
+  width: 100%;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+.text-center{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+}
+
+h1{
+  font-size:36px;
+  color:black;
+  margin:50px 0px;
+}
+#img-recipe{
+  display: block;
+  margin: 60px auto;
+  width: 40%;
+}
+
+#img-cooking{
+  display: block;
+  margin: 60px auto;
+  width: 45%;
+}
+
+#intro p{
+  font-size:35px;
+  color:rgb(65, 63, 63);
+  margin-top:20px;
+  width:75%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#intro{
+  margin-top:100px;
+}
+.common{
+  width:75%;
+  margin-left: auto;
+  margin-right:auto;
+}
+#ingredients {
+  border-top:solid;
+  border-bottom: solid;
+  border-width: 0.2em;
+  border-color: rgb(141, 137, 137);
+  color:rgb(65, 63, 63);
+}
+
+#ingredients li{
+  font-size: 31px;
+  list-style-type: '-';
+}
+
+#directions li{
+  font-size: 31px;
+  color:rgb(65, 63, 63);
+}
+
+ol {counter-reset: step;} /* on initialise et nomme un compteur */
+ol li {
+list-style-type: none;
+counter-increment: step; /* on incrémente le compteur à chaque nouveau li */
+}
+ol li:before {
+  content: counter(step)')'; /* on affiche le compteur */;
+  margin-right: 8px;
+}
+
+#directions{
+  margin-bottom: 100px;
+}
+
