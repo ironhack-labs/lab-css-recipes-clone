@@ -1,9 +1,66 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+header {
+  background-image: url(../images/soup.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  padding: 30% 10% 20% 20%;
+}
+
+h1 {
+  color: white;
+  font-size: 9.3em;
+  font-weight: 200;
+
+  position: absolute;
+  top: 45%;
+  left: 17%;
+}
+
+h2 {
+  margin-bottom: 5%;
+}
+
+/* imported from apple pie stylesheet */
+
+section {
+  text-align: justify;
+  margin: 30px 15% 30px 15%;
+  border-bottom: 1px solid darkgrey;
+  font-size: 1.1em;
+}
+
+/* The introduction text is bigger than the others sections'*/
+
+p {
+  font-size: 130%;
+}
+
+/* the lists have no (to a very little) margin regarding the title
+the styles we wanted to give to the lists aren't listed in list-style, so it's easier to add them directly in the li area*/
+
+li {
+  list-style: none;
+}
+
+ul,
+ol {
+  padding-left: 10px;
+}
+
+img {
+  width: 20em;
+  margin: 0% 25%;
 }
