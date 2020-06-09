@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';
+    margin: 0px;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+     max-height: 800px;
+     padding-bottom: 40px;
+}
+
+header p{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
+
+#paragraph1 p {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#cooking,
+#nutrition {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#nutrition img {
+    width: 100%;
+}
+
+hr {
+    width: 70%;
+    border-top: 2px solid #808080;
+}
+
+#ingredients {
+    margin-top: 10px;
+    padding-left: 15%;
+}
+
+#directions p,
+#ingredients p{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#cooking img {
+    padding-top: 10px;
+    margin-right: 200px;
+}
+
+#directions {
+    margin-top: 10px;
+    padding: 0px 15%;
+    padding-bottom: 40px;
+}
+
+li {
+    font-size: 1.2em;
+}
