@@ -2,7 +2,15 @@
 body {
     font-family: 'Poppins';
     margin: 0px;
+    background-color: purple;
 }
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+}
+
 header {
     position: relative;
     text-align: center;
@@ -25,7 +33,7 @@ header p{
 
 #paragraph1 p {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.1em;
 }
 
 #cooking,
@@ -36,7 +44,8 @@ header p{
 }
 
 #nutrition img {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 hr {
@@ -51,13 +60,13 @@ hr {
 
 #directions p,
 #ingredients p{
-    font-size: 1.4em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 #cooking img {
     padding-top: 10px;
-    margin-right: 200px;
+    width: 78%;
 }
 
 #directions {
@@ -66,6 +75,9 @@ hr {
     padding-bottom: 40px;
 }
 
+ul {
+    list-style-type: none; 
+}
 li {
-    font-size: 1.2em;
+    font-size: 1em;
 }
