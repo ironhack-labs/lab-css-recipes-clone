@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: lighter;
     width: 100%;
     margin: auto;
@@ -15,13 +17,16 @@ body {
     background-image: url('../images/apple-pie.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    font-size: 30px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: bold; 
+    color: white;
+}
 /* QUEL AUTRE MOYEN DE CENTRER LE TEXTE ??? */
 
 .content {
