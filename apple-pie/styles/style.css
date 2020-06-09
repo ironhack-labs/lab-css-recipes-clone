@@ -6,6 +6,8 @@ body{
     margin:auto;
     height: 600px;
     weight:515px;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
 }
 .hero > img{
     width: 100%;
