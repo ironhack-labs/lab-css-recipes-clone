@@ -1,0 +1,91 @@
+#apple {
+    background-image: url('apple-pie.jpg');
+    background-size: cover;
+    height: 600px;
+    padding-top: -1px;
+}
+
+#apple {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#section1 {
+    margin-top: -1rem;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.palmares {
+    font-size: 25px;
+}
+
+#section2 .Ingredients .list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ingridients {
+    font-size: 50px;
+}
+
+.dashed {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: -6px;
+}
+
+ul.dashed>li:before {
+    content: "-";
+    text-indent: -5px;
+}
+#section2 {
+    padding-top: 9px;
+}
+#section2 ul li {
+    font-size: 20px;
+    color: hsl(0, 1%, 41%);
+}
+#section2 h1 {
+    font-size: 26px;
+}
+#section3 {
+    height: 120px;
+}
+#section3 {
+    display: flex;
+    justify-content: center;
+}
+
+#section4 {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#section4 h1 {
+    font-size: 26px;
+}
+#section4 p {
+    font-size: 20px;
+    color: hsl(0, 1%, 41%);
+}
