@@ -8,9 +8,13 @@
 
 h1 {
     color: white;
-
-
+    text-align: center;
+    margin-top: 0px;
+    padding: 600px;
+    font-size: 200px;
+    
 }
+
 
 #introduction {
     font-size: 60px;
@@ -48,4 +52,15 @@ body div{
 .orderedlist {
     list-style-type: symbols(symbolic ")"); /*A corriger*/
     margin-left: 25px;
+    
+}
+/*
+ol > li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+  }
+*/
+ol > li:before {
+content: counter(list) ") ";
+counter-increment: list;
 }
