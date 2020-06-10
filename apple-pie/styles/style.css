@@ -15,9 +15,7 @@
     padding-top: 300px;
     padding-bottom: 345px;
     font-size: 150px;
-    
-    
-    
+
 }
 
 
@@ -73,16 +71,4 @@ body div{
 .directiontext {
     width: 1580px;
     margin-left: 225px;
-}
-
-/*
-ol > li:before {
-    content: counter(list, lower-alpha) ") ";
-    counter-increment: list;
-  }
-*/
-
-ol > li:before {
-content: counter(list) ") ";
-counter-increment: list;
 }
