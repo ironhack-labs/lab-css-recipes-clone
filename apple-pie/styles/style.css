@@ -1,0 +1,35 @@
+/* Applies entire page */
+ul li {
+    list-style-type: none;
+}
+
+/*Section 1*/
+
+#section1 img{
+    width:100%;
+}
+
+#section1 h1{
+
+}
+
+/*Section 2*/
+
+#section2 img {
+    width: 25%;
+
+}
+/*Section 3*/
+
+#section3 img {
+    width: 25%;
+
+}
+#section3 ul li::before{
+    
+
+    content: "-";
+}
+/*Section 4*/
+
+
