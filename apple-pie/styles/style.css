@@ -1,65 +1,87 @@
-#cover {
-    background-image: url("../images/apple-pie.jpg");
-    text-align: center;
-    font-size: 155px; 
-    height: 1700px;
 
+
+#cover img {
+    margin-top: -160px;
+    margin-left: 0;
+    width: 83%;
 }
 
-h1 {
+
+#cover p {
     color: white;
-    text-align: center;
-    margin-top: 0px;
-    padding: 600px;
-    font-size: 200px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: -1400px;
+    margin-left: 622px;
+    padding-top: 300px;
+    padding-bottom: 345px;
+    font-size: 150px;
+    
+    
     
 }
 
 
 #introduction {
-    font-size: 60px;
+    position: relative;
+    background-color: white;
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-right: 220px;
+    padding-bottom: 50px;
+    font-size: 45px;
+    width: 1500px;
+    margin-left: 0px;
 }
 
+
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width:2300px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+hr {
+    margin-left: 200px;
+    width: 1540px;
 }
 
 .imgcenter {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 30%;
     height: auto;
+    margin-left: 650px;
+    margin-right: auto;
+    margin-bottom: 45px;
 }
 
 h2{
-    font-size: 55px;
+    font-size: 45px;
     font-style: bold;
+    margin-left: 200px;
+
 }
 
 body div{
-    font-size:50px;
+    font-size:40px;
+    margin-left: 200px;
 }
 
 .dotlist {
     list-style-type: '- ';
-    margin-left: 25px;
+    margin-left: 45px;
 }
 
-.orderedlist {
-    list-style-type: symbols(symbolic ")"); /*A corriger*/
-    margin-left: 25px;
-    
+.directiontext {
+    width: 1580px;
+    margin-left: 225px;
 }
+
 /*
 ol > li:before {
     content: counter(list, lower-alpha) ") ";
     counter-increment: list;
   }
 */
+
 ol > li:before {
 content: counter(list) ") ";
 counter-increment: list;
