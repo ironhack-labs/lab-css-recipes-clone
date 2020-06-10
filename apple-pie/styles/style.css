@@ -1,0 +1,28 @@
+#firstImage {
+    background-image: url('../images/apple-pie.jpg'); 
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    display: block;
+}
+
+.image-wrapper{
+    text-align: center;
+}
+
+img {
+    max-width: 250px;
+    max-height: 120px;
+
+} 
+
+h1{
+    color: White;
+    text-align: center;
+}
