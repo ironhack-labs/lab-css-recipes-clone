@@ -1,9 +1,83 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+div h1 {
+  position: absolute;
+  display: flex;
+  margin: -520px 0px 200px 660px;
+  color: white;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+.soup-pic {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  margin: 50px 0px 100px 455px;
+}
+
+.description {
+  position: relative;
+  display: flex;
+  margin: 100px 0px 50px 450px;
+  width: 35em;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.recipe-info {
+  position: relative;
+  display: flex;
+  width: 450px;
+  margin: 0px auto 70px 750px
+}
+
+hr {
+  width: 60%;
+  margin: auto 200px auto 385px;
+}
+
+#middle h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 50px auto auto 385px;
+}
+
+#middle ul {
+  list-style-type: none;
+  margin: 40px auto auto 360px;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+#middle ul > li:before {
+  content: "-";
+  margin-left: -10px
+}
+
+.cooking-info {
+  position: relative;
+  display: flex;
+  width: 370px;
+  margin: 50px auto 50px 770px
+}
+
+#bottom h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 50px auto auto 385px;
+}
+
+#bottom ol {
+  margin: 40px auto 150px 380px;
+  font-size: 22px;
+  font-weight: 100;
+  width: 1000px;
 }
