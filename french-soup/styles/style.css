@@ -1,9 +1,23 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+/*Applies to all*/
+
+ul li{
+  list-style-type: none;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+/*Section 1*/
+
+#section1 img{
+  width: 100%;
 }
+/*Section 2*/
+
+#section2 img{
+  width: 25%;
+}
+
+/*Section 3*/
+
+#section3 img{
+  width: 25%;
+}
+
+/*Section 4*/
