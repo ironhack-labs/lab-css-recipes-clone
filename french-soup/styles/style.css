@@ -2,22 +2,102 @@
 
 ul li{
   list-style-type: none;
+
+
 }
+
 /*Section 1*/
+
+#section1 .column-layout{
+  font-size: 25px;
+  color:white;
+  position: relative;
+  
+}
+
+#section1 .content{
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
 
 #section1 img{
   width: 100%;
+  
 }
-/*Section 2*/
 
+/*Section 2*/
+#section2 .column-layout{
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px 50px;
+  border-bottom: solid black 2px;
+
+}
+
+#section2 .content{
+  margin: 50px;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+  
+}
 #section2 img{
-  width: 25%;
+  width: 50%;
+  
 }
 
 /*Section 3*/
 
+#section3 .column-layout{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px 50px;
+  border-bottom: solid black 2px;
+}
+
+#section3 .content{
+
+  font-size: 20px;
+  padding: 0px 30px;
+  align-items: left;
+}
+
 #section3 img{
-  width: 25%;
+  width: 50%;
+}
+
+#section3 h1{
+  margin: 5px 50px;
+  padding: 10px;
+  text-align: left;
+}
+
+#section3 ul li::before{
+  
+  content: "-";
 }
 
 /*Section 4*/
+
+#section4 .content{
+
+  font-size: 20px;
+  padding: 0px 30px;
+  align-items: left;
+}
+
+#section4 h1{
+
+  margin: 5px 50px;
+  padding: 10px;
+  text-align: left;
+}
+
+
