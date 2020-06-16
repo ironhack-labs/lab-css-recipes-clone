@@ -1,9 +1,60 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#ingredientsList {
+  list-style: none;
+}
+
+#ingredientsList li,
+#directionsInfo li {
+  padding: 5px 0;
+}
+
+header {
+  background-image: url(/french-soup/images/soup.jpg);
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headerText h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 50px 10%;
+}
+
+.recipeInfo {
+  margin: 0 auto;
+  position: relative;
+}
+
+.recipeInfo img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
 }

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -22,20 +23,26 @@ h1 {
 
 .pageHeadText h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
-/* .pageHead img {
-    width: 100%;
-} */
-
 .container {
-    margin: 0 10%;
-    /* display: flex;
-    flex-direction: column; */
+    margin: 50px 10%;
+}
+
+.recipeInfo {
+    margin: 0 auto;
+    position: relative;
+}
+
+.recipeInfo img {
+    /* position: absolute; */
+    display: block;
+    margin: 0 auto;
+    width: 500px;
 }
