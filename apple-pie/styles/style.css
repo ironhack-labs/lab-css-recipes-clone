@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#ingredientsList {
+    list-style: none;
+}
+
+.pageHeadImg {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.pageHeadText h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+}
+
+
+/* .pageHead img {
+    width: 100%;
+} */
+
+.container {
+    margin: 0 10%;
+    /* display: flex;
+    flex-direction: column; */
+}
