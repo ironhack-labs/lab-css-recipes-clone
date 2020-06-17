@@ -1,0 +1,51 @@
+.bg {
+    background-image: url("https://i.ibb.co/vj55zdT/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.headText{
+    color: white;
+    text-align: center;
+    text-emphasis: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 70px;
+    padding: 0 0;
+    line-height: 700px;
+      }
+
+.recipeInfo{
+    text-align: center;
+    color: rgb(70, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin: 50px 200px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+}
+
+.ingredients {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 70, 70);
+    margin: 20px 60px;
+    border-top-style: solid;
+  border-top-color: darkgray;
+  
+}
+
+.ingredientsHead {
+    font-size: 20px;
+}
