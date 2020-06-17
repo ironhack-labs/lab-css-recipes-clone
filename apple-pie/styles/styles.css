@@ -1,0 +1,52 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0 50px;
+    background-color:white;
+    /* color: rgb(34, 32, 32); */
+    text-align: left;
+    font-family: verdana;
+    font-weight: 200;
+    
+}
+
+#apple {
+    position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+img {
+    width: 400px;
+    padding: 0 200px;
+    border-bottom: 1px solid rgb(148, 145, 145);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+  p {
+    color: rgb(34, 32, 32);
+  }
+
+
+
+#grandmotherrecipe{
+    padding: 20px;
+
+}
