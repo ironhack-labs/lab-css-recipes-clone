@@ -1,9 +1,95 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+body{
+  font-family: 'Raleway', 'Raleway Thin', sans-serif;
+  margin: 0 0 5% 0 ;
+}
+
+
+h1 {
+  font-size: 4em;
+}
+
+h3{
+  font-family: 'Raleway Thin';
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.6em;
+  padding: 1% 10%;
+}
+
+h5{
+  font-family: 'Raleway Thin';
+  font-size: 1.3em;
+}
+
+.cover {
+  font-family: 'Raleway Thin';
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.cover img {
+  width: 100%;
+}
+
+.center-text {
+  letter-spacing: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.intro > div {
+  text-align: center;
+  padding: 1% 10%;
+}
+
+.intro img {
+  text-align: center;
+}
+
+hr {
+  margin: 0 10%;
+  border-color: grey;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0 10%;
+}
+
+.ingredients-list li {
+  font-size: 1.2em;
+}
+
+.ingredients-list li:before {
+  content:"-";
+}
+
+.ingredients-list {
+  font-size: 1.2em;
+}
+
+.ingredients-image {
+  text-align: center;
+  padding: 1% 0;
+}
+
+.directions {
+  padding: 0 11%;
+}
+
+.directions li {
+  font-size: 1.2em;
 }
