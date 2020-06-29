@@ -1,9 +1,254 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+/* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body, ul, p{
+  padding: 0;
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+body {
+  font-size: 1.6rem;
 }
+
+h2{
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 0 0 35px;
+}
+
+/* HERO */
+
+.recipe-hero{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 727px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.recipe-hero h1{
+  font-size: 8rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* CONTENT */
+
+.recipe-content{
+  padding: 94px 120px;
+}
+
+.recipe-content .recipe-lead{
+  margin: 0 0 6.7rem;
+  font-weight: 300;
+  font-size:2.4rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Generic */
+
+.line-separator{
+  border-bottom: 2px solid #969696;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: block;
+}
+
+/* END Generic */
+
+/* Resume type */
+
+.recipe-resume {
+  text-align: center;
+}
+
+.recipe-resume ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.recipe-resume ul li{
+  padding-right: 44px;
+  margin-right: 24px;
+  color: #4D4D4D;
+}
+
+.recipe-resumeTimmings ul li,
+.recipe-resumeTimmings dl{
+  margin: 0 24px 0 0;
+  color: #4D4D4D;
+}
+
+.recipe-resume ul li:last-child,
+.recipe-resumeTimmings dl:last-child{
+  margin-right: 0;
+}
+
+
+.recipe-resumeTimmings {
+  display: inline-flex;
+  justify-content: center;
+}
+
+  .recipe-resumeTimmings dt{
+      font-weight: 800;
+  }
+
+  .recipe-resumeTimmings dl{
+      padding-right: 42px;
+      margin-right: 42px;
+      border-right: 2px solid #EDEDED;
+  }
+
+  .recipe-resumeTimmings dl:first-child{
+      position: relative;
+      padding-left: 83px;
+  }
+
+  .recipe-resumeTimmings dl:first-child:before{
+      content: "";
+      width: 51px;
+      height: 51px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-size: 100%;
+      background-image: url(../images/ico-clock.png);
+  }
+
+  .recipe-resumeTimmings dl:last-child{
+      margin-right: 0;
+      padding-right: 0;
+      border-right: 0;
+  }
+
+      .recipe-resumeTimmings dl > *{
+          margin: 0;
+          padding: 0;
+      }
+
+      .recipe-resumeTimmings dl dt{
+          margin-bottom: 11px;
+      }
+
+  .recipe-resume ul li,
+  .recipe-resumeTimmings dl{
+      color: #9F9F9F;
+  }
+
+  .recipe-resume ul li span,
+  .recipe-resumeTimmings dl span{
+      color: #474747;
+      padding: 0 5px;
+  }
+
+  .recipe-resume ul li span:first-of-type,
+  .recipe-resumeTimmings dl span:first-child{
+      padding-left: 0;
+  }
+
+
+  .recipe-resume ul li{
+      position: relative;
+      padding-right: 44px;
+  }
+
+  .recipe-resume ul li:after{
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 31px;
+      background-size: 100%;
+  }
+
+  .recipe-resume ul li.recipe-resume_time:after{
+      background-image: url('../images/ico-clock.png');
+  }
+
+  .recipe-resume ul li.recipe-resume_servings:after{
+      background-image: url('../images/ico-cook.png');
+  }
+
+  .recipe-resume ul li.recipe-resume_cals:after{
+      background-image: url('../images/ico-cals.png');
+  }
+
+/* END Resume type*/
+
+/* list */
+
+.list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+
+  .list li:before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      top: -2px;
+  }
+
+/* END list */
+
+/* Ingredients */
+
+.recipe-ingredients{
+  margin-bottom: 65px;
+}
+
+  .recipe-ingredients .list {
+      list-style: none;
+      font-weight: 300;
+      line-height: 1.3;
+  }
+
+/* END Ingredients */
+
+
+/* Directions */
+
+.recipe-directions .list{
+  counter-reset: directions;
+}
+
+  .recipe-directions .list li{
+      position: relative;
+      padding-left: 25px;
+  }
+
+  .recipe-directions .list li:before{
+      counter-increment: directions;
+      content: counter(directions)")";
+      top:0;
+  }
+
+/* END Directions */
