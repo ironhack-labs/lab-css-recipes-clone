@@ -32,6 +32,9 @@ section {
   margin: 50px 0px;
 }
 
+.intro p {
+  font-size: 1.2em;
+}
 ul li {
   margin-left: -25px;
   list-style-type: none;
