@@ -1,9 +1,56 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#soup {
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  top: 550px;
+  left: 503px;
+  font-size: 60px;
+}
+
+section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.separationLine {
+  display: block;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+#ingredients {
+  width: 100%;
+}
+
+.margin {
+  margin: 3em 0;
+}
+
+li {
+  list-style-type: none;
 }

@@ -1,0 +1,47 @@
+ body {
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ #mainImg {
+     position: relative;
+ }
+
+ h1 {
+     position: absolute;
+     color: white;
+     top: 550px;
+     left: 611px;
+     font-size: 60px;
+ }
+
+ #applePiePic {
+     width: 100%;
+ }
+
+ section {
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .separationLine {
+     display: block;
+     border: 1px solid grey;
+     width: 100%;
+ }
+
+ #ingredients {
+     width: 100%;
+ }
+
+ .margin {
+     margin: 3em 0;
+ }
+
+ li {
+     list-style-type: none;
+ }
