@@ -1,0 +1,38 @@
+body {
+    color: grey ;
+    font-family: "Core Sans A";
+    font-size: 50px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+article     {
+    text-align: center;
+    margin:10px 100px;
+}
+div, img {
+    display: block;
+    position: relative;		
+    
+    align-content: center;
+    margin:10px auto;
+    image-size
+}
+  div h1 {
+    font-size: 200 px;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+  ul li   {
+    list-style: none;
+    text-align: left;
+    margin-left: 100 px;;
+  } 
+  ol li   {
+    text-align: left;
+}
