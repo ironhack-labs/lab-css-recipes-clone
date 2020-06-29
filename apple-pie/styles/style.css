@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:20px;
+  }
+  .header{
+    justify-content:center;
+    align-items:center;
+    background-position:center;
+    background-size:cover;
+    height:650px;
+    background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true");
+  }
+  
+  h1{
+    color:white;
+    font-size:5em;
+     line-height:6.5em;
+    text-align:center;
+  }
+  body{
+    text-align:justify;
+  }
+  section h2,p,ul,ol {
+    text-align:justify;
+    margin:40px 80px;
+  }
+  .image{
+    margin: 20px 500px;
+  }
+  ul{
+    list-style-type:none;
+  }
+  ul>li:before{
+    content:"- "
+  }
+  hr{
+    width:90%;
+  }
+  
