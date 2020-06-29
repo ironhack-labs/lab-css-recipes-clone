@@ -1,9 +1,39 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: white;;
+  max-width: 800px;
+  padding-left: 300px;
+}
+.container-background{
+  background-color: white;
+  padding: 80px;
+}
+header {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: white;
+}
+header > h1 {
+  position: absolute;
+}
+header > img {
+  height: 450px;
+  width: 100%;
+}
+.list {
+  list-style-type: none;
+  padding-right: 8px;
+}
+.img-info {
+  width: 18rem;
+  padding: 1rem;
+  padding-left: 150px;
+}
+hr {
+  border-top: 1px solid darkgrey;
 }
