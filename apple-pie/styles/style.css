@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+
+body {
+  margin: 0em;
+  font-family: "Work Sans", sans-serif;
+}
+#container {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+
+h2 {
+  margin: 8% 10% 3% 10%;
+  font-size: 40px;
+}
+
+.text {
+  margin: 5% 10% 5% 10%;
+  font-size: 32px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+hr {
+  width: 80%;
+}
+
+#ingredients li:before {
+  content: "- ";
+}
+
+#description {
+  list-style-type: none;
+}
