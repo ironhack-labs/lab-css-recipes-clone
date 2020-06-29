@@ -1,0 +1,75 @@
+body{
+margin-left: 200px;
+margin-right: 200px;
+padding: 0%;
+font-family: 'Nunito', sans-serif;
+}
+
+.apple-pie{
+background: url(../images/apple-pie.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+width: 100%;
+padding-top: 0;
+}
+
+.apple-pie-text{
+position: absolute;
+color: white;
+text-align: center;
+padding-top: 200px;
+padding-left: 400px;
+font-family: 'Nunito', sans-serif;
+font-size: 65px;
+}
+
+p{
+font-size: 20px;
+text-align: center;
+padding-top:50px ;
+font-weight: 500;
+margin-left: auto;
+margin-right: auto;
+}
+
+.subtitle{
+border-top: 2px gray solid;
+padding-bottom: 50px;
+padding-top:100px;
+font-size: 26px;
+font-weight: bold;
+margin-left: 100px;
+}
+
+.recipe-info{
+height: 100px;
+width: 300px;
+padding-top: 80px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.cooking-info{
+height: 100px;
+width: 300px;
+padding-top: 80px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.ingredients{
+margin-left: 100px;
+margin-right: auto;
+width: 28em;
+font-size: 20px;
+}
+
+.instructions{
+margin-left: 100px;
+margin-right: auto;
+width: 28em;
+font-size: 20px;
+}
