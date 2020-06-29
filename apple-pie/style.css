@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.debug {
+  outline: 1px dotted red;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0px;
+}
+
+.container{
+  max-width: 640px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#section1 {
+  margin-top: 20px;
+}
+
+.applePieImage {
+  background-image: url("images/apple-pie.jpg");
+  background-size: cover;
+  height: 490px;
+  width: 100%;š
+  color: white;
+  padding-top: 340px;
+}
+
+.applePietext {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 62px;
+}
+
+.cookImage {
+  margin: auto;
+  display: block;
+}
+
+.ingredients-list {
+  list-style-type: none;
+}
+
+.directions-list {
+  list-style-type: decimal;
+}
+
+.cookImage {
+  width: 300px;
+}
+
