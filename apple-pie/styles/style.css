@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+body {
+  background-color: white;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+.front-page {
+ 
+  background-image: url(apple-pie.jpg);
+/*background-image: url(https://canalcocina.es/medias/images/1511LaReposteriaDeAnnaOlsonT2TartaManzanaBlueRibbon.jpg);*/
+  background-size: 100vw;
+  height: 60vh;
+  padding-top: 40vh;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+main {
+  max-width: 750px;
+  margin: 90px auto;
+}
+
+section {
+  margin: 50px 0px;
+}
+
+ul li {
+  margin-left: -25px;
+  list-style-type: none;
+}
+
+figure { 
+  text-align: center;  
+  margin-top: 50px;
+}
+img{
+  height: 70px;
+}
