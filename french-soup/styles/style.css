@@ -1,9 +1,74 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  width: 100%;
+  background-position: 0, 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 7em;
+}
+
+.info-recipe {
+  font-size: 2em;
+  width: 75%;
+  padding: 2em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-recipe>img {
+  padding-bottom: 2em;
+}
+
+.ingredients {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7em;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.ingredients>img {
+  align-self: center;
+
+}
+
+.directions {
+  width: 75%;
+  font-size: 1.5em;
+  padding: 2em 0 1.5em 0;
+}
+
+hr {
+  width: 75%;
 }
