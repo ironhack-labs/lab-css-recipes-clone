@@ -1,0 +1,95 @@
+body {
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.applePieContainer {
+  display: flex;
+}
+
+.applePieImage {
+  background: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.imageApplePietext {
+  position: absolute;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 62px;
+}
+p {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerData {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.recipeInfoImage {
+  height: 60px;
+  width: 30%;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.ingredients {
+  border-top: 2px gray solid;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.cookingInfoImage {
+  height: 100px;
+  width: 30%;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.listIngredients {
+  margin-left: 100px;
+  margin-right: auto;
+  width: 22em;
+  font-size: 20px;
+}
+.direction {
+  margin-left: 100px;
+  margin-right: auto;
+  width: 28em;
+  font-size: 20px;
+}
+
+ul > li {
+  list-style-type: inherit;
+/* list-style-type: initial;
+list-style-type: unset; */
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
