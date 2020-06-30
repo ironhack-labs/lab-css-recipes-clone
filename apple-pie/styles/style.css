@@ -1,0 +1,54 @@
+
+h1{
+   position: absolute;
+   text-align:center;
+   color:white;
+   top: 50%;
+   left: 50%;
+   font-size: 350%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transform: translate(-50%, -50%);
+}
+
+.img1{
+    position: relative;
+    text-align: center;
+    width: 1200px;
+   
+    
+}
+
+.img1 img{
+    width: 100%;
+}
+
+    
+
+.img2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:175px;
+    display: block;
+    margin: auto;
+}
+
+.receta {
+    list-style-type: none;
+}
+
+
+
+.epigrafe{
+    text-align: justify;
+    width: 20cm;
+    height:0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.direction {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
