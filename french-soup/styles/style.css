@@ -1,9 +1,55 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  background-image: url(./../images/soup.jpg);
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 6em;
+  padding-top: 450px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul, ol {
+  font-size: 1.25em;
+  list-style: none;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter) ") ";
+}
+
+ul li:before {
+  content:"- "
+}
+
+img {
+  display: flex;
+  width: 33%;
+  padding: 20px 33%;
+}
+
+section, hr {
+  margin: 0 100px;
 }
