@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Helvetica;
+flex direction: column;
+font-size: 1.5em;
+
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 50px;
+
+}
+
+.header {
+  background: url(/Users/sergibotargues/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg) 0 0 no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding-top: 200px;
+  position: relative;
+}
+
+.sections{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    color: #454545;
+
+}
+
+.img {
+    width: 350px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.ul {
+    list-style-type: circle;
+    margin-left: 100px;
+}
+
+.ol {
+
+    margin-left: 100px;
+}
