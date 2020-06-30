@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.debug {
+  outline: 1px dotted red;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0px;
+}
+
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-size: 18px
+}
+
+.frenchSoupImage{
+  background-image: url("images/soup.jpg");
+  background-size: cover;
+  height: 490px;
+  width: 100%;š
+  color: white;
+  padding-top: 800px;
+}
+
+.frenchSoupText{
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 80px;
+}
+
+.container{
+  max-width: 640px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.ingredientsList{
+  list-style-type: none;
+}
+
+.cookImage {
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+.directions-list {
+  list-style-type: decimal;
+}
