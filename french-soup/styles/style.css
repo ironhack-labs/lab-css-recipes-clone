@@ -5,7 +5,6 @@ main {
   margin: 0;
 }
 
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
@@ -25,8 +24,8 @@ body {
 h1 {
   position: absolute;
   color: white;
-  top: 550px;
-  left: 503px;
+  top: 50%;
+  left: 32%;
   font-size: 60px;
 }
 
