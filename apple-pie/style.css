@@ -8,6 +8,9 @@ body {
 
 .applePieContainer {
   display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .applePieImage {
@@ -63,22 +66,15 @@ p {
   display: block;
 }
 .listIngredients {
-  margin-left: 100px;
+  margin-left: 1%;
   margin-right: auto;
   width: 22em;
   font-size: 20px;
 }
 .direction {
-  margin-left: 100px;
-  margin-right: auto;
+  margin-left: 1%;
   width: 28em;
   font-size: 20px;
-}
-
-ul > li {
-  list-style-type: inherit;
-/* list-style-type: initial;
-list-style-type: unset; */
 }
 
 ol {
