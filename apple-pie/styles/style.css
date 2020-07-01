@@ -48,7 +48,7 @@ h3 {
 }
 
 #ingredients {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -62,6 +62,17 @@ ul li:before {
   margin-left: -15px;
 }
 
-/* ol {
+#directions {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+ol {
   list-style-type: none;
-} */
+  counter-reset: li;
+}
+
+ol li:before {
+  content: counter(li) ')';
+  counter-increment: li;
+}
