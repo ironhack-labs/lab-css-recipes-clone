@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 1200px;
   color: #333;
   line-height: 200%;
@@ -17,15 +17,12 @@ header {
   margin-bottom: 70px;
 }
 
-header img {
-  width: 100%;
-}
-
 .maincontainer {
   width: 1000px;
   margin: 0 auto;
 }
 
+.container,
 .story {
   width: 100%;
   margin: 0 auto;
@@ -39,15 +36,14 @@ ul {
   padding: 0 15px;
 }
 
-.directions,
-.ingredients {
+.container {
   background-color: white;
   margin: 0 auto;
   padding-bottom: 10px;
   padding-top: 15px;
 }
 
-.directions p {
+.container p {
   font-size: 23px;
   margin: 0;
   padding-left: 15px;
@@ -64,4 +60,5 @@ h2 {
   margin-bottom: 40px;
   font-weight: normal;
   color: black;
+  font-size: 25px;
 }
