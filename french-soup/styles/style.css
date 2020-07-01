@@ -12,7 +12,14 @@ ul {
 }
 
 ol {
-  /* list-style-type:; */
+  list-style: none;
+  counter-reset: parenthesis;
+}
+ol li {
+  counter-increment: parenthesis;
+}
+ol li::before {
+  content: counter(parenthesis) ') ';
 }
 
 h1 {
