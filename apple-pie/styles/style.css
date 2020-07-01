@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 400px;
+}
+
+ul {
+  list-style: '- ';
+}
+
+ol {
+  /* list-style-type:; */
+}
+
+h1 {
+  color: #fff;
+  font-weight: 300;
+}
+
+header {
+  height: 50vh;
+  background: url('/apple-pie/images/apple-pie.jpg');
+}
+
+header h1 {
+  text-align: justify;
+  font-size: 3em;
+}
+
+main {
+  margin-top: 100px;
+  margin: 100px 50px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
