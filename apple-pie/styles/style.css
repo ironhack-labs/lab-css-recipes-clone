@@ -1,0 +1,38 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+header {
+  color: white;
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-size: cover;
+  height: 900px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-position: center;
+  text-align: center;
+  display: block;
+}
+
+div {
+  margin: 0 auto;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+li {
+}
+
+div {
+  text-align: center;
+  font-size: 20px;
+}
+
+ol {
+  list-style: ;
+}
