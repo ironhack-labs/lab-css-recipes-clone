@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+}
+
+.container {
+  font-size: 24px;
+  line-height: 150%;
+  padding: 10px;
+}
+
+.cooking-img {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-color: grey;
+}
+
+header {
+  height: 900px;
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  padding: 400px;
+  font-size: 80px;
+  margin: 0;
+}
+
+article {
+  width: 80%;
+  margin: 100px auto;
+}
+
+#ingredients-list {
+  list-style-type: '- ';
+}
+
+#directions-list {
+  list-style: decimal;
+}
+#directions-list li::before {
+  content: ')';
+}
