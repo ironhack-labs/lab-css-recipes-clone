@@ -6,7 +6,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   line-height: 1.5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -26,6 +25,8 @@ body {
 }
 
 .heading-title {
+  font-weight: lighter;
+  font-size: 130px;
   text-align: center;
   width: 100%;
 }
@@ -34,9 +35,14 @@ body {
   width: 1200px;
   margin: 0 auto;
   font-size: 22px;
+  color: #505050;
   margin: 4rem auto;
   min-height: 10vh;
   text-align: center;
+}
+
+h2 {
+  margin-top: 2em;
 }
 
 p {
@@ -52,25 +58,25 @@ hr {
 
 ul {
   list-style-type: none;
-  width: 90%;
   margin: auto;
-}
-ul > li {
-  text-indent: -5px;
+  line-height: 1.5;
+  color: #505050;
   font-size: 1.5rem;
 }
+
 ul > li:before {
   content: '-';
-  text-indent: -5px;
 }
 
 ol {
   counter-reset: list;
-}
-ol > li {
+  line-height: 1.8;
+  color: #505050;
+  margin-bottom: 5em;
   list-style: none;
   font-size: 1.5rem;
 }
+
 ol > li:before {
   content: counter(list, decimal) ') ';
   counter-increment: list;

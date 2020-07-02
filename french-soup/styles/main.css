@@ -1,0 +1,107 @@
+/*Some necessary adjustments*/
+* {
+  box-sizing: 80px;
+}
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  /* font-family: sans-serif;*/
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#title {
+  display: flex;
+  min-height: 100vh;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  color: white;
+  font-size: 43px;
+}
+
+.explanation {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #505050;
+  margin: 4rem auto;
+  min-height: 10vh;
+  text-align: center;
+}
+
+.heading-title {
+  font-weight: lighter;
+  font-size: 130px;
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+hr {
+  border: 0;
+  border-bottom: 3px solid grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  line-height: 1.5;
+  color: #505050;
+  font-size: 1.5rem;
+}
+
+ul > li:before {
+  content: '-';
+}
+
+ol {
+  counter-reset: list;
+  line-height: 1.8;
+  color: #505050;
+  margin-bottom: 5em;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+ol > li:before {
+  content: counter(list, decimal) ') ';
+  counter-increment: list;
+}
+
+.recipe-info {
+  display: block;
+  width: 45%;
+  margin: 2rem auto 2rem auto;
+}
+
+.cooking-info {
+  display: block;
+  width: 40%;
+  margin: 2rem auto 2rem auto;
+}
