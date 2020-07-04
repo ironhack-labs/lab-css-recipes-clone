@@ -1,9 +1,77 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  padding: 0;
+  margin: 0;
+
+}
+
+#hero {
+  background-image: url('../images/soup.jpg');
+  height: 750px;
+  background-position: bottom;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+  font-size: 4em;
+}
+
+.intro {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 150px;
+  margin: 0 50px 0 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+
+#intro-img {
+  width: 400px;
+  padding-top: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  color: gray;
+  background-color: gray;
+  margin: 0 200px 0 200px;
+}
+
+.instructions {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 150px;
+  margin: 0 50px 0 50px;
+}
+
+#cooking-img {
+  width: 330px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
 }
