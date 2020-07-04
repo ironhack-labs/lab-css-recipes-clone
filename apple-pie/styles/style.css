@@ -1,0 +1,54 @@
+header{
+    position:relative;
+    text-align:center;
+    color: white;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Geneva;
+}
+
+h1{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 3em;
+    font-weight:normal;
+}
+
+#applepie {
+    height:400px;
+    width: 750px;
+    margin-bottom: 35px;;
+}
+
+
+
+.first-section{
+    text-align: center;
+   /*  width: 80%;
+    margin: 0 auto; */
+ 
+}
+
+#recipe-img{
+    height: 50px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+  }
+  
+  ul > li:before {
+    content: "–"; /* en dash */
+    position: absolute;
+    margin-left: -1.1em; 
+  }
