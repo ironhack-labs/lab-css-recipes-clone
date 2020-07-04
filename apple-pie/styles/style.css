@@ -23,9 +23,14 @@ h1{
 }
 
 #applepie {
-    height:400px;
-    width: 750px;
-    margin-bottom: 35px;;
+/*     height:40%;
+    width: 70%;
+    margin-bottom: 35px; */
+
+    /* max-height: 20%; */
+ /*    width: auto;
+    height: 800px; */
+    text-align: center;
 }
 
 
@@ -51,4 +56,16 @@ ul {
     content: "–"; /* en dash */
     position: absolute;
     margin-left: -1.1em; 
+  }
+
+  hr {
+      align-items: center;
+      width: 100%;
+  }
+
+  #cooking-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
   }
