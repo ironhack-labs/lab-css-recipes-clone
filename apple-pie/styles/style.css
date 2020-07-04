@@ -1,71 +1,62 @@
-header{
-    position:relative;
-    text-align:center;
+header {
+    position: relative;
+    text-align: center;
+}
+
+header > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-}
-
-main {
-    width: 60%;
-    margin: 0 auto;
-}
-
-body{
-    font-family: Geneva;
-}
-
-h1{
-    position:absolute;
-    top:40%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size: 3em;
-    font-weight:normal;
+    font-size: 6em;
 }
 
 #applepie {
-/*     height:40%;
-    width: 70%;
-    margin-bottom: 35px; */
-
-    /* max-height: 20%; */
- /*    width: auto;
-    height: 800px; */
-    text-align: center;
+    width: 1200px;
+    height: 800px;
+    /* filter: brightness(0.5);  */
 }
 
-
-
-.first-section{
-    text-align: center;
-   /*  width: 80%;
-    margin: 0 auto; */
- 
+main {
+    width: 50%;
+    margin: 0 auto;
 }
 
-#recipe-img{
-    height: 50px;
-    
+.first-section {
+    margin-top: 5%;
+    font-size: 1.35em;
 }
 
+#recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 ul {
     list-style-type: none;
-  }
-  
-  ul > li:before {
-    content: "–"; /* en dash */
-    position: absolute;
-    margin-left: -1.1em; 
-  }
+    font-size: 1.35em;
+    text-align: left;
+}
 
-  hr {
-      align-items: center;
-      width: 100%;
-  }
-
-  #cooking-img {
+ul > li::before {
+    content: "- ";
+    list-style-type: none;
+}
+#cooking-img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div {
+    font-size: 0.4em;
+    margin-top: 30px;
+}
+
+ol {
+    font-size: 1.35em;
+}
