@@ -1,0 +1,101 @@
+.container {
+    width:90%;
+    margin:auto;
+}
+
+.image {
+background-image: url("../images/apple-pie.jpg");
+width:65%;
+height:500px;
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover ;
+margin:auto;
+}
+
+.image h2 {
+    color:white;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    font-size: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.recipe p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.recipe img {
+    height: 80px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.recipe hr {
+    width:50%;
+    
+}
+
+.ingredient h3 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 1.2em;
+    
+
+
+}
+
+.ingredient ul {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width:50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.ingredient img {
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.ingredient hr {
+    width: 50%;
+}
+
+.direction h3 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.direction ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
