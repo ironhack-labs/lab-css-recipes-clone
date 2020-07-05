@@ -29,26 +29,40 @@ h1{
 }
 
 
-
 .first-section{
-    text-align: center;
-   /*  width: 80%;
-    margin: 0 auto; */
+ text-align: center;
+  margin-left: 50px;
+  margin-right:50px;
  
 }
 
 #recipe-img{
-    height: 50px;
-    
+    width:55%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#cooking-img{
+    width:40%;
+    height:auto;;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
 ul {
     list-style-type: none;
+    margin-bottom:40px;
   }
   
   ul > li:before {
     content: "–"; /* en dash */
     position: absolute;
     margin-left: -1.1em; 
+  }
+
+  hr{
+      margin-bottom: 50px;
   }
