@@ -1,22 +1,35 @@
 header {
     position: relative;
-    text-align: center;
+    height: 700px; 
 }
 
-header > h1 {
+
+.main-image {
+    background-image: url(../images/apple-pie.jpg);
+    position: absolute;
+    z-index: 0;
+    background-position: 50% 50%;
+    
+  }
+  
+  .banner {
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    
+  }
+  
+  header > h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 6em;
-}
+    
+  }
 
-#applepie {
-    width: 1200px;
-    height: 800px;
-    /* filter: brightness(0.5);  */
-}
 
 main {
     width: 50%;
@@ -52,8 +65,13 @@ ul > li::before {
     width: 50%;
 }
 
-div {
-    font-size: 0.4em;
+.second-section > div {
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.third-section > div {
+    font-size: 1.5em;
     margin-top: 30px;
 }
 
