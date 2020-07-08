@@ -8,6 +8,7 @@ body {
     background-image: url('/images/apple-pie.jpg');
     background-size: cover;
     background-repeat: none;
+    background-position: center;
 }
 
 .top > h1 {
@@ -25,8 +26,8 @@ body {
 }
 
 .intro p {
-    text-align: left;
     padding: 40px 100px 20px 100px;
+    text-align: left;
 }
 
 
@@ -51,12 +52,11 @@ ul {
 .image {
     width: 300px;
     margin-top: 10px;
-
 }
 
 .directions {
-    text-align: left;
     padding: 10px 100px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -69,13 +69,14 @@ ol {
     line-height: 1.5;
     text-indent: 4px;
     padding: 0px 15px;
-    counter-reset: item;
+    counter-reset: list;
 }
 
-ol li { 
-    display: block; 
+ol > li { 
+    list-style: none; 
 }
 
-ol li:before { 
-    content: counters(item, "") ") "; counter-increment: item;
+ol > li:before { 
+    content: counter(list) ") "; 
+    counter-increment: list;
 }

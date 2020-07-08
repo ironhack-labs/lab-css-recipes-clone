@@ -1,9 +1,93 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  color:#757575;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header {
+  background-image: url('/images/soup.jpg');
+  background-size: cover;
+  background-repeat: no-repeat center;
+  background-position: center;
+}
+
+.header > h1 {
+  color: white;
+  text-align: center;
+  padding: 200px 100px 200px 100px;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin: 0px;
+  font-weight: 200;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  padding: 40px 100px 0px 100px;
+  text-align: left;
+}
+
+
+h3 {
+  text-align: left;
+  font-weight: 400;
+  
+}
+
+.ingredients {
+  padding: 10px 100px;
+  text-align: center;
+}
+
+ul {
+  line-height: 1.5;
+  text-indent: 4px;
+  list-style-type: "-";
+  padding: 0px 15px;
+  text-align: left;
+}
+
+.image {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.directions {
+  padding: 10px 100px;
+  margin-bottom: 50px;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  background-color:darkgrey;
+}
+
+
+ul {
+  list-style-type: "-";
+}
+
+ol {
+  line-height: 1.5;
+  text-indent: 4px;
+  padding: 0px 15px;
+  counter-reset: list;
+}
+
+ol > li { 
+  list-style: none; 
+}
+
+ol > li:before { 
+  content: counter(list) ") "; 
+  counter-increment: list;
 }
