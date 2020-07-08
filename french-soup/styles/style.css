@@ -1,9 +1,56 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  font-size: 1.3rem;
+  color: gray;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 16px
+}
+h1{
+  color:white;
+  font-size: 1.7em;
+}
+.frechonionsoupImg{
+  text-align: center;
+  background-image: url(../../french-soup/images/soup.jpg);
+  background-position: center;
+  background-color: #cccccc;
+  padding: 6rem 5rem;
+  margin: 2rem;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.recipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.recipe div{
+  text-align: justify;
+  width: 60%;
+  padding-right: 10%;
+}
+.recipe img{
+  width: 30%;
+}
+.recipe ul{
+  list-style-type: '-';
+}
+.recipe ol {
+  counter-reset: list;
+}
+.recipe ol{
+  list-style-type:none;
+}
+.recipe ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+hr{
+  width: 70%;
+  color: gray;
 }

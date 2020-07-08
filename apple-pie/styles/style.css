@@ -1,0 +1,48 @@
+body{
+    font-size: 1.3rem;
+    color: gray;
+}
+h1{
+    color:white;
+    font-size: 3em;
+}
+.applePieImg{
+    text-align: center;
+    background-image: url(../../apple-pie/images/apple-pie.jpg);
+    background-position: center;
+    background-color: #cccccc;
+    padding: 6rem 5rem;
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.recipe div{
+    text-align: justify;
+    width: 60% ;
+    padding-right: 10%;
+}
+.recipe img{
+    width: 30%;
+}
+.recipe ul{
+    list-style-type: '-';
+}
+.recipe ol {
+    counter-reset: list;
+}
+.recipe ol{
+    list-style-type:none;
+}
+.recipe ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+hr{
+    width: 70%;
+    color: gray;
+}
