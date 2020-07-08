@@ -1,9 +1,81 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  color: #3b3939;
+}
+
+header {
+  height: 400px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#intro > p {
+  width: 80%;
+  text-align: left;
+  margin: 20px auto;
+}
+
+#ingredients {
+  text-align: center;
+}
+
+#ingredients > article {
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+}
+
+#directions {
+  text-align: center;
+}
+
+#directions > article {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+  padding: 175px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
+}
+
+hr {
+  width: 80%;
+}
+
+#french-onion-soup-header {
+  background-image: url("/french-soup/images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info-pic {
+  width: 250px;
+}
+
+.ingredients-list {
+  list-style-type: "- ";
+  text-align: left;
+  padding-inline-start: 10px;
+}
+
+.directions-list {
+  padding-inline-start: 15px;
 }
