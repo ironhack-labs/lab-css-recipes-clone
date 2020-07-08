@@ -7,12 +7,12 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.apple{
-    background-image: url(/apple-pie/images/apple-pie.jpg);
+#apple{
+    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg)
 }
 
-.french{
-    background-image: url(/french-soup/images/soup.jpg);
+#french{
+    background-image: url(/lab-css-recipes-clone/french-soup/images/soup.jpg);
 }
 
 header{
