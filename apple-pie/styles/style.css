@@ -1,0 +1,32 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.with-padding {
+    padding: 40px;
+
+}
+
+.image {
+    height: 55px;
+
+}
+
+.middleimage {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    height: 400px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+}
+
