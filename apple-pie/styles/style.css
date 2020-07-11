@@ -1,6 +1,6 @@
 :root {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -8,18 +8,21 @@ html {
 }
 
 .header{
+    margin-top: 0;
+    margin-left: 0;
     color: white;
     text-align: center;
-    height: 100vh;
+    height: 1700px;
     background: url(../images/apple-pie.jpg) no-repeat center center;
     margin-top: 0;
+    background-size: cover;
 }
 
 .header h1 {
-    font-weight: 450;
-    padding-top: 100px;
+    font-weight: 100;
+    padding-top: 575px;
     margin: 0;
-    font-size: 25rem;
+    font-size: 15rem;
 }
 
 .container {
@@ -30,8 +33,8 @@ html {
 .container p {
     align-self: center;
     justify-self: center;
-    margin: 20px 230px;
-    font-size: 6rem;
+    margin: 20px 140px;
+    font-size: 4rem;
     padding-top: 90px;
     padding-bottom: 50px;
     font-weight: 100;
@@ -41,13 +44,14 @@ html {
 .recipe-info {
     align-self: center;
     padding-bottom: 50px;
-    height: 180px;
+    height: 150px;
 }
 
 .cooking-info {
     align-self: center;
     padding-bottom: 50px;
-    height: 300px;
+    height: 200px;
+    margin-top: 50px;
 }
 
 .container hr {
@@ -56,14 +60,14 @@ html {
     margin-bottom: 50px;
 }
 .container h2 {
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: 100;
     margin-left: 90px;
 }
 
 .lists {
     margin-left: 100px;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 100;
     margin-right: 60px;
 }
