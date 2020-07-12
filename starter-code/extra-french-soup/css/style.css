@@ -1,0 +1,86 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('../images/soup.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 115px;
+    font-weight: normal;
+}
+
+.intro {
+    height: 500px;
+    margin: 0 260px 0 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 5px rgb(116,116,116);
+}
+
+.intro > h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(116,116,116);
+}
+
+.ingredients {
+    height: 700px;
+    margin: 0 260px 0 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    border-bottom: solid 5px rgb(116,116,116);
+}
+
+.ingredients > h2 {
+    font-size: 28px;
+    color: rgb(93,93,93);
+}
+
+.ingredients > ul {
+    list-style-type: none;
+    font-size: 24px;
+    color: rgb(116,116,116);
+}
+
+.ingredients > img {
+    display: flex;
+    align-self: center;
+}
+
+.direction {
+    height: 500px;
+    margin: 0 260px 0 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    border-bottom: solid 5px rgb(116,116,116);
+}
+
+.direction > h2 {
+    font-size: 28px;
+    color: rgb(93,93,93);
+}
+
+.direction > ol {
+    font-size: 24px;
+    color: rgb(116,116,116);
+    padding-left: 50px;
+}
