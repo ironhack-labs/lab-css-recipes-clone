@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(68, 67, 67);
+    text-align: justify;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-recipe {
+    margin-top: 60px;
+}
+
+section {
+    padding: 0px 70px 20px 70px;
+}
+
+hr {
+    margin: 0 70px;
+    height: 2px;
+    background-color: darkgrey;
+}
+
+.recipe-image {
+    height: 50px;
+    padding-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.recipe-image-2 {
+    height: 70px;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    color: rgb(75, 73, 73);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ol {
+    list-style: none;
+    padding-left: 10px;
+    counter-reset: initial;
+    color: rgb(75, 73, 73);
+    font-size: 15px;
+}
+
