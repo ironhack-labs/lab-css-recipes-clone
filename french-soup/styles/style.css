@@ -7,3 +7,44 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h2 {
+  font-weight: lighter;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #000 url(/apple-pie/images/apple-pie.jpg) no-repeat center center;
+  color: white;
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+section .container {
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #b6b6b6;
+  padding: 4rem 0;
+}
+
+section .container img {
+  padding-top: 2rem;
+  align-self: center;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li::before {
+  content: '-';
+  padding-right: .5rem;
+}
