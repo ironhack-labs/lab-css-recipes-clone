@@ -53,3 +53,37 @@
     color: rgb(93,93,93);
     padding-bottom: 50px;
   }
+
+  .ingredients > ul {
+    list-style-type: none;
+    font-size: 24px;
+    color: rgb(116,116,116);
+    padding-bottom: 50px;
+  }
+  
+  .ingredients > img {
+    display: flex;
+    align-self: center;
+  }
+
+  .directions {
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    margin: 0 250px 0 250px;
+    border-bottom: solid 5px rgb(221,221,221);
+  }
+  
+  .directions > h2 {
+    font-size: 30px;
+    color: rgb(93,93,93);
+    padding-bottom: 50px;
+  }
+  
+  .directions > ol {
+    font-size: 24px;
+    color: rgb(116,116,116);
+    padding-bottom: 50px;
+  }
