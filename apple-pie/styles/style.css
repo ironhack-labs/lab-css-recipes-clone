@@ -16,3 +16,24 @@
     justify-content: center;
     align-items: center;
   }
+  .header > h1 {
+    color: white;
+    font-size: 120px;
+    font-weight: normal;
+  }
+  .grandma {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 250px 0 250px;
+    border-bottom: solid 5px rgb(221,221,221);
+  }
+
+  .grandma > p {
+    font-size: 30px;
+    color: rgb(116,116,116);
+    font-weight: normal;
+    padding-bottom: 70px;
+  }
