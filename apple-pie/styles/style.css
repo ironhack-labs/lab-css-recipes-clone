@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+#banner {
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+.jumbotron {
+    width: 80%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.cooking-info > p{
+    text-align: left;
+    margin: 10px auto;
+    width: 500px;
+    padding: 25px 0 25px 0;
+}
+
+.cooking-info > img{
+    display: block;
+    margin: 10px auto;
+    vertical-align: center;
+    width: 240px;
+}
+
+.rest {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.ingridients > img {
+    display: block;
+    margin: 10px auto;
+    vertical-align: center;
+    width: 300px;
+}
+
+ul {
+    padding: 15px 0 0 40px;
+}
+
+ol {
+    padding-top: 15px;
+}
