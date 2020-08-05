@@ -1,0 +1,108 @@
+body
+{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(158, 157, 157);
+}
+
+.header 
+ {
+    text-align: center;
+    color: black;
+    margin:0 2%;
+  }
+
+.relative
+{
+    margin-top: -75px;
+    position: relative;
+    text-align: center;
+    color: white;
+    height:100%;
+}
+
+.absolute
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.img
+{
+    width:75%;
+    height:55%;
+    transform: rotateX(45deg);
+    position: relative;
+}
+
+h1{
+  margin:0;
+  padding: 0;
+  position: absolute;
+  top:33%;
+  left:43%;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+h2{
+  color: #333;
+  font-weight: normal;
+}
+
+.container{
+  width: 65%;
+  margin:0 auto;
+  margin-top:-75px
+}
+
+.introduccion,
+.ingredientes
+{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.introduccion img,
+.ingredientes img{
+  display: block;
+  width: 40%;
+  margin:0 auto;
+  font-family: Arial;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.paragraph 
+{    
+  font-family: Arial;
+  font-weight: normal;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.ingredientes ul{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientes ul li{
+  padding: 0;
+  margin: 0;
+}
+
+.directions{
+  margin-bottom:70px;
+}
+
+.directions ol{
+  margin: 0;
+  padding: 0 15px;
+}
