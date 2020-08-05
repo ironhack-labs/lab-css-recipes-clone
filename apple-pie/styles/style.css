@@ -1,0 +1,55 @@
+body{
+    line-height: 2.2rem;
+}
+
+.introduction{
+    font-size: 130%;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    border-bottom: 4px solid gray;
+}
+
+
+
+.ingredients{
+    font-size: 130%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 4px solid gray;
+}
+
+.directions{
+    font-size: 130%;
+    margin-left: 50px;    
+    margin-right: 50px;
+
+}
+
+.ingredients ul {
+    list-style: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    font-size: larger;
+}
+
+#image {
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    bottom: 400px;
+    left: 550px;
+
+}
