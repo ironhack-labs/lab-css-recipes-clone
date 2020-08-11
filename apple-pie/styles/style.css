@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #403f3e;
+
+}
+
+header {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+.padding
+{
+    padding: 30px 150px 0px 150px;
+    font-size: 1rem;
+    
+}
+
+.recipe-info
+{
+    height: 80px;
+    padding: 2% 30%;
+    text-align: center;
+}
+
+.cooking-info {
+    height: 100px;
+    padding: 2% 30%;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+ul {
+list-style: "- ";
+}
+
+ol {
+    list-style:;
+}
+
