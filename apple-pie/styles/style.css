@@ -1,0 +1,109 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+#full-bg-header {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 153, 102, 0.2) url("../images/apple-pie.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+#full-bg-header h1 {
+	margin: 10px;
+	color: white;
+	font-size: 64px;
+	font-weight: normal;
+}
+
+#recipe-container {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start;
+	align-content: center;
+}
+
+#cooking-info {
+	height: 100px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.ingredient {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#recipe-img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+p {
+	text-align: left;
+	width: 40%;
+}
+
+ol {
+	counter-reset: list;
+}
+
+#ingredient h2 {
+	text-align: left;
+}
+
+#ingredient-actions .action {
+	list-style-type: none;
+}
+
+#ingredient-actions .action::before {
+	content: "- ";
+}
+
+ol > li {
+	list-style: none;
+}
+
+ol > li::before {
+	content: counter(list) ") ";
+	counter-increment: list;
+}
+
+#directions {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#directions ol li {
+	margin-left: 150px;
+	width: 60%;
+}
