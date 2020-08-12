@@ -1,0 +1,73 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: grey;
+}
+
+ul {
+    list-style: none;
+}
+h2 {
+    font-size: 17px;
+}
+
+
+#intro {
+    width: 1200px;
+    height: 35%;
+    padding: 10px 100px;
+    }
+.applepie-img {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#intro > div {
+    position: relative;
+    color: white;
+}
+
+#intro > div> h1 {
+    position: absolute;
+    top: 230px;
+    left: 540px;
+    font-size: 3em
+}
+
+#intro > p {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cooking-info-img {
+    width: 29%;
+    height: 50%;
+}
+
+#recipe, #direction{
+    padding: 10px 100px;
+}
+
+#recipe > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.recipe-info-img {
+    width: 29%;
+    height: 50%;
+
+}
+
+#direction {
+    margin-bottom: 50px;
+}
+
+
+/* .padding {
+    padding: 30px 150px 0px 150px;
+    font-size: 1rem;
+    align-items: center; */
