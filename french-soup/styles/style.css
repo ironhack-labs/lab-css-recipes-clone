@@ -7,3 +7,82 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+header, main {
+  width: clamp(10rem, 75%, 50rem);
+}
+
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 20rem;
+  display: grid;
+  place-items: center;
+}
+
+header > h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.section {
+  margin: 2rem;
+}
+
+.section h2 {
+  font-size: 1.25rem;
+}
+
+/* Section 1 - Intro */
+
+#intro img {
+  height: 3rem;
+}
+
+#intro div {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section 2 - Ingredients */
+
+#ingredients img {
+  height: 4rem;
+}
+
+#ingredients div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ingredients ul {
+  list-style-type: "- ";
+  padding-left: 1.5rem;
+}
+
+/* Section 3 - Directions */
+
+#directions ol {
+  counter-reset: my-awesome-counter;
+  list-style-type: none;
+  padding-left: 1.5rem; 
+}
+
+#directions ol li {
+  counter-increment: my-awesome-counter;
+}
+
+#directions ol li::before {
+  content: counter(my-awesome-counter) ") ";
+}
+
