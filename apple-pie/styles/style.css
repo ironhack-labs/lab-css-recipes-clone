@@ -14,7 +14,7 @@ body {
 }
 
 header, main {
-  width: clamp(10rem, 75%, 50rem);
+  width: clamp(10rem, 100%, 50rem);
 }
 
 header {
