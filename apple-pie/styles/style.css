@@ -1,5 +1,5 @@
 body{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #banner {
@@ -12,7 +12,7 @@ body{
 
 .bgsize{
     width: 100%;
-    height: 500px;
+    height: 600px;  
 }
 
 h1{
@@ -26,10 +26,24 @@ h1{
 
 .text{
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
 .imagen{
     width: 300px;
     margin: 10px auto;
     display: block;
+}
+
+.alinearTexto {
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+hr {
+    width: 80%;
 }
