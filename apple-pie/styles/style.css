@@ -1,0 +1,63 @@
+/*SECTION 1 HEADER*/
+.header {
+  color: white;
+}
+
+header h1 {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+header img {
+  width: 50%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*SECTION 2*/
+.description {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.description img {
+  align-content: center;
+  width: 30%;
+  height: 20%;
+}
+
+hr {
+  width: 70%;
+}
+
+/*SECTION 3 INGREDIENTS*/
+.ingredients {
+  margin-left: 10%;
+}
+
+.ingredients li {
+  list-style-type: none;
+}
+
+.ingredients img {
+  align-content: center;
+  width: 30%;
+  height: 20%;
+}
+
+/*SECTION 4 DIRECTIONS*/
+
+.directions {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.container {
+  margin: 20px 20px 50px;
+}
