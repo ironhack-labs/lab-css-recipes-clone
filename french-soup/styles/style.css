@@ -7,3 +7,110 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.introImage {
+  max-width: 100%;
+}
+
+.introContainer {
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50;
+  color: white;
+  animation-name: flip;
+  animation-duration: 5s;
+}
+
+li:hover {
+  color: plum;
+}
+
+.title:hover{
+  color: darkorchid
+}
+
+@keyframes example {
+  from {background-color:lavender;}
+  to {background-color: rebeccapurple;}
+}
+
+h2{
+  background-color: lavender;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes flip {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    
+  20%, 80% {
+      transform: translate3d(4px, 0, 0);
+    }
+  
+  30%, 50%, 70% {
+      transform: translate3d(-6px, 0, 0);
+    }
+  
+  40%, 60% {
+      transform: translate3d(6px, 0, 0);
+    }
+  }
+  
+  @keyframes topurple {
+    from {color:black;}
+    to {color: purple;}
+  }
+
+#image {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  animation-name: shake;
+  animation-duration: 8s;
+}
+
+p:hover{
+  color: black;
+  font-family: fantasy;
+  animation-duration: 3s;
+  animation-name: topurple;
+}
+
+hr {
+  border: 2px solid lightgray;
+  animation-name: flip;
+  animation-duration: 3s
+}
+
+@keyframes backgroundColor {
+  from {
+    background-color: none;
+  }
+  to {
+    background-color: rebeccapurple;
+  }
+}
+
+li {
+  animation-name: backgroundColor;
+  animation-duration: 8s;
+}
