@@ -1,0 +1,127 @@
+#soupPhoto {
+  max-width: 100%;
+  animation-name: flip;
+  animation-duration: 6s;
+}
+
+.introContainer {
+  position: relative;
+  text-align: center;
+}
+
+.Title {
+  font-family: fantasy;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  transition: ease-in 5s;
+}
+
+li::before {
+  content: "This one: ";
+}
+
+li:hover {
+  color: purple;
+}
+
+h2 {
+  color: bisque;
+  background-color: purple;
+  animation-name: flip;
+  animation-duration: 4s;
+  font-family: fantasy;
+}
+
+@keyframes example {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: purple;
+  }
+}
+
+@keyframes flip {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li {
+  font-size: 17px;
+  font-weight: bold;
+  color: orchid;
+  animation-name: example;
+  animation-duration: 3s;
+  list-style-type: none;
+  font-family: fantasy;
+}
+
+#opener {
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+p:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.picShake {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: shake;
+  animation-duration: 6s;
+}
+
+hr {
+  border: 2px solid lightgray;
+}
+
+.directions {
+  font-family: fantasy;
+}
+
+.everyOther {
+  background-color: aliceblue;
+  animation-name: flip;
+  animation-duration: 6s;
+}
+
+.slides {
+  transition: color linear 3s;
+}

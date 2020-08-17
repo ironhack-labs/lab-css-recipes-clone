@@ -1,0 +1,51 @@
+body {
+    font-family: "Helvetica Neue";
+    color: ; 
+}
+
+ hr {
+    border: 2px solid lightgray
+ }
+
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+
+ .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+ }
+
+ main {
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+
+ p img {
+     width: 350px;
+     margin: 0px 250px;   
+ }
+
+ span img {
+     width: 290px;
+     margin: 0px 270px;
+ }
+
+ #applePieImage {
+    max-width: 100%;
+    height: 600px;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ #intro {
+     font-size: 18px
+ }
+ 
