@@ -1,0 +1,130 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 75%;
+  margin: auto;
+}
+
+section {
+  margin: 50px;
+}
+
+hr {
+  border: 2px solid lightgray;
+  margin: 0 30px;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li:before {
+  content: "-";
+  padding-right: 8px;
+  color: black;
+}
+
+#applePieContainer {
+  position: relative;
+  text-align: center;
+}
+
+#applePie {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+#intro {
+  font-size: 18px;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+#ingredients {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+#directions {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+
+.cookingInfo {
+  text-align: center;
+  margin: 20px auto;
+}
+
+p img {
+  width: 400px;
+}
+
+@keyframes fade {
+  from {
+    font-size: 0px;
+    opacity: 0;
+  }
+  to {
+    font-size: 18px;
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  from {
+    max-width: 0%;
+    margin: auto;
+  }
+  to {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
