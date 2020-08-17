@@ -10,7 +10,7 @@ ul {
     width: 800px;
     height: 450px;
     margin-right: 1em;
-    background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
