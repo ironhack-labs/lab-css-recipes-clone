@@ -6,16 +6,139 @@
     <title>French Onion Soup Recipe</title>
     <!-- don't forget to link your styles -->
   </head>
+  <style>
+  
+    body{
+      margin-bottom: 100px;
+    }
+    h1{
+      background-image: url("images/soup.jpg");
+      background-position: center;
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-right: 200px;
+    margin-left:200px;
+    }
+    @keyframes paragraph{
+      from {
+        background-color: red;
+      }
+       to{
+         background-color: yellow;
+       }
+    }
+    .firstP{ 
+      font-family:Arial, Helvetica, sans-serif;
+      text-align:center;
+      font-size:1.5em; 
+      margin-right: 250px;
+      margin-left: 180px;
+      animation-name: paragraph;
+      animation-duration: 10s;
+    }
+
+    .firstPic, .secondPic{
+      margin-left: 500px;
+      width: 20%;
+      animation: spin 10s;
+    }
+    @keyframes spin{
+      from{
+        transform: rotate(0deg);
+      }
+      to{
+        transform: rotate(360deg);
+      }
+       }
+    
+    li{
+      list-style-type:none;
+    }
+    .title:hover{
+      color:green;
+    }
+    .title:active{
+      color:blueviolet;
+    }
+    @keyframes slidein{
+     from{
+       margin-left:100%;
+       width: 300%;
+      }
+      to{
+        margin-left:0;
+        width:100%;
+      }
+   }
+   h2{
+     animation-duration: 10s;
+     animation-name: slidein;
+     animation-iteration-count: infinite;
+   }
+     @keyframes fontbulger{
+       0%{
+         font-size: 10px;
+       }
+       50%{
+         font-size: 20px;
+       }
+       100%{
+         font-size: 40px;
+       }
+     }
+     ul{
+       animation: fontbulger 5s infinite;
+     }
+  
+
+   
+  
+ 
+   
+ 
+
+   
+    
+
+  
+  </style>
   <body>
-    French Onion Soup We have been trying French onion soup in restaurants for years and my family and friends agree
-    none can compare to my recipe for taste and simplicity of preparation. Ingredients 1/2 cup unsalted butter 2
-    tablespoons olive oil 4 cups sliced onions 4 (10.5 ounce) cans beef broth 2 tablespoons dry sherry (optional) 1
-    teaspoon dried thyme salt and pepper to taste 4 slices French bread 4 slices provolone cheese 2 slices Swiss cheese,
-    diced 1/4 cup grated Parmesan cheese Directions Melt butter with olive oil in an 8 quart stock pot on medium heat.
-    Add onions and continually stir until tender and translucent. Do not brown the onions. Add beef broth, sherry and
-    thyme. Season with salt and pepper, and simmer for 30 minutes. Heat the oven broiler. Ladle soup into oven safe
+    <div>
+      <h1 class="title">French Onion Soup </h1>
+    </div>
+    <p class="firstP">We have been trying French onion soup in restaurants for years and my family and friends agree
+    none can compare to my recipe for taste and simplicity of preparation. </p>
+    <img class="firstPic"src= "images/cooking-info.png"/>
+    <h2>Ingredients</h2>
+    <ul class="list-1">
+      <li>- 1/2 cup unsalted butter </li>
+      <li>- 2 tablespoons olive oil</li>
+      <li>- 4 cups sliced onions</li>
+      <li>- 4 (10.5 ounce) cans beef broth</li>
+      <li>- 2 tablespoons dry sherry (optional)</li>
+      <li>- 1 teaspoon dried thyme</li>
+      <li>- salt and pepper to taste</li>
+      <li>- 4 slices French bread</li>
+      <li>- 4 slices provolone cheese</li>
+      <li>- 2 slices Swiss cheese,
+        diced</li>
+        <li>- 1/4 cup grated Parmesan cheese</li>
+
+    </ul>   
+    <img class="secondPic" src="images/recipe-info.png" />
+    <h2> Directions</h2> 
+    <ul>
+    <li>1) Melt butter with olive oil in an 8 quart stock pot on medium heat.
+    Add onions and continually stir until tender and translucent. Do not brown the onions.</li>
+    <li>2) Add beef broth, sherry and
+    thyme. Season with salt and pepper, and simmer for 30 minutes.</li> 
+    <li>3)Heat the oven broiler. </li>
+    <li>4)Ladle soup into oven safe
     serving bowls and place one slice of bread on top of each (bread may be broken into pieces if you prefer). Layer
     each slice of bread with a slice of provolone, 1/2 slice diced Swiss and 1 tablespoon Parmesan cheese. Place bowls
-    on cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.
+    on cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.</li>
+    </ul>
   </body>
 </html>
