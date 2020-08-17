@@ -7,3 +7,72 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h1 {
+  font-size: 3em;
+  color: black;
+  display:block; 
+  position:absolute;
+  padding:10px;  
+  animation-name:change-position;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration:5s;
+  text-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+}
+.header {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+  padding-top: 50px;
+  position: relative;
+}
+.container {
+  padding: 50px;
+  font-size: 20px;
+}
+.info-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation: flash 2s ease-in-out 50 alternate;
+}
+ul {
+  list-style-type: none;
+}
+h4 {
+  animation: glow .5s ease-in-out infinite alternate;
+  font-color: grey;
+  font-size: larger;
+}
+@keyframes change-position {
+  0%{transform: translate(0px, 0px);
+    text-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+  }
+  15%{letter-spacing:5px;
+  }
+  25%{ letter-spacing:0;
+   transform:translate(73vw, 0px) scaleX(1.0); }
+  50%{transform:translate(73vw, 83vh);
+  letter-spacing:0px;}
+  65%{letter-spacing:5px;}
+  75%{letter-spacing:0px;
+    transform:translate(0vw, 83vh);
+  }
+  100%{    transform: translate(0px, 0px);}
+}
+@keyframes flash {
+  0%, 50%, 100% {opacity: 1;}
+  25%, 75%  {opacity: 0;}
+  }
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
