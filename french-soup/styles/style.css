@@ -7,3 +7,214 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/* Header */
+.soup {
+  height: 650px;
+  width: 100%;
+}
+
+.soup:hover{
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  animation: zoomOut 10s infinite;
+}
+
+@keyframes zoomOut {
+  0% {
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    border: 2px dotted #fff;
+    border-radius: 20px;
+    transform: scale(2.0) rotate(180deg);
+  }
+  100% {
+    border: 2px solid #fff;
+    border-radius: 45px;
+    color: sienna;
+    transform: scale(1.1) rotate(360deg);
+  }
+}
+
+/* Section 1 */
+
+#french-soup {
+  padding-bottom: 20px;
+}
+
+#french-soup p {
+  color: #136113;
+  animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Container */
+.container {
+  padding: 60px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    background-color: #333;
+  }
+}
+
+/* Ingredients Section */
+#ingredients {
+  padding-top: 20px;
+}
+
+.step {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid red;
+  background: #f3f3f3;
+  box-sizing: border-box;
+}
+.steps {
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  background: #333;
+  height: 100%;
+}
+
+.step:hover > .steps{
+  top: 0;
+}
+
+#ingredients ul {
+  list-style: none;
+  animation: colorChange 10s infinite;
+}
+
+#ingredients li:hover {
+  box-shadow:
+    1px 1px #66993c,
+    2px 2px #ddad0f,
+    3px 3px #f100a9;
+    transform: translateX(-3px);
+}
+
+@keyframes colorChange {
+  0% {
+    color: #f4f4f4;
+  }
+  50% {
+    color: salmon;
+  }
+  100% {
+        color: #B84F39;
+}
+}
+
+.recipe-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 40px;
+  animation: spin 10s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+h2 {
+  animation: sideslide 2s infinite;
+}
+
+@keyframes sideslide {  
+  0% {
+      transform: translate3d(0px, 0px, 0px);
+    }
+  50% {
+      transform: translate3d(300px, 00px, 0px);
+      color: salmon;
+    }
+  100% {
+    transform: translate3d(-50px, 00px, 0px);  
+    color: #B84F39;
+  }
+}
+
+/* Direction Section */
+#directions p {
+  animation: sliding 3s infinite alternate;
+}
+
+@keyframes sliding {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Horizontal Line */
+.horizontal-line {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    animation: hrline 2s infinite;
+}
+.horizontal-line:after { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+@keyframes hrline {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
