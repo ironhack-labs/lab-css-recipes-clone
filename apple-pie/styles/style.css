@@ -1,0 +1,30 @@
+*{
+    font-family: Ariel, Arial, Helvetica, sans-serif;
+}
+
+.pie {
+    position: block;
+    width: 100%;
+    height:650px;
+}
+h1 {
+    font-size: 80px;
+    letter-spacing:2px;
+    color:white; 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+article {
+    padding: 50px 100px 50px 100px;
+    
+}
+
+.image-bar {
+    width: 40%;
+    padding-left: 35%;
+    padding-right:35%;
+    border-bottom: 3px solid lightgray;
+}
