@@ -7,6 +7,8 @@ body {
   background-image: url('../images/apple-pie.jpg');
   background-position: center;
   background-size: cover;
+  width: 100vw;
+  margin: 0px;
 }
 .titulo {
   display: flex;
@@ -18,15 +20,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 15rem;
-  margin-bottom: 15rem;
 }
+
+.titulo h1 {
+  padding-top: 15rem;
+  padding-bottom: 30rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .bordas {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 16rem;
-  margin-right: 16rem;
+  margin-left: 10vw;
+  margin-right: 10rem;
 }
 
 #descricao {
@@ -39,14 +47,15 @@ body {
   justify-content: center;
 }
 
-.subtitulo {
-}
-
-.subititulo ul > li {
+.ingredientes ul > li {
   list-style-type: none;
 }
 
-.subtituloImage {
+.ingredientsInfo {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.directions h2 {
 }
