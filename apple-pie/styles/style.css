@@ -6,7 +6,7 @@ body {
   display: flex;
   background-image: url('../images/apple-pie.jpg');
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 .titulo {
   display: flex;
@@ -33,10 +33,20 @@ body {
   display: flex;
   font-size: 1.5rem;
 }
+
+.cookingInfo {
+  display: flex;
+  justify-content: center;
+}
+
 .subtitulo {
+}
+
+.subititulo ul > li {
+  list-style-type: none;
 }
 
 .subtituloImage {
   display: flex;
-  margin: 0 auto 0 auto;
+  justify-content: center;
 }
