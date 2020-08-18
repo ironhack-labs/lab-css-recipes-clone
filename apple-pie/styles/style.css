@@ -1,12 +1,13 @@
 body {
   margin: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .titulo2 {
   display: flex;
-  background-image: url('../images/apple-pie.jpg');
+  background-image: url("../images/apple-pie.jpg");
   background-position: center;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .titulo {
   display: flex;
@@ -38,5 +39,5 @@ body {
 
 .subtituloImage {
   display: flex;
-  margin: 0 auto 0 auto;
+  margin: 00 auto 0 auto;
 }
