@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-left: 10vw;
-  margin-right: 10rem;
+  margin-right: 10vw;
 }
 
 #descricao {
@@ -55,7 +55,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.directions h2 {
 }
