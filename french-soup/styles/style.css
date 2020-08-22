@@ -1,9 +1,82 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+.soupImg {
+  display: flex;
+  background-image: url('../images/soup.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 110vh;
+  margin: 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.soupImg h1 {
+  color: white;
+  display: flex;
+  font-size: 15vh;
+  box-sizing: border-box;
+  padding-top: 40vh;
+  font-weight: 500;
+}
+
+.soupInfo {
+  box-sizing: content-box;
+  justify-content: center;
+  align-content: center;
+  padding: 10vh 10vw;
+  margin-top: 50px;
+}
+
+.descricao p {
+  display: flex;
+  font-size: 4.9vh;
+}
+
+.recipeInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.recipeInfo img {
+  display: flex;
+  width: 37vw;
+  padding-bottom: 50px;
+}
+
+.ingredientsInfo h2 {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 5vh;
+}
+
+.ingredientsInfo ul > li {
+  list-style-type: '- ';
+  font-size: 3.5vh;
+}
+
+.cookingInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.cookingInfo img {
+  display: flex;
+  width: 37vw;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.directions ol > li {
+  font-size: 3.5vh;
 }
