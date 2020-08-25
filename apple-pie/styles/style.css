@@ -23,18 +23,20 @@
 
 .description {
     text-align: center;
+    font-size: 1.2em;
 }
 
-.recipeInfo {
-}
-
-.infoContainer {
-
-}
-
+.recipeInfo,
 .cookingInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.infoContainer {
+.recipeInfo :first-child,
+.cookingInfo :first-child {
+    max-width: 40vh;
+    margin: 0 auto;
 
 }
+
