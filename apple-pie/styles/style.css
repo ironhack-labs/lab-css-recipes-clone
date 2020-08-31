@@ -1,0 +1,106 @@
+header {
+    margin: 0em;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 96rem;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    box-sizing: border-box;  
+}
+
+/*section-1*/ 
+
+h1{ 
+    font-size: 3em;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', 'Not Sans JP','Poppins';
+    margin: 0em;
+    padding: 0em;
+  }
+
+div{
+    margin: 5em;
+}
+
+.picture{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+img{
+    height: 70px;
+}
+
+/*section-2*/ 
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    /*height: 300px;*/
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: black;
+}
+
+/*section-3*/ 
+
+h2{ 
+    font-size: 1.5em;
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+}
+
+ul{
+    /*justify-self: left;*/
+    list-style: disc outside none; 
+    margin-left: 0; 
+    font-size: 1em;
+    font-weight: 200;
+    text-indent: -1.5em; 
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.section-3{
+    border-top: 2px solid lightgrey;
+}
+
+/*section-4*/ 
+.section-4{
+    border-top: 2px solid lightgrey;
+}
+
+ol{
+    justify-self: left;
+    list-style: disc outside none; 
+    margin-left: 0; 
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: 200;
+}
