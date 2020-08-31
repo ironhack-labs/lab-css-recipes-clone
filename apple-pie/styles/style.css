@@ -1,0 +1,46 @@
+
+body {
+    font-family: sans-serif;
+  }
+
+#text {
+    margin-right: 680px;
+    margin-left: 100px;
+}
+
+#recipe-info {
+height: 60px;
+margin-left: 240px;
+}
+
+#instructions-info {
+height: 70px;
+margin-left: 180px;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 40;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 25;
+    text-align: left;
+}
+
+.background-image {
+    width: 900px;
+    height: 750px;
+}
