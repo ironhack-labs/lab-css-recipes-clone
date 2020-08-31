@@ -1,0 +1,61 @@
+body {
+  color: rgba(71, 53, 53, 0.74);
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+ol {
+  line-height: 20px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainImage {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
+h1 {
+  position: absolute;
+  /* top: 50%;
+    left: 50%;     */
+  font-size: 50pt;
+  text-align: center;
+  color: white;
+}
+
+section {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 14pt;
+}
+
+.recipe-info {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cooking-info {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
