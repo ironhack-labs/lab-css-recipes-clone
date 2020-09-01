@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height : 650px;
+  background-image : url(/Users/laurence.rega/Documents/Laurence/ironhack/HTML-CSS-JS/Recipes-clone/lab-css-recipes-clone/apple-pie/apple-pie.jpg);
+  background-position : 0 0;
+  background-repeat : no-repeat;
+  background-size : cover;
+  padding-top : 50px;
+  position : relative; 
+}
+
+h1 {font-size : 9em;
+    text-align : center;
+    position : relative;
+    top : 200px;
+    font-size : 60PX;
+    color : white;
+  }
+
+.recipe{
+    width : 800px;
+    margin: 150px;
+}
+
+
+
+
