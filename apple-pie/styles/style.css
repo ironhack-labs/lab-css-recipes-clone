@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: Helvetica;  
+  font-size: 10px;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica;
+}
+
+header{
+    position: relative;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.Sec-Intro{
+    margin: 0 10em 0 10em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+}
+
+.Sec-Intro p{
+    font-size: 2em;
+    text-align: left;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 10em 0em 10em ;
+    
+}
+
+.info div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0 1em;
+    
+}
+
+.info div i{
+    font-size: 2em;
+    color: grey;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.info div p{
+    font-size: 2em;
+    color: grey;
+}
+
+/* */
+
+hr{
+    margin: 0 10em 0 10em ;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+/* */
+
+.Sec-Ingridients{
+    margin: 0 10em 0 10em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+}
+
+.Sec-Ingridients div{
+    border: 1pt solid grey;
+    border-radius: 4pt;
+    padding: 20px;
+}
+
+.Sec-Ingridients div ul{
+    font-size: 2em;
+    text-align: left;
+    list-style: none;
+    line-height: 2em;
+    margin-top: 1.5em;
+}
+
+h2{
+font-size: 2.5em;
+}
+
+
+/* */
+
+.Sec-Directions{
+    margin: 0 10em 10em 10em ;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+}
+
+.Sec-Directions p{
+    font-size: 2em;
+    text-align: left;
+    list-style: none;
+   
+    margin-top: 1.5em;
+}
