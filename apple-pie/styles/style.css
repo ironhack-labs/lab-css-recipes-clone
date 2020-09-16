@@ -8,11 +8,10 @@ body {
 }
 
 .background__image {
-    padding:  400px;       
+    padding:  500px;       
     background-image: url(../images/apple-pie.jpg);
     background-position: 0 -50px; 
 	background-size: cover;
-
 }
 
 section {
@@ -32,10 +31,12 @@ p {
 
 h1 {
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    width: 800px;
+    font-size: 80px;
+    text-align: center;
 }
 
 .image__recipe {
