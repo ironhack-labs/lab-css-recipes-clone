@@ -18,6 +18,14 @@ img {
   height: auto;
 }
 
+main {
+  padding: 50px 100px;
+}
+
+main div {
+  padding: 20px;
+}
+
 /*  Section 1  */
 #section-01 {
   background-image: url("../images/apple-pie.jpg");
