@@ -1,9 +1,63 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/*  General  */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+img {
+  max-width: 320px;
+  max-height: 65px;
+  width: auto;
+  height: auto;
+}
+
+main {
+  padding: 50px 100px;
+}
+
+/*  Section 1  */
+#section-01 {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 30px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*  Section 2  */
+#section-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*  Section 3  */
+#section-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#section-03 ul {
+  list-style-type: "-";
+}
+
+#section-03 img {
+  align-self: center;
+}
+
+/*  Section 4  */
+#section-04 ul {
+  list-style-type: none;
 }

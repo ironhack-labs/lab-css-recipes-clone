@@ -1,11 +1,24 @@
-/*  Section 1  */
+/*  General  */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
 img {
-  max-width: 300px;
-  max-height: 70px;
+  max-width: 320px;
+  max-height: 65px;
   width: auto;
   height: auto;
 }
 
+/*  Section 1  */
 #section-01 {
   background-image: url("../images/apple-pie.jpg");
   background-position: center;
@@ -25,7 +38,6 @@ img {
   align-items: center;
 }
 
-
 /*  Section 3  */
 #section-03 {
   display: flex;
@@ -43,5 +55,5 @@ img {
 
 /*  Section 4  */
 #section-04 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
