@@ -76,8 +76,6 @@ ol {
 }
 
 
-
-
 ol.list__directions li {
     list-style-type: none;
     counter-increment: cnt;
