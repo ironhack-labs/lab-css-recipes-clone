@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1, body, html, main {
+    margin: 0;
+  }
+
+
+body {
+    font-family: roboto;
+    font-style: roboto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.recipeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeImg img {
+    width: 90%;
+}
+
+.recipeDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+.ingredients {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ingList {
+    list-style: '- ';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cookImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookImg img {
+    width: 65%;
+}
+
+.directions {
+    padding: 5% 10%;
+}
+
+.dirList {
+    list-style: none;
+}
+
+hr {
+    border: none;
+    background-color: grey;
+    color: grey;
+    height: 2px;
+    width: 80%;
+}
