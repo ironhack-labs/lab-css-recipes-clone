@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background__image {
+    padding:  400px;       
+    background-image: url(../images/apple-pie.jpg);
+    background-position: 0 -50px; 
+	background-size: cover;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.image__recipe {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.container__info{
+    border-top: 2px solid grey;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.item__recipe {
+    list-style: none;
+}
+
+.item__recipe:before {
+    content: '- ';
+}
+
+
+.image__directions {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+
+
+
+ol.list__directions li {
+    list-style-type: none;
+    counter-increment: cnt;
+
+}
+
+ol.list__directions0 li {
+    list-style-type: none;
+}
+
+ol.list__directions li:before {
+    display: marker;
+    content: counter(cnt) ")";
+}
