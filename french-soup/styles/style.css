@@ -5,5 +5,78 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    color: rgb(53, 51, 51);
+}
+
+.header {
+  background-image: url(../images/soup.jpg);
+  height: 650px;
+  background-repeat: none-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro > p {
+    width:60%;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+picture > img {
+    width: 300px;
+}
+
+hr {
+    height: 2px;
+    width:64%;
+    background-color: rgb(190, 190, 182);
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > section {
+    width: 60%;
+}
+
+ul{
+    padding-inline-start: 16px;
+}
+
+.ingredients ul {
+    list-style: "- "
+}
+
+.directions ul {
+    list-style: none;
 }
