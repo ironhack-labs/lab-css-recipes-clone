@@ -1,0 +1,52 @@
+body {
+    background-color:
+}
+
+/*#applePie {
+    height: 300px;
+    width: 100%;
+}*/
+
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.sectionContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cookingInfo {
+    height: 50px;
+}
+
+.cookingImage {
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: "-";
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
