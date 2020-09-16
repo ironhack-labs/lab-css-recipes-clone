@@ -1,5 +1,6 @@
 body {
-    background-color:
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /*#applePie {
@@ -27,11 +28,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 40px;
 }
 
 #cookingInfo {
     height: 50px;
+    margin-bottom: 40px;
 }
 
 .cookingImage {
@@ -50,3 +52,8 @@ ul {
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.lastSection {
+    margin-bottom: 40px;
+  }
