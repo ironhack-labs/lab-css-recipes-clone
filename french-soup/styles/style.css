@@ -7,3 +7,62 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.onion-soup {
+  padding: 400px;
+  background-image: url(../images/soup.jpg);
+  background-position: 0 -50px;
+  background-size: cover;
+}
+
+.soup {
+  width: 1000px;
+  margin: 50px;
+}
+
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 900px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.image__recipe {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.info {
+  border-top: 2px solid grey;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style-type: "-";
+
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style-type: none;
+
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+
+}
