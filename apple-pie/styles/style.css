@@ -1,3 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
 
 
@@ -12,11 +24,16 @@
     text-align: center;
 }
 
-.first {
+.alignedcenter {
+    width: 1000px;
+    height: 50px;
+}
+
+/* .first {
     display: flex;
     justify-content: center;
     
-}
+} */
 
 ul li {
     list-style-type: "-";
@@ -87,7 +104,7 @@ ol > li:before {
     margin-right: 195px;
   }
 
-  .img-recipe {
+  .cook {
     display: block;
     margin-left: 195px;
     margin-right: 195px;
@@ -98,3 +115,5 @@ ol > li:before {
     margin-left: 195px;
     margin-right: 195px;
   }
+
+ 
