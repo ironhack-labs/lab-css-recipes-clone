@@ -4,5 +4,7 @@ body {
 }
 
 header{
-    background-image: url("apple-pie.jpg");
+    background-image: url(":/images/apple-pie.jpg");
+    position: fixed;
+    height: 600px;
 }
