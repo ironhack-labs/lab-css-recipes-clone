@@ -1,0 +1,17 @@
+.html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headerBackground {
+    background-image: url(/Users/cg.lozarojas/Desktop/Ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+
+}
