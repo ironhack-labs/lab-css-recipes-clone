@@ -1,0 +1,19 @@
+body {
+    padding: 10%;
+}
+
+#background {
+    background-image:url(/Users/galatorres/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    height: 50vh;
+}
+    h1{
+        color:white;
+        text-align: center;
+        font-size: 200%;
+        text-align: center;
+        padding: 10%;
+    }
+    .GralInfo{
+        text-align: justify;
+        margin-top: 5%;
+    }
