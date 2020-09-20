@@ -1,0 +1,41 @@
+.center-content{
+    text-align: center;
+}
+
+#apple-pie{
+    width: 70%;
+    height: 600px;
+}
+
+h1{
+    position: absolute;
+    top: 220px;
+    left: 40%;
+    color: white;
+    font-size: 70px;
+}
+
+#description{
+    font-size: 32px;
+}
+
+hr{
+    margin: 30px 18%;
+}
+
+.list{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.tab-content{
+    padding-left: 20%;
+}
+
+#cooking-info{
+    height: 94px;
+    margin-top: 30px;
+}
