@@ -1,19 +1,50 @@
 body {
-    padding: 10%;
+    margin: 2%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 1.2em;
 }
 
 #background {
     background-image:url(/Users/galatorres/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
-    height: 50vh;
+    height: 100 vhp;
 }
     h1{
         color:white;
         text-align: center;
-        font-size: 200%;
+        font-size: 3em;
         text-align: center;
-        padding: 10%;
+        padding: 15%;
     }
+
     .GralInfo{
         text-align: justify;
+        margin-bottom: 2%;
+        font-size:1.5em ;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 5%;
+    }
+
+    .cookingdirections{
+        margin-top: 2%;;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .cookinginfo{
+      margin-top: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    hr{
+     margin: 20px auto 30px auto;
+     width: 98%;
+     border: 2px solid #969696;
+    }
+
+    section img{
+        margin: 1% 25% 1% 25%;
+        width: 45%;
+        height: 45%;
     }
