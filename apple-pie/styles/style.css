@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.recipe-header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-header h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: lighter;
+}
+
+.recipe {
+    padding: 80px 150px;
+    color: gray;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
