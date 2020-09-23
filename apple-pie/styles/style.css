@@ -1,58 +1,82 @@
 body {
-    font-family: 'Poppins';
-
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* #background-image {
-    width: 1000px;
-    height: 500px;
-    padding: 5px 100px;
+hr {
+    width: 750px;
+    margin: auto;
+}
 
-}*/ 
-
-.banner {
-    background-image: url("../images/apple-pie.jpg");
-    background-size: 100%;
-    height: 500px;
+.header {
     display: flex;
+    background-image: url("../images/apple-pie.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
     justify-content: center;
     align-items: center;
-    
-}
-
-.banner-title {
     color: white;
     font-size: 40px;
 }
 
-.intro,
-.ingredients,
-.directions {
-    width: 800px;
-    padding: 30px 200px;
-
-
+.section-one, .section-two, .section-three { 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   width: 750px;
+   margin: auto;
+   padding: 25px;
+   text-align: justify;
+   color: rgb(102, 102, 102);
 }
 
-p {
-    font-size: 18px;
-}
-
-hr {
-    width: 900px
-}
-
-
-.info-image {
-    width: 350px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 225px 0px;
+.section-three {
+    padding: 0px 0px 50px 0px;
 }
 
 .heading {
-    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.description {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.recipe-image {
+    align-self: center;
+    height: 65px;
+    padding: 10px;
+}
+
+.cooking-image {
+    align-self: center;
+    height: 80px;
+    padding: 15px 0px 10px 0px;
+}
+
+ul > li {
+    list-style-type: "- ";
+    font-size: 17px;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: none;
+    counter-reset: steps;
+    font-size: 17px;
 
 }
+
+ol > li {
+    counter-increment: steps;
+}
+
+ol > li:before {
+    content: counter(steps)") ";
+}
+
