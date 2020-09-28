@@ -63,6 +63,10 @@ ol, ul {
     list-style-type: '- ';
 }
 
+ol {
+    counter-reset: list;
+  }
+
 ol > li {
     list-style: none;
 }
