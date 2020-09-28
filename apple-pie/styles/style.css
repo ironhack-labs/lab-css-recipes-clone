@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    margin: 50px;
+    font-size: 14px;
+}
+header {
+    text-align: center;
+    align-content: center;
+    background-image: url(../images/apple-pie.jpg);
+    color: white;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.miniInfos {
+     align-content: center;
+     width: 25%;
+     margin: 40px auto;
+     display: block;
+}
+
+.guiones {
+    list-style-type: '-';
+}
+
+ol {
+    list-style-type: none;
+}
+
+.textProperties{
+    margin: 0 70px;
+}
+
+p.textProperties {
+    margin: 40px 70px;
+}
+
+hr {
+    margin: 40px 70px;
+}
+
+li {
+    margin-left: 10px;
+}
