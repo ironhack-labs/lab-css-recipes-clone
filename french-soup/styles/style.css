@@ -8,8 +8,8 @@ main {
 
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 }
 
 main {
-  padding: 0 70px;
+  padding: 0 300px;
 }
 
 section {
@@ -43,7 +43,7 @@ section {
   font-size: 1.3em;
 }
 
-.introduction img {
+img {
   width: 500px;
 }
 
