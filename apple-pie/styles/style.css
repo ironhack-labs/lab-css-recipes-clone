@@ -44,11 +44,11 @@ article {
     margin: 0 32.5%
 }
 
-li {
+ul > li {
     list-style-type: none;
 }
 
-li:before {
+ul > li:before {
     content: '- ';
 }
 
