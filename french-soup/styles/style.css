@@ -7,3 +7,57 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+body {
+  font-size: 17px;
+  color: grey;
+}
+#background {
+  width: 90%;
+  height: 600px;
+}
+
+figure {
+  position: relative;
+  text-align: center;
+  margin: 0px 0px -300px 0px;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+}
+
+main {
+  margin-top: 350px;
+}
+
+article {
+  position: relative;
+  width: 70%;
+  margin: 0 15% 50px;
+}
+
+.widget {
+  width: 35%;
+  margin: 0 32.5%
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: '- ';
+}
+
+hr {
+  width: 70%;
+  border: 1.5px solid grey;
+}
