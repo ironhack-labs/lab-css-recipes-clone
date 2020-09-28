@@ -1,0 +1,65 @@
+*{
+    font-family:'Montserrat', sans-serif;;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 60px;
+}
+
+header{
+    background-image: url("../images/apple-pie.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Por algún motivo que desconozco google chrome no me deja poner expresiones abreviadas. Si las pongo no me las aplica.*/
+.centrado{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+h2{
+    font-weight: bold;
+    font-size: 33px;
+    padding-left: 80px;
+}
+.img-texto{
+    margin-left: 35%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+    }
+ul li:before { content: "- ";}
+
+.list{
+    padding-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 28px;
+    float: left;
+    
+}
+
+li{
+    margin:2px;
+}
+
+section hr{
+    margin: 20px auto 30px auto;
+    width: 92%;
+}
