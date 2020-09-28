@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 280px;
+    height: 305px;
     width:100%;
     padding: 5px;
 }
@@ -26,6 +26,7 @@ h1{
     color: white;
     margin: 90px;
     font-size: 3em;
+    font-weight: 300;
 }
 
 main{
@@ -41,7 +42,7 @@ h2{
 }
 
 img {
-    max-width: 60%;
+    max-width: 45%;
     height: auto;
     margin-left:25%
 }
