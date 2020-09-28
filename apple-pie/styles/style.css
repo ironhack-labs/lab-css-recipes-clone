@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    align-content: center;
+    padding: 10px, 40px;
+}
+
+#header {
+    color: white;
+    background-size: cover;
+    height: 850px;
+    text-align: center;
+    padding: 40px;
+    font-size: 9em;
+    font-weight: normal;
+  }
+
+.description {
+    padding: 0px, 200px, 0px, 200px;
+    align-items: center;
+}
+
+
+
+
+
