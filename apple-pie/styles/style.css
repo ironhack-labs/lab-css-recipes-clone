@@ -5,20 +5,21 @@
     flex-direction: column;
     color: gray;
     font-size: 20px;
+    align-content: center;
 }
 
 header {
-    font-size: xx-large;
+    font-size: 300%;
     display: flex;
     text-align: center;
     position: absolute;
-    padding: 200px;
+    padding: 250px;
     color: white;
     font-weight: bold;
 }
 
 .apple {
-    width: 500px;
+    width: 800px;
     height: 500px;
     margin: 30px 10px;
 }
@@ -28,4 +29,5 @@ header {
 
 .information {
     width: 500px;
+    height: 100px;
 }
