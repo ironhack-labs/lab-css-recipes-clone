@@ -1,0 +1,72 @@
+body{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 400px;
+}
+
+header {
+  background-image: url("//wsl$/Ubuntu/home/curtido/githubproyectos/cloneapple/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  width: 700px;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+h1{
+   text-align: center;
+   padding-top: 200px;
+   color: white;
+   font-weight: 100;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 50px;
+}
+
+div > h2,
+h2 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+
+.section1 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+}
+
+.section2 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+}
+
+.section3 {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+  text-align: justify;
+}
