@@ -6,6 +6,7 @@
     color: gray;
     font-size: 20px;
     align-content: center;
+    margin: 0px 30px;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     display: flex;
     text-align: center;
     position: absolute;
-    padding: 250px;
+    padding: 250px 300px;
     color: white;
     font-weight: bold;
 }
@@ -21,13 +22,20 @@ header {
 .apple {
     width: 800px;
     height: 500px;
-    margin: 30px 10px;
+    margin: 30px 100px;
 }
 .title {
     color: black;
+    display: flex;
+    
+}
+
+article {
+    margin: 20px 80px;
 }
 
 .information {
     width: 500px;
     height: 100px;
+    margin: 30px 200px;
 }
