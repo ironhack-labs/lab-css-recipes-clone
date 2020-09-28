@@ -1,0 +1,45 @@
+.imgPortada {
+  display: block;
+  width: 1200px;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pSection1 {
+text-align: center;
+
+margin-top: 80px;
+font-size: xx-large;
+}
+
+.imgPequena {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 55%;
+  
+}
+
+.section2 {
+  display: block;
+}
+.h3 {
+  font-size: 2em;
+  margin-left: 22%;
+}
+
+.listas {
+  margin-left: 22%;
+  font-size: xx-large;
+  margin-right: 20%;
+}
