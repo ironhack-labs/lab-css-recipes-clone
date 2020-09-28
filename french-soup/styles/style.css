@@ -7,3 +7,52 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  color: gray;
+  font-size: 20px;
+  align-content: center;
+  margin: 0px 30px;
+}
+
+header {
+  font-size: 300%;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  padding: 250px 200px;
+  color: white;
+  font-weight: bold;
+}
+
+.onion-soup {
+  width: 800px;
+  height: 500px;
+  margin: 30px 100px;
+}
+.title {
+  color: black;
+  display: flex;
+  margin: 20px;
+  
+}
+
+article {
+  width: 700px;
+  margin: 10px 100px;
+}
+
+.information {
+  width: 500px;
+  height: 100px;
+  margin: 30px 200px;
+}
+
+li {
+  width: 700px;
+  margin: 0.5px 50px;
+}
