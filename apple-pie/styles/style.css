@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    max-width: 780px;
+    margin: auto;
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 480px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 3.6em;
+    color:white;
+}
+
+.details > p {
+    font-size: 1.1em;
+}
+
+section {
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-img {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+ol, ul {
+    margin-left: 20px;
+    font-size: 0.95em;
+}
+
+.ingredients-list {
+    list-style-type: '- ';
+}
+
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
