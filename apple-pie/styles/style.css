@@ -27,15 +27,21 @@ header {
 .title {
     color: black;
     display: flex;
+    margin: 20px;
     
 }
 
 article {
     margin: 20px 80px;
+    margin-right: 500px;
 }
 
 .information {
     width: 500px;
     height: 100px;
     margin: 30px 200px;
+}
+
+ol li {
+    margin: 10px;
 }
