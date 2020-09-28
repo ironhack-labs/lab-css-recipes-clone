@@ -1,0 +1,55 @@
+*{
+    font-family:"verdana";
+    font-style:normal;
+    font-weight:normal;
+  }
+  header{
+    background: url('https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true')  no-repeat;
+     background-size: cover;
+    width:98vw;
+    height:50vw;
+    margin-left:7px;
+  }
+  .articulo{
+    font-size:22px;
+    text-align:justify;
+    margin-left:195px;
+    margin-right:200px;
+    margin-top:80px;
+    margin-bottom:80px;
+    
+  }
+  .imagen{
+    margin-left:540px;
+  }
+  .imagen1{
+    margin-left:440px;
+  }
+  ul{
+    margin-left:200px;
+    margin-bottom:60px;
+  }
+  h1{
+    font-size:70px;
+    font-weight:normal;
+    color:white;
+    text-align:center;
+    padding-top:300px;
+    }
+  h2{
+    margin-left:200px;
+  }
+  pre{
+    margin-left:225px;
+    text-align:justify;
+   }
+  .titulo1{
+    margin-top:60px;
+  }
+  .titulo2{
+    margin-top:50px;
+  }
+  hr{
+    margin-left:200px;
+    margin-right:16px;
+  }
