@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+h1{
+    text-align: center;
+}
+
+header img{
+    margin: auto;
+    width: 100%;
+}
