@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    color: gray;
+    font-size: 20px;
+}
+
+header {
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    padding: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.apple {
+    width: 500px;
+    height: 500px;
+    margin: 30px 10px;
+}
+.title {
+    color: black;
+}
+
+.information {
+    width: 500px;
+}
