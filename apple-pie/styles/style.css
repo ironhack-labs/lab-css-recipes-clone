@@ -1,0 +1,60 @@
+body {
+    font: 1em;
+}
+
+.apple-img {
+    width: 60%;
+    height: 600px;
+    margin-left: 20%;
+}
+
+.pie {
+    font-size: 5em;
+    text-align: center;
+    color: black
+}
+
+.first-art {
+    width: 50%;
+    font-size: 1.4em;
+    margin-left: 25%;
+}
+
+.cook-img {
+    width: 24%;
+    height: 60px;
+    margin-left: 38%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+hr {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.big-letter {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.5em;
+}
+
+
+.small-letter, .small-letter2 {
+    width: 50%;
+    margin-left: 26%;
+    font-size: 1.2em;
+}
+.small-letter {
+    height: 5px;
+}
+.small-letter2 {
+    height: 40px;
+}
+
+.prep-img {
+    width: 20%;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
