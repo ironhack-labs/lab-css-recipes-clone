@@ -1,0 +1,41 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1000px;
+    
+    }
+
+    header {
+        background-image: url("images/apple-pie.jpg");
+        height: 700px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        padding:350px;
+    
+       }
+
+    section {
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        margin: 70px;
+        
+    }
+
+    .img2   {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-bottom: 2px solid grey;
+    }
+
+    
