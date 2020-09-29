@@ -1,9 +1,20 @@
 .imgPortada {
   display: block;
-  width: 1200px;
   height: 850px;
+  width: 1200px;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.imgPortada-h1{
+  color: #fff;
+  font-size: 55px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
 }
 
 .pSection1 {
@@ -27,7 +38,7 @@ font-size: xx-large;
   margin-bottom: 30px;
   margin-left: auto;
   width: 55%;
-  
+
 }
 
 .section2 {
