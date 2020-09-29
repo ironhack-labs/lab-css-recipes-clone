@@ -1,0 +1,54 @@
+*{
+    font-family: "Optima";
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: white;
+    font-size: 75px;
+}
+
+.applepie{
+    width: 1000px;
+    height:500px;
+    display: block;
+    object-fit: cover;
+    display:block;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.cooking{
+    width: 350px;
+    display:block;
+    margin:auto;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+  }
+
+  header{
+      font-size: 20px;
+      padding: 20px;
+      font-weight: bold;
+  }
