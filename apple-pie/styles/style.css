@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+p{
+    width:37%;
+    height:95px;
+   text-align: justify;
+   margin-top: 50px;
+   margin-left: 450px;
+   display: flexbox;
+   align-items: center;
+}
+
+hr{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.ingredients hr{
+    width: 57.5%;
+    margin-left: 0%;
+}
+.presentacion{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.recipe{
+    width: 20%;
+    display: flex;
+    align-content: center;
+    margin-left: 590px;
+    
+}
+
+.cooking{
+    width: 30%;
+    display: flex;
+    align-content: center;
+    margin-left: 160px;
+    margin-top: 50px;
+    
+}
+
+.ingredients{
+    margin-top: 50px;
+    margin-left: 30%;
+    text-align: left;
+}
+
+.directions{
+    margin-top: 50px;
+    margin-left: 30%;
+    text-align: left;
+}
+
+ul li{
+    margin-left: 3%;
+}
+
+.directions ol{
+    width:80%;
+    height:200px;
+}
+
+ol li{
+    width:66%;
+    margin-left: 3%;
+    text-align: justify;
+}
