@@ -1,21 +1,20 @@
-body{
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 10px 400px;
+*{
+  margin: 0%;
+  padding: 0%;
 }
 
 header {
-  background-image: url("//wsl$/Ubuntu/home/curtido/githubproyectos/cloneapple/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
-  width: 700px;
-  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: flex-start;
-  margin: 0 auto;
   margin-bottom: 20px;
   background-size: cover;
+  min-height: 500px;
 }
 
 h1{
