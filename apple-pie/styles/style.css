@@ -25,10 +25,18 @@ ol {
   color: #4f4f4f;
 }
 
+ul {
+  margin-bottom: 2em;
+}
+
+main {
+  padding: 1em;
+}
+
 article {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 3em 3em;
+  padding: 2em 2em;
   border-bottom: 2px solid #b3b3b3;
 }
 
@@ -48,4 +56,8 @@ header {
   width: 40%;
   display: block;
   margin: 0 auto;
+}
+
+#directions article {
+  border-bottom: none;
 }
