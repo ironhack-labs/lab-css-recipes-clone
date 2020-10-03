@@ -28,7 +28,7 @@ ol {
 article {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 5em 3em;
+  padding: 3em 3em;
   border-bottom: 2px solid #b3b3b3;
 }
 
@@ -42,4 +42,10 @@ header {
 
 #intro p {
   font-size: 1.15rem;
+}
+
+.info-img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }
