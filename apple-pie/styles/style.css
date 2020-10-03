@@ -1,0 +1,45 @@
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p,
+ul,
+ol {
+  color: #4f4f4f;
+}
+
+article {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5em 3em;
+  border-bottom: 2px solid #b3b3b3;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 20% 0;
+}
+
+#intro p {
+  font-size: 1.15rem;
+}
