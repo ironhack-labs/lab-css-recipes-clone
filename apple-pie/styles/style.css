@@ -1,0 +1,18 @@
+main .site-title {
+  background: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-background {
+  padding-top: 15rem;
+  text-align: center;
+  color: white;
+}
+
+.site-content {
+  padding: 1rem 2rem;
+  position: relative;
+}
