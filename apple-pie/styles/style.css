@@ -41,17 +41,17 @@ hr{
     width: 100%;               
     height: 2px;
 }
-#ingredients{
+.indications{
    display: flex;
-   padding: 0% 10% 5% 10%;
+   padding: 0% 10% 0% 10%;
    flex-direction: column;
     align-items: center;
 
 }
-#ingredients article{
+.indications article{
     width: 100%;
 }
-#ingredients ul{
+.list {
     list-style-type:none;
     padding-left: 15px;
 }
