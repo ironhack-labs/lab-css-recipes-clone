@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+header{
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height:400px;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center; 
+  color: white; 
+  margin: auto;
+  padding: 180px 20px 20px 20px; 
+}
+
+#introduction{
+  text-align: center;
+  justify-content: center; 
+  font-size: 14px;
+  padding: 20px 0px 20px 0px;  
+}
+
+#ingredient,#directions{
+  font-size: 14px;
+  padding: 20px 0px 20px 0px; 
+}
+
+h3{
+  font-size: 18px;
+  text-align: center
+  justify-content: center;  
+  padding: 10px 0px 10px 0px;  
+}
+
+img{
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trait_dessus
+{
+border-top: 10px solid #000;
+width : 764px;
+border-width: 10px;
+}
