@@ -9,15 +9,19 @@ body {
 }
 
 .pie {
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
-    color: black
+    color: black;
+    position: relative;
+    top: -480px;
+    color: white;
 }
 
 .first-art {
     width: 50%;
     font-size: 1.4em;
     margin-left: 25%;
+    margin-top: -10%;
 }
 
 .cook-img {
