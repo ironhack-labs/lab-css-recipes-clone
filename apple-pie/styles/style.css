@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+
+.header{
+    display: flex;
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    height:700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    color: white;
+    font-size: 5rem ;
+    font-weight: 400;
+}
