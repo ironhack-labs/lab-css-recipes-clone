@@ -1,56 +1,48 @@
-#apple-pie{
-  width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
 }
 #tittle{
   background-image: url("../images/apple-pie.jpg");
   background-position: center;
   background-size:  cover;
-  width: 90%;
-  padding-bottom: 30%;
-  padding-top: 30%;
-  align-items: center;
+  height: 900px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   color: white;
-  font: 250% sans-serif;
 }
-p{
-  
+#tittle > h1 {
   display: flex;
-  justify-content: center;
-  font: 150% sans-serif;
-  width: 60%;
-  margin: auto;
+  justify-content: right;
+  align-content: center;
+  font-size: 8em;
+}
+
+#sec2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-left: 15%;
+  padding-top: 5%;
+  font-size: 2.1em;
 }
 #recipe-info{
-display: block;
-margin: auto;
-;}
-.title-ingredients{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font: 200% sans-serif;
-}
-.ingredients{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font: 150% sans-serif;
-}
-#cooking-info{
-  display:flex;
-  justify-content: center;
-}
-.directions-title{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font: 200% sans-serif;
-}
-ol{
-  width: 60%;
   display: block;
   margin: auto;
-  font: 150% sans-serif;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
+
+hr {
+  border: solid 2px rgb(117, 114, 114);
+}
+#cooking-info{
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
