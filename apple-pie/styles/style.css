@@ -1,25 +1,57 @@
 body {
     background: lightblue url("img_tree.gif") no-repeat fixed center;
+    color: rgb(70, 67, 67);
+    font-family: sans-serif; 
+    margin-bottom: 60px;
+}
+header {
+    background-image: url('../images/apple-pie.jpg');
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 75%;
+    margin-bottom: 60px;
 }
 
-/* h1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    color: white;
-    font-size: 100px;
-    font-family: arial;
-    font-weight: lighter;
-} */
-.text{
-position: absolute;
-    
-    top: 50%;
+.tittle {
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    font-weight: 200;
 }
-.center {
-    position: relative;
-    display: inline-block;
+.Imagen {
+    margin: auto;
+    height: 60px;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+hr {
+    width: 60%;
+    color: grey;
+    align: center;
+    
+}
+#section-recipe {
     text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
 }
+ul > li {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: '- ';
+}
+/****************AQUI INTENTE HACER EL LISTADO CON ')'PERO NO ENCONTRE LA FORMA 
+ol > li {
+    content: ')' ;
+} */
+
+
+
