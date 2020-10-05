@@ -37,9 +37,19 @@ hr {
     
 }
 #section-recipe {
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#section-ingredients{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+li {
+    text-align: left;
 }
 ul > li {
     list-style-type: none;
