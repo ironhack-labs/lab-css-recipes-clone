@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+#first-section {
+    height: 550px;
+    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+
+#first-section h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 65px;
+}
+
+#second-section h2 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+#second-section img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#third-section h3 {
+    font-weight: bold;
+}
+
+#third-section img {
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#third-section ul {
+    padding-inline-start: 10px; 
+    font-size: 18px;
+}
+
+#third-section ul li {
+    list-style-type: none;
+}
+
+#third-section ul li:before {
+    content: "- "
+}
+
+#fourth-section ol {
+    counter-reset: list;
+    padding-inline-start: 10px;
+    font-size: 18px;
+}
+
+#fourth-section ol > li {
+    list-style: none;
+}
+
+#fourth-section ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+.all-sections {
+    margin: 30px 70px;
+}
+
+hr {
+    margin: 30px 70px;
+    color: gray;
+}
