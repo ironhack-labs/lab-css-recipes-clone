@@ -18,15 +18,18 @@ body {
     align-items: center;
     color: white;
     font-size: 65px;
+    font-
 }
 
 #second-section h2 {
+    width: 58%;
     height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bolder;
+    font-weight: lighter;
     padding-top: 50px;
+    margin: auto;
 }
 
 #second-section img {
@@ -64,6 +67,9 @@ body {
     content: "- "
 }
 
+#fourth-section h3 {
+    padding-bottom: 20px;
+}
 #fourth-section ol {
     counter-reset: list;
     padding-inline-start: 10px;
@@ -80,10 +86,10 @@ body {
 }
 
 .all-sections {
-    margin: 30px 70px;
+    margin: 30px 90px;
 }
 
 hr {
-    margin: 30px 70px;
+    margin: 30px 90px;
     color: gray;
 }
