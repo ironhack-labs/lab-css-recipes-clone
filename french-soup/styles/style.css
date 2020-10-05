@@ -5,5 +5,65 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: #1f1d1b;
+}
+
+header div {
+  background: url("/french-soup/images/soup.jpg") no-repeat fixed center;  
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  margin: 0 50px 0 50px;
+}
+
+.introduction {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instructions h3 {
+  padding: 20px 0 15px;
+  font-weight: normal;
+}
+
+.instructions ul {
+  list-style: none;
+}
+
+.instructions ul li::before {
+  content: "- ";
+}
+
+.instructions ol{
+  list-style: none;
+  counter-reset: li
+}
+
+.instructions ol li::before {
+  content: counter(li) ")"; margin-right: 4px;
+  counter-increment: li;
+}
+
+.directions {
+  margin-bottom: 50px;
 }
