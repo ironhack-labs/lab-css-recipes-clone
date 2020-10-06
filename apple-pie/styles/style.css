@@ -1,5 +1,4 @@
 body {
-    background: lightblue url("img_tree.gif") no-repeat fixed center;
     color: rgb(70, 67, 67);
     font-family: sans-serif; 
     margin-bottom: 60px;
@@ -27,13 +26,13 @@ header {
     margin: auto;
     height: 60px;
     display: block;
-    border-radius: 20px;
     margin-bottom: 30px;
 }
 hr {
     width: 60%;
     color: grey;
     align: center;
+    border: solid;
     
 }
 #section-recipe {
@@ -44,12 +43,14 @@ hr {
     padding-right: 100px;
 }
 #section-ingredients{
-    text-align: center;
+    text-align: left;
     padding-left: 100px;
     padding-right: 100px;
 }
-li {
+#section-directions{
     text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 ul > li {
     list-style-type: none;
