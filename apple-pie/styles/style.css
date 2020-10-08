@@ -1,0 +1,86 @@
+html, body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-image: url("/Users/andreialvarez/Desktop/Ironhack-Andrei/Module-1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    height: 400px;
+    padding: 10px 200px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    width: 800px;
+    font-weight: lighter;
+
+}
+
+hr {
+height: 1px;
+background-color: gray;
+}
+
+#intro {
+  font-size:1.4rem;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+  section{
+      width: 800px;
+      padding: 30px 200px;
+  }
+  #firstSection{
+    text-align: center;
+  }
+
+  .recipe-details{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.1rem;
+  }
+  .cooking-info{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.1rem;
+  } 
