@@ -1,0 +1,79 @@
+/*Some necessary adjustments*/
+html {
+  width: 1600px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.header {
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  height: 700px;
+  width: 1400px;
+  padding: 0px 100px 0px 0px;
+  margin-left: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+    font-size: 18px;
+} 
+  
+main {
+    margin: 100px;
+}
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+  
+
+.recipe-history {
+  font-size: 36px;
+  text-align: center;
+  padding: 0px 50px 50px 50px;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+  
+.instruction-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.hr {
+  border-top: 1px solid #8c8b8b;
+  margin: 20px auto 0px auto;
+  width: 100%;
+}
+
+.ingredients-directions {
+  font-size: 28px;
+  line-height: 50px;
+  text-align: justify;
+  align-items: baseline;
+  margin: 0px 100px 0px 100px;
+  padding: 0px 0px 50px 50px;
+}
