@@ -33,6 +33,7 @@ h1{
 
 .time{
   /* position: absolute; */
+  text-align: center;
 }
 .time img{
   /* position: relative; */
@@ -41,4 +42,8 @@ h1{
 .time2 img{
   /* position: relative; */
   width: 50%
+}
+
+.box {
+  margin: 3em 3em;
 }
