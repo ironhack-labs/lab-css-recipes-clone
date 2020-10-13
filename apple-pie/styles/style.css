@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+  html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+} */
+
+.container{
+  position: relative;
+}
+
+#apple{
+  max-width: 100%;
+}
+
+h1{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: black; */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#texto{
+}
