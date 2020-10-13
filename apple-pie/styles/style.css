@@ -31,5 +31,14 @@ h1{
   padding-right: 20px;
 }
 
-#texto{
+.time{
+  /* position: absolute; */
+}
+.time img{
+  /* position: relative; */
+  width: 50%
+}
+.time2 img{
+  /* position: relative; */
+  width: 50%
 }
