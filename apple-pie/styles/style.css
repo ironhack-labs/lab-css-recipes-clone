@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 17px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(file:///Users/Delia/1_IH_labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 650px;  
+    height: 500px; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    color: whitesmoke;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+p {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+.info-pic1 {
+    padding: 15px 0;
+    width: 30%;
+}
+
+hr {
+    width: 50%;
+}
+    
+#section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h3 {
+    font-weight: lighter;   
+    width: 650px;
+    font-size: 1.5em;
+    /* background-color: aquamarine; */
+}
+
+/* how to turn bulletpoint into dash ?? */
+ul {
+    ist-style-type: ;
+    margin-top: -10px;
+    width: 650px;
+
+}
+
+.info-pic2 {
+    padding: 20px 0;
+    width: 25%;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+/* how to turn bulletpoint into dash ?? */
+ol {
+    width: 45%;
+    width: 650px;
+    margin-top: -10px;
+}
+    
