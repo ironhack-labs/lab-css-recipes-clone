@@ -1,0 +1,57 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+}
+
+#header {
+    height: 600px;
+    overflow: hidden;
+}
+
+#imagen-principal {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    top: 220px;
+    color: white;
+    font-size: 4rem;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+}
+
+h2,
+p,
+li {
+    color: gray;
+}
+
+#intro {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#recipe-info,
+#cooking-info {
+    margin: 40px auto;
+    border-bottom: 4px solid gray
+}
+
+#ingredients-title,
+#ingredients-list,
+#directions-title,
+#directions-list {
+    margin: 15px auto;
+}
