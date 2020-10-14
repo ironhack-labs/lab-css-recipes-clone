@@ -2,37 +2,58 @@
 
 body {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 15px;
+    color: #3C3C3C;
+    font-weight: 300;
 }
 
 .header{
     background-image: url("/Users/Konar/Desktop/1- Ironhack Course/Day2/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
     background-size: cover;
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 h1 {
     text-align: center;
-    top: 200px;
+    top: 150px;
     position: relative;
     font-size: 50px;
     color: white;
     font-weight: 300;
 }
-.summary {
-    color: black;
+
+/* All the "body text" is center-aligned
+then headers and text are individually
+left-aligned. */
+.body-text {
+    padding: 50px 70px;
     text-align: center;
 }
-
-.recipe-info {
+hr {
+    height: 2px;
+    background: #BDBDBD;
+    border: none;
+}
+h2 {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 17px;
+}
+.summary p { 
+    color: black;
+    text-align: left;
+    font-size: 17px;
+}
+/* Property for both images */
+.image {
     width: 300px;
 }
-#ingredients img{
-    width: 300px;
+ul {
+    text-align: left;
 }
-
 ol {
     counter-reset:list;
+    text-align: left;
 }
 ol > li {
     list-style:none;
