@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 16px;
     color: #3C3C3C;
     font-weight: 300;
 }
@@ -17,9 +17,14 @@ h1 {
     text-align: center;
     top: 150px;
     position: relative;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     font-weight: 300;
+}
+h2 {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 20px;
 }
 
 /* All the "body text" is center-aligned
@@ -29,28 +34,28 @@ left-aligned. */
     padding: 50px 70px;
     text-align: center;
 }
+
+.summary p { 
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Property for both images */
+.image {
+    width: 300px;
+}
+
 hr {
     height: 2px;
     background: #BDBDBD;
     border: none;
 }
-h2 {
-    padding-top: 20px;
-    text-align: left;
-    font-size: 17px;
-}
-.summary p { 
-    color: black;
-    text-align: left;
-    font-size: 17px;
-}
-/* Property for both images */
-.image {
-    width: 300px;
-}
+
 ul {
     text-align: left;
 }
+
 ol {
     counter-reset:list;
     text-align: left;
