@@ -1,0 +1,59 @@
+
+* { 
+    font-family: 'Open Sans';
+    color: rgb(117, 116, 116);
+}
+
+.header h1 {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 300px;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.header .firstHeader {
+    padding-top: 200px;
+    font-size: 55px;
+    font-weight: thin;
+   
+}
+
+header .image {
+    position: relative;
+ }
+ 
+.recipe {
+ margin: 50px 150px;
+}
+
+
+body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h3 {
+    font-weight: bold;
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+    padding-left: 30px;
+}
+
+ul.dashed > li {
+    margin-left: 15px;  
+}
+
+ul.dashed > li::before {
+    content: "-";
+    margin-left: -15px;
+}
