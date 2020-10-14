@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,70);
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.header{
+    background-image: url("/Users/Konar/Desktop/1- Ironhack Course/Day2/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    top: 200px;
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+.summary {
+    color: black;
+    text-align: center;
+}
+
+.recipe-info {
+    width: 300px;
+}
+#ingredients img{
+    width: 300px;
+}
+
+ol {
+    counter-reset:list;
+}
+ol > li {
+    list-style:none;
+}
+ol > li:before{
+    content:counter(list)")";
+    counter-increment: list;
+}
