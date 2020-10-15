@@ -1,17 +1,35 @@
 
+.Infoimg {
+  position: center;
+}
 
-.header {
-    background-image: url('images/apple-pie.jpg');
-    background-position: 0 0;
+
+.wholerecipe {
+  padding: 50px;
+}  
+h1 {
+    background: url('../images/apple-pie.jpg') center no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 650px;
-    padding-top: 50px;
-    position: relative;
-  }
-  
-.p {
-background-color: white;
-padding-top: 50px;
-position: relative;
+    color: azure;
+    text-align: center;
+    font-size: 70px;
+    padding: 170px;
+    width: 720px;
+  height: 300px;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: left;
+  line-height: 1em;
+}
+
+.ingredientsDirections {
+
+}
+
+
+p {
+    font-size: 1.2em;
+    text-align: center;
 }
