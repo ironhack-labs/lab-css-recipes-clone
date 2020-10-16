@@ -1,9 +1,68 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 300; 
+  font-family: Arial;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 350;
+  text-align: center;
+  margin: 25% auto;  
+}
+
+.encabezado {
+  background-image: 
+  url("//wsl$/Ubuntu/home/karen_roth/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 0 0;
+  display: block;
+  margin:auto;
+}
+
+.introduccion {
+  font-size: 25px;
+  text-align: justify;
+  margin: 5% 20%;
+}
+
+.img-recipe {
+  height: 60px;
+  display: block;
+  margin:auto; 
+}
+
+.ingredientes {
+  margin: 5% 20%;
+}
+
+h2 {
+  font-size: 25px;
+  left: 30px;    
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px ;
+  margin: auto 3%;
+}
+
+.img-cooking {
+  height: 80px;
+  display: block;
+  margin:auto;
+}
+
+
+ol {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px ;
+  margin: auto 3%;
 }
