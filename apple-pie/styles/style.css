@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 main {
     font-family: 'Roboto',
         sans-serif;
@@ -5,6 +9,7 @@ main {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
+    background-color: white;
 }
 
 #header {
@@ -23,15 +28,21 @@ h1 {
     color: white;
 }
 
-#introduction {
+#introduction,
+#ingredients,
+#directions {
+    text-align: center;
     margin: 0 auto;
+    width: 800px;
+    padding: 40px;
+}
+
+#introduction {
+    border-bottom: solid #5e5e5e 3px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: solid #5e5e5e 3px;
-    width: 800px;
-    padding: 40px;
 }
 
 #introduction p {
@@ -43,7 +54,39 @@ h1 {
     width: 400px;
 }
 
+#ingredients {
+    border-bottom: solid #5e5e5e 3px;
+    padding-left: 0;
+}
+
+#ingredients img {
+    width: 450px;
+}
+
+.left-aligned {
+    text-align: left;
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
 ul,
 ol {
     list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#directions {
+    padding-left: 0;
 }
