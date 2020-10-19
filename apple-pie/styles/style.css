@@ -70,7 +70,7 @@ section {
 }
 
 .introduction img {
-  width: 50%;
+  width: clamp(40rem, 50%, 60rem);
   margin: 4rem auto 3rem;
 }
 
@@ -102,7 +102,7 @@ ul {
 
 .ingredients img {
   display: block;
-  width: 45%;
+  width: clamp(35rem, 45%, 60rem);
   margin: 4rem auto 3rem;
 }
 
