@@ -1,5 +1,6 @@
 html{
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
 body{
     margin: 0px;
@@ -12,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     background: url(../images/apple-pie.jpg) no-repeat;
-}
+  }
 
 .img-apple h1{
     font-size: 9rem;
@@ -25,8 +26,10 @@ section{
     align-items: center;
     justify-content: center;
     margin: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
     font-size: 2rem;
-}
+  }
 
 .info{
     display: flex;
