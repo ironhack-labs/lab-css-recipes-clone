@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;400;500;800&display=swap');
+
+:root {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 700px;
+    width: 100%;
+
+}
+
+.container ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+
+.container ul li:before {
+    content: "- ";
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+}
+
+
+hr {
+    width: 100%;
+}
+
+.recipe-info {
+    width: 50%;
+}
+
+.cooking-info {
+    width: 40%;
+}
