@@ -1,0 +1,59 @@
+html {
+    font-family: 'Arial';
+    margin: 0;
+}
+
+
+.intro {
+    display: flex;
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    position: 0 0;
+    repeat: no-repeat;
+    size: cover;
+    height: 600px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+
+.story {
+    border-bottom: solid;
+    padding-bottom: 10;
+}
+.recipe {
+    border-bottom: solid;
+}
+.all-text-sections {
+    margin: 5%;
+
+}
+
+.recipe-info-img img{
+    width: 25em;
+    margin: 2% 2%;
+}
+.cooking-info-img img{
+    width: 20em;
+    margin: 2% 2%;
+}
+.recipe-info-img {
+    display: flex;
+    justify-content: center;
+}
+.cooking-info-img {
+    display: flex;
+    justify-content: center;
+}
