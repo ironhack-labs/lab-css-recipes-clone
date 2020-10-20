@@ -47,8 +47,7 @@ hr {
 }
 
 ol {
-  font-weight: normal;
-  display: ;
-  margin-right: 120px;
-  font-size: medium;
+    margin-left: 570px;
+    text-align: start;
 }
+
