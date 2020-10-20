@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    padding: 50px 0 0 0;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: (0 0);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+.the-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.sectionTwo {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0 0 0;
+    border-bottom: 2px solid lightgray;
+}
+
+.recipe-info {
+    text-align: center;
+}
+.recipe-info p {
+    font-size: 1.8em;
+}
+.recipe-info img {
+    padding: 10px 20px;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.section-Three {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+
+.section-Three ul {
+    list-style-type: '- ';
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+.img-container {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    border-bottom: 2px solid lightgray;
+}
+.img-container img {
+    margin: 0 }
+}
+
+.section-Four {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0 0;
+}
+
+.text-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    font-size: 1.2em;
+}
