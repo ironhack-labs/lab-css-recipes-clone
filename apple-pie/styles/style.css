@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+    position: relative;
+    font-family:  'Open Sans', sans-serif;
+
+}
+
+.header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+    font-weight: 100;
+}
+
+section h2 {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 100px 100px 0 100px;
+}   
+
+.recipe {
+    display: block;
+    margin: 30px auto 15px auto;
+
+}
+
+hr {
+    margin: 30px 100px 50px 100px;
+    height: 2px;
+    border: none;
+    background-color: rgb(138, 135, 135);
+    color: rgb(138, 135, 135);
+}
+
+.ingredients h3 {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 50px 100px 0 100px;
+}
+
+.ingredients ul {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 30px 100px 0 100px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+}
+
+.ingredients ul > li {
+    text-indent: -5px;
+}
+
+.ingredients ul > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+
+.cooking {
+    display: block;
+    margin: 30px auto 15px auto;
+}
+
+.direction h3 {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 50px 100px 0 100px;
+}
+
+.direction ol {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 30px 100px 150px 100px;
+}
+
+
