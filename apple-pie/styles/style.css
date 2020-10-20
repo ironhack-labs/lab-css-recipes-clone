@@ -5,14 +5,30 @@ body {
   text-align: center;
 }
 
+p {
+  margin-top: 4%;
+  font-size: 17px;
+}
 .bigapple {
   max-height: 1000px;
   max-width: 900px;
-  width: 900px;
+  width: 100%;
   height: 500px;
-  display: block;
+}
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
 }
 
 .cookinginfo {
@@ -24,6 +40,7 @@ ul li {
   list-style-type: none;
   margin-left: 550px;
   display: flex;
+  font-size: 14px;
 }
 
 h3 {
@@ -36,9 +53,12 @@ h3 {
 h2 {
   font-weight: 600;
   list-style-type: none;
-  margin-left: 590px;
+  margin-left: 580px;
   display: flex;
   font-size: 20px;
+
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 hr {
@@ -47,7 +67,7 @@ hr {
 }
 
 ol {
-    margin-left: 570px;
-    text-align: start;
+  margin-left: 560px;
+  text-align: start;
+  font-size: 14px;
 }
-
