@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 3.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+h1 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: none;
+  color: white;
+  
+}
+
+.header {
+    background-image: url("./images/apple-pie.jpg") ;
+    height: 600px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.recipe-info {
+    text-align: center;
+    display: block;
+    margin:0 auto 0 auto;
+    
+      
+}
+.cooking-info {
+    text-align: center;
+    display: block;
+    margin:0 auto 0 auto;
+    width: 15em;
+    
+}
+
+
+
