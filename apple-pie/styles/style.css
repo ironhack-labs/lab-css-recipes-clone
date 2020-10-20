@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    width: 800px;
+    padding-left: 550px;
+    
+}
+
+.header {
+   background-image: url('file://wsl%24/Ubuntu/root/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+ background-position: 0 0;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 550px;
+ padding-top: 50px;
+ 
+}
+
+h1 {
+   color: white;
+   padding-left: 240px;
+   padding-top: 150px;
+   font-size: 70px;
+
+}
+
+
+.recipe-info {
+  padding-left: 250px;
+  width: 300px;
+}
