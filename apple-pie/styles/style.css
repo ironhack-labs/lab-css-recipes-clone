@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI";
+  font-size: 16px;
+}
+
+#header {
+  background: transparent
+    url("C:\Users\msast\Desktop\Ironhack\LABS\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+  background-position: 0 0;
+  position: relative;
+}
+
+#header > .header-image {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: transparent;
+  overflow: hidden;
+  text-align: center;
+}
+
+#header > h1 {
+  display: flex;
+  font-size: 10vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-emphasis: none;
+  font-weight: 400;
+}
+
+.intro {
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  flex-direction: column;
+  margin: 50px 50px 0;
+}
+
+.img {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.ingredients {
+  display: block;
+  margin: 30px;
+  border: 100px;
+}
+
+.ingredients > .title {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
