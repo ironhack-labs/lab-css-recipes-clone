@@ -11,7 +11,7 @@ body {
 }
 
 .headerBox {
-	background-image: url('/french-soup/images/soup.jpg');
+	background-image: url('../images/soup.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
