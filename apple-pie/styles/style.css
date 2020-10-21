@@ -1,44 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
-
 html,
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: roboto;
-    line-height: 1.5em;
-    font-weight: 300;
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+	line-height: 1.5em;
+	font-weight: 300;
+	font-size: 26px;
 }
 
-.headerCover {
-  background-image: url('/apple-pie/images/apple-pie.jpg');
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  position: relative;
-  padding: 10px;  
+.headerBox {
+	background-image: url('/apple-pie/images/apple-pie.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	padding: 10px;
 }
 
-.recipeTitle {
-    font-size: 5em;
-    color: white;
-    font-weight: 300;
-    text-align: center;   
-    line-height: 4em;
-    
-     }
-
-.introText {
-    
-  padding: 150px 300px;
-
-    font-size: 20px;
-    text-align: center;
-    
+.headerBox h1 {
+	font-size: 5em;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding: 90px;
 }
 
-.imgInfo {
-    width: 450px;
-    display: block;
-    margin: auto;
-    }
+.sectionBox {
+	background-color: white;
+	background-position: 0 0;
+	size: cover;
+	padding: 50px 200px 0 200px;
+	margin: auto;
+}
+
+.sectionBox img {
+	display: block;
+	margin: auto;
+	width: 450px;
+	padding: 25px;
+}
+
+.sectionBox h2 {
+	font-weight: 300;
+}
