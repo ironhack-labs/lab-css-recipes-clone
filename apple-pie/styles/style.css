@@ -1,0 +1,96 @@
+@import "reset.css";
+body{
+    font-family: sans-serif, serif; 
+    width: 100%;
+    font-weight: lighter;
+}
+
+section {
+    padding: 0 10rem;
+    padding-top: 2rem;
+}
+
+p, ul, ol{
+    font-size: 1.5rem;
+    color: #404040;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    line-height: 700px;
+    top: 20rem;
+    left: 35rem;   
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+hr{
+   
+   height: 5px;
+   border: none;
+   background-color: #404040 ;
+}
+
+.img {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* HEADER */
+
+header{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    color: white;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+/* SECTION 1 INTRO */
+#intro {
+    padding-top: 7rem;
+}
+
+#intro article{
+    font-size: 2rem;
+    text-align: justify;
+    color: #404040
+}
+
+/* SECTION 2 INGREDIENTS */
+
+ul {
+    margin: 1rem;  
+}
+/*change the ul dots for dashes */
+ul.dash > li:before{
+    content: "-";
+}
+
+ul li {
+    margin:0 0 10px 0;
+}
+
+/* SECTION 3 DIRECTIONS */
+#directions {
+    margin-bottom: 3rem;
+}
+
+ol {
+    margin-left: 3rem;
+    counter-reset: list;
+    list-style: none;
+}
+
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+
+
