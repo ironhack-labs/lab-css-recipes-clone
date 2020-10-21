@@ -1,0 +1,125 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root {
+  --blue-color: rgb(67, 163, 230);
+  --dark-blue: rgb(25, 33, 41);
+  --text-color: rgb(0, 0, 0);
+  --text-shadow: #020819;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 9rem;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1rem;
+}
+
+/* HEADER */
+
+.header-background{
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 72.5vh;
+  z-index: 0;
+}
+
+.header-background img{
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
+  width: 75vw;
+  height: 60vh;
+  margin: 2.5vh 12.5vw;
+  flex: 1;
+  z-index: 1;
+}
+.header-background h1{
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  right: 0;
+  flex: 1;
+  z-index: 2;
+}
+header p{
+text-align: left;
+margin: 2.5vh 20vw;
+font-weight: 400;
+font-size: 1.5rem;
+}
+.recipe-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INGREDIENTS */
+.ingredients {
+  width: 100vw;
+  height: 40vh;
+  padding: 5vh 0;
+}
+.ingredients h2{
+  text-align: start;
+  margin: 5vh 20vw;
+}
+.ingredients-list {
+  margin: 2.5vh 20vw;
+}
+.ingredients-list li:before{
+  content: "-";
+  position: relative;
+  left: -0.5rem;
+}
+.ingredients-list li{
+  text-align: left;
+  text-indent: -0.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.ingredients-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  /* DIRECTIONS */
+.directions {
+  width: 100vw;
+  height: 40vh;
+  padding: 5vh 0;
+}
+.directions h2{
+  text-align: start;
+  margin: 2.5vh 20vw;
+}
+.directions ol {
+  margin: 2.5vh 20vw;
+}
+.directions ol li{
+  text-align: justify;
+  text-indent: -0.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  list-style-type: decimal;
+  text-indent: 0.25rem;
+}
