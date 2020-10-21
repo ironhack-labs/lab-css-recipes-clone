@@ -1,0 +1,73 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+}
+
+hr {
+    width: 80%;
+}
+
+section {
+    margin: 3rem 5rem 1rem 5rem;
+}
+
+#Ingredients, #directions {
+    margin: 2rem 5rem 1rem 5rem;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul {
+list-style: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/*----------------*/
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/apple-pie.jpg");
+    width: 100vw;
+    height: 90vh;
+
+}
+
+#hero > h1 {
+    font-size: 7rem;
+    color: white;
+}
+
+/*---------------------*/
+
+#description {
+    text-align: center;
+}
+
+
+/*----------------------*/
+
+
+
+
