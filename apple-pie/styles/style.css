@@ -48,5 +48,18 @@
 }
 
 .list {
-    list-style: ;
+    list-style: none;
+    font-size: 20px;
+}
+
+.span-2 {
+        margin-left: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+}
+
+.list-2 {
+    font-size: 20px;
 }
