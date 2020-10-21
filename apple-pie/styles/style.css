@@ -30,22 +30,25 @@ p {
     padding: 80px 270px 50px;
 }
 
+.section {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: auto;
+}
+
 h2 {
     font-family: Helvetica;
     font-size: ;
     font-weight: lighter;
 }
 
-.section {
-    font-family: Helvetica;
-    font-weight: lighter;
-    font-size: 18px;
-    position: relative;
-    margin: 0;
-}
 
 span {
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 ul {
