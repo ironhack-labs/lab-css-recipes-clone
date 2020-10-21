@@ -25,22 +25,26 @@ h1 {
 p {
     font-family: Helvetica;
     font-weight: lighter;
-    text-align: justify;
     font-size: 22px;
-    padding: 80px 270px 50px;
+    line-height: 30px;
+    margin-left: 315px;
+    margin-right: 315px;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .section {
     font-family: Helvetica;
     font-weight: lighter;
-    font-size: 18px;
-    margin: auto;
+    font-size: 17px;
 }
 
 h2 {
     font-family: Helvetica;
     font-size: ;
     font-weight: lighter;
+    margin-left: 315px;
+    margin-right: 315px;
 }
 
 
@@ -49,8 +53,31 @@ span {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    padding-bottom: px;
 }
 
-ul {
+.ul-1 {
     list-style-type: none;
+    margin-left: 290px;
+    margin-right: 315px;
+    margin-bottom: 50px;
+    line-height: 23px;
+}
+
+.ul-2 {
+    list-style-type: none;
+    margin-left: 290px;
+    margin-right: 315px;
+    margin-bottom: 100px;
+    line-height: 23px;
+
+}
+
+.separation {
+    background-color: #ABABAB;
+    height: 2px;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
