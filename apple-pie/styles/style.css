@@ -25,22 +25,28 @@ h1 {
     height: 850px;
 }
 
-.intro {
+.box {
     height: 400px;
     width: 850px;
-    font-size: 25px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 0;  
     display: flex;
     flex-direction: column;
-    align-items: center; /* why does hr disapear now? */
+    justify-content: space-between; 
 }
 
-.recipe-info{
+.text {
+    font-size: 25px;
+}
+
+.recipe-img{
     height: 60px;
     width: 300px;
 }
 
+ul {
+    list-style: none;
+}
 .ingredients{
     background-color: pink;
     width: 1000px;
