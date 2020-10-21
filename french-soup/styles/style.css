@@ -1,9 +1,59 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+
+.title {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 800px;
+}
+
+.intro, .ingredients, .directions {
+  width: 80%;
+}
+
+.intro, .ingredients {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+p {
+  font-size: 28px;
+  text-align: center;
+}
+
+.infographic {
+  width: 40%;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ingredients .infographic{
+  align-self: center;
 }
