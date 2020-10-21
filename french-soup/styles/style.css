@@ -1,9 +1,48 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html,
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5em;
+	font-weight: 300;
+  margin: 0;
+}
+
+.headerBox {
+	background-image: url('/french-soup/images/soup.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 400px;
+	position: relative;
+	padding: 100px;
+}
+
+.headerBox h1 {
+	font-size: 5em;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding: 90px;
+}
+
+.sectionBox {
+	background-color: white;
+	background-position: 0 0;
+	size: cover;
+	padding: 50px 200px 0 200px;
+	margin: auto;
+}
+
+.sectionBox img {
+	display: block;
+	margin: auto;
+	width: 450px;
+	padding: 25px;
+}
+
+.sectionBox h2 {
+	font-weight: 300;
 }
