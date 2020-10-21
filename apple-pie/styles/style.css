@@ -1,0 +1,60 @@
+@import "reset.css";
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  height: 600px;
+  background: center url("../images/apple-pie.jpg") no-repeat;
+  background-size: cover;
+}
+
+.border {
+  border-bottom: solid 0.1rem black;
+}
+
+#intro p {
+  width: 600px;
+  text-align: center;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 600px;
+}
+
+#intro img {
+  width: 50%;
+  margin: 30px 0 20px 150px;
+}
+
+#ingredient img {
+  width: 60%;
+  margin: 2rem 0 20px 130px;
+}
+
+ul > li:before {
+  content: "- ";
+}
+
+ol li {
+  list-style-type: decimal;
+}
+ol > li:before {
+  content: ")";
+}
+#direction li {
+  margin-bottom: 10px;
+}
