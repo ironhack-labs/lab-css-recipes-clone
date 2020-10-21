@@ -38,11 +38,11 @@ body{
 
 }
 #recipeServings > img {
-  width: 50%;
+  width: 25rem;
 }
 
 #prepSection>img{
-  width: 40%;
+  width: 25rem;
 }
 
 .textContainer{
