@@ -1,0 +1,59 @@
+
+body {
+    font-family: "Helvetica";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+    text-align: center;
+}
+h1,h4 {
+    font-family: "Roboto Condensed";
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-color: white;
+}
+h4 {
+    font-size: 2.5em;
+    text-align: 0.4px;
+    line-height: 1em;
+}
+.header {
+  position: relative;
+  background: 0 0 no-repeat;
+  background-image: url(/home/monica/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 450px;
+  padding-top: 50px;
+  padding: center;
+  color: #fff;
+}
+#text {
+  font-size: 1.5em;
+  font-weight: 80;
+} 
+#ingredients{
+  margin-left:auto;
+  margin-right:auto; 
+  margin-top:2em;
+  margin-bottom:2em;
+}
+.Directions{
+  margin-left:auto;
+  margin-right:auto; 
+  margin-top:2em;
+  margin-bottom:2em;
+}
+#ingredients img {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2em;
+  margin-bottom:2em;
+}
+#directions img {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+    margin-bottom:2em;
+  }
