@@ -1,0 +1,100 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.title{
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1200px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#intro{
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+    margin-top: 50px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#ingredients{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#photo-recipe{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#image-recipe{
+    display: flex;
+    justify-content: center;
+}
+
+#image-cooking{
+    display: flex;
+    justify-content: center;
+}
+
+#photo-cooking{
+    width: 350px;
+    align-items: center;
+    padding: 20px;
+}
+
+#title-directions{
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    padding: 20px;
+}
+
+#title-ingredients{
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#title-directions{
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#directions{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+hr{
+    border: 1px solid gray;;
+    border-radius: 5px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
