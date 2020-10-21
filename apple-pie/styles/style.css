@@ -1,0 +1,75 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/");
+
+
+
+
+body 
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+  
+
+div
+{
+    
+    width: 60vw;
+}
+
+h1
+{
+    color: red;
+    font-size: 6em;
+    text-align: center;     
+}
+
+h1>img
+{
+    width: 60vw;
+    display: flex;
+    margin: 0px auto;
+}
+
+h2
+{
+    margin-left: 50px;
+}
+
+.header {
+  background-image: url("./images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+}
+
+
+
+section
+{
+    
+    text-align: justify;
+    border-top: black;
+    padding: 0 30px 30px 30px;
+}
+
+#ingredients
+{
+    text-align: left;
+    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#ingredients li
+
+{
+    list-style-type: none;
+}
+
+#recipe li
+{
+    list-style-type: decimal;
+}
