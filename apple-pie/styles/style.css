@@ -1,0 +1,90 @@
+@import "reset.css";
+body{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+main{
+    margin: 45px;
+}
+header{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+h1{
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+    top: 160px;
+}
+h2{
+    font-size: 1.2rem;
+    padding: 30px 0px;
+    font-weight: bolder;
+    color: rgb(78, 75, 75);
+}
+p{
+    font-size: 1.2rem;
+    color: rgb(65, 62, 62);
+}
+
+hr{
+    margin: 10px;
+    border: none;
+    height: 2px;
+    background-color: rgb(194, 188, 188);
+}
+
+/* Section One */
+#paragraph-one{
+    margin: 10px 80px;
+    text-align: justify;
+}
+.icon-one{
+    height: 60px;
+}
+#recipe-info{
+    text-align: center;
+    padding: 25px 0px 10px 0px;
+}
+
+
+/* Section Two */
+#section-two{
+    padding: 0px 10px 20px 10px;
+}
+
+#cooking-info{
+    text-align: center;
+    padding-top: 30px;
+}
+.icon-two{
+    height: 80px;
+}
+
+/* Section Three */
+#section-three{
+    padding: 0px 10px 20px 10px;
+}
+li{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(65, 62, 62);
+}
+ul li{
+    margin-left: 5px;
+}
+ul.dash>li:before{
+    content: "- ";
+}
+ol{
+    counter-reset: list;
+    list-style: none;
+    margin-left: 5px;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
