@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+    color: white
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+.apple-pie {
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-pie h1 {
+    position: absolute;  
+}
+
+.apple-pie img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    /*  */
+}
+
+.intro-section {
+    text-align: center;
+    margin: 50px 300px;
+}
+
+.intro-section img {
+    margin: 30px 0 0 0;
+    width: 400px
+}
+
+.ingredients-section {
+    margin: 20px 300px;
+}
+
+.ingredients-section img {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.ingredients-list {
+    list-style-type: "-";
+}
+
+.directions-section {
+    margin: 20px 300px 100px 300px;
+}
+
+.directions-list {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
