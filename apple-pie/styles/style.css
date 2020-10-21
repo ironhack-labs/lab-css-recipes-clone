@@ -30,9 +30,9 @@ h2{
 
 hr{
    
-   height: 5px;
+   height: 2px;
    border: none;
-   background-color: #404040 ;
+   background-color: rgba(128, 128, 128, 0.5);
 }
 
 .img {
