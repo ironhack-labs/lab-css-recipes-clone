@@ -1,7 +1,10 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+h1, body, html, main {
+    margin: 0;
 }
-
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
 header{
     padding: 0px;
 }
@@ -46,11 +49,9 @@ header p{
 .title{
     font-size: 20px
 }
-
 .container hr{
     width: 100%
 }
-
 .list{
     list-style-type: none;
 }

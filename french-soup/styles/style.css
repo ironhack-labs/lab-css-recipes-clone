@@ -1,9 +1,73 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  padding: 0px;
+}
+.soup {
+  height: 700px;
+  background-image: url("/french-soup/images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  background-position: bottom;
+  margin: 0px;
+  position: relative;
+}
+.soup h1{
+  padding-top: 300px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+
+}
+header p{
+  text-align: center;
+}
+#recipe img{
+  height: 3.5em;}
+#cooking img{
+  height: 4.5em;
+}
+.text p{
+  margin: 3em auto 2em auto;
+  width: 90%;
+  text-align: justify;
+  font-size: 20px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.container img{
+  margin: auto;
+  position:relative;
+  left: 25%;
+}
+.title{
+  font-size: 20px
+}
+
+.container hr{
+  width: 100%
+}
+
+.list{
+  list-style-type: none;
+}
+.list li{
+  margin: 0.2em 0 0 0;
+}
+.unorder{
+  list-style-type: "- ";
+}
+.order{
+  list-style: decimal;
 }
