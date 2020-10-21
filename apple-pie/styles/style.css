@@ -141,7 +141,6 @@ header {
   height: 475px;
   width: 100%;
   margin: auto;
-  opacity: 1;
 }
 
 header > h1 {
@@ -170,7 +169,7 @@ h3 {
   font-weight: 400;
   color: black;
   font-size: 20px;
-  margin: 5px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 #secondDiv {
