@@ -10,17 +10,18 @@ body {
 }
 
 #header {
-  background: transparent
-    url("C:\Users\msast\Desktop\Ironhack\LABS\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+  background: transparent url("/images/apple-pie.jpg");
   background-position: 0 0;
   position: relative;
+  height: auto;
+  width: 100%;
 }
 
 #header > .header-image {
   display: flex;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   background: transparent;
   overflow: hidden;
   text-align: center;
@@ -42,7 +43,7 @@ body {
 .intro {
   display: flex;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
   padding: 0;
   flex-direction: column;
   margin: 50px 50px 0;
@@ -50,17 +51,52 @@ body {
 
 .img {
   display: block;
-  width: 50%;
+  width: 500px;
+  height: auto;
   margin: 30px auto;
 }
 
-.ingredients {
+hr {
   display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ingredients {
+  display: flex;
+  font-size: 18px;
+  text-align: justify;
+  padding: 0;
+  flex-direction: column;
+  margin: 30px 10%;
+}
+
+.ingredients ul {
+  display: block;
+  margin: 10px 30px;
+  border: 100px;
+  /* Can't get this to be a dash!! 
+  list-style-type: none; */
+}
+
+.title {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+
+.directions {
+  display: flex;
+  font-size: 18px;
+  text-align: justify;
+  padding: 30px;
+  flex-direction: column;
   margin: 30px;
   border: 100px;
 }
 
-.ingredients > .title {
-  font-size: 25px;
-  margin: 0 0 20px 0;
+.directions ul {
+  display: block;
+  margin: 10px 30px;
+  border: 100px;
+  text-align: justify;
 }
