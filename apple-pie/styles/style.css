@@ -1,0 +1,85 @@
+@import "./reset.css";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: white;
+    padding-top: 100px;
+}
+
+hr {
+    width: 800px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.kitchenPic {
+    margin: 60px 0 0 0;
+    width: 1000px;
+    height: 600px;
+}
+
+#cookingInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+#cookingInfo p {
+    font-size: 1.6rem;
+    width: 900px;
+}
+
+#cookingInfo img {
+    margin: 60px 50px 0 0;
+    width: 400px;
+    height: 90px;
+}
+
+#cookingIngredients {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 500px;
+    margin: 0 0 0 20%;
+}
+
+#cookingIngredients ul {
+    list-style: none;
+  }
+
+#cookingIngredients img {
+    margin: 60px 0 0 150px;
+    width: 400px;
+    height: 90px;
+}
+
+#cookingInstructions {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 300px;
+    margin: 0 200px 0 225px;
+    padding-bottom: 200px;
+}
