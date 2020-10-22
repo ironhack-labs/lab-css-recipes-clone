@@ -53,5 +53,5 @@ main img{
 }
 
 main article ul{
-    list-style-type: none;
+    list-style-type: '- ';
 }
