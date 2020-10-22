@@ -1,0 +1,80 @@
+/* global styling */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+#hero-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://github.com/mnblski/lab-css-recipes-clone/blob/9b19990bd66c90479f902e89c55804931d255269/apple-pie/images/apple-pie.jpg?raw=true);
+  background-color: rgb(77, 87, 76);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.dish-title {
+  color: white;
+  font-size: 10em;
+  font-weight: lighter;
+}
+
+/** main content styling **/
+
+#main-content {
+  margin: 90px 150px 0px;
+}
+
+#main-content h2 {
+  font-size: 3.2em;
+  font-weight: bolder;
+}
+
+#main-content ul,
+ol {
+  margin-top: 40px;
+}
+
+.recipe-intro p {
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.recipe-directions {
+}
+
+.recipe-ingredients li,
+.recipe-directions li {
+  font-size: 2.2em;
+  margin-left: 1.5em;
+}
+
+.recipe-ingredients ul {
+  list-style-type: "-";
+}
+
+.recipe-directions ol {
+  list-style-type: none;
+}
+
+.small-img {
+  width: 50%;
+  display: block;
+  margin: 40px auto 0px;
+}
+
+hr {
+  height: 3px;
+  background-color: grey;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
