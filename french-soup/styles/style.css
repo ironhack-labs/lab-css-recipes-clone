@@ -7,3 +7,196 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* MY CODE */
+
+main {
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: -420px;
+  margin-bottom: 50px;
+  height: 1200px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 730px;
+  font-size: 100px;
+}
+
+section {
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.images {
+  display: block;
+  margin: 30px auto;
+  width: 40%;
+}
+
+#cooking-info {
+  width: 35%;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+ul li:before {
+  content: "- ";
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+  line-height: 35px;
+  font-weight: lighter;
+}
+
