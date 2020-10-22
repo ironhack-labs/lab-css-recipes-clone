@@ -19,9 +19,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    text-align: center;
-    margin: auto;
-    padding: 0;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* padding: 0; */
     background-position: center center;
     /* width: 1200px; */
 
@@ -38,7 +38,7 @@ h1{
 h2{
     font-size: 1.1rem;
     padding: 20px 0px 5px 0px;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(78, 75, 75);
 }
 p{
@@ -55,9 +55,9 @@ hr{
 
 /* Section One */
 #paragraph-one{
-    margin: 10px 80px;
+    margin: 10px 20px;
     padding-top: 10px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .icon-one{
     height: 60px;
@@ -91,7 +91,6 @@ li{
     color: rgb(65, 62, 62);
 }
 ul li{
-    margin-left: 5px;
     list-style: none;
 }
 ul.dash>li:before{
@@ -100,13 +99,12 @@ ul.dash>li:before{
 ol{
     counter-reset: list;
     list-style: none;
-    /* margin-left: 5px; */
 }
 ol > li:before {
     content: counter(list) ") ";
     counter-increment: list;
 }
 .lists{
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
