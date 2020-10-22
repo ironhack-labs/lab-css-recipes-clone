@@ -1,0 +1,92 @@
+@import 'reset-css';
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900)');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+#hero{
+    background-image: url('../images/apple-pie.jpg');
+    background-repeat: repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 4em;
+    font-weight: 300;
+}
+/* --------------------------------------------- */
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section1 p{
+    margin-top: 60px;
+    line-height: 1.5;
+    width: 610px;
+}
+#section1 img{
+    margin-bottom: 20px;
+    width: 300px;
+}
+hr {
+    width: 610px;
+}
+/* --------------------------------------------- */
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section2 div{
+    width: 610px;
+}
+h2{
+    font-weight: 400; 
+}
+ul {
+    margin: 0;
+    padding: 1em;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+ul > li:before {
+    content: "-";
+    /* text-indent: -1em; */
+}
+li{
+    line-height: 1.5;
+}
+#section2 img{
+    margin-bottom: 20px;
+    width: 300px;
+}
+/* --------------------------------------------- */
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#section3 div{
+    width: 610px;
+}
+ol {
+   text-indent: -1em;
+   list-style: none;
+}
+ol ::first-line {
+    text-indent: 1em;
+}
+ol > li:before{
+    content: ")"; 
+}
