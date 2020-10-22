@@ -20,14 +20,21 @@ main {
     border-bottom: 1px solid black;
 }
 
-#ingredients li {
-    list-style-type: disc;
+
+
+#ingredients li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+
+#directions ol {
+    counter-reset: list;
 }
 
-#directions li {
-    list-style-type: ;
+#directions li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
-
 
 
 section {
