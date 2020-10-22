@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Palanquin", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px 10px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px;
+  text-align: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  /* height: 600px;
+  width: 900px;*/
+  font-size: 3rem;
+  height: 500px;
+}
+
+article.introduction {
+  margin: 40px 20%;
+  font-size: 1.5rem;
+  width: 800px;
+}
+
+.ingredients {
+  margin: 10px auto;
+}
+
+.recipieInfo {
+  border-bottom: 3px solid gray;
+  margin: 10px 10px;
+}
+
+.cookingInfo {
+  border-bottom: 3px solid gray;
+  margin: 10px 10px;
+}
+
+li {
+  margin: 0 80px;
+}
+
+.directions {
+  margin-bottom: 30px;
+}
+img {
+  display: block;
+  margin: auto;
+}
