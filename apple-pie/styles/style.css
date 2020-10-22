@@ -9,6 +9,7 @@ header {
     background-image: url("../images/apple-pie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center
     height: 500px;
 }
 
@@ -41,10 +42,6 @@ section {
     padding: 20px;
 }
 
-h2 {
-    font-weight: bold;
-    padding: 20px 0;
-}
 
 
 
@@ -53,6 +50,11 @@ h1 {
     font-size: 2rem;
     line-height: 500px;
     text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    padding: 20px 0;
 }
 
 img {
