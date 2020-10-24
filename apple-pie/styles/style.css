@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.bloco {
+    margin: 40px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #586069;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+
+header {
+    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+p {
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+    color: gray;
+}
+
+.info {
+    margin: 0, 500px;
+
+}
