@@ -1,9 +1,91 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/* Section 1 */
+.background-img {
+  background-image: url(../images/soup.jpg);
+  background-size: contain;
+  height: 1590px;
+  width: 100%;
+  background-repeat: no-repeat;
   margin: 0;
+  position: relative;
+  bottom: 70px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 900px;
+  font-size: 100px;
+  font-weight: 10;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p {
+  text-align: left;
+  position: relative;
+  bottom: 40px;
+  left: 400px;
+  color: grey;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.recipe-inf {
+  position: relative;
+  left: 680px;
+  margin-bottom: 100px;
+}
+
+hr{
+  border: 0;
+  border-top: 2px solid grey; 
+  border-bottom: 2px solid grey;
+  margin-left: 370px;
+  margin-right: 270px;
+  opacity: .5;
+}
+
+/* Section 2 */
+
+.section2 h2 {
+  color: darkgrey;
+  position: relative;
+  left: 400px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.ing-list ul {
+  list-style: "- ";
+  position: relative;
+  left: 390px;
+  color: grey;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.cook-info {
+  position: relative;
+  left: 710px;
+  margin-bottom: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+/* Section 3 */
+
+.section3 h2 {
+  position: relative;
+  margin-top: 10px;
+  top: 90px;
+  left: 390px;
+  color: grey;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.steps {
+  position: relative;
+  top: 200px;
+}
+.steps p {
+  font-size: 20px;
 }
