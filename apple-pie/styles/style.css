@@ -1,0 +1,89 @@
+.container {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.container img{
+    max-height: 900px;
+}
+
+.centered{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    color:white;
+}
+
+.description{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    font-size:1.6rem;
+
+}
+
+
+.recipe-info{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.recipe-info img {
+    height: 70px;
+}
+
+.recipe-list ul {
+    list-style-type: none
+}
+
+hr {
+    width: 65%;
+}
+
+
+.recipe-list{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.6rem;
+}
+
+.recipe-list p {
+    font-weight: 500;
+}
+
+.cooking-info-img{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cooking-info-img img{
+    height: 90px;
+}
+
+.directions {
+    margin-top: 80px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+}
+
+.directions ol {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.directions p {
+    font-weight: 500;
+}
+
+
+
+*{
+    font-family: serif;
+}
