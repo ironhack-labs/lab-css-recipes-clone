@@ -1,0 +1,76 @@
+body {
+    
+    font-family:'Segoe UI';
+}
+
+
+.img-top {
+    width: 1500px;
+    height: 1100px;
+    margin-left: -1%;    
+
+}
+#h1-top {
+
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 400px;
+    left: 300px;
+    right: 200px;
+    bottom: auto;
+    width: 850px;
+    font-size: 100px; 
+    font-weight: normal;
+    
+
+}
+
+h2 {
+
+font-size: 24px;
+font-weight: 300px;
+margin-left: 10%;
+
+}
+
+#p-subtop{ 
+
+    font-size: 24px;
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.time1 {
+    margin-left:30%;
+    margin-right: 30%;
+    width: auto;
+    height: 80px;
+
+}
+.time2 {
+    margin-left:30%;
+    margin-right: 30%;
+    width: auto;
+    height: 110px;
+
+}
+.ingredienteslist {
+    list-style: none;
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 21%;
+    font-size: 20px;
+
+
+}
+
+.directionslist{
+    
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 21%;
+    font-size: 20px;
+}
+
