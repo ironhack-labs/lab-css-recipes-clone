@@ -1,0 +1,49 @@
+h1, body, html, main {
+  margin: 0;
+}
+
+#header {
+  background-image: url(../images/apple-pie.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 50px;
+  position: center;
+}
+
+h1{
+  font-size: 5em;
+  text-align: center;
+  margin-top:40px;
+  color: white;
+}
+.textinho{
+    text-align:center;
+}
+.container{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+hr{
+  align: center;
+  width:800px;
+	border: 2px solid;
+  color: grey;
+	
+}
+#secao1{
+}
+.container2{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
