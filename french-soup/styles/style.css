@@ -7,3 +7,75 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.imgPlusText img {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+}
+
+.imgPlusText h1 {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+  color:white;
+  font-size: 120px;
+  font-weight: 300;
+}
+
+.introduction {
+  width: 50%;
+  margin: auto;
+}
+
+.introduction p {
+  font-size: 50px;
+  text-align: left;
+}
+
+.introduction img {
+  display: block;
+  margin: auto;
+}
+
+.ingredients {
+  width: 50%;
+  margin: auto;
+}
+
+.ingredients h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.ingredients ul {
+  list-style-type: none;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.ingredients img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.directions {
+  width: 50%;
+  margin: auto;
+}
+
+.directions h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.directions ol {
+  font-size: 30px;
+  margin-bottom: 100px;
+  line-height: 45px;
+}
+
+hr {
+  width: 50%;
+}
