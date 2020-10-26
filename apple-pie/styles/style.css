@@ -1,5 +1,17 @@
+.info1{ 
+    display: flex;
+    justify-content: center;
+}
 
+.info2{ 
+    display: flex;
+    justify-content: center;
+}
 
+.paragraph {
+     display: flex;
+     justify-content: center;   
+}
 h1 {
     background: url('../images/apple-pie.jpg') center no-repeat;
     background-size: cover;
@@ -10,19 +22,15 @@ h1 {
     text-align: center;
     padding: 250px;
 }
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 150%;
     color: rgb(54, 54, 54);
-    padding: 30px;
+    padding: 10px;
     margin-left:  190px;
     margin-right: 190px;
-}
-
-.image{
-    background: url('../images/recipe-info.png') center no-repeat;
-    position: relative;
 }
 
 h2 {
@@ -42,7 +50,7 @@ h2 {
     margin-right: 190px;
 }
 ul {
-    list-style: none;
+    list-style-type: "- ";
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     text-align: left;
@@ -53,7 +61,8 @@ ul {
 }
 
 ol {
-    list-style-type: decimal;
+    list-style: none;
+    counter-reset: like-exercise;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     text-align: left;
@@ -63,10 +72,16 @@ ol {
     margin-right: 190px;
 }
 
-.image2{
-    background: url('../images/cooking-info.png') center no-repeat;
+ol li {
+    counter-increment: like-exercise;
 }
 
+  ol li::before {
+    content: counter(like-exercise) ". ";
+    color: rgb(54, 54, 54);
+    font-weight: lighter;
+}
+  
 .hr2{
     border: 0px;
     border-bottom: 3px solid #808080;
