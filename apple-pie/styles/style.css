@@ -10,110 +10,126 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #979797;
+  font-weight: 300;
 }
 
 header {
   width: 1200px;
-  height: 800px;
+  height: 600px;
   margin: 0px auto;  
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-header img {
-  width: 1200px;
-  height: 800px;
-}
 
 header h1 {
   color: white;
-  font-size: 4em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-top: 350px;
-  margin-left: 450px;
+  font-size: 9em;
+  font-weight: 100;
 }
+
 
 .cooking-container {
   width: 960px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  align-items: center;
+  margin: 100px 200px 30px 200px;
 
 }
 
 .cooking-container p {
+  width: 1000px;
+  font-size: 1.8em;
   text-align: center;
-  display: flex;
-  align-self: center;
-  width: 750px;
-  margin: 50px 0;
-  font-size: 1.5em;
-  margin-bottom: 30px;
-
 }
 
 .cooking-container img {
-  display: flex;
-  align-content: center;
-  align-self: center;
   width: 550px;
-  height: 50px;
-  margin-bottom: 30px;
+  margin: 30px 200px 10px 200px;
+}
 
+.hr-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  width: 950px;
+  border: 1px #adadad solid;
+  
 }
 
 .ingredients-container {
+  width: 960px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 30px 200px 10px 200px;
+
 }
 
 .ingredients-container h2 {
   margin-top: 30px;
   margin-bottom: 20px;
-  display: flex;
   font-size: 1.5em;
   font-weight: 450;
+  color: #0e0e0e;
 }
 
 
 .ingredients-container li {
   list-style-type: none;
   font-size: 1.2em;
+  margin-left: 20px;
 }
 
 .ingredients-container img {
-  display: flex;
   width: 450px;
-  height: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 200px;
+  margin: 30px 0 30px 250px;
 
 }
 
 .directions-container {
+  width: 960px;
   display: flex;
   flex-direction: column;
-  width: 750px;
-  margin-bottom: 30px;
+  justify-content: start;
+  align-items: start;
+  margin: 30px 200px 30px 200px;
 }
 
 .directions-container h2 {
   margin-top: 30px;
   margin-bottom: 20px;
-  display: flex;
   font-size: 1.5em;
   font-weight: 450;
+  color: #0e0e0e;
 }
 
+.directions-container ol {
+  counter-reset: number;
+}
 
 .directions-container li {
+  width: 940px;
   list-style-type: none;
-  font-size: 1.3em;
-  text-align: left;
+  font-size: 1.5em;
+  margin-left: 20px;
 }
+
+.directions-container li:before {
+  content: counter(number) ')';
+  counter-increment: number;
+} 
 
 
 
