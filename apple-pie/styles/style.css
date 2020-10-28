@@ -35,11 +35,12 @@ div {
 p {
   max-width: 650px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 ul {
   list-style-type: '-   ';
+  padding: 40px 0;
 }
 
 hr {
