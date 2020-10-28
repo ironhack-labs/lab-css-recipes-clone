@@ -1,9 +1,84 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: Roboto, "Open Sans", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  background-color: #fff;
+  color: rgb(107, 107, 107);
+}
+
+#top {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#top h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information p {
+  padding: 100px 100px 25px 100px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.information img {
+  margin-bottom: 50px;
+}
+
+.ingredients {
+  margin-top: 50px;
+}
+
+.ingredients h2,
+ul {
+  margin-left: 130px;
+  font-size: 24px;
+}
+
+.ingredients li {
+  list-style: none;
+  padding: 5px;
+}
+
+.imgRecipe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.directions {
+  margin-top: 50px;
+}
+
+.directions h2,
+ol {
+  margin-left: 130px;
+  font-size: 24px;
+}
+
+.directions li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 120px;
+}
+
+hr {
+  margin: 20px auto 10px auto;
+  width: 80%;
 }
