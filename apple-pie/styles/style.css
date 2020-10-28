@@ -6,7 +6,7 @@ body {
     color: rgb(66, 66, 66);
 }
 
-.title {
+.PieTitle {
     height: 800px;
     width: 1000px;
     background: url(../images/apple-pie.jpg);
@@ -14,11 +14,26 @@ body {
     display: flex;
 }
 
-.title>h1 {
+.PieTitle>h1 {
     color: white;
     font-weight: 420;
     font-size: 85px;
     padding: 200px 300px;
+}
+
+.OnionTitle {
+    height: 800px;
+    width: 1000px;
+    background: url(../../french-soup/images/soup.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.OnionTitle>h1 {
+    color: white;
+    font-weight: 420;
+    font-size: 85px;
+    padding: 450px 80px;
 }
 
 .intro p {
