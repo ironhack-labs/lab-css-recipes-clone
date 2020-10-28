@@ -1,0 +1,11 @@
+body {
+  color: blue;
+}
+
+ul {
+    list-style-type: '- ';
+}
+
+ol {
+    list-style-type: symbols();
+}
