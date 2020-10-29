@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  color: dimgrey;
+}
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 4.5em;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin: 90px 0 0 30px;
+  padding: 140px 0;
+}
+
+h2 {
+  font-weight: 350;
+  color: rgb(24, 23, 23);
+}
+
+ul {
+  margin: 0 0 40px 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -30px;
+}
+ul.dashed > li:before {
+  content: '-';
+  text-indent: -30px;
+}
+
+ol {
+  counter-reset: list;
+  margin: 0 0 40px -30px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ') ';
+  counter-increment: list;
+}
+
+section {
+  width: 600px;
+  font-size: 0.95em;
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 30px auto;
+}
+
+.introduction {
+  font-size: 1.2em;
+  margin: 30px -30px;
+}
+
+.section,
+img {
+  margin: 0 0 0 150px; /*why is 'auto' not working? there must be a better way*/
+  width: 20em;
+}
