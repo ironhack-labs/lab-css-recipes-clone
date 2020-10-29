@@ -1,0 +1,40 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgrey;
+  width: 30%;
+}
+
+.header {
+  background-image: url('/Users/dardannyapatente/ironhack/labs/lab-css-recipes-clone/apple-pie/apple-pie.jpg');
+  background-position: 0 0;
+  width: 30%;
+  height: 30%;
+  padding: 50px;
+  margin: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.apple-pie {
+  height: 30%;
+  width: 30%;
+}
+
+p {
+  text-align: center;
+  align-items: center;
+  color: darkgray;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+}
