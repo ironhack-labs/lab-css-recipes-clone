@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    font-family: "Montserrat";
+}
+
+.centered {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h2 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    height: 550px;
+}
+
+.container img {
+    background-position: center center;
+    height: 550px;
+    object-fit: cover;
+}
+
+.recipe-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-width: 500px;
+}
+
+p {
+    margin-top: 40px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.bar {
+    border-top: 1px solid gray;
+}
+
+h5 {
+    margin-top: 40px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+ul li {
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+.directions p {
+    margin-left: 40px;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
