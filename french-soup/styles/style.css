@@ -3,28 +3,22 @@ body {
     font-family: "Montserrat";
 }
 
-.centered {
-    position: absolute;
-    top: 270px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.header {
+    background-image: url("../images/soup.jpg");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    display: inline-block;
 }
 
-.centered h2 {
-    font-size: 70px;
+.header h2 {
+    font-size: 75px;
     font-weight: 400;
-}
-
-.container {
     text-align: center;
+    padding-top: 270px;
     color: white;
-    height: 550px;
-}
-
-.container img {
-    background-position: center center;
-    height: 550px;
-    object-fit: cover;
 }
 
 .recipe-info {
