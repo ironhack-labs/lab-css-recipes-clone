@@ -1,5 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=opensans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.header {
-    background-image: url(C:\Users\faque\js-basics\clase3\lab-html-css\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
+
+
+
+body {
+    width: auto;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
 }
+
+header {
+    background-image: url(C:\Users\faque\js-basics\clase3\lab-html-css\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
+    margin: 250px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+p {
+    padding-left: 31%;
+    padding-right: 31%;
+    text-align: justify;
+}
+
+hr {
+    margin: 10px 25%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+}
+
+.centerList {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+
+
