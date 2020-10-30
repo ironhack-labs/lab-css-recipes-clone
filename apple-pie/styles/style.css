@@ -5,7 +5,7 @@ body {
 
 .centered {
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -64,6 +64,10 @@ ul li {
     font-weight: 300;
     margin-left: 0px;
     list-style-type: none;
+}
+
+ul li::before {
+    content: " - ";
 }
 
 .directions p {
