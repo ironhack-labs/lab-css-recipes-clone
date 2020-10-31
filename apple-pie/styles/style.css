@@ -1,0 +1,36 @@
+* {
+    font-family:Calibri , sans-serif;
+    color:#3f3f3f;
+  
+  }
+  .padding-class {
+    padding: 50px 100px 50px 100px;
+  }
+  .header-class {
+      height: 750px ;
+      background-image: url('file:///home/ana/Desktop/Ironhack/laboratorios/recipe/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+      background-position: 0,0;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+  header h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    
+    font-weight:normal;
+  }
+  p{
+    font-size: 25px;
+    color:#3f3f3f;
+  }
+  img{
+    display:block;
+    margin:auto;
+  }
+  a{
+    font-size: 18px;
+  }
