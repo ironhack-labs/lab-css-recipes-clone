@@ -1,9 +1,49 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+#banner {
+    background-image: url('../images/soup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    color: #fff;
+    font-size: 3.8em;
+}
+
+.content {
+    max-width: 1045px;
+    margin: 60px auto 0;
+}
+
+.content > hr {
+    width: 100%;
+}
+
+#introduction article {
+    font-size: 1.2em;
+}
+
+#introduction img {
+    display: block;
+    max-width: 420px;
+    padding: 25px 10px 0;
+    margin: 0 auto;
+}
+
+#ingredients img {
+    display: block;
+    max-width: 400px;
+    padding: 25px 10px 0;
+    margin: 0 auto;
 }
