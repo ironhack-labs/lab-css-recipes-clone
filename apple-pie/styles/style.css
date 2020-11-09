@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+body > *{
+    margin: 0 10% 50px 10%;
+    font-family: 'Raleway', sans-serif;
+}
+.apple{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+}
+h1{
+    font-weight: normal;
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+article{
+    text-align: center;
+    margin: 0 19%;
+    font-size: 0.90em;
+}
+.recipe{
+    display: block;
+    margin: 5% auto;
+    width: 300px;
+}
+.ingredients{
+    display: block;
+    margin: 5% auto;
+    width: 300px;
+}
+h2{
+    margin-left: 3%;
+    font-weight: normal;
+}
+ul{
+    list-style-type: none;
+    line-height: 1.35;
+}
+ol{
+    margin: 5%;
+}
+hr{
+    width: 80%;
+}
