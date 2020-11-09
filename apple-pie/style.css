@@ -1,13 +1,16 @@
-@import url("//fonts.googleapis.com/css?family=Calibri");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300|Roboto:100,300,700");
 
 p {
-  font-size: 2em;
-  font-family: Calibri;
+  font-size: 1.5em;
+  font-family: Nunito;
+  font-weight: 100;
+  word-spacing: normal;
 }
 
 h2 {
   font-size: 2em;
-  font-family: Calibri;
+  font-family: Nunito;
+  font-weight: 700;
 }
 
 .header {
@@ -23,6 +26,8 @@ h2 {
 
 .header h1 {
   margin: 300px;
+  font-family: Nunito;
+  font-weight: 300;
   font-size: 7em;
   color: white;
   text-align: center;
@@ -38,7 +43,7 @@ h2 {
 
 .ingredients p,
 .directions p {
-  margin: 0;
+  margin: 0 10px;
 }
 
 .story img {
@@ -48,13 +53,17 @@ h2 {
   width: auto;
 }
 
-.story,
-.ingredients,
-.directions {
-  margin: 50px 350px;
+.centered {
+  margin: 50px 250px;
 }
 
 .story p {
+  font-size: 2em;
   text-align: justify;
   text-align-last: center;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid;
 }
