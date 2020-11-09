@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 300.;  
+    font-family: Roboto, sans-serif; 
+}
+
+h1 {
+    text-align: center;
+    margin: 250px;
+    color: white;
+    font-size: 85px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 500;
+    padding-left: 45px;
+}
+
+.section0 {
+    background-image: url('file:///home/malakai/Ironhack/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+    height:650px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+    
+  }
+
+.section1 {
+    padding-left: 100px;
+    
+  }
+
+.section2 {
+    padding-left: 100px;
+  }
+
+.section3 {
+    padding-left: 100px;
+}
+
+.p1 {
+
+text-align: justify;
+padding: 75px 50px;
+
+}
+
+.recipeinfo {
+    height: 60px;
+    display: block;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.cookinginfo {
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding-bottom: 35px;
+} 
+
+hr {
+    width: 70%;
+    border: 1px solid grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
