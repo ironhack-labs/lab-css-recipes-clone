@@ -5,54 +5,48 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-/* image block */
-.container {
-    position: relative;
+.container { 
     text-align: center;
+    position: relative;
 }
 
 .centered {
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);;
+    font-size: 80px;
     color: white;
-    font-size: 100px;
-    font-weight: bold;
 }
 
-/* header block */
-header p {
-    font-size: 20px;
+.header-box {
     text-align: center;
-    padding: 20px 100px 0 100px;
-    color:#373737;
+    font-size: 18px;
+        color: #373737;
+/* border: 1px solid black; */
+    padding: 0 500px 0 500px;
 }
 
-.recipe {
+.tips {
     text-align: center;
 }
 
-/* ingredients block */
+hr {
+    border-top: 2px solid #373737;
+    text-align: center;
+    margin: 0 450px 0 450px;
+}
 
 ul {
     list-style: none;
+    color: #373737;
 }
 
-.cooking {
-    text-align: center;
-}
-
-/* general */
 h1 {
-    padding: 0 0 0 50px;
+    font-size: 20px;
 }
 
-li {
-    padding: 0 0 0 50px;
-}
-
-.text {
-    color:#373737;
-    width: 700px;
+.instructions {
+    margin: 50px 450px 50px 450px;
 }
