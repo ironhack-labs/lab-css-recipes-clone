@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* image block */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+/* header block */
+header p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 100px 0 100px;
+    color:#373737;
+}
+
+.recipe {
+    text-align: center;
+}
+
+/* ingredients block */
+
+ul {
+    list-style: none;
+}
+
+.cooking {
+    text-align: center;
+}
+
+/* general */
+h1 {
+    padding: 0 0 0 50px;
+}
+
+li {
+    padding: 0 0 0 50px;
+}
+
+.text {
+    color:#373737;
+    width: 700px;
+}
