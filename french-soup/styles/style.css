@@ -7,3 +7,25 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.apple-img {
+  font-weight: 600;
+  font-size: 3rem; 
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+
+header {
+  background-image: url("../images/cooking-info.png"); 
+ background-position: 0 0;
+ background-size: cover;
+ height: 650px;
+ padding-top: 50px;
+ position: relative;
+}
