@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif
 }
 header {
-  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-image: url("../images/apple-pie.jpg");
   background-repeat: no-repeat;
   width: 100%;
   text-align: center;
@@ -11,6 +11,8 @@ header {
   justify-content:center;
   align-items:center;
   height: 600px;
+  color:white;
+  
 }
 
 body {
@@ -34,13 +36,15 @@ h2 {
     font-weight: normal;
     font-size: 2em;
     color: black;
+    border-top: 1px solid grey;
+    padding-top: 1em;
 }
 
 ol, ul {
     text-align:left;
     font-size:1.2em
     line-height:1.2
-    lef-margin: 25px
+    lef-margin: 25px;
 }
 
 img {
