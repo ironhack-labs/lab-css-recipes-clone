@@ -1,49 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-    font-family: Helvetica;
+    font-family: 'Poppins';
+    color: rgb(65, 64, 64);
 }
 
+/*  Image background */
 .apple-pie-header {
     height: 600px;
     background-image: 
-    url("images/apple-pie.jpg");
-    position: 0 0;
-    size: cover;
+    url("../images/apple-pie.jpg");
+    background-size: cover;
 }
 
+/* Title apple pie */
 h1 {
     color: white;
     font-size: 3em;
     text-align: center;
     padding: 250px;
+    letter-spacing: 1.5px;
 
 }
 
+/* Intro text about the recipe */
 p { 
-    color: black;
-    text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 
 }
 
+/* Ingredients title*/
 h2 {
-    color: black;
     margin-left: 100px;
     margin-right: 100px;
     font-size: 1.5em;
 }
 
+/* List of ingredients */
 ul {
     margin-left: 100px;
     margin-right: 100px;
 }
 
+/* the two images */
 #cooking-info {
-margin-left: 100px;
-margin-right: 100px;
+    height: 80px;
+    margin-left: 280px;
+    margin-right: 100px;
 }
 
+#recipe-info {
+    height: 80px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+/* The ordered list of instructions */
 #instructions-list {
-margin-left: 100px;
-margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* The two line breaks between sections */
+.line-break {
+    background-color: darkgrey;
+    padding: 1.5px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
