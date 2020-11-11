@@ -8,7 +8,7 @@
   }
   .header-class {
       height: 750px ;
-      background-image: url('file:///home/ana/Desktop/Ironhack/laboratorios/recipe/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+      background-image: url('../images/apple-pie.jpg');
       background-position: 0,0;
       background-repeat: no-repeat;
       background-size: 100%;
