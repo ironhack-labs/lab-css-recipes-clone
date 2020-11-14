@@ -1,0 +1,110 @@
+.header {
+    text-align: center;
+    
+    
+}
+
+.place {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.secondcenter {
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+    
+}
+
+.thirdcenter {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+#separe {
+    width: 35rem;
+}
+
+.write {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: lighter;
+ 
+   
+    
+    
+}
+
+p  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: darkslategray;
+    
+    
+}
+
+li  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+.mainapple {
+    width: 800px;
+    
+}
+
+.generalinfo {
+    width: 300px;
+}
+
+.recipetime {
+    width: 300px;
+    margin-left: 20%;
+}
+
+#secondsepare {
+    width: 35em;
+}
+
+ul {
+    list-style: none;
+    margin-left: -5%;
+}
+
+body {
+    padding-bottom: 2%;
+    margin-top: 0px;
+    background-color: darkslategrey;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -40px;
+    padding-bottom:20px ;
+    
+}
+
+
+
+
