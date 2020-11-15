@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 html {
   font-family: "roboto";
 }
@@ -11,13 +13,14 @@ html {
 }
 
 .center {
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5em;
   text-align: center;
   color: white;
   position: absolute;
+  z-index: 2;
 }
 
 .summary {
@@ -41,8 +44,15 @@ html {
   width: 50%;
 }
 
+.ingredients > ul {
+  list-style-type: "-";
+}
+
+hr {
+  border: solid grey;
+}
 .directions {
-  margin-top: solid grey;
+  padding-top: 10px;
   margin: 40px;
   line-height: 40px;
   font-size: large;
