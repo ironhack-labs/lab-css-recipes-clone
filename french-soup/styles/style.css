@@ -1,9 +1,140 @@
-/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+/*----------------------------------MEDIA---------------------------------*/
+
+/*SMALL*/
+@media (max-width: 599px) {
+  body {
+    font-size: 12px;
+  }
+  header{
+    height: 330px; 
+  }
+  }
+
+/*BIG*/
+@media (min-width: 960px) {
+  body {
+    font-size: 26px;
+  }
+  header{
+    height: 700px; 
+  }
+  }
+
+/*MEDUMS*/
+@media (min-width: 600px) and (max-width: 959px) {
+  body {
+    font-size: 18px;
+  }
+  header{
+    height: 400px; 
+  }
+  }
+
+/*------------------------------FIN MEDIA. STYLE START------------------------------*/
+
+/*.navigator {
+  background-size: cover;
+  padding: 14px 0px;
+}
+.navigator-ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.navigator-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.navigator a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.7em;
+}*/
+
+body {
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /*Font-size: @media*/
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+aside {
+  position: fixed;
+  left: 0%;
+  bottom: 20%;
+  background-color: rgba(85, 133, 8, 0.74);
+  width: 8%;
+  padding: 4px 4px 4px 0;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  line-height: 0.8em;
+}
+
+.pop a {
+  color: black;
+  text-decoration: none;
+  font-size: 70%;
+}
+
+header {
+  /*height: @media*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recepie-title {
+  color: white;
+  text-align: center;
+  font-size: 250%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.imageHeader {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% 30%;
+  background-size: cover;
+  margin: 0;
+}
+
+section {
+  width: 80%;
+  text-align: justify;
+  margin: 0 10% 0 10%;
+  padding: 5% 0;
+  border: solid grey;
+  border-width: 0 0 1px 0;
+}
+
+.infoPics {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.list-ingredients {
+    list-style-type: "- ";
+  }
+
+ol {
+  list-style: none;
+  counter-reset: counter;
+}
+
+ol li {
+  counter-increment: counter;
+}
+
+ol li::before {
+  content: counter(counter) ") ";
 }

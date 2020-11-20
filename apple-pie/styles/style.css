@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
 
+h1, body, html, main {
+  margin: 0;
+}
+
 /*----------------------------------MEDIA---------------------------------*/
 
 /*SMALL*/
@@ -35,12 +39,29 @@
 /*------------------------------FIN MEDIA. STYLE START------------------------------*/
 
 body {
-  margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   /*Font-size: @media*/
   line-height: 1.5em;
   font-weight: 300;
+}
+
+aside {
+  position: fixed;
+  right: 0%;
+  bottom: 25%;
+  background-color: rgba(209, 112, 0, 0.774);
+  width: 8%;
+  padding: 4px 0 4px 4px;
+  border-radius: 20px 0 0 20px;
+  text-align: center;
+  line-height: 0.8em;
+}
+
+.pop a {
+  color: black;
+  text-decoration: none;
+  font-size: 70%;
 }
 
 header {
