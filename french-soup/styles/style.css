@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +7,79 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+
+#heading {
+  background:
+      url(../images/soup.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+  font-size: 5em;
+  text-align: center;
+  padding: 20% 0%;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+}
+
+#content {
+  padding: 5%;
+  font-size: 1.5em;
+}
+
+#intro {
+  text-align: justify;
+  border-style: none none solid none;
+  border-width: thin;
+  padding: 3% 0%;
+}
+
+#ingredients {
+  text-align: justify;
+  border-style: none none solid none;
+  border-width: thin;
+  padding: 3% 0%;
+}
+
+#directions {
+  padding: 3% 0%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li:before {
+  counter-increment: list;
+  content: counter(list, decimal) ") ";
+  position: absolute;
+  left: -1.4em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  max-width: 100%;
 }
