@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/* GENERAL CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+section {
+    padding: 35px 55px;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+.recipe-hr {
+    height: 1px;
+    background-color: black;
+    margin: 10px 55px;
+}
+
+/* HEADER SECTION CSS */
+header {
+    margin: 0;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* INGREDIENTS SECTION CSS */
+ul.ingredients {
+    list-style-type: none;
+}
+
+.ingredients li:before {
+    content: "-";
+    position: relative;
+    left: -10px;
+}
+
+.recipe-data {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.fas {
+    color: rgb(87, 87, 87);
+    font-size: 1.2em;
+    margin: 0px 8px;
+}
+
+/* INGREDIENTS CSS */
+.ingredients-data {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    padding: 0px 25px;
+    display: inline;
+}
+
+.border-left {
+    border-left: 1px solid rgb(172, 172, 172);
+}
+
+.data span {
+    color: rgb(0, 0, 0);
+}
+
+
+/* RESPONSIVE CSS CLASSES */
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 1.1em;
+    }
+    
+    section {
+        padding: 30px 40px;
+    }
+    
+    li {
+        font-size: 1em;
+    }
+    
+    h3 {
+        font-size: 1.4em;
+    }
+
+    header {
+        padding: 100px 20px;
+        font-size: 1.8em;
+    }
+    
+    .recipe-hr {
+        height: 1px;
+        background-color: black;
+        margin: 10px 40px;
+    }
+
+    .recipe-data {
+        font-size: 0.9em;
+    }
+
+    .data {
+        padding: 0px 15px;
+        font-size: 0.9em;
+    }
+  }
