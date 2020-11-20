@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+
+/*----------------------------------MEDIA---------------------------------*/
+
+/*SMALL*/
+@media (max-width: 599px) {
+  body {
+    font-size: 12px;
+  }
+  header{
+    height: 330px; 
+  }
+  }
+
+/*BIG*/
+@media (min-width: 960px) {
+  body {
+    font-size: 26px;
+  }
+  header{
+    height: 700px; 
+  }
+  }
+
+/*MEDUMS*/
+@media (min-width: 600px) and (max-width: 959px) {
+  body {
+    font-size: 18px;
+  }
+  header{
+    height: 400px; 
+  }
+  }
+
+/*------------------------------FIN MEDIA. STYLE START------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /*Font-size: @media*/
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+header {
+  /*height: @media*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recepie-title {
+  color: white;
+  text-align: center;
+  font-size: 250%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.imageHeader {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% 30%;
+  background-size: cover;
+  margin: 0;
+}
+
+section {
+  width: 80%;
+  text-align: justify;
+  margin: 0 10% 0 10%;
+  padding: 5% 0;
+  border: solid grey;
+  border-width: 0 0 1px 0;
+}
+
+.infoPics {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.list-ingredients {
+    list-style-type: "- ";
+  }
+
+ol {
+  list-style: none;
+  counter-reset: counter;
+}
+
+ol li {
+  counter-increment: counter;
+}
+
+ol li::before {
+  content: counter(counter) ") ";
+}
