@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* BODY Y SUBTITULOS*/
+body {
+font-family: 'Roboto';
+font-size: 15px;
+line-height: 3.5 em;
+font-weight: 300;
+}
+
+h1, h2, h3, h4, h5 {
+font-family: 'Roboto Condensed'; 
+}
+
+/*HEADER*/
+
+.header { 
+ background: url("https://github.com/amoralesp88/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true") 0 0 no-repeat;
+ background-size: 500px;
+ height: 450px;
+ width: 600px;
+ position: center;
+ margin-left: 18%;
+ padding: 0px 0 15px
+  }
+/*BODY*/
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  width: 500px;
+  text-shadow: rgb(2, 8, 25) 0px -1px  8px;
+  font-size: 45px;
+  line-height: 9em;
+  text-align: center;
+  font-weight:normal;
+}
+h2{ 
+  font-size:30px;
+  text-align: left;
+  margin-left: 18%;
+}
+p {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0 55px;
+  font-size: 15px;
+  line-height: 3.5 em;
+  font-weight: 300;
+  
+}
+/*LISTADO*/
+
+.Ingredients {
+  
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+ul li:before {
+  content: '\2011';
+  position: absolute;
+  margin-left: -10px;
+}
+.Directions{
+  
+  width: 500px;
+  margin: 0 auto;
+  padding: 0px 0;
+
+}
+
+/* DIVISIÓN*/
+
+hr {
+  background-color: grey;
+  height: 2px;
+  margin-left: 15%;
+  width: 70%;
+  padding: 0px 0;
+}
+/*IMÁGENES*/
+
+.cooking-info{
+  width: 29%;
+  margin-left: 33%;
+  padding: 10px 0;
+}
+.recipe-info {
+  width: 35%;
+  margin-left: 30%;
+  padding: 0px 0 10px 0;
+}
