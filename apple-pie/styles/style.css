@@ -10,6 +10,7 @@ font-family: 'Roboto';
 font-size: 15px;
 line-height: 3.5 em;
 font-weight: 300;
+width: 780px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -19,10 +20,10 @@ font-family: 'Roboto Condensed';
 /*HEADER*/
 
 .header { 
- background: url("https://github.com/amoralesp88/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true") 0 0 no-repeat;
+ background: url("../images/apple-pie.jpg") 0 0 no-repeat;
  background-size: 500px;
  height: 450px;
- width: 600px;
+ width: 500px;
  position: center;
  margin-left: 18%;
  padding: 0px 0 15px
@@ -45,12 +46,9 @@ h2{
   margin-left: 18%;
 }
 p {
-  width: 500px;
-  margin: 0 auto;
-  padding: 10px 0 55px;
-  font-size: 15px;
-  line-height: 3.5 em;
-  font-weight: 300;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 0 10px;
   
 }
 /*LISTADO*/
