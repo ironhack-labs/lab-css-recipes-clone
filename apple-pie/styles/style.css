@@ -3,13 +3,14 @@
 html, body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
     background-color: black;
 }
 
 section {
-    font-size: 43px;
+    font-size: 15px;
     background-color: white;
-    margin: 0 200px;
+    margin: 0 600px;
 }
 
 div {
@@ -19,7 +20,7 @@ div {
 h1{
     margin: 0;
     padding-top: 30%;
-    font-size: 150px;
+    font-size: 60px;
 }
 
 hr{
@@ -33,12 +34,11 @@ hr{
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    text-justify: ;
-    height: 1000px;
+    height: 475px;
     margin-bottom: 50px;
 }
 
-.info-image{
-    text-align: center;
-    margin: 20px 0;
+img{
+    margin: 5px 40px;
+   
 }
