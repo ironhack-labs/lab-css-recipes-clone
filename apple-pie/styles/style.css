@@ -5,40 +5,53 @@ html, body{
     margin: 0;
     padding: 0;
     background-color: black;
-}
+    }
 
 section {
-    font-size: 15px;
+    font-size: 13px;
     background-color: white;
     margin: 0 600px;
+    padding-bottom: 50px;
 }
 
 div {
     padding: 0 120px;
 }
 
+.intro{
+    text-align: justify;
+    font-size: 13.5px;
+}
+
 h1{
-    margin: 0;
-    padding-top: 30%;
+    margin: auto;
     font-size: 60px;
+    color: white;
+
 }
 
 hr{
-    height: 3px;
+    height: 1px;
     background-color: grey;
 }
 
 .recipe-image{
+    display: flex;
+    align-items: center;
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
     text-align: center;
     height: 475px;
     margin-bottom: 50px;
 }
 
 img{
-    margin: 5px 40px;
-   
+   display: block;
+   margin: auto;
+   width: 50%;
+}
+
+li {
+    list-style: none;
 }
