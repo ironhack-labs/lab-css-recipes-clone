@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+img {
+    margin: auto;
+    max-width: 90%;
+}
+
+hr {
+    border: 1px solid;
+    border-color: rgb(169,169,169, 0.9);
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    align-items: center;
+    background-image: url('../images/apple-pie.jpg');
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+/* MAIN DIV */
+.main-div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    width: 85%;
+}
+
+.main-div > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    justify-content: space-evenly;
+}
+
+/* MAIN DIV - Ingredients */
+#ingredients ul {
+    list-style-type: none;
+    position: relative;
+    right: 30px; /* Para solucionar el hueco que dejan los <li> al ablicar li:before*/
+}
+
+#ingredients li:before{
+    content: "- ";
+}
+
+/* MAIN DIV - Directions */
+#directions ol {
+    counter-reset: 0;
+  }
+
+#direction li {
+    counter-reset: 0;
+}
+
+#directions li:before{
+    content: ")";
+    counter-increment: counter(number);
+}
+
+.ingredients li:before{
+    content:);
+}
+
