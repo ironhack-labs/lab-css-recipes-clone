@@ -1,6 +1,81 @@
 
-.coment{
-    display: block;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+.apple-pie{
+    padding-top: 100px;
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+  
+   
     
+}
+.apple-title{
+    position: absolute;
+    color: white;
+    margin-left: 550px;
+    padding-top: 250px;
+    font-size: 60px;
+
+}
+.text{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 250px;
+    padding: 50px;
+    font-size: 20px;
+    color: lightslategray;
+
+}
+.tiempo-prep{
+  
+    height: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+ 
+}
+.ingredients{
+    border-top: lightslategray 1.5px solid;
+    margin-left: 400px;
+    margin-right: 250px;
+    padding-top: 30px;
+   
+
+}
+
+.ingredients li{
+    color: lightslategrey;
+    list-style-type: none;
+    
+   
+
+}
+.preparation{
+    height: 65px;
+    margin-left:150px;
+    margin-right: 200pxpx;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+}
+
+.directions{
+    border-top: lightslategray 1.5px solid;
+    margin-left: 400px;
+    margin-right: 250px;
+   
+   
+    
+
+}
+.directions li{
+    color: lightslategray;
+    list-style-type: none;
 }
