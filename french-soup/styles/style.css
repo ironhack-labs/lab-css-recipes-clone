@@ -7,3 +7,47 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body  {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: 0;
+}
+.image {
+width: 100%;
+height: 1200px;
+background-size: cover;
+justify-content: center;
+border: 2px solid transparent;
+}
+
+.Soup {
+  margin-top: 560px;
+  color: white;
+  text-align: center;
+  font-size: 8em;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.introduction {
+  width: 65%;
+  margin: auto;
+  border: 2px solid transparent;
+  font-size: xx-large;
+}
+
+.info-recipe {
+  width: 35%;
+  margin: auto;
+  border: 2px solid transparent;
+}
+
+.preparation-time {
+  width: 35%;
+  margin: auto;
+  border: 2px solid transparent;
+}
+.hr {
+width: 70%;  
+height: 3px;  
+background-color: grey;
+}
