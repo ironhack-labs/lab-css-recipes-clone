@@ -1,18 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin:0px;
     padding:0px;
     background-color: white;
     font-family: 'Roboto', sans-serif ;
-};
-
-
-
-
-#container{
-   
+    font-weight: 100;
 }
+
 
 #header{
     
@@ -36,11 +32,16 @@ body{
     font-size: 4em ;
     text-align: center;
     width: 100%;
+    font-weight: 100;
 
 }
 
 .section{
-    margin:50px;
+    margin:35px 70px;
+}
+
+.description-text{
+    font-size: 1.1em;
 }
 
 .recipe-icons{
@@ -48,8 +49,18 @@ body{
     padding-top:30px;
 }
 
+hr{
+
+    border: solid 1px darkgrey;
+    width: 85%;
+ }
+
 #ingredients-sec{
     text-align: left;
+}
+
+.section h3{
+    font-weight: 400;
 }
 #directions-sec{
     text-align: left;
@@ -64,8 +75,6 @@ ul li{
 
 ul li:before{content: "- ";}
 
-hr{
 
-    border: solid 1px darkgrey;
-    width: 85%;
- }
+ol li:before{content: ") "}
+
