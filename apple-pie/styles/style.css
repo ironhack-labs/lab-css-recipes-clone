@@ -21,7 +21,7 @@ img {
 
 hr {
     border: 1px solid;
-    border-color: rgb(169,169,169, 0.9);
+        border-color: rgb(169,169,169, 0.7);
     width: 100%;
 }
 
@@ -30,14 +30,14 @@ header {
     align-items: center;
     background-image: url('../images/apple-pie.jpg');
     display: flex;
-    justify-content: center;
+        justify-content: center;
     height: 750px;
 }
 
 /* MAIN DIV */
 .main-div {
     display: flex;
-    flex-direction: column;
+        flex-direction: column;
     margin: auto;
     padding: 50px;
     width: 85%;
@@ -45,37 +45,40 @@ header {
 
 .main-div > div {
     display: flex;
-    flex-direction: column;
+        flex-direction: column;
+        justify-content: center; 
     line-height: 3rem;
-    justify-content: space-evenly;
 }
 
 /* MAIN DIV - Ingredients */
 #ingredients ul {
     list-style-type: none;
+    margin-top: 0;
     position: relative;
-    right: 30px; /* Para solucionar el hueco que dejan los <li> al ablicar li:before*/
+        right: 30px; /* Para solucionar el hueco que dejan los <li> al ablicar list-style:none*/
 }
 
 #ingredients li:before{
     content: "- ";
 }
 
+#ingredients > h4 {
+    margin-bottom: 20px;
+}
+
 /* MAIN DIV - Directions */
 #directions ol {
-    counter-reset: 0;
+    counter-reset: section;
+    list-style: none;
+    margin-top: 0;
+    position: relative;
+        right: 30px; /* Para solucionar el hueco que dejan los <li> al ablicar list-style:none*/
   }
 
-#direction li {
-    counter-reset: 0;
+#directions li {
+    counter-increment: section;
 }
 
-#directions li:before{
-    content: ")";
-    counter-increment: counter(number);
+#directions li:before {
+    content: counters(section, " ") ")" ;
 }
-
-.ingredients li:before{
-    content:);
-}
-
