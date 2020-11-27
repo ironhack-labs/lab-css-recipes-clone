@@ -1,0 +1,66 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 28px; 
+}
+
+
+h1{
+    color: white;  
+    font-size: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 200px;
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li:before{content: "- ";}
+
+.container{
+    padding: 0px 200px;
+}
+
+.container img{
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px;
+
+    border-bottom:  grey;
+    border-bottom-style: solid;
+}
+
+
+#section-1{
+    background-image: url("../images/apple-pie.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#section-2{
+    text-align: center;
+}
+
+#section-3{
+    text-align: left;
+}
+    
+
+#section-4{
+    text-align: left;   
+}
+
+
+#recipe-info-image{
+    size: 800px;
+}
+
