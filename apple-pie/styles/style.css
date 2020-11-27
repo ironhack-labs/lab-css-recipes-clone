@@ -16,6 +16,8 @@ html {
 
 header {
   background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center center;
   color: #fff;
   height: 100vh;
   display: flex;
