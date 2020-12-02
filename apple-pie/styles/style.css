@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.info{
+    width: 30%;
+}
+.portada{
+    width:80%;
+    height: 500px;
+    margin: 0 auto;
+    /*border:1px solid red;*/
+background-image: url("../images/apple-pie.jpg");
+background-position:center;
+background-size:cover;
+display:flex;
+/*Sirve para centrar el punto de mira de la imagen y asi no queda recortada*/
+justify-content: center;
+align-items: center;
+}
+
+
+h1{
+    text-align:center;
+    color:white
+}
+
+.content section{
+    margin:50px 100px;
+}
+.description{
+    text-align: justify;
+    /*text-font: 20px;*/
+}
+hr{
+    width:70%;
+}
+.content img{
+    width: 80%;
+}
