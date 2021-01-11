@@ -10,3 +10,16 @@ html {
 header img {
   width: 100%;
 }
+
+header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
