@@ -1,0 +1,68 @@
+.header {
+    width: 600px;
+    height: 400px;
+}
+
+#section-header {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border: 20px 0px;
+    position: relative;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.header .test {
+    position: absolute;
+    left: 35%;
+    bottom: 150px;
+    color: white;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para-size {
+    width: 70%;
+}
+
+.intro-img {
+    width: 40%;
+    justify-content: center;
+}
+
+
+#ingredients {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+
+}
+
+.img-center {
+ display: flex;   
+justify-content: center;    
+}
+
+hr {
+    width: 70%;
+}
+
+#directions {
+ display: flex;
+ justify-content: center;
+}
