@@ -1,0 +1,80 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.applePieImg {
+  width: 100%;
+}
+
+.applePieContainer {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 70px;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 35px;
+  text-indent: 100px;
+}
+
+ul {
+  margin: 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+  font-size: 27px;
+  text-indent: 80px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+}
+
+.informationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  margin: 100px;
+  padding: 0px 0px 40px 0px;
+}
+
+ol {
+  counter-reset: list;
+  text-align: start;
+  justify-content: center;
+  font-size: 27px;
+  padding: 0px 160px;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li:before {
+  counter-increment: list;
+  content: counter(list) ") ";
+  position: absolute;
+  left: -1.4em;
+}
