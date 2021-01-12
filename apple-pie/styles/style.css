@@ -27,7 +27,7 @@ body {
     font-weight: 300;
 }
 
-h2 {
+.section-header {
     font-weight: 200;
 }
 
@@ -41,14 +41,16 @@ main {
 }
 
 .recipe-img {
-    width: 60vw;
+    width: 70vw;
     max-width: 400px;
     margin: 0 auto 20px;
     display: block;
 }
 
-.recipe-list {
+.recipe-list,
+.directions-list {
     list-style: none;
+    padding: 0 1vw;
 }
 
 .recipe-list li::before {
@@ -56,7 +58,6 @@ main {
 }
 
 .directions-list {
-    list-style: none;
     counter-reset: list;
 }
 
