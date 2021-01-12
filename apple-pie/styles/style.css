@@ -1,0 +1,14 @@
+body {
+  padding: 0 250px;
+  margin: 0;
+  font-family: "Roboto Condensed";
+  color: #1c1c1c;
+}
+
+div {
+  text-align: center;
+}
+
+.Ingredients {
+  text-decoration: none;
+}
