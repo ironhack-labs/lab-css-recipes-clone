@@ -1,7 +1,13 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .headerTitle {
@@ -16,13 +22,27 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     margin: 10px 0;
 }
 
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.recipeInfoTextText {
+    
+}
+
 .section {
     padding: 40px 100px;
+    margin: auto 200px;
+}
+
+hr {
+    border: 1px solid gray;
+    margin: auto 200px;
 }
