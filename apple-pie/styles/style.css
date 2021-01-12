@@ -59,18 +59,15 @@ h2 {
   margin: 0;
   padding: 0;
   margin-left: 20px;
-}
-
-ul li:before {
-  content: "-";
-  padding-right: 5px;
-}
-
-ol {
   counter-reset: list;
 }
 
-ol > li:before {
+.ingredients li:before {
+  content: "- ";
+  padding-right: 5px;
+}
+
+.directions li:before {
   content: counter(list) ") ";
   counter-increment: list;
 }
