@@ -10,7 +10,8 @@ body {
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 80vh;
+    max-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +26,7 @@ body {
     color: white;
     font-size: 5rem;
     font-weight: 300;
+    text-align: center;
 }
 
 .section-header {
