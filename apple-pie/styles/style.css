@@ -10,13 +10,17 @@ body {
 header {
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
-    height: 900px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p {
+ul {
+    list-style-type: none;
+}
+
+.description {
     margin: 70px auto 20px;
     font-size: 1.3rem;
 }
@@ -27,7 +31,7 @@ h1 {
     font-weight: 300;
 }
 
-h3 {
+h2 {
     font-weight: 200;
 }
 
@@ -44,6 +48,11 @@ img {
     width: 400px;
     margin: 0 auto 20px;
     display: block;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-left: 20px;
 }
 
 ol,
