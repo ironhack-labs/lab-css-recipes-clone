@@ -1,1 +1,40 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  color: black;
+}
 
+/* Como colocar a imagem em background sem que seja uma imagem de um site externo? */
+h1 {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 240px;
+  padding-top: 10px;
+}
+
+.introduction {
+  margin: 10px 245px;
+  font-size: 1.2em;
+}
+
+.img-info {
+  width: 250px;
+  display: block;
+  margin: 10px auto;
+}
+
+hr {
+  margin: 0px 240px;
+}
+
+/* Eu queria também mudar o estilo das listas. A ul pra tracinho e a ol com um ) após o número. Como eu não consegui, deixei a mesma regra pras duas, para regular a margem */
+ul,
+ol {
+  margin: 0px 220px;
+}
