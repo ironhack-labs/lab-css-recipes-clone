@@ -1,0 +1,45 @@
+html, body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+main{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    height:50%;
+    width:100%;
+    text-align: center;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.firststep{
+    margin: 40px 60px 40px 60px;
+}
+
+.icons {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.secondstep{
+    margin: 40px 60px 40px 60px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.cooktimeicons {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.thirdstep {
+    margin: 40px 60px 40px 60px;
+}
