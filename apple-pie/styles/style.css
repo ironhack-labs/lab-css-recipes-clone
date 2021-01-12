@@ -26,6 +26,7 @@ header {
     background-size: cover;
     height: 400px;
     width: inherit;
+    /* could not make it without any border */
     margin: 0;
     position: relative;
     text-align: center;
@@ -37,11 +38,28 @@ p {
 }
 
 ul {
-    font-size: 14px;  
+    font-size: 14px;
+    /* copied from google search, did not understand fully */
+    list-style-type: none;
+  }
+ul li:before {
+    content: " - ";  
 }
 
 ol{
     font-size: 14px;  
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+    position: relative;
+}
+/* copied from google search, did not understand fully */
+ol > li:before {
+    counter-increment: list;
+    content: counter(list);
+    position: absolute;
+    left: -1.4em;
 }
 
 .recipe-info {
