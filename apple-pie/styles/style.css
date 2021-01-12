@@ -1,0 +1,31 @@
+#image-header {
+    width: 100%;
+}
+
+main p {
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+}
+
+.ingredients-directions {
+    font-weight: 50;
+}
+
+div ul li {
+    list-style: none;
+} 
+
+#div2 {
+    text-align: center;
+}
+
+hr {
+    width: 85%;
+}
+
+#final {
+    text-align: center;
+}
