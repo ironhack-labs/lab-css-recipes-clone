@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTitle {
+    height: 45vh;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.section {
+    padding: 40px 100px;
+}
