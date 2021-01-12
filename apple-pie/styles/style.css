@@ -1,0 +1,46 @@
+.header img {
+  width: 800px;
+  height: 650px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-right: 50%;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+}
+
+p {
+  text-align: center;
+}
+
+.recipeInfo img {
+  width: 300px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.cookingInfo img {
+  width: 300px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+footer ul {
+  list-style-type: decimal;
+}
