@@ -35,7 +35,7 @@ section {
   width: 100%;
 }
 
-1.divider {
+.divider {
   border-top: 2px solid rgb(128,128,128);
 }
 
