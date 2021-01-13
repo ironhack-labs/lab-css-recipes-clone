@@ -1,9 +1,68 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*general*/ 
+
+body {
+ font-family: 'Roboto', sans-serif;  
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+p {
+    font-size:1.2rem;
+}
+
+ul,
+li {
+    font-size:1.2rem;
+}
+
+img {
+    width:80%;
+    margin-top: 1rem;
+}
+
+.margin {
+    margin-bottom:4rem;
+}
+
+hr {
+    background: #333;
+    border: none;
+    color: #333;
+    height: 1px;
+    width: 100%;
+    margin-bottom:1rem;
+}
+
+/*sections*/
+
+
+.showcase {
+    background-image: url('../images/soup.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-color:blue;
+}
+
+.showcase > h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.container { 
+    flex-direction:column;
+    margin: 0rem 6rem;
+}
+
+.container h2 {
+    align-self:flex-start;
 }
