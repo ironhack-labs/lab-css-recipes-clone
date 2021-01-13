@@ -1,0 +1,37 @@
+      .header-img {
+          background-image: url("images/apple-pie.jpg");
+          background-size: cover;
+          z-index: 0;
+      }
+      
+      #principal {
+          color: white;
+          text-align: center;
+          padding-top: 400px;
+          padding-bottom: 400px;
+          z-index: 1;
+          font-size: 100px;
+      }
+      
+      ul {
+          list-style: none;
+          color: black;
+      }
+      
+      .description-appelpie {
+          text-align: center;
+          border-bottom: 1px solid lightgray;
+      }
+      
+      .ingredients {
+          text-align: left;
+          border-bottom: 1px solid lightgray;
+      }
+      
+      .ingredients-img {
+          text-align: center;
+      }
+      
+      h2 {
+          text-align: left;
+      }
