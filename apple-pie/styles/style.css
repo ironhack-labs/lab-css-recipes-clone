@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: aqua;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+    background-image: url(images/apple-pie.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+}
+
+.header .centerh1 {
+    margin: 1em 0;
+    font-family: 'Raleway', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 48em;
+    padding: 3em 1em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.apple-pie-recipe {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 48em;
+    padding: 1em 3em;
+    text-align: center;
+}
+
+.center h2 {
+    font-weight: 100;
+    font-size: 0.6em;
+}
+
+.recipe-info-img {
+    justify-content: center;
+}
+
+.recipe-info-img img {
+    width: 250px;
+    margin: 5px auto;
+    align-content: center;
+}
+
+.recipe-info-img hr {
+    margin: 20px auto 30px auto;
+    width: 60%;
+}
+
+.cooking-recipe {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center h3 {
+    font-weight: 100;
+    font-size: 0.6em;
+    text-align: left;
+}
+
+.center ul {
+    text-align: left;
+    font-weight: 100;
+    font-size: 0.6em;
+}
+
+.cooking-recipe-img img {
+    width: 210px;
+    margin: 5px auto;
+    align-content: center;
+}
+
+.cooking-recipe-img hr {
+    margin: 20px auto 30px auto;
+    width: 60%;
+}
+
+.directions {
+    font-family: 'Raleway', sans-serif;
+}
