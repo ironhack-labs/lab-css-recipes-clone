@@ -1,0 +1,31 @@
+.manzana {
+    background-image: url(./images/apple-pie.jpg);
+    background-size: cover; 
+height: 900px;
+
+}
+
+.titulo{
+  color: white;
+  position: absolute;
+  font-size: 75px;
+  left: 40%;
+  bottom: 15%;
+}
+
+#grand {
+  text-align: center;
+  font-size: 45px;
+}
+
+#ingredients {
+text-align: left;
+font-size: 25px;
+}
+
+#fondo {
+  text-align: left;
+font-size: 25px;
+}
+
+
