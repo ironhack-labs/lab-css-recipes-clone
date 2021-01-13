@@ -1,0 +1,26 @@
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 28%;
+    left: 44%;
+    color: white;
+    font-size: 45px;
+}
+header img{
+    height: 600px;
+}
+.main {
+    text-align: center;
+}
+ul, li {
+    list-style-type: none;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
