@@ -1,0 +1,22 @@
+header {
+    background-image: url(\apple-pie\images\apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.info {
+    text-align: center;
+}
+
+#Mensaje {
+text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+}
