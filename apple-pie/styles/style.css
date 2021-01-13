@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  width: 1000px;
+}
+
+article, p, section {
+  color: lightslategray;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    margin: 10px 50px 50px 50px;
+    display: flex;
+    
+}
+
+header img {
+    width:100%;
+    display: flex;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;  
+}
+
+#explanation {
+ 
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration-style: bold;
+  margin: 5px 130px 20px 130px ;
+  
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.recipe-info {
+  width: 40%;
+  margin-top: 15px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 73%;               
+  border: 1px solid  lightslategrey;;
+  color: lightslategrey;
+}
+
+h2 {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  margin: 25px 130px 20px 130px ;
+}
+
+.list1{
+  margin: 10px 130px 40px 130px ;
+}
+
+.cooking-info {
+  width: 40%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.list2{
+  margin: 10px 130px 110px 130px ;
+}
