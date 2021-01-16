@@ -1,0 +1,41 @@
+/* THIS CSS IS NOT RESPONSIVE AND WAS DESIGNED ON A 1920X1080 SCREEN */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.header {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 10vh;
+    align-self: center;
+    color: white;
+    font-weight: 300;
+}
+
+.text_div {
+    margin: 40px 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    width: 100%;
+    max-width: 550px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
