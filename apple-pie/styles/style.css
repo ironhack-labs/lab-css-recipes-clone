@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+  
+h1 {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+  
+.recipe_image {
+    height: 70px;
+}
+
+.cooking_image {
+    height: 80px;
+}
+
+.snippet_image_container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.top_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0.0; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 600px;
+    padding-top: 0;
+    display: flex;
+  }
+
+.section_class {
+    margin: 0 10%;
+}
+
+.section_class hr {
+    height: 0.5px;
+    width: 100%;
+    color: lightslategray;
+    background-color: lightslategray;
+    border: none;
+    margin: 1px auto;
+    padding: 0;
+  }
+
+.section_class ul {
+    line-height: 1.5em;
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.section_class ol {
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+.section_class ul > li:before {
+    content: "- ";
+}
