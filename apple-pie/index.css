@@ -28,4 +28,13 @@ font-size: 25px;
 font-size: 25px;
 }
 
+.logos img {
+  width: 70px;
+}
+
+.subrayado {
+  text-decoration: underline green;
+  text-decoration-color: green;
+}
+
 
