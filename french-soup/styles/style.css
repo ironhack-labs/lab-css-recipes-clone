@@ -1,9 +1,53 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.soup {
+  background-image: url("/french-soup/images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+h1 {
+  color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 3.3em;
+  font-size: 3.8em;
+  font-weight: normal;
+}
+p {
+  text-align: center;
+}
+img {
+  width: 18em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+.french {
+  font-size: 1.4em;
+  text-align: left;
+  padding: auto;
+  margin: 3.5em;
+  width: auto;
 }
