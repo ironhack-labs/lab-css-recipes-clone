@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+#apple-pie {
+  position: relative;
+  text-align: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 31em;
+  margin: 20px;
+}
+
+#apple-pie h1 {
+  color: white;
+  position: absolute;
+  font-size: 60px;
+  font-weight: 400;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.opening-paragraph {
+  width: 50%;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.first-section-line {
+  width: 50%;
+}
+
+.recipe-info {
+  width: 275px;
+  height: 45px;
+  padding: 10px;
+}
+
+.cooking-info {
+  width: 250px;
+  height: 55px;
+  padding: 10px;
+}
+
+.second-section {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+.second-section h3 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.ingredients li::before {
+  content: "- ";
+}
+
+.cooking-info {
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.second-section {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+.second-section h3 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.third-section {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.third-section h3 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  margin-left: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+}
