@@ -5,5 +5,72 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  color: #404040;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: lighter;
+}
+
+.head-picture {
+  background: url(../images/soup.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.introduction {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.info-pic {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.introduction img {
+  height: 60px;
+}
+
+.ingredients {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.ingredients img {
+  height: 70px;
+  margin-top: 30px;
+}
+
+.ingredients li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.ingredients li:before {
+  content: "- ";
+}
+
+.directions {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
