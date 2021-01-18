@@ -12,11 +12,10 @@ body {
     align-items: center;
 }
 
-
 h1 {
     font-size: 60px;
     font-weight: lighter;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -25,14 +24,14 @@ h1 {
 }
 
 .text h3 {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-family: sans-serif;
     color: #404040;
 }
 
 .text p, li {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: sans-serif;
     color: #404040;
     line-height: 25px;
 }
@@ -41,9 +40,32 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .introduction img {
+    height: 40px;
+}
+
+.info {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ingredients {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.ingredients img {
     height: 50px;
-    
+}
+
+.directions {
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
