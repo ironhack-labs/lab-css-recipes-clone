@@ -7,3 +7,76 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header {
+   background-image: image('french-soup/images/soup.jpg');
+    background-size: cover;
+    height: 300px;
+    margin: 0 500px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+    
+header img {
+  width: 100%;
+}
+h1 {
+    font-size: 5em; 
+    font-weight: 50;
+    color: white;
+    }
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid lightgray;
+  margin: 30px 600px;
+  }
+.introduction img {
+  margin: 30px 0;
+}
+
+.ingredients{
+  margin: 30px 600px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid lightgray;
+} 
+
+h2 { 
+  font-size: medium;
+}
+
+#imageRecipe {
+  margin: 30px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 250px;
+}
+
+img {
+  height: 180px;
+}
+
+.directions {
+  margin: 30px 600px;
+  display: flex;
+  flex-direction: column;
+  }
+
+ul{
+  list-style:none;
+}
+ul li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+ul li:before {
+  content: "-";
+}

@@ -1,5 +1,5 @@
 body {
-    font-family:'arial';
+    font-family:'segoe UI';
   }
   
   header {
@@ -16,7 +16,7 @@ body {
   
   h1 {
       font-size: 5em; 
-      font-weight: 50;
+      font-weight: 400;
       color: white;
       }
   
