@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.header {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+section {
+    margin: 120px 250px 200px;
+    font-size: 30px;
+    color: #393939;
+    line-height: 40px;
+    padding-bottom: 100px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: "–"; /* en dash */
+    position: absolute;
+    margin-left: -1.1em;
+}
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: ;
+}
+div {
+    padding: 20px;
+}
+
+.recipe-info {
+    border-bottom: 2px solid #979797;
+}
+
+.cooking-info img {
+    display: block;
+    margin: 0 auto;
+}
+
+.cooking-info {
+    border-bottom: 2px solid #979797;
+}
+
+/* Using brackets for ordered list */
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+.recipe-info img {
+    display: block;
+    margin: 0 auto;
+}
