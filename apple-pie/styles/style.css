@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.header{
+    display: flex;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 6em;
+    margin: auto;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+}
+
+.intro{
+    font-size: 1.5em;
+    text-align: center; 
+    width: 75%;
+    padding: 1em;
+}
+
+.line{
+    width: 70%;
+    height: 1.5px; 
+    background-color: gray;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 500px;
+    margin: 0 11em ;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bolder;
+    padding: 1em 0;
+}
+
+ul{
+    margin-left: 0.5em;
+    list-style: none;
+}
+
+.cooking_time{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.linetwo{
+    background-color: gray;
+    padding: 1px;
+}
+
+.directions{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    height: 400px;
+    margin: 0 11em ;
+}
+
+h4{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bolder;
+    padding: 1em 0;
+}
+
+ol{
+    margin-left: 0.5em;
+    counter-reset: list;
+}
+
+ol > li{
+    list-style: none;
+}
+
+ol > li:before{
+    content: counter(list) ") ";
+    counter-increment: list;
+}
