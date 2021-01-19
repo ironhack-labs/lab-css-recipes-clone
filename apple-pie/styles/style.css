@@ -1,0 +1,27 @@
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    width: 2479px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 1650px;
+}
+
+div {
+    width: 80%;
+}
+
+.ingredient-list {
+    list-style-type: '-';
+}
+
+.directions-list {
+    list-style-type: ')';
+}
