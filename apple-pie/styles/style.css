@@ -1,9 +1,13 @@
+* {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
+}
+
 html,
 body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-family: "Open Sans" sans-serif;
 }
 
 main {
@@ -15,7 +19,7 @@ hr {
 }
 
 .hero-image {
-  height: 50%; /*porque o elemento pai é 100% e ele quer que ocupe metade*/
+  height: 100%; /*porque o elemento pai é 100% e ele quer que ocupe metade*/
   width: 100%;
   background-image: url("../images/apple-pie.jpg");
   background-position: center;
@@ -23,31 +27,48 @@ hr {
   background-size: cover;
   text-align: center;
 }
+/*essa imagem não está do jeito que está na foto porque não aparece o mesmo pedaço. Como faço para resolver? Tentei deixar o height no 50% mas ficou pior*/
 
 .hero-image h1 {
   display: inline;
   position: relative;
-  font-size: 72px;
+  font-size: 115px;
   color: white;
   top: 38%;
   transform: translateY(-50%);
 }
 
-.intro-parafraph {
-  font-size: large;
+h2,
+li {
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro-paragraph {
+  font-size: xx-large;
+  text-align: center;
+  padding: 0 50px 30px 50px;
 }
 
 .recipe-icons {
-  display: inline-block;
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
 .ingredients-list {
   list-style: none;
+  margin-bottom: 50px;
 }
 
 .ingredients-list li::before {
-  content: " -";
+  content: "- ";
 }
 
 .directions-list {
@@ -58,4 +79,10 @@ hr {
 .directions-list li::before {
   content: counter(list) ") ";
   counter-increment: list;
+}
+
+ul,
+ol {
+  padding-left: 15px;
+  line-height: 35px;
 }
