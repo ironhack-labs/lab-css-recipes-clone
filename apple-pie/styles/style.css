@@ -1,0 +1,74 @@
+
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 5em;
+        color:white;
+        font-family: Arial, serif;
+        text-align: center;
+        padding: 20%;
+      }
+
+
+      p {
+        font-size: large;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 1000px;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      header {
+        background-image: url('/home/anderson_web/IRONHACK/Modulo1/lab-clone-de-receitas-CSS/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 650px;
+        width: 1200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      div img {
+        display: block;
+        margin-left: 40%;
+        margin-right: auto;
+        /*border: 2px solid brown;*/
+        width: 20%;
+        height: 20%;
+      }
+
+      hr {
+        border: 0;
+        border-top: 2px solid #CCC;
+        width: 65%;
+        height: 65%;
+      }
+
+      h3 {
+        
+        color: black;
+        font-family: Arial, Helvetica, serif;
+        text-align: left;
+        width: 1000px;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .Lista {
+        
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        
+
+      }
