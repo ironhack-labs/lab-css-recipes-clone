@@ -1,29 +1,69 @@
-#photoApple {
-    max-width: 100%;
-    max-height: fit-content;
-    width: auto;
-    height: auto;
-    position: relative;
+/* Seguindo orientação de Henrique, lembrar de zerar margin e padding default!! */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#photoRecipe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
+body {
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
-#textPhoto {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
     
 }
-#textApple {
-    color: white;
-    font-size: 35pt;
+
+section {
+    padding: 0 50px 25px 50px;
 }
 
-#textSectionOne {
+hr {
+    margin: 0 60px;
+}
+
+nav {
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.section-first {
+    margin-top: 25px;
     text-align: center;
+}
+
+.images {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.othersSections {
+    margin-top: 25px;
+}
+
+li {
+    margin-left: 25px;
+}
+.lists {
+    list-style: none;
+}
+
+.lists::before {
+    content: '- ';
 }
