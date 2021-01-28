@@ -4,45 +4,39 @@ html {
 }
 
 h1 {
+    display: flex;
     font-size: 60px;
     color: white;
     font-weight: 60;
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items:center;
 }
 
- .crop-container {
-    width: 850px;
-    height: 425px;
-    overflow: hidden;
+.apple-image {
     display: flex;
-    text-align: center;
-    position: relative;
-}
-
-.crop-container img {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    height: 600px;
     width: 100%;
-    object-fit: cover;
+    justify-content: center;
 }
 
-.intro {
+.intro-section {
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: left;
     font-size: 20px;
     font-weight: 80;
-    margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
 } 
 
 .info-graphic {
-    width: 40%;
+    width: 50%;
     display: block;
     margin: 0 auto;
 }
@@ -53,13 +47,30 @@ body {
     width: 700px;
 }
 
-.ingredients {
+.ingredients-section {
     text-align: left;
     font-weight: 80;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
-.directions {
+.ingredients-section > ul {
+    list-style-type: none;
+    align-items: left;
+}
+
+.ingredients-section > ul > li {
+    margin: 8px 0;
+}
+
+.ingredients-section > ul > li:before {
+    content: "- ";
+}
+
+.directions-section {
     text-align: left;
     font-weight: 80;
     font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }

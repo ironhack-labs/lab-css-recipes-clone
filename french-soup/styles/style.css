@@ -7,3 +7,75 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h1 {
+  display: flex;
+  font-size: 60px;
+  color: white;
+  font-weight: 60;
+  align-items: center;
+  justify-content: center;
+}
+
+.onion-soup-image {
+  display: flex;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+}
+
+.intro-section {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 80;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+} 
+
+.info-graphic {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.ingredients-section {
+  text-align: left;
+  font-weight: 80;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.ingredients-section > ul {
+  list-style-type: none;
+  align-items: left;
+}
+
+.ingredients-section > ul > li {
+  margin: 8px 0;
+}
+
+.ingredients-section > ul > li:before {
+  content: "- ";
+}
+
+.directions-section {
+  text-align: left;
+  font-weight: 80;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
