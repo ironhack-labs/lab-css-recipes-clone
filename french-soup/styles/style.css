@@ -5,5 +5,82 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  margin: 0;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  margin: 0
+ 
+  
+}
+
+header img {
+  width:100%;
+  display: flex;
+}
+
+h1 {
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;  
+}
+
+#intro {
+  display: flex;
+
+  width: 100%;
+  margin: 0;
+}
+
+p{
+  text-align: left;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.cooking {
+  display: flex;
+  flex-direction: column;
+}
+
+.cooking img {
+    width: 50%;
+    align-self:center;
+    margin-bottom: 40px;
+}
+
+hr{
+  border: 2px lightslategray solid;
+  width: 80%;
+}
+
+h2 {
+
+  color: lightslategrey;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+
+.list {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  color: lightslategrey;
+  text-align: justify;
+}
+
+
+
