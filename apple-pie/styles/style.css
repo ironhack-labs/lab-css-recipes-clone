@@ -1,0 +1,108 @@
+/* all */
+
+html {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    background: white;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    color: white;
+    font-weight: 100;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin: 20px 0;
+    
+}
+
+.center {
+    width: 700px;
+    margin-top: 20px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text {
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+
+.underline {
+    border-bottom: 2px darkgrey solid
+}
+
+/* main picture and title */
+
+.main-pic {
+    
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    width: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Intro section */
+
+#intro {
+    padding-top: 40px;
+}
+
+
+.info-img1 {
+    width: 350px;
+    height: 55px; 
+    margin: 20px 0;
+
+}
+
+/* ingredients list */
+
+.info-img2 {
+    width: 350px;
+    height: 80px; 
+    margin: 10px 25%;
+}
+
+.ingredients {
+    list-style: none;
+    padding: 10px 10px;
+
+}
+
+
+/* directions */
+
+
+#direction {
+    padding-bottom: 100px;
+}
+
