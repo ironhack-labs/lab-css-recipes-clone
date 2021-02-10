@@ -2,23 +2,19 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px
-  
-}
 
 body{
-  margin: 0 150px;
   color:dimgrey;
   margin-bottom: 150px;
+  font-family: "Open Sans";
+  font-size: 25px
 }
 
 #headingBackground{
   background-image: url("../images/soup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 25% 75%;
   height: 600px;
   margin-bottom: 60px;
   display: flex;
@@ -31,7 +27,14 @@ body{
 }
 
 .section-container{
-  margin: 20px 100px;
+  margin: 20px 150px;
+}
+
+#intro{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
 }
 
 .section-container > ul {
@@ -45,13 +48,13 @@ h4{
 .info-img{
   width: 50%;
   position: relative;
-  left: 20%;
+  left: 25%;
 }
 
 .cooking-img{
   width: 40%;
   position: relative;
-  left: 25%;
+  left: 30%;
 }
 
 #instructions{
