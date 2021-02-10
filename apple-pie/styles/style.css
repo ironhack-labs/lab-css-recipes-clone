@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+header {
+    font-family: 'Roboto';
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:rgba(0,0,0,.5);
+    
+}
+
+header {
+    position: relative;
+}
+
+header > h1 {
+    text-align: center;
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+}
+.apple-pie {
+    width: 100%;
+    heigh: 300px;
+
+}
+
+#container {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+#Intro {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px  solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#Intro article {
+    text-align: left;
+    
+} 
+
+.recipe-info {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Ingredients {
+    margin-left: 100px;
+    margin-right: 100px;  
+    border-bottom: 1px  solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Ingredients ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+#Ingredients ul li::before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.cooking-info {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#Directions {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Directions ol {
+    counter-reset: list;
+}
+#Directions ol li {
+    list-style: none;
+}
+#Directions ol li::before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
