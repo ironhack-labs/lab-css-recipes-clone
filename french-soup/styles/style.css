@@ -35,36 +35,47 @@ html {
 }
 
 #intro > img {
-    height: 2.4em;
-    margin: 0.5em 13em 2em;
+  height: 2.4em;
+  margin: 0.5em 14em 2em;
 }
 
 #ingredients > img {
-    height: 5em;
-    margin: 0 15.5em 2em 12.5em;
+  height: 4em;
+  margin: 0 16em 1em 10.7em;
 }
 
 hr {
-    margin: 0 5.5em 1.5em;
-    border: 3px transparent grey;
+  margin: 0 5.5em 1.5em;
+  border: 3px transparent grey;
 }
 
 #ingredients, 
 #directions {
-    display: flex;
-    flex-direction: column;
-    justify-content:left;
-    font-size: 0.9em;
-    margin: 1em 0 0 6em;
-    line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  margin: 1em 0 0 5.5em;
+}
+
+#ingredients > h2,
+#directions > h2 {
+  font-size: 1.2em;
 }
 
 #ingredients > p,
 #directions > p {
-    letter-spacing: 1px; 
-    margin: 0.5em 0 2em 1em;
+  letter-spacing: 1px; 
+  font-size: 0.9em;
+  margin: 0.3em 0 1.3em 0.5em;
+  font-weight: 700;
+  line-height: 1.45em;
+}
+
+#directions > p {
+  margin: 1em 0 4.2em 0.5em;
+  line-height: 1.6em;
 }
 
 #directions {
-    margin-bottom: 4.2em;
+  margin-bottom: 0.5em;
 }
