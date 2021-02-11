@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container-1 {
+        background-image: url("../../apple-pie/images/apple-pie.jpg");
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+}
+
+
+#h1 {
+    font-size: 56px;
+    color: white;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+
+#container-text-1 {
+    margin: 50px 180px 50px 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: left;
+    align-content: stretch;
+    text-align: center;
+}
+
+#container-text-2 {
+    margin: 50px 180px 50px 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+    align-content: stretch;
+    text-align: left;
+}
+
+#container-text-3 {
+    margin: 50px 180px 50px 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+#container-text-2 img {
+    margin: 50px 180px 50px 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    text-align: center;
+}
+
+
+.text {
+    font-size: 20px;
+}
+
+.list {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+#container-text-1 hr {
+    margin: 20px auto 30px auto;
+    width: 80%
+  }
+
+#container-text-2 hr {
+    margin: 20px auto 30px auto;
+    width: 80%
+  }
+
+ul {
+    text-align: left;
+}
