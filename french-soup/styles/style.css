@@ -14,16 +14,17 @@ header {
   background-image: url(../images/soup.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: 0, 0;
   background-repeat: no-repeat;
-  position: relative;
-
 }
 
 h1 {
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding-top: 400px;
+  /*quizá mejor la propriedad position en lugar del "padding-top"*/
+  margin-top:0px;
+  position: relative;
+  top: 40%;
+  /*padding-top: 400px;*/
+  font-weight: 400;
+  letter-spacing: 0.05em;
   text-align: center;
   color: #FFFFFF;
 }

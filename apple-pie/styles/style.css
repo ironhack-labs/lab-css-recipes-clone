@@ -14,22 +14,18 @@ body {
     height: 600px;
     background-image: url(../images/apple-pie.jpg);
     background-attachment: fixed;
-    background-position: 0, 0;
     background-size:cover;
     background-repeat: no-repeat;
-    position: relative;
-    
-    
-    
-    
-
 }
 
 h1 {
-    margin: 0;
-    padding-top: 250px;
+    /*quizá mejor la propriedad position en lugar del "padding-top"*/
+    margin-top:0px;
+    position: relative;
+    top: 40%;
+    /*padding-top: 250px;*/
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 4em;
     letter-spacing: 0.04em;
     color: #FFFFFF;
