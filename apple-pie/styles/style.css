@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-sarif;
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    align-self:center;
+}
+
+main {
+    padding: 5% 15%;
+}
+
+h2 {
+    font-size: 1.5 rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.break {
+    padding-bottom: 25px;
+    border-bottom-style: solid;
+}
+
+.ingredients{
+    list-style-type: "- ";
+}
+
+.cookingIcon {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   padding: 25px 25px;
+}
