@@ -1,0 +1,59 @@
+/* Fonts! */
+/* font-family: 'Montserrat', sans-serif;;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 631px;
+    background: url(images/apple-pie.jpg) no-repeat center 57%; 
+    background-size: cover;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro, .ingredients, .instructions {
+    margin: 0 6em 0;
+    margin-top: 1em;
+    border-bottom: lightgray 3px solid;
+}
+
+.instructions {
+    padding-bottom: 1.4em;
+}
+
+.instruction-img {
+    align-self: center;
+    max-width: 100%;
+    padding: 1.4em;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+}
