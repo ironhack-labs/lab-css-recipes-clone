@@ -1,23 +1,28 @@
-
-
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     font-weight: 300;
     margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 400;
 }
 
-
-
 #applePie {
-    background-image: url('../images/apple-pie.jpg');
+    background-image: url('../apple-pie/images/apple-pie.jpg');
+}
+
+#onionSoup {
+    background-image: url('../french-soup/images/soup.jpg');
+}
+
+.bannerTop {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 900px;
+    height: 800px;
     color: white;
     font-size: 3em;
     display: flex;
@@ -33,7 +38,7 @@ h1, h2 {
 .image {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 60px 90px;
     border-bottom-style: solid;
     border-bottom-color: grey;
@@ -42,13 +47,14 @@ h1, h2 {
 .text {
     margin: 60px 90px;
     font-size: 1.2em;
+    line-height: 1.4;
 }
 
 .ingredients ul {
     list-style-type: none;
 }
 
-.ingredients ul > :before {
+.ingredients ul> :before {
     list-style-type: none;
     content: "- ";
 }
@@ -57,7 +63,8 @@ h1, h2 {
     counter-reset: item;
     list-style-type: none;
 }
-.directions ol > :before {
+
+.directions ol> :before {
     content: counter(item) ") ";
     counter-increment: item;
 }
