@@ -1,0 +1,36 @@
+body hr {
+  width: 550px;
+}
+
+header {
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    background-image: url(/Users/roku/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+section {
+    width: 550px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
+
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
