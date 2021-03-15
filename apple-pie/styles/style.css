@@ -3,22 +3,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .header{
-    background-image:url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-    background-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   background-image: url(../images/apple-pie.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .header h1{
     color: white;
     font-size: 100px;
+}
+
+section{
+    width: 80%;
+    padding: 25px 50px;
 }
 
 .intro{
@@ -35,9 +40,28 @@
     flex-direction: column;
 }
 
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+
 .ingredients ul{
     list-style-type:"-";
 }
+
+.footerimage{
+    height: 50px;
+}
+
+#cookinginfo{
+    height: 70px;
+    }
+    
 
 .directions{
     display: flex;
