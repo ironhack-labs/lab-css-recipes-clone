@@ -2,7 +2,7 @@ body hr {
   width: 550px;
 }
 
-header {
+.header {
     width: 700px;
     height: 250px;
     margin: auto;
@@ -17,7 +17,7 @@ header {
     padding-bottom: 50px;
 }
 
-section {
+.content {
     width: 550px;
     margin: auto;
     padding-top: 10px;
@@ -27,7 +27,7 @@ section {
 
 }
 
-section img {
+.content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
