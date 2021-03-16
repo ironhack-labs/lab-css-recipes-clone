@@ -74,9 +74,15 @@ ul {
     padding-left: 5px;
 }
 
-#description {
+ol {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+
+.description {
     padding: 20px, 20px, 0, 20px;
-    border: 10px solid pink;
     margin: 30px;
 }
 
@@ -86,3 +92,9 @@ ul {
     margin-right: auto;
     width: 50%;
   }
+
+.description ol {
+    margin:10px;
+    padding:0;
+    font-family: Helvetica;
+}
