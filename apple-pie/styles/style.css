@@ -1,0 +1,121 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+
+.container {
+
+    background: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1px grey solid;
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    
+
+}
+
+.first-paragraph {
+
+    font-size: 29px;
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 50px;
+   
+}
+
+.ingredients {
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: white;
+    padding: 30px;
+}
+
+ul {
+
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+.cooking-info {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px grey solid;
+    background-color: white;
+    padding: 50px;
+
+
+
+}
+
+.directions {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 29px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    padding: 50px;
+
+}
+
+p {
+
+    padding-left: 20px;
+}
+
+h3 {
+
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 100px;
+    
+
+}
