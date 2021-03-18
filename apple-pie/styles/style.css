@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .centered{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+  
+  body{
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  p{
+    text-align: center;
+  }
+  
+  hr{
+    margin: 0 auto;
+    border-style: solid;
+  color: beige;
+  border-width: 3px;
+  }
