@@ -49,7 +49,7 @@ img {
 #description {
     border-bottom: 3px solid darkgray;
     text-align: center;
-    
+    animation: wildnout .3s infinite;
     
 }
 
@@ -79,5 +79,25 @@ input:checked + label + ul {
     opacity: 1;
     height: 300px;
 }
+
+ol li::before {
+    content:")";
+}
     
+@keyframes wildnout {
+    0% {
+        color: green;
+        transform:rotate(180deg);
+    }
+    50% {
+        color: pink;
+        transform:rotateX(360deg);
+        background-color: yellow;
+    }
+    100% {
+        color: magenta;
+    }
+
+
+}
 
