@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0px;
+    font-size: 24px;
 }
 
 header {
@@ -22,8 +23,12 @@ h1 {
     font-size: 50px;
 }
 
-main {
-    padding: 0 15% 15% 15%;
+main{
+    padding: 0 25% 15% 25%;
+}
+
+main > div{
+    padding-top: 30px;
 }
 
 img {
@@ -35,4 +40,24 @@ img {
 
 #description {
     border-bottom: 3px solid darkgray;
+    text-align: center;
+    
+    
+}
+
+ul{
+    list-style-type: "-";
+}
+
+#ingredients{
+    border-bottom: 3px solid darkgray;
+}
+
+li:nth-of-type(3n + 1){
+    background: chocolate;
+
+}
+
+ul:hover li:nth-child(even){
+    background-color: purple;
 }
