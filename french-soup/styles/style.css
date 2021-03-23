@@ -1,9 +1,130 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/* Reset */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* General settings */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,500,700');
+
+body {
+    font-family: 'Roboto';
+    font-size: .7em;
+    line-height: 2.2em;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+    line-height: 1em;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 1.6em;
+}
+
+.hero {
+    height: 100%;
+    min-height: 600px;
+    background-image: url(/images/soup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40vh;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section {
+    margin: 5em 0;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.473);
+}
+
+section:last-of-type {
+    margin: 5em 0;
+    border: none;
+}
+
+span {
+    font-size: 2em;
+}
+
+img {
+    margin: 3em auto;
+    width: 50%;
+}
+
+ul > li {
+    font-size: 1.8em;
 }
