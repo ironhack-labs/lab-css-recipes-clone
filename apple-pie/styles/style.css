@@ -1,0 +1,96 @@
+/* ---------------- HEADER ----------------*/
+header {
+  display: inline-block;
+  position: relative;
+}
+
+header img {
+  display: block;
+  height: 750px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 90px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 37%;
+  color: white;
+}
+
+/* ---------------- MAIN ---------------- */
+main {
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 270px;
+  margin-right: 270px;
+  display: inline-block;
+}
+
+main hr {
+  border: 1px solid black;
+}
+
+#intro {
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: dimgray;
+}
+
+#intro p {
+  padding: 0 30px 0 30px;
+}
+
+#intro img {
+  width: 50%;
+  padding: 30px 0 30px 0;
+}
+
+/* ------------- INGREDIENTS -------------*/
+.ingredients h2 {
+  padding-top: -45px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.ingredients ul {
+  list-style: none;
+  font-size: 19px;
+  font-weight: lighter;
+  line-height: 30px;
+  color: dimgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.ingredients img {
+  height: 80px;
+  width: 45%;
+  padding: 30px 0 30px 0;
+}
+
+/* -------------- DIRECTIONS -------------- */
+.directions h2 {
+  font-weight: 300;
+  text-align: left;
+  padding-top: 60px;
+}
+
+.directions ul {
+  list-style: none;
+  font-size: 19px;
+  font-weight: lighter;
+  line-height: 30px;
+  color: dimgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
