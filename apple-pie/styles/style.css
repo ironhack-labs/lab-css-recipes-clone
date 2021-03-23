@@ -1,0 +1,43 @@
+.imgbackground {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: contain;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: 300;
+    width: 75%;
+    height: 25%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+  h1, body, html {
+      margin:0;
+  }
+
+  .historyrecipe {
+      padding: 50px;
+  }
+
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+  .recipe-information {
+      height: 50px;
+      width: 400px;
+      margin: auto;
+      display: block;
+  }
