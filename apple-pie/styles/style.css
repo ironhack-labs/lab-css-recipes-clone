@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-weight: lighter;
+}
+.hero-image {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100vw;
+  height: 75w;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image h1 {
+  font: 60px color #fff;
+  font-weight: lighter;
+}
