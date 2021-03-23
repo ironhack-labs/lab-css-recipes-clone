@@ -1,4 +1,77 @@
-.applePie {
-    width: 700px;
-    height: 400px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: black;
+    font-size: 25px;
+}
+
+#firstPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    
+    text-align: center;
+    margin: 100px 280px 40px 280px;
+   
+}
+
+.recipeInfo {
+    width: 380px;
+    height: 80px;
+}
+
+/* #ingredients {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    
+}
+
+.holder h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+hr {
+    color: rgb(90, 89, 89);
+    margin: 40px 280px;
+}
+
+h2 {
+    color:black;
+    margin: 70px 280px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.cookingInfo {
+    width: 350px;
+    height: 80px;
+    margin-left: 40%;
+}
+
+ul {
+    margin: 70px 250px;
+    list-style: none;
+}
+
+ol {
+    margin: 70px 280px;
 }
