@@ -1,9 +1,98 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  background-color: black;
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;  
+  font-weight: 400;
+  padding-top: 20%;
+  margin-top: 0;
+  top: 325px;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+header {
+  background-color: white;
+  background-image: url('/french-soup/images/soup.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+section {
+  background-color: white;
+  padding: 50px;
+}
+.intro {
+  margin-top: 10px;
+  font-size: 1.2em;
+  padding: 40px 40px 0 40px;
+  text-align: justify;
+}
+
+.recipe-info {
+  width: 45%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.linea {
+  border-top: 1px solid grey;
+  height: 2px;
+  width: 850px;
+  max-width: 900px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.cooking-info{
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+#ingredients {
+  text-align: left;
+  padding-left: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1em;
+}
+
+#ingredients ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#directions {
+  text-align: left;
+  padding-left: 100px;
+  font-size: 1.1em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#directions ul {
+  list-style-type: none;
+  padding-left: 5px;
 }
