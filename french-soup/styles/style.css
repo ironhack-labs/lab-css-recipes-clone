@@ -1,9 +1,60 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    background-image: url("/french-soup/images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    margin-top: 40px;
+}
+#title-nav{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    border-color: #989898;
+}
+main{
+    width: 80%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.img-info{
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.title-section{
+    font-size: 20px;
+}
+#recipe-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+.list{
+    font-size: 18px;
+}
+ol>li{
+    /* 🍜 */
+    list-style-type: katakana;
 }
