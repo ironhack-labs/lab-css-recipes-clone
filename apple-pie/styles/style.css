@@ -1,0 +1,62 @@
+body {
+  background-image: url("C:\Users\Felipe Borges\Desktop\CURSO WEB DEV\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: ;
+}
+
+p {
+  word-break: break-all;
+  margin-left: 3.5in;
+  margin-right: 3.5in;
+}
+
+h1 {
+  text-align: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  margin-left: 3.5in;
+  margin-right: 3.5in;
+  height: 500px;
+  width: auto;
+  font-size: 56px;
+  color: #fff;
+}
+
+.object3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+div {
+  text-align: center;
+}
+
+h3.object2 {
+  text-align: left;
+  margin-left: 3in;
+}
+
+ol {
+  text-align: left;
+  margin-left: 3in;
+  margin-right: 3.5in;
+  word-break: break-all;
+}
+
+ul {
+  text-align: left;
+  margin-left: 3in;
+  margin-right: 3.5in;
+  word-break: break-all;
+}
+
+hr {
+  margin-left: 3.5in;
+  margin-right: 3.5in;
+}
