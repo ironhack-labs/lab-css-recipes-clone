@@ -1,0 +1,59 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    background: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-wrapper {
+    margin: 0px 25vw 10vh 25vw;
+}
+
+#description {
+    padding: 40px 0px 0px 0px;
+    font-size: 18px;
+}
+
+#ingredients {
+    padding: 30px 0px 0px 0px;
+}
+
+#ingredients ul {
+    list-style-type: none;
+}
+
+#directions {
+    padding: 30px 0px 0px 0px;
+}
+
+.icons {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 40%;
+}
