@@ -1,9 +1,106 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+header {
+  padding-top: 50px;
+  height: 800px;
+  width: 100%;
+  background-image: url("../images/soup.jpg");
+  background-position: 0, 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+h1 {
+  font-size: 8em;
+  margin-top: 250px;
+  text-align: center;
+  color: white;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.9em;
+  width: 85%;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  padding: 20px, 10px;
+}
+
+#intro img {
+    height: 94px;
+    width: 606px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+hr {
+    margin: 30px auto 20px auto;
+    width: 80%;
+    border: 1px solid darkgray
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight:300;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    padding: 20px, 10px;
+}
+
+ul, ol {
+    font-size: 1.5em;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#ingredients ul {
+    list-style-type: '- ';
+}
+
+#ingredients img {
+    height: 128px;
+    width: 556px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+#directions {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 10px;
+}
+
+#directions ol {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#directions ol > li {
+    padding: 3px;
 }
