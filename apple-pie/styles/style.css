@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.applepie {
+    display: block;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+}
+
+.div1 {
+    border: 0px 200px 200px 200px;
+    text-align: center;
+}
+
+.div2 {
+    border: 0px 200px 200px 200px;
+}
+
+body {
+    font-family: Poppins;
+}
