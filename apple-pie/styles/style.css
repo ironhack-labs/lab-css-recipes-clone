@@ -12,7 +12,7 @@ body{
 }
 
 .head {
-    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-image: url(/apple-pie/images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
