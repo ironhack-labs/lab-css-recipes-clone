@@ -1,0 +1,107 @@
+html,
+body {
+    /*margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: : 12px;
+    line-height: 1.5em;
+    weight: 300;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin:0;
+    height: 600px;
+}
+
+.image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section{
+    width: 50%;
+    padding: 25px 50px;
+}
+
+.grandmastext {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+line-height: 1.5;
+font-size: 20px;
+}
+    
+.ingredients{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+line-height: 1.5;
+}
+.ingredients ul{
+    list-style-type:"- ";
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.line{
+    border: 1px solid #8c8b8b;
+}
+
+div hr{
+    margin: 20px auto 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.directions{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;  
+}
+ol{
+    counter-reset:list;
+}
+ol > li{
+    list-style: none;
+}
+ol > li:before{
+    content:counter(list) ") ";
+    counter-increment: list;
+}
+#recipeimg,
+#cookingimg {
+    width: 70%;
+}
