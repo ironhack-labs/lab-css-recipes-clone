@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url(/images/apple-pie.jpg);
+    background-image: url(./../images/apple-pie.jpg);
     background-size: cover;
 }
 

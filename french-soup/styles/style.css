@@ -15,7 +15,7 @@ html {
 }
 
 header {
-  background-image: url(/images/soup.jpg);
+  background-image: url(./../images/soup.jpg);
   background-size: cover;
 }
 
