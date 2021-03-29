@@ -1,19 +1,72 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-weight: normal;
 }
 
-.header {
-    background-image: url(file:///home/quimrobres/Desktop/Tema%201/JS%20Algorithms/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 850px;
+    padding-top: 375px;
     position: relative;
-    height: 650px;
-    padding: 50px;
-    position: relative;
+    margin-top: 0px;
+}  
+ h1 {
+     font-size: 9em;
+     color: white;
+     font-weight: lighter;
+ }
+
+ h2 {
+     font-weight: lighter;
+ }
+
+body {
+    text-align: center;
 }
 
-.header h1 {
-     color: white;
+.reciepe-history {
+    margin: 100px 175px;
+    font-size: 2.5em;
+    text-align: justify;
+
+}
+
+.ingredients {
+  
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    margin: 0px 170px;
+    font-size: 1.8em;
+}
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    margin: 0px 170px;
+    font-size: 1.8em;
+}
+
+hr {
+    width: 1500px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 75px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style: none;
+   
+    
 }
