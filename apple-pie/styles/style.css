@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+ 
+
+  body {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+      font-size: 100px;
+      text-align: center;
+    
+     }
+  
+  h2 {
+      font-size: 20px;
+      text-align: justify-center;
+     }
+  
+  h3 {
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+      
+     }
+  
+  .header {
+    background: url ("file:///Users/blancamorenodeluna/Documents/Ironhack/labs/1_week/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    height: 350px;
+    padding-top: 100px;
+    position: relative;
+  }
+  
+  
+  .recipe {
+    
+    margin: 80px;
+    padding-left: 250px; 
+    padding-right: 250px; 
+  }
+  
+  .ingredients {
+    list-style-type: none;
+  }
+  
+  .timing1 {
+    text-align: center;
+  }
