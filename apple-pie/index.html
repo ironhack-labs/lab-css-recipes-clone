@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple Pie Recipe</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header> 
@@ -13,15 +15,19 @@
       </h1>
     </header>
    
-       <section class="recipe-introduction">
+    <div class="content-section">
+       <section class="introduction">
        This was my grandmother's apple pie recipe. I have never seen another one quite like it. It will always be my favorite and has won me several first place prizes in local competitions. I hope it becomes one of your favorites as well! 
        </section>
 
        <section class="recipe-ingredients">
+        <div>
+          <img class="cooking-info" src="images/recipe-info.png" alt="recipe-info">
+        </div>         
          <h2>
          Ingredients 
         </h2> 
-          <ul>
+          <ul class="ingredients-list">
             <li>
               1 recipe pastry for a 9 inch double crust pie 
             </li> 
@@ -60,7 +66,12 @@
          </ul>
        </section>
 
+
+
        <section class="recipe-instructions">
+       <div>
+         <img class="cooking-info" src="images/cooking-info.png" alt="cooking-info">
+       </div>         
           <h2>
             Directions 
           </h2> 
@@ -78,5 +89,6 @@
             </li>
           </ol>
         </section>
+    </div>
   </body>
 </html>
