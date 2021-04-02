@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body {
+	margin: 0px;
+}
+
+h1 {
+	padding-top: 200px;
+	font-size: 1.5em;
+	background-image: none;
+	background-color: transparent;
+}
+
+#home {
+	border: 1px solid black;
+	background-image: url("../images/apple-pie.jpg");
+	background-color: transparent;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+
+header > p {
+	border: 1px solid black;
+	text-align: center;
+	color: grey;
+	padding: 30px;
+}
+
+#cooking {
+	/* border: 1px solid black; */
+	position: relative;
+	margin-left: 100px auto;
+	display: flex;
+	flex: content;
+	background-size: cover;
+	background-position: 100px;
+}
+
+#Ingredients {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin-top: 10px;
+	margin-left: 10px;
+	list-style: none;
+	color: grey;
+}
+
+#Directions {
+	margin: 20px;
+}
+
+.Directions-ol {
+    margin-top: 10px;
+	color: grey;
+}
