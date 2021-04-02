@@ -5,16 +5,16 @@ body {
     color: rgba(14, 13, 13, 0.884);
     padding: 0px 300px;
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
 }
 
 header{
-    background-image: url("file:///C:/Sofia/hr-sabado/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     width: 1000px;
+    height: 900px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -23,6 +23,11 @@ h1{
     font-weight: normal;
     text-align: center;
     color:white;    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
 }
 
 .introduction {
