@@ -14,7 +14,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 850px;
-  padding-top: 50px;
+  margin-top: 20px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  line-height: 1.5;
+  line-height: 2;
   font-weight: 600;
 }
 
@@ -48,13 +48,22 @@ h2 {
 .recipe-instructions {
   border-top: solid #979797;
   border-top-width: 2px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .cooking-info {
   margin: 20px auto;
   display: flex;
   align-content: center;
+  max-width: 450px;
+}
+
+.first-picture {
+  max-height: 70px;
+}
+
+.second-picture {
+  max-height: 95px;
 }
 
 .ingredients-list {
