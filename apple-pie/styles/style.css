@@ -1,0 +1,45 @@
+/* CSS file for apple-pie index.html styling */  
+* {  
+  margin: 0;
+  padding: 0;  
+}  
+  
+header {  
+  background-image: url('../images/apple-pie.jpg');  
+  background-repeat: no-repeat;  
+  background-size: cover;  
+  background-position: center;  
+  /* text */
+  color: white;  
+  /*height: center;  */
+  display:flex;  
+  justify-content: center;  
+  align-items: center;  
+}  
+  
+  
+    
+.intro-text {  
+  size: 12px;    
+}  
+  
+#ingredients {  
+  margin-top:10;  
+
+}  
+  
+.section_h {  
+  color: black;  
+  size: 14px;
+}  
+  
+.section_list {  
+  color: gray;
+}  
+  
+#directions {  
+  margin-top:10;  
+  margin-bottom:10;  
+}  
+
+
