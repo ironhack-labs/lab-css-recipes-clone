@@ -17,3 +17,7 @@
     align-items: center;
     align-content: center; 
 }
+
+.section1 > div > p {
+    font-size: 50px;
+}
