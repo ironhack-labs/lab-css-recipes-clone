@@ -1,9 +1,42 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font.size:18px;
+}
+.img-h {
+    background-image: url("/french-soup/images/soup.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 50vh;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt {
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 400px;
+}
+.imag {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+hr {
+  margin:20px auto 30px auto;
+  width: 40%;
+}
+.txt1 {
+  margin: auto 30% 5% 30%;
 }
