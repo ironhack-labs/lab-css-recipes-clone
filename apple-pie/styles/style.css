@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1, body, html, main {
+    margin: 0; 
+  }
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+   h1 {
+    font-size: 5em;
+    text-align: center;
+    line-height: 4em;
+    color: white;
+   }
+  header {
+    background-image: url("https://raw.githubusercontent.com/inhelliburn89/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 50px 0px 100px;
+    height: 550px;
+    
+    margin-bottom:5em;
+    } 
+.header{
+    
+    padding: 50px 0px 0px;
+    position: relative;
+    font-size: 1.2em;
+}  
+ 
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.container{
+  
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+section h2 {
+  font-weight:normal; 
+  border-top:3px solid #bbb; 
+  padding-top:1em;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+#section3 {
+    margin-bottom: 100px;
+}  
+
+  
