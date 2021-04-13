@@ -1,0 +1,42 @@
+* html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+.apple {
+    background:url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 3em;
+}
+main {
+    width: 65%;
+    margin: auto;
+
+}
+main p { 
+    font-size: 1.5em;
+}
+.general {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.prep {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main ul {
+    list-style-type: '-';
+}
