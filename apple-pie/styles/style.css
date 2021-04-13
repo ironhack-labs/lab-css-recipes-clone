@@ -1,0 +1,36 @@
+.imagen {
+    height: 500px;
+    width: 100%;
+}
+
+.titulo {
+    position: absolute;
+    top: 20%;
+    right: 43%;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.contenedor {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.font-title {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.imagen-info {
+    margin-left: 10%;
+}
+
+li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    list-style-type: none;
+}
