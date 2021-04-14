@@ -1,0 +1,78 @@
+
+body{
+    color: grey;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.applePieImage{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.applePieImage img{
+    position: flex;
+    justify-content: center;
+    height: 600px;
+    width: 950px;
+    margin: auto;
+    left: 100px;
+    bottom: 50%;
+    overflow: hidden;
+}
+
+span{
+    margin: auto;
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    left: 700px;
+    top: 250px;
+}
+
+.appleDesc{
+
+    width: 680px;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+img {
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+hr{
+    width: 1100px;
+}
+.ingredients{
+    position: relative;
+    left: 100px;
+}
+
+.directions{
+    position: relative;
+    left: 100px;   
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    color: black;
+}
+
+li{
+    margin-top: 3px;
+}
