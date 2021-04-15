@@ -1,0 +1,74 @@
+h1{
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 60px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 75%;
+    margin: auto;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background-img{
+    background-image: url("/images/apple-pie.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.introduction{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.ingredients{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ingredients > ul {
+    list-style-type: none;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    width: 75%;
+    margin: auto;
+}
+
+.instructions{
+    padding-bottom: 40px;
+}
+
+hr{
+    margin: 50px auto 50px auto;
+    width: 80%;
+    padding-top: -40px;
+}
