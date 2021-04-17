@@ -6,6 +6,7 @@ html {
 
 body {
     width: 60%;
+    font-family: sans-serif;
 }
 
 #header {
@@ -25,11 +26,16 @@ body {
 
 #header > div > h1 {
     font-size: 100px;
-    font-family: sans-serif;
     font-weight: 80;
     color: white;
 }
 
 body > section {
     margin: 40px 0px;
+    padding: 10px 80px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
 }
