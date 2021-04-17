@@ -1,0 +1,9 @@
+.header {
+background-image: url('../images/apple-pie.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: ;
+  height: 800px;
+  width: 1800px;
+  position: relative;
+}
