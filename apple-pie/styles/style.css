@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-   
+   margin:50px 100px;
 }
 
 .info{
@@ -30,7 +30,10 @@ h1{
 }
 
 .content section{
-    margin:50px 100px;
+    margin:50px 150px;
+
+    
+    
 }
 .description{
     text-align: justify;
@@ -40,5 +43,6 @@ hr{
     width:70%;
 }
 .content img{
-    width: 80%;
+    width: 50%;
+    margin: auto 200px;
 }
