@@ -1,0 +1,52 @@
+body {
+    font-family: "sans-serif";
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px 10px;
+    font-weight: 100;
+}
+h2 {
+    font-size: 18px;
+    text-align: justify;
+}
+ul {
+    text-align: justify;
+}
+#applepies {
+    background-image: url(/home/user/Ironhack/labfunctions/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-repeat: no-repeat;
+    /* height: 1500px; */
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.grandmother {
+    text-align: center;
+    font-size: 23px;
+    padding: 20px 0;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.ingredients {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+ 
+
+.directions {
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px 0;
+    margin-left: 450px;
+    margin-right: 450px;
+}
