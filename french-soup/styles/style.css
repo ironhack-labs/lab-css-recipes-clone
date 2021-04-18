@@ -7,3 +7,58 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  font-family: "sans-serif";
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px 10px;
+  font-weight: 100;
+
+}
+h2 {
+  font-size: 18px;
+  text-align: justify;
+}
+ul {
+  text-align: justify;
+}
+#frenchsoup {
+  background-image: url(/home/user/Ironhack/labfunctions/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-repeat: no-repeat;
+  /* height: 1500px; */
+  padding-top: 450px;
+  padding-bottom: 450px;
+  background-size: cover;
+  background-position: center center;
+  margin: 10px 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.section1 {
+  text-align: center;
+  font-size: 23px;
+  padding: 20px 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.paragraph {
+  text-align: justify;
+}
+.ingredients {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.section3 {
+  text-align: justify;
+  font-size: 18px;
+  padding: 20px 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
