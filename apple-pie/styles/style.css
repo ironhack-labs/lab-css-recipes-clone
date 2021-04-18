@@ -44,7 +44,8 @@ body > section {
 }
 
 .icons > img {
-    width: 60%;
+    width: 50%;
+    margin: 20px 0px;
 }
 
 h2 {
