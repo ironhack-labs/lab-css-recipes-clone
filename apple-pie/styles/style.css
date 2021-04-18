@@ -18,9 +18,34 @@ header {
     padding-top: 500px;
     padding-bottom: 500px;
     font-size: 100px;
-    ;
-
-
-
-
 }
+
+#intro {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px
+}
+
+.image-info {
+   display: block;
+   padding-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
+
+.content {
+    text align: left;
+    font-size: 25px;
+    padding-left:250px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bottom-page {
+    padding-bottom: 50px;
+}
+
