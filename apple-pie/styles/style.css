@@ -15,7 +15,7 @@ header {
     font-size: 50px;
     font-weight: 200px;
     background-position-x: top;
-    background-position-y: top;
+    background-position-y: -200px;
     margin: 0% ;
 }
 .section1 {
@@ -30,9 +30,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-.classhr {
-    padding: 0 50px;
-}
+
 .ingredientssec {
     padding: 50px 100px;
     font-size: 30px;
@@ -47,4 +45,5 @@ hr {
     background-color: grey;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 0 50px;
   }
