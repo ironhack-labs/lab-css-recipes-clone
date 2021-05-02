@@ -1,0 +1,82 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+p, h1, h3, li {
+font-family:'Nunito', sans-serif;
+}
+
+ul{
+  list-style-type: disc;
+}
+
+#img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#apple-img {
+  height: 700px;
+  width: auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 60px;
+  position: absolute;
+  color: white
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#ingredients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#directions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.preps{
+  width: 400px;
+  height:auto  
+  
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  border-top: 2px solid gray;
+  width: 70%;
+}
+
+ol{
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0%;
+}
