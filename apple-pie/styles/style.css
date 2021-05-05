@@ -1,0 +1,119 @@
+.container{
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+  margin: -1%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  margin-bottom: -20%;
+}
+
+h1{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 5em;
+  font-weight: lighter;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 47%;
+}
+
+.main-text{
+  position: relative;
+  width: 82%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  font-size: 1.5em;
+}
+
+.main-text p{
+  color: black;
+  font-size: 1.5em;
+  font-family:Helvetica;
+  font-weight: lighter;
+  text-align: justify;
+  margin: 15% auto;
+}
+
+.main-text img{
+  width: 50%;
+  position: absolute;
+  display: block;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: -10%;
+}
+
+.main-text hr{
+  position: relative;
+  margin-top: 10%;
+  border-top: 2px solid grey;
+  margin-bottom: 10%;
+}
+
+.instructions{
+  position: relative;
+  width: 82%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+}
+
+.instructions h2{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.instructions ul{
+  font-family: helvetica;
+  font-weight: lighter;
+  text-align: left;
+  list-style-type: '-' ;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+.instructions img{
+  width: 40%;
+  position: absolute;
+  display: block;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.instructions hr{
+  position: relative;
+  margin-top: 15%;
+  border-top: 2px solid grey;
+  margin-bottom: 5%;
+}
+
+.directions{
+  position: relative;
+  width: 82%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+}
+
+.directions h2{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.directions ol{
+  font-family: helvetica;
+  font-weight: lighter;
+  text-align: left;
+  list-style-type:decimal;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
