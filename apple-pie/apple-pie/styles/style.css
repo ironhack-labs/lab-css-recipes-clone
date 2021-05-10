@@ -4,12 +4,35 @@
     font-size: 1.2rem;    
 }
 
+
+body {
+    background: url(/apple-pie/apple-pie/styles/apple-pie.jpg);
+    background-size: cover; 
+    height:520px; 
+    padding-top:80px;
+    background-repeat: no-repeat;
+    position:fixed;
+    
+}
+
+.main-title {
+    padding-top: 260px;
+}
 h1 {
-    font-size: 90px;
+    font-size: 110px;
     text-align: center;
+    color: white;
+
+}
+
+h2, h3, li {
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 h2 {
-    font-size: 120%;;
-    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    padding-top: 170px;;
 }
+
