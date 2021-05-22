@@ -1,0 +1,27 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Section Header */
+
+.header {
+background: no-repeat url("../images/apple-pie.jpg");
+background-size: contain;
+height: 600px;
+}
+
+/* Section Content */
+
+.content-container {
+margin: 0 15%;
+}
+
+/* Div Description */
+
+
+/* Div Ingredients */
+
+
+/* Div Directions */
