@@ -1,4 +1,29 @@
-body{background-color: red;};
+body{border:0;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:16px;
 
+}
+
+header{
+    height:500px;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+   margin:18px;
+}
+
+
+header h2{ font-size:5em;
+    color:white;
+text-align:center;
+padding:10vh;
+margin:0;
+}
+
+.generalinfo p { 
+    text-align:center;
+    max-width:900px;
+}
 
 
