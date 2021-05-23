@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER BACKGROUND IMG */
+.container {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.sectionOne h1 {
+  padding-top: 280px;
+  text-align: center;
+  font-size: 90px;
+  color: #fffdfe;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* SECTION TWO */
+.sectionTwo {
+  height: 400px;
+  align-items: center;
+  padding: 70px 130px;
+}
+
+.sectionTwo .firstArticle p {
+  text-align: justify;
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.container2 img {
+  margin-top: 40px;
+  width: 350px;
+  margin-bottom: 45px;
+}
+
+
+/* SECTION THREE */
+.ingredientsArticle h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ingredientsArticle ul {
+  padding-left: 9px;
+  list-style: none;
+}
+.ingredientsArticle li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.cookingImg {
+  display: flex;
+  justify-content: center;
+}
+
+.cookingImg img {
+  width: 350px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+/* Last Article Directions */
+.lastArticle{
+    padding-bottom: 70px;
+}
+.lastArticle h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.lastArticle p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  white-space: pre-line;
+  padding-left: 10px;
+  
+}
