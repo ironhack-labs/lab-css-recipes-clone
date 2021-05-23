@@ -65,6 +65,8 @@ h3 {
   }
   .center2 {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
     padding-top: 50px;
   }
