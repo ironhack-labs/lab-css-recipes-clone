@@ -19,11 +19,43 @@ header h2{ font-size:5em;
 text-align:center;
 padding:10vh;
 margin:0;
+font-weight:500;
+letter-spacing: 0.1em;
 }
 
 .generalinfo p { 
-    text-align:center;
-    max-width:900px;
+    text-align:justify;
+    
 }
 
+.generalinfo {
+  margin:50px 15vw;
+  margin-bottom:15px;
 
+
+}
+.introduction {
+    display:flex;
+    flex-direction:column;
+
+}
+.generalicons {
+    text-align: center;
+
+  }
+.generalicons img {
+      height:70px;
+  }
+hr{
+    width:70vw;
+
+   background-color: grey;
+   border:1px solid grey;
+   margin-bottom:35px;
+   border-radius:1px
+}
+.ingredients {
+    display:flex;
+    flex-direction: column;
+    margin:0px 15vw;
+}
