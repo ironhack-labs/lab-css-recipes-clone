@@ -1,0 +1,37 @@
+#header {
+    background-image: url(../images/apple-pie.jpg);
+    background-size:cover;
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+#header > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 100px;
+    color: #FFF;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+body > section {
+    margin: 20px 10px;
+    padding: 20px 80px;
+    font-size: 30px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons > img {
+    width: 50%;
+    margin: 20px 0px;
+}
