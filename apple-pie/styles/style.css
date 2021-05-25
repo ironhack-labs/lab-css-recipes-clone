@@ -1,11 +1,11 @@
-#header {
+.header {
     background-image: url(../images/apple-pie.jpg);
     background-size:cover;
     height: 600px;
     margin-bottom: 60px;
 }
 
-#header > h1 {
+.header > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
