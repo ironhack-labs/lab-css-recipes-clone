@@ -1,9 +1,68 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
+
+#hero{
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  height: 600px;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  color: aliceblue;
+
+}
+
+.title{
+ 
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 70px;
+  font-weight: 400;
+  margin: auto;
+}
+
+#section1{
+  width: 900px;
+  margin: auto;
+  
+}
+
+.textHeroArea{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  width: 900px;
+  margin: auto;
+  color: rgb(104, 101, 101);
+  padding-top: 80px;
+}
+#section2{
+  width: 900px;
+  margin: auto;
+  padding-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(104, 101, 101);
+}
+#section3{
+  width: 900px;
+  margin: auto;
+  padding-top: 40px;
+  font-family: 'Open Sans', sans-serif;;
+  font-size: 18px;
+  color: rgb(104, 101, 101);
+  margin-bottom: 100px;
+}
+.demoImage{
+  display: block;
+  width: 330px;
+  margin: auto;
+  padding: 25px;
+}
+
+h2{
+  color: rgb(83, 77, 77);
+  font-size: 20px;
 }
