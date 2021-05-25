@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0px;
+  font-family:'Mulish', sans-serif;
+  line-height: 3.5em;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 350px;
+  padding-top: 300px;
+  padding-bottom: 140px;
+  position:static;
+  background-origin: content-box;
+}
+.header h1 {
+  font-size: 7em;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  margin: 25px 0px 0px 0px;
+}
+#description {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+#description h2 {
+  color: #2E2D2D;
+  font-size: 2em;
+  text-align: justify;
+  font-weight: 300;
+  padding: 0px 125px 0px 125px;
+  margin-top: 80px;
+  line-height: 1.3em; 
+}
+#recipe-instructions {
+  display: flex;
+  flex-direction: column;
+}
+/*recipe-image*/
+#recipe-info {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin: 20px auto 30px auto;
+  width: 81%;
+  color: gray;
+  border: 1.5px solid gray;
+}
+#ingredients {
+  text-align: left;
+  color: #2E2D2D;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  text-align: justify;
+  font-weight: 300;
+  padding: 0px 125px 0px 125px;
+  margin-top: 10px;
+}
+#ingredients li {
+  list-style: "- ";
+}
+.recipe-tittle {
+  text-align: left;
+  color: #2E2D2D;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1em;
+  text-align: justify;
+  padding: 0px;
+  margin-top: 10px;
+}
+#directions {
+  text-align: left;
+  color: #2E2D2D;
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  padding: 0px 110px 0px 125px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+/*cooking-image*/
+#cooking-info {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+ol{
+  padding: 0px 30px;
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
