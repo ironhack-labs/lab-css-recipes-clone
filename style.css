@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  
+  font-family: Roboto; 
+}
+
+.header{
+	background-image: url('https://github.com/Flavio-Pestana/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true');
+	background-position: 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	
+	height: auto;
+	margin: auto;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 9em; 
+	color: white;
+
+}
+
+.primeirasecao {
+	margin: 80px 250px 0px 250px;
+	font-size: 22pt;
+	text-align: center;
+}
+
+.tempopreparo{
+	margin: 80px 250px 0px 250px;
+
+}
+ #linha{
+	margin: 80px 250px 0px 250px;
+
+ }
+
+ .segundasecao{
+	margin: 80px 250px 0px 250px;
+	font-size: 22pt;
+ }
+
+ .terceirasecao{
+	margin: 80px 250px 0px 250px;
+	font-size: 22pt;
+	
+ }
+
+
+
+
+
