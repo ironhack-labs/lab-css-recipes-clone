@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+
+.header{
+    background-image: url("\\wsl$\Ubuntu-18.04\home\pasqualipedro\Ubuntu-main\00-Classes Labs\lab03-2205-css-recipes-clone\apple-pie\images\apple-pie-jpg");
+    size: cover;
+    height: 650px;
+}
+
+
+ul {
+    line-height: 16px;
+    padding: 0;
+    margin: 10%
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 10%
+}
+
+hr {
+    width: 80%;
+}
+
+.cookingSigns {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+/*
+.verticalAxisFlexbox img, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+
+
+
+/*
+.verticalAxisCentered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*/
