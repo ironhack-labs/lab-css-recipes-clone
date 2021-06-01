@@ -56,3 +56,13 @@ hr {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block {
+  width: 100px;
+  display: inline-block;
+}
