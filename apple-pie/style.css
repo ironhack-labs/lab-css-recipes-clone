@@ -1,0 +1,24 @@
+
+.imageBig{
+    width: 960px;
+    height: 450px;
+    margin-left: 150px;
+
+    }
+
+.imageSmall{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    margin-left: 300px;
+    display: flex;
+}
+
+h1{
+    position: absolute;
+    font-weight: 400;
+    color: white;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
