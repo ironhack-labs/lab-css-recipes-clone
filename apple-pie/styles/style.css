@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto;
+  position: relative;
+}
 hr {
   border: 1px solid black;
   position: relative;
@@ -65,4 +69,20 @@ hr {
 .block {
   width: 100px;
   display: inline-block;
+}
+
+.ingredients {
+  position: relative;
+}
+
+.ingredients-list {
+  position: absolute;
+  top: 150%;
+  left: 19%;
+  width: 300px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
 }
