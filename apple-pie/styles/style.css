@@ -1,3 +1,9 @@
+hr {
+  border: 1px solid black;
+  position: relative;
+  right: 20%;
+}
+
 .header {
   height: 95vh;
   background-image: url("../images/apple-pie.jpg");
@@ -7,15 +13,15 @@
 }
 .header-text {
   position: absolute;
-  top: 40%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-size: 70px;
+  font-size: 75px;
   line-height: 20px;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .intro {
@@ -31,10 +37,22 @@
   transform: translate(-50%, -50%);
   text-align: center;
   margin-top: 50px;
+  text-align: left;
+  font-size: 23px;
+  min-width: 60%;
+  letter-spacing: 1px;
 }
 
 .graph {
   position: absolute;
   top: 100px;
-  left: 28%;
+  left: 38%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.icon {
+  max-width: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
