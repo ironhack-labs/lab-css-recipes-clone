@@ -4,7 +4,8 @@ ul {
 
 .bigPicture img {
     width: 1500px;
-    height: auto;
+    height: 800px;
+    object-fit: cover;
 }
 
 h1 {
@@ -16,16 +17,19 @@ h1 {
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(97, 105, 105);
+    font-size: 2.1em;
+    text-align: justify;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(97, 105, 105);
+    font-size: 2em;
 }
 
 .centeredText {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -45,11 +49,12 @@ h3 {
 .textFormating {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(97, 105, 105);
+    font-size: 1.5em;
 }
 
 .mainContent {
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 130px;
+    padding-left: 130px;
 }
