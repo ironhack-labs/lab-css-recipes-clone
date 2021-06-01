@@ -1,0 +1,45 @@
+.hero {
+  height: 80vh;
+  width: 100vw;
+  background-image: url(/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+    font-family: font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 70px;
+}
+div {
+    text-align: center
+}
+h2 {
+    color: #7A7A7A;
+}
+p {
+ color: #9D9D9D;
+}
+li {
+    color: #9D9D9D;
+
+}
+main {
+    margin: 100px;
+}
+footer {
+    margin: 100px;
+}
+ul.dash-list li:before {
+  content: "\2011";
+  float: left;
+  margin: 0 0 0 -15px;
+  padding: 0;
+}
+ul.dash-list li {
+  list-style-type: none;
+}
+
