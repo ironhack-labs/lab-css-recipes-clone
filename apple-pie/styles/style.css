@@ -34,13 +34,10 @@ body {
     justify-content: center;
 }
 
-ul li:before {
-    content: '\2014';
-    margin-left: -30px;
-}
-.list {
-    list-style-type: none; 
+.list { 
     font-size: 22px;
+    list-style: "-";
+    margin-left: -20px;
 }
 .cooking {
     display: flex;
@@ -52,7 +49,7 @@ ul li:before {
 }
 .direc {
     font-size: 27px;
-    font-style: none;
+    list-style-type:
 }
 hr {
     border-top: 3px solid gray;
