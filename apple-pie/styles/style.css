@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Noto Sans, sans-serif;
+    width: 700px;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  font-weight: 100;
+
+}
+
+.ingredients-img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.sectionOne {
+    text-align: center;
+    border-bottom: 3px solid lightgray;
+    margin: 3% 8%;
+}
+
+.history {
+    margin: auto;
+    padding: 1em;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.recipeInfo-img {
+    height: 40px;
+    margin: 10px;
+}
+
+.sectionTwo {
+    margin: 3% 8%;
+    border-bottom: 3px solid lightgray;
+    font-size: 12px;
+}
+
+.cookingInfo-img {
+    height: 50px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+ul{
+    margin: 3%;
+    padding: 0%;
+}
+ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li:before {
+    content: "- ";
+  }
+
+.sectionThree {
+    font-size: 12px;
+    margin: 2% 8% 5% 8%;
+  }
+
+ol {
+    counter-reset: list;
+    margin: 2%;
+    padding: 0;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
