@@ -1,0 +1,35 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(252, 245, 238, 0.7),
+      rgba(252, 245, 237, 0.7),
+      rgba(252, 245, 235, 0.7),
+      rgba(251, 246, 234, 0.7),
+      rgba(250, 246, 233, 0.7)
+    ),
+    url(../img/cover.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  &__logo {
+    height: 10.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

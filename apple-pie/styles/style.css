@@ -1,0 +1,40 @@
+.header {
+  height: 95vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.intro {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.intro-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.graph {
+  position: absolute;
+  top: 100px;
+  left: 28%;
+}
