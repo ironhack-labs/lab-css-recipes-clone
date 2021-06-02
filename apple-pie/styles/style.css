@@ -20,6 +20,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .container{
