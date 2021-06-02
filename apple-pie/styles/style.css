@@ -1,0 +1,67 @@
+body{
+    color: rgb(104, 102, 102);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 500px;
+}
+
+.head-image{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    object-fit:cover;
+    position: absolute;
+}
+
+h1{
+    color: white;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    font-size: 50px;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 100px;
+    height: 250px;
+}
+
+hr{
+    width: 100%;
+}
+
+p{
+    margin: 40px 10px ;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 80px;
+}
+
+.ingredients-list li{
+    list-style-type: initial;
+}
+
+.cooking-info-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.directions{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 80px;
+}
