@@ -1,0 +1,61 @@
+
+.pie {
+    background-image: url(/images/apple-pie.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+h1 {
+    color: cornsilk;
+    padding-top: 100px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 80px;
+    font-style: initial;
+} 
+p{
+    font-size: 20px;
+}
+
+
+section {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+    margin-top: 100px;
+    
+}
+
+.peter {
+    margin-left: 550px;
+    width: 400px;
+
+}
+
+.ingredients-list{
+    font-size: 20px;
+} 
+
+h2 {
+    text-align: justify;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.cook {
+    margin-left: 150px;
+    width: 350px;
+    text-align: center;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+}
+
+.first-bar{
+    margin: 0 400px;
+}
+
+ul {
+    list-style: none;
+}
