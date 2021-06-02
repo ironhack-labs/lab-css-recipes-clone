@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+
 body {
-    font-family: Helvetica;
+    font-family: "Poppins";
     font-size: 14px;
      
 }
@@ -29,14 +33,14 @@ font-size: 60px;
     align-items: center;
     
     border-bottom: 0.15px solid black;
-    margin: 20px 150px;
+    margin: 40px 150px;
 
 
 }
 
 .intro img {
     width: 300px;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
 
@@ -48,7 +52,7 @@ font-size: 60px;
     display: flex;
     flex-direction: column;
     border-bottom: 0.15px solid black;
-    margin: 20px 150px
+    margin: 40px 150px;
 }
 
 
@@ -61,9 +65,11 @@ font-size: 60px;
  .image-ingredients{
     display: flex;
     justify-content: center;
+    padding: 0px 0px 30px;
 } 
  .image-ingredients img{
-    width: 200px;
+    width: 300px;
+    height: 75px;
 } 
 
 
@@ -82,7 +88,7 @@ ul {
     display: flex;
     flex-direction: column;
     
-    margin: 20px 150px;
+    margin: 40px 150px;
 
 
 }
