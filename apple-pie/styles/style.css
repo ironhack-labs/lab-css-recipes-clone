@@ -1,0 +1,105 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}    
+
+h1 {
+    display: flex;
+    width: 70vw;
+    height: 70vw;
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-transform: capitalize;
+    padding-top: 0mm;
+}
+
+.container{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    content: 0, 20, 20;
+}
+
+.myHeading{
+    
+    display: flex;
+    width: 70vw;
+    height: 70vw;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+article{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: white;
+    display: flex;
+    width: 70vw;
+    height: 70vw;
+    border-left-width: 20%;
+    align-self: center;
+    
+}
+
+h2{
+    background-color: white;
+    display: flex;
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 50px;;
+}
+
+img{
+    display: flex;
+    align-content: center;
+    box-sizing: content-box;
+    height: 50px;
+    width: 550px;
+}
+
+.linea{
+    line-break: normal;
+    text-decoration-line: line-through;
+}
+
+.container-list{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: white;
+    display: flex;
+    content: none;
+
+}
+
+ol{
+    background-color: white;
+}
