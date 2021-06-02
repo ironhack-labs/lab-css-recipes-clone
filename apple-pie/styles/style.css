@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Homemade Apple", cursive;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0px;
+}
+p,
+li {
+  font-family: "Cookie", cursive;
+  font-size: 2.5rem;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header h1 {
+  color: white;
+  font-family: "Homemade Apple", cursive;
+  font-size: 4rem;
+}
+
+#general {
+  margin: 50px 10vw 0px 10vw;
+}
+
+#general div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#general img {
+  width: 40vw;
+  margin-top: 20px;
+}
+
+#ingredients {
+  margin: 50px 10vw 0px 10vw;
+}
+
+#ingredients div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ingredients img {
+  width: 40vw;
+  margin-top: 20px;
+}
+
+#directions {
+  margin: 50px 10vw 0px 10vw;
+}
+
+#directions ol {
+  margin-bottom: 75px;
+}
