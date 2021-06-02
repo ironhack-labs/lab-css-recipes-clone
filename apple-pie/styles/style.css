@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;600&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Manrope";
+}
+
+.divider {
+    border-bottom: 1px solid black;
+}
+
+.listStyle {
+    list-style: none;
+    margin-top: 20px ;
+    padding-left: 24px;
+}
+
+.hero {
+    background: url('../images/apple-pie.jpg');
+    box-shadow:inset 0 0 0 20000px rgba(0, 0, 0, 0.2);
+    height: 700px;
+    background-size: cover;
+    /*usamos o flex na box para atingir o content dentro dele */
+    /* Justify content par alinhao horizontalmente
+    align-items: para alinhas verticalmente */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 0 150px;
+    padding-bottom: 75px;
+}
+
+.heroTitle {
+        font-size: 80px;
+        color:white;
+        letter-spacing: 8px;
+        word-spacing: 16px;
+ }
+  
+
+.paragrafo-1 {
+    margin:70px 0px 30px;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+.div-img img {
+    height: 100px;
+    width: auto;
+}
+
+.sectionOne h3 {
+    font-size: 32px;
+
+}
+
+.ingredients{
+    margin-top: 50px ;
+    /* align-self: é para alinhar a propria box. flex-start: é para começar à esquerda */
+    align-self: flex-start;
+}
+
+.ingredients h3 {
+    margin-bottom: 24px
+}
