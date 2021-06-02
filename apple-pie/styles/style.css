@@ -1,31 +1,42 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+html {
     background-color: white;
+    padding: 0px;
     margin: 0px;
+
 }
 body {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0px auto 0px; ;
+    max-width: 1024px;
 }
 h1 {
-    font-size: 4em;
+    font-size: 8em;
+    font-weight: 100;
     color: white;
+    text-align: center;
 }
 h2 {
-    font-size: 2em;
-    line-height: em;
-    width: 80%;
+    font-size: 1.5em;
+    font-weight: 100 ;
+    text-align:left;
 }
 h3 {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 500;
 }
 hr {
     width: 80%;
 }
 
 .info-img {
+    position: relative;
     border: none;
-    margin: 20px;
-    max-width: 50%; 
+    margin: 20px 25%;
+    max-width: 50%;
+    align-item: center;
 }
 
 section div {
@@ -33,33 +44,43 @@ section div {
 }
 
 #header {
-    height: 400px;
+    height: 600px;
     background-image: url(/apple-pie/images/apple-pie.jpg);
     background-position: center ;
     background-size: cover;
     display: flex;
-    flex-flow: row nowrap;
-    align-content: center;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .flex-center {
     display: flex;
-    flex-flow: column wrap;
-    align-content: center;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items:center;
+    margin: 20px 10%;
 }
-ul li {
+
+.flex-left {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px 10%;
+    align-items:left;
+}
+ul {
+    font-size: 1.5em;
     list-style-type: '- ';
-}
-
-@counter-style directions {
-    system: numeric;
-    suffix: ); 
-}
-
-ol li{
     list-style-position: inside;
-    list-style: (decimal ")");
+    padding-inline-start: 0px;
+    padding-bottom:
 }
 
+ol {
+    font-size: 1.5em;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-inline-start: 0px;
+}
+
+ul *, ol *{
+    padding-bottom: 1em;
+}
