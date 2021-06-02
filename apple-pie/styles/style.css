@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Cover */
+
+.cover {
+  display: flex;
+  justify-content: center;
+}
+
+.cover-img {
+  width: 100%;
+  position: relative;
+}
+
+/* About section, Ingredients and Directions section */
+
+.about-section, .ingredients, .directions {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  font-size: 102%;
+}
+
+h1 {
+  color: white;
+  font-size: 600%;
+  align-self: center;
+  z-index: 1;
+  position: absolute;
+}
+
+.about-section p {
+  font-size: 180%;
+  font-weight: lighter;
+}
+
+h2 {
+margin-bottom: 1%
+}
+
+.small-img {
+  width: 35%;
+  align-self: center;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid grey;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+li {
+  list-style: none;
+  font-weight: lighter;
+}
+
+ul, ol {
+  padding-inline-start: 1.5%
+}
