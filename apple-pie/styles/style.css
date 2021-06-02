@@ -38,13 +38,17 @@ img {
     margin: auto;
 }
 
-ul {
-    list-style-type: '- ';
+li {
     font-size: large;
 }
 
+ul {
+    padding-left: 10px;
+    list-style-type: '- ';
+}
+
 ol {
-    font-size: large;
+    padding-left: 10px;
     counter-reset: list;
 }
 
