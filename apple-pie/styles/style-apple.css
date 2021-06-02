@@ -1,19 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
-html, body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap');
+
+html body {
+    border: 0;
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 3.5em;
-    font-weight: 300;
-  }
-
-.header{
-    background-image: url("\\wsl$\Ubuntu-18.04\home\pasqualipedro\Ubuntu-main\00-Classes Labs\lab03-2205-css-recipes-clone\apple-pie\images\apple-pie-jpg");
-    size: cover;
-    height: 650px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1rem;
 }
+
+#header h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 850px;
+    font-size: 5em;
+}
+
+.widthGeneral {
+    width: 75vw;
+}
+
+.verticalAxisAlignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+
+
+/* 
+.inColumns {
+    display: flex;
+    flex-direction: column;
+}
+
+.cookingSigns {
+    width: 45%;
+} 
+
+h1 {
+    width: 100%;
+    font-size: 85px;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+} */
+
+
+
+/* #section01 p {
+    font-size: 30px; 
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 
 
 ul {
@@ -22,21 +82,13 @@ ul {
     margin: 10%
 }
 
-h1 {
-    font-size: 25px;
-    line-height: 30px;
-    margin: 10%
-}
+
 
 hr {
     width: 80%;
 }
 
-.cookingSigns {
-    display: flex;
-    justify-content: center;
-    width: 45%;
-}
+*/
 
 /*
 .verticalAxisFlexbox img, p{
@@ -50,10 +102,6 @@ hr {
 
 
 /*
-.verticalAxisCentered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 */
