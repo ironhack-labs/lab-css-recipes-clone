@@ -13,7 +13,7 @@ p {
 p,
 li {
   font-family: "Cookie", cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 hr {
@@ -26,7 +26,6 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +39,12 @@ hr {
 
 #general {
   margin: 50px 10vw 0px 10vw;
+}
+
+#general:hover {
+  transition: background-color 1s ease-in-out 0.25s;
+  background-color: turquoise;
+  font-size: 3.5rem;
 }
 
 #general div {
