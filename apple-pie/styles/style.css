@@ -1,0 +1,90 @@
+
+/*TRIED TO USE THIS flex-container TO FLEX AROUND THE images--- didnt work ;( so I wrapped them into extra span tags (since those are inline and wrappable inside div?) to target those*/
+
+
+.flex{               
+ 
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sameFontsizeAsH2{
+
+    font-size: x-large;       /* trying to achieve the same font-size as h2 over here */
+    font-family: Verdana, Arial, Helvetica, sans-serif;  /* obviously not the right font...*/
+}
+
+
+
+
+
+span {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* I dont know how to acess my background image to strech it/increase its width to 100% and increase the height*/
+   div h1 {
+    background-image: url("../images/apple-pie.jpg");
+
+    
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+      }
+
+
+      background-image{
+
+        heigth: "800px";
+      }
+
+
+div background-image{
+
+    height: 600px;
+}
+
+
+h1{
+
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+
+h2{
+
+
+
+}
+
+
+.middle-part {
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.bottomPart{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+ul {
+
+list-style-type: '-';
+}
+
+
+
+body{
+
+    padding: 20px;
+}
+
+
