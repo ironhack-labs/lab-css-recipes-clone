@@ -1,9 +1,10 @@
 header {
-    background-image: url("./images/apple-pie.jpg");
+    background-image: url("./apple-pie.jpg");
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
-    font-size: 100px;
+    font-size: 50px;
     align-content: center;
+    margin-top: 0;
 }
