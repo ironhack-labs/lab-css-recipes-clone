@@ -32,7 +32,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .intro p {
@@ -43,9 +43,8 @@ h1 {
 }
 
 .intro hr {
-    border-top: 5px solid grey;
-    padding-left: 200px;
-    padding-right: 200px;
+    border-top: 5px solid rgb(163, 163, 163);
+    width: 75%;
 }
 
 .ingredients .image {
@@ -55,20 +54,19 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .ingredients h4 {
     padding-left: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 2em;
 
 }
 
 .ingredients hr {
-    border-top: 5px solid grey;
-    padding-left: 200px;
-    padding-right: 200px;
+    border-top: 5px solid rgb(163, 163, 163);
+    width: 75%;
 }
 
 .ingredients ul {
@@ -87,7 +85,7 @@ h1 {
 
 .directions h4 {
     padding-left: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 2em;
 
 }
@@ -98,4 +96,28 @@ h1 {
     padding-right: 200px;
     padding-bottom: 50px;
     line-height: 1.5em;
+    counter-reset: list;
 }
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+
+
+/*
+.directions ol > li {
+    list-style-type: none;
+}
+
+.directions ol > li:before {
+    content: counter (list, decimal)")";
+    counter-increment: list;
+}
+*/
