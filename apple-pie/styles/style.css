@@ -31,6 +31,9 @@
   margin-top: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .section div {
@@ -41,4 +44,36 @@
 
 .section img {
   width: 400px;
+  margin: 10px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+/* .section2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cookinginfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 img {
+  width: 350px;
+  margin: 10px;
 }
