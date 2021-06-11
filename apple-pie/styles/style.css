@@ -29,6 +29,10 @@ body {
     width: 80%;
 }
 
+.description {
+    margin-top: 6%;
+}
+
 .recipe-metrics-pic,
 .cooking-info-pic {
     display: block;
