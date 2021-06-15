@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 100;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 350px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.header {
+    background: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+/* is this class necessary?*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image1 {
+    background: url("../images/recipe-info.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.para {
+    padding: 0px 50px;
+}
+
+/* why won't this shift it over?*/
+.para2 {
+    padding-left: 50px;
+}
+
+.image2 {
+    background: url("../images/cooking-info.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
