@@ -1,0 +1,63 @@
+*{
+font-family: 'Lato', sans-serif; 
+}
+body{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.fondoh1 {
+    background-image: url("https://okdiario.com/img/2019/08/06/receta-de-apple-pie-655x368.jpg");
+    /* background: image-set("/Users/KMHS/Desktop/IronHack/ih-week1/ih-week1-mie/lab-css-recipes-clone/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg"); */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+}
+.intro {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+}
+img {
+    align-self: center;
+    margin-left: 300px;
+    padding: 8%;
+}
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 30px 30px
+  }
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: left;
+    margin-left: 400px;
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+ul{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+ol{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 20px;
+
+}
