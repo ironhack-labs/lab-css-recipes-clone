@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+.applePie {
+    height: 81vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+}
+
+.directions {
+    margin-top: 2px;
+}
+
+.listItem {
+    margin-top: 15px;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 81vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 62px;
+    font-weight: normal;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.content {
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
