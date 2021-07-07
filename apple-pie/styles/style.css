@@ -2,6 +2,8 @@
 
 body{
     font-family:'poppins';
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .header {
     background-image: url("../images/apple-pie.jpg");
@@ -13,12 +15,37 @@ body{
 }
 h1 {
     color:white;
-    font-size: 50px;    
+    font-size: 55px;    
 }
 
 .info-text{
+    font-size: 24px;
     display:flex;
     text-align:center;
-    align-items:center;
-   
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+.info-pic{
+    display:flex;
+    justify-content:center;    
+}
+
+.pic {
+    height:40%;
+    width:40%;
+}
+
+.hr-line {
+    border-top: 2px solid grey;
+    margin-top: 20px;
+}
+
+.ingredients{
+    margin-top: 50px;
+}
+
+.ingre-list{
+    list-style:circle;
+    margin-bottom: 50px;
 }
