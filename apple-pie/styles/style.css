@@ -1,45 +1,70 @@
 body {
-    background-color: white;
+  font-family: Helvetica;
+  color: rgb(85, 85, 85);
 }
 
 .applePie {
-    height: 81vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    background-image: url(/apple-pie/images/apple-pie.jpg);
-    background-size: cover;
-}
-
-.directions {
-    margin-top: 2px;
-}
-
-.listItem {
-    margin-top: 15px;
+  height: 600px;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  object-fit: contain;
 }
 
 .headline {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    height: 81vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  /* align-content: center; */
+  /* flex-direction: column; */
+  /* height: 81vh; */
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    font-size: 62px;
-    font-weight: normal;
-    font-family: Helvetica;
+  color: white;
+  text-align: center;
+  font-size: 62px;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  font-size: 24px;
+  /* width: 650px; */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid grey;
+  height: 100px;
+}
+.cooking-info {
+  height: 100px;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.listItem {
+  margin-top: 15px;
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .content {
-    margin-left: 6vw;
-    margin-right: 6vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
-
