@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 600px){
+    header > h1{
+        font-size: 5em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    section > h2 {
+        font-size: 1.5em;
+    }
+    
+    section > ul > li {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+
+}
+
+@media (max-width: 600px){
+    header > h1{
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    section > h2 {
+        font-size: 1em;
+    }
+    
+    section > ul > li {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apple-pie {
+    width: 100vw;
+}
+
+header > h1 {
+    position:absolute;
+    color: white;
+    font-weight: 100;
+    margin-top: 30vw;
+}
+
+header > p {
+    width: 80vw;
+    max-width: 832px;
+    margin: 50px auto;
+    line-height: 1.3em;
+    color: rgb(75,75,75);
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
+.recipe-info {
+    width: 300px;
+}
+
+
+span {
+    margin: 50px auto;
+    width: 80vw;
+    max-width: 832px;
+    border-bottom: 2px solid rgb(75,75,75);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > h2 {
+    margin-bottom: 25px;
+    width: 80vw;
+    max-width: 832px;
+}
+
+section > ul > li {
+    width: 80vw;
+    max-width: 832px;
+    color: rgb(75,75,75);
+    list-style-type: none;
+}
+
+section > img {
+    margin-top: 50px;
+    width: 300px;
+}
+
+p {
+    width: 80vw;
+    max-width: 832px;
+    line-height: 1.3em;
+    color: rgb(75,75,75);
+    text-align: justify;
+}
