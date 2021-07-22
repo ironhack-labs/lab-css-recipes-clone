@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 6em;
+    font-size: 8em;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+header {    
+    width: 100%;    
+}
+
+header div {
+    text-align: center;    
+    color: white;        
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-position: center;    
+    background-size: cover;
+    height: 870px;   
+}
+
+article {
+    width: 70%;
+    margin: 0 15%;
+}
