@@ -1,11 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;    
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -13,19 +14,28 @@ h1 {
     padding: 0;
     line-height: 6em;
     font-size: 8em;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+li {
+    font-size: 1.6em;
     font-weight: lighter;
+    line-height: 1.5em;
+    list-style-type: none;
 }
 
 header {    
-    width: 100%;    
-}
-
-header div {
+    width: 100%;
     text-align: center;    
     color: white;        
     background-image: url("/apple-pie/images/apple-pie.jpg");
@@ -34,7 +44,22 @@ header div {
     height: 870px;   
 }
 
-article {
-    width: 70%;
-    margin: 0 15%;
+main {
+    margin: 0 20%;
+    width: 62%;
+}
+
+section {
+    border-bottom: black solid 1px;
+    display: flex;
+    flex-direction: column;    
+    padding: 50px;    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 30px;
 }
