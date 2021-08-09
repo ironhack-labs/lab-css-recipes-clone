@@ -7,3 +7,34 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header {
+  background-image: url("/images/soup.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 35em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 5vw;
+  font-weight: normal;
+}
+
+section {
+  margin: 5% 25% 0 25%;
+}
+
+footer {
+  margin: 5% 25% 0 25%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+span.heart {
+  color: pink;
+}
