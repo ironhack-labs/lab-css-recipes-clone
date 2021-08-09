@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-image: url(/images/apple-pie.jpg);
+    background-position: center;
+    repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding: 0%;
+    margin: 0rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titletext {
+    font-size: 1000%;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+hr {
+    width: 90%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10rem;
+    margin-bottom: 0rem;
+}
+
+.details {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+h2 {
+    font-size: 350%;
+    font-weight: lighter;
+}
+
+ul {
+    font-size: 250%;
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -50px;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12rem;
+    margin-top: 0rem;
+    font-size: 250%;
+}
+
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+ol > li:before {
+    counter-increment: item;
+    content: counter(item) ") " ;
+}
