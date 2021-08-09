@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.ap {
+	width: 100%;
+	z-index: 0;
+}
+
+ul.dashed {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.dashed > li {
+	margin-left: 15px;
+}
+
+ul.dashed > li::before {
+	content: "-";
+	margin-left: -15px;
+}
