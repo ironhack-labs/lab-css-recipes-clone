@@ -1,26 +1,33 @@
 body {
 	background-color: lightblue;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+	margin: 0;
 }
 
+h1 {
+	color: white;
+}
 
+.background-picture {
+	display: flex;
+	background-size: cover;
+	background-image: url(/images/apple-pie.jpg);
+	height: 35em;
+	justify-content: center;
+	align-items: center;
+}
 
 .container {
 	position: relative;
 	text-align: center;
 	color: white;
-	
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 .ap {
 	width: 100%;
