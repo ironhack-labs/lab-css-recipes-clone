@@ -8,10 +8,11 @@ body{
 
 h1{
     text-align: center;
-    font-size: 7em;
-    font-weight: 200;
-    margin-bottom: 50px;
+    font-size: 5em;
+    font-weight: 150;
+    margin-bottom: 100px;
     color:white;
+    padding: 90px;
 }
 
 h3{
@@ -24,7 +25,6 @@ h3{
 
 .header{
 
-    /* tried moving the image to the main folder to no avail */
     background-image: url(../images/apple-pie.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
@@ -112,7 +112,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-left: -30px;
+    margin-left: -50px;
     
 
 
