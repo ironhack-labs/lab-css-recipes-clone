@@ -1,0 +1,126 @@
+
+body{
+
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 7em;
+    font-weight: 200;
+    margin-bottom: 50px;
+    color:white;
+}
+
+h3{
+
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: -15px;
+    padding: 15px;
+}
+
+.header{
+
+    background-image: url("https://image.freepik.com/free-photo/background-roasted-fresh-brown-coffee-beans-perfect-cool-wallpaper_181624-13741.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;;
+  height: 500px;
+  padding-top: 50px;
+  background-color: black;
+ 
+}
+
+header{
+
+    background-image: url();
+}
+
+.introduction{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 60px;
+
+}
+
+.introduction article{
+    font-size: 1.3em;
+    text-align:center;
+}
+
+.introduction img{
+
+    height:60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.ingredients{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+
+
+}
+ul {
+
+    list-style-type: " - ";
+}
+
+ul li {
+
+    padding: 3px;
+}
+
+.ingredients img{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.ingredientsList{
+
+    text-align: left;
+    margin-left: -300px;
+
+}
+
+hr {
+
+    width: 700px;
+}
+
+.directions{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: -30px;
+    
+
+
+}
+
+.directions div {
+
+    margin-bottom: 50px;
+}
+
+
+
