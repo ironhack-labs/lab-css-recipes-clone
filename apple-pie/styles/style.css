@@ -1,0 +1,15 @@
+body {
+    
+}
+
+h3 {
+    font-family:'Open Sans';
+}
+
+p {
+   font-weight: lighter;
+}
+
+.flex-container {
+    display: auto;
+}
