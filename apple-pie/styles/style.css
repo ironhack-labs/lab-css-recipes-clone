@@ -24,7 +24,8 @@ h3{
 
 .header{
 
-    background-image: url("https://image.freepik.com/free-photo/background-roasted-fresh-brown-coffee-beans-perfect-cool-wallpaper_181624-13741.jpg");
+    /* tried moving the image to the main folder to no avail */
+    background-image: url(../images/apple-pie.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;;
