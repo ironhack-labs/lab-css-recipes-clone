@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,
+body {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+ul { list-style-type: none }
+
+ol { list-style-type:decimal }
+
+ul > li:before {
+  content: '-';
+}
+
+
+ol > li:before {
+    content: ')';
+  }
+
+header {
+    background-color: khaki;
+    /* height: 600px; */
+    /* display: flex;
+    align-content: center; */
+}
+
+body > div {
+    margin: 2em;
+}
+
+body {
+    font-family: 'Poppins';    
+    background-color: red;
+}
+
+body > div > section {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    background-color: aquamarine;
+    
+}
+
+body > div > section > img {
+    margin: 20px 5em;
+}
+
+h1 {
+    /* position: absolute;
+    top: 40%;
+    left: 30%; */
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin: 10px auto;
+    width: 40%;
+  }
+  
+.headerImage {
+    width: 100%;
+    height: 1100px;
+    object-fit: cover;
+
+/* 
+.header {
+    background-image: url("appl.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+  } */
