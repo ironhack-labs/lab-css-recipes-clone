@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* Head */
+header{
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position:relative;
+    height: 100em;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    
+    
+}
+h1{
+    font-size: 15em;
+    font-weight: 100;
+    color: white;
+}
+
+/* Description section */
+
+.description{
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+p{
+    font-size: 5em;
+    text-align: center;
+    width: 70%;
+}
+
+.infoImg{
+    padding-bottom: 1%;
+    width: 30%;
+}
+
+/* Ingridients section */
+
+.ingridients{
+    margin-left: 15%;
+}
+
+h3{
+    font-size: 5em;
+    
+}
+
+.ingrientsList{
+    list-style-type: none;
+}
+
+li{
+    font-size: 4em;
+}
+
+#center{
+    display: block;
+    margin-left: 28%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/* Directions Section */
+
+.directions{
+    width: 70%;
+    margin-left: 15%;
+}
+
+ol{
+    list-style-type: none;
+    padding-bottom: 10%;
+}
+
+ol>li{
+    font-size: 4em;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+
+/* Others */
+
+hr{
+    width: 70%;
+}
