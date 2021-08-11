@@ -1,0 +1,36 @@
+.top-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3em;
+}
+
+.top-photo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+}
+
+.intro {
+    padding: 5% 15% 0 15%;
+}
+
+.recipe-info {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
