@@ -5,10 +5,27 @@ h1, body, html, main {
   /*Import the font and set the default size*/
   html {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px
+    font-size: 18px;
   }
-  h1{
-    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  .banner {
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+  }
+  h1 {
     text-align : center;
+    color: white;
+    padding: 250px;
+    font-size: 65px;
   }
-  
+  .img-centering {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .textleft {
+    text-align: left;
+    margin: 50px;
+  }
