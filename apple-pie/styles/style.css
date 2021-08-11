@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 h1{
@@ -88,14 +88,13 @@ ul li{
 #directions h2{
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #directions p {
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 1.7rem;
+    font-weight: 400;
     list-style: none;
-    padding-bottom: 3px;
-    width:100%;
-    word-spacing: 4px;
+    line-height: 40px;
+    padding: 10px;
 }
