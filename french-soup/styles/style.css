@@ -1,9 +1,114 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
+
+header h1{
+font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight:bolder;
+
+}
+
+section {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:lighter;
+  padding: 5% 2% 2% 2%;
+  font-size: 2.05vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+
+#sectionOne{
+  padding-top:10%;
+}
+
+.recipeInfoImg{
+  max-width: 40vw;
+  min-width: 40vw;
+}
+
+.imgInfoDiv{
+  margin-top:2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionTwo{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.sectionThree{
+margin-bottom:8%;
+}
+
+section h3{
+  margin-bottom: 4%;
+  margin-left: -2%;
+}
+
+ol li,
+ul li{
+  list-style-type: none;
+}
+
+@media (max-width: 768px)  {
+  header {
+      height: 50vh;
+  }
+
+  section{
+      font-size: 3vw;
+      padding: 5%;
+  }
+
+  header h1{
+      font-size: 4rem; 
+  }
+
+  .recipeInfoImg{
+      min-width: 400px;
+  }
+}
+
+@media (max-width: 360px)  {
+  header {
+      height: 20vh;
+  }
+
+  section{
+      font-size: 3vw;
+      padding: 5%;
+  }
+
+  header h1{
+      font-size: 4rem; 
+  }
+
+  .recipeInfoImg{
+      min-width: 300px;
+  }
+}
+
+@media (max-width: 556px)  {
+ header h1{
+   font-size: 2rem;
+ }
+}
+
