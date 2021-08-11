@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 3.5em;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 9em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 100;
+  }
+  
+  h3{
+    font-size: 2.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+    margin-bottom: 20px;
+  
+  }
+
+/*----------  HEADER ----------*/
+.header{
+    height: 800px;
+    background-image: 
+    url(../images/apple-pie.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header h1{
+    padding-top: 400px;
+}
+
+/*----------  Section Description ----------*/
+#description p{
+    font-size: 3em;
+    line-height: 1.5em;
+    padding: 30px;
+}
+
+/*----------  Section Ingredients ----------*/
+
+/*----------  Section Directions ----------*/
