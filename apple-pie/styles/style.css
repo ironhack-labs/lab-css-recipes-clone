@@ -1,5 +1,5 @@
-body {
-    margin: auto;
+body{
+    margin: 0 auto 100px;
     padding: 0;
     font-family: sans-serif;
     font-size: 10px;
@@ -14,15 +14,23 @@ h1{
     margin: 0 auto;
     color: white;
     font-weight: 100;
-  }
+}
   
-  h3{
+h3{
     font-size: 2.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
-    margin-bottom: 20px;
-  
-  }
+    margin-bottom: 30px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 80%;
+}
 
 /*----------  HEADER ----------*/
 .header{
@@ -33,19 +41,56 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 5vmax;
 }
 
 .header h1{
     padding-top: 400px;
 }
 
+/*----------  Sections ----------*/
+.recipe-content{
+    padding: 0 5vmax;
+    margin: 50px auto 0px;
+    display: flex;
+    flex-direction: column;
+}
+.recipe-content img{
+    width: 20vmax;
+    margin: 30px auto;
+}
+
+.recipe-content li{
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+
 /*----------  Section Description ----------*/
 #description p{
     font-size: 3em;
     line-height: 1.5em;
-    padding: 30px;
 }
 
 /*----------  Section Ingredients ----------*/
 
+#ingredients li{
+    list-style: none;
+}
+
+#ingredients li:before{
+    content: "- "
+}
+
 /*----------  Section Directions ----------*/
+
+#directions li:before {
+    content: counter(list) ") ";
+
+ }
+ 
+#directions li {
+    list-style: none;
+    counter-increment: list;
+
+ }
