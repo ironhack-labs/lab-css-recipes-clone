@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
     margin: 0;
   }
   /*Import the font and set the default size*/
   html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
   }
   .banner {
-    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-image: url('../images/apple-pie.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -27,5 +29,36 @@ h1, body, html, main {
   }
   .textleft {
     text-align: left;
-    margin: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
   }
+
+  .textleft > img{
+    width: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .info > p{
+    font-size: 20px;;
+    margin: 0 auto;
+    width: 60%;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .info > img{
+    width: 30%;
+    margin-bottom: 50px;
+  }
+
+  hr{
+    width: 70%;
+  }
+
+  ul{
+    list-style-type: none;
+}
