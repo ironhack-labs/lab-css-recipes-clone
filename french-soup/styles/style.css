@@ -1,9 +1,111 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+* {
+	font-size: 10px;
+	background-color: none;
+	margin: 0;
+	padding: 0;
+	font-weight: 1;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+
+header {
+	background-image: url("../images/soup.jpg");
+	width: 100vw;
+	height: 70vw;
+	background-size: cover;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+h1 {
+	color: white;
+	font-size: 10rem;
+}
+
+.intro {
+	width: 80%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	border-bottom: 1px solid grey;
+	margin-bottom: 40px;
+}
+
+.intro-text {
+	color:rgba(46, 45, 45, 0.993);
+	font-weight: 1;
+	font-size: 1.7rem;
+	text-align: justify;
+	margin: 0,0px;
+	margin-bottom: 20px;
+}
+
+#recipe-info {
+	width: 60%;
+	margin-bottom: 20px;
+}
+
+.ingredients {
+	width: 80%;
+	display:flex;
+	flex-direction: column;
+	margin: auto;
+	border-bottom: 1px solid grey;
+	margin-bottom: 40px;
+}
+
+.ingredients-text {
+	color:rgba(46, 45, 45, 0.993);
+	text-align: left;
+	margin: 0,0px;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+.ingredients-text li {
+	margin-left: 2vw;
+	margin-top: 0.3vw;
+	font-size: 1.4rem;
+}
+
+#cooking-info{
+	display:flex;
+	width: 50%;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color:rgba(46, 45, 45, 0.993);
+	margin-bottom: 20px;
+	font-size: 2rem;
+	font-weight: 1px;
+}
+
+.directions {
+	width: 80%;
+	display:flex;
+	flex-direction: column;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.directions-text {
+	color:rgba(46, 45, 45, 0.993);
+	text-align: left;
+	margin: 0,0px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+.directions-text li {
+	margin-left: 2vw;
+	margin-top: 0.8vw;
+	font-size: 1.4rem;
 }
