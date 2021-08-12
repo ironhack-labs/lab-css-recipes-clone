@@ -57,9 +57,9 @@ hr {
 .ingredient-list {
     display: flex;
     justify-content: center;
-    width: 60%;
-    margin-left: 20px;
-    font-size: 2em;
+    width: 80%;
+    margin-left: 50px;
+    font-size: 3em;
 }
 
 .cooking-info img {
@@ -93,7 +93,7 @@ hr {
 }
 
 .bottom-list ol {
-    width: 50%;
+    width: 70%;
 }
 
 .bottom-list li {
