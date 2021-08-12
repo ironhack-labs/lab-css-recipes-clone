@@ -1,0 +1,45 @@
+
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+.pieImg {
+    height: auto;
+    width: 100%;
+}
+
+.pieTitle {
+    
+    
+    height: 450px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -700px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.section2 {
+    
+    margin-top: 300px;
+    padding: 0 100px 0 100px;
+}
+
+.image {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
