@@ -4,8 +4,23 @@
 }
 
 /* Head */
-header{
+.applePie{
     background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height: 65em;
+    padding-top: 50px;
+    position:relative;
+    height: 100em;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch; 
+}
+
+.onionSoup{
+    background-image: url("../../french-soup/images/soup.jpg");
     background-position: center;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -16,10 +31,9 @@ header{
     display: flex;
 	justify-content: center;
 	align-items: center;
-	align-content: stretch;
-    
-    
+	align-content: stretch; 
 }
+
 h1{
     font-size: 15em;
     font-weight: 100;
