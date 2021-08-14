@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.header{
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.image-title{
+  text-align: center;
+  font-size: 6rem;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white
+}
+
+.intro{
+  text-align: justify;
+  margin: 150px 150px 90px 150px;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 2em;
+  margin-block-end: 3em;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 2px;
+}
+
+#ingredients{
+  text-align: justify;
+  font-style: bold;
+  margin-left: 150px;
+  font-size: 1.8rem;
+}
+
+.ingredients-list ul li{
+  margin-left: 170px;
+  list-style-type: '- ';
+  font-size: 1.2rem;
+  
+}
+
+.ingredients-list ul{
+  margin-bottom: 100px;
+}
+
+#directions{
+  text-align: justify;
+  font-style: bold;
+  margin-left: 150px;
+  font-size: 1.8rem;
+}
+
+.directions-class{
+  text-align: justify;
+  margin: 50px 150px 150px 150px;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
