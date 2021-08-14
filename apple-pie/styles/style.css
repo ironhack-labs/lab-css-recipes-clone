@@ -1,0 +1,40 @@
+.all {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.top {
+   background-image: url(./images/apple-pie.jpg);
+   background-position: center;
+   color: white
+}
+.applepie{
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+.title {
+    position: absolute;
+    position: absolute;
+    text-align: center;
+}
+.intro {
+    margin-left: 40px;
+   
+}
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.first-line {}
+
+.central {
+    margin-left: 40px;
+}
+.preparation {
+    margin-left: 25px;
+}
+
+
+
