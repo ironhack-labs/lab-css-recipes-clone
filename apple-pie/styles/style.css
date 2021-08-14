@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #777;
+}
+
+body {
+    counter-reset: dir-counter;
+}
+
+.contain-all-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.all-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 4em;
+    
+}
+
+#apple-pie-image {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size:cover;
+}
+
+#apple-pie-image h1 {
+    font-weight:lighter;
+    color: rgb(218, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h4 {
+    color: rgb(49, 49, 49);
+    align-self: flex-start;
+}
+
+#intro p {
+    max-width: 700px;
+    text-align: center;
+}
+
+.p-box {
+    display:flex;
+    margin: 1em 0;
+    border-bottom: 2px solid #CCC;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#directions {
+    border: none;
+}
+
+.p-box img {
+    width: 14em;
+    height: 2.7em;
+    margin: .5em 0;
+}
+
+.p-box ul {
+    align-self: flex-start;
+    list-style-type: none;
+}
+
+#ingredients ul li:before {
+    content: '- ';
+}
+
+#directions ul li:before {
+    counter-increment: dir-counter 1;
+    content: counter(dir-counter) ") ";
+}
+
+
+
