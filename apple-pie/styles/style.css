@@ -1,0 +1,125 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+.div2 ul:before {
+    content: "-";
+}
+
+.div2-linea {
+    height: 2px;
+    width: 70%;
+  background-color: grey;
+}
+
+.topPage {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.topPage img{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+.topPage h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 110px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1-p {
+    margin-top: 100px;
+    width: 900px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div1-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.div1-img img {
+    width: 30%;
+}
+
+.div1-linea {
+    height: 2px;
+    width: 70%;
+  background-color: grey;
+  
+}
+
+.div2{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div2 h3{
+    margin-left: 30%;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.div2-list{
+    width: 100%;
+    margin-left: 26%;
+}
+.div2-list ul{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+}
+
+.div2-img {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.div2-img img{
+    width: 30%;
+}
+
+.div3 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.div3 h3{
+    margin-left: 30%;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.div3-p {
+    width: 70%;
+}
