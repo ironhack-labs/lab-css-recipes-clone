@@ -4,6 +4,113 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  width: 100%;
+}
+
+hr { 
+  background-color: darkgrey;
+  max-width: 80%;
+}
+
+body {
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
+    /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+   display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.body-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%
+}
+
+.body-copy > p {
+  text-align: center;
+  width: 60%;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ingredients div {
+  max-width: 600px;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.directions div {
+  max-width: 600px;
+}
+
+.frenchSoupImg {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter) ") ";
+  font-weight: bold;
+}
+
+.cookingInfo2 {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.cookingInfoImg2 {
+  width: 40%;
+}
+
+.recipeInfo2 {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.recipeInfoImg2 {
+  width: 50%;
 }
