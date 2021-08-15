@@ -1,0 +1,111 @@
+h1, body, html, main {
+    margin: 0;
+  }
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+
+hr { 
+    background-color: darkgrey;
+    max-width: 80%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.IngrList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.IngrList > p {
+    text-align: center;
+    width: 60%;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ingredients div {
+    max-width: 600px;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.directions div {
+    max-width: 600px;
+}
+
+.Img1 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ApplePieTitle {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.Middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter) ") ";
+  font-weight: bold;
+}
+
+.cookingInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.cookingInfoImg {
+  width: 40%;
+}
+
+.recipeInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.recipeInfoImg {
+  width: 50%;
+}
