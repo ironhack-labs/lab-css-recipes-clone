@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+.banner.french-soup {
+    background-image: url("../../french-soup/images/soup.jpg");
+}
+
 .banner h1 {
     color: white;
     font-size: 2.5rem;
