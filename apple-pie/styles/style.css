@@ -8,7 +8,7 @@ body {
 
 
 #top-part {
-    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-image: url(/images/apple-pie.jpg);
     background-size: cover;
     display:flex;
     justify-content: center;
@@ -31,7 +31,8 @@ h1 {
 
 h4 {
     color: gray;
-    width: 70%
+    width: 70%;
+    padding-left: 170px;
 }
 
 
@@ -47,7 +48,11 @@ p {
 
 
 ul li {
+    text-align: left;
+    margin-left:15%;
+    margin-right: 15%;
     list-style-type: none;
+
 
 }
 
@@ -62,4 +67,17 @@ ul li {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+
+ol li {
+    text-align: left;
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+
+hr {
+    margin-left:15%;
+    margin-right: 15%;
 }
