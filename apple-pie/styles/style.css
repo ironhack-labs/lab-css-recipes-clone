@@ -1,0 +1,15 @@
+.apple_pie_in_picture {
+    color: white;
+    font-size: 5rem;
+    font-weight: unset;
+}
+.image {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: center;
+}
