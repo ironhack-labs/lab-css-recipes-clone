@@ -63,7 +63,7 @@ img {
     padding-left: 15px;
 }
 
-/*Add - before each ingredient and multiply line-height for 120%*/
+/*Add - before each ingredient*/
 #ingredients li::before {
     content: '- ';   
 }
