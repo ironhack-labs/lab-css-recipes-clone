@@ -1,0 +1,36 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color:rgb(228, 228, 222)
+}
+#apple {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    background-image: url(../images/apple-pie.jpg);
+    color:beige;
+    text-align: center;
+    line-height: 9em;
+}
+#description {
+    text-align: center;
+    justify-content: space-evenly;
+    letter-spacing: 1.4px;
+}
+#info {
+  target="_blank";
+  list-style: none;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+#ingredients {
+    color:rgb(78, 78, 78)
+}
+#receta {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    line-height: 180px;
+}
