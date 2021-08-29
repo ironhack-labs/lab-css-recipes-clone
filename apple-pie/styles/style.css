@@ -1,0 +1,52 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+body,
+html {
+  height: 100%;
+}
+article {
+  padding: 30px 15px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/apple-pie.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-title {
+  font-size: 55px;
+  letter-spacing: 0.2rem;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+img {
+  margin: 0 auto;
+  display: block;
+}
+hr {
+  margin-bottom: 30px;
+  background-color: darkgrey;
+}
