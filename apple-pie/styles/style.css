@@ -1,0 +1,39 @@
+.cool-food {
+    width: 650px;
+    height: 450px;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-weight: normal;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 125px;
+}
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    width: 30%;
+    text-align: left;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+}
+
+.preparation-symbols {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 30%;
+    height: .8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
