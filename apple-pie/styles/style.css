@@ -64,10 +64,21 @@ h2 {
 }
 
 .ingredients > ul > li {
-  text-indent: -1rem;
+  text-indent: 1rem;
 }
 
 .ingredients > ul > li:before {
   content: '-';
-  text-indent: -1rem;
+}
+
+.cooking-info > ol {
+  list-style-type: none;
+  counter-reset: item;
+}
+
+.cooking-info > ol > li {
+  counter-increment: item;
+}
+.cooking-info > ol > li:before {
+  content: counters(item, '.') ')';
 }
