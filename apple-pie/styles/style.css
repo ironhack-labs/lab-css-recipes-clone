@@ -19,7 +19,6 @@ html {
 }
 
 h1 {
-  text-align: center;
   color: white;
   font-size: 4rem;
 }
@@ -30,7 +29,6 @@ h1 {
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
-  /* margin: 5rem 5rem 5rem 5rem; */
 }
 
 .description > p {

@@ -1,9 +1,88 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.hero {
+  background-image: url('/french-soup/images/soup.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.description > p {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+.recipe-info-img-container,
+.cooking-info-img-container {
+  text-align: center;
+  margin: 0 5rem 0 5rem;
+  border-bottom: 2px grey solid;
+}
+
+.recipe-info-img-container > img,
+.cooking-info-img-container > img {
+  width: 30%;
+}
+
+.ingredients,
+.cooking-info {
+  margin: 5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.ingredients > ul {
+  list-style-type: none;
+}
+
+.ingredients > ul > li {
+  text-indent: 1rem;
+}
+
+.ingredients > ul > li:before {
+  content: '-';
+}
+
+.cooking-info > ol {
+  list-style-type: none;
+  counter-reset: item;
+}
+
+.cooking-info > ol > li {
+  counter-increment: item;
+}
+
+.cooking-info > ol > li:before {
+  content: counters(item, '.') ')';
 }
