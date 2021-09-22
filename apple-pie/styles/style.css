@@ -1,0 +1,35 @@
+.header-class{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-items: center;
+}
+
+h1 {
+  color: black;
+  font-size: 9em;
+  text-align: center;
+  justify-items: center;
+}
+
+.main-image{
+  width: 100vw;
+  height: 90vh;
+}
+
+.blog-container{
+ margin: 0 80px;
+}
+
+.center-images{
+  margin: 0 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.size-image {
+  width: 300px;
+}
