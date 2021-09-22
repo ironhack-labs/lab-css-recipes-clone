@@ -1,8 +1,33 @@
 body {
     margin: 0;
-    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+    width: 80%;
+    margin: auto;
 }
 
 header {
-    background-image: url();
+    background-image: url(../images/apple-pie.jpg);
+    height: 400px;
+    display: flex;
+     align-items: center;
+      justify-content: center; 
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+/* SECTION 1 */
+
+p {
+    margin-top: 60px;
+
 }
