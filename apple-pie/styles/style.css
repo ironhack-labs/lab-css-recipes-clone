@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(61, 61, 61);
+}
+
+.background-pic{
+    background-image: url("../images/apple-pie.jpg");
+    width: 100%;
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-pic h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.widthh{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.part1 p {
+    font-size: 20px;
+}
+
+.part2 img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pic2 img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Ingredients .ingred{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ingredient p{
+    margin-left: 20px;
+}
+
+.Direction h3{
+    width: 100%;
+}
+
+hr{
+    width: 60%;
+}
