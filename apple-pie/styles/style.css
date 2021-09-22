@@ -31,3 +31,13 @@ p {
     margin-top: 60px;
 
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*height: 30px;
+    width: auto;*/
+}
+
+/*LAST SECTION*/
