@@ -51,12 +51,12 @@ body {
 }
 
 .header h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 200;
 }
 
 section {
-  margin: 0 50px;
+  margin: 0 100px;
 }
 
 .intro {
@@ -64,13 +64,14 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-bottom: solid 2px #bfbfbf;
 }
 
 .intro p {
   text-align: block;
-  font-size: 2.1em;
+  font-size: 1.8em;
   font-weight: 100;
   margin-top: 100px;
 }
@@ -83,19 +84,42 @@ section {
 
 .ingredients {
   border-bottom: solid 2px #bfbfbf;
-  margin: 0 75px;
   display: Flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .ingredients ul {
+  margin-top: 50px;
   list-style: "-";
   font-weight: 200;
   font-size: 1.4em;
 }
 
-.ingredients h2 {
+.ingredients h2,
+.directions h2 {
   font-size: 2em;
   font-weight: 400;
+}
+
+.directions {
+  margin-top: 50px;
+
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.directions ol {
+  font-weight: 200;
+  font-size: 1.4em;
+  padding-top: 20px;
+  counter-reset: list;
+}
+.directions ol > li {
+  list-style: none;
+}
+
+.directions ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
