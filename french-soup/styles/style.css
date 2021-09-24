@@ -1,9 +1,40 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300");
+
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  font-size: 2em;
+  color: white;
+  background-image: url(/images/soup.jpg);
+  background-color: blanchedalmond;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  border-bottom: solid 2px lightgray;
+  font-size: 1.4em;
+}
+
+.info img {
+  width: 50%;
 }
