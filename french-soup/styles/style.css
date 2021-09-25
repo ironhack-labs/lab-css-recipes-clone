@@ -17,8 +17,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
-  font-size: 2em;
+  height: 1000px;
+  font-size: 2.8em;
+  font-weight: 300;
   color: white;
   background-image: url(/images/soup.jpg);
   background-color: blanchedalmond;
@@ -26,15 +27,33 @@ header {
   background-size: cover;
 }
 
+header h1 {
+  padding-top: 50px;
+}
+
+section {
+  margin: 50px 120px;
+}
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
   border-bottom: solid 2px lightgray;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
-.info img {
+.info img,
+.ingredients img {
   width: 50%;
+  margin: auto 0;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 2px lightgray;
+}
+
+.ingredients ul {
+  list-style: "-";
 }
