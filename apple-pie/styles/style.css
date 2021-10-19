@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.main-pic {
+    width: 1200px;
+    height: 750px;
+    
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#first-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+}
+.paragraph {
+    width: 900px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+p {
+    font-size: 25px;
+    text-align: justify;
+}
+.fist-sec-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-img-1 {
+    width: 500px;
+    height: 70px;
+}
+
+
+.align-left {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 25px;
+  margin-left: 280px;
+}
+
+
+.recipe-img-2 {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.recipe-img-3 {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+hr {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    
+}
