@@ -1,0 +1,69 @@
+
+
+body {
+    margin-right: 20px;
+    margin-left: 20px;
+    background: white;
+    font-family: "arial";
+  }
+  
+  .title-picture {
+    width: 50px;
+  }
+  
+    .header {
+    background-image: url("images/apple-pie.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+  }
+  h1{
+    font-size: 4rem;
+    color: white;
+    margin-top: 250px;
+    display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+   
+   #introduction article{
+     width: 500px;
+     text-align: left;   
+   }
+   #introduction { 
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 60px;
+   }
+  
+   .servingsImage1{
+     width: 300px;
+    margin-top: 60px;
+   }
+   
+   .cookingInfoImage {
+      width: 300px;
+      margin-top: 60px;
+    }
+  
+    .centerCookingInfoImage {
+      display: flex;
+      justify-content: center;
+      
+    }
+  
+  #ingredients {
+    display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: left;
+  }
+  
+  
+  
