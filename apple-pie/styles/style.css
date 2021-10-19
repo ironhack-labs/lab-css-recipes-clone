@@ -13,15 +13,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+   }
+header div{
     background-image: url('../images/apple-pie.jpg');
-    background-position: center top;
-    height: 600px;
-    margin-bottom: 50px;
-
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1000px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header h1{
     color: white;
     font-size: 3em;
+    text-align: center;
+    
 
 }
 
@@ -29,6 +37,8 @@ header h1{
     margin: auto;
     max-width: 1000px;
     border-bottom-style: outset; #707070;
+    margin-top: 50px;
+    padding: 0 60px;
     
     
 }
@@ -36,13 +46,18 @@ header h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 50%;
+    
+    
 }
 
 .secondSection {
     margin: 100px auto 0 auto;
     max-width: 1000px;
     border-bottom-style: outset; #707070;
+    padding: 0 60px;
 
 
 }
@@ -51,11 +66,14 @@ header h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 50%;
 }
 .thirdSection {
     margin: auto;
     max-width: 1000px;
     margin: 100px auto 0 auto;
+    padding: 0 60px;
 }
 
