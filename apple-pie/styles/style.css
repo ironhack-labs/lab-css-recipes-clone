@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* Hero */
+#hero {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f3f3f3;
+  letter-spacing: 1px;
+}
+
+/* Intro */
+
+.container {
+  margin: 2rem auto;
+  width: 80vw;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#intro p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.img-recipe,
+.img-ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-recipe img,
+.img-ingredients img {
+  width: 40vw;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 80vw;
+  margin: 0 auto;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Ingredients */
+h3 {
+  margin: 15px 0;
+  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#ing ul li {
+  color: rgba(0, 0, 0, 0.6);
+  list-style: none;
+}
+
+#ing ul li::before {
+  content: '-';
+  padding: 3px;
+}
+
+/* Directions */
+#dir ol li {
+  color: rgba(0, 0, 0, 0.6);
+}
