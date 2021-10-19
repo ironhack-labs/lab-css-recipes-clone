@@ -1,0 +1,48 @@
+.pie-image {
+  width: 100%;
+}
+
+.centered-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+
+.padding-container {
+  margin: 0 150px;
+}
+p {
+  font-size: 30px;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.smaller-image{
+    height: 100px;
+    width: auto;
+}
+
+li{
+    font-size: 30px;
+}
