@@ -19,14 +19,15 @@ p {
     background-repeat: no-repeat;
     height: 950px;
      position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 .header h1 {
     color: white;
     font-size: 6em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
+   
 }
 
 #first-section p {
