@@ -1,0 +1,48 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    
+}
+
+.title-container { 
+    color: white; 
+    background-image: url("../images/apple-pie.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.info-container, .directions-container,  .ingredients-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.info-container p {
+    width: 65%;
+}
+.info-container img {
+    height: 50px;
+}
+
+hr {
+    width: 65%;
+}
+
+.ingredients-container img {
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    width: 65%;
+
+}
