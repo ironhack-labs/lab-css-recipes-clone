@@ -52,7 +52,7 @@ hr {
 }
 
 .section2 {
-    height: 600px;
+    height: 500px;
     padding-top: 350px;
     padding-left: 100px;
     padding-right: 100px;
@@ -69,4 +69,11 @@ h2 {
 
 #cooking-info {
     text-align: center;
+}
+
+.section3 {
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
 }
