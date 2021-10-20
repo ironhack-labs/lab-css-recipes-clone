@@ -1,0 +1,71 @@
+html,
+body {
+  font-family: "Corbel";
+  margin-top: 0%;
+}
+h3{
+  font-size: 18px;
+  font-weight: 800;
+}
+header {
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  color: white;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.recipe-info {
+  margin-top: 20px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cooking-info {
+  width: 250px;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  list-style-type: "- ";
+}
+#steps li {
+  list-style-type: none;
+}
+.phrase {
+  font-size: 16px;
+  width: 900px;
+  padding: 25px 30px 25px 30px;
+  text-align: left;
+  margin: auto;
+}
+p {
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  width: 550px;
+}
+article.list {
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article.cook-steps{
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
