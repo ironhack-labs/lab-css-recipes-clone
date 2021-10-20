@@ -1,39 +1,42 @@
 body {
+  color: #010101;
   font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+.main {
+  width: 36em;
+  margin: 0 auto;
+  padding-bottom: 5em;
 }
 /* Presentation */
 .maintitle {
-    color: white;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-p,
+
 ul,
 ol {
-  margin-left: auto;
-  margin-right: auto;
-  width: 36em;
+  padding-inline-start: 11px;
 }
-
-h3 {
+h2 {
   margin-left: auto;
   margin-right: auto;
-  width: 31em;
+  font-size: 1.2em;
 }
 
 .timerimage {
   display: block;
-  margin: auto;
-  width: 341px;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .line {
-  width: 112px;
-  height: 47px;
-  border-bottom: 1px solid grey;
-  position: absolute;
+  border-bottom: 1px solid #979797;
 }
 
 .appleimage {
@@ -43,6 +46,9 @@ h3 {
   width: 50%;
 }
 
+li {
+  list-style: none;
+}
 /* INGREDIENTS */
 
 /* DIRECTIONS */
