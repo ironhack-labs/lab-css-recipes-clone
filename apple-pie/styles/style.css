@@ -1,0 +1,30 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    
+}
+img{
+    width: 300px; 
+    
+}
+.alignImg{
+    text-align: center;
+}
+hr{
+    margin:0 80px 0 80px;
+}
+h2{
+    margin-left: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin:0 80px 0 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:initial;
+}
+.text{
+    margin:0 90px 0 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: initial;
+}
