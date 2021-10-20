@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+header > div {
+    width: 1024px;
+    height: 600px;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+header > div h1 {
+    font-size: 1.7em;
+}
+
+.sec1 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.imgsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.section1 {
+    border-bottom: 2px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ 
+.tamanho1 {
+    height: 150px;
+}
+
+.sec2 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgsec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section2 {
+    border-bottom: 2px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec2 > ul {
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.section3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section3 > p {
+    font-size: 1em;
+}
