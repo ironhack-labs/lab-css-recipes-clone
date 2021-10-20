@@ -35,20 +35,20 @@ h2 {
     font-size: 22px;
 }
 
-.images{
+#images{
     display: flex;
     justify-content: center;
-    height: 70px;
-
+    height: 70px 
 }
 .container {
     width: 90%;
     margin: 20px 90px;
   }
 
-  .second {
-      margin:0;
+.second {
+    margin:0;
   }
+
 hr {
     margin: 30px 0;
    }

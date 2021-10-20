@@ -43,7 +43,7 @@ h2 {
  
 }
 
-.pic{
+#pic{
   display: flex;
   justify-content: center;
   height: 70px;
