@@ -9,6 +9,7 @@ body{
     font-size: 14px;
     line-height: 1.5em;
     font-weight: 300;
+    box-sizing: border-box;
     
 }
 
@@ -38,11 +39,13 @@ body{
 }
 
 .flex-container {
+    
+    background-color: ;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left: 10%;
-    margin-right: 10%;
+    
+    
 }
 
 
@@ -55,9 +58,10 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    margin-top: 50px;
     padding: 5px;
     border-bottom: 1px solid black;
+    width: 70%;
+    margin: auto;
     
 
 
@@ -65,10 +69,12 @@ body{
 
 .section1 p {
     font-size: 1.5em;
-    width: 75%;
     text-align: justify;
     margin: auto;
     line-height: 1.5em;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    
     
 }
 
@@ -76,6 +82,9 @@ body{
 #image-info {
     text-align: center;
     height: 65px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
 }
 
 
@@ -88,7 +97,10 @@ body{
     align-items: left;
     text-align: start;
     border-bottom: 1px solid black;
-    margin-top: 30px;    
+    margin-top: 30px; 
+    width: 70%;
+    margin: auto;  
+   
     
 }
 
@@ -100,23 +112,18 @@ body{
     display: flex;
     height: 75px;
     margin-bottom:20px;
-    margin-top: 50px;
+    margin-top: 20px;
     
 }
 
 .section2 h2 {
     font-size: 1.5em;
-    margin-left: 10%;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+    margin-top: 50px;
 
 }
 
-.section2 ul {
-    width: 75%;
-    margin: auto;
-    margin-left: 10%;
-    
-}
+
 
 .section2 li {
     list-style-type: none;
@@ -134,23 +141,30 @@ body{
     flex-direction: column;
     margin-bottom: 150px;
     margin-top: 30px;
+    width: 70%;
+    margin: auto;
     
 }
 
+.section3 h2 {
+    margin-top: 40px;
+}
+.section3 ol {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
 .section3 ol li {
  
  list-style-type: none;
  line-height: 1.7em;
  font-size: 18px;
  text-align: justify;
- width: 75%;
  margin: auto;
- margin-left: 10%;
+ 
+
 
 }
-.section3 h2 {
-    margin-left: 10%;
-}
+
 
 
 
