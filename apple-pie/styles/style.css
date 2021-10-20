@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#section1 {
+    height: 800px;
+}
+
+.gray {
+    color: rgb(77, 77, 77);
+}
+
+img {
+    width: 500px;
+}
+
+.fs20px{
+    font-size: 20px;
+}
+
+#apple-pie {
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 120px;
+    color: white;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#info img {
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px solid rgb(77, 77, 77);
+}
