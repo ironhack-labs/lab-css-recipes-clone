@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    position: relative;
+    text-align: center;
+}
+.main img{
+    height: 100vh;
+    width: 100%;
+}
+.main h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: white;
+}
+section {
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.ingredients img {
+    text-align: center !important ;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+.info {
+    padding-top: 60px;
+    margin: auto;
+    color: rgb(40, 40, 40);
+    font-weight: 300;
+    text-align: justify;
+}
+
+.info span {
+    text-align: center;
+    font-size: 40px;
+}
+
+.ingredients {
+    text-align: left;
+}
+section h3 {
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+.ingredients ul {
+    list-style-type: none;
+}
+
+.ingredients li {
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+    font-weight: 200;
+}
+
+.ingredients p {
+    text-align: justify;
+    padding-left: 40px;
+    color: rgb(40, 40, 40);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+span {
+    display: block;
+    font-size: 30px;
+}
+.directions {
+    margin-bottom: 150px;
+}
+.directions h3 {
+    margin-bottom: 60px;
+}
