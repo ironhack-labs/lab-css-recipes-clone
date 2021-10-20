@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
   padding: 0;
 }
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -14,15 +17,16 @@ header {
   padding-top: 100px;
 }
 
-.background-pic { 
+.background-pic {
   background-image: url(/Users/judyta/Desktop/workspace/new/lab-css-recipes-clone/french-soup/images/soup.jpg);
   position: relative;
   size: 80%;
   margin: 0 20px;
- /*found this online, wouldn't know how to dispaly a whole pic in CSS */
+  /*found this online, wouldn't know how to dispaly a whole pic in CSS */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: lavender;
 }
 
 h2 {
@@ -40,16 +44,14 @@ h2 {
   text-align: left;
   padding: 60px 0px;
   font-size: 22px;
- 
 }
 
-#pic{
+#pic {
   display: flex;
   justify-content: center;
   height: 70px;
 }
 
 hr {
- margin: 30px 0;
+  margin: 30px 0;
 }
-
