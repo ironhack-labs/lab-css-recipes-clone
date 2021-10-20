@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    
+}
+
+.image-container{
+    position: relative;
+    
+    
+}
+#main-photo {
+    width: 100%;
+    height: auto; /* vh for the whole screen */
+    
+}
+
+#main-text {
+    color: white;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+#main-text h1 {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+/* style of section 1 */
+
+.section1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+
+
+}
+
+.section1 p {
+    font-size: 1.5em;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    line-height: 1.5em;
+    
+}
+
+
+#image-info {
+    text-align: center;
+    height: 65px;
+}
+
+
+
+/* section 2 style  */
+.section2 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: start;
+    border-bottom: 1px solid black;
+    margin-top: 30px;    
+    
+}
+
+
+
+#image-info-2 {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height: 75px;
+    margin-bottom:20px;
+    margin-top: 50px;
+    
+}
+
+.section2 h2 {
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-bottom: 45px;
+
+}
+
+.section2 ul {
+    width: 75%;
+    margin: auto;
+    margin-left: 10%;
+    
+}
+
+.section2 li {
+    list-style-type: none;
+    line-height: 1.5em;
+    font-size: 18px;
+    
+}
+
+
+/* style of section 3 */
+
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-top: 30px;
+    
+}
+
+.section3 ol li {
+ 
+ list-style-type: none;
+ line-height: 1.7em;
+ font-size: 18px;
+ text-align: justify;
+ width: 75%;
+ margin: auto;
+ margin-left: 10%;
+
+}
+.section3 h2 {
+    margin-left: 10%;
+}
+
+
+
+
