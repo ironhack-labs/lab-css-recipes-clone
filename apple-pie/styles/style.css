@@ -3,29 +3,73 @@ body {
 }
 
 .header {
-
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    height: 950px;
 }
 
-.header-img {
-
+h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .introduction {
-
+    font-size: 35px;
+    text-align:center;
+    word-spacing: 1px;
+    margin: 80px 125px 40px 125px;
 }
 
 .introduction-img {
-
+    width: 500px;
+    margin-top: 20px;
 }
 
-.ingredients {
+h2, ul, ol {
+    font-size: 27px;
+    word-spacing: 1px;
+}
 
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 70px;
+}
+
+h2 {
+    margin-left: 143px;
+}
+
+ul {
+    margin-left: 115px;
+    list-style: none;
 }
 
 .ingredients-img {
-    
+    width: 430px;
+    margin: 50px 500px 40px 500px;
 }
 
-.directions {
-    
+ol {
+    margin: 50px 143px 120px 115px;
+    list-style: none;
+    word-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.ironhack-logo {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
 }
