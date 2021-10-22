@@ -1,0 +1,76 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #24292e;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  h1{
+    font-size: 56px;
+    color: white;
+    font-weight: lighter;
+  }
+  .heading{
+    background-image: url("../images/soup.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-img{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  }
+  .description{
+    text-align: center;
+    margin: 5% 5% 2.5% 5%;
+    border-bottom: 1px solid grey;
+  }
+  .recipe-info{
+    width: 50%;
+    height: 12%;
+    padding: 2% 0 2% 0;
+  }
+  .ingredients{
+    margin: 5% 5% 2.5% 5%;
+    border-bottom: 1px solid grey;
+  }
+  .ingredients h2{
+    font-weight: normal;
+  }
+  .cooking-info{
+    width: 50%;
+    height: 12%;
+    display: block;
+    margin: auto;
+    padding: 2% 0 2% 0;
+  }
+  .directions{
+    margin: 5% 5% 2.5% 5%;
+  }
+  .directions h2{
+    font-weight: normal;
+  }
+  ul {
+    margin: 0;
+    list-style-type: none;
+  }
+  ul li {
+    text-indent: -5px;
+  }
+  ul li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+  ol{
+    list-style-type: none;
+  }
+  ol li{
+    counter-increment: item;
+  }
+  ol li:before{
+    content: counter(item) ") ";
+  }
