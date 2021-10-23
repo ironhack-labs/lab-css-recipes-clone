@@ -1,0 +1,49 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(94, 94, 94, 0.947)
+}
+
+#header {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 400px;
+    font-weight: lighter;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: justify;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-bottom: 1px solid rgb(70, 68, 68);
+}
+
+
+.images {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#last_div {
+    padding-bottom: 100px;
+}
