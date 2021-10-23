@@ -2,16 +2,16 @@
 
 body {
     font-family: Raleway;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .main-pic {
     width: 1200px;
     height: 750px;
-    
 
 }
 .container {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@ p {
 }
 
 .recipe-img-1 {
-    width: 500px;
+    width: 400px;
     height: 70px;
 }
 
@@ -57,7 +57,7 @@ p {
 
 .recipe-img-2 {
     display: flex;
-    width: 500px;
+    width: 400px;
     height: 70px;
     flex-direction: row;
     justify-content: center;
@@ -65,16 +65,7 @@ p {
     margin-left: 500px;
     margin-top: 50px;
 }
-.recipe-img-3 {
-    display: flex;
-    width: 500px;
-    height: 70px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 500px;
-    margin-top: 50px;
-}
+
 hr {
     width: 700px;
     display: flex;
