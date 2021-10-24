@@ -10,11 +10,12 @@ body {
     color:rgba(94, 94, 94, 0.947)
 }
 
-#header {
+header {
     background-image: url("/apple-pie/images/apple-pie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
     font-size: 100px;
     padding-top: 400px;
     font-weight: lighter;
+    margin: 0;
 }
 
 .div1 {
