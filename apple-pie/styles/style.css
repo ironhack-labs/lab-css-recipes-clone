@@ -1,22 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
-  font-family: 'Open Sans' sans-serif;
-  background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
-h1, h2, h3,  {
-    font-family: 'Open Sans';
-  }
-
-.header {
-    background-image: url('/Users/gregmunro/Desktop/Ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
-      background-position: 0, 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 650px;
-      padding-top: 50px;
-      position: relative
-      }
-
+        
+h1 {
+    margin: auto;
+    font-weight: lighter;
+    font-size: 4.5rem;
+    background: url(../images/apple-pie.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    color: white; 
+   }
