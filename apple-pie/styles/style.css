@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap') * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+  font-size: 67.5%;
+}
+.title {
+  display: flex;
+  background: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  min-height: 40vh;
+  letter-spacing: 2px;
+}
+
+#title-text {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: #fff;
+  padding: 10px;
+}
+/* .intro-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.container {
+  margin: 70px 65px;
+  line-height: 1.5;
+}
+#intro {
+  font-size: 1.1rem;
+  /* margin: 60px 65px 35px 65px; */
+}
+.ingredients {
+  list-style-type: none;
+}
+
+.img-container {
+  text-align: center;
+}
+.img-recipe {
+  height: 3.7rem;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.img-recipe-1 {
+  height: 4.5rem;
+  width: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.recipe {
+  font-size: 1rem;
+  border-top: 2px solid gray;
+  padding-top: 40px;
+}
+#description {
+  font-size: 1rem;
+}
