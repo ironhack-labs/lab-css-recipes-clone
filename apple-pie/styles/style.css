@@ -3,6 +3,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
         
@@ -17,3 +19,41 @@ h1 {
     text-align: center;
     color: white; 
    }
+
+.firstpara {
+    font-size: 19px;
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: center;
+}
+
+
+   hr {
+	background-color: #020202;
+	height: 1.25px;
+    width: 90%;
+}
+
+.section-2 {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.cooking-info {
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 100px;
+}
