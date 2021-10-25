@@ -34,8 +34,7 @@ h1 {
     justify-content: center;
 }
 
-
-   hr {
+.hr1 {
 	background-color: #020202;
 	height: 1.25px;
     width: 90%;
@@ -50,6 +49,14 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+
+.hr2 {
+	background-color: #020202;
+	height: 1.25px;
+    width: 90%;
+}/*why is this one thicker than the first hr, even with the same properties?*/
+
 
 .section-3 {
     margin-top: 50px;
