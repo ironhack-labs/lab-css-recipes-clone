@@ -1,0 +1,59 @@
+.image {
+      position: relative;
+      display:block;
+      text-align: center;
+      
+}
+.text-float {
+      /* ß */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 100px;
+}
+
+.section-1{
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      
+}
+
+.hr {
+  width:60%;
+  border-width: 3px;  
+}
+.footer-1{
+      margin-top:70px;
+      
+   
+
+}
+.article-1 {
+      margin: 50px;
+      top: 50%;
+      left: 50%;
+      display:inline-block;
+      width: 40%;
+      text-align: justify;
+}
+
+/* .article-2 {
+       margin: 50px;
+      top: 50%;
+      left: 50%;
+      display: inline-block;
+      width: 40%;
+      text-align: justify;
+}
+
+.article-3 {
+       margin: 50px;
+      top: 50%;
+      left: 50%;
+      display: inline-block;
+      width: 40%;
+      text-align: justify;
+} */
