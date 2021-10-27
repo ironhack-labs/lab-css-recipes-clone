@@ -37,7 +37,17 @@ h2 {
     padding-top: 10px;
 }
 li {
-    list-style-type: symbols(-);
+    list-style-type: none;
+}
+ul {
+
+}
+.ingredients::before {
+    content: "-";
+    padding-right: 7px;
+}
+.directions {
+    list-style-type: decimal;
 }
 body {
     padding: 0px 350px;
