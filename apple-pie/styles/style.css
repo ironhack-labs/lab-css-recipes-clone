@@ -28,6 +28,7 @@
 .footer-1{
       margin-top:70px;
       
+      
    
 
 }
@@ -38,4 +39,8 @@
       display:inline-block;
       width: 40%;
       text-align: justify;
+}
+
+.ul {
+      list-style-type: '- ';
 }
