@@ -39,9 +39,6 @@ h2 {
 li {
     list-style-type: none;
 }
-ul {
-
-}
 .ingredients::before {
     content: "-";
     padding-right: 7px;
