@@ -1,0 +1,96 @@
+.html {
+    margin-left: 200px;
+    width: 1000 px;
+}
+.top-header{
+    height: 470px;
+    width: 840px;
+    margin: 0px;
+}
+
+.apple-img {
+    height: 400px;
+   width: 700px;
+    position: absolute;    
+    top: 40%;    
+    left: 50%;    
+    transform: translate(-50%, -50%); 
+}
+.txt-over-img {
+    color:white;
+    font-family:  Helvetica, sans-serif;
+    font-size: 50px;
+    position: absolute;    
+    top: 40%;    
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+.intro-txt{
+    height:80px;
+    width: 600px;   
+    font-family: Helvetica, sans-serif;
+    color: rgb(156, 156, 156);
+    font-size: 17px;
+    margin-left: 380px;
+}
+
+.mid-header {
+    height: 70px; 
+}
+
+.cooking-info{
+    height: 60px;
+    margin-left:500px;
+}
+
+.section-two{
+    height: 220px;
+}
+
+.ingredients{
+    height: 40px;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgba(0,0,0,.50);
+    margin-left: 320px;  
+}
+
+.list-ingredients {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+    margin-left: 350px;
+}
+
+.section3 {
+    height:130px;
+}
+
+.recipe-info-img {
+    height: 49px;
+    margin-left: 520px;
+}
+
+.section4 {
+    height: 120px;
+    width: 300px;
+}
+
+.directions-tit {
+    height:40px;
+    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgba(0,0,0,.50);
+    margin-left: 320px;
+}
+
+.instructions-list{
+font-family: Arial, Helvetica, sans-serif; 
+width: 200;
+font-size: 14px;
+color: rgb(156, 156, 156);
+margin-left: 350px; 
+margin-right: 350px; 
+}
