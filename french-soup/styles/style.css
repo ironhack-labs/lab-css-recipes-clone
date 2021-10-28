@@ -1,9 +1,54 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+body {
+  font-family: Roboto;
+  font-size: 15px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.onion-image {
+    background-image: url(/french-soup/images/soup.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 300px;
+    background-position: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h1 {
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    position: inherit; 
+    padding-top: 110px;
+}
+h2 {
+    padding-top: 20px;
+}
+.cooking-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    padding-top: 10px;
+}
+.recipe-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    padding-top: 10px;
+}
+li {
+    list-style-type: none;
+}
+.ingredients::before {
+    content: "-";
+    padding-right: 7px;
+}
+.directions {
+    list-style-type: decimal;
+}
+body {
+    padding: 0px 300px;
+}
+p {
+    padding-top: 30px;
 }
