@@ -9,7 +9,10 @@
 }
 
 header {
-  height: 15em;
+  background-size: cover;
+  height: 525px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
