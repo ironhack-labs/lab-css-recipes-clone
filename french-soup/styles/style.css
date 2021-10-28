@@ -7,3 +7,78 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  background-color: black;
+}
+
+#receta {
+  background-color: white;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-bottom: 30px;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-size: 100%;
+  padding-top: 340px;
+  padding-bottom: 340px;
+  font-size: 300%;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#cuerpo {
+  margin-left: 150px;
+}
+
+article {
+  font-size: 160%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: 140px;
+  color: #5c5c5c;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 160%;
+  margin-bottom: 40px;
+  color: #5c5c5c;
+}
+
+hr {
+  margin-right: 180px;
+  height: 2px;
+  color: lightgrey;
+  background-color: lightgrey;
+}
+
+.imagen {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 200px;
+  
+}
+
+h2 {
+  font-size: 180%;
+  font-weight: 400;
+  border-bottom: 50px;
+  border-top: 80px;
+}
+
+p {
+  font-size: 130%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  margin-right: 140px;
+  color: #5c5c5c;
+}
+
+img {
+  max-width: 50%;
+   
+}
