@@ -1,0 +1,55 @@
+#header-background {
+  background-image: url("/Users/martingiura/Dropbox/Mi Mac (Martins-MacBook-Pro-2.local)/Desktop/code/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  position: relative;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: none;
+}
+
+header {
+  height: 15em;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: left;
+}
+
+.container {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* Resize images */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-width: thin;
+  padding-left: 30px;
+  align-content: center;
+  height: 10%;
+  margin-top: 20px;
+}
+p {
+  padding-left: 30px;
+}
