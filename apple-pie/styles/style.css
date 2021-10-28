@@ -1,0 +1,39 @@
+body{
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: rgba(20, 63, 143, 0.781);
+    letter-spacing: 20%;
+}
+  
+
+header{
+    background-image: url(../images/apple-pie.jpg);
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-weight: 100;
+    align-items: center;
+    color: white;
+}
+
+
+section{
+  width: 50%;
+  height: auto;
+  font-size: 130%;
+}
+
+.infofoto{
+  width: auto;
+  height: auto;
+ 
+}
