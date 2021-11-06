@@ -1,0 +1,48 @@
+#headerSection {
+    background-image: url('images/apple-pie.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    font-family:sans-serif
+}
+
+.title {
+    font-size: 9em;
+    text-align: center;
+    position: absolute;
+    top: 700px;
+    left: 40%;
+    color: white;
+}
+
+    
+#intro {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1em;
+    padding: 20px;
+    color: #6e7681
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    text-align: center;
+    line-height: 1em;
+    color: #6e7681
+}
+
+.ingredientsList {
+    list-style: none;
+    color: #6e7681;
+
+}
+
+.directionsList {
+    color: #6e7681;
+}
