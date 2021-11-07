@@ -1,3 +1,8 @@
+/* 
+this CSS file is linked to both APPLE and SOUP index.html 
+the only thing that change is the URL and the BACKGROUND POSITIONING  of the photos
+*/
+
 h1, body, html, main {
     margin: 0;
 }
@@ -28,17 +33,29 @@ p{
 
 /* HEADER */
 header {
-    background-image: url('../images/apple-pie.jpg');
+    /*foto */
+    height: 55vw;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 66vw;
-    width: 100vw;
-    margin-top: -65px;
+    position: relative;
 
+    /*text*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*apple an soup images*/
+#soup{
+    background-image: url('../../french-soup/images/soup.jpg');
+    background-position: bottom;
+}
+
+
+#apple{
+    background-image: url('../images/apple-pie.jpg'); 
+    background-position: 50% 30% ;
+}
 
 /* THE WHOLE SECTION */
 section{
