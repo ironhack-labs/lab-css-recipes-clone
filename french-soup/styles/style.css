@@ -11,6 +11,7 @@ html {
 
 li {
   font-weight: 100;
+  line-height: 1.25;
 }
 
 h2 {
@@ -21,10 +22,6 @@ h2 {
 ul {
   list-style-type: none;
   margin-left: -25px;
-}
-
-li {
-  line-height: 1.25;
 }
 
 
