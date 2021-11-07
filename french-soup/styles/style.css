@@ -5,5 +5,87 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+li {
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+li {
+  line-height: 1.25;
+}
+
+
+#title {
+  background-image: url("/french-soup/images/soup.jpg");
+  background-position-y: -250px;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  font-size: 75px;
+  letter-spacing: 5px;
+}
+
+#intro-text {
+  margin: 90px 120px 0px 120px;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.center-image {
+  display: block;
+  margin: 40px auto 0px auto;
+}
+
+#ingredients-img {
+  width: 380px;
+  height: 60px;
+}
+
+#directions-img {
+  width: 350px;
+  height: 75px;
+}
+
+.ingredients-div {
+  border-top: 2px solid black;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px 120px;
+}
+
+.ingredients-div > ul > li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+.directions-div {
+  border-top: 2px solid black;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px 120px;
+}
+
+.directions-div > ul > li {
+  line-height: 1.5;
 }

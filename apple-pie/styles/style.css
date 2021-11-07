@@ -71,11 +71,6 @@ div {
     margin: 50px 120px;
 }
 
-#cooking-info > ul {
-    list-style-type: none;
-    margin-left: -25px;
-}
-
 #cooking-img {
     width: 400px;
     height: 85px;
