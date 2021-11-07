@@ -1,0 +1,35 @@
+p{
+    font-size: 9.6px;
+    font-family: Arial;
+    
+    
+}
+
+ pre {
+    font-size: 60px;
+    font-family: arial;
+    font-weight: lighter;
+    color: white;
+   text-align: center;
+}
+
+div {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  height: 400px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.intro{
+  font-size: 11.2px ;
+  font-family: Arial;
+}
+
+table{
+   font-size: 9.6px;
+   font-family: Arial;
+  
+}
+
