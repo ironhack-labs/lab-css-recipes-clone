@@ -1,0 +1,137 @@
+
+#description {
+  font-size: 20px;
+  color: grey;
+  border-bottom: 2px solid grey;
+  
+  
+  }
+  
+  
+  #description, p {
+  
+  text-align: left;
+  padding-bottom: 30px;
+  
+  
+  }
+  
+  
+  #description, img {
+  
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10px;
+  
+  
+  }
+  
+  
+  #ingredients {
+  
+    color: grey;
+    border-bottom: 2px solid grey;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    
+  
+  }
+  
+  h2 {
+  
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 35px;
+  
+  }
+  
+  #ingredients, li{
+  
+  
+    text-align: left;
+    
+  }
+  
+  
+  #ingredients, img{
+    padding-top: 30px;
+  
+  text-align: center;
+  
+  
+  }
+  
+  #Directions, li {
+  
+  color: grey;
+  text-align: left;
+  
+  }
+  
+  
+  #header-img {
+    background-image: url('../images/soup.jpg');
+    background-size: cover;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+      text-align: center;
+      width: 100%;
+  
+  
+  
+  }
+  
+  
+  h1 {
+  
+  color: white;
+  padding-top: 180px;
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  .FrenchOnion-recipe {
+    margin: 80px 250px 0px 250px;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "- ";
+  }
+  
+  
+  
+  
+  
+  
+  *{
+  
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  
+  
+  }
+  
+  
