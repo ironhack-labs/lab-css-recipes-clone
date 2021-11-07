@@ -27,3 +27,19 @@ h1{
     align-items: center;
     justify-content: center;
 }  
+
+/* LIST */
+ul li{
+    list-style: none;
+    list-style-type: "- ";
+}
+
+ol li{
+    list-style: none;
+    counter-increment:section;
+
+}
+
+ol li:before {
+    content: counter(section) ") ";
+ }
