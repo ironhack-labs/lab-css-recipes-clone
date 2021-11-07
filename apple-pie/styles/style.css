@@ -1,0 +1,29 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+  
+header {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    height: 66vw;
+    width: 100vw;
+    margin-top: -65px;
+}
+
+h1{
+    color: white;
+    font-weight: 300;
+    font-size: 80px;
+}
+
+.display-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
