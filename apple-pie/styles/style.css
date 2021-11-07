@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .background-image {
 background-image: url("/Users/sergiovillabrillesanchez/Ironhack/Course/lab-basic/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
 background-size: cover;
@@ -9,7 +11,6 @@ align-items: center;
 }
 
 h1 {
-  
     font-weight: bold;
     color: white;
     font-size: 100px;
@@ -17,6 +18,7 @@ h1 {
 }
 
 .infography {
+    font-family: "Roboto";
     height: 400px;
     display: flex;
     justify-content: center;
@@ -34,6 +36,7 @@ hr {
 ul{
     list-style-type: none;
     font-size: 35px;
+    font-family: "Roboto";
     margin: 50px 100px 30px 105px;
 
 }
@@ -45,11 +48,14 @@ ul > li:before {
 
 #parrafo-infografia {
     font-size: 40px;
+    font-family: "Roboto";
     margin: 50px 100px 30px 105px;
 }
 
 .headings-body {
     font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bolder;
     margin: 50px 100px 30px 105px;
 
 }
@@ -74,6 +80,11 @@ ol > li:before {
 
 .cooking-steps {
     font-size: 35px;
+    font-family: "Roboto";
     margin: 50px 100px 30px 105px;
+    
 }
+
+/*Se han usado clases y IDs que en un principio no tendrían porque haberse usado si se tratase de una sola página, pero entiendo que se tienen que usar por si hay otras recetas que estén 
+dentro de esa web
 
