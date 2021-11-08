@@ -1,0 +1,37 @@
+#section {
+    background-color: white;
+}
+
+.h1 {
+    color: rgba(black, green, blue, alpha);
+}
+
+.h2 {
+    color: rgba(black, green, blue, alpha);
+}
+
+.parraph {
+    color: gray;
+    font-size: 30px;
+}
+
+.image {
+    width: 50px;
+    height: 30px;
+}
+
+#image {
+    background-image: url('apple-pie\images\apple-pie.jpg');
+    background-size: cover;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    border: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+.heading {
+    text-align: right;
+}
