@@ -1,8 +1,9 @@
+/*Formato a pantalla completa*/
 html,
 body {
     width: 100%;
-    margin: /*0 0 50px 0*/ 0;
-    font-size: /*43px;*/ 18px;
+    margin: 0; /*0 0 50px 0;*/
+    font-size: 18px; /*35px;*/
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -11,14 +12,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: /*850px*/385px;
+    height: 385px;/*750px;*/
     width: 100%;
 }
 #container > h1 {
     color: white;
     z-index: 1;
     margin: 0;
-    height: /*560px*/ 240px;
+    height: 240px; /*460px;*/
 }
 #container > img {
     position: absolute;
@@ -28,13 +29,13 @@ body {
 }
 
 h1 {
-    font-size: /*150px*/ 65px ;
+    font-size: 65px; /*125px;*/
     text-align: center;
     color: white;
 }
 
 section {
-    margin: /*30px 135px 30px 150px;*/ 75px 85px 60px 85px; 
+    margin: 75px 85px 60px 85px; /*150px 135px 120px 175px;*/ 
     text-align: left;
     color: rgb(66, 61, 61);
     
@@ -44,7 +45,7 @@ section {
 }
 
 #photoRecipe img {
-    width: /*45%;*/ 50%;
+    width: 50%; 
     display: block;
     margin: 30px auto 40px auto;
 }
@@ -55,7 +56,7 @@ section {
 
 #h4Ingredents {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 40px;/*80px;*/
 }
 
 #section ul {
@@ -65,13 +66,12 @@ section {
 
 
 #photoCooking img {
-    width: /*45%;*/ 50%;
+    width: 50%;
     display: block;
-    margin: 30px auto 35px auto;
-
+    margin: 60px auto 35px auto; /*60px auto 35px auto;*/
 }
 
 #h4Directions {
     text-align: left;
-    margin: 40px auto;
+    margin: 40px auto;/*80px auto;*/
 }
