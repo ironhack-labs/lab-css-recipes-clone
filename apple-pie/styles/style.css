@@ -1,0 +1,31 @@
+/* #img-principal {
+    width: 500px;
+    height: 200px;
+
+} */
+.container {
+    display: flex;
+    justify-content: center;
+}
+#text-principal {
+    width: 800px;
+    text-align: justify;
+    margin-left: 300px;
+}
+
+#recipe-info-image {
+    margin-left: 400px;
+}   
+
+
+#ingredients {
+    margin-left: 400px;
+}
+
+#cooking-info-image {
+    margin-left: 400px;
+}
+.text-directions {
+    margin-left: 300px;
+    width: 800px;
+}
