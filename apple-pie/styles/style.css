@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+
+  }
+
+.header {
+  align-items: center;
+  align-content: center;
+  background-image: url("../images/apple-pie.jpg");
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  max-width: 100%;
+}
+
+.header h1 {
+  color: white;
+  font-size: 4em;
+}
+
+hr {
+  max-width: 50%;
+}
+
