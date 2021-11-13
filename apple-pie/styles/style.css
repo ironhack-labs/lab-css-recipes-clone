@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 body {
-  font-family: sans-serif;
+  font-family: Roboto;
 
   }
 
@@ -20,6 +22,24 @@ body {
 
 hr {
   max-width: 50%;
+}
+
+.ingredients {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 350px 40px 400px;
+  text-align: left;
+}
+
+.ingredients h2 {
+  padding-left: 60px;
+  font-weight: 500;
+}
+
+.ingredients ul li {
+  list-style-type: none;
+  padding-left: 50px;
 }
 
 .introduction {
