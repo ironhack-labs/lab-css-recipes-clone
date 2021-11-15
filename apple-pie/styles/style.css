@@ -3,12 +3,48 @@
 }
 
 
-html{
+html,
+body{
     margin: 0;
     padding: 0;
+    
 }
 
 
-body{
-    font-size: 1rem;
+/*cabeçalho*/
+#titulo-principal {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+} 
+
+
+.header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    height: 650px;
+    background-size: cover;   /*toda a tela*/
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0 0;
+   
+}
+
+
+section{
+    width: 600px;
+}
+
+.tempo-preparo {
+    text-align: center;
+    
+}
+
+.ingredientes {
+    text-align: center;
+    
+}
+
+#modo-preparo{
+    text-align: center;
+    
 }
