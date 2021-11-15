@@ -1,50 +1,118 @@
-* {
-    font-family: arial, verdana, sans-serif;
-}
-
-
 html,
 body{
     margin: 0;
     padding: 0;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 16px;
     
+}
+
+hr{
+    width: 800px;
 }
 
 
 /*cabeçalho*/
 #titulo-principal {
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     color: white;
+    margin-top: 350px;
+   
 } 
 
 
 .header {
     background-image: url(/apple-pie/images/apple-pie.jpg);
-    height: 650px;
+    height: 800px;
     background-size: cover;   /*toda a tela*/
     background-repeat: no-repeat;
     position: relative;
-    background-position: 0 0;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
 }
 
 
-section{
+
+
+
+/*secoes*/
+
+
+.container {
     width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-.tempo-preparo {
-    text-align: center;
+.sub-titulos{      /*h2 no caso, com uso de class*/
+    
+    font-size: 1.5em;
+    color: rgb(110, 109, 109);
+    display: flex;
     
 }
 
-.ingredientes {
+#texto {
     text-align: center;
-    
 }
 
-#modo-preparo{
+
+
+#tempo-preparo {      
     text-align: center;
-    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+        
 }
+
+#tempo-preparo .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+#ingredientes {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#ingredientes .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+.estilo-lista{
+    list-style:circle;
+}
+
+
+#modo-preparo{          
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#modo-preparo .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.imagens-informativas{
+    width: 400px;
+}
+
