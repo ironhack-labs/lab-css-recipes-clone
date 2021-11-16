@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+/* Utilizei as fontes do prework, pois foram as que eu achei mais parecidas*/
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/5a/74/2e/5a742efc1efc87ab04c3f979171d3524.jpg);
+    /* A imagem não estava carregando com o link direto (/apple-pie/images/apple-pie.jpg), então para arrumá-la, procurei uma semelhante e usei a url de uma página web com a mesma foto! */
+    background-size: cover;
+    height: 500px;
+    }
+
+.titleFont {
+    text-align: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 5em;
+    color: white;
+    font-weight: 300;
+       
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+hr {
+    width: 1200px;
+}
+.apresentação {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:60px 120px;
+
+}
+
+.apresentação img {
+    align-self: center;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 50px 150px;
+}
+
+.ingredientes ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredientes img {
+    align-self: center;
+}
+
+.direcoes{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 50px 150px;
+    text-justify: auto;
+}
