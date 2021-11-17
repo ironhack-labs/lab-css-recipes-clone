@@ -26,7 +26,7 @@ ul {
 
 
 #title {
-  background-image: url("/french-soup/images/soup.jpg");
+  background-image: url("../images/soup.jpg");
   background-position-y: -250px;
   background-size: cover;
   height: 600px;
