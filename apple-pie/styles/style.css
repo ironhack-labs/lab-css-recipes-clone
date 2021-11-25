@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: "Roboto";
     justify-content: center;
 }
 
@@ -15,28 +17,42 @@ body {
     font-size: 3em;
 }
 
-#text-content {
-    padding: 25px 125px 25px 125px;
-    text-align: left;
+
+section {
+    padding: 75px 140px 25px 140px;
+    font-size: 1.6em;
+    font-weight: 200;
     color:#3E3E3E;
-    width:53vw;
-    display: flex;
-    flex-direction: column;
-    margin-left: 160px;
 }
 
-#text-content p {
+section article {
+    text-align:justify
+}
+
+section ul, h4 {
+    text-align:left
+}
+
+section img {
+    display: block;
+    margin:auto;
+    width: 30vw;
+}
+
+section p {
     font-size:1.2em;
 }
 
-.border-line {
-    border-bottom: 1px solid grey;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+section ol {
+    counter-reset: list;
 }
 
-.img-logos {
-    width: 22vw;
+section ol > li {
+    list-style: none;
 }
+
+section ol > li:before {
+    content: counter(list) ")";
+    counter-increment: list;
+}
+
