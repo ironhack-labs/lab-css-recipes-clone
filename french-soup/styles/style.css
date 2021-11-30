@@ -1,9 +1,69 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
+  background-color: whitesmoke;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+#hero-img {
+  background-image: url("../images/soup.jpg");
+  background-position: 0 -360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  background-color: transparent;
+}
+
+p{
+  margin: 40px auto;
+}
+
+.basic-form {
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+hr {
+  width: 60vw;
+}
+
+h2 {
+  align-self: flex-start;
+}
+
+ol,
+ul {
+  align-self: flex-start;
+}
+
+.prep-info-img{
+  height: auto;
+  width: 35vw;
+}
+
+ul > li {
+  list-style:"- ";
+  line-height: 1.6em;
+}
+
+ol > li {
+
 }
