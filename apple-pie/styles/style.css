@@ -3,7 +3,7 @@ body {
 }
 
 .titel {
-  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-image: url(../images/apple-pie.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
