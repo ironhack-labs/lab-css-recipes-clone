@@ -1,9 +1,65 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.titel {
+  background-image: url(../images/soup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  font-size: 4em;
+  height: 25vh;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h3 {
+  margin: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#recipe-info {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  margin-left: 5%;
+  font-size: large;
+  font-weight: bold;
+}
+ul {
+  margin-left: 4%;
+}
+.recipe {
+  display: flex;
+  /*align-items: center;*/
+  flex-direction: column;
+}
+ul > li {
+  list-style-type: "- ";
+}
+#cook-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ol {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
 }
