@@ -1,0 +1,82 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+
+max-width: 960px;
+margin: auto;
+
+}
+
+h1 {
+
+color: black ;
+font-size: medium ;
+text-align: left;
+width: 35pc;
+
+}
+
+h2 {
+
+color: black;
+font-size: large;
+font-weight: bold;
+}
+
+h3 {
+
+color: black ;
+font-size: medium ;
+text-align: left;
+}
+
+h4 {
+
+color: black ;
+font-size: large ;
+text-align: left;
+}
+
+h5 {
+
+color: black ;
+font-size: medium ;
+text-align: left;
+}
+
+p {
+
+right: 10pc;
+
+}
+
+.intro {
+align-content: center;
+
+}
+
+.container {
+position: relative;
+text-align: center;
+color: white;
+font-size: xx-large;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+ul {
+list-style-type: '-';
+text-indent: 0pc;
+}
+
+ol {
+text-indent: 0pc;
+}
