@@ -1,0 +1,63 @@
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(56, 55, 55);
+}
+
+
+header {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 3rem;
+    padding:200px 0 200px;
+    
+}
+
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.container {
+    margin:100px 150px;
+    line-height: 1.5;
+}
+
+
+#intro {
+    font-size: 1.7rem;
+}
+#intro img {
+    height: 80px ;
+    margin: 50px auto 0;
+    display: block;
+}
+
+hr {
+    height: 0px;
+    border-top: 3px solid rgb(56, 55, 55) ;
+    margin-top:20px;
+}
+
+#ingredients, #directions {
+    font-size: 1.3rem;
+}
+
+#ingredients ul {
+    list-style: square;
+}
+
+#ingredients img {
+    height: 80px ;
+    margin: 50px auto 0;
+    display: block;
+}
+
+#directions ol {
+    list-style: hiragana;
+}
