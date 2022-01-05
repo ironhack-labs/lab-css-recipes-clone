@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+
+    width: 95%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+header img, h1 {
+
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+  
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    color: rgb(255,255,255);
+    font-size: 150px;
+}
+
+#applePieDescription, #receipInformation , #cookingInformation {
+
+    text-align: center;
+    width: 45%;
+    margin: 5% auto;
+}
+
+
+#applePieDescription p {
+
+    text-align: justify;
+    font-size: 25px;
+   
+}
+
+#receipInformation , #cookingInformation {
+
+    border-bottom: 1px solid black;
+
+}
+
+ul, ol {
+
+    text-align: justify;
+    font-size: 25px;
+    width: 45%;
+    margin: 5% auto;
+}
+
+.firstlist, ol h1{
+
+    margin-bottom: 15px;
+
+}
+
+ul li{
+
+    list-style-type: none;
+    
+}
+
+.firstlist li:before {
+    content: "-";
+    padding-right: 5px;
+  }
+
+  ol li::marker{
+    content: counter(list-item) ")";
+    
+}
