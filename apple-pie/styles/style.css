@@ -1,0 +1,49 @@
+* {
+  font-family: Geneva, Tahoma, sans-serif, Verdana;
+}
+img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+#img-container {
+  position: relative;
+}
+
+#container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 5em;
+  color: white;
+}
+
+#container {
+  width: 50%;
+  position: absolute;
+  left: 10%;
+}
+
+body {
+  position: absolute;
+  left: 25%;
+}
+
+ul > li {
+  list-style-type: none;
+  text-indent: -30px;
+}
+ul > li::before {
+  content: "- ";
+}
+
+.img-holder{
+    border-bottom: 1px solid black;
+}
