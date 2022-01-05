@@ -1,0 +1,76 @@
+
+* {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imageHolder {
+    width: 100%;
+}
+
+img {
+    width: 60%;
+}
+/*center image and text*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+hr {
+    width: 80%;
+}
+/*titles and texts*/
+
+.title {
+    font-size: 30px;
+}
+
+
+/*li elements with -*/
+ul {
+    list-style-type: none;
+    /*use padding to move list item from left to right*/
+    padding-left: 1em;
+}
+  
+  ul li:before {
+    content: "–";
+    position: absolute;
+    /*change margin to move dash around*/
+    margin-left: -1em;
+}
+
+.introtext {
+    margin: 3% 3% 1% 1%;
+    width: 40%;
+    text-align: center;
+}
+
+/*flexboxes for centering divs content*/
+
+.holderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainerDirection {
+    width: 60%;
+}
+
+.iconHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
