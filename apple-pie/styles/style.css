@@ -1,0 +1,67 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+
+/* WHOLE PAGE CSS */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+  color: white;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header > h1 {
+  font-size: 6em;
+  font-weight: 300;
+}
+
+/* FIRST SECTION */
+#first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#first-section > article {
+  padding: 50px 0px 20px 0px;
+  font-size: 1.2em;
+  width: 80%;
+}
+.img-summary {
+  /* IMGs for all sections */
+  width: 300px;
+}
+.line {
+  border-bottom: 1px solid;
+  width: 80%;
+  margin: 10px 0px 20px 0px;
+}
+
+/* SECOND SECTION */
+#second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#second-section > article {
+  font-size: 1.2em;
+  width: 80%;
+}
+#list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+/* THIRD SECTION */
+#listnum {
+  padding-left: 30px;
+}
