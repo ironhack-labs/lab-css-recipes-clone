@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Geneva", sans-serif;
+    color: #353434;
+    padding-bottom: 4em;
+  }
+
+
+h1 {
+    text-align: center;
+    color: white;
+    background-image: url("apple-pie.jpg");
+    background-size: cover;
+    height: 400px;
+    line-height: 400px;
+}
+
+article {
+    font-size: 2em;
+    text-align: left;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.allignPicture {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
