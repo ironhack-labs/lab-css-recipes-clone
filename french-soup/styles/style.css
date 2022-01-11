@@ -1,9 +1,51 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-image {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0%;
+}
+
+h1 {
+  font-size: 5vw;
+  color: white;
+}
+
+.side-spaced {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.info-image {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
