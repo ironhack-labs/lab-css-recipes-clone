@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+html {
+
+  font-size: 18px
+}
+
 p, ol, ul {
   color: rgb(104, 104, 104);
 }
@@ -44,13 +49,31 @@ img {
 }
 
 ol {
-    counter-reset: list;
+  counter-reset: list;
+  padding-left: 10px;
 }
 
 ol > li {
-    list-style: none;
+list-style: none;
 }
+
 ol > li:before {
-    content: counter(list) ") ";
-    counter-increment: list;
+content: counter(list) ") ";
+counter-increment: list;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "-";
+  padding-right: 5px;
 }
