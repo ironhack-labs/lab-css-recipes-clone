@@ -1,0 +1,15 @@
+.first-img img{
+    max-height: 50vh;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.image-centered{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin: 30px;
+  
+}
