@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+body {
+    font-family: Roboto;
+    font-weight: lighter;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.main-photo {
+    position: relative;
+}
+
+.main-photo img {
+    width: 100%;
+    height: 70%;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#background p {
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 50px 100px 0;
+    margin: auto 55px;
+}
+
+#recipe p {
+    text-align: center;
+}
+
+.timing {
+    width: 40%;
+}
+
+#recipe {
+    padding: 0 150px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    line-height: 3em;
+}
+
+.content {
+    line-height: 1.5em;
+}
