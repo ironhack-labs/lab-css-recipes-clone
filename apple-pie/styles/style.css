@@ -31,6 +31,22 @@ header h1 {
     padding-bottom: 40px;
 }
 
+.section-box ul, ol {
+    list-style-type: none;
+  }
+  .section-box ul > li:before {
+    content: "- ";
+  }
+  
+  .section-box ol {
+    counter-reset: list;
+  }
+  
+  .section-box ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+
 .section-box h2 {
     letter-spacing: 0.1em;
 }
