@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Lato', sans-serif;   
-
+    margin: 0;
     
 }
 
@@ -91,16 +91,14 @@ h1 {
     color: rgb(88, 88, 88)
 }
 
-ul {
+ul, li {
     list-style-type: none;
+    font-size: 18px;
 }
 
-ul li:before {
+/* ul li:before {
     content: '-';
     position: absolute;
     margin-left: -20px;
-}
+} */
 
-li {
-    list-style-type: none;
-}
