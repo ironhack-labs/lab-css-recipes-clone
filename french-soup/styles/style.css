@@ -41,6 +41,7 @@ header h1 {
 
 .section-box ul, ol {
   list-style-type: none;
+  padding-inline-start: 0;
 }
 .section-box ul > li:before {
   content: "- ";
