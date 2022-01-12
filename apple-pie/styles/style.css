@@ -1,0 +1,102 @@
+body {
+  font-family:'Verdana';
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+  
+/*padding: 0px 10px 10px 10px;  */
+/*width: 900px;*/
+}
+  
+
+#apple-pie-pic {
+    /*padding: 20px 100px 10px 100px;*/
+color: white;
+background-image: url('../images/apple-pie.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+position: static;
+max-width: 1500px;
+height: 500px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+    align-items: center;
+    font-weight: lighter;
+    font-size: 50pxpx;
+    /*padding: 50px 0px*/
+}
+
+#main-text{
+    padding: 20px 100px 10px 100px;
+    color: rgb(68, 68, 68);
+    width: 500px;
+    margin: 10px auto;
+}
+
+#main-text img{
+    width: 250px;
+    height: 45px;
+    justify-content: center;
+    padding: 10px 120px;
+
+}
+
+#ingredients {
+    text-align: left;
+    padding: 20px 100px 10px 100px;
+    color: rgb(68, 68, 68);
+    width: 500px;
+    margin: 10px auto;
+
+}
+.ingredients-ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+li:before {
+    content: "-";
+    display: block;
+    float: left;
+    width: 1.2em;
+    
+}
+#ingredients img{
+    width: 240px;
+    height: 55px;
+    justify-content: center;
+    padding: 10px 120px;
+
+}
+
+#directions {
+    padding: 20px 100px 10px 100px;
+    color: rgb(68, 68, 68);
+    width: 500px;
+    margin: 10px auto;
+}
+
+.direction-ol {
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+.li2 {
+    display: block;
+    margin-bottom: .5em;
+    
+  }
+  .li2::before {
+    display: inline-block;
+    content: counter(item) ") ";
+    counter-increment: item;
+    width: 2em;
+    
+  }
