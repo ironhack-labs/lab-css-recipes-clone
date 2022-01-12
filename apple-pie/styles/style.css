@@ -1,0 +1,107 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my style below */
+
+.picture-wrapper {
+    position: relative; 
+    text-align: center;
+    color: white;
+}
+
+#apple-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+
+#cooking1 {
+    max-height: 50%;
+    height: 80px;
+   
+}
+#cooking1-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cooking2 {
+    max-height: 50%;
+    height: 60px;
+
+}
+#cooking2-wrapper {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#apple {
+    max-width: 50%;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h3 {
+    align-items: left;
+    justify-content: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#ingredients {
+    margin: 2rem;
+    padding: 2rem;
+}
+#directions {
+    margin: 2rem;
+    padding: 2rem;
+}
