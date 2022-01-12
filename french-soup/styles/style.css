@@ -5,5 +5,67 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: 100;
+  line-height:2em;
+}
+
+.header-bg {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 600px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+}
+
+.section-box {
+  margin: 40px 60px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.section-box h2 {
+  letter-spacing: 0.05em;
+}
+
+.section-box ul, ol {
+  list-style-type: none;
+}
+.section-box ul > li:before {
+  content: "- ";
+}
+
+.section-box ol {
+  counter-reset: list;
+}
+
+.section-box ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+.box-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-recipe-info {
+  height: 50px;
+}
+
+#img-cooking-info {
+  height: 70px;
 }
