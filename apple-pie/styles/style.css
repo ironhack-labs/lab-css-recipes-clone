@@ -1,0 +1,75 @@
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  color: white;
+  font-weight: lighter;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 25px;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+section {
+  margin: 40px 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.div {
+  border-bottom: 2px solid gray;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+#cookTime1 {
+  max-width: 100%;
+  height: 60px;
+  width: auto;
+}
+
+#cookTime2 {
+  max-width: 100%;
+  height: 75px;
+  width: auto;
+}
