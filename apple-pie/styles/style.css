@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  color: rgb(65, 65, 65);
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  padding: 30px 150px;
+}
+
+.header-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.h1-wrapper {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: 800;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: left;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.header img {
+  align-items: center;
+}
+
+.intro p {
+  font-size: 2.5em;
+  line-height: 1.5em;
+
+  text-align: left;
+}
+
+.intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+}
+
+.ingredients ul {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.ingredients img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "- ";
+  position: absolute;
+  margin-left: -20px;
+}
+
+.directions p {
+  font-size: 2em;
+  line-height: 1.5em;
+
+  text-align: left;
+  margin-left: 20px;
+}
