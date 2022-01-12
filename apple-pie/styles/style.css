@@ -38,8 +38,32 @@ section{
     align-items: left;
 
 }
-.break{
-   box-sizing: border-box;
+ul{
+    font-size:x-large;
+    list-style: "- ";
+}
+ol{
+    font-size:x-large;
+    list-style-type:decimal ;
+}
+.sector1{
+    display:inline-block;
+    align-items: center;
+    border-bottom:solid 2px rgb(128, 124, 124) ;
+    margin: 10px 200px;
+}
+.sector2 {
+    display:inline-block;
+    align-items: center;
+    border-bottom: solid 2px rgb(128, 124, 124) ;
+    margin: 10px 200px;
+}
+.sector3{
+    display: inline-flexbox;
+    margin: 10px 200px;
+}
+p{
+    font-size:x-large;
 }
 /* .apple-pie-picture{
 
