@@ -20,23 +20,22 @@ h1{
 }
 
 .info-image1{
-    align-items: center;
     display: flex;
     width: 400px;
+    justify-content: center; 
     align-items: center;
 }
 .info-image2{
-    align-items: center;
     display: flex;
     width: 300px;
     align-items: center;
+    justify-content: center; 
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
-
 }
 ul{
     font-size:x-large;
@@ -48,13 +47,11 @@ ol{
 }
 .sector1{
     display:inline-block;
-    align-items: center;
     border-bottom:solid 2px rgb(128, 124, 124) ;
     margin: 10px 200px;
 }
 .sector2 {
     display:inline-block;
-    align-items: center;
     border-bottom: solid 2px rgb(128, 124, 124) ;
     margin: 10px 200px;
 }
