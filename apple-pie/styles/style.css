@@ -1,0 +1,12 @@
+ 
+h1 {color: white; text-align: center;padding: 250px 0;font-size: 70px; font-family: Arial, Helvetica, sans-serif;}
+ 
+header{
+   background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true); background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height : 600px;
+   padding-top: 50px;
+   position: relative;}
+ 
+  .positioning {padding: 50px 200px;}
