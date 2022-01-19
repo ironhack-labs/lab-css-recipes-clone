@@ -1,0 +1,36 @@
+body {
+    margin: 200px;
+}
+.apple-pie {
+    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center center;
+    font-size: 100px;
+}
+.apple-recipe {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: initial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ingredients {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center center;
+}
+   
