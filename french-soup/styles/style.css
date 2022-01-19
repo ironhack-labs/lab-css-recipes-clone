@@ -7,3 +7,23 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.header {
+  background-image: url(/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  background-size: cover;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+}
+.header-text {
+  margin: 100px;
+}
+.img {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
