@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@1&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    color: black;
+    background-color: #fafafa;
+    margin: 0 auto;
+    
+  }
+
+  header{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    margin: 0 3rem 0 3rem;
+    padding: 9rem;
+    max-width: 1024px;
+  }
+   header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;   
+   }
+
+   .hero{
+       display: flex;
+       flex-direction: column;
+       margin: 0 3rem 0 3rem;
+   }
+   .hero p {
+       margin: 3rem auto;
+       font-size: 1rem
+   }
+
+   .ingre{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem 0 3rem;
+   }
+
+   .inst{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem 5rem 3rem;
+    
+   }
+
+   .hero img{
+       align-self: center;
+       height: 3rem;
+   }
+
+   .ingre img{
+    align-self: center;
+       height: 3rem;
+   }
+
+   .ingre ul {
+       list-style: none;
+   }
+   .ingre li:before {
+        content: '- ';
+   }
+
+   h3{
+       font-size: 1.5rem;
+   }
+
+   hr{
+    
+    margin: 3rem;
+   }
