@@ -10,15 +10,15 @@ body {
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    height: 500px;
+    padding: 50px 100px; 
 
 }
 
 h1 {
-    font-size: 50px;
-    margin-top: 60px;
-    padding-top: 200px;
+    font-size: 70px;
+    padding: 100px 100px; 
     color: aliceblue;
+
 }
 
 p {
