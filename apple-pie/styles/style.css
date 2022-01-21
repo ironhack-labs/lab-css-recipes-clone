@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 780px;
+  width: 1350px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  width: 1050px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 90px;
+}
+
+main {
+  width: 1050px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 400;
+  font-stretch: extra-expanded;
+  margin-top: 40px;
+  padding-top: 310px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+img {
+  display: block; /* making inline element a block element*/
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: '- '; /*ads dash to each item in the list*/
+  font-size: 26px;
+  font-weight: 100;
+  padding-left: 28px;
+}
+
+ol {
+  font-size: 26px;
+  font-weight: 100;
+  padding-left: 12px;
+}
+
+/* adds number and paranthesis to the ol*/
+ol li {
+  list-style: none;
+  counter-increment: item-index;
+}
+
+ol li:before {
+  content: counter(item-index) ') ';
+}
