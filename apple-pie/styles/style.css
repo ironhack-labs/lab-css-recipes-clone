@@ -1,26 +1,17 @@
-/* font-family: 'Red Hat Text', sans-serif;*/
-* {
-  font-family: ;
-}
-* {
+h1,
+body,
+html,
+main {
   margin: 0;
   padding: 0;
 }
-
-/*#bg-img {
-  background-image: url(/apple-pie/images/apple-pie.jpg);
-  background-position: center-top;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}*/
-
-#bg-img {
-}
-
+/* makes header photo 100% of the viewport size */
 .top-img {
   width: 100%;
   height: auto;
 }
+
+/* container contains photo and headline */
 
 .container {
   display: flex;
@@ -31,8 +22,10 @@
   overflow: hidden;
 }
 
+/* headline stays in the center */
+
 .center {
-  font-family: "Red Hat text", sans-serif;
+  font-family: 'Red Hat text', sans-serif;
   font-weight: 400;
   font-size: 9em;
   color: white;
@@ -42,23 +35,15 @@
   text-align: center;
 }
 
-h1 {
-  font-family: "Red Hat text", sans-serif;
-  font-weight: 400;
-  font-size: 9em;
-  color: white;
-  position: absolute;
-}
-
 h2 {
-  font-family: "Red Hat text", sans-serif;
+  font-family: 'Red Hat text', sans-serif;
   font-weight: 400;
   font-size: 2.6em;
   margin: 0 11% 0 11%;
 }
 
 p {
-  font-family: "Red Hat text", sans-serif;
+  font-family: 'Red Hat text', sans-serif;
   font-weight: 300;
   font-size: 2.6em;
   margin: 6% 11% 6% 11%;
@@ -66,11 +51,13 @@ p {
 
 ul {
   list-style-type: none;
-  font-family: "Red Hat text", sans-serif;
+  font-family: 'Red Hat text', sans-serif;
   font-weight: 300;
   font-size: 2.2em;
   margin: 2% 11% 6% 11%;
 }
+
+/* line between sections */
 
 .border {
   border-bottom: 2px solid rgb(146, 146, 146);
@@ -78,24 +65,29 @@ ul {
 }
 
 .img-informtion {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
 }
 
 ol {
   list-style-type: none;
-  font-family: "Red Hat text", sans-serif;
+  font-family: 'Red Hat text', sans-serif;
   font-weight: 300;
   font-size: 2.2em;
   margin: 2% 11% 6% 11%;
 }
+
+/* I've defined three different breakpoints
+
+BP #1 */
 
 @media screen and (max-width: 1145px) {
   /*body {
       background-color: lightgreen;
     }*/
   .center {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 400;
     font-size: 9em;
     color: white;
@@ -114,25 +106,24 @@ ol {
   }
 
   p {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 2.2em;
     margin: 6% 11% 6% 11%;
   }
 
-  .img-informtion > img {
+  .img-informtion {
     display: flex;
     justify-content: center;
     width: 600px;
   }
 }
 
+/* BP #2 */
+
 @media screen and (max-width: 900px) {
-  /* body {
-      background-color: rgb(238, 144, 233);
-    }*/
   .center {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 400;
     font-size: 8em;
     color: white;
@@ -142,14 +133,14 @@ ol {
     text-align: center;
   }
 
-  .img-informtion > img {
-    display: flex;
-    justify-content: center;
+  .img-informtion {
+    display: block;
+    margin: 0 auto;
     width: 500px;
   }
 
   h2 {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 400;
     font-size: 2.4em;
     margin: 0 11% 0 11%;
@@ -157,7 +148,7 @@ ol {
 
   ul {
     list-style-type: none;
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 1.8em;
     margin: 2% 11% 6% 11%;
@@ -165,43 +156,42 @@ ol {
 
   ol {
     list-style-type: none;
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 1.8em;
     margin: 2% 11% 6% 11%;
   }
 }
 
+/* BP #3 */
+
 @media screen and (max-width: 600px) {
-  /* body {
-      background-color: rgb(12, 139, 161);
-    } */
   .center {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 400;
     font-size: 6em;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 35%;
     width: 100%;
     text-align: center;
   }
 
   p {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 1.8em;
     margin: 6% 11% 6% 11%;
   }
 
-  .img-informtion > img {
-    display: flex;
-    justify-content: center;
+  .img-informtion {
+    display: block;
+    margin: 0 auto;
     width: 400px;
   }
 
   h2 {
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 400;
     font-size: 2em;
     margin: 0 11% 0 11%;
@@ -209,7 +199,7 @@ ol {
 
   ul {
     list-style-type: none;
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
     margin: 2% 11% 6% 11%;
@@ -217,7 +207,7 @@ ol {
 
   ol {
     list-style-type: none;
-    font-family: "Red Hat text", sans-serif;
+    font-family: 'Red Hat text', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
     margin: 2% 11% 6% 11%;
