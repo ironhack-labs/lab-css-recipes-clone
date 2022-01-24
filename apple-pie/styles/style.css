@@ -1,3 +1,46 @@
-.apple-background{
-    background-image:'C:\Users\840 G3\ironhack\labs\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg';
+body {
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 22px;
+    line-height: 200%;
 }
+
+
+header {
+    background-color:beige;
+    color:white;
+    padding: 150px 0;
+    background-image: url('../images/apple-pie.jpg');
+    background-size:cover;
+    background-position: center center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+main {
+    width: 640px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul{
+    list-style-type:'- ';
+    padding: 0;
+}
+
+ul,
+ol{
+    padding:0;
+}
+
