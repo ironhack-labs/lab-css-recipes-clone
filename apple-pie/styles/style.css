@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+h3{
+    color: black;
+}
+.principal-title {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    margin: 400px auto;
+}
+.container-outer {
+    width: 100%;
+    background-color: white;
+}
+.container-inner{
+    width: 1400px;
+    margin: 50px auto 0px;
+    display: block;
+    color: darkgray;
+    font-size: 32px;
+    font-weight: bold;
+}
+.centered-img {
+    width: 800px;
+    margin: 50px auto;
+}
+.description, #ingredients, #directions {
+    /*height:500px;*/
+    padding-top: 50px;
+}
+.footer {
+    height: 150px;
+    background-color: white;
+    width:100%;
+    bottom:0px;
+    text-align: center;
+    padding-top: 20px;
+}
+#ingredients, #directions {
+    padding-top: 20px;
+}
+#directions{
+    padding-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -40px;
+}
+
+ol {
+    margin-top: 60px;
+    counter-reset: list;
+    text-indent: 50px;
+}
+
+ol > li {
+    list-style: none;
+    position: relative;
+    margin-left: -30px;
+}
+
+ol > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: absolute;
+    left: -1.4em;
+}
