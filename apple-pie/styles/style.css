@@ -1,0 +1,109 @@
+.image {
+  height: 1500px;
+  width: auto;
+  margin: 30px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 750px;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 750px;
+  font-size: 6em;
+  color: white;
+}
+
+.p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1600px;
+  font-size: 1.9em;
+  text-align: left;
+}
+
+.recipe-img {
+  height: 75px;
+  width: auto;
+  margin: 35px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1720px;
+}
+
+.hr1 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1820px;
+  height: 1px;
+  width: 51%;
+}
+
+h3 {
+  position: absolute;
+  left: 28.5%;
+  transform: translate(-50%, -50%);
+  top: 1870px;
+  font-size: 2em;
+}
+
+ul {
+  position: absolute;
+  left: 38.5%;
+  transform: translate(-50%, -50%);
+  top: 2070px;
+  font-size: 1.7em;
+  list-style-type: none;
+}
+
+.cooking-img {
+  height: 75px;
+  width: auto;
+  margin: 35px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 2300px;
+}
+
+.hr2 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 2400px;
+  height: 1px;
+  width: 51%;
+}
+
+.heading3 {
+  position: absolute;
+  left: 27.5%;
+  transform: translate(-50%, -50%);
+  top: 2430px;
+  font-size: 2em;
+}
+
+ol {
+  position: absolute;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  top: 2670px;
+  font-size: 1.7em;
+  padding: 0px 0px 90px 0px;
+}
+
+ol > li:before {
+  counter-increment: list;
+  content: counter(list, lower-alpha) ") ";
+  counter-reset: list;
+  margin: 0;
+}
