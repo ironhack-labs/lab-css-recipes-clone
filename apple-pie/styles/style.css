@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#apple-pie-background {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+    margin: 0px;
+}
+
+#french-soup-background {
+    background-image: url(/french-soup/images/soup.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;  
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    margin: 100px 250px 30px 250px;
+}
+
+.recipe-cooking-img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, ol, h2 {
+    margin: 50px 250px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: "- ";
+    font-size: 20px;
+}
+
+ol {
+    list-style-position: outside;
+    list-style-type: decimal;
+    font-size: 20px;
+}
+
+hr {
+    margin: 0px 250px;
+}
