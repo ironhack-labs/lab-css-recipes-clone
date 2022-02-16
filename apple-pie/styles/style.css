@@ -8,7 +8,7 @@ html, body {
 }
 
 #apple-pie-background {
-    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-image: url("../images/apple-pie.jpg");
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ html, body {
 }
 
 #french-soup-background {
-    background-image: url(/french-soup/images/soup.jpg);
+    background-image: url("../../french-soup/images/soup.jpg");
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
