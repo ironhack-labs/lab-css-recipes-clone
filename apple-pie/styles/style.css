@@ -1,0 +1,60 @@
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    padding-bottom: 50px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    /* border-bottom: solid black; */
+    text-align: center;
+    font-size: 30px;
+}
+
+section{
+    border-top: solid black;
+    width: 80%;
+    font-size: 30px;
+    margin: 50px 0 50px 0;
+}
+
+picture {
+    display: block;
+    /* Centre images inside picture */
+    text-align: center;
+}
+
+picture img {
+    /* Let it be as wide as possible */
+    max-width: 100%;
+    /* Let it grow relative to its width */
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+ul li:before {
+content: '-';
+position: absolute;
+margin-left: -10px;
+}
