@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 490px;
+  margin: 20px 30px;
+  background-color: #1a0f04;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  color: white;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+main section {
+  margin: 0 30px;
+}
+main h2 {
+  font-size: 21px;
+  font-weight: 400;
+  margin: 40px 0 20px;
+}
+main ul,
+main ol {
+  list-style-position: inside;
+  padding-left: 10px;
+  font-size: 17px;
+  line-height: 21px;
+}
+#intro,
+#ingredients {
+  border-bottom: 1px solid grey;
+}
+#intro picture,
+#ingredients picture {
+  display: block;
+  margin: 0;
+  text-align: center;
+  margin: 30px 0 20px;
+}
+#intro picture img,
+#ingredients picture img {
+  max-width: 100%;
+  height: auto;
+}
+#intro picture img {
+  width: 290px;
+}
+#intro p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+#ingredients ul li {
+  list-style-type: '- ';
+}
+#ingredients picture img {
+  width: 278px;
+}
+#directions ol {
+  counter-reset: item;
+}
+#directions ol > li {
+  list-style: none;
+}
+#directions ol > li:before {
+  content: counter(item) ') ';
+  counter-increment: item;
+}
