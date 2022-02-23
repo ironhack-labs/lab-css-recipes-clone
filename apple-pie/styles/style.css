@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Other possible solution to center img
+
+picture { 
+    display: block;
+    text-align: center;
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+} */ 
+
+header {
+    display: flex;
+   /* S'il y a plusieurs enfants, ils seront aussi centrés
+   avec cette solution: 
+   justify-content: center;
+    align-items: center; */ 
+
+    background-image: url(../images/apple-pie.jpg);
+    height: 550px;
+    background-size: cover;
+}
+
+h1 {
+margin: auto; 
+color: white;
+font-size: 5em;
+}
+
+section {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section p {
+    text-align: center;
+}
+
+.prepimage {
+    width: 450px;
+    margin: auto;
+}
+
+hr {
+    width: 80%;
+}
+
+.section2 li {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
