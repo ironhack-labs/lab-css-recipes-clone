@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'roboto';
+}
+
+.back-image {
+    background-image: url("/challenge3/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+}
+
+.htext {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+.text1{
+    text-align:justify;
+    font-size: 18px;
+    margin: 8px;
+    padding: 20px 200px ;
+}
+
+.cooking{
+  background-image: url("/challenge3/lab-css-recipes-clone/apple-pie/images/recipe-info.png");
+  height: 100px;
+  width: 260px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin: 0 auto;
+  
+}
+
+.ingre{
+  background-image:url("/challenge3/lab-css-recipes-clone/apple-pie/images/cooking-info.png");
+  height: 100px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin: 0 auto;
+}
+
+ul.dash {
+    list-style-type: none;
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  ul.dash > li {
+    margin-left: 5px; 
+    padding-left: 5px;
+
+  }
+  ul.dash > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+  .directions{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .directions ul{
+    margin-left: 1%;
+    padding-left: 1%;
+  }
+
+  .directions li {
+    list-style-type: none;
+  }
