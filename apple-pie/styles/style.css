@@ -28,7 +28,7 @@ code {
     padding: 45px 100px 0;
 }
 
-#content > div > div {
+#content > div > figure {
     display: flex;
     justify-content: center;
 }
