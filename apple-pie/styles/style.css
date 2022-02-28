@@ -25,5 +25,10 @@ code {
 }
 
 #content {
-    padding: 50px 100px 0;
+    padding: 45px 100px 0;
+}
+
+#content > div > div {
+    display: flex;
+    justify-content: center;
 }
