@@ -26,9 +26,19 @@ code {
 
 #content {
     padding: 45px 100px 0;
+    color: #665f5f;
 }
 
-#content > div > figure {
+figure {
     display: flex;
     justify-content: center;
+}
+
+figure > img {
+    width: 400px;
+}
+
+ul,
+ol {
+    list-style-type: none;
 }
