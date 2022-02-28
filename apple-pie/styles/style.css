@@ -23,3 +23,7 @@ code {
     font-size: 3rem;
     color: white;
 }
+
+#content {
+    padding: 50px 100px 0;
+}
