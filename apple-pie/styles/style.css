@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.header {
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    position: absolute;
+    color: white;
+}
+
+section {
+    width: 800px;
+    margin: auto;
+}
+
+body {
+    font-family: Quicksand;
+    size: 13px;
+    line-height: 1.2em;
+}
+
+article {
+    width: 80%;
+    padding: 50px 20px 20px 20px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image {
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+
+h3 {
+    font: Quicksand SemiBold;
+    padding-left: 20px;
+
+}
+
+#recipe {
+    height: 50px;
+}
+
+hr {
+    margin: 30px;
+    outline: none;
+}
+
+ul.dashed   {
+    padding-bottom: 15px;
+    list-style-type: none;
+    display: inline-block;
+    text-indent: -5px;
+}
+
+ul.dashed > li:before {
+   content: "-";
+   text-indent: -5px;
+}
