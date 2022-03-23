@@ -1,0 +1,81 @@
+body{
+    margin: 12px;
+}
+.Section1{
+    justify-content: center;
+}
+.ImagenTitulo{
+    width: 100%;
+    display: block;
+
+}
+.ImagenTitulo img{
+    width: 100%;
+}
+.ImagenTitulo h1{
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 29% 0;
+    font-weight: normal;
+}
+
+.DivParrafoSection1{
+    margin: 100px 0 60px 0;
+    width: 100%;
+    display: flex;
+}
+.DivParrafoSection1 p{
+    margin: 0 220px;
+    font-size: 33px;
+}
+
+.divRecipeInfo{
+    text-align: center;
+    margin: 0 220px;
+    border-bottom: 3px solid rgb(117, 117, 117);
+    padding-bottom: 40px;
+
+}
+.divRecipeInfo img{
+    text-align: center;
+}
+
+.Section2{
+    margin-top: 70px;
+    padding: 0 220px;
+}
+.Section2 h2{
+    font-size: 30px;
+}
+
+.Section2 ul{
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(85, 83, 83);
+    list-style-type:none;
+
+}
+
+.divCookingInfo {
+    margin: 80px 0;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 3px solid rgb(155, 153, 153);;
+}
+.Section3 {
+    margin-top: 70px;
+    padding: 0 220px;
+}
+.Section3 h2{
+    font-size: 30px;
+}
+.Section3 ol{
+    margin-top: 60px;
+    font-size: 29px;
+    color: rgb(85, 83, 83);
+    margin-bottom: 100px;
+    list-style-type:symbols();
+}
