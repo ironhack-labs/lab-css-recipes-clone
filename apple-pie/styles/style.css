@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #565656;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    width: 100vw;
+    background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+header > div > p {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 2em;
+}
+
+h3 {
+    color: #333333
+}
+
+hr {
+    width: 55%;
+}
+
+section {
+    margin-left: 23.5em;
+
+}
+
+
+/* .apple-pie-img {
+    font-size: 60px;
+
+} */
