@@ -1,0 +1,21 @@
+#apple {
+    display: block;
+    width: 1000px;
+    height: 800px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 65px;
+    font-family: arial;
+    }
