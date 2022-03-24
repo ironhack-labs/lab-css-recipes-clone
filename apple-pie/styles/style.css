@@ -16,8 +16,9 @@ header {
     color: white;
     height: 50vh;
     width: 100vw;
-    background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
-    
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -46,6 +47,23 @@ section {
     margin-left: 23.5em;
 
 }
+
+ul > li {
+    list-style-type: none;
+  }
+  
+  ul > li:before {
+    content: "-";
+  }
+
+  section > ol {
+      margin-bottom: 5%;
+  }
+
+.cooking-time-icons {
+    margin: 0 18%;
+    height: 100px;
+      }
 
 
 /* .apple-pie-img {
