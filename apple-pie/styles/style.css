@@ -12,10 +12,22 @@
 
 .centrado{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
     font-size: 65px;
     font-family: arial;
     }
+
+    body {
+        font-family:Arial;
+        text-align: left;
+        margin: 10%;
+        color: dimgrey;   
+    }
+p{
+    width: 850px;
+    font-family:arial;
+    font-size: 25px;
+}
