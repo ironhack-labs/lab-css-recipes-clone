@@ -1,0 +1,61 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed"
+  }
+
+h1 {
+text-align: center;
+color:white;
+font-family: 'M PLUS 1', sans-serif;
+}
+h2 {
+font-family: 'M PLUS 1', sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 90px; 
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+p {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 1000px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
