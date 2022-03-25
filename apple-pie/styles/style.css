@@ -1,0 +1,17 @@
+#manzana {
+  display: block;
+  width: 900px;
+  height: 900px;
+}
+
+body {
+  background-color: rgb(153, 253, 153);
+}
+
+p {
+  display: block;
+  width: 1000px;
+  height: 50px;
+  font-family: Arial;
+  font-size: 18px;
+}
