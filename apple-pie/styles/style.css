@@ -6,7 +6,7 @@ body{
     background: url(../images/apple-pie.jpg) ;
     text-align: center;
     color: white;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,17 @@ body{
     align-items: center;
 }
 
+h3{
+    font-weight: 100;
+    margin-left: 20%;
+
+
+}
+
+#list{
+    margin-left: 20%;
+}
+
 li{
     list-style-type: '-'
 }
@@ -34,4 +45,13 @@ li{
     width: 50%;
     position:relative;
 
+}
+
+#instructions{
+    margin-left: 10%;
+    text-align: center;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
