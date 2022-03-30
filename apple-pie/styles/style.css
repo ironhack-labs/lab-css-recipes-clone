@@ -1,0 +1,28 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+section {
+    text-align: justify;
+    border-width: 20px;
+    border-color: black;
+    border-bottom: 2em;
+}
+#apple-pie {
+    background: url(../images/apple-pie.jpg);
+    text-align: center;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#intro {
+    text-align: center;
+}
+List-style-type: ‘-‘
