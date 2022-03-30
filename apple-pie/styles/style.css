@@ -3,16 +3,20 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     background-color: white;
-    padding: 0 5em 0 5em;
 }
 
-/* section {
-    padding: 0 10em 0 10em;
-} */
+ section {
+    padding: 0 5em 0 5em;
+}
 
 h1 {
     color: white;
     font-weight: 100;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -21,6 +25,11 @@ h1 {
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 350px;
+    padding: 50px 50px 50px 50px;
+    margin: 0px;
+    position: relative;
 }
 
 h2 {
@@ -28,6 +37,11 @@ h2 {
     text-align: left;
 }
 
+.recette p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 3em;
+}
 .recette img {
     max-height: 80px;
 }
