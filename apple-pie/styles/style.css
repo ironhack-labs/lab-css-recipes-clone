@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic', Arial, sans-serif;
 }
 
 #apple-pie{
@@ -17,7 +17,7 @@ body{
 
 #intro{
     margin-left: 30%;
-    text-align: center;
+    text-align: initial;
     width: 600px;
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@ body{
 
 h3{
     font-weight: 100;
-    margin-left: 20%;
+    margin-left: 200px;
 
 
 }
@@ -36,7 +36,8 @@ h3{
 }
 
 li{
-    list-style-type: '-'
+    list-style-type: '-';
+    margin-left: 200px;
 }
 .img-info{
     display: block;
@@ -47,9 +48,14 @@ li{
 
 }
 
+hr.solid {
+    border-top: 3px solid #bbb;
+    max-width: 70%;
+  }
+
 #instructions{
-    margin-left: 10%;
-    text-align: center;
+    margin-left: 200px;
+    text-align:initial;
     max-width: 50%;
     display: flex;
     justify-content: space-around;
