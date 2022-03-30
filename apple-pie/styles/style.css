@@ -1,0 +1,101 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color: black;
+  width: 70%;
+  font-size: 2em;
+  margin: 20px auto;
+  padding-top: 20px;
+  line-height: 1em;
+  letter-spacing: 0.4px;
+}
+
+img{
+  width: 40%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 70%;
+}
+
+/* Header */
+h1 {
+  font-size: 80px;
+  font-weight: normal;
+  color: white;
+  text-align: center;  
+  padding: 150px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+/* Section 1 */
+#first-section p{
+  width: 70%;
+  margin: 20px auto;
+  text-align: justify;
+  font-size: 2em;
+  padding-top: 50px;
+  line-height: 1.3em;
+}
+
+
+/* second section */
+#second-section div{
+  color: black;
+  font-size: 1.6em; 
+  margin-left: 150px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify
+}
+
+#second-section li{
+  list-style:'- ';
+}
+
+/* third section */
+#third-section div{
+  color: black;
+  font-size: 1.6em; 
+  margin-left: 150px;
+  margin-bottom: 120px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify;
+  
+}
+
+#third-section li{
+  list-style-type: decimal;
+  list-style-position: inside
+}
