@@ -2,7 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -26,3 +26,7 @@ section {
     text-align: center;
 }
 List-style-type: ‘-‘
+hr.solid {
+    border-top: 3px solid #bbb;
+    max-width: 70%;
+}
