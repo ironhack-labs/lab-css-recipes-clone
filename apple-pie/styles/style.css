@@ -1,0 +1,40 @@
+
+h1, body, html, main {
+    margin: 0;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+  .apples {
+    background-image: url("/images/apple-pie.jp");
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  .apples h1 {
+    padding-top: 10 rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 36;
+  }
+
+  .main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  ul {
+    list-style-type: '-';
+  }
+
