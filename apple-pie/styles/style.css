@@ -1,6 +1,11 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
   color: rgba(13, 12, 12, 0.721);
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero {
@@ -16,6 +21,14 @@
 .title {
   color: white;
   font-size: 80px;
+  position: relative;
+}
+
+h3::after {
+  position: absolute;
+  bottom: 0;
+  background-color: salmon;
+  height: 5px;
 }
 
 .section-title {
