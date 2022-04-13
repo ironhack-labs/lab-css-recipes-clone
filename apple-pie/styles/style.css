@@ -1,0 +1,66 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: url("/apple-pie/images/apple-pie.jpg") ;
+    background-size: cover;
+    height: 600px;
+}
+
+hr {
+    
+    width: 60%;
+} 
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+    font-size:xx-large;
+}
+
+section {
+    margin-top: 5px;
+    align-items: center;
+}
+
+#resume {
+    padding-top: 2%;
+    padding-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+div img {
+    align-items: center;
+}
+
+#resume img{
+    padding-top: 1%;
+    padding-left: 5%;
+    width: 50%;
+}
+
+h2 {
+    padding-left: 3%;
+}
+
+#ingredientes {
+    padding-top: 2%;
+    padding-left: 20%;
+    width: 50%;
+    text-align: left;
+    
+}
+
+#ingredientes img{
+    padding-left: 35%;
+    width: 50%;
+}
+
+#pasos {
+    padding-left: 20%;
+    width: 60%;
+    
+}
