@@ -48,3 +48,15 @@ li{
 ol {
     list-style-position: inside;
   }
+
+
+section{
+    margin-top:40px;
+    margin-bottom: 25px;
+}
+section h1{
+  margin-bottom: 25px;
+}
+section:first-child{
+  margin-top: 96px;
+}
