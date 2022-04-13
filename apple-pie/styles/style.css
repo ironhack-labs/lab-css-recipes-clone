@@ -21,18 +21,22 @@ h3 {
 .title {
   color: white;
   font-size: 80px;
-  position: relative;
 }
 
 h3::after {
   position: absolute;
   bottom: 0;
-  background-color: salmon;
-  height: 5px;
+  left: -10px;
+  background-color: rgba(250, 128, 114, 0.317);
+  height: 10px;
+  width: 120px;
+  content: "";
+  z-index: -1;
 }
 
 .section-title {
   font-size: 26px;
+  position: relative;
 }
 
 #info,
