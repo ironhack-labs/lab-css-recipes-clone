@@ -1,9 +1,62 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
+  font-size: 18px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+#header {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0, 0;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6em;
+  color: white;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section2 {
+  padding: 150px;
+  padding-top: 60px;
+  font-size: 1.3em;
+}
+
+#intro {
+  font-size: 1.7em;
+  text-align: justify;
+}
+
+.instructionsImg {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.divImg {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.steps li {
+  list-style-type: decimal;
+}
+
+.ingredients li {
+  list-style: "- ";
 }
