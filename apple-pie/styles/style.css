@@ -39,10 +39,30 @@ h1{
     align-items: left;
     
 }
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 18px;
+    align-items: left;
+    padding: 240px;
+    width: auto;
+    padding: 20px;
+    align-items: left;
+}
     
 
 .heading4 {
-    text-align: center
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 18px;
+    align-items: :left;
+    padding: 240px;
+    width: auto;
+    padding: 20px;
+    align-items: left;
     
 }
 
