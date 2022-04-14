@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+.title img {
+  background-size: 50px;
+  min-width: 100%;
+  min-height: 100%;
+  color: blue;
+}
+
+.list {
+  flex: ;
+  text-align: center;
+}
+
+.sectionH {
+  font-size: 23px;
+}
