@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+h1,
+body,
+html,
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.apple-pie {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.apple-pie-background {
+  background: url(/apple-pie/images/apple-pie.jpg) no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  padding: 9rem 6rem;
+}
+
+p {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.recipe-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+
+.cooking-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
