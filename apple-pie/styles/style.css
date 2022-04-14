@@ -1,20 +1,49 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
 .heading {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    height: 1200px; 
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
     text-align: center;
+    color: white;
+    font-size: 260px;
+
+
 
 }
 
 .toCenter {
     text-align: center;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    font-size: 18px;
+    align-items: center;
+    padding: 240px;
+    width: auto;
+    padding: 20px;
+    align-items: left;
+    
 }
     
-.img1 {
-    width: 400px;
-}
 
 .heading4 {
-    text-align: left;
-    width: 20px;
+    text-align: center
+    
 }
 
 .img2 {
