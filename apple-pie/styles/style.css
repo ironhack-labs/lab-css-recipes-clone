@@ -55,3 +55,7 @@ h2 {
 .steps li {
   list-style-type: decimal;
 }
+
+.ingredients li {
+  list-style: "- ";
+}
