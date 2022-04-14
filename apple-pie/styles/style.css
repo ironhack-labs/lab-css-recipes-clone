@@ -26,10 +26,10 @@ h3 {
 h3::after {
   position: absolute;
   bottom: 0;
-  left: -10px;
-  background-color: rgba(250, 128, 114, 0.317);
+  left: -8px;
+  background-color: rgb(232, 168, 67, 39%);
   height: 10px;
-  width: 120px;
+  width: 140px;
   content: "";
   z-index: -1;
 }
@@ -73,6 +73,9 @@ h3::after {
   padding-bottom: 2rem;
   list-style: "- ";
 }
+.ingredients-list > li {
+  padding-bottom: 0.4rem;
+}
 
 .img-recipe-info,
 .img-cooking-info {
@@ -88,4 +91,12 @@ h3::after {
 
 #directions {
   border: none;
+}
+
+.directions-list {
+  max-width: 80%;
+}
+
+.directions-list > li {
+  padding-bottom: 0.7rem;
 }
