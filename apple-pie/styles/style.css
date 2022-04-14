@@ -3,13 +3,18 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+body {
+  display: grid;
+  place-items: center;
+}
+
 .intro {
   background-image: url(../images/apple-pie.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat;
-  background-position: center; */
+  background-repeat: no-repeat;
+  background-position: center;
   height: 680px;
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +22,7 @@
 
 h1 {
   color: white;
-  font-size: 60px;
+  font-size: 100px;
   text-align: center;
 }
 
@@ -26,7 +31,8 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 25px;
+  /* padding: 25px; */
+  max-width: 700px;
 }
 
 p,
@@ -36,14 +42,13 @@ li {
 }
 .description {
   text-align: center;
-  width: 700px;
 }
 
 .ingredients {
   text-align: left;
-  width: 700px;
   border-top: 2px solid grey;
   border-bottom: 2px solid grey;
+  width: 100%;
 }
 section ul {
   list-style-type: none;
@@ -54,6 +59,14 @@ section ul {
 }
 
 .directions {
-  width: 810px;
   text-align: left;
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe img {
+  width: 400px;
 }
