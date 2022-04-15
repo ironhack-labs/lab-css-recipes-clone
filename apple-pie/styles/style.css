@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+#all-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* First Section ---- Apple Pie Title and Background Image */
+
+#first-section{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.title{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  font-size: 65px;
+  font-weight:300;
+}
+
+/* Second Section Info about the recipe  */
+#second-section{
+  border-bottom: 1px solid black;
+  height: 250px;
+  width: 80%;
+}
+
+#second-section >p{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size:22px
+}
+
+#img1-container{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#img1{
+  height: 60px;
+}
+
+/* Third Section list of ingredients */
+
+#third-section{
+  border-bottom: 1px solid black;
+  height: 400px;
+  width: 80%;
+}
+
+.h2-title{
+  padding: 25px 0;
+  font-weight: 500;
+}
+
+.list{
+  padding-left: 30px;
+  list-style: none;
+}
+
+
+ 
+#img2-container{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#img2{
+  height: 75px;
+}
+
+
+/* Fourth Section Directions  */
+
+#fourth-section{
+  height: 300px;
+  width: 80%;
+}
