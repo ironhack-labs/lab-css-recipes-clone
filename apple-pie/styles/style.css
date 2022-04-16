@@ -1,0 +1,22 @@
+
+
+header{
+     display:flex;
+     align-items: center;
+     color: white;
+     font-size: 100px;
+     justify-content: center;
+     
+}
+
+.backgroundImage
+{
+     background-image: url("/images/apple-piee.jpg");
+     background-size:contain;
+     position: relative;
+     height: 1290px;
+     background-repeat: no-repeat;
+     font-family: sans-serif;
+}
+
+
