@@ -1,0 +1,65 @@
+h1 {
+    color: white;
+    font-size: 150px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 450px;
+    margin-top: 0px;
+  
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+  
+    height: 700px;
+  }
+  
+  .presentation {
+    font-size: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 75px 75px;
+    margin: auto 300px;
+  }
+  
+  .indicaciones {
+    height: 200px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+  }
+  
+  .ingredients-section {
+    font-size: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 75px 75px;
+    margin: auto 300px;
+  }
+  
+  .receta {
+    height: 200px;
+    margin: 100px auto 50px 400px;
+  }
+  
+  
+  /* EXTRA I: CÓMO CAMBIAR LAS VIÑETAS PREDEFINIDAS DE TIPO PUNTO POR VIÑETAS DE TIPO GUIÓN EN UNA LISTA "UL" */
+  
+  .ingredients-section ul li{
+    list-style: none;
+  }
+  .ingredients-section ul li:before{
+    content: "- ";
+  }
+  
+  /* EXTRA II: CÓMO AÑADIR PARÉNTESIS A CONTINUACIÓN DEL NÚMERO EN UNA LISTA "OL" */
+  
+  #directions ol {
+    list-style: none;
+    counter-reset: list;
+  }
+  
+  #directions li:before {
+    content: counter(list) ') ';
+    counter-increment: list;
+  }
