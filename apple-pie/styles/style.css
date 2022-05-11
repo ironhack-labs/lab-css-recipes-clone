@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: 120%;
+}
+
+h1 {
+  position: absolute;
+  color: red;
+  font-weight: 400;
+  z-index: 1;
+  text-align: center;
+}
