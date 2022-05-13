@@ -7,3 +7,30 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+ .center {
+  display: block;
+  width: 50%;
+}
+
+.picture > img {
+  width: 100vw;
+  
+}
+
+header {
+  position: relative;
+}
+
+h1 {
+  display: inline;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+}
