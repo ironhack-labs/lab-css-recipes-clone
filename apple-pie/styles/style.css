@@ -13,9 +13,9 @@
 }
 
 h1 {
-  font-size: 140px;
+  font-size: 10rem;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -24,13 +24,50 @@ h1 {
 }
 
 .introduction {
-  width: 75vw;
-  padding: 10px;
+  width: 70vw;
+  padding: 10px 30px;
   margin: 50px auto 30px auto;
 }
 
 .introduction > p {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.9rem;
   color: black;
+}
+
+.separator {
+  width: 65vw;
+  margin: auto;
+}
+
+#recipe img {
+  margin: 2.5rem auto;
+  margin-left: 35vw;
+  width: 30vw;
+}
+
+h2 {
+  margin: 2.5rem auto;
+  width: 65vw;
+}
+
+ul {
+  margin: 2.5rem auto;
+  width: 65vw;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+.ingredients {
+  list-style-type: "- ";
+}
+
+.instructions {
+  list-style-type: decimal;
+}
+/* Managed to add a ')' after the numbered list, not sure how to replace the dot with this. */
+.instructions li:before {
+  content: ")";
 }
