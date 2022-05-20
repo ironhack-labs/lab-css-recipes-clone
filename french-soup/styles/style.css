@@ -16,7 +16,12 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 500;
-  color: #C64756;
+  color: #4D8B31;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 p {
@@ -42,7 +47,7 @@ p {
   align-items: center;
   height: 100vh;
   color: #fff;
-  background-color: #96BB7C;
+  background-color: #4D8B31;
   background-image: url(../images/soup.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -77,10 +82,56 @@ img {
   padding-bottom: 20px;
 }
 
-.recipe-info {
-
+.info-container, .prep-container {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
 }
 
-.cooking-info {
-  
+.info-container div {
+  padding: 10px;
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+	align-items: center;
+}
+
+.info-icons {
+  padding: 10px;
+  font-size: 24px;
+  color: #4D8B31;
+}
+
+.prep-container div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.prep-container h3 {
+  color: #4D8B31;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.prep-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.prep-container span {
+  color: #000;
+  font-weight: 400;
+}
+
+.prep-icon {
+  padding: 10px;
+  font-size: 36px;
+  color: #4D8B31;
 }
