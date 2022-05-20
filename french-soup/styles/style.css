@@ -1,9 +1,86 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap');
+
+html,body {
+  font-family: 'Noto Sans', sans-serif;
+  margin:0;
+  padding:0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+/** Text **/
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #C64756;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/** General **/
+
+.separator {
+  padding: 20px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  background-color: #96BB7C;
+  background-image: url(../images/soup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  border-bottom: 1px solid #000;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+#ingredients ul li {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+#directions ol li {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.recipe-info {
+
+}
+
+.cooking-info {
+  
 }
