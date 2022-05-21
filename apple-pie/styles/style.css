@@ -1,21 +1,28 @@
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
   .header {
     display: flex;
     background-color: blue;
     justify-content: center;
     align-items: center;
-    height: 1200px;
+    height: 60rem;
+    background: url(../images/apple-pie.jpg);
+    background-size: cover;
   }
 
   h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9em;
+    font-size: 9rem;
     font-weight: lighter;
   }
 
   .gen-info-section {
     display: flex;
-    padding: 90px 90px;
+    padding: 5.5rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -23,13 +30,13 @@
 
   .explanation {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+    font-size: 2rem;
     color: #4B4443;
-    padding-bottom: 75px;
+    padding-bottom: 5rem;
   }
 
   .image {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 
   hr {
@@ -42,28 +49,41 @@
 
   .ingredients-section {
     display: flex;
-    padding: 0 90px;
+    padding: 0 5.5rem 5.5rem 5.5rem;
     flex-direction: column;
   }
 
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: lighter;
     letter-spacing: 1px;
   }
 
-  ul {
+  ul li {
     list-style-type: '-';
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     color: #4B4443;
-    line-height: 2em;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
   }
 
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .directions-section {
+    display: flex;
+    padding: 0 5.5rem 5.5rem 5.5rem;
+    flex-direction: column;
+  }
+
+  ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: #4B4443;
+    list-style-type: none;
+    line-height: 2.7rem;
   }
