@@ -350,6 +350,80 @@
   }
 
 .header {
-    background-image: url(images/apple-pie.jpg);
+    background-image: url(../images/apple-pie.jpg);
     height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 350;
+}
+
+p {
+    font-weight: 400;
+}
+
+li {
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 15rem;
+    border-bottom: 1px solid;
+}
+
+.description > p {
+    margin: 0;
+    text-align: center;
+}
+
+.description > img {
+    width: 30rem;
+    align-self: center;
+}
+
+.ingredients {
+    display: flex;
+    margin: 0 15rem;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem 15rem;
+    border-bottom: 1px solid;
+}
+
+.ingredients > ul {
+    list-style-type: none;
+}
+
+.ingredients > ul > li::before {
+    content: "- ";
+}
+
+.ingredients > img {
+    width: 30rem;
+    align-self: center;
+}
+
+.directions {
+    display: flex;
+    margin: 0 15rem;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem 15rem;
+}
+
+
