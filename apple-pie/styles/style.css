@@ -30,14 +30,16 @@ h1 {
 }
 
 section {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 h2 { 
     color: rgba(15, 15, 15, 0.958);
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-top: 80px;
     margin-bottom: 40px;
 }
@@ -47,17 +49,17 @@ h2 {
 }
 
 .recipe-info-img img {
-    width: 350px;
+    width: 450px;
 }
 
 hr {
-    width: 750px;
+    width: 1090px;
     margin-top: 25px;
     border: 1px solid rgba(15, 15, 15, 0.404);
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 27px;
     font-weight: 590;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -69,7 +71,7 @@ ul {
 }
 
 li {
-    font-size: 17px;  
+    font-size: 18px;  
     text-align: start;
 }
 
@@ -78,9 +80,9 @@ li {
 }
 
 .cooking-info-img img { 
-    width: 325px;    
+    width: 350px;    
 }
 
 ol {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }

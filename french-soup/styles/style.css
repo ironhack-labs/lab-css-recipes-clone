@@ -6,9 +6,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-body,
-html,
-main {
+body, html, main {
   margin: 0;
 }
 
@@ -85,5 +83,5 @@ li {
 }
 
 ol {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
