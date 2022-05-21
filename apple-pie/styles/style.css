@@ -8,7 +8,7 @@
     background-color: blue;
     justify-content: center;
     align-items: center;
-    height: 60rem;
+    height: 65rem;
     background: url(../images/apple-pie.jpg);
     background-size: cover;
   }
@@ -33,6 +33,7 @@
     font-size: 2rem;
     color: #4B4443;
     padding-bottom: 5rem;
+    line-height: 2.7rem;
   }
 
   .image {
@@ -60,12 +61,13 @@
     letter-spacing: 1px;
   }
 
-  ul li {
+  ul {
     list-style-type: '-';
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #4B4443;
-    margin-bottom: 3rem;
+    line-height: 2.7rem;
+    margin-bottom: 5rem;
   }
 
   .center {
@@ -82,7 +84,7 @@
 
   ol {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #4B4443;
     list-style-type: none;
     line-height: 2.7rem;
