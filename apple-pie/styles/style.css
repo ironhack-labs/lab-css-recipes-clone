@@ -365,14 +365,17 @@ h1 {
 }
 
 h2 {
+    font-size: 1.7rem;
     font-weight: 350;
 }
 
 p {
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
 li {
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5rem;
 }
@@ -384,11 +387,6 @@ li {
     justify-content: center;
     margin: 3rem 15rem;
     border-bottom: 1px solid;
-}
-
-.description > p {
-    margin: 0;
-    text-align: center;
 }
 
 .description > img {
@@ -414,7 +412,7 @@ li {
 }
 
 .ingredients > img {
-    width: 30rem;
+    width: 25rem;
     align-self: center;
 }
 
