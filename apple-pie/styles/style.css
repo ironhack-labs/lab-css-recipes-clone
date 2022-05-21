@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+.photoH1{
+    height: 650px;
+    width: 100%;
+}
+.header-conteiner{
+    position: relative;
+}
+.image-info{
+    width: 450px;
+    height: 100px;
+    object-position: center;
+    margin-left: 350px;
+}
+.center{
+    font-size: 16px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.center-tex{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 50px;
+}
