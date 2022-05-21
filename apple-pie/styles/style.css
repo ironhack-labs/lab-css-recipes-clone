@@ -12,6 +12,11 @@ h1 {
 }
 
 #small-image {
-    margin-left: 450px;
-    margin-right: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto
 }
