@@ -1,9 +1,89 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+  font-family: font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+#home {
+  width: 100%;
+  height: 115vh;
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 110px;
+  font-weight: 400;
+  text-align: center;
+}
+
+section {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+h2 {
+  color: rgba(15, 15, 15, 0.678);
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+
+.recipe-info-img {
+  text-align: center;
+}
+
+.recipe-info-img img {
+  width: 450px;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 1090px;
+  margin-top: 25px;
+  border: 1px solid rgba(15, 15, 15, 0.404);
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: 590;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-bottom: 40px;
+  list-style-type: "- ";
+}
+
+li {
+  font-size: 18px;
+  text-align: start;
+}
+
+.cooking-info-img {
+  text-align: center;
+}
+
+.cooking-info-img img {
+  width: 350px;
+}
+
+ol {
+  margin-bottom: 40px;
 }

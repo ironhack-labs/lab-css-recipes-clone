@@ -6,7 +6,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-body {
+body, html, main {
     margin: 0;
 }
 
