@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    font-family: font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;    
+}
+
+section {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h2 { 
+    color: rgba(15, 15, 15, 0.958);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.recipe-info-img {
+    text-align: center;
+}
+
+.recipe-info-img img {
+    width: 350px;
+}
+
+hr {
+    width: 750px;
+    margin-top: 25px;
+    border: 1px solid rgba(15, 15, 15, 0.404);
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 590;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-bottom: 40px;
+    list-style-type: "- ";
+}
+
+li {
+    font-size: 17px;  
+    text-align: start;
+}
+
+.cooking-info-img {
+    text-align: center;
+}
+
+.cooking-info-img img { 
+    width: 325px;    
+}
+
+ol {
+    margin-bottom: 40px;
+}
