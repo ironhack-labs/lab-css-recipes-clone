@@ -36,3 +36,6 @@ body{
     text-align: center;
     margin: 10px 50px;
 }
+.table-style{
+    list-style-type: none;
+}
