@@ -1,9 +1,83 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+.header {
+  display: flex;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 150px;
+  color: white;
+  font-weight: 500;
+}
+
+.section1 {
+  margin: 120px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1 p {
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+
+.section1 img {
+  width: 35%;
+}
+
+hr {
+  border-top: 2px solid rgb(83, 83, 83);
+  width: 100%;
+  margin-top: 80px;
+}
+
+.section2 {
+  margin: 120px 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(58, 58, 58)
+}
+
+.section2 li {
+  font-size: 25px;
+  color: rgb(83, 83, 83);
+  list-style-type: '- ';
+}
+
+.section2 img {
+  width: 35%;
+  margin: auto;
+}
+
+.section3 {
+  margin: 120px 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.section3 li {
+  font-size: 25px;
+  color: rgb(83, 83, 83);
+  list-style-type: '';
+  }
 }
