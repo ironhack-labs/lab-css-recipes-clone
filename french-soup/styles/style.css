@@ -1,9 +1,62 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap');
+
+
+body {
+  font-family: Roboto Condensed; 
+  font-size: 11px;
+  width: 400px;
+  margin: 8px 8px;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+
+
+.backima {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  height: 275px;
+  width: 115%;
+  color: white;
+  background-position: bottom ;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.title {
+  font-size: 37px;
+    font-weight: 580;
+    letter-spacing: 2px;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  inline-size: 60%;
+  
+}
+
+.line {
+  border-bottom: 1px solid gray; 
+  margin: 0 40px;
+}
+.footermargin {
+  padding: 50px;
+}
+section {
+  margin: 25px 40px 10px 40px; 
+  
 }
