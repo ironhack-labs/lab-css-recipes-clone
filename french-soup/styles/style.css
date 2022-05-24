@@ -1,9 +1,61 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
+  font-family: Arial;
+  font-size: 14px;
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ 
+h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.french-soup-comments {
+  margin-top: 80px;
+}
+
+.french-soup-container {
+  margin: 0px 200px;
+}
+
+.french-soup-image-container {
+  background-image: url('../images/soup.jpg');
+  background-size: 100%;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-info {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border-bottom: 2px solid gray;
+}
+ 
+.cooking-info-onion-soup {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border-bottom: 2px solid gray;
+}
+
+.ingredients {
+    margin: 60px;
+    font-size: medium;
+}
+
+.directions {
+    margin: 60px;
+    font-size: medium;
+}
+
+h2 {
+  font-size: 16px;
 }
