@@ -1,9 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  color: #333;
+  background-color: #333;
+  width: 75vw;
+}
+
+/* First Section: Recipe Name */
+
+.recipe-name {
+  background-image: url(../images/soup.jpg);
+  background-size: 100% auto;
+  background-position: bottom;
+  height: 650px;
+  width: 600px max-width(1000px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-name h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.recipe-intro {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 250px 20px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.recipe-info,
+.cooking-info {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 250px 30px;
+}
+
+/* Second Section: Ingredients */
+
+.ingredient-list {
+  margin: 60px 250px 50px;
+}
+
+.ingredient-list h3 {
+  font-size: 2rem;
+}
+
+.ingredient-list li {
+  font-size: 1.3rem;
+}
+
+/* Third Section: Preparation */
+
+.preparation-step {
+  margin: 60px 250px 120px;
+}
+
+.preparation-step h3 {
+  font-size: 2rem;
+}
+
+.preparation-step li {
+  font-size: 1.3rem;
 }
