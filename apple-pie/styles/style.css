@@ -23,7 +23,7 @@ li {
     list-style-type: none;
 }
 
- section img {
+section img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +36,10 @@ section {
     padding-right: 200px;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+ul {
+    padding: 0px;
 }
 
 
