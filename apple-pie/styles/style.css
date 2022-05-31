@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-img {
+    position: relative;
+    height: 100%; 
+    width: 100%; 
+    /* object-fit: contain; */
+}
+
+.hero-intro {
+    position: absolute;
+    color: white;
+    margin: 0 auto;
+    font-size: 6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.recipe-intro {
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.section-headline {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.recipe-facts {
+    display: flex;
+    justify-content: center;
+}
+
+.section-spacing {
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+
+#recipe-info {
+    height: 50px;
+    display: flex;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.break {
+    margin-top: 2rem;
+}
+
+.ingredients {
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+
+.ingredient-items {
+    font-size: 16px;
+    list-style: none;
+}
+
+#cooking-info {
+    display: flex;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.directions {
+    padding-bottom: 5rem;
+}
+
