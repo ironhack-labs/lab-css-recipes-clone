@@ -66,12 +66,6 @@ body {
     margin-top: 2rem;
 }
 
-.ingredients {
-    padding-left: 10rem;
-    padding-top: 2rem;
-    padding-right: 10rem;
-}
-
 .ingredient-items {
     font-size: 16px;
     list-style: none;
