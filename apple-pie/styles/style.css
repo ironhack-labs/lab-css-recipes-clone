@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url(../images/apple-pie.jpg);
+    background-image: url("../images/apple-pie.jpg");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,6 +20,9 @@ h1 {
 p {
     align-items: center;
     font-size: 15px;
+}
+section {
+    margin: 50px;
 }
 .recipe-information {
     font-size: 25px;
