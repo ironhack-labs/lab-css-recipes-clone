@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-	height: 100vh;
+	height: 600px;
 	background-image: url(/apple-pie/images/apple-pie.jpg);
 	background-size: cover;
 	display: flex;

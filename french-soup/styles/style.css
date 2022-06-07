@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-	height: 100vh;
+	height: 600px;
 	background-image: url(/french-soup/images/soup.jpg);
 	background-size: cover;
 	display: flex;
