@@ -1,16 +1,19 @@
 .apple {
+
     background-image: url('../images/apple-pie.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:800px;
     width:auto;
-    margin-top: 0px;
+    margin: -10px -10px 0px -10px;
+    display: flex;
 }
 .appletext{
+    display: flex;
+    width:100%;
     color: white;
-    margin: 0% 0%;
-    text-align:center;
-    padding-top: 300px;
+    justify-content:center;
+    align-items: center;
     font-size: 100px;
 }
 body{
