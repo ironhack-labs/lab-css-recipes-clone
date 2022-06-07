@@ -1,0 +1,38 @@
+html {
+font-family: sans-serif;
+}
+.intro {
+    text-align: center;
+}
+.contents {
+    padding:100px;
+}
+.cover {
+    background-image:url("/Users/h/Desktop/Ironhack/Labs/Labs-mod1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sectionFooter {
+    padding:20px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid gray;
+}
+.img {
+    height: 80px;
+    } 
+ul {
+    list-style-type: none;
+}
+ul li:before {
+    content: '-'
+}
