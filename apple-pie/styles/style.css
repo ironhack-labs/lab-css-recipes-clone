@@ -1,15 +1,28 @@
  
 
   h1 {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       text-align: center;
+      padding-top: 280px;
   }
 
-img {
-  width: 125px;
-  align-items: center;
+ .background {
+   background-image: url("../images/apple-pie.jpg");
+   background-size:cover;
+   height: 612px;
   }
 
   p{ 
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 70px;
   }
+
+  img {
+    display: flex;
+   justify-content: center;
+   border-top: 25px;
+   border-color: black;
+  }
+  
