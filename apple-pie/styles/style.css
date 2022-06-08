@@ -1,0 +1,14 @@
+.header {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    color: azure;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
