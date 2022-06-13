@@ -1,0 +1,7 @@
+@import url(/apple-pie/styles/components/.card-apple-pie);
+
+.section {
+  text-align: center;
+  margin: 32px;
+  padding: 32px;
+}
