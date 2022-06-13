@@ -7,7 +7,9 @@ body {
 }
 
 .main-header {
-    background-image: url(../images/apple-pie.jpg);
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   text-align: center;
   /* color: whit; */
