@@ -7,3 +7,9 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}

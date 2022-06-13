@@ -1,0 +1,33 @@
+
+h1, body, html, main {
+    margin: 0%;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+  #header {
+    position: absolute;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+ h1 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40%;
+    padding-bottom: 40%;
+ }
+ section {
+    margin-top: 3em;
+    margin-left: 4%;
+    margin-right: 4%;
+ }
+.instructions {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+}
