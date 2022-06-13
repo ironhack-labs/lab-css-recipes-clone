@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: 100%;
+    padding: 6vw;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    letter-spacing:2px;
+    font-weight: bolder;
+}
+
+section {
+    border-bottom: 1px solid grey;
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    margin: 0 3.5rem 0 3.5rem;
+}
+
+section {
+    font-size: 1.5vw;
+}
+
+section img {
+    display: block;
+    margin: 1.5rem auto auto;
+    max-width: 50%;
+}
