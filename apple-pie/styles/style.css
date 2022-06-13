@@ -1,4 +1,4 @@
-@import url(/apple-pie/styles/components/.card-apple-pie);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 body {
   text-align: center;
@@ -8,7 +8,26 @@ body {
 
 h2, ul {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-#intro {
+h2 {
+  border-top: solid grey;
+}
+
+section {
+  margin: 300px;
+  height: 20px;
+  padding-top: 20px;
+}
+
+.card-apple-pie {
+  background-size: cover;
+  color: white;
+  width: auto;
+  height: 500px;
+  justify-content: center;
+
+
 }
