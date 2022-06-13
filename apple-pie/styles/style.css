@@ -6,20 +6,26 @@ body {
   padding: 0;
 }
 
-h2, ul {
+h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
 }
 
 h2 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
   border-top: solid grey;
+  padding: 40px 40px 40px 40px;
+  margin-top: 32px;
+
+}
+
+ul {
+ text-align: left;
 }
 
 section {
-  margin: 300px;
-  height: 20px;
-  padding-top: 20px;
+
 }
 
 .card-apple-pie {
