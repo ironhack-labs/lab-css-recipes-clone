@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    width: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    position: relative;
+    text-align: center;
+    width: 100% ;
+}
+
+p {
+    text-align: left;
+    color : #666;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color : #666;
+}
+
+ul {
+    list-style: square;
+    color : #666;
+}
+
+ol {
+    list-style: decimal;
+    color : #666;
+}
+
+.texte {
+    width: 90%;
+}
