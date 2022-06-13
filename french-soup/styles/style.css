@@ -1,9 +1,67 @@
-/*Some necessary adjustments*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.center {
+  height: 300px;
+  background: url('/french-soup/images/soup.jpg') no-repeat center center;
+  background-size: cover; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;  
+  font-weight: 100; 
+} 
+
+.intro {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cooking {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#full-recipe {
+  margin: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+/*Import the font and set the default size
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
-}
+} */
