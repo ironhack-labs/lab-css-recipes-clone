@@ -1,0 +1,32 @@
+header img {
+  max-width: 828px;
+  height: auto;
+}
+
+body img{
+  margin: auto;
+  display: block;
+}
+
+header h1 {
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  text-align: center;
+}
+/* not happy with this, but for the first version/try ok */
+
+h2 {
+  text-align: center;
+}
+
+section {
+  margin-left: 20%;
+}
+
+p {
+  text-align: center;
+}
