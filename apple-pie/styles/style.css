@@ -2,8 +2,22 @@ body {
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 30px 70px;
+    text-align: center;
+    font-weight: lighter;
 }
 
+#allsections {
+    border-bottom: 10px;
+    border-bottom-color: black;
+}
+
+.image {
+    height: 70px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*header*/
 
 .header {
     
@@ -20,28 +34,58 @@ h1 {
     border-radius: 10px;
     border-color: black;
     text-align: center;
+    font-weight: lighter;
 }
 
-.image {
-    size: 400px;
-}
+
+
+
+/*cooking-info*/
 
 .cooking-info {
-    
+    height: 150px;
     text-align: center;
     font-size: 25px;
     margin-top: 50px;
-    margin-bottom: 50px;
     border-bottom: 10px;
     border-color: black;
+    margin-bottom: 0;
+}
+
+
+h2 {
+    text-align: left;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+
+/*ingredients*/
+
+.ingredients {
+    font-size: 20px;
+    border-top: 10px black;
+    padding-top: 50px;
+    
 }
 
 .list li {
 
     list-style-type: none;
     text-align: left;
+
+
 }
 
-.recipe {
+
+/*directions*/
+
+.directions {
+    hyphens: auto; 
+    text-align: justify;
     font-size: 20px;
+    border-top: 10px black;
+    
+    
 }
+
