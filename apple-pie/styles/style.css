@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+#header {
+ background-image: url("C:\Users\Usuario\Documents\Bootcamp\Week 1\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+ background-size: cover;
+ height: 100%;
+ text-align: center;
+}
+ 
+header img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    position: relative;  
+}
+
+.introduction {
+    text-align: center;
+    padding: 2em 2em;
+    margin: 1em 3em;
+    box-sizing: border-box;
+}
+
+.about-recipe-img {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 1em 3em;
+    margin: auto 5em;
+}
+
+.cooking-info {
+    max-width: 60%;
+}
+
+h2 {
+    margin-left: 3em;
+}
+
+.directions {
+   
+    box-sizing: border-box;
+    margin: 2em 2em 3em 2em;
+  
+}
+
+.directions ol {
+    padding: 1em 5em;
+}
+
+.ingredients {
+    box-sizing: border-box;
+    margin: 2em 2em 3em 4em;
+}
