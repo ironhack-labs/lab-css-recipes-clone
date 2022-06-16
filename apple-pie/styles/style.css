@@ -1,63 +1,73 @@
-html,body{
-    height: 100%;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: .5em;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5em;
 }
 
-header{
-    position: relative;
-    height: 60%;
-    color: white;
+header {
+  position: relative;
+  height: 60%;
+  width: 95%;
+  color: white;
+  margin: 0.5em;
 }
-header img{
-    top: 0;
-    width: 100%;
-    height: 100%;
-    color: white;
+header img {
+  width: 100%;
+  height: 100%;
+  color: white;
 }
-header h1{
-    position: absolute;
-    left: 30%;
-    top: 30%;
-    z-index: 2;
-    font-weight: 100;
-    font-size: 8vw;
-}
-
-section{
-    font-size: 1em;
-    color: grey;
-    width: 100%;
+header h1 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  z-index: 2;
+  font-weight: 100;
+  font-size: 8vw;
 }
 
-section span{
-    padding: 2.5em 2.5em 1.5em 2.5em;
-    margin: auto;
-    display: block;
-    width: 90%;
-    text-align: center;
+section {
+  font-size: 1em;
+  color: grey;
+  width: 100%;
 }
 
-section img{
-    display: block;
-    margin: auto;
-    width: 18em;
-    clear: both;
+section span {
+  padding: 2.5em 1.5em 0 2.5em;
+  margin: auto;
+  display: block;
+  width: 80%;
+  text-align: center;
 }
 
-hr{
-    width: 80%;
-    height: 1px;
-    background: darkgray;
+section img {
+  display: block;
+  margin: auto;
+  width: 17em;
+  clear: both;
+  margin-top: 2em;
 }
 
-section h3,ol,ul{
-    width: 70%;
-    margin-left: 4em;
+hr {
+  width: 80%;
+  height: 1px;
+  background: darkgray;
+  margin-bottom: 2em;
 }
 
-section:nth-last-child(2){
-    margin-bottom: 2em;
-    padding-bottom: 2em;;
+section h3,
+ol,
+ul {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+section:nth-last-child(2) {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
