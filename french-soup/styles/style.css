@@ -87,3 +87,26 @@ section:nth-last-child(1) {
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: " - ";
+  text-indent: -5px;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+  margin: 0.2em;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
