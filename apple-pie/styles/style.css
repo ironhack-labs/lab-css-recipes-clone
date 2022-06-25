@@ -1,0 +1,76 @@
+
+*{
+    padding: 25;
+    margin: 1;
+}
+body{
+width: 100%;
+height: auto;
+background-color: white;
+}
+
+.text-over-image{
+    width: 80%;
+    margin: 4% 10% 30% 10%;
+}
+
+.text-over-image img{
+width: 100%;
+}
+
+.text{
+width: 100%;
+position: relative;
+margin-top: -55%;
+}
+
+.text h1{
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.coocking-info img{
+    width: 35%;
+ 
+
+    }
+.line-2 {
+        border-top: 1px solid black;
+        margin-left: 220px;
+        margin-right: 250px;
+      }
+
+.coocking-info2 img{
+        width: 40%;
+
+        }
+
+        ul {
+            list-style-type: '- ';
+        }
+
+.text_ {
+    text-align: relative;
+    color: black
+    margin: 4% 4% 4% 4%;
+    font-size 10;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-left: 180px;
+    margin-right: 380px;
+    
+</style>
+    
+}
+
+.intro{
+ text-align: center;
+}
+
