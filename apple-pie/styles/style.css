@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;   
+    color:darkslategray;  
+}
+
+.container {
+    border: 800px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color:antiquewhite; 
+    font-size: 60px; 
+    font-weight: bold; 
+    position: absolute; 
+    left: 250px; 
+    top: 250px
+}
+
+#item2 {
+    border: solid white 30px;
+    font-size: larger;
+    text-align: justify;
+    
+}
+
+#item3 {
+    text-align: center;
+    border: solid #BFBFBF;
+    border-width: 0 0 2px 0; 
+    ;
+}
+
+
+
+#item5 {
+    text-align: center;
+    border: solid #BFBFBF;
+    border-width: 0 0 2px 0;
+}
