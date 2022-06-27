@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body {
+	margin-bottom: 30px;
+	display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#apple-pie-img {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    height: 600px;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 600px;
+    color: white;
+}
+
+.recipe {
+    text-align: center; 
+    padding: 75px;
+    margin-left: 10%;
+}
+
+.description, .ingredient, .directions {
+    text-align: left;
+}
+
+
+h3 {
+    padding-bottom: 1em;
+}
+
+ul, ol {
+    list-style: none;
+  }
+
+  ul li::before {
+    content: "- ";
+  }
+
+  ol li::before {
+    content: counter(list-item)  ") ";
+  }
+
+  .description img {
+    width: 21rem;
+     margin: 1.5rem 0 0.75rem 25%; 
+  }
+
+  .ingredient img {
+    width: 17rem;
+    padding: 1.5rem 0 1.5rem 0;
+    margin: 0.75rem 0 0 25%;
+  }
+
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:darkgrey;
+    height: 2px;
+    margin-bottom: 2rem;
+  }
