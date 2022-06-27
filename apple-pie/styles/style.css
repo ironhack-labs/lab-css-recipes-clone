@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+.dark-grey{
+    color: rgb(86, 86, 86);
+}
+
+.main-title{
+    position: absolute;
+    color: white;
+}
+
+.bb{
+    border-bottom: solid 1px rgb(86, 84, 84);
+}
+
+.light-black{
+    color: rgb(33, 32, 32);
+}
+
+.section{
+    padding: 6% 6% 2% 0;
+    margin: auto;
+    max-width: 70%;
+}
+
+.description{
+    line-height: 1.25rem;
+}
+
+.indications{
+    padding-top: 1.5rem;
+    width: 65%;
+    max-width: 400px;
+}
+
+.list{
+    margin-top: 1.5rem;
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+.title-2{
+    font-size: 1.125rem;
+}
+
+.steps{
+    padding-top: 1.5rem;
+}
+
+/*Clases de layout*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-center{
+    margin: auto;
+}
+
+.indications-cook{
+    width: 50%;
+    max-width: 350px;
+    padding-top: 1.5rem;
+}
