@@ -80,3 +80,7 @@ ul {
 ol li::marker {
   content: counter(list-item) ") ";
 }
+
+ul li::marker {
+  content: '- '
+}
