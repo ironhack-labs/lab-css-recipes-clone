@@ -2,14 +2,11 @@
 
 body {
   font-family: "roboto";
-  display: flex;
-  flex-direction: column;
 }
 
 header {
   position: relative;
   text-align: center;
- 
 }
 
 header h1 {
@@ -19,73 +16,67 @@ header h1 {
   text-align: center;
   color: white;
   transform: translate(-50%, -50%);
-  display: flex;  
-  align-items: center;
 }
 
 header img {
-  width: 900px;
-  height: 600px;
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 #intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 5px solid grey;
-    padding-bottom: 100px;
+  border-bottom: 5px solid grey;
+  padding-bottom: 100px;
+  margin: 0 20%;
 }
 
 #intro h2 {
-    text-align: justify;
-    margin: 10px 100px;
-    font-size: 20px;
-    margin-top: 50px;
-    display: flex;
-    justify-items: center;
-   
+  text-align: justify;
+  margin: 10px 100px;
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-items: center;
 }
 
-#intro img {   
-    padding: 0px 200px;   
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    
+#intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #ingredients {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 5px solid grey;
-    padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 5px solid grey;
+  padding-bottom: 100px;
+  margin: 0 20%;
+  text-align: left;
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-#ingredients img {  
-    width: 40%;   
+#ingredients img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #directions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
 }
 
 ol li::marker {
-    content: counter(list-item) ")";  
+  content: counter(list-item) ") ";
 }
-
