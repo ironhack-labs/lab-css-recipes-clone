@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: flex;
+}
+
+#onion-soup-img {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 400px;
+  padding: 10%;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
 }
