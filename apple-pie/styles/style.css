@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  font-family: "roboto";
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  text-align: center;
+ 
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%);
+  display: flex;  
+  align-items: center;
+}
+
+header img {
+  width: 900px;
+  height: 600px;
+  
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+    padding-bottom: 100px;
+}
+
+#intro h2 {
+    text-align: justify;
+    margin: 10px 100px;
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-items: center;
+   
+}
+
+#intro img {   
+    padding: 0px 200px;   
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+    padding-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+#ingredients img {  
+    width: 40%;   
+}
+
+#directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ol li::marker {
+    content: counter(list-item) ")";  
+}
+
