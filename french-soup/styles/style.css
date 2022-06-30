@@ -1,9 +1,58 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+* {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: #555454;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+hr {
+  margin: 20px 0;
+}
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+ul {
+  list-style: circle;
+  margin-bottom: 50px;
+}
+
+/*Top banner*/
+.banner-top {
+  width: 100%;
+  position: relative;
+}
+
+.header-title {
+  font-size: 7em;
+
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-box {
+  margin: 0 50px;
+}
+
+/*short description*/
+
+.short-description p {
+  font-size: 1.3em;
+  padding: 30px 0;
+}
+.info-image {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.directions {
+    margin-bottom: 100px;
 }
