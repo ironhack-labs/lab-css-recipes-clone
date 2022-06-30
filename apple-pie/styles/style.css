@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-zone {
+    background-image: url(/images/apple-pie.jpg);
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-weight:300;
+}
+
+.description, .directions {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid gray;
+}
+
+.description p {
+    font-weight: 200;
+}
+
+
+.recipe-info {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.recipe-info img {
+    width: 300px;
+}
+
+.ingredients {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    border-bottom: 2px solid gray;
+
+}
+
+h2{
+    font-weight: 100;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+
+.ingredients ul {
+    margin-bottom: 30px;
+    padding:0;
+}
+
+.ingredients li {
+    list-style:none;
+    font-weight: 100;
+}
+
+.ingredients li::before {
+    content: "- "
+}
+
+.cooking-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingredients img {
+    width: 300px;
+}
+
+.directions ol {
+   padding-left:20px;
+}
+
+.directions ol p {
+    font-weight: 100;
+}
+
+.directions {
+    border: 0;
+    margin: 0 auto;
+}
