@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: sans-serif, Arial;
+    font-size: 28px;
+}
+
+header {
+    background-image: url("https://github.com/crisarco/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true" );
+    background-position: inherit;
+    float: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+      
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+    padding-right: 180px;
+    
+
+}
+
+.introtext {
+    text-align: center;
+   
+}
+
+.introimg {
+    width: 500px;
+    
+    
+}
+
+hr {
+    width: 1000px;
+}
+
+.ingredients, .directions  {
+    font-size: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight:bold;
+}
+
+
+
