@@ -1,12 +1,15 @@
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     
 }
 
 body {
     font-family: sans-serif, Arial;
-    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header {
@@ -16,27 +19,33 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
     color: white;
     font-weight: lighter;
       
 }
 
-.intro {
+.container-intro {
     display: flex;
     flex-direction: column;
     padding-left: 180px;
     padding-right: 180px;
+    justify-content: center;
+    align-items: center;
     
 
 }
 
 .introtext {
     text-align: center;
+    font-size: 34px;
    
 }
 
@@ -47,18 +56,38 @@ h1 {
 }
 
 hr {
-    width: 1000px;
+    width: 1200px;
+    height: 2px;
+    background-color: grey;
 }
 
 .ingredients, .directions  {
     font-size: 20px;
     padding-left: 170px;
     padding-right: 170px;
+    justify-items: left;
+    line-height: 28px;
+    
 }
 
 .subtitle {
     font-size: 22px;
     font-weight:bold;
+}
+
+
+.container-cooking-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cooking-img {
+    width: 30%;
+    
+    
+    
+    
 }
 
 
