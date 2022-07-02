@@ -13,12 +13,67 @@ html {
 
 header {
   background-image: url(/images/soup.jpg);
-  height: 500px;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
   color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 div {
   height: 1px;
   background-color: gray;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h1, h3 {
+  font-weight: 300;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li:before { 
+  content: '- ' }
+
+  ul {
+    padding-inline-start: 5px;
+  }
+
+h3 {
+  font-size: 1.3em;
+}
+
+img {
+  align-self: center;
+  height: 64px;
+  padding-bottom: 40px;
+}
+
+#intro, .sec {
+  padding-top: 40px;
+}
+
+ol {
+  margin-bottom: 100px;
 }
