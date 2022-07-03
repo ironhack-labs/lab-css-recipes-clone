@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 90vh;
+    background-image: url(/images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.title{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 60px;
+}
+/*-------------------------*/
+.comment-container{
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.comment{
+    float: left;
+    text-align: justify;
+    width: 100%;
+    padding: 80px 0px 10px 0px;
+}
+
+.im-recipe-info{
+    float:left;
+    padding: 1% 20% 1% 20%;
+}
+
+.line{
+    margin: 0 auto;
+    width: 80vw;
+    border-width: 2px;
+    clear: both;
+}
+
+.ingredients-container{
+    margin: 5% auto 5% auto;
+    width: 80vw;
+}
+
+.title-ingredients{
+    margin: 0 0 10px 0;
+}
+
+.list-ingredients{
+    list-style-type:'- ';
+}
+
+.im-cooking-info{
+    float:left;
+    padding: 1% 20% 1% 20%;
+}
+
+.directions-container{
+    clear: both;
+    margin: 5% auto 5% auto;
+    width: 80vw;
+}
+
+.title-directions{
+    margin: 0 0 10px 0;
+}
+
+.list-directions{
+    counter-reset: list;
+    text-align: justify;
+}
+.list-directions>li{
+    list-style: none;
+}
+.list-directions>li::before{
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
