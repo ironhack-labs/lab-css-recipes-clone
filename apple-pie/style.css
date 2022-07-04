@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+}
+
+hr{
+    width: 80%;
+}
+
+.heading-div{
+    background-image: url(./images/apple-pie.jpg);
+    position: relative;
+    width: 1400px;
+    height: 700px;
+}
+
+.grandma-recipe{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: space-around;
+}
+
+.grandma-text{
+    font-size: 30px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.recipe-info-img{
+    width:600px;
+
+}
+
+.apple-pie-heading{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 300px;
+    font-weight: 500;
+}
+
+.ingredients-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    text-align: left;
+    width: 100%;
+}
+
+.ingredients-list{
+    margin: 30px;
+    font-size: 30px;
+
+
+}
+
+.cooking-img{
+    width:500px;
+}
+
+.directions-div{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.directions-list{
+    font-size:30px;
+    text-align: left;   
+}
+
+.list-head{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
