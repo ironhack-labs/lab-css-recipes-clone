@@ -64,6 +64,10 @@ ul {
   padding-bottom: 30px;
 }
 
+.bottom-page {
+    padding-top: 30px;
+}
+
 ol {
   width: 550px;
   padding-left: 220px;
