@@ -1,3 +1,4 @@
+/*general styles*/
 *,
 *:before,
 *:after {
@@ -6,6 +7,7 @@
   padding: 0;
 }
 
+/*added margin-bottom to the body just to be able to scroll down*/
 body{
   margin-bottom: 1000px;
 }
@@ -15,10 +17,13 @@ hr{
   height: 3px;
 }
 
+/*gave the header 100% width to make the background cover the entire page*/
 header{
   width: 100%;
 }
 
+/*gave 1000px of height so the image could fully displayed
+the padding-top of 500px was used to center the text*/
 .title{
   background-image: url("../images/apple-pie.jpg");
   background-size:cover;
@@ -30,6 +35,7 @@ header{
   font-size: 100px;
 }
 
+/*the padding of 25% on the sides was used to center the text*/
 .grandma-recipe{
   margin-top: 100px;
   padding: 0 25%;
@@ -37,13 +43,12 @@ header{
   font-size: 25px;
 }
 
+/*centering the image by trial and error*/
 .recipe-info{
-  margin: 75px 0 0 450px; 
-
- 
+  margin: 75px 0 0 350px; 
 }
 
-
+/* class used to target both lists*/
 .recipe-ingredients{
   margin: 50px 0px 0 230px;
   font-size: 22px;
@@ -70,8 +75,9 @@ header{
  
 }
 
+/*centering the image by trial and error*/
 .cooking-info{
-  margin: 75px 0 0 450px;
+  margin: 75px 0 0 350px;
 }
 
 
