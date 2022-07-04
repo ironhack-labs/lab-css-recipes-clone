@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+  
+  .top-of-page {
+    width: 1440px;
+    height: 825px; 
+    font-size:100px;
+    font-weight:lighter;
+    color:white;
+    background-image: url(/Users/johnimeson/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    text-align: center;
+    }
+
+  .grandmothers-recipe {
+    width: 1440px;
+    height: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    border-top: 75px solid white;
+    text-align: center;
+    
+  }
+
+  .recipe-info > img {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 460px;
+    width: 500px;
+  }
+
+  .cooking-info > img {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 475px;
+    width: 450px;
+  }
+
+   .ingredients {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+   .directions {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: left;
+   }
+
+h2 {
+    font-weight:400
+}
