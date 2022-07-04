@@ -1,0 +1,42 @@
+body {
+    margin: 50px;
+}
+
+h4 {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ol {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+}
+
+.image-background {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
