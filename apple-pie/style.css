@@ -12,12 +12,12 @@
     transform: translate(-50%, -50%);
     font-size: 18px;
   }
-  .container h1 {
+  .container > h1 {
     font-family: sans-serif;
   }
 
  .img {
-   max-width: 80%;
+   max-width: 100%;
  } 
 
  .layout {
@@ -26,9 +26,24 @@
  }
 
  
- .display{
+ .display {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-around;
+  text-align: left;
+  width: 100%;
+}
 
- }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
 
 
