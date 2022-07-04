@@ -36,9 +36,10 @@ ul, ol {
 }
 
 hr {
-  margin: 30px 20%; 
+  margin: 30px 15%; 
 }
 
 .intro {
-  font-size: 25px;
+  font-size: 35px;
+  margin: 60px 100px; 
 }
