@@ -30,13 +30,21 @@ p {
 .image-background {
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
-    height: 400px;
+    height: 200px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
     text-align: center;
     color: white;
+    padding-top: 15%;
 }
+
 
 img {
     width: 250px;
-    margin-left: 250px;
-    margin-right: 250px;
+    display: block;
+    margin-left: 40%;
 }
+
