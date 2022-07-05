@@ -1,0 +1,119 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.main {
+  margin: 80px 250px 0px 250px;
+  font-family: sans-serif;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+ol li:before {
+  counter-increment: section;
+  content: "" counter(section) ") ";
+}
+
+#apresentation {
+  align-items: center;
+  align-content: center;
+  margin: 100px 20px 50px 20px;
+  font-size: 20px;
+  border-bottom: 2px solid grey;
+  color: black;
+  letter-spacing: 10px;
+  font-weight: 50px;
+  text-align: center;
+}
+
+#description-row,
+p {
+  text-align: left;
+}
+
+#description-row,
+img {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#description-img {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#background-img {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  width: 100%;
+  height: 500px;
+}
+
+h1 {
+  padding-top: 220px;
+}
+
+#ingredients-row {
+  color: black;
+  border-bottom: 2px solid grey;
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+#ingredient-row,
+li {
+  color: black;
+  font-size: 18px;
+  text-align: left;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body {
+  margin-bottom: 30px;
+  counter-reset: section;
+}
+/*  .title {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  color: white;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.
+p {
+  text-align: center;
+  te
+} */
