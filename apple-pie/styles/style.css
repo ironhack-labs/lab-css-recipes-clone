@@ -14,7 +14,7 @@ h1, body, html, main {
   }
 
   
-  .top-of-page {
+   .top-of-page {
     width: 1440px;
     height: 825px; 
     font-size:100px;
@@ -22,7 +22,16 @@ h1, body, html, main {
     color:white;
     background-image: url(/Users/johnimeson/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
     text-align: center;
+    align-items: center;
+    justify-content: center;
     }
+
+  .apple-pie-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 325px;
+  }
 
   .grandmothers-recipe {
     width: 1440px;
@@ -43,23 +52,32 @@ h1, body, html, main {
   }
 
   .cooking-info > img {
-    align-items: center;
+    justify-content: center;
     margin-top: 30px;
-    margin-left: 475px;
+    margin-left: 490px;
     width: 450px;
   }
 
    .ingredients {
     font-size: 30px;
     font-weight: lighter;
+    text-align: left;
+    margin: 0px 125px;
   }
 
    .directions {
     font-size: 30px;
     font-weight: lighter;
     text-align: left;
+    margin: 0px 125px;
    }
 
 h2 {
     font-weight:400
 }
+
+hr {
+    border: 1px solid gray;
+    margin: 0px 125px;
+}
+
