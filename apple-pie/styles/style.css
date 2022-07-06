@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+.element {
+    all: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 4em;
+    color: white;
+}
+
+.header {
+    background-image: url('/images/apple-pie.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-info {
+    height: 50px;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: '- ';
+}
+
+ul,
+ol {
+    padding: 30px;
+}
