@@ -1,0 +1,62 @@
+h1, body, html, main {
+    margin: 0;
+    padding:0;
+  }
+  /*Import the font and set the default size*/
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    margin: 0;
+    padding:0;
+  }
+  head{
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    margin: 0;
+    padding:0;
+  }
+    
+  .tittle{
+    position: relative;
+    top: -300px;
+    left: 300px;
+    color: white;
+    font-family: 'Open Sans';
+  }
+  
+  p{
+  margin: 50px 120px 20px 80px;
+  }
+  
+  .ul{
+  position: relative;
+  left: 75px;
+  }
+  
+  .ol{
+    position: relative;
+    left: 110px;
+    margin: 0;
+    padding: 0%;
+    margin-right: 190px
+  }
+  
+  
+  .ingredients{
+  margin-left:0px;
+  padding:0px;
+  }
+  
+  .directions{
+  position: relative;
+  left: -140px;
+  }
+
+  .tittle{
+  position:relative;  
+  }
+
+  .apple-foto{
+   width:850px;
+   height:500px;
+}
