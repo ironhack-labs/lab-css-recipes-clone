@@ -65,3 +65,15 @@ ol {
 ul {
     list-style: '- ';
 }
+
+ol {
+    list-style-type: none;
+}
+
+ol li:before {
+    content: counter(list, decimal) ") ";
+}
+
+ol li {
+    counter-increment: list;
+}
