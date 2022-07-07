@@ -1,0 +1,85 @@
+
+*{
+    margin:5px 0 5px 3px; 
+    
+    font-family:'Segoe UI', Tahoma,'Geneva', Verdana, sans-serif;
+    font-weight: 370;
+    width: 89%;
+    
+    
+    
+}
+body{
+    margin: 10px;
+}
+
+
+
+#imageApple{
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px 650px;
+    width: 1000px;
+    height: 500px;
+
+    
+}
+#imageApple > h2 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    padding: 200px 200px 200px 325px;
+
+    
+
+}
+#textContainer1 {
+    width: 80%;
+    margin: 50px 50px 10px 120px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+
+    
+
+
+}
+.positionImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid gray ;
+    height: 100px;
+    width: 650px;
+    margin: 0 0 20px 115px;
+    box-sizing: border-box;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+    
+   
+}
+.listContainer{
+    list-style-type: none;
+    margin: 0 10px 10px 10px;
+    font-size: 17px;
+}
+#listContainerSpecific{
+  margin-left: 10px;
+  width: 730px;  
+  
+
+}
+
+.container{
+    margin: 30px 75px;
+}
+h6{
+    margin: 0 40px 30px 40px;
+    font-size: 20px;
+    font-weight: 490;
+    
+}
+#imageSpecificPosition{
+    margin-left: 40px;
+}
