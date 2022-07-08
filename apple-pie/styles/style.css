@@ -1,0 +1,11 @@
+img {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 580px;
+    height: 580px;
+}
+
+#texto {
+    position: absolute;
+}
