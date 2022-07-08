@@ -1,0 +1,81 @@
+html,
+
+body {
+
+}
+
+#page-top img {
+    width: 980px;
+    height: 580px;
+}
+
+.page-top {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 4.5em;
+    font-weight: lighter;
+}
+
+#grandma-story {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+#info img {
+    width: 420px;
+    height: 70px;
+    position: relative;
+    align-items: center;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 25em;
+    border-bottom: 1px solid black;
+}
+
+#ingredients {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: left;
+    padding-top: 2.5em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2.5em;
+}
+
+#ingredients img {
+    width: 320px;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 22em;
+    border-bottom: 1px solid black;
+}
+
+#directions {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: left;
+    padding-top: .5em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2.5em;   
+}
