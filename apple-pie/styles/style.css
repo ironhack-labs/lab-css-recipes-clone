@@ -1,0 +1,141 @@
+body {
+    width: 80%;
+    margin: auto;
+    
+}
+
+@font-face {
+    font-family: "skinnyLetters";
+    src: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/git-practice/apple-pie/lab-css-recipes-clone/apple-pie/font-families/FontsFree-Net-Proxima-Nova-Light.otf");
+}
+
+.banner {
+
+   background-image: url("C:/Users/Goku 69/Documents/Ironhack Bootcamp/git-practice/apple-pie/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg") ;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: bottom -307px right;
+   height: 880px;
+   text-align: center;
+   line-height: 800px;
+   color: white;
+   font-size: 45px;
+   
+}
+
+
+.banner h1 {
+    font-family: "skinnyLetters" ;
+    font-size: 137px;
+    font-weight: 100;
+    margin: 0;
+
+}
+
+#section-1 {
+
+    /* width: 80%; */
+    margin: 6% 12% 6% 12%;
+    font-size: 35px;
+    font-family: "skinnyLetters";
+    border-bottom: 3px solid #d8d8d8;
+}
+
+#section-1 > div {
+    margin: 0 0 35px 0;
+
+}
+
+
+
+#section-1 > img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+  margin-top:50px;
+  width: 50%;
+}
+
+#section-2 {
+    margin: 4% 12% 5% 12%;
+    font-size: 29px;
+    font-family: "skinnyLetters";
+    font-weight: 100;
+    border-bottom: 3px solid #d8d8d8;
+
+}
+
+#section-2 > img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px auto 35px auto;
+    width: 50%;
+}
+
+#section-2 h3 {
+    font-family: "skinnyLetters";
+    
+    /* font-weight: 100; */
+}
+
+#section-2 li {
+
+    font-family: "skinnyLetters";
+    line-height: 37px;
+}
+/* This section sets up for the ul's li(s) to have a hyphen for the "bullet" */
+ul {
+    margin:0;
+}
+
+ul.hyphen {
+    list-style-type: none;
+}
+
+ul.hyphen > li {
+    text-indent: -24px;
+}
+
+ul.hyphen > li:before {
+    content: "- ";
+    text-indent: -5px;
+
+}
+
+
+#section-3 {
+    margin: 4% 15% 5% 12%;
+    font-size: 29px;
+    font-family: "skinnyLetters";
+    font-weight: 100;
+
+}
+
+#section-3 h3 {
+    margin: 0 0 50px 5px;
+}
+
+#section-3 ol {
+    padding: 0 0 0 23px;
+    
+}
+
+#section-3 li {
+
+    line-height: 36px;
+    font-size: 28px;
+}
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ".) ";
+    counter-increment: list;
+  }
