@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+   
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #535454;
+   
+
+}
+
+.apple-pie {
+   
+    height: 800px;
+    background-image: url("apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+  
+  
+
+
+}
+
+h1 {
+    padding-top: 385px;
+    color: white;
+    font-size: 72px;
+    text-align:center;
+   
+
+}
+.para {
+   margin-top: 75px;
+   width: 1400px;
+   margin-left:25%;
+   font-size: 25px;
+   text-align: justify;
+  
+}
+
+
+h2 {
+    margin-top: 65px;
+   margin-left: 25%;
+}
+
+#recipe-info {
+    
+    margin-top: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ingridient-list{
+    margin-left: 23%;
+    font-size: 1.5em;
+    line-height:1.5em;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+#cooking-info {
+    margin-top: 90px;
+    display: block;
+    margin: 0 auto;
+}
+.direction-list {
+    width: 1000px;
+    margin-left:23%;
+    font-size: 25px;
+    line-height:1.5em;
+}
