@@ -15,19 +15,20 @@
   color: white;
   font-size: 40px;
   vertical-align: middle;
-  text-align: center;
   margin-top: 500;
 }
 
-.cooking {
-  width: 1%;
+#body {
   text-align: center;
+}
 
+.titulo h1 {
+  padding-top: 15rem;
+  padding-bottom: 30rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .recipe {
   width: 20%;
-  text-align: center;
-
-
 }
