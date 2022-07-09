@@ -1,0 +1,48 @@
+
+
+
+img#apple-pie-pic {
+width: 100vw;
+}
+
+img#ingredientsrecipe {
+    margin: 2rem 0 0;
+    width: 18rem;
+    padding: 0 48rem;
+}
+img#directionscooking {
+    margin: 2rem 0 0;
+    width: 18rem;
+    padding: 0 48rem;
+}
+
+#introtorecipe p {
+    margin: 2rem 0 0;
+    padding: 0 32rem;
+}
+
+#directions  p {
+    margin: 0;
+    padding: 0 32rem;
+}
+
+#ingredients  p {
+    margin: 0;
+    padding: 0 32rem;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    position: absolute;
+    margin: 43rem;
+}
+
+h3 {
+    margin: 18px 0;
+    padding: 0 32rem;
+}
+
+hr {
+    width: 44vw;
+}
