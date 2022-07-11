@@ -1,0 +1,13 @@
+body {
+margin: 0px;
+font-size:large;
+
+}
+
+.topo img{   
+    width: 160 px;
+    size-adjust: 0,05% ;
+}
+.linha {
+    border-bottom: 1px solid ;
+}
