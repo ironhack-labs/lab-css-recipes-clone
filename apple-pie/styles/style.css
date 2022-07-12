@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.content-container {
+    margin: 0%;
+    background-color: white;
+}
+
+.title-section {
+    width: 1200px;
+    height: auto;
+    background-image: url("../images/apple-pie.jpg");
+}
