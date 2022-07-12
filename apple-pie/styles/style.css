@@ -1,0 +1,10 @@
+.title-picture {
+    position: relative;
+}
+h1 {
+    position: absolute;
+    color: white;
+}
+.apple-pie {
+    size: 50 px;
+}
