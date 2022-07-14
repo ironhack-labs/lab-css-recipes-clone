@@ -1,15 +1,116 @@
-body {
-    margin: 0;
-    background-color: black;
+/* ===== General page styles ===== */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
 }
 
-.content-container {
-    margin: 0%;
-    background-color: white;
+body {
+    margin: 0;
+    background-color: #101010;
+}
+
+h1 {
+    color: white;
+    font-size: 8.4em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-left: 100px;
+}
+
+p, li {
+    font-size: 1.8em;
+}
+
+hr {
+    height: 2px;
+    width: 77%;
+    background-color: lightgray;
+}
+
+/* ===== Recipe content styles ===== */
+
+.page-container {
+    width: 900px;
+    margin: 0;
 }
 
 .title-section {
-    width: 1200px;
-    height: auto;
+    width: 100%;
+    margin: 0;
+    height: 570px;
     background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    margin: 0;
+    background-color: white;
+}
+
+.granny-box {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.granny-box p {
+    width: 700px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.granny-box div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.granny-box div img {
+    width: 70%;
+}
+
+.ingredients-box {
+    margin-top: 60px;
+}
+
+.ingredients-box li {
+    list-style-type: none;
+    padding-left: 72px;
+    line-height: 1.5em;
+}
+
+.ingredients-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px 0 50px;
+}
+
+.ingredients-box div img {
+    width: 45%;
+}
+
+.directions-box {
+    padding-bottom: 50px;
+    margin-top: 60px;
+}
+
+.directions-box li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 72px;
+    padding-right: 125px;
+    line-height: 1.5em;
 }
