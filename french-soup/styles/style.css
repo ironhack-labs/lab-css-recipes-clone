@@ -7,3 +7,62 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 500px;
+  margin-bottom: 60px;
+}
+#background {
+position: absolute;
+width: 100vw;
+z-index: -1;
+height: 500px;
+}
+h1 {
+  color: white;
+}
+
+#intro {
+  margin: 0 10vw 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+#intro img {
+  width: 50vw;
+  align-self: center;
+}
+
+#ingredients {
+  margin: 0 10vw 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+#ingredients img {
+  width: 50vw;
+  align-self: center;
+}
+
+#directions {
+  margin: 0 10vw 0 10vw;
+}
+hr {
+  height: 1px;
+  color: black;
+  width: 100vw;
+}
+
+ul {
+  list-style-type: '- ';
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: list;
+}
+ol > li:before {
+  counter-increment: list;
+  content: counter(list, decimal) ") ";
+}

@@ -2,7 +2,8 @@ html {
     padding: 0;
     margin: 0;
     width: 500px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
 }
 body {
     padding: 0;
@@ -66,7 +67,7 @@ h1 {
 }
 
 ul {
-    list-style-type: '-';
+    list-style-type: '- ';
 }
 
 ol {
