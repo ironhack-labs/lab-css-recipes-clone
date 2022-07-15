@@ -70,5 +70,10 @@ ul {
 }
 
 ol {
-    list-style-type: counter + ")";
+    list-style-type: none;
+    counter-reset: list;
+}
+ol > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ") ";
 }
