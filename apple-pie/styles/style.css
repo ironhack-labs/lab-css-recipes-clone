@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* General stettings */
+
+html,
+body {
+    max-width: 895px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section ID's */
+
+#header-background {
+    width: 95%;
+    height: 500px;
+    background-image: url('https://www.oetker.de/Recipe/Recipes/oetker.de/de-de/baking/image-thumb__136211__RecipeDetailsLightBox/apple-pie.webp');
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(29, 28, 29, 0.3);
+    margin: 0 auto;
+
+}
+
+#intro {
+    padding: 50px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingredients {
+    padding: 30px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#directions {
+    padding: 30px 30px 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Classes */
+
+.container {
+    width: 80%;
+    border-bottom: 1px solid rgb(61, 58, 58); 
+}
+
+.container.no-border {
+    border: none;
+}  
+
+.center-pic {
+    display: block;
+    margin: 30px auto;
+    width: 360px;
+  }
