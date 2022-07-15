@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+header img {
+  height: 40vh;
+  width: 100vw;
+}
+
+header div {
+  position: absolute;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+p {
+  width: 800px;
+  font-size: 20px;
+}
+
+hr {
+  width: 70%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* h3 {
+  align-items: flex-start;
+} */
+
+#recipe-info {
+  height: 71px;
+  width: 455px;
+}
+
+#cooking-info {
+  height: 96px;
+  width: 417px;
+}
+
+#container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#container-two {
+  font-size: 18px;
+  padding-left: 230px;
+}
+
+#container-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#container-four {
+  font-size: 18px;
+  width: 800px;
+  padding-left: 230px;
+}
