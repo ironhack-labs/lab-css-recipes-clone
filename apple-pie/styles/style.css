@@ -1,11 +1,53 @@
-img {
-    display: block;
-    position: relative;
-    margin: 0px auto;
-    width: 580px;
-    height: 580px;
+#imagem {
+  display: inline-block;
+  position: relative;
+  width: 480px;
+  height: 300px;
 }
 
-#texto {
-    position: absolute;
+h1 {
+  color: white;
+  position: absolute;
+  top: 115px;
+  left: 185px;
+  font-size: 30px;
+}
+
+h2 {
+  padding: 5px 50px 0 50px;
+  font-size: 12px;
+}
+
+h3 {
+  padding: 5px 50px 0 50px;
+  font-size: 12px;
+}
+
+p {
+  padding: 10px 50px 10px 50px;
+  font-size: 12px;
+  width: 25%;
+}
+
+.recipe {
+  width: 13%;
+  padding: 0 120px 15px 140px;
+  border-bottom: 1px solid grey;
+}
+
+.cooking {
+  width: 11%;
+  padding: 5px 150px;
+  border-bottom: 1px solid grey;
+}
+
+ul {
+  font-size: 11px;
+  padding: 0 10px 10px 70px;
+}
+
+ol {
+  padding: 0 10px 10px 67px;
+  width: 25%;
+  font-size: 11px;
 }
