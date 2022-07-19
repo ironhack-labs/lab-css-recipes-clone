@@ -1,0 +1,38 @@
+* { margin: 40px;}
+
+.contenedor{
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 100px, white;
+    }
+
+    .contenedor img { text-align: center;
+    height: 400px;
+    width: auto;}
+
+.texto-encima{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    text-align: ;
+    top: 170px;
+    left: 140px;
+}
+
+.StyleDescription { margin-left: 50px;
+margin-right: 200px;}
+
+
+body {width: 800px}
+
+head { text-align: center;}
+
+ingredients { text-align: left;}
+
+img  { width: 300px;
+float: center;}
+
+lu.ingredients {list-style-type: none;
+    lu:before {content: "-"}}
