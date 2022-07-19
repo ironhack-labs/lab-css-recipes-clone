@@ -1,8 +1,10 @@
-h1, body, html, main {
+/*h1, body, html, main {
     margin: 0;
     padding:0;
   }
   /*Import the font and set the default size*/
+
+  html,
   body{
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
