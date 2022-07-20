@@ -53,8 +53,6 @@ img{
     padding: 20px 0px 30px 0px;
 }
 
-/* <!-- Front section --> */
-
 #front {
    background-image: url(../images/apple-pie.jpg);
    background-position: 0% 30%;
@@ -66,13 +64,7 @@ img{
    justify-content: center;
 }
 
-
 #intro, #ingredients, #directions {
-    padding: 50px 160px 0px 160px;
- 
-}
-
-#ingredients {
     padding: 50px 160px 0px 160px;
 }
 
