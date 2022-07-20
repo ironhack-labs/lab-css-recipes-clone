@@ -1,0 +1,24 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: URL(/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  margin: 50px 150px;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
