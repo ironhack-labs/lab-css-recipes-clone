@@ -2,8 +2,20 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+body {
+  margin: 50px 150px;
+}
+
 h1 {
   font-weight: normal;
+}
+
+p {
+  font-weight: lighter;
+}
+
+hr {
+  width: 90%;
 }
 
 .header {
@@ -15,10 +27,22 @@ h1 {
   background-size: cover;
   background-position: center;
   height: 700px;
-  margin: 50px 150px;
 }
 
 .title {
   color: white;
   font-size: 30px;
+}
+
+.recipe {
+  margin: 50px 70px;
+}
+
+.info.section {
+  display: flex;
+  justify-content: center;
+}
+
+.info-img {
+  width: 50%;
 }
