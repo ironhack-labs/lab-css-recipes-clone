@@ -21,6 +21,7 @@ h2 {
 	font-size: 40px;
 	font-weight: 300;
 	text-align: justify;
+	margin-top: 100px;
 }
 
 hr {
@@ -97,6 +98,7 @@ header img {
 	list-style: none;
 	font-size: 30px;
 	font-weight: 300;
+	line-height: 50px;
 }
 
 #cooking li:before {

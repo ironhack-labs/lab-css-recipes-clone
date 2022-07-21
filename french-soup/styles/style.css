@@ -5,5 +5,29 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: 400;
+	color: white;
+}
+
+header {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  background-image: url(../images/soup.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+
 }
