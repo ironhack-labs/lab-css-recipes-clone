@@ -7,3 +7,105 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+hr{
+  height: 2px;
+  background-color: #989898;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(100vh, 1fr) 1fr;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-title{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.description{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 200px;
+  margin-top: 5rem;
+}
+
+.description-text{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: #2D2D2D;
+  padding: 0 6rem;
+}
+
+.description-img{
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.list-title{
+  font-size: 2rem;
+  color: #010101;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.4fr;
+  padding: 0 5rem;
+}
+
+ul{
+  padding-left: 15px;
+}
+
+.list-list li{
+  list-style: none;
+  color: #010101;
+}
+
+.list-list li:before{
+  content: '-';
+  margin-right: 5px;
+}
+
+.list-img{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-title{
+  font-size: 2rem;
+  color: #010101;
+}
+
+.footer-list{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  padding: 0 5rem;
+}
+
+.footer-list-list{
+  padding-left: 15px;
+}
+
+.footer-list-list li{
+  list-style: none;
+  color: #010101;
+}

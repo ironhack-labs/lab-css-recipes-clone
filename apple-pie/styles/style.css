@@ -41,7 +41,7 @@ body{
 }
 
 .cooking-img{
-   text-align: center;
+   margin: 0 auto;
 }
 
 hr{
@@ -70,7 +70,7 @@ ul li:before{
 }
 
 .receta-img{
-   text-align: center;
+   margin: 0 auto;
 }
 
 ol {
