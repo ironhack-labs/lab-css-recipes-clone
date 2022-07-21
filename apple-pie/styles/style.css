@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+}
+
 body {
 	font-family: 'roboto';
 	display: flex;
@@ -65,15 +69,19 @@ header img {
 	padding-left: 450px;
 }
 
-ul {
+#ingredients ul {
 	list-style: none;
 }
 
-li {
+#ingredients li {
 
 	font-size: 30px;
 	font-weight: 300;
 	margin-bottom: 5px;
+}
+
+#ingredients li:before {
+	content: "- ";
 }
 
 #cooking {
@@ -84,4 +92,16 @@ li {
 	gap: 30px;
 }
 
+#cooking ol {
+	counter-reset: list;
+	list-style: none;
+	font-size: 30px;
+	font-weight: 300;
+}
 
+#cooking li:before {
+	content: counter(list, counter) ") ";
+	counter-increment: list;
+	font-size: 30px;
+	font-weight: 300;
+}
