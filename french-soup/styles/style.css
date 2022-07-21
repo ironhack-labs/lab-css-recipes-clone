@@ -14,6 +14,19 @@ h1 {
 	color: white;
 }
 
+h2 {
+	font-size: 40px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 400;
+	text-align: justify;
+	margin-top: 100px;
+}
+
 header {
   width: 100vw;
   height: 800px;
@@ -27,7 +40,50 @@ header {
   text-align: center;
 }
 
+hr {
+  color: grey;
+  width: 75vw;
+}
+
 .container {
   display: grid;
+  grid-template-columns: 75vw;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+	justify-content: center;
+  margin: 8rem auto;
+}
 
+.container img {
+  margin: 3rem auto;
+  padding-left: 26rem;
+}
+
+#ingredients ul {
+	list-style: none;
+}
+
+#ingredients li {
+
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+#ingredients li:before {
+	content: "- ";
+}
+
+#instructions ol {
+	counter-reset: list;
+	list-style: none;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 50px;
+}
+
+#instructions li:before {
+	content: counter(list, counter) ") ";
+	counter-increment: list;
+	font-size: 30px;
+	font-weight: 300;
 }
