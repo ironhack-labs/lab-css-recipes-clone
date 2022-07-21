@@ -16,16 +16,26 @@ html {
 }
 
 /* Background img */
+#background{
+  background-image: url("/images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #background h1{
   margin: 0;
   font-size: 72px;
   color: white;
   text-align: center;
-  background-image: url("/images/soup.jpg");
-  background-size: cover;
-  background-position: 0  80%;
-  padding: 15rem 0;
+  /* padding: 15rem 0; */
 }
+
 
 /* Padding al contenido */
 .container{
