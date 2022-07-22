@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    font-family: 'Calibri';
+}
+
+header {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    font-size: 10vw;
+    font-weight: lighter;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+#apple {
+    width: 100%;
+}
+
+.recipe {
+    margin: 8% 10% 5% 10%;
+    border-style: none none solid none;
+    border-color: gray;
+}
+
+.recipe p {
+    font-size: 35px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+#recipe {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 600px;
+    padding-bottom: 2%;
+}
+
+#cooking {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 400px;
+    padding-bottom: 2%;
+}
+
+.ingredients {
+    margin: 0 10% 5% 10%;
+    border-style: none none solid none;
+    border-color: gray;
+}
+
+.ingredients p {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#list {
+    list-style-type: none;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#list li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -0.5em;
+}
+
+.directions {
+    margin: 0 10% 5% 10%;
+}
+
+.directions p {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#list2 {
+    counter-reset: list;
+    list-style: none;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#list2 > li:before{
+    content: counter(list) ") ";
+    counter-increment: list;
+}
