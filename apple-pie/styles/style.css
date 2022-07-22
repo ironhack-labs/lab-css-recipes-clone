@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    margin-left: opx;
+    font-size: 20px;
+}
+
+.apple {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: white;
+    font-size: 50px;
+}
+
+.info {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    list-style-type: '-';
+}
+.ingredients {
+
+}
+
+.directions {
+
+}
+
+.textzone {
+    margin: 0px 100px 100px 50px;
+}
