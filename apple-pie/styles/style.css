@@ -16,7 +16,7 @@ html, body {
 body {
     background-color:  white;
     font-family: 'Roboto';
-    text-align: justify; 
+
 }
 h1, h2, h3, h4 {
     font-family: "Roboto Condensed";
@@ -31,21 +31,17 @@ h1 {
     font-weight: lighter;
 }
 h3 {
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: large;
 }
 #cooking {
-    padding:40px 0;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 50px 200px;
 }
-
-#cooking .aclaracion {
+.aclaracion {
     font-size: 1.3em;
     font-weight: 300;
     text-align: justify; 
-}
-#cooking p {
-    width: 70%;
-    margin: 10px auto;
 }
 img {
     display: flex;
@@ -53,6 +49,14 @@ img {
     align-items: center; 
 }
 #ingredientes {
-    padding: 500px o;
+    padding: 20px 200px;
 }
     /* */
+ol > li {
+    line-height: 1.5;
+    text-align: justify;
+}
+#direcciones {
+    padding: 20px 200px;
+}
+
