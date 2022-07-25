@@ -3,11 +3,12 @@
 }
 
 body {
-  margin: 50px 150px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: 700;
 }
 
 p {
@@ -22,7 +23,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: URL(/images/apple-pie.jpg);
+  background-image: URL(../images/apple-pie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,15 +31,15 @@ hr {
 }
 
 .title {
-  color: white;
-  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
 }
 
 .recipe {
   margin: 50px 70px;
 }
 
-.info.section {
+.info-section {
   display: flex;
   justify-content: center;
 }
