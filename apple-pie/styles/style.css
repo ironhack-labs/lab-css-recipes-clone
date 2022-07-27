@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/*----- header section----- */
+
+.title {
+  height: 50rem;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin: auto; 
+  background: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
+
+
+.title_info {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  border-bottom: solid 1px black;
+  margin: auto 15rem;
+  text-align: left;
+  padding-top: 3rem;
+}
+.title_info img{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+
+
+
+/*----- ingredients section----- */
+
+main {
+  margin: auto 15rem;
+}
+
+.ingredients {
+  border-bottom: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  gap:3rem; 
+}
+.cooking_info{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+
+
+/*----- direction section----- */
+.direction{
+  display: flex;
+  flex-direction: column;
+  gap:3rem; 
+}
