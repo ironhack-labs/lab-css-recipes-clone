@@ -1,0 +1,72 @@
+html {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+header {
+
+    background-size: cover;
+    height: 500px;
+    background-image: url(../images/apple-pie.jpg);
+
+    color: white;
+    font-size: 50px;
+}
+
+body {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 180px;
+    text-decoration: none;
+    font-style: 'Roboto', sans-serif, thin;
+    font-weight: 100;
+}
+
+
+
+
+
+/***************CLASSES*********/
+
+.header {
+    text-align: center;
+    align-content: center;
+}
+
+.recipe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contentCenter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/**************ID*************/
+#allText {
+    font-weight: 30;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
