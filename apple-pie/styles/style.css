@@ -43,6 +43,7 @@ header h1 {
 .solid-separator {
     border: 2px solid grey;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 #recipe-info {
@@ -57,20 +58,21 @@ header h1 {
 .info-card h2 {
     font-size: 32px;
     font-weight: 400;
-    margin: 10% -10% 5% 3%;
+    margin: 0 0 4% 1%;
 }
 
 .recipe-list {
     font-size: 27px;
-    margin: 0 0 6% 7%;
-}
-
-.recipe-list li {
-    white-space: nowrap;
 }
 
 #ingredients-list {
     list-style-type: '- ';
+    margin-left: 7%;
+    margin-bottom: 10%;
+}
+
+#ingredients-list li {
+    white-space: nowrap;
 }
 
 #cooking-info {
@@ -79,4 +81,14 @@ header h1 {
 }
 
 #directions-list {
+    margin-left: 2%;
+    list-style-type: none;
+    counter-reset: list;
+}
+
+#directions-list li:before { 
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
+    letter-spacing: -0.2em;
+    margin-right: 0.1em;
 }
