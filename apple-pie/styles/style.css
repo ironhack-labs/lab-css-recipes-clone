@@ -7,16 +7,13 @@ body {
     font-family: sans-serif;
     font-size: 30px;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 header {
     height: 125vh;
-    margin: 0;
-    background-image: url('../images/apple-pie.jpg');
-    background-repeat: no-repeat;
-    background-position: 0 30%;
+    background: #cccccc url('../images/apple-pie.jpg') no-repeat 0 30%;
     background-size: cover;
-    background-color: #cccccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +27,7 @@ header h1 {
 }
 
 .recipe {
-    margin : 10%;
+    margin: 0 10%;
     text-align: left;
     display: flex;
     flex-flow: column wrap;
@@ -39,20 +36,38 @@ header h1 {
 
 }
 
-.info-list {
+#intro {
+    margin-top: 10%;
+}
+
+#recipe-info {
+    height: 90px;
+    margin: 4% 0 3%;
+}
+
+.solid-separator {
+    border: 2px solid grey;
+    width: 100%;
+}
+
+.info-card {
     align-self: start;
 }
 
-.info-list h2 {
-    font-weight: 300;
-    margin: 40px 0 50px;
+.info-card h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10% -10% 5% 3%;
+}
+
+.recipe-list {
+    font-size: 27px;
+    margin: 0 0 10% 8%;
 }
 
 #ingredients-list {
     list-style-type: '- ';
-    margin-left: 10%;
 }
 
 #directions-list {
-    margin-left: 5%;
 }
