@@ -9,46 +9,86 @@ body {
 }
 
 #page-head {
-    display: flex;
-    background-image: url('/apple-pie/images/apple-pie.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 #page-head h1 {
-    font-size: 6rem;
-    color: white;
+  font-size: 6rem;
+  color: white;
 }
 
 #main-text {
-    font-size: 3.5rem;
-    margin: 0;
+  font-size: 3.5rem;
+  margin: 0;
 }
 
 #introduction p {
-    font-size: 1.75rem;
-    text-align: center;
-    padding: 75px 225px 10px 225px;
-    text-align: justify;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 75px 225px 10px 225px;
+  text-align: justify;
 }
 
 #introduction img {
-    display: block;
-    margin: auto auto;
-    align-items: center;
-    width: 35%;
+  display: block;
+  margin: auto auto;
+  align-items: center;
+  width: 35%;
 }
 
 hr {
-    margin-top: 20px;
-    width: 70%;
+  margin-top: 20px;
+  width: 70%;
+  border: 1px solid;
+}
+
+#ingredients h2 {
+  padding: 40px 0 0 225px;
+}
+
+#ingredients ul {
+  font-size: 1.5rem;
+  padding: 10px 0 0 250px;
 }
 
 #ingredients li {
   list-style: none;
+  padding: 2px 0;
+}
+
+#ingredients img {
+  display: block;
+  margin: auto auto;
+  align-items: center;
+  width: 30%;
+  margin-top: 50px;
+}
+
+#directions h2 {
+  padding: 40px 0 30px 225px;
+}
+
+#directions ol {
+  font-size: 1.5rem;
+  padding: 10px 225px 100px 250px;
+  counter-reset: list;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+#directions li {
+  padding: 2px 0;
+  list-style: none;
+  text-align: justify;
 }
