@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  color: black;
+  background-color: antiquewhite;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.text-image {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url("images/apple-pie.jpg");
+  color: yellowgreen;
+}
