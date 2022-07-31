@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 768px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+ul {
+  padding: 0px;
+}
