@@ -4,21 +4,55 @@ header {
   justify-items: center;
   align-items: center;
   height: 400px;
-  width: 400px;
+  width: 100%;
   color: black;
   background-color: antiquewhite;
   background-image: url(/apple-pie/images/apple-pie.jpg);
   background-size: cover;
   background-position: center center;
-  position: relative;
 }
 
 .text-image {
   color: white;
   text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
 }
 
 body {
   background-image: url("images/apple-pie.jpg");
-  color: yellowgreen;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+section img {
+  width: 50%;
+}
+
+.text-center {
+  text-align: justify;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.line {
+  size: 30;
+}
+h2 {
+  font-weight: lighter;
 }
