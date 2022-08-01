@@ -47,11 +47,14 @@ h2 {
   font-weight: bold;
 }
 
-p, ol, ul, h2 {
-    margin-left: 10em;
-    margin-right: 10em;
+p,
+ol,
+ul,
+h2 {
+  margin-left: 10em;
+  margin-right: 10em;
 }
 .container {
-    margin-bottom: 50px;
-    margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
