@@ -15,7 +15,7 @@ h1, body, html, main {
 
   
    .top-of-page {
-    width: 1440px;
+    width: 100vw;
     height: 825px; 
     font-size:100px;
     font-weight:lighter;
@@ -70,6 +70,14 @@ h1, body, html, main {
     font-weight: lighter;
     text-align: left;
     margin: 0px 125px;
+   }
+
+   .ingredients-ul {
+    
+   }
+
+   .directions-ol {
+
    }
 
 h2 {
