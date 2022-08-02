@@ -1,0 +1,39 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin: 0 auto;
+  color: #33475b;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  color: #fff;
+}
+
+#title h1 {
+  font-size: 4em;
+}
+
+.center_img {
+  display: flex;
+  justify-content: center;
+}
+
+#recipe_info {
+  margin: 60px 20px 30px 20px;
+  font-size: 1.5em;
+}
+
+.list_info {
+  margin: 60px 20px 30px 20px;
+  font-size: 1.2em;
+}
