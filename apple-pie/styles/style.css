@@ -1,12 +1,25 @@
-#backgroundi {
+.bimage {
     background-image: 
       url("images/apple-pie.jpg");
 }
 
-#firstp {
+.centering {
+    display: flex;
+    justify-content:center;
+
     
 }
 
-#linha {
+.recipe-margins {
+    margin: 5% 20% 5% 20%;
+}
+
+.linha {
+
     border-bottom: 1px solid black;
+    margin: 2% 20% 2% 20%;
+}
+
+.lista {
+list-style-type: none;
 }
