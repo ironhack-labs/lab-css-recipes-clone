@@ -1,3 +1,7 @@
+/* Importação da fonte */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* CSS Reset básico */
 * {
   margin: 0 auto;
   padding: 0;
@@ -5,72 +9,97 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
 }
 
-.bg {
+hr {
+  width: 82%;
+}
+
+.background {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 600px;
   background-image: url(../images/apple-pie.jpg);
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  position: relative;
-  /* margin-bottom: 20px; */
 }
 
-.bg h1 {
+.background h1 {
   color: white;
   font-size: 64px;
-  font-weight: lighter;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 .recipe {
   font-size: 20px;
-  font-weight: lighter;
-  padding: 50px 100px 20px 100px;
+  font-weight: 300;
+  color: black;
+  padding: 40px 100px;
 }
 
 .recipe img {
-  max-width: 300px;
   display: flex;
+  max-width: 400px;
+  margin-top: 20px;
 }
 
 .ingredients {
-  padding: 50px 100px 20px 100px;
+  padding: 40px 100px;
 }
 
 .ingredients h2 {
   font-size: 20px;
   color: black;
-  font-weight: lighter;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .ingredients ul {
-  list-style: "-";
-  margin: 20px 0 20px 10px;
-  color: grey;
+  list-style: "- ";
+  list-style-position: inside;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-left: 10px;
 }
 
 .ingredients img {
-  max-width: 300px;
   display: flex;
+  max-width: 350px;
+  margin-top: 20px;
 }
 
 .directions {
-  padding: 50px 100px 20px 100px;
+  padding: 40px 100px;
 }
 
 .directions h2 {
   font-size: 20px;
   color: black;
-  font-weight: lighter;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .directions ol {
-  margin: 20px 0 20px 10px;
-  color: grey;
+  list-style: none;
+  list-style-position: inside;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+/* Gambiarra pra fazer o numero com ") " e aproveitei pra utilizar seletores de ID pois o lab pede */
+#ol-directions li:nth-child(1) {
+  list-style: "1) ";
+}
+
+#ol-directions li:nth-child(2) {
+  list-style: "2) ";
+}
+
+#ol-directions li:nth-child(3) {
+  list-style: "3) ";
 }
