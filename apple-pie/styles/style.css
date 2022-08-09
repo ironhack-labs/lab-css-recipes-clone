@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,700;1,900&display=swap");
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.title {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+  
+}
+
+.title h1 {
+    color: white;
+    text-align: center;
+    margin-top: 35%;
+}
