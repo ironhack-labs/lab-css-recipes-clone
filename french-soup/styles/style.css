@@ -41,8 +41,10 @@ hr {
 }
 
 .recipe img {
-  display: flex;
-  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
   margin-top: 20px;
 }
 
@@ -59,15 +61,15 @@ hr {
 
 .ingredients ul {
   list-style: "- ";
-  list-style-position: inside;
   font-weight: lighter;
   line-height: 1.5;
-  margin-left: 10px;
 }
 
 .ingredients img {
-  display: flex;
-  max-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
   margin-top: 20px;
 }
 
@@ -84,10 +86,8 @@ hr {
 
 .directions ol {
   list-style: none;
-  list-style-position: inside;
   font-weight: lighter;
   line-height: 1.5;
-  margin-left: 30px;
 }
 
 /* Gambiarra pra fazer o numero com ") " e aproveitei pra utilizar seletores de ID pois o lab pede */
