@@ -1,6 +1,7 @@
 .bimage {
     background-image: 
-      url("images/apple-pie.jpg");
+      url("../images/apple-pie.jpg");
+      
 }
 
 .centering {
@@ -21,5 +22,10 @@
 }
 
 .lista {
-list-style-type: none;
+list-style: "- ";
 }
+
+h1 {
+    color : white ;
+    min-height: 500px;
+    }
