@@ -7,7 +7,7 @@
 
 .banner{
     width: 100%;
-    height: 500px;
+    height: 950px;
     background: url(../images/apple-pie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,8 +16,8 @@
 .banner h2{
     color: #fff;
     text-align: center;
-    padding-top: 200px;
-    font-size: 40px;
+    padding-top: 450px;
+    font-size: 60px;
     font-weight: 100;
 }
 
@@ -36,7 +36,7 @@ h3{
 
 img{
     width: 450px;
-    margin: 20px 220px;
+    margin: 20px 400px;
 }
 
 hr{
