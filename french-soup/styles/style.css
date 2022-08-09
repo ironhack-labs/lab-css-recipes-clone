@@ -1,9 +1,104 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/* Some necessary adjustments */
+h1,
+body,
+html,
+main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
+/* Import the font and set the default size */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  width: 82%;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-image: url(../images/soup.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.recipe {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  padding: 40px 100px;
+}
+
+.recipe img {
+  display: flex;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.ingredients {
+  padding: 40px 100px;
+}
+
+.ingredients h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ingredients ul {
+  list-style: "- ";
+  list-style-position: inside;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.ingredients img {
+  display: flex;
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.directions {
+  padding: 40px 100px;
+}
+
+.directions h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.directions ol {
+  list-style: none;
+  list-style-position: inside;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+/* Gambiarra pra fazer o numero com ") " e aproveitei pra utilizar seletores de ID pois o lab pede */
+.ol-directions li:nth-child(1) {
+  list-style: "1) ";
+}
+
+.ol-directions li:nth-child(2) {
+  list-style: "2) ";
+}
+
+.ol-directions li:nth-child(3) {
+  list-style: "3) ";
 }
