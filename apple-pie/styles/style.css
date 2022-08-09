@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+  font-family: 'Poppins';
+}
+
+header {
+  background-image: url("https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height:420px;
+  background-size:cover;
+  padding-top : 50px;
+  }
+
+.header p {
+  font-size:70px;
+  color:white;
+  padding:60px 0 0;
+  text-align:center;
+}
+
+.grandmother {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border-bottom: 3px solid gray;
+  margin:20px 70px 0px;
+}
+
+
+
+.grandmother p {
+  font-size:20px;
+  padding:20px 0px 0px;
+}
+
+.grandmother img{
+  height:50px;
+  padding:10px 0px 20px;
+}
+
+
+
+.ingredients {
+  margin:30px 70px 20px;
+  border-bottom: 3px solid gray;
+}
+
+.ingredients ul{
+  padding:0 0 0 14px;
+  list-style-type: none;
+} 
+
+.ingredients ul > li:before {
+  content: "- ";
+}
+
+.recipes-image {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  padding:10px 0px 5px;
+}
+
+.ingredients img{
+  height:70px;
+}
+
+.directions {
+  padding:1px 70px 70px;
+}
+
+.directions p {
+    margin:0 0 0 14px;
+  }
