@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 80px;
+}
+
+.header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-one > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-one > div > p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 75%;
+}
+
+.ing-dir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.first-list li {
+    list-style-type: none;
+    padding-right: 400px; 
+}
+
+ul > li:before {
+    content: "-";
+    text-indent: -5px;
+}
