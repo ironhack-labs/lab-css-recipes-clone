@@ -1,3 +1,24 @@
 body{
     background-color: orange;
 }
+
+h1{
+    
+    font-size: 3rem;
+    color: white;
+    
+    
+
+    
+}
+
+#fondo-apple{
+    height: 50em;
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
