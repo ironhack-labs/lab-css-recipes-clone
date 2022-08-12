@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #ffedd5;
+}
+ul {
+	list-style: none;
+}
+header {
+	padding: 32px 0;
+	text-align: center;
+}
+header,
+section {
+	max-width: 300px;
+	margin: 0 auto;
+}
+section h2 {
+	background: #fed7aa;
+	padding: 8px 16px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+ul li {
+	margin-bottom: 16px;
+	display: flex;
+}
+li .details {
+	max-width: 240px;
+}
