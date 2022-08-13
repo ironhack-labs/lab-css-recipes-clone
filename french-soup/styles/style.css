@@ -1,9 +1,70 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+*{
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+body{
+  width: 100vw;;
+  height: 100vh;
+  
 }
+header{
+  background-image: url(../images/soup.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+header h1{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 125px;
+  text-align: center;
+ 
+}
+box {
+  width: 100%;
+  height: 50%;  
+}
+p {
+  width: 68%;
+  height: 18%;
+  font-size: 2.3em;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+img {
+  width: 40%;
+  height: 12%;
+  margin-left: 30%;
+ }
+ hr {
+  width: 68%;
+  margin-top: 2.7%;
+  margin-left: 17%;
+ }
+box h2 {
+  font-size: 2em;
+  margin-top: 2.5%;
+  margin-left: 20%;
+  margin-bottom: 1%;
+}
+ ul {
+  font-size: 1.5em;
+  width: 80%;
+  height: 30%;
+  margin-left: 18%;
+  list-style: none;  
+}
+
+.cookingImg {
+  margin-top: 2em;
+}
+
+
+
+
+
+
