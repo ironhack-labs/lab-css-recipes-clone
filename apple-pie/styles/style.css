@@ -1,19 +1,16 @@
 body{
-    background-color: orange;
+    background-color: rgba(255, 255, 255, .1);
 }
 
 h1{
     
-    font-size: 3rem;
+    font-size: 5rem;
     color: white;
-    
-    
-
-    
+    font-weight: lighter;        
 }
 
 #fondo-apple{
-    height: 50em;
+    height: 50rem;
     background-image: url(../images/apple-pie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,3 +19,84 @@ h1{
     align-items: center;
     
 }
+
+#intro{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60rem;
+    border-bottom: 2px solid gray;
+}
+
+#intro p {
+    font-size: 1.5rem;
+    
+}
+
+#intro img {
+    width: 30rem;
+}
+
+#ingredients{
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+}
+
+#ingredients img {
+    width: 30rem;
+}
+
+#ingredients h2{
+    width: 60rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#ingredients ul {
+    width: 60rem;
+}
+
+#ingredients li {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    width: 60rem;
+    margin:5px 0 5px 0;
+}
+
+#directions {
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+}
+
+.containerDir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60rem;
+}
+
+#directions h2{
+    width: 60rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#directions ol {
+    width: 60rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    width: 60rem;
+    margin:5px 0 5px 0;
+}
+
+/* Comentarios */
