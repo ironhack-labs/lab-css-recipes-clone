@@ -1,0 +1,39 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.main-container {
+    width: 70%;
+    height: auto;
+    margin: 5px auto;
+
+}
+
+#main-img {
+    width: 80%;
+    height: auto;
+}
+
+.section-1-anecdote {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+
+
+}
+
+.section-1-anecdote img {
+    width: 100%;
+    height: auto;
+    
+}
+
