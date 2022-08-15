@@ -7,3 +7,94 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#titleCard {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleCard img {
+  object-fit: cover;
+  width: 90%;
+  height: 700px;
+}
+
+#titleCard h1 {
+  color: white;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 100px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+#desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#desc p {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ingredients h2 {
+  width: 55%;
+  text-align: left;
+  font-size: 30px;
+}
+
+#ingredients ul {
+  line-height: 30px;
+  width: 50%;
+  font-size: 20px;
+  list-style: none;
+}
+
+#ingredients ul > li::before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
+
+#directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#directions h2 {
+  width: 55%;
+  text-align: left;
+  font-size: 30px
+}
+
+#directions ol {
+  width: 50%;
+  font-size: 20px;
+}
+
+#directions ol > li {
+  margin: 15px 0;
+}
