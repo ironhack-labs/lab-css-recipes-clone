@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+html{
+    font-family: Open Sans;
+}
+
+body{
+    margin: 5% 15%;
+}
+
+.title{
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    text-align: center;
+    color: white;
+    padding: 8rem 0;
+}
+
+.section img{
+    width: 55%;
+    display: block;
+    margin: 30px auto;
+}
+
+.section{
+    border-bottom: 1px grey solid;
+    margin-bottom: 35px;
+}
