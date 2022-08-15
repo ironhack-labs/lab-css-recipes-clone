@@ -40,6 +40,7 @@ body {
 .section-1-anecdote img {
     width: 60%;
     height: auto;
+    margin-bottom: 15px;
 
 }
 
@@ -54,6 +55,7 @@ body {
 #section-2-img {
     display: flex;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .section-2 img {
@@ -77,5 +79,12 @@ body {
     height: auto;
     margin: 20px auto;
 
+}
 
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.mt-15 {
+    margin-top: 30px;
 }
