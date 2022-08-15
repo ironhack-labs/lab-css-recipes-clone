@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 .hero {
-  background-image: url("../images/soup.jpg");
+  background-image: url("./images/apple-pie.jpg");
   opacity: 0.8;
   background-size: 100%;
   width: 100%;
@@ -90,7 +90,7 @@ button:hover span::after {
 /* END BUTTON STYLES */
 h1 {
   display: block;
-  width: 55%;
+  width: 30%;
   margin: 0 auto;
   color: white;
   position: relative;
@@ -137,7 +137,7 @@ hr {
 ul,
 ol {
   width: 80%;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 #cookingImg {
   display: block;
