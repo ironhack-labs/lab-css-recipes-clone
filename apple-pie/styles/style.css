@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0 150px;
-    font-size: 2.25em;
+    font-size: 2em;
     padding-top: 50px;
 }
 .time {
@@ -29,7 +29,7 @@ header {
     padding-top: 25px;
 }
 .middle {
-    font-size: 1.9em;
+    font-size: 1.7em;
     padding: 0 150px;
     padding-top: 25px;
 }
@@ -48,7 +48,7 @@ ul {
     padding-top: 25px;
 }
 .bottom {
-    font-size: 1.9em;
+    font-size: 1.7em;
     padding: 0 150px;
     padding-top: 25px;
 }
