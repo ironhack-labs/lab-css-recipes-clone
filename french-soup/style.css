@@ -1,0 +1,54 @@
+html,
+body{
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+h1{
+    background-image: url(/french-soup/images/soup.jpg);
+    background-position: 0,0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    color: White;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 5em;
+}
+
+.font{
+    font-size: 2.3em;
+}
+
+.body{
+    margin: 50px 75px;
+}
+
+p{
+    font-size: 2.3em;
+}
+
+.image{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: "-";
+}
+
+ol{
+    list-style-type: none;
+}
+
+ol li::before{
+    counter-increment: someCounterName;
+    content: counter(someCounterName) ") ";
+}
+
+ol:first-of-type{
+    counter-reset: someCounterName;
+}
