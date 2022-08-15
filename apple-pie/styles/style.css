@@ -11,8 +11,8 @@ body {
 
 #titleCard img {
     object-fit: cover;
-    width: 100%;
-    height: 600px;
+    width: 90%;
+    height: 700px;
 }
 
 #titleCard h1 {
@@ -41,7 +41,7 @@ section {
 
 hr {
     width: 80%;
-    border: 5px solid lightgrey;
+    border: 2px solid lightgrey;
     border-radius: 5px;
 }
 
