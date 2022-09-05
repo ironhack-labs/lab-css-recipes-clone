@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+}
+
+.container img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container-text {
+    position:absolute;
+top: 40%;
+color: #fff;
+padding: 20px
+vertical-align: middle
+
+
+
+
+
+}
