@@ -1,0 +1,29 @@
+#header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  padding: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+
+#first-paragraph {
+    text-align: center;
+    width: 60%;
+    padding: 50px;
+}
+
+.info-image{
+margin-left: 50%;
+margin-right: 50%;
+width: 30%;
+}
