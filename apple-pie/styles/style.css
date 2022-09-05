@@ -1,0 +1,44 @@
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#apple-pie {
+  height: 600px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info{    
+    margin: 10px auto 20px;
+    display: block;
+    height: 100px;
+}
+
+.sections{   
+    position: relative; 
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
