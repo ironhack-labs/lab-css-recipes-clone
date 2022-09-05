@@ -1,14 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    padding: 0;
+}
+
 #header {
     background-image: url(/apple-pie/images/apple-pie.jpg);
   background-size: cover;
-  padding: 200px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 120px;
+  text-align: center;
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#section-one{
+    text-align: center;
 }
+
+
+#first-paragraph {
+    padding: 50px;
+    margin: auto;
+width: 70%;
+}
+
 
 h1 {
     text-align: center;
@@ -16,14 +29,29 @@ h1 {
     font-size: 90px;
 }
 
-#first-paragraph {
-    text-align: center;
-    width: 60%;
-    padding: 50px;
+.info-image{
+margin: auto;
+padding: 20px;
+text-align: center;
 }
 
-.info-image{
-margin-left: 50%;
-margin-right: 50%;
-width: 30%;
+h3 {
+    font-weight: lighter;
+    padding: 5px;
+}
+
+#ingredients-list ul{
+    list-style-type: '-';
+}
+
+hr {
+    width: 80%;
+}
+
+#directions {
+    width: 80%;
+}
+
+#directions ol{
+    list-style-type: ;
 }
