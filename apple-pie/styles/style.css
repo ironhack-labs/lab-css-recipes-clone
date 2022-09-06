@@ -7,7 +7,7 @@ body {
   flex-direction: column;
 }
 
-.header {
+#header {
   background-image: url(../images/apple-pie.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
