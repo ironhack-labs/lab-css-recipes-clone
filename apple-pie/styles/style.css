@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,200,300,400,700");
 
 html,
 body {
@@ -6,16 +6,21 @@ body {
   padding: 0;
   font-family: "Roboto";
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 #section-1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   background-image: url("../images/apple-pie.jpg");
   height: 500px;
+  width: 1000px;
+  text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1000px;
@@ -23,12 +28,79 @@ body {
 
 #section-1 h1 {
   font-size: 5em;
+  font-weight: 400;
   line-height: 500px;
   color: white;
 }
 
 #section-1 p {
-  font-size: 1em;
-  width: 400px;
-  color: black;
-} */
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  width: 55%;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+#section-1 img {
+  width: 30%;
+  margin: 30px;
+}
+
+hr {
+  margin: 20px auto 30px auto;
+  width: 55%;
+  border-width: 1px;
+}
+
+#section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+#section-2 h2 {
+  font-weight: 300;
+}
+
+#section-2 ul {
+  list-style-type: none;
+  font-weight: 200;
+}
+
+#section-2 ul li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
+
+#section-2 img {
+  width: 30%;
+  margin: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#section-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+#section-3 h2 {
+  font-weight: 300;
+}
+
+#section-3 ol {
+  font-weight: 200;
+}
