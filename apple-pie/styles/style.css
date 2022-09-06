@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+h2{
+  
+}
+
+h3 {
+  color: green;
+}
+
+.apple-pie-image {
+  width: 1200px;
+  height: 800px;
+}
+
+.instructions{
+  width: 500px;
+  
+}
