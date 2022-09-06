@@ -2,22 +2,31 @@ body{
   text-align: center;
   font-size: 12px;
   font-family: Arial;
+  width: 800px;
 }
 
-h2{
-  
+.image-text {
+  font-size: 50px;
+  color: white;
+  position:absolute;
+  top:20%;
+  padding:20px;
+  left:18%;
 }
 
 h3 {
-  color: green;
+  text-align:
 }
 
 .apple-pie-image {
-  width: 1200px;
-  height: 800px;
+  width: 800px;
+  height: 500px;
 }
 
 .instructions{
-  width: 500px;
-  
+  width: 290px;
+}
+
+hr{
+  width: 800px
 }
