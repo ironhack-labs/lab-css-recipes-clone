@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
 }
 .content-wrapper {
   margin: 0 auto;
@@ -24,4 +26,51 @@
   font-weight: 100;
   font-size: 70px;
   color: rgb(255, 255, 255);
+}
+
+.recipe {
+  margin: 10%;
+}
+
+.recipe-info p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.recipe-info img,
+.ingredients img {
+  transform: scale(0.6);
+  display: block;
+  margin: 0 auto;
+}
+.directions::before,
+.ingredients::before {
+  content: " ";
+  height: 1px;
+  width: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 2%;
+}
+
+.ingredients h2,
+.directions h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 40px 0 24px 0;
+}
+
+.ingredients ul,
+.directions ol {
+  margin-left: 16px;
+}
+
+.ingredients ul li {
+  list-style-type: "-";
+  font-weight: 300;
+}
+
+.directions ol li {
+  font-weight: 300;
 }
