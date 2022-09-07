@@ -1,0 +1,15 @@
+.header{
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-color:yellow;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS';
+    font-size: 60px;
+    font-weight: 30px;
+}
