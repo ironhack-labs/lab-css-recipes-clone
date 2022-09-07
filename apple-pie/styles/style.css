@@ -9,7 +9,95 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Trebuchet MS';
+    font-family:'Arial';
     font-size: 60px;
-    font-weight: 30px;
+    font-style:normal;
+}
+
+.Introduction{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.ingredients{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.ingredients h2{
+    display: flex;
+    align-content: flex-start;
+    order: -1;
+    justify-self: left;
+}
+
+.ingredients ul{
+    list-style-type: '- ';
+    list-style-position:outside;
+    padding-left: 60px;
+    line-height: 1.25;
+}
+
+.ingredients img{
+    display: flex;
+    align-self: center;
+}
+
+.directions{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.directions h2{
+    display: flex;
+    align-content: flex-start;
+    order: -1;
+    justify-self: left;
+}
+
+.directions ul{
+    list-style-type:outside;
+    list-style-position:outside;
+    padding-left: 60px;
+    line-height: 1.25;
 }
