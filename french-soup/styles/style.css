@@ -27,6 +27,8 @@ header h1 {
 
 #info p {
   width: 80%;
+  font-size: 20px;
+  font-weight: 300;
   text-align: center;
   margin: 50px auto;
 }

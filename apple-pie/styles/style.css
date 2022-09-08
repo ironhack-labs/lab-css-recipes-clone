@@ -9,9 +9,6 @@
 
 header {
   height: 1000px;
-}
-
-.hero-img {
   background-image: url("../images/apple-pie.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +24,8 @@ header h1 {
 
 #info p {
   width: 80%;
+  font-size: 20px;
+  font-weight: 300;
   text-align: center;
   margin: 50px auto;
 }
