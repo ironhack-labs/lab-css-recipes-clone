@@ -7,9 +7,7 @@
         
 
 }
-#para1{
-    text-decoration: overline;
-}
+
 .image{
     background-image:
         url("/apple-pie/images/apple-pie.jpg");
@@ -41,6 +39,15 @@ margin-bottom: 2%;
 font-size: 20px;
 margin-bottom: 2%;
 list-style-type: none;
+}
 
-
+hr {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+    color: brown;
 }
