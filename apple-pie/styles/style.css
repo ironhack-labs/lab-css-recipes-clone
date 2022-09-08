@@ -1,0 +1,17 @@
+.textContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr.rounded {
+  border-top: 1px solid #bbb;
+  border-radius: 5px;
+}
