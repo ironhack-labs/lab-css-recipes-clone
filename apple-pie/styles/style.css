@@ -1,0 +1,64 @@
+/* ROBOTO FONT */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#mainSection {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+li::before {
+  content: "-";
+}
+
+#directions {
+  counter-reset: directionCounter;
+}
+
+#directions li::before {
+  counter-increment: directionCounter;
+  content: counter(directionCounter) ")";
+}
+
+.iconIndications {
+  text-align: center;
+}
+
+.iconIndications img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 60px;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#description {
+  font-size: 1.25em;
+}
