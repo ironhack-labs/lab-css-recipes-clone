@@ -1,0 +1,89 @@
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+    
+  }
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+img{
+
+    background-position: 0.0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+    align-items: center;
+}
+    
+    
+h1{
+    color: red;
+    text-align: center;
+    
+    
+}
+
+p{
+    max-width: 650px;
+    color: rgb(58, 58, 58);
+    
+}
+
+li{
+    max-width: 650px;
+}
+
+ul.dashed{
+    list-style: none;
+    
+    
+}
+
+ul.dashed > li:before{
+    content: "-";
+    }
+
+#apple-pie img{
+    width: 250px;
+    height: 50px;
+    align-items: center;
+
+}
+
+#ingredients img{
+    width: 250px;
+    height: 50px;
+    align-items: center;   
+}
+
+#apple-pie p{
+    padding-left: 40px;
+}
+
+#ingredients p{
+    padding-left: 40px;
+}
+
+#ingredients img{
+    padding-left: 280px;
+}
+
+#directions p{
+    padding-left: 40px;
+}
+
+#apple-pie img{
+    padding-left: 280px;
+}
+
+hr{
+    max-width: 1250px;
+}
