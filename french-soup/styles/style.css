@@ -1,9 +1,73 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+* {
   margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.hero-img {
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+header h1 {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 400px;
+  font-size: 70px;
+}
+
+#info article p {
+  width: 80%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.recipe-info {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#ingredients h4 {
+  width: 80%;
+  margin: 30px auto;
+}
+
+#ingredients ul li {
+  list-style: "-";
+  width: 80%;
+  margin: 0px auto;
+}
+
+#directions {
+  width: 80%;
+  margin: 30px auto;
+}
+
+#directions ol li {
+  list-style: none;
+}
+
+/* use counter-reset, content $ counter-increment to add the ) symbol to an ol */
+ol {
+  counter-reset: symbol;
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+ol li:before {
+  content: counter(symbol) ")";
+  counter-increment: symbol;
 }
