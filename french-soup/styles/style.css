@@ -7,3 +7,105 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+body {
+  display: flex;
+  width: 630px;
+  justify-content:space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-family:serif;
+}
+
+.soup {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+#image p {
+  padding: 20px 0px 0px 0px ;
+  width: 600px;
+  text-align: justify;
+}
+
+.infoimages {
+  width: 300px;
+  padding-top: 40px;
+}
+
+h1 {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  font-size: 30px;
+}
+
+hr {
+  width: 630px;
+}
+
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#ingredients figure {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+#directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  text-indent: -5px;
+}
+
+ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
