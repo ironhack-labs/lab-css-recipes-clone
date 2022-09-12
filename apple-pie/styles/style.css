@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+.tituloPortada {
+    color: white;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    font-size: 100px;
+    background-position: 50% 30%;
+    padding-top: 250px;
+    margin: 0;
+}
+
+.articulo {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+p {
+    font-size: 23px;
+}
+
+.recipeInfo {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.cookingInfo {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.seccionIngredientes {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+ul {
+    list-style-type: '- ';
+}
