@@ -4,12 +4,12 @@ body {
 
 .tituloPortada {
     color: white;
+    font-size: 100px;
+    text-align: center;
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    text-align: center;
-    font-size: 100px;
     background-position: 50% 30%;
     padding-top: 250px;
     margin: 0;
