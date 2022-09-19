@@ -1,0 +1,50 @@
+#head{
+    text-align: center;
+    background-image: url(imagenes/apple-pie.jpeg);
+    padding: 200px;
+    background-size: cover;
+}
+#head h1{
+    color: white;
+    font-size: 40px;  
+}
+
+.center-text{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.first-image{
+    margin:0 auto;
+    display: block;
+    width: 400px; 
+    padding-bottom: 25px;
+}
+
+hr{
+    margin:0 50px;
+}
+
+li:: marker {
+    content:"-";
+}
+
+#ingredients{
+    margin-left: 50px;
+}
+
+.time{
+    margin:0 auto;
+    display: block;
+    width: 400px; 
+    padding-bottom: 25px;
+}
+
+#directions{
+    margin:0px 50px;
+    padding-bottom: 100px;
+    text-align: cover;
+}
+
+
+
