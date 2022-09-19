@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.contenedor-img{
+    text-align: center; 
+    width: auto;
+    padding: 10px;
+}
+
+.title-apple{
+    background-image: url('../images/apple-pie.jpg') ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    font-size: 3rem;
+    
+}
+
+.img-apple{ 
+
+}
+.contenedor-cook{
+    width: 800px;
+    height: 200px;
+    text-align:center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: auto;
+    font-size: 1.5rem;    
+}
+h4{
+    font-weight: normal;
+}
+.contenedor-cook img{
+    width: 400px;
+    align-items: center;
+    margin: auto;
+}
+
+.contenedor-ingredients img{
+    width: 400px;
+    align-items: center;
+    margin: auto;
+}
+.img-cooking-info{
+    align-items: center;
+    text-align: center;
+}
+.contenedor-ingredients{
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+}
+.contenedor-directions{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    font-size: 1.3rem;
+}
+.contenedor-directions ul li::marker {
+    content: '';
+}
