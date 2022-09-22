@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-1 {
+    height: 70vh;
+    background-image: url("../images/apple-pie.jpg");
+    
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-1{
+    list-style:circle;
+}
+
+.second {
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 200px;
+}
+
+.third {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+}
