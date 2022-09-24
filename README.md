@@ -2,7 +2,7 @@
 
 # LAB | HTML & CSS - Recipes Clone
 
-## Introduction
+## Introduction 
 
 We have only learned the very basics today with HTML and CSS, so what the heck we can really build, right? Wrong, we can build some cool stuff already, and we are going to do just that.
 
