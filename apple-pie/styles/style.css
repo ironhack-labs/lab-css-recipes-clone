@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.6s linear;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+/* HEADER */
+#header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent url("../images/apple-pie.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#header h1 { 
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+/* DESCRIPTION */
+section.recipe-description {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+
+section.recipe-description p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 0 0 50px 0;
+}
+
+section.recipe-description img.recipe-info {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+
+/* INGREDIENTS */
+section.ingredients {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+
+section.ingredients ul.list-ingredients {
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+section.ingredients ul.list-ingredients li {
+  list-style-type: none; 
+  line-height: 1.3rem;
+}
+
+section.ingredients h3 {
+  margin-bottom: 20px;
+}
+
+section.ingredients p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 0 0 50px 0;
+}
+
+section.ingredients img.prep-info {
+  width: 38%;
+  margin-bottom: 30px;
+}
+
+
+/* DIRECTIONS */
+section.directions {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+
+section.directions ol.directions-infos {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+section.directions ol.directions-infos li {
+  list-style-type: decimal; 
+  line-height: 1.3rem;
+}
+
+section.directions h3 {
+  margin-bottom: 20px;
+}
+
+section.directions p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 0 0 50px 0;
+}
+
+
+/* RESPONSIBLE */
+@media screen and (min-width: 320px) and (max-width: 980px) {  
+  #header h1 { 
+    font-size: 2rem;
+  }
+  section.recipe-description img.recipe-info {
+    min-width: 60%;
+  }
+  section.ingredients img.prep-info {
+    min-width: 60%;
+  }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+  #header h1 { 
+    font-size: 3rem;
+  }
+  section.recipe-description img.recipe-info {
+    width: 60%;
+  }
+  section.ingredients img.prep-info {
+    width: 60%;
+  }
+}
