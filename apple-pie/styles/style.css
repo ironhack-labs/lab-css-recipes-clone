@@ -1,34 +1,77 @@
-.header {
-    background-image: url(../images/apple-pie.jpg);
-    background-size: cover;
-    height: 500px;
-    margin: 0 auto;
-    text-align: center;
-    color: white;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif; 
 }
 
-.ingredients{
+/* ⇓⇓ Class "general" created for general use, tags that have the same value in all sections. */
+
+.general {
+	margin: auto;
+	width: 50%;
+}
+
+.general h3 {
+	font-weight: 500;
+	font-size: 30px;
+	margin: 35px 0;
+}
+
+.general img {
+	display: block;
+	margin: 35px auto 35px;
+    width: 40%;
+}
+
+.general ol {
+    margin-bottom: 70px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: rgb(175, 175, 175)
+}
+
+/* Header */
+
+header {
+	background-image: url('../images/apple-pie.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 1100px;
+}
+
+.apple-title {
+    padding-top: 17%;
+    font-size: 150px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+/* Information */
+
+.information {
+	margin-top: 70px;
+}
+
+.information p {
+	font-size: 30px;
+}
+
+/* Ingredients */
+
+.ingredients ul {
+    font-size: 25px;
+    margin-left: 15px;
+	list-style-type: none;
+}
+
+/* Prepare */
+
+.prepare ol {
+    font-size: 25px;
+	margin-left: 15px;
     list-style-type: none;
 }
-#align {
-    font-family: sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-#align hr {
-    border-bottom: 2px solid rgb(224, 224, 224);
-}
-
-#align .recipe {
-    height: 45px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-#align .cooking {
-    height: 65px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
