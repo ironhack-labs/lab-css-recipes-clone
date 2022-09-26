@@ -1,0 +1,41 @@
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.apple-pie {
+    width: auto;
+    height: 700px;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: block;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 700px;
+    background-position: center;
+    position: relative;
+}
+h1 {
+    color: white;
+    text-align:center;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    font-size: 3rem;
+}
+
+/*.introducao {
+    text-align: center ;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+} */
+
+img {
+    margin-left: 35%;
+}
+
+ol, h2, p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
