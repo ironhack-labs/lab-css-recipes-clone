@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;
+    color: rgb(165, 165, 165);
+}
+
+header {
+    background-image: url(../images/apple-pie.jpg);
+    height: 50vh;
+    background-size: cover;
+    border-bottom: 100px;
+}
+
+#name_header {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 20vh;
+}
+
+#description {
+    text-align: center;
+}
+
+.divImg {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-bottom: solid rgb(165, 165, 165);
+}
+
+li {
+    list-style-type: none;
+}
+
+.directions {
+    margin: 0;
+    padding: 0;
+}
