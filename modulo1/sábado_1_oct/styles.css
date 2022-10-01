@@ -1,0 +1,84 @@
+/*Todo*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+    selectors{
+        property:value;
+        property:value;
+        property:value;
+    }
+*/
+/* SELECTORES BÁSICOS
+Basic; 
+id -> #
+class -> . 
+node o tag -> nodeName (body)
+
+*/
+
+/*Nodo o tag*/
+body{
+    /* Aquí van los estilos */
+    background-color: darkslategrey;
+    color: lavenderblush;
+    padding: 10px;
+}
+
+/* Estilo de formularios 
+form{
+    background-color: salmon;
+}
+*/
+/* Estilo de clases */
+.list{
+    background-color: black;
+    font-size: small;
+    color: tan;
+}
+ol{
+    background-color: black;
+}
+
+/* PROPIEDADES DE COLOR 
+By name 
+Hexadecimal 
+RGB
+RGBA
+*/
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+#img1{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+/* Para comprimir elementos */
+#Con_borde{
+    background-color: blueviolet;
+    width: 150px;
+}
+
+#Formulario_1{
+    background-color: blueviolet;
+    width: 150px;
+    border: 2px solid cyan;
+    border-radius: 15px;
+    text-align: center;
+}
+#Formulario_2{
+    background-color: blueviolet;
+    width: 150px;
+    /* border width top rigth bottom left*/
+    /* border width (top rigth) (bottom left)*/
+    border-width: 4px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    text-align: center;
+}
