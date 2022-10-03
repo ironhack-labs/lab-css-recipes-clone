@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5em;
+}
+
+.header {
+    background-image: url("../../apple-pie/images/apple-pie.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+h2 {
+    padding: 10px;
+}
+
+section {
+    padding: 5%;
+}
+
+ul li {
+    list-style-type: "-";
+}
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+
+img {
+    width: 50%;
+    height: 25%;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+div {
+    border-bottom: 2px solid #BFBFBF;
+}
