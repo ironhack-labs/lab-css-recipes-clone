@@ -1,0 +1,75 @@
+.header{
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Arial';
+    font-size: 60px;
+}
+
+
+.Introduction{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+
+.ingredients{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.ingredients img{
+    display: flex;
+    align-self: center;
+}
+
+.directions{
+    background-color: white;
+    color: #414141;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
