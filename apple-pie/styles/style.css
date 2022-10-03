@@ -1,0 +1,69 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+html,
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  color: #676767;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+}
+
+section,
+article {
+  padding-top: 25px;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  background: url('../images/apple-pie.jpg') no-repeat top;
+  background-size: cover;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.horizontal-padding80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  height: 20px;
+}
+
+.icon-info-section span {
+  font-size: 48px;
+  color: #c0c0c0;
+}
+
+.palote {
+  font-family: 'Helvetica 25 UltraLight', sans-serif;
+  font-weight: 1px;
+  font-size: 64px;
+  color: #c0c0c0;
+}
+
+.icon-ingredients-section span {
+  font-size: 54px;
+  color: #c0c0c0;
+}
