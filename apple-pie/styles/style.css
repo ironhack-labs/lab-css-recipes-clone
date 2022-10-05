@@ -41,3 +41,7 @@ hr{
     margin-left: 150px;
     margin-right: 150px;
 }
+
+ul{
+    list-style-type: "- ";
+}
