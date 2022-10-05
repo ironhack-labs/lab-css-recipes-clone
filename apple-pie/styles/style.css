@@ -1,0 +1,43 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-section{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    margin: o 40px;
+
+}
+
+.header{
+    color:white;
+    font-size: 5em;
+    top: 40%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    font-size: 1.9em;
+    text-align: justify;
+    margin: 40px 200px;
+
+}
+
+hr{
+    width:80%;
+}
+ 
+.image2{
+    display: flex;
+    justify-content: center;
+}
+
+.lists{
+    margin-left: 150px;
+    margin-right: 150px;
+}
