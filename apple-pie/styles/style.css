@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,body {
+    margin:0;
+    padding:0;
+   }
+
+body {
+    font-family:"Roboto";
+    
+}
+
+.header {
+    background-image:url("C:\Users\pirli\ironhack\labs\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+    background-position:top;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+    width:auto;
+    
+}
+h1 {
+    font-size: 5.5em;
+    text-align: center;
+}
+
+.image{
+    width:100%;
+}
+
+.first-paragraph{
+    text-align: center;
+}
+
+p{
+    margin: auto;
+    width: 55%;
+    align-self: center;
+    font-size: 1.2em;
+      
+}
