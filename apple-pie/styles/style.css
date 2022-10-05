@@ -9,33 +9,46 @@ body {
     font-family:"Roboto";
     
 }
-
-.header {
-    background-image:url("C:\Users\pirli\ironhack\labs\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
-    background-position:top;
-    background-size: cover;
-    padding-top: 50px;
-    position: relative;
-    width:auto;
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+}
+h2 {
+    text-align: center;
+}
+p{
+    margin-inline-start: 27%;
+    align-self: center;
+      
+}
+.directions {
+    
+    text-rendering: geometricPrecision;
     
 }
-h1 {
-    font-size: 5.5em;
+ul{
+    margin-inline-start: 27%;
+    margin-inline-end: 27%;
+}
+.recipe {
     text-align: center;
+    font-size: small;
 }
-
-.image{
-    width:100%;
+ol{
+    margin-inline-start: 27%;
+    margin-inline-end: 27%;
 }
-
-.first-paragraph{
-    text-align: center;
+hr{
+    margin-inline-start: 27%;
+    margin-inline-end: 27%;
 }
-
-p{
-    margin: auto;
-    width: 55%;
-    align-self: center;
-    font-size: 1.2em;
-      
+.header{
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-inline-start: 27%;
+  margin-inline-end: 27%;
 }
