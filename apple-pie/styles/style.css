@@ -1,0 +1,82 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(79, 78, 78);
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("/Users/gabimeirellesm/ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    height: 448px;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    
+}
+
+.text-head{
+    text-align: center;
+    color: rgb(79, 78, 78);
+    width: 100%;  
+    height: auto;  
+    text-align: center;  
+    font-size: 1.2rem;
+}
+
+.recipe-info{
+    width: 20%;
+    position: inherit;
+    margin-left: 40%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+hr{
+    width: 50%;
+    border-style: solid;
+    color: rgb(110, 107, 107);
+}
+
+h3{
+    margin-inline-start: 30%; 
+    padding-top: 40px;
+    color: rgb(79, 78, 78);
+    margin-inline-end: 30%;
+}
+
+.first-list{
+    text-align: left;
+    color: rgb(110, 107, 107);
+    margin-top: 40px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 24%;
+    margin-inline-end: 24%;
+    padding-inline-start: 40px;
+}
+
+.second-list{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 24%;
+    margin-inline-end: 24%;
+    padding-inline-start: 40px;
+    padding-bottom: 40px;
+    color: rgb(110, 107, 107);
+}
+
