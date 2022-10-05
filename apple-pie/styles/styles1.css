@@ -1,0 +1,83 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 620px;
+    
+}
+
+.Titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.ingredientes{
+    font-size: 22px;
+    position:relative; 
+    left:10%;
+    font-weight: bold;
+}
+
+.etapas{
+    position:relative; 
+    left:10%;
+}
+
+.img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.direçoes{
+    font-size: 22px;
+    position:relative; 
+    left:10%;
+    font-weight: bold;
+}
+
+.final{
+    position:relative;
+     left:10%;
+}
+
+.line{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.line2{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
