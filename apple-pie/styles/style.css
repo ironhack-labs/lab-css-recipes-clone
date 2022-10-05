@@ -1,0 +1,38 @@
+
+#header {
+    background-image : url("../images/apple-pie.jpg");
+    text-align: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 600px
+    
+}
+#ingredients-apple-pie {
+    border-color: #6a6c6f;
+    border-style: ridge;
+    border-width: 2px 0 0 0;
+}
+#directions-apple-pie {
+    border-color: #6a6c6f;
+    border-style: ridge;
+    border-width:  2px 0 0 0;
+}
+.title{
+    color : white;
+    font-size: 100px;
+}
+.indicaciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepsz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
