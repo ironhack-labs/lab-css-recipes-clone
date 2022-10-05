@@ -38,6 +38,11 @@ hr{
 }
 
 .lists{
-    margin-left: 150px;
-    margin-right: 150px;
+ width: 76%;
+ margin: 0 auto;
+}
+
+ul{
+    list-style-type: "- ";
+    margin-left: -25px
 }
