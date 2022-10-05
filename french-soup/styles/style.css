@@ -1,9 +1,79 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+/* GENERAL */
+
+* {
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+
+/* COVER */
+
+main {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+
+main h1 {
+  color: #fff;
+  font-size: 90px;
+  padding-top: 250px;
+  font-weight: 400;
+}
+
+/* SECTIONS */
+
+.section {
+  width: 66%;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
+  border-bottom: 2px solid #969696;
+}
+
+.first-section p {
+  font-size: 26px;
+}
+
+.last-section {
+  border-bottom: none;
+}
+
+.section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0;
+  margin-top: 25px;
+}
+
+.section h2 {
+  padding: 25px 0;
+  font-weight: 400;
+}
+
+/* LISTS */
+
+ul.custom-ul-style {
+  list-style-type: "- ";
+  margin-left: 20px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  display: block;
+}
+
+ol li::before {
+  display: inline-block;
+  content: counter(item) ")";
+  counter-increment: item;
 }
