@@ -21,14 +21,22 @@ body {
   font-family: arial;
   color:#ffffff;
   text-align: center;
-  
-
+  align-items: center;
+  justify-content: center;
+  display: flex;
 };
 
 .ingredients{
   width: 1000px;
   height: 800px;
   position: center;
+};
+
+.image{
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px; 
 }
 
 
