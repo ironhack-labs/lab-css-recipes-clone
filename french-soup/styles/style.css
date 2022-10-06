@@ -7,3 +7,86 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.apple-pie-background {
+  background-image: url("../images/soup.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.recipe-info {
+  height: 60px;
+  position: relative;
+  margin-top: 0;
+}
+
+.cooking-info {
+  height: 80px;
+  position: relative;
+
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 700px;
+}
+
+.section1 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 700px;
+}
+
+.section2 {
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.ingredients-list {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  list-style: none;
+
+}
+
+.directions {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  list-style: none;
+
+}
+
+li {
+  list-style: inherit;
+
+}
