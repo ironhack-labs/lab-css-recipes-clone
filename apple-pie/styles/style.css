@@ -18,13 +18,16 @@ header {
 
 .introduction {
   height: 200px;
-  text-align: center;
+  text-align: justify;
   font-size: 1.5em;
   margin: 5vw 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .introduction div {
-    font-size: ;
+  width: 100%;
 }
 
 picture img {
