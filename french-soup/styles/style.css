@@ -1,9 +1,82 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+header > img {
+  width: 100%;
+  height: auto;
+  border: 20px;
+  position: relative;
+}
+section {
+  width: 80%;
+}
+.title {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  font-size: 6vw;
+  color: white;
+}
+
+.line {
+  border-top: 2px solid grey;
+}
+
+.history {
+  margin: 0 auto;
+  text-align: center;
+}
+.history p {
+  display: inline-block;
+  text-align: left;
+  font-size: 2.5vw;
+}
+
+.ingredients {
+  margin: 0 auto;
+  text-align: center;
+}
+.ingredients-list {
+  text-align: left;
+  font-size: 2.5vw;
+}
+
+.ingredients-list ul {
+  list-style-type: "- ";
+}
+
+.info img {
+  width: 30em;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.directions {
+  margin: 0 auto;
+  text-align: left;
+  font-size: 2.5vw;
+}
+
+.directions ol {
+  counter-set: list;
+}
+
+.directions > ol > li {
+  list-style: none;
+}
+
+.directions > ol > li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }

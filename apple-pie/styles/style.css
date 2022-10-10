@@ -46,9 +46,10 @@ header h1 {
   font-size: 3vw;
 }
 .ingredients ul {
-  list-style: none;
+  list-style-type: "- ";
   font-size: 2vw;
 }
+
 .padding {
   margin-right: 250px;
 }
