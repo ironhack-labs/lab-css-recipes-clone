@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 800px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.introduction {
+  height: 200px;
+  text-align: justify;
+  font-size: 1.5em;
+  margin: 5vw 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introduction div {
+  width: 100%;
+}
+
+picture img {
+  height: 75px;
+  margin-top: 30px;
+}
+
+hr {
+  border-width: 2px;
+  size: 2px;
+}
+
+.ingredients {
+  text-align: left;
+  margin: 0vw 10vw;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+#pic-cooking-info {
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  margin: 4vw;
+}
+
+.directions {
+  margin: 0vw 10vw;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+ol {
+  counter-reset: list;
+  padding-left: 15px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
