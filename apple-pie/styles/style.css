@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    padding: 0 10vw;
+    width: 711px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    height: 387px;
+    width: 711px;
+    padding: 50px 0px 0px 0px;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    height: 53px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+
+#introduction {
+    padding: 15px 30px;
+}
+
+#ingredients {
+    padding: 15px 30px;
+}
+
+#directions {
+    padding: 15px 30px;
+}
+
+#introduction p {
+    padding: 10px;
+}
+
+#introduction picture img {
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#ingredients h2 {
+    margin: 10px;
+}
+
+#ingredients ul {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+#ingredients picture img {
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#directions h2 {
+    margin: 10px;
+}
+
+#directions ol {
+    margin-left: 30px;
+    padding: 10px;
+}
