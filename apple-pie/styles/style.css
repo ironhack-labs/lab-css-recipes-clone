@@ -1,34 +1,56 @@
+body, html {
+    height: 100%;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;                                                                                                                                                                                                           
 }
 
 h1 {
     font-size: 55px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 23px;
-    font-weight: 100;
+    font-weight: 200;
     text-align: start;
 }
+
+ul {
+    padding-left: 20px;
+}                           
 
 li {
     font-size: 19.5px;
     text-align: start;
 }
 
-.heroImageTitle {
-    background-image: url('lab-css-recipes-clone\apple-pie\images\apple-pie.jpg');
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hero-image {
+  background-image: url("../images/apple-pie.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
 }
 
 .hero article {
@@ -70,4 +92,5 @@ li {
 
 .directions ul {
     list-style-type: none;
+    padding-left: 0;
 }
