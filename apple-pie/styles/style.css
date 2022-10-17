@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 96px;
+    vertical-align: middle;
+}
+
+h3 {
+    font-weight: 200;
+    font-style: normal;
+}
+
+p {
+    margin: 0;
+}
+
+article {
+    padding: 50px 150px;
+    
+}
+
+/* formatação do texto descritivo de apresentação da receita */
+.main-text{
+    margin-top: 30px;
+    line-height: normal;
+    font-size: 1.25em; 
+}
+
+/* formatação do texto dos ingredientes e da receita */
+.article-text{
+    margin-left: 15px;
+    margin-top: 30px;
+    line-height: normal;
+    
+    
+}
+
+/* formatação do bloco de informações gerais da receita*/
+.recipe-info{
+    /* 
+    background-image: url(../images/recipe-info.png);
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    text-align: center;
+    margin: auto;
+    margin: 40px 0px 50px 0px;
+    border-bottom: 2px solid black
+    
+
+
+}
+
+
+/* formatação do tempo de preparo e cozimento*/
+.cooking-info{
+    text-align: center;
+    margin: auto;
+    margin: 40px 0px 50px 0px;
+    border-bottom: 2px solid black
+}
+
