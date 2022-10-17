@@ -35,8 +35,11 @@ section p {
 }
 /* images time to be ready  */
 
-.img1 , .img2 {
+#img1 {
     height: 60px;
+}
+#img2 {
+    height: 70px;
 }
 
 /* ingredients section  */
