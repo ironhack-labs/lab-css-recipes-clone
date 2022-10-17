@@ -30,12 +30,9 @@ ol > li::before {
 /* END List styling */
 
 header {
-  background: url('../images/apple-pie.jpg') no-repeat;
-  background-position: center;
+  background: url('../images/apple-pie.jpg') center no-repeat;
   background-size: 100%;
-  /* background-repeat: no-repeat; */
   height: 600px;
-  width: inherit;
   display: flex;
   justify-content: stretch;
   align-items: flex-start;
