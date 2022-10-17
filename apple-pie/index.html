@@ -1,21 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Pie Recipe</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Apple Pies This was my grandmother's apple pie recipe. I have never seen another one quite like it. It will always
-    be my favorite and has won me several first place prizes in local competitions. I hope it becomes one of your
-    favorites as well! Ingredients 1 recipe pastry for a 9 inch double crust pie 1/2 cup unsalted butter 3 tablespoons
-    all-purpose flour 1/4 cup water 3 tablespoons all-purpose flour 1/4 cup water 1/2 cup white sugar 1/2 cup packed
-    brown sugar 8 Granny Smith apples - peeled, cored and sliced Directions Preheat oven to 425 degrees F (220 degrees
-    C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring
-    to a boil. Reduce temperature and let simmer. Place the bottom crust in your pan. Fill with apples, mounded
-    slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so
-    that it does not run off. Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175
-    degrees C). Continue baking for 35 to 45 minutes, until apples are soft.
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Introduction</title>
+    <style>
+        h1 {
+            background-color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- This is a comment. On Windows: Ctrl + #. On Mac: Shift + Option + A -->
+
+    <!-- Structuring elements -->
+    <!-- Semantic elements -->
+    <!-- All of these semantic elements are block elements. -->
+    <header style="color: red" id="top">This is a header.</header>
+    <nav class="selected">This is the navigation.</nav>
+    <section id="selected-id">This is a section. It is a container for other elements.
+        <header>This is the header of the section</header>
+        <p>This is a bunch of awesome content.</p>
+    </section>
+    <article class="selected">This is an article. It is a container for content. </article>
+    <footer>This is the footer for the page.</footer>
+
+    <!-- Generic elements -->
+    <div>This is a div. <br> It is usually a container for other elements. Divs are block elements.
+        <span>This is a span. Its an inline element.</span>
+        <span>This is another span.</span>
+        <span>And another span.</span>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Content elements -->
+    <h1>This is a heading</h1>
+    <h2>This is heading 2</h2>
+    <h3>Heading 3</h3>
+    <h6>Heading 6</h6>
+
+    <p>This is a paragraph. It is a block element. It is used for text.</p>
+    <img src="https://images.unsplash.com/photo-1665922075713-a20594664b4f" alt="">
+    <img src="broken" alt="Trees from above">
+
+    <a href="https://www.ironhack.com">Visit Ironhack!</a>
+    <a target="_blank" href="#top">Go to the top of the page!</a>
+
+    <!-- This is an unordered list. The order of the elements is not relevant. A list is also a block element. -->
+    <h3>Shopping List:</h3>
+    <ul>
+        <li>Club Mate</li>
+        <li>Pasta</li>
+        <li>Tomatoes</li>
+        <li>Mozarella</li>
+        <li>Pesto</li>
+    </ul>
+
+    <!-- This is an ordered list. The order of the elements matters. An ordered list is a block element. -->
+    <h3>Recipe</h3>
+    <ol>
+        <li>Prepare the pasta</li>
+        <li>Add Tomatoes, Mozarella and Pesto</li>
+        <li>Drink Club Mate</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matias</td>
+                <td>Argentina 🙌</td>
+            </tr>
+            <tr>
+                <td>Antonio</td>
+                <td>Argentina 🙌</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>Germany 😥</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="second-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matias</td>
+                <td>Argentina 🙌</td>
+            </tr>
+            <tr>
+                <td>Antonio</td>
+                <td>Argentina 🙌</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>Germany 😥</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="">
+        <label for="message">Please enter your message:</label>
+        <input placeholder="Enter message" id="message" type="text">
+        <button>Submit message</button>
+    </form>
+
+    <!-- Formatting elements -->
+    <p>This paragraph will contain inline elements.
+        This is <em>emphasized</em> text This is text of <strong>strong</strong> importance.
+        <i>This is italic text.</i>
+    </p>
+</body>
 </html>
+
+
+
+

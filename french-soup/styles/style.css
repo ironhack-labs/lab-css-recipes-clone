@@ -1,9 +1,79 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
-}
+/* Css is structured as a selector and, in curly braces, a declaration. */
+
+/* Structure: */
+/* selector {
+    property: value;
+    property: value
+} */
+
+/* Selectors: */
+
+/* Universal selector */
+* {
+  color: grey;   
+ }
+ 
+ /* Type selector. Selects the element by html tag. You can select multiple elements. */
+ div {
+     background-color: darkgreen;
+ }
+ 
+ /* class selector */
+ .selected {
+     color:crimson;
+     background-color: bisque;
+ }
+ 
+ /* id selector */
+ #selected-id {
+ border: 3px solid green;
+ }
+ 
+ /* specificity: id > class > type > universal selector */
+ 
+ /* names for colors */
+ table {
+     background-color:rgb(147, 78, 182);
+ }
+ 
+ /* rgb-value for colors */
+ table {
+     background-color: rgba(0, 255, 200, 0.326);
+ }
+ 
+ table {
+     background-color: rgba(200, 50, 180, 0.5);
+ }
+ 
+ /* hex values */
+ /* white: #ffffff > #fff */
+ /* black: #000000 > #000 */
+ table, thead, td, tr {
+     background-color: #0ff;
+     border: 1px solid black;
+ }
+ 
+ /* Adobe color wheel: https://color.adobe.com/de/create/color-wheel */
+ 
+ /* Color picker: ColorZilla, EyeDropper, htmlcolorcodes.com */
+ 
+ /* Box-model */
+ 
+ /* padding: 20px or  */
+ /* padding 20px 30px 40px 50px > top right bottom left */
+ table {
+     width: 200px;
+     height: 200px;
+     padding: 50px;
+     border: 10px solid green;
+     margin: 200px;
+ }
+ 
+ .second-table {
+     background-color: red;
+ }
+ 
+ 
+ 
+ 
+ 
