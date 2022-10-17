@@ -5,5 +5,52 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: 100;
+}
+
+header{
+  height: 100%;
+}
+h1 {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 5em;
+}
+h2 {
+  font-weight: 100;
+}
+.hero {
+  width: 100%;
+}
+
+main {
+  margin: 5% 15%;
+}
+article:nth-child(-n+2) {
+  margin-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+#recipe-info{
+  font-size: 1.2em;
+}
+.img-info-container {
+  margin: 20px auto 30px;
+  text-align: center;
+}
+.img-info{
+  height: 80px;
+}
+
+.list {
+  line-height: 1.4;
+}
+
+.ingredients-list {
+  list-style-type: "- ";
 }
