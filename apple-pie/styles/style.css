@@ -1,0 +1,86 @@
+/* General Css */
+*{ 
+    margin:0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+hr {
+ margin: 10px 0px;
+}
+
+html {
+    font-size:16px;
+}
+
+
+
+/* Wrapper Hero */
+
+.wrapper-hero {
+    background-image: url("../images/apple-pie.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.wrapper-hero h1 {
+    color:#fff;
+    font-size: 4em;
+    text-shadow: 5px 5px 5px 5px rgba(0,0,0,0.43);
+}
+
+main {
+    margin: 0px 4%;
+    margin-bottom: 40px;
+}
+
+main .wrapper-content div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main .wrapper-content .information {
+    margin: 20px 0 ;
+}
+
+main .wrapper-content .information p {
+    font-size: 1.3em;
+}
+
+main .wrapper-content .ingredints  h2{
+    margin:10px 0px;
+}
+
+
+main .wrapper-content .ingredints  ul{
+    margin-left:30px;
+    margin-bottom: 20px;
+}
+
+main .wrapper-content .ingredints  ul li {
+    list-style-type:"- ";
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+
+main .wrapper-content .directions h2 {
+    margin:10px 0px;
+}
+
+
+main .wrapper-content .directions p {
+    margin-left: 20px;
+    font-size: 1.3em;
+}
