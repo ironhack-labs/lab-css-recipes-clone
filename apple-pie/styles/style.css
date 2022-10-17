@@ -1,0 +1,78 @@
+@import url('http://fonts.cdnfonts.com/css/winston');
+
+body {
+  max-width: 98vw;
+  margin: 0 auto;
+  font-family: 'Winston', sans-serif;
+  font-size: 16px;
+}
+
+/* List styling */
+ol, ul {
+  margin: 0;
+  padding: 0 1ch;
+  counter-reset: list;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+ul > li::before {
+  content: '- ';
+}
+
+ol > li::before {
+  counter-increment: list;
+  content: counters(list, '-', decimal) ") ";
+}
+/* END List styling */
+
+header {
+  background: url('../images/apple-pie.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+  /* background-repeat: no-repeat; */
+  height: 600px;
+  width: inherit;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+header h1 {
+  margin: auto;
+  color: white;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+section {
+  width: 60%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section img {
+  align-self: center;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.story,
+.ingredients {
+  border-bottom: 2px solid lightgray;
+}
+
+h1, h2, h3, h4 {
+  padding-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+p, li {
+  font-size: 1.1rem;
+}
