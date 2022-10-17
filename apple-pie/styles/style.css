@@ -1,0 +1,119 @@
+/********* Resets **********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/********* Bases **********/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/********* Header **********/
+.header {
+  height: 90vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 12rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recipe-container {
+  margin: 0 auto;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.recipe__text {
+  margin-top: 6.8rem;
+  font-size: 2.4rem;
+  text-align: justify;
+}
+
+.recipe_icons {
+  margin-top: 5.4rem;
+  width: 50%;
+}
+
+/********* Ingredients **********/
+.ingredients {
+  align-self: flex-start;
+  width: 100%;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+}
+
+.ingredients h3 {
+  margin-top: 5.4rem;
+}
+
+.ingredients ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ingredients ul li::before {
+  content: "-";
+  margin-right: 1rem;
+}
+
+.ingredients img {
+  align-self: center;
+
+  margin-top: 5.4rem;
+  width: 45rem;
+}
+
+/********* Preparation **********/
+.preparation {
+  align-self: flex-start;
+  width: 100%;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+}
+
+.preparation h3 {
+  margin-top: 5.4rem;
+}
+
+.preparation ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 2rem;
+}
