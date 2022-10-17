@@ -18,7 +18,11 @@ section h1 {
     justify-content: space-around;
     padding-top: 200px;
 }
+/* ingredients section  */
 
+hr {
+    margin: 10px 100px;
+}
 section p {
     margin: 50px 30px;
     display: block;
@@ -29,10 +33,13 @@ section p {
     text-align: center;
    
 }
+/* images time to be ready  */
+
 .img1 , .img2 {
     height: 60px;
 }
 
+/* ingredients section  */
 
 .list article {
     margin-top: 40px;
@@ -44,7 +51,13 @@ h3,
 h2 {
     padding-top: 20px;
     padding-left: 40px;
+    text-decoration:solid;
 }
+
+
+/* direction sections */
+
+
 .list ul,
 ol {
     margin: 20px 0 20px 80px;
