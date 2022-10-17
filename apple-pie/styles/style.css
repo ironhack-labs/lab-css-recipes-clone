@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 100;
+    text-align: start;
+}
+
+li {
+    font-size: 19.5px;
+    text-align: start;
+}
+
+.heroImageTitle {
+    background-image: url('lab-css-recipes-clone\apple-pie\images\apple-pie.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero article {
+    width: 66%;
+    font-size: 23px;
+}
+
+.hero img {
+    width: 33%;
+    align-self: center;
+    margin: 25px 0 20px 0;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 17% 0 17%;
+    border-top: 1px solid grey;
+}
+
+.ingredients ul {
+    list-style-type: '- ';
+}
+
+.ingredients img {
+    width: 42%;
+    align-self: center;
+    margin: 25px 0 20px 0;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 17% 0 17%;
+    border-top: 1px solid grey;
+}
+
+.directions ul {
+    list-style-type: none;
+}
