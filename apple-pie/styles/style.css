@@ -1,6 +1,8 @@
 h1 {
     color: white;
     text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
 }
 
 header {
@@ -9,7 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    padding-top: 50px;
+    padding-top: 140px;
     position: relative;
 }
 
