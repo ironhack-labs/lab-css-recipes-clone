@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    padding: 300px 550px;
+    box-sizing: border-box;
+}
+
+.contenido {
+    padding: 100px 200px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 100px;
+}
+
+.recipe, .cooking {
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+hr{
+    margin: 15px 30px;
+}
+
+ul{
+    list-style-type: none;
+}
