@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E6E6;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#title {
+    background-color: #78F0B7;
+    border: 2px solid #178C55;
+    margin: 10px 10px 40px 20px;
+}
+
+#title p {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text {
+    background-color: #24CCDA;
+    padding: 5px 10px 5px 10px;
+}
+
+#text p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0 0 0 0;
+}
