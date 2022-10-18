@@ -70,6 +70,16 @@ section {
     list-style-type: "-";
 }
 
-#directions ul {
- list-style-type: none;
-}
+.directions-list {
+    counter-reset: list;
+    list-style: none;
+  }
+  
+  .directions-list li::before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+  
+  li {
+    padding: 3px 0;
+  }
