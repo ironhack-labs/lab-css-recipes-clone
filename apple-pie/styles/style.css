@@ -1,0 +1,40 @@
+.all{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.header{
+    background-image:url("../images/apple-pie.jpg");
+    height: 300px;
+    width: 750px;
+    font-style: normal;
+    text-align: center;
+    line-height: 275px;
+    font-size: 25px;
+    background-size:cover;
+
+}
+.introduction{
+    text-align: center;
+    font-style: normal;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.recipe-info{
+    text-align: center
+}
+
+.cooking-info{
+    text-align: center
+    
+}
+
+li {list-style-type: none;}
+li::before{content: "-"}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.ingredients{
+    font-size: 20px;
+}
