@@ -10,13 +10,14 @@ margin-right: 10vh;
 }
 
 .hero-image {
-    background-image: url("/images/apple-pie.jpg");
-    background-color: #b71c1c;
+    background-image: url("../images/apple-pie.jpg");
+    background-color: #ff0202;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding: 28px;
   }
   
   .hero-text {
