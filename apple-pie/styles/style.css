@@ -1,0 +1,49 @@
+
+
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+.underline{
+border-bottom: 3px solid black;
+width: 70%;
+
+}
+
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    height: 600px;
+    background-size: cover;
+
+
+}
+
+.Color {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+
+.recipy-info {
+    
+    text-align: center;
+}
+
+ol li {
+    list-style-type: circle;
+}
+
+.wrapper {
+    margin: 2% 2%;
+}
+
+.applePieRecipy {
+    text-align: center;
+}
+
