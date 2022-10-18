@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+p {
+text-align: center;
+margin-left: 10vh;
+margin-right: 10vh;
+}
+
+.hero-image {
+    background-image: url("/images/apple-pie.jpg");
+    background-color: #b71c1c;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+  
+  .container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ol.custom-marker {
+    counter-reset: list;
+  }
+  
+  ol.custom-marker > li {
+    list-style: none;
+    counter-increment: list;
+  }
+  
+  ol.custom-marker.parens-after.decimal > li::marker {
+    content: counter(list) ")\a0";
+  }
+
