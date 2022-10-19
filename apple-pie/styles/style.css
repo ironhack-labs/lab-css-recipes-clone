@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+.header{
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    height: 70vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+    text-transform: capitalize;
+}
+
+.contenido {
+    margin: 0 auto;
+}
+
+.contenido{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+hr {
+    background-color: #eee;
+    border: 0 none;
+    color: rgb(31, 29, 29);
+    height: 3px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 7px;
+    font-weight: 100;
+}
+
+p, li {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.recipe {
+    width: 110%;
+}
+
+.recipe2 {
+    width: 90%;
+}
+
+
+
