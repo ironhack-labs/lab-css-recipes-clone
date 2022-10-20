@@ -19,9 +19,10 @@ body {
 }
 
 .titulo {
+    font-size: 70px;
     color: white;
-    padding-left: 650px;
-    padding-top: 180px;
+    padding-left: 614px;
+    padding-top: 74px;
     box-sizing: border-box;
 }
 
@@ -36,10 +37,15 @@ p.cent-size {
     color: rgb(122, 122, 122);
 }
 
+.tono {
+   
+    display: flex;
+    justify-content: center;
+}
+
 .cent2 {
-    /*display: inline-block;*/
-    
-    padding: 220px;
+   display: inline-block;
+    font-size: 20px;
 }
 .darkcol {
     list-style:none;
@@ -50,21 +56,22 @@ p.cent-size {
 }
 
 .info {
-    width: 320px;
-    display: inline-block;
-    padding: 0 500px;
+    
+    display: flex;
+    padding: 0 390px;
+    
 }
 .enchicar {
-    width: 800px;
+    display: flex;
 }
 
 .moverteala {
     display: inline-block;
-    padding: 0 230px;
+    padding: 20px 205px;
 }
 .dir {
     display: inline-block;
-    padding: 0 250px;
+    padding: 26px 244px;
     font-size: 20px;
 }
 
