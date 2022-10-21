@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p,
+li {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+hr {
+  width: 100%;
+}
+
+h2 {
+  margin: 20px 0px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+#header__backgroundImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+
+  background: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header__backgroundImage__title {
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+}
+
+#main {
+  margin: 0 auto;
+  width: 400px;
+}
+
+#main__intro {
+  margin: 20px 0;
+}
+
+.main__infoGraphic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main__infoGraphic__recipeInfo {
+  width: 400px;
+}
+
+#main__ingredients {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#main__ingredients li {
+  padding-bottom: 5px;
+}
+
+#main__infoGraphic__cookingInfo {
+  width: 320px;
+}
+
+#main__directions {
+  margin-bottom: 20px;
+}
+
+#main__directions li {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 700px) {
+  #main {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #main {
+    width: 800px;
+  }
+}

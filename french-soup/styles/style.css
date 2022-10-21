@@ -1,9 +1,88 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 30px 0;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+
+  background-image: url("../images/soup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+#main {
+  margin: 80px 20px 50px 20px;
+}
+
+.main__infoGraphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+#main__infoGraphic__recipeInfo {
+  width: 400px;
+}
+
+#main__ingredients {
+  list-style: none;
+}
+
+#main__ingredients li {
+  padding-bottom: 5px;
+}
+
+#main__infoGraphic__cookingInfo {
+  width: 350px;
+}
+
+#directions li {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 800px) {
+  #main {
+    margin: 80px 50px 50px 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #header {
+    background-position: 50% 80%;
+  }
+
+  #main {
+    width: 900px;
+    margin: 80px auto 50px auto;
+  }
+}
+
+@media (min-width: 1700px) {
+  #header {
+    background-position: 50% 70%;
+  }
 }
