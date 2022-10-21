@@ -1,0 +1,96 @@
+ 
+
+body {
+    font-family: 'geneva';
+    color: rgb(129, 129, 129);
+}
+
+h1 {
+    font-size: 8em;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    text-align: left;
+
+    
+}
+
+#header{
+    height: 1250px;
+    margin-bottom: 100px;
+    margin-left:-10px;
+    margin-right: -10px; 
+    margin-top: -10px;
+
+}
+#header img {
+    height: 1250px;
+}
+
+#header h1 {
+    margin-top: -900px;
+    color: white;
+}
+
+
+
+h3 {
+    font-size: 2em;
+    font-weight:50;
+    text-align: justify;
+}
+
+.cooking {
+    padding: 0 25%;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+hr { 
+    border-top: 2px solid lightgrey; 
+}
+#summary {
+    margin: 0 100px;
+}
+
+#summary img{
+    width: 600px;
+}
+
+#ingredients {
+    padding: 0 100px;
+    margin-bottom: 100px;
+
+}
+
+ul {
+    font-size: 1.65em;
+    margin-bottom: 100px;
+    list-style: '- '; 
+}
+
+#ingredients img{
+    width: 600px; 
+    margin-top: -40px;
+}
+
+
+
+#directions {
+    padding: 0 100px;
+
+}
+
+
+ol {
+    font-size: 1.65em;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+ 
+ 
