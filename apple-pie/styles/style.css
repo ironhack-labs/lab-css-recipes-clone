@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   margin-left: 20%;
   margin-right: 20%;
@@ -22,20 +22,18 @@ body {
 
 h1 {
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 120px;
 }
 
-
 #paraOne {
-  
   text-align: justify;
   background-color: white;
   padding: 50px 60px 100px 80px;
-  
+
   margin: -50px -10px 0px -10px;
   line-height: 1.6;
 }
@@ -57,7 +55,6 @@ h1 {
   text-align: left;
   text-justify: left;
   padding: 50px 80px 50px 80px;
-  
 }
 
 ul {
@@ -65,8 +62,6 @@ ul {
   text-justify: auto;
   padding: 0px 100px 50px 80px;
   line-height: 1.6;
-
-  
 }
 
 ul.dashed {
@@ -111,7 +106,6 @@ ul.dashed > li:before {
   text-justify: auto;
   background-color: white;
   padding: 10px 80px 50px 80px;
-  
 }
 
 #recipeInfoImg {
