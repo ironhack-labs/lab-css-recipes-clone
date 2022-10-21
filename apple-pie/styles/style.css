@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.bgimg {
+  background-image: url("../images/apple-pie.jpg");
+  margin-top: -40px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 50px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 120px;
+}
+
+
+#paraOne {
+  
+  text-align: justify;
+  background-color: white;
+  padding: 50px 60px 100px 80px;
+  
+  margin: -50px -10px 0px -10px;
+  line-height: 1.6;
+}
+
+#cookingInfoImg {
+  background-color: white;
+  margin: -20px -10px 50px -10px;
+  padding-top: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#paraTwo {
+  text-align: left;
+  text-justify: left;
+  padding: 50px 80px 50px 80px;
+  
+}
+
+ul {
+  text-align: left;
+  text-justify: auto;
+  padding: 0px 100px 50px 80px;
+  line-height: 1.6;
+
+  
+}
+
+ul.dashed {
+  list-style-type: none;
+  padding-top: 0;
+}
+
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+#headerIngredients {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sectionOne {
+  background-color: white;
+  margin: -100px 0px -100px 0px;
+}
+
+.sectionTwo {
+  background-color: white;
+  margin: -100px -10px -100px -10px;
+}
+
+.sectionThree {
+  background-color: white;
+  margin: -100px -10px -100px -10px;
+}
+
+#paraThree {
+  text-align: left;
+  text-justify: auto;
+  background-color: white;
+  padding: 10px 80px 50px 80px;
+  
+}
+
+#recipeInfoImg {
+  background-color: white;
+  padding-top: 15px;
+  margin: -20px -10px 50px -10px;
+}
+
+#headerDirections {
+  margin-top: 100px;
+  margin-left: 70px;
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+ol {
+  counter-reset: list;
+  line-height: 1.6;
+}
+
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
