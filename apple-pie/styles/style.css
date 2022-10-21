@@ -1,50 +1,65 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
 }
 
 #title {
-    background-image: url("../images/apple-pie.jpg");
-    background-size: 400px;
-    width: 900px;
-    height: 300px;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
-    color: #fff;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  width: 980px;
+  height: 500px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sections {
-    background-color: rgba(255, 99, 71, 0.2);
-    margin: 20px 120px;
+  width: 600px;
+  display: block;
+  margin: 25px auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
-#recipeInfo {
-    /* border: 2px solid green; */
-    width: 300px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-content: center; */
+#intro > p {
+  text-align: justify;
+  line-height: 1.3em;
 }
 
-#cookingInfo {
-    border: 2px solid green;
-    width: 300px;
+hr {
+    /* border: 2px solid purple; */
+    width: 600px;
 }
 
 .icons {
-    margin: auto;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    border: 10px solid blue;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-top: 10px;
 }
 
 #steps {
-    background-color: aliceblue;
-    list-style-type: "- ";
+  list-style-type: "- ";
+  line-height: 1.5em; 
+}
+
+#bakingProcess {
+    line-height: 1.5em;
+}
+
+#directions {
+    margin-bottom: 40px;
 }
