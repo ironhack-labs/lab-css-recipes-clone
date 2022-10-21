@@ -1,0 +1,36 @@
+.prep {
+    height: 40px;
+    width: 300px;
+    padding-left: 100px;
+}
+.time {
+    height: 40px;
+    width: 300px;
+    padding-left: 100px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    width: 600px;
+    height: 900px;
+    }
+.content{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.header {
+    background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+    background-size: 100%;
+    width: 600px;
+    height: 300px;
+    
+  }
+  .header h2 {
+    color: white;
+    font-size: 50px;
+    padding-left: 170px;
+    padding-top: 120px;
+
+  }
