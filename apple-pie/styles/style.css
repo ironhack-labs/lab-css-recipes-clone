@@ -1,0 +1,60 @@
+* {
+    font-family: Montserrat, extralight, sans-serif; 
+    font-size: 22px;
+    line-height: 1.5rem;
+    
+ }
+ #headerH1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: Montserrat, light, sans-serif;
+    padding: 250px ;
+    
+    margin: 0;
+ }
+header {
+    background: url("../images/apple-pie.jpg") no-repeat center bottom/cover;
+    background-position: center;
+ }
+ article {
+    text-align: justify;
+    font-size: 24px;
+ }
+
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li:before {
+    margin-right: 6px;
+    content: "-";
+    text-indent: -5px;
+  }
+ol.withBrackets > li:before {
+    content: ")";
+    text-indent: -5px;
+}
+ .text-content {
+    margin: 70px auto 70px auto;
+    width: 80%;
+ }
+
+ .line {
+    width: 90%;
+ }
+
+ .images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    margin: auto auto 20px auto;
+ }
+ #recipe-info {
+    height: 90px;
+ }
+ .text-content > h2 {
+    font-size: 25px;
+    font-family: Montserrat, light, sans-serif;
+    margin-bottom: 15px;
+ }
