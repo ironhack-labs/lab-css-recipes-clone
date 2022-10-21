@@ -14,11 +14,12 @@ body{
 }
 h1 {
     color: white;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
     font-family: "roboto";
     position: absolute;
     font-weight: 300;
+    font-size: 60px;
 }
 
 h2 {
@@ -28,11 +29,11 @@ h2 {
     padding: 20px;
 }
 .text {
-    margin: 20px 0;
-    text-align: center;
-    margin: 20px;
+    margin: auto;
+    border: 20px;
+    
     padding: 20px;
-    justify-content: center;
+    box-sizing: border-box;
 }
 
 
