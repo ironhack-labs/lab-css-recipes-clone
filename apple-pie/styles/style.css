@@ -58,6 +58,13 @@ hr {
 
 #bakingProcess {
     line-height: 1.5em;
+    counter-reset: list;
+    list-style: none;
+}
+
+li:before {
+    content: counter(list) ') ';
+    counter-increment: list;
 }
 
 #directions {
