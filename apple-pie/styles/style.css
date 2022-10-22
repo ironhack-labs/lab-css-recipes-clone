@@ -49,5 +49,15 @@ hr {
 }
 
 ul {
-    margin: 20px;
+    list-style: "-";
 }
+
+ol {
+    list-style: none;
+    counter-reset: list;
+  }
+  
+  ol > li:before {
+    content: counter(list) ') ';
+    counter-increment: list;
+  }
