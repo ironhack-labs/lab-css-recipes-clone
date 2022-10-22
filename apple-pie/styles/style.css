@@ -1,0 +1,91 @@
+.banner {
+    border: 1px solid blue;
+    height: 825px;
+    width: 1390px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-bottom: 100px;
+}
+
+.banner-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .2rem;
+    font-weight: lighter;
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 30%;
+    left: 33%;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 140%;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.recipe-info {
+    height: 80px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+}
+
+.hr {
+    display: block; 
+    border: 1px solid black;
+    margin-left: 150px; 
+    margin-right: 600px; 
+    margin-bottom: 65px; 
+}
+
+.ingredients {
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+.ingredients-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.ingredients-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: ;
+    font-size: 25px;
+}
+
+.cooking-info {
+    height: 100px;
+    width: 450px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+
+.directions {
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+.directions-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.directions-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: ;
+    font-size: 25px;
+}
