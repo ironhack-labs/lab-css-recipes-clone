@@ -62,7 +62,7 @@ hr {
     list-style: none;
 }
 
-li:before {
+ol li:before {
     content: counter(list) ') ';
     counter-increment: list;
 }
