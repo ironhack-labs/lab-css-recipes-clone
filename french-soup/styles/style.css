@@ -86,7 +86,17 @@ main {
     align-items: flex-start;
 }
 
-#preparation li {
+ol {
+    counter-reset: counter;
+}
+
+ol > li {
+    counter-increment: counter;
     font-size: 1rem;
     margin: 3px;
+    padding-left: 5px;
+}
+
+ol > li::marker{
+    content: counter(counter) ")";
 }
