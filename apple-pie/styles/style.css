@@ -5,7 +5,7 @@ body {
 .applepie {
     display: flex;
     justify-content: center;
-    background-image: url("/images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     width: auto;
     height: 500px;
     margin-top: -10px;
