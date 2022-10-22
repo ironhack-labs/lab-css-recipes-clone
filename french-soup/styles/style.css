@@ -15,6 +15,18 @@ h2 {
   margin: 30px 0;
 }
 
+ol {
+  counter-reset: counter;
+}
+
+ol > li {
+  counter-increment: counter;
+}
+
+ol > li::marker {
+  content: counter(counter) ")";
+}
+
 #header {
   display: flex;
   justify-content: center;
@@ -49,7 +61,7 @@ h2 {
 }
 
 #main__ingredients {
-  list-style: none;
+  list-style: "-";
 }
 
 #main__ingredients li {
