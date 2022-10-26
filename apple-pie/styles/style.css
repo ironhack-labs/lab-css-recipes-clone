@@ -11,15 +11,16 @@ header {
   background-size: cover;
 }
 
-header div {
+header h1 {
   color: white;
   font-size: 5em;
   text-align: center;
   padding-top: 200px;
+  margin: 0;
 }
+
 .container {
   background-color: #fff;
-  padding: 0;
 }
 
 section {
@@ -34,17 +35,15 @@ section h2 {
   font-weight: 100;
 }
 
-section div {
-  text-align: center;
-}
-
 section div img {
+  display: block;
+  margin: 0 auto;
   height: 80px;
 }
 
 section li {
   padding: 5px 0;
-  list-style-type: none;
+  list-style-type: '- ';
 }
 
 section ol li {
