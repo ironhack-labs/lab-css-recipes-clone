@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+body {
+    width: 650px;
+}
+
+.big-image {
+    height: 370px;
+    width: 625px;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    line-height: 370px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 90;
+}
+
+p {
+    display: flex;
+    width: 525px;
+    text-align: center;
+}
