@@ -1,0 +1,20 @@
+* {
+  background-color: white;
+}
+
+h1 {
+  color: rgb(236, 235, 227);
+}
+
+.container {
+position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
