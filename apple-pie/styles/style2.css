@@ -1,0 +1,16 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+}
