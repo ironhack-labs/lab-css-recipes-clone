@@ -14,3 +14,46 @@ header h1 {
     text-align: center;
     line-height: 100vh;
 }
+
+main {
+    margin: 0 15vw;
+    font-size: 1.7rem;
+    line-height: 1.2;
+}
+
+main > p {
+    margin-top: 10vh;
+    text-align: justify;
+}
+
+main > img {
+    display: block;
+    margin: 4vw auto 2vw auto;
+}
+
+main > hr {
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 6vh;
+}
+
+main > h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 4vh 0;
+}
+
+main > ul > li {
+    margin-left: 2vw;
+    list-style-type: "- ";
+}
+
+main > ol {
+    margin-left: 2vw;
+    margin-bottom: 15vh;
+}
+
+main > ol > li::before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+}
