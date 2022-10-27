@@ -1,81 +1,60 @@
-* {
-    font-family: Helvetica;
-    font-size: small;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    width: 625px;
-}
-
-.big-image {
-    height: 370px;
-    width: 625px;
+header {
+    height: 100vh;
     background-image: url("../images/apple-pie.jpg");
-    background-repeat: no-repeat;
-    background-size: 110%;
-    background-position: center;
-    line-height: 370px;
-    text-align: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
     color: white;
+    text-align: center;
+    line-height: 100vh;
 }
 
-h1 {
-    font-size: 3.5em;
-    font-weight: 90;
+main {
+    margin: 0 15vw;
+    font-size: 1.7rem;
+    line-height: 1.2;
 }
 
-p {
-    display: block;
-    margin: 50px auto;
-    width: 475px;
+main > p {
+    margin-top: 10vh;
     text-align: justify;
-    font-size: 1em;
 }
 
-.recipe-img {
+main > img {
     display: block;
-    margin: 0 auto 10px auto;
-    height: 40px;
-    width: auto;
+    margin: 4vw auto 2vw auto;
 }
 
-hr {
-    width: 475px;
-    display: block;
-    margin: 0 auto 30px auto;
-    color: grey;
-    size: 2px;
+main > hr {
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 6vh;
 }
 
-h3 {
-    font-weight: bold;
-    margin-left: 75px;
+main > h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 4vh 0;
 }
 
-ul {
+main > ul > li {
+    margin-left: 2vw;
     list-style-type: "- ";
-    margin-left: 55px;
 }
 
-.cooking-img {
-    display: block;
-    margin: 40px auto 10px auto;
-    height: 55px;
-    width: auto;
-    margin-bottom: 10px;
+main > ol {
+    margin-left: 2vw;
+    margin-bottom: 15vh;
 }
 
-ol {
-    counter-reset: list;
-    width: 460px;
-    margin-left: 55px;
-  }
-  ol > li {
-    list-style: none;
-  }
-  ol > li:before {
+main > ol > li::before {
     content: counter(list, lower-alpha) ") ";
     counter-increment: list;
-  }
-
+}
   
