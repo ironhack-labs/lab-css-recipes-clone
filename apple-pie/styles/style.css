@@ -22,11 +22,16 @@
 .text {
     height: 90vh;
     width: 50vw;
-    margin: 3rem;
+    margin: 6%;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding-left: 3%;
 }
 
-ul li{
-    text-decoration: none;
+img.cooking {
+    width: 20vw;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
 }
