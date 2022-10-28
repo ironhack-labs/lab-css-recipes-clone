@@ -19,3 +19,14 @@
     font-size: 70px;
 }
 
+.text {
+    height: 90vh;
+    width: 50vw;
+    margin: 3rem;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    text-decoration: none;
+}
