@@ -1,0 +1,56 @@
+
+  header {
+    background-image: url('../images/apple-pie.jpg'); /* Background Image */
+    background-size: cover; /* 2.) This will cover all */
+    background-position: center center; /* 3.) Align in center */
+    padding: 250px 0; /* 4.) Padding */
+  }
+  
+  header h1 {
+    text-align: center; /* Alignment */
+    margin: 0; /* Margin */
+    color: white; /* Color of text */
+    font-size: 64px; /* Size of text*/
+    font-weight: lighter; /* Make it thinner looking*/
+  }
+  
+  img {
+    max-width: 100%; /* Image for details width */
+  }
+  
+  main {  /* Body design - Everything is under this */
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  p { /* Paragraph font size */
+    font-size: 20px;
+  }
+  
+  main > img { /* This is to design image within the main component */
+    display: block;
+    margin: 32px auto;
+    width: 400px;
+  }
+  
+  ul { /* Padding pushes content away from left side by just 8 px, so slightly */
+    padding-left: 8px;
+  }
+  
+  ol { /* This will just push it to the left all the way */
+    padding-left: 0;
+  }
+  
+  ul li { /* To input dashes in list*/
+    list-style-type: '- ';
+  }
+  
+  ol li { /* Indicating style to just be normal - 1.)... 2.).. */
+    list-style: none;
+    counter-increment: unordered-list-item;
+  }
+  
+  ol li:before { /* Number ordered list */
+    content: counter(unordered-list-item) ')';
+  }

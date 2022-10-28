@@ -7,3 +7,97 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/* -------------------------------------------------------- */
+
+/* Header */ 
+hr {
+    border: none;
+    height: 3px;
+}
+
+.image-heading {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+  width: 75%;
+  height: 25%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* This is for all of the content inside the container*/
+.container {
+  padding: 0 175px;
+}
+
+/* Sections*/
+section {
+  font-size: 1.3rem;
+}
+
+/* Cooking Info*/
+.cooking-info {
+  padding: 60px 0;
+}
+
+/* Info*/
+.info {
+  font-size: 26px;
+}
+
+/* Details */
+.details {
+  padding: 40px 0;
+}
+
+/* Image */
+.direction-image {
+  height: 65px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+/* Info Inside Ingredients list*/
+.ingredient-list, .info {
+  margin-bottom: 40px;
+}
+
+/* List Inside Ingredients list*/
+.ingredient-list, .direction-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* List inside Ingredients list*/
+.ingredient-list > li {
+  padding-left: 1em;
+  text-indent: -1em;
+  
+}
+.ingredient-list > li:before {
+  content: "-";
+  padding-right: 2px;
+}
+
+.direction-list > li {
+  counter-increment: step-counter;
+}
+
+.direction-list > li:before {
+  content: counter(step-counter)")";
+  padding-right: 3px;
+}
