@@ -7,3 +7,60 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#title{
+  color: white ;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  object-fit: cover;
+  
+}
+
+h1{
+  text-align: center;
+  padding: 350px 400px;
+  font-size: 50px;
+  font-weight: 10;
+  letter-spacing: 6px;
+}
+
+.p1{
+  padding: 100px 0px;
+  text-align: justify;
+  font-size: 30px;
+  margin: 10px 80px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+
+}
+
+.recinfo{
+ margin: 50px 420px;
+}
+.cookinfo{
+  margin: 50px 420px;
+
+}
+
+h2{
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 0px 80px
+}
+
+ul{
+  list-style: "- ";
+  font-size: 27px;
+  margin: 0px 70px;
+  letter-spacing: 1px;
+}
+
+ol{
+  font-size: 27px;
+  margin: 0px 70px;
+  letter-spacing: 1px;
+}
+hr{
+  margin: 0px 70px
+
+}
