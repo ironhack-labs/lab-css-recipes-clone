@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .banner {
     position: relative;
     display: inline-block;
@@ -16,14 +20,14 @@
     transform: translate(-50%, -50%);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-size: 8em;
 }
 
 .text {
     height: 90vh;
     width: 50vw;
     margin: 6%;
-    font-size: large;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     padding-left: 3%;
@@ -34,4 +38,8 @@ img.cooking {
     margin: auto;
     display: block;
     padding-top: 30px;
+}
+
+ul {
+    list-style: none;
 }
