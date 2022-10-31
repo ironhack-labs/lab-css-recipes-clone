@@ -7,3 +7,46 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.french-onion-soup-picture{
+  height:550px;
+  background-image: url("..images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 6px;
+  padding-top: 215px;
+  box-sizing: border-box;
+}
+
+.intro-section-container{
+  padding: 40px 75px;
+  text-align: center;
+}
+
+
+.annoying-intro-blurb{
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.recipe-info{
+  width: 400px;
+  margin: 20px 0;
+
+}
+
+.ingredients-section{
+  padding: 0 75px;
+}
+
+.cooking-info{
+  width: 300px;
+}
+
+.directions-section{
+  padding: 30px 75px;
+}
