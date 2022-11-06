@@ -20,8 +20,11 @@ html {
   margin: auto;
 }
 
+#dash{
+  list-style-type: "- ";
+}
 ul{
-  list-style-type: "-";
+  list-style: none;
 }
 
 .center-all{
