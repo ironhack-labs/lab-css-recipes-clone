@@ -1,0 +1,33 @@
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+.center{
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+
+#title {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 100;
+  margin: auto;
+}
+
+ul{
+  list-style-type: "-";
+}
+
+.center-all{
+  padding: 50px 80px;
+}
+.img{
+  margin: auto;
+  text-align: center;
+}
