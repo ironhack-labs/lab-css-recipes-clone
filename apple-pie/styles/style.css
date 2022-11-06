@@ -19,19 +19,16 @@ body {
     text-align: center;
 }
 
-.first-parr {
+.first-parr p {
     font-size: 20px;
     text-align: center;
-    margin: 80px 80px 0 80px;
-}
-
-.first-parr p {
-    margin-bottom: 40px;
+    margin: 80px 80px 40px 80px;
 }
 
 .first-parr img {
     width: 450px;
-    margin-bottom: 20px;
+    display:block;
+    margin:auto;
 }
 
 .second-parr h2 {
@@ -52,7 +49,9 @@ body {
 
 .second-parr img {
     width: 400px;
-    margin: 40px 0 20px 500px;
+    margin-top: 40px;
+    display:block;
+    margin:auto;
 }
 
 .third-parr {
@@ -69,4 +68,8 @@ body {
     font-weight: lighter;
     margin: 0 70px 0 80px;
     padding: 2px 0 2px 0;
+}
+
+.dividor-line {
+    margin: 20px 0 20px 0;
 }
