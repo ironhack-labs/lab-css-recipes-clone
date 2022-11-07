@@ -20,13 +20,13 @@ li {
 }
 
 .hero h1{
-  background-image: url(/french-soup/images/soup.jpg);
+  background-image: url(../images/soup.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
-  padding-top: 200px;
-  color: black;
+  padding-top: 300px;
+  color: white;
   font-size: 70px;
   text-align: center;
   font-weight: lighter;
