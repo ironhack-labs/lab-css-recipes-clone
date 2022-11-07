@@ -7,3 +7,58 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+h2 {
+  font-size: 22px;
+}
+
+li {
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.3;
+  list-style: none;
+}
+
+.hero h1{
+  background-image: url(/french-soup/images/soup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding-top: 200px;
+  color: black;
+  font-size: 70px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.container {
+  margin: 0 90px 0 90px;
+}
+
+.dividor-line {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section1 p {
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.section1 img {
+  display: block;
+  margin: auto;
+  width: 450px;
+}
+
+.section2 img {
+  display: block;
+  margin: auto;
+  width: 450px;
+}
+
+.section3 {
+  margin-bottom: 40px;
+}
