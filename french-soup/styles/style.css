@@ -11,7 +11,7 @@ html {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   text-align: center;
   
 }
@@ -21,4 +21,23 @@ html {
   color: white;
   font-size: 2.5rem;
   font-weight: 100;
+  
 }
+
+#intro{
+  width: 80%;
+  margin: 100px auto;
+  color: rgb(91, 88, 88);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid rgb(214, 214, 214);
+  
+}
+
+.intro__img{
+  width: 50%;
+  margin-bottom: 60px;
+ 
+}
+
