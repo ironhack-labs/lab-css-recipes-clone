@@ -4,7 +4,8 @@ h1, body, html, main {
 }
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.5rem;
 }
 .header{
   background-image: url("../images/soup.jpg");
@@ -59,4 +60,10 @@ html {
   width: 50%;
   margin-bottom: 60px;
   margin: 30px auto;
+}
+
+#directions{
+  width: 80%;
+  margin: 50px auto 40px;
+  color: rgb(91, 88, 88);
 }
