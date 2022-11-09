@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0px; 
+    padding: 0px; 
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+body {
+    /* USED FONT TYPE ON THE EXERCISE IS MPETITION BUT IT`S A PAYMENT FONT*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: 110% auto;
+}
+
+header h1 {
+    position: relative;
+    font-size: 5.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: fit-content;
+    background-color: white;
+    padding-inline: 150px;
+}
+
+#introduction-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding-block: 10px;
+    margin-top: 20px; 
+    background-color: white;
+}
+
+#introduction-section p {
+    position: relative;
+    font-size: 1.9rem; 
+    font-weight: 100;
+    line-height: 40px;
+    color: black;
+    margin-top: 40px;
+}
+
+.info-images {
+    position: relative;
+    width: 450px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+#ingredients-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+#ingredients-section ul {
+    list-style: none;
+}
+
+#ingredients-section ul li {
+    font-size: 1.7rem;
+    font-weight: 100;
+    color: black;
+    margin-left: 20px;
+}
+
+#ingredients-section ul li::before {
+    content: '- ';
+}
+
+#directions-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+#directions-section ol{
+    list-style: none;
+}
+
+#directions-section ol li:before{
+    content: counter(list-item) ')';
+}
+
+#directions-section ol li{
+    font-size: 1.7rem;
+    font-weight: 100;
+    color: black;
+    margin-left: 20px;
+}
