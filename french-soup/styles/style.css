@@ -1,9 +1,76 @@
-/*Some necessary adjustments*/
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+.header{
+  background-image: url("../images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  
+}
+.header__title{
+  position: relative;
+  top: 50%;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+  
+}
+
+#intro{
+  width: 80%;
+  margin: 50px auto 40px;
+  color: rgb(91, 88, 88);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid rgb(214, 214, 214);
+  
+}
+
+.intro__img{
+  width: 50%;
+  margin-bottom: 40px;
+ 
+}
+
+#ingredients{
+  width: 80%;
+  margin: auto;
+  color:rgb(91, 88, 88);
+  border-bottom: 3px solid rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  
+}
+.ingredients__list{
+  list-style: none;
+  margin-left: -20px;
+
+}
+.ingredients__img{
+  width: 50%;
+  margin-bottom: 60px;
+  margin: 30px auto;
+}
+
+#directions{
+  width: 80%;
+  margin: 50px auto 40px;
+  color: rgb(91, 88, 88);
+}
+
+.directions__ol{
+  list-style: none;
+}
+.directions__ol li::before{
+  content: counter(list-item) ')';
 }
