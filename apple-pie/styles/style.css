@@ -1,0 +1,51 @@
+body {
+    counter-reset: list;
+}
+
+.apple-pie {
+    margin: 0;
+    width: 98.1vw;
+    height: 100vh;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -100%);
+    color: white;
+    text-align: center;
+    font-size: 18vh;
+}
+
+.image-instruction {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.intro-text {
+    font-size: 30px;
+    width: 80vw;
+    text-align: left;
+    margin: 5vw auto 3vw;
+    font-weight: 100;
+}
+
+.ingredients-list li {
+    list-style-type: "-";
+}
+
+.list {
+    border-top: solid black 2px;
+    font-size: 30px;
+    width: 80vw;
+    text-align: left;
+    margin: 5vw auto 3vw;
+}
+
+.directions-list p::before {
+    counter-increment: list;
+    content: counter(list) ")";
+}
