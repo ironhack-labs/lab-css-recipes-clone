@@ -26,7 +26,7 @@ html {
 
 #intro{
   width: 80%;
-  margin: 100px auto;
+  margin: 50px auto 40px;
   color: rgb(91, 88, 88);
   display: flex;
   flex-direction: column;
@@ -37,7 +37,26 @@ html {
 
 .intro__img{
   width: 50%;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
  
 }
 
+#ingredients{
+  width: 80%;
+  margin: auto;
+  color:rgb(91, 88, 88);
+  border-bottom: 3px solid rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  
+}
+.ingredients__list{
+  list-style: none;
+  margin-left: -20px;
+
+}
+.ingredients__img{
+  width: 50%;
+  margin-bottom: 60px;
+  margin: 30px auto;
+}
