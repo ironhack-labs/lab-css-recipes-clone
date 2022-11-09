@@ -1,9 +1,77 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+@counter-style cs-extends {
+  system: extends decimal;
+  suffix: ") ";
+}
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: Roboto;
+  font-size: 18px;
+}
+.header {
+  background-image: url("../images/soup.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+h3 {
+  font-weight: 501;
+  font-size: 25px;
+}
+.encajado {
+  box-sizing: border-box;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#cooking {
+  margin: auto;
+  padding: 20px 100px;
+}
+.aclaracion {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: justify;
+}
+#ingredientes ul {
+  list-style-type: "- ";
+}
+/* */
+ol > li {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ol {
+  list-style: cs-extends;
+}
+.listas {
+  padding: 20px 100px;
+}
+
+li {
+  font-size: 20px;
 }

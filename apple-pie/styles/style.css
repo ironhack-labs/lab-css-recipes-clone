@@ -7,6 +7,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 .header {
   background-image: url("../images/apple-pie.jpg");
@@ -17,10 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-body {
-  background-color: white;
-  font-family: "Roboto";
 }
 h1 {
   font-size: 5em;
@@ -44,9 +43,9 @@ h3 {
   font-weight: 500;
   text-align: justify;
 }
-
 img {
-  width: 60%;
+  box-sizing: border-box;
+  width: 40%;
   display: block;
   margin: auto;
 }
