@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-top: 200px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.first-parr p {
+    font-size: 20px;
+    text-align: center;
+    margin: 80px 80px 40px 80px;
+}
+
+.first-parr img {
+    width: 450px;
+    display:block;
+    margin:auto;
+}
+
+.second-parr h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.second-parr ul {
+    list-style-type: none
+}
+
+.second-parr ul li {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+.second-parr img {
+    width: 400px;
+    margin-top: 40px;
+    display:block;
+    margin:auto;
+}
+
+.third-parr {
+    margin-bottom: 40px;
+}
+
+.third-parr h2{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 80px;}
+
+.third-parr ol li {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0 70px 0 80px;
+    padding: 2px 0 2px 0;
+}
+
+.dividor-line {
+    margin: 20px 0 20px 0;
+}
