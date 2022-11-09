@@ -78,7 +78,13 @@ body{
     margin: 50px 70px 20px;
     font-size: 1rem;
     color: rgb(79, 77, 77);
-   
-    
-    
 }
+
+.directions__p{
+    list-style: none;
+}
+
+.directions__p li::before{
+    content: counter(list-item) ')';
+}
+
