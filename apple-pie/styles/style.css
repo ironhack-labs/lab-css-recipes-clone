@@ -3,11 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: "Open Sans", "Roboto", sans-serif;
 }
-
 .header {
     height: 110vh;
     background-image: url("../images/apple-pie.jpg");
@@ -16,7 +14,6 @@ body {
     background-size: 100vw;
     margin-bottom: 100px;
 }
-
 .header h1 {
     color: #fff;
     font-weight: 400;
@@ -40,7 +37,6 @@ section h3 {
     height: 3px;
     background-color: #000;
 }
-
 img {
     position: relative;
     margin: 50px 0 30px;
@@ -66,9 +62,7 @@ img {
 .ingredients ul li:before {
     content: "- ";
 }
-
 /* -----------section 3 ---------- */
-
 .directions ol {
     list-style: none;
     counter-reset: elementcounter;
@@ -77,7 +71,6 @@ img {
     font-weight: 300;
     margin: 50px 0 100px 15px;
 }
-
 .directions ol li:before {
     content: counter(elementcounter) ")";
     counter-increment: elementcounter;
