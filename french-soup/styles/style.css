@@ -67,3 +67,10 @@ html {
   margin: 50px auto 40px;
   color: rgb(91, 88, 88);
 }
+
+.directions__ol{
+  list-style: none;
+}
+.directions__ol li::before{
+  content: counter(list-item) ')';
+}
