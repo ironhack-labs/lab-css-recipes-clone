@@ -48,6 +48,17 @@ ul, ol {
     margin-bottom: 10px;
 }
 
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list, number) ") ";
+    counter-increment: list;
+  }
+
 h3 {
     font-weight: 400;
     margin-bottom: 10px;
