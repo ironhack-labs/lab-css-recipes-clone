@@ -5,8 +5,18 @@ body {
 
 .contenedor {
   position: relative;
-  display: inline-block;
+  display: block;
   text-align: center;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100%;
+  object-fit: cover;
+}
+
+.main-title {
+  font-size: 120px;
+  font-weight: lighter;
+  color: #e2e2ed;
+  padding: 400px;
 }
 
 .top-image {
@@ -28,16 +38,6 @@ body {
   margin: auto;
 }
 
-.title {
-  font-size: 120px;
-  font-weight: lighter;
-  color: #e2e2ed;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -53,11 +53,14 @@ p {
   font-weight: lighter;
   font-size: 25px;
   margin-left: 145px;
+  margin-bottom: 50px;
+  list-style-type: "-";
 }
 
-.title-2 {
+.titles {
   margin-left: 140px;
   font-size: 30px;
+  margin-top: 50px;
 }
 
 hr {
