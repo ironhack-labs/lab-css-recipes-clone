@@ -1,0 +1,30 @@
+
+
+.title {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 86px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 40px 80px;
+}
+
+.info, .ingredients, .directions {
+    padding: 0 0 20px 0;
+}
+
+.ingredients, .directions {
+    border-top: 2px solid #979797;
+}
+
+.info img, .ingredients img {
+    width: 50%;
+    margin-left: 25%;
+}
