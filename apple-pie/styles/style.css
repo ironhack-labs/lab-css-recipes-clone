@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
 header {
     background-image: url("../images/apple-pie.jpg");
@@ -14,6 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 ul li {
@@ -25,20 +29,28 @@ ul li {
 .intro {
     border-bottom: 1px solid black;
     display: flex;
-
     flex-direction: column;
-    justify-content: justify;
+    align-items: center;
     margin: 30px 60px;
 }
 
 .ingredients {
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: justify;
+    align-items: center;
     margin: auto 60px;
+    border-bottom: 1px solid black;
 }
+
+.ingredients-1 {
+    width: 100%;
+}
+
 
 .directions {
     margin: 30px 60px;
+}
+
+img {
+    width: 300px;
 }
