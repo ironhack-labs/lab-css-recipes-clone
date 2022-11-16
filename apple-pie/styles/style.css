@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .title {
+    background-image: url('https://raw.githubusercontent.com/NachoLG22/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+  }
+  
+header h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+    padding-top: 200 px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 0 100 px;
+}
+
+.firstText {
+    font-size: 20 px;
+}
+
+.preparation-img {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.list-toppings {
+    list-style-type: '- ';
+    padding-left: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.instructions  {
+    counter-reset: list;
+    padding-left: 20px;
+    margin-bottom: 60px;
+}
+
+.instructions > li {
+    list-style: none;
+}
+
+.instructions-list > li:before {
+    content: counter (list) ") ";
+    position: relative;
+    left: -5px;
+}
