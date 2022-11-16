@@ -20,7 +20,7 @@
 .reciptPicture{
     width: 400px;
     margin: 0 70px 50px 70px;
-    padding: 0 195px 30px 195px;
+    padding: 0 195px 30px 300px;
     border-bottom: 1px solid grey;
     
 }
@@ -29,21 +29,23 @@ h2{
     font-size: 24px;
     font-weight: bold;
     margin: 0 0 30px 70px;
+    padding-left: 0;
 }
 
 .ingredientsList{
-    padding: 0 70px 50px 70px; /*Preguntar aquí perque el padding és diferent al margin*/
+    padding: 0 70px 50px 90px; /*Preguntar aquí perque el padding és diferent al margin*/
     list-style-type: '- ';
 }
 
 .cookingPicture{
     width: 300px;
     margin: 0 70px 50px 70px;
-    padding: 0 195px 30px 195px;
+    padding: 0 245px 30px 350px;
     border-bottom: 1px solid grey;
 }
 
 .stepsList{
     padding: 0 70px 50px 70px;
     font-size: 22;
+    width: 895px;
 }
