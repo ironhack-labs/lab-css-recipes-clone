@@ -18,16 +18,22 @@
     font-size: 120px;
   }
   
-header h1 {
+.header h1 {
     text-align: center;
     font-weight: 400;
     font-size: 60px;
     padding-top: 200 px;
 }
 
-section {
+.section {
     margin-bottom: 40px;
     padding: 0 100 px;
+}
+
+.hr {
+    margin: 2rem 0;
+    height: 3px;
+    background-color: gray;
 }
 
 .firstText {
