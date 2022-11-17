@@ -1,0 +1,34 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+main{
+  padding: 6% 5%;
+}
+header {
+    height: 650px;
+    background: url(../images/apple-pie.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+hr {
+    margin: 0px 0px 50px 0px;
+  }
+h1{
+    color: white;
+    font-size: 60px;
+}
+.imagenes {
+    text-align: center;
+  }
+.imagenes img{
+  max-width: 500px;
+  margin: 20px 0px;
+}
