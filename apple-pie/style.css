@@ -3,19 +3,20 @@
     color: #7d7d7d;
   }
   .main {
-    text-align: justify;
+    text-align: left;
     background-image: url(./images/apple-pie.jpg);
-    height: 489px;
-    margin: 11px 21px;
-    font-size: 81px;
+    height: 302px;
+    margin: -53px 21px;
+    font-size: 61px;
     color: white;
-    background-size: 732px;
+    background-size: 813px;
     background-repeat: no-repeat;
-  
-    
+    padding-left: 267px;
+    padding-top: 244px;
+
 }
   .introduction {
-    margin: 49px 1243px 25px 116px;
+    margin: 104px 1243px 25px 116px;
   }
   
   .cooking{
@@ -57,3 +58,4 @@
 }
 
  
+///list-style-type: '- '
