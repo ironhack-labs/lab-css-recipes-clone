@@ -56,7 +56,16 @@ ul {
 ul {
     list-style-type: "- ";
 }
-
+ol {
+    counter-reset: list;
+}
 li {
     font-size: 20px;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
