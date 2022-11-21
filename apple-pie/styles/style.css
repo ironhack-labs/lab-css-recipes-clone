@@ -1,0 +1,81 @@
+
+.eleHea{
+    background-image:url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    height:50em; 
+    width: 50%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1{
+    color: white;
+    font-size: 6em;    
+    text-align: center;
+}
+
+.elem{
+    width: 55em ;
+    text-align: left;
+    display: flex;    
+    flex-direction: column;
+    align-content: center;
+ }
+
+ .elem p{
+    padding-top: 2em;
+    font-size: 1.5em;
+
+ }
+
+ .elem h4{
+    font-size: 1.8em;
+    padding:1em;
+    margin: 0 0;
+    text-align: left;
+    
+ }
+
+ .det{
+    position: relative;
+    left: 1em;
+ }
+
+ .det li{
+    font-size: 1.3em;
+   
+ } 
+
+ ul li{
+    list-style-type: '-';
+ }
+
+body{
+    width: 80%;
+    padding:1em 8px 5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.info{
+    width: 30em; 
+    margin: 1em 0; 
+    padding: 1em 0;
+    position: relative;
+    left: 25%; 
+   
+}
+.cooking{
+    width: 25em;
+    margin: 1em 0; 
+    padding: 1em 0;
+    position: relative;
+    left: 25%;
+}
+
