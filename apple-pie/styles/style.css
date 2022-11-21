@@ -1,0 +1,94 @@
+body, html {
+    align-items: center;
+    background-color: #FFF5EE;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    font-family:"Montserrat";
+    font-size: 1.7vw;
+    font-weight: 400;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 5vw;
+    width: 100vw;
+}
+
+/* -----class.selectors-------*/
+.horizontal-rule {
+    border: none;
+    border-top: 0.2vw solid gray;
+    text-align: center;
+    width: 80vw;
+}
+
+.ingredients-list{
+    list-style-type: none;
+}
+
+.intro-text,
+.ingredients-heading,
+.directions-heading,
+.directions-list,
+.ingredients-list {
+    text-align: left;
+}
+
+.intro-text {
+    margin-top: 10vw;
+}
+
+.cooking-info,
+.recipe-info {
+    margin: 5vw auto;
+    width: 40vw;
+}
+
+.ingredients-heading, 
+.directions-heading {
+    margin-top: 5vw;
+}
+
+/*-------id selsctors--------*/
+
+#directions,
+#ingredients {
+    font-size: 1.6vw;
+}
+
+#directions,
+#ingredients,
+#intro {
+    width: 75vw;
+}
+
+ #directions,
+ #ingredients,
+ #intro,
+ #page-title-section {
+    text-align: center;
+}
+
+#page-title-heading {
+    bottom: 16vw;
+    color: #fff;
+    font-size: 7vw;
+    font-weight: 300;
+    left: 2vw;
+    margin: 0;
+    position: relative;
+}
+
+#page-title-section { 
+    background-image: url(../../apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    height:27vw;
+    margin: 0;
+    padding-top: 45vw ;
+    width: 100vW;
+}
+
+
+
+
+
+
