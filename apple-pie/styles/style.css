@@ -5,9 +5,10 @@ body, html {
     display: flex;
     flex-direction: column;
     font-family:"Montserrat";
-    font-size: 1.7vw;
+    font-size: 1.9vw;
     font-weight: 400;
     justify-content: center;
+    line-height: 3vw;
     margin: 0;
     padding-bottom: 5vw;
     width: 100vw;
@@ -58,6 +59,7 @@ body, html {
 #directions,
 #ingredients,
 #intro {
+    margin: 3vw 0;
     width: 75vw;
 }
 
@@ -81,7 +83,7 @@ body, html {
 #page-title-section { 
     background-image: url(../../apple-pie/images/apple-pie.jpg);
     background-size: cover;
-    height:27vw;
+    height:23vw;
     margin: 0;
     padding-top: 45vw ;
     width: 100vW;
