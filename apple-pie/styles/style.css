@@ -1,49 +1,65 @@
-body {
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     
-
-}
-header h1 {
+  
+  }
+  header h1 {
     color: white;
     position:absolute;
     font-size: 80px;
     top: 400px;
-    left: 550px;    
+    left: 600px;    
     }
-
-header img {
+  
+  header img {
         height: 1000px;
-        width: 1400px;
-        margin: 40px 100px;
+        width: 1600px;
+        margin-bottom: 40px;
     }
-
-.introduction, .ingredients, .directions {
-    width: 800px;
+  
+  .introduction, .ingredients, .directions {
+    width: 1000px;
     margin: 0 auto;
-    font-size: 24px;
-}
-
-hr {
+    font-size: 30px;
+  }
+  
+  hr {
     width: 800px;
-}
-
-h2 {
-    font-size: 28px;
-}
-
-.introduction img, .ingredients img {
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .introduction img, .ingredients img {
     width: 400px;
     position: relative;
     margin-top: 50px;
     margin-bottom: 30px;
-    left: 150px;
-}
-
-li {
+    left: 300px;
+  }
+  
+  ul, ol{
+    line-height: 30px;
+  }
+  
+  li {
     font-size: 20px;
     list-style:none;
-}
+   
+  }
+  
