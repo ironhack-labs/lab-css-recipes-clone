@@ -1,9 +1,92 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+body,
 html {
+  align-items: center;
+  background-color: #FFF5EE;
+  color: #000;
+  display: flex;
+  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 1.9vw;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 3vw;
+  margin: 0;
+  padding-bottom: 5vw;
+  width: 100vw;
+}
+
+/* -----class.selectors-------*/
+.horizontal-rule {
+  border: none;
+  border-top: 0.2vw solid gray;
+  text-align: center;
+  width: 80vw;
+}
+
+.ingredients-list {
+  list-style-type: none;
+}
+
+.intro-text,
+.ingredients-heading,
+.directions-heading,
+.directions-list,
+.ingredients-list {
+  text-align: left;
+}
+
+.intro-text {
+  margin-top: 10vw;
+}
+
+.cooking-info,
+.recipe-info {
+  margin: 5vw auto;
+  width: 40vw;
+}
+
+.ingredients-heading,
+.directions-heading {
+  margin-top: 5vw;
+}
+
+/*-------id selsctors--------*/
+
+#directions,
+#ingredients {
+  font-size: 1.6vw;
+}
+
+#directions,
+#ingredients,
+#intro {
+  margin: 3vw 0;
+  width: 75vw;
+}
+
+#directions,
+#ingredients,
+#intro,
+#page-title-section {
+  text-align: center;
+}
+
+#page-title-heading {
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 300;
+  left: 2vw;
+  margin: 0;
+  position: relative;
+  left: 5vw;
+  top: 5vw;
+}
+
+#page-title-section {
+  background-image: url(../../french-soup/images/soup.jpg);
+  background-size: cover;
+  height: 33vw;
+  margin: 0;
+  padding-top: 45vw;
+  width: 100vW;
 }
