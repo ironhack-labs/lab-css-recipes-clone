@@ -1,22 +1,116 @@
+<!-- NPM Clone -->
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Pie Recipe</title>
-    <!-- don't forget to link your styles -->
-    <link rel="stylesheet" href="./styles/style.css">
-  </head>
-  <body>
-    Apple Pies This was my grandmother's apple pie recipe. I have never seen another one quite like it. It will always
-    be my favorite and has won me several first place prizes in local competitions. I hope it becomes one of your
-    favorites as well! Ingredients 1 recipe pastry for a 9 inch double crust pie 1/2 cup unsalted butter 3 tablespoons
-    all-purpose flour 1/4 cup water 3 tablespoons all-purpose flour 1/4 cup water 1/2 cup white sugar 1/2 cup packed
-    brown sugar 8 Granny Smith apples - peeled, cored and sliced Directions Preheat oven to 425 degrees F (220 degrees
-    C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring
-    to a boil. Reduce temperature and let simmer. Place the bottom crust in your pan. Fill with apples, mounded
-    slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so
-    that it does not run off. Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175
-    degrees C). Continue baking for 35 to 45 minutes, until apples are soft.
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>npm Homepage Clone</title>
+        <link rel="stylesheet" href="./images/style.css"/>
+    </head>
+
+    <body>
+
+    <header>
+        <div>
+        <div>
+            <img class="blackHeart" src="/lab-html-exercise/images/black-heart.png" alt="black heart" />
+            <span> Nifty Penguin Magic </span>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="#"> npm Enterprise </a></li>
+            <li><a href="#"> Products </a></li>
+            <li><a href="#"> Solutions </a></li>
+            <li><a href="#"> Resources </a></li>
+            <li><a href="#"> Docs </a></li>
+            <li><a href="#"> Support </a></li>
+            </ul>
+        </nav>
+        </div>
+    
+        <div>
+            <form class="flex-container" action="/some-url" method="get">
+                <img class="npmLogo" src="/lab-html-exercise/images/npm-logo.png" alt="npm logo"/>
+                <img class="magnifyingGlass" src="/lab-html-exercise/images/magnifying-glass.png" alt="magnifying glass"/>
+                <input class="input-search" type="text" placeholder="Search packages">
+                <button class="search-button" type="submit"> Search </button>
+            </form>
+            <ul class="joinLogIn">
+                <li><a class="join" href="#"> Join </a></li>
+                <li><a class="logIn"href="#"> Log In </a></li>
+            </ul>
+        </div>
+    </header>
+    
+        <!-- section 1 -->
+        <section class="section" id="general_information">
+            <h1 class="title">
+                Build amazing things
+            </h1>
+            <article class="text">
+                Essential JavaScript development tools that help you go to market faster and build powerful applications using
+                modern open source code.
+            </article>
+            <div class="plans-join">
+                <li><a class="see-plans-button" href="#"> See plans </a></li>
+                <li><a class="join-button" href="#"> Join for free </a></li>
+            </div>
+        </section>
+        
+        <!-- section 2 -->
+        <section class="section2" id="advertisement">
+            <img class="triangleHexagon" src="/lab-html-exercise/images/triangle-hexagon.svg" alt="triangle hexagon"/>
+            <h2 class="title2">
+                Bring the best of open source to your company
+            </h2>
+            <article class="text2">
+                npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves.
+            </article>
+        </section>
+        
+        <!-- section 3 -->
+        <section id="create-an-org">
+            <div class="flex3">
+                <div>
+                    <img class="logos" src="/lab-html-exercise/images/zero-configuration.svg" alt="cursor selecting"/>
+                    <h3 class="sub-heading">
+                        Zero configuration
+                    </h3>
+                    <p class="text3">
+                        Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.
+                    </p>
+                </div>
+                <div>
+                    <img class="logos" src="/lab-html-exercise/images/team-management.svg" alt="linked people"/>
+                    <h3 class="sub-heading">
+                        Team management
+                    </h3>
+                    <p class="text3">
+                        Control who has access to what modules within your team namespace using straightforward team management capabilities.
+                    </p>
+                </div>
+                <div>
+                    <img class="logos" src="/lab-html-exercise/images/familiar-features.svg" alt="four blocks"/>
+                    <h3 class="sub-heading">
+                        Familiar features
+                    </h3>
+                    <p class="text3">
+                        npm Orgs has 100% parity with all the public npm registry features your developers already use.
+                    </p>
+                </div>
+                <div>
+                    <img class="logos" src="/lab-html-exercise/images/npm-audit.svg" alt="logo binoculars"/>
+                    <h3 class="sub-heading">
+                        npm audit
+                    </h3>
+                    <p class="text3">
+                        Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.
+                    </p>
+                </div>
+        </div>
+        <div>
+            <li><a class="org" href="#"> Create an Org </a></li>
+        </div>
+        </section>
+    </body>
 </html>
