@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 100px;
+}
+
+h2 {
+    font-weight: lighter;
+    color: grey;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h3 {
+    font-weight: lighter;
+    color: grey;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.line {
+    margin-left: 80px;
+    margin-right: 80px;
+    color: grey;
+}
+
+.ingredients{
+    font-weight: lighter;
+    color: grey;
+    font-size: 15px;
+    margin-left: 82px;
+    margin-right: 78px;
+    display:flex;
+    justify-content: left;
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none;
+}
+
+.directions{
+    font-weight: lighter;
+    color: grey;
+    font-size: 15px;
+    margin-left: 82px;
+    margin-right: 78px;
+    display:flex;
+    justify-content: left;
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none;
+}
+
+.picture {
+    width: 500px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.picture-2 {
+    width: 400px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.Block-imag {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Block-1{
+    background-image: url("../images/apple-pie.jpg") ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
