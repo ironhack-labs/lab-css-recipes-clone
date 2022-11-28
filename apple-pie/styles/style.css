@@ -1,6 +1,9 @@
 #applePieLanding {
-    color:white;
+    width: 100%;
+    height: 150px;
+    font-color:white;
     text-align: center;
     font-size: xx-large;
     background-image: url(lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+
 }
