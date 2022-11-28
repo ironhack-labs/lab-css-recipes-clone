@@ -15,15 +15,14 @@
     color: antiquewhite;
 }
 
-img {
+#recipe-info img {
     margin: auto;
     display: block;
-    width: 30%;
+    width: 25%;
 }
 
-#recipe-info {
-}
-
-#cooking-info {
-
+#cooking-info img {
+    margin: auto;
+    display: block;
+    width: 18%;
 }
