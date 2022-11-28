@@ -1,9 +1,35 @@
-#applePieLanding {
-    width: 100%;
-    height: 150px;
-    font-color:white;
-    text-align: center;
-    font-size: xx-large;
-    background-image: url(lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+body {
+    margin: 0;
+}
 
+#applePieLanding {
+
+    background-image: url('../images/apple-pie.jpg');
+    height: 940px;
+    background-size: cover;
+   
+
+
+}
+
+
+#textApplePie{
+    height: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  
 }
