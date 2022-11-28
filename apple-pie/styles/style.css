@@ -1,47 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 #applePieLanding {
-
-    background-image: url('../images/apple-pie.jpg');
-    height: 1000px;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 96px;
+  background-image: url("../images/apple-pie.jpg");
+  height: 1000px;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 96px;
 }
 
-#recipePresentation{
-    margin: 157px 157px 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 31px;
+#recipePresentation {
+  margin: 157px 157px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
 }
 
-.instructions{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 90px;
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px;
 }
-.solid{
-    border-top: 3px solid #bbb;
-    margin: 0px 157px 100px;
+.solid {
+  border-top: 3px solid #bbb;
+  margin: 0px 157px 100px;
 }
 
-h1{
-    margin: 0px 157px 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+h1 {
+  margin: 0px 157px 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin: 0px 157px 40px;
+  font-weight: 100;
 }
 
 li {
-    list-style-type: none;
+  margin: 10px auto;
 }
 
+p {
+  margin: 0px 157px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+#directions {
+  margin-bottom: 157px;
+}
