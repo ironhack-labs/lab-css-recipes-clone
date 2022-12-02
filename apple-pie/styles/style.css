@@ -1,41 +1,42 @@
+
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:200;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 30px;
-    margin: auto;  
+    padding:0;
+    margin:0;  
 }
 h1{
-    align-items: center;
-    margin: auto;
-    justify-content: space-around;
-    align-self: center;
+    font-weight: 100;
+    color: aliceblue;
+    font-size: 50px;
     display: flex;
-    width: 600px;
-    height: 600px;
-    background: url('.\apple-pie\images\apple-pie.jpg');
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(\Utilisateurs\apoll\ironhack\gittest\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
     background-size: cover;
+    background-position: 0;
+    height: 650px;
 }
 .apple{
     display: flex;
-    margin: auto;
+    margin:auto;
     width: 300px;
-    margin-top:30px;
     margin-bottom: 30px;
 }
+
 .intro{
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-}
-.first-section{
     border-bottom: 1px solid gray;
-   
+    margin: 0 60px;
+    margin-top: 20px;
 }
-.first-section > p{
-    width: 70%;
-}
+
 .list-ingredients{
+    padding: 10px;
     list-style-type:none ;
 }
 .list-ingredients > li::before{
@@ -51,4 +52,22 @@ h1{
 }
 .ingredients{
     border-bottom: 1px solid gray;
+    margin: 0 60px;
+}
+
+.direction{
+    padding: 10px;
+    counter-reset: list;
+}
+.direction > li{
+    list-style: none;
+}
+
+.direction > li::before{
+    counter-increment: list;
+    content: counter(list) ")";
+}
+.instructions{
+    border-bottom: 1px solid gray;
+    margin: 0 60px;
 }
