@@ -1,9 +1,93 @@
-/*Some necessary adjustments*/
+/*Some necessary adjustments
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+Import the font and set the default size
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}*/
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body{
+  margin-bottom: 10%;
+}
+
+#french-soup{
+  background-image: url("/french-soup/images/soup.jpg");
+  height: 140vh;
+  width:100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#French-onion-soup{
+  color:white;
+  font-size: 100px;
+  display:inline-block;
+  margin:50% 10% 20%;
+  text-align: center;
+  font-weight: 100;
+}
+
+#intro{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 5%;
+ margin-bottom:5%
+}
+
+.line{
+  height: 2px;
+  background-color: grey;
+  width: 80%;
+  
+  }
+
+.image-line{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  margin-left: 10%
+}
+
+#intro-para{
+  font-size: 27px;
+  color:grey;
+  line-height: 1.5;
+  
+}
+
+h3{
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight:1000;
+ 
+}
+
+.para{
+  margin-left: 1%;
+  margin-top:3%;
+  font-size: 26px;
+  margin-bottom: 3%;
+  color:grey;
+  line-height: 1.5;
+}
+
+.second{
+  height: 100px;
+  width:110%
 }
