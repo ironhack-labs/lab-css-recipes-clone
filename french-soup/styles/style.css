@@ -4,6 +4,61 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
   font-size: 18px
+}
+
+.title{
+  background-image: url(../images/soup.jpg);
+  font-weight: 100;
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  background-size: cover;
+  background-position: 0;
+  height: 650px;
+  margin-bottom: 50px;
+}
+
+.paraf{
+  margin: 40px 80px;
+  border-bottom: 1px solid gray;
+}
+
+.ingredients{
+  padding: 10px;
+  list-style-type:none ;
+}
+
+.ingredients >li::before {
+  content: "-";
+}
+#last-section{
+  margin-bottom: 60px;
+  border-bottom: none;
+}
+.cooking{
+  display: flex;
+  margin:auto;
+  width: 300px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.instructions{
+  padding: 10px;
+  counter-reset: list;
+}
+
+.instructions > li{
+  list-style: none;
+}
+
+.instructions>li::before{
+  counter-increment: list;
+  content: counter(list) ")";
 }

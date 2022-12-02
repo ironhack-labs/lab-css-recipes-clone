@@ -17,7 +17,7 @@ h1{
     text-align: center;
     align-items: center;
     margin: 0;
-    background-image: url(\Utilisateurs\apoll\ironhack\gittest\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
+    background-image: url(../images/apple-pie.jpg);
     background-size: cover;
     background-position: 0;
     height: 650px;
