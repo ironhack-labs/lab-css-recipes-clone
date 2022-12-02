@@ -1,9 +1,74 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+ul,
+li {
+  font-size: 24px;
+  color: #5e5e5e;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+hr {
+  border: 2px solid #cacaca;
+  width: 70%;
+  margin: 60px auto;
+}
+
+.background-img {
+  height: 100vh;
+  background: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+}
+
+.background-img div {
+  margin: auto;
+}
+
+.soup-recipe,
+.ingredients,
+.directions {
+  margin: 60px 240px;
+}
+
+.recipe-img,
+.cooking-img {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients h2,
+.directions h2 {
+  padding-bottom: 30px;
+}
+
+.directions li {
+  padding-bottom: 20px;
 }
