@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ap-back {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#apple-pie {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1200%;
+    color: white;
+}
+
+#intro {
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 300%;
+}
+
+#recipe-info {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 75%;
+}
+
+#ing {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 310%; 
+}
+
+#ing-list {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 240%;
+    list-style-type: "- ";
+    line-height: 1.2;
+}
+
+#cooking-info {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#dir {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 310%;
+}
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+#dir-list {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 240%;
+    line-height: 1.2;
+}
