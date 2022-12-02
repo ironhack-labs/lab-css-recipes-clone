@@ -1,9 +1,65 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-style: light;
+}
+
+header {
+  background-image: url(/Users/noa/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-position: 0;
+  height: 600px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+  font-size: 80px;
+}
+
+h3 {
+  padding-bottom: 0;
+  font-size: 32px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+ol {
+  font-size: 26px;
+  margin: 60px 10px;
+}
+
+#intro {
+  margin: 140px 150px 40px;
+  font-size: 32px;
+}
+
+#intro .image {
+  height: 80px;
+  margin: 10px 25% 50px;
+}
+
+#ingredients {
+  margin: 60px 150px 20px;
+  font-size: 24px;
+}
+
+#ingredients .image {
+  height: 100px;
+  margin: 0 28%;
+  padding: 20px 0;
+}
+
+#directions {
+  margin: 50px 150px;
+  padding-bottom: 20px;
 }
