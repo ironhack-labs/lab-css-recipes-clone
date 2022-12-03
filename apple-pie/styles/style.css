@@ -48,6 +48,13 @@ hr {
     list-style-type: '- ';
     
 }
-#directions-list {
-    list-style-type: none;
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
