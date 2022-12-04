@@ -32,6 +32,9 @@
     flex-direction: column;
     padding: 10px;
 }
+.second-section ul{
+    list-style-type: "- ";
+}
 .img-info{
     width: 50%;
 }
@@ -47,4 +50,8 @@ hr{
 }
 .third-section p{
     margin: 0 5%;
+}
+
+.third-section li{
+    list-style: none;
 }
