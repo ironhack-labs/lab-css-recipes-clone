@@ -22,13 +22,9 @@ h1 {
   padding: 4% 8% 0 8%;
 }
 .ingredients ul {
-  list-style-type: none;
+  list-style-type: '- ';
 }
-.ingredients ul li:before {
-  content: "\2014";
-  position: absolute;
-  margin-left: -20px;
-}
+
 .solid-line {
   border-top: 1.5px solid black;
 }
