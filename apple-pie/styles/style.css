@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap");
+
+/* ---------------
+UNIVERSAL SELECTOR
+--------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", Courier, monospace;
+}
+/* ---------------
+STYLING HERO
+--------------- */
+.hero-image {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+/* ---------------
+STYLING CONTENT BOX FOR CONTENT
+--------------- */
+.content {
+  max-width: 900px;
+  margin: 60px auto 0 auto;
+}
+/* --Styling recipe detail ingredients and method section-- */
+#recipe-details p,
+#recipe-method p {
+  font-size: 22px;
+  font-weight: 200;
+}
+#recipe-details img,
+#recipe-ingredients img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+.horizontalLine {
+  border: 2px solid grey;
+}
+h2 {
+  margin: 20px auto;
+  font-size: 30px;
+  font-weight: 300;
+}
+ul {
+  list-style-type: "-";
+}
+ul li {
+  margin: 5px auto;
+  font-weight: 200;
+}
+#recipe-method p {
+  margin-bottom: 50px;
+}
