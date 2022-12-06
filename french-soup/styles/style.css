@@ -7,3 +7,24 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+head {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: 'thin';
+  margin: 0;
+  padding: 0
+}
+
+#header-top {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: 0;
+}
+
+
+
