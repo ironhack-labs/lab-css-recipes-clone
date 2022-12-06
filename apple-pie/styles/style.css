@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    font-weight: 200;
+
+  }
+
+  @media (max-width: 880px){
+    .wrapper {
+        padding-left: 0vw;
+        padding-right: 0vw;
+        width: 800px;
+    }
+}
+
+@media (min-width: 880px){
+    .wrapper {
+        margin: auto;
+        width: 800px;
+    }
+}
+
+  .header {
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    display: block;
+  }
+
+  .header h1 {
+    color: white;
+    font-weight: initial;
+    text-align: center;
+    font-size: 68px;
+  }
+
+  .intro {
+    display:block;
+    text-align: justify;
+    position: abolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+  }
+
+  .intro > p {
+    padding-top: 30px;
+    font-size: 21px;
+    margin-bottom: 40px;
+    width: 600px;
+  }
+
+  .intro img {
+    width: 390px;
+    height: 57px;
+    position: relative;
+    margin-left: 170px;
+    padding-bottom: 20px;
+  }
+
+  .hr{
+    width: 760px;
+    height: 1px;
+    background-color: rgb(180, 163, 163);
+  }
+
+  .ingredients {
+    padding: 15px, 0;
+  }
+
+  .ingredients h5 {
+    font-size: 21px;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .ingredients ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 19px;
+  }
+
+  .ingredients li:before {
+    margin-left: 100px;
+    content: '- ';
+    font-weight: 100;
+  }
+
+  .ingredients img {
+    height: 76px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 25px;
+  }
+
+  .directions h5 {
+    font-size: 21px;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .directions ol {
+    counter-reset: list;
+    list-style-type: none;
+    font-size: 19px;
+  }
+
+  .directions-list {
+    margin-left: 100px;
+    margin-right: 90px;
+    padding-bottom: 200px;
+  }
+
+
+  .directions ol li:before {
+    content: counter(list) ') ';
+    counter-increment: list;
+  }
+
