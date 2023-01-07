@@ -6,7 +6,7 @@
 
 We have only learned the very basics today with HTML and CSS, so what the heck we can really build, right? Wrong, we can build some cool stuff already, and we are going to do just that.
 
-We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we prepared French Onion Soup recipe as well.
+We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we prepared a French Onion Soup recipe as well.
 
 Cloning something that already exists is the best way to get better at frontend development, so check out the deliverable below to see what we are expecting.
 
@@ -49,7 +49,7 @@ Please find a screenshot of the expected results below:
 
 ## Extra Practice
 
-If you feel you need more practice, you can keep working on the `french-soup` exercise. There you will find `expected-result.md` file where you can see what is expected from you to build. This folder has the same structure as the the `apple-pie` one so follow the same steps.
+If you feel you need more practice, you can keep working on the `french-soup` exercise. There you will find the `expected-result.md` file where you can see what is expected from you to build. This folder has the same structure as the `apple-pie` one so follow the same steps.
 
 **Happy coding!** :heart:
 
@@ -64,9 +64,7 @@ If you feel you need more practice, you can keep working on the `french-soup` ex
 
 ## FAQs
 
-
-
-
+<br>
 
 <details>
   <summary>I am stuck in the exercise and don't know how to solve the problem or where to start.</summary>
@@ -78,7 +76,7 @@ If you feel you need more practice, you can keep working on the `french-soup` ex
 For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
 
 
-Once you have a clear understanding of the problem, you will be able to start working towards the solution.
+Once you have a clear understanding of the problem, you will be able to start working toward the solution.
 
   [Back to top](#faqs)
 </details>
@@ -194,7 +192,7 @@ div {
 }
 ```
 
-This will set the `widh` property of the `div` to 500 pixels and we set the left and right margin to be equal by using `margin: 0 auto;`.
+This will set the `width` property of the `div` to 500 pixels and we set the left and right margins to be equal by using `margin: 0 auto;`.
 
   [Back to top](#faqs)
 </details>
@@ -203,7 +201,7 @@ This will set the `widh` property of the `div` to 500 pixels and we set the left
   <summary>How do I center align an HTML image element?</summary>
   <br>
 
-  There are a few ways you can center aling an image element.
+  There are a few ways you can center align an image element.
 
 ##### 1. Align an image using `text-align`
 
