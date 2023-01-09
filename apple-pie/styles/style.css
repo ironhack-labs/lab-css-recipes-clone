@@ -1,0 +1,85 @@
+
+body {
+    padding-bottom: 100px;
+    font-family: sans-serif;
+}
+
+div h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: normal;
+
+}
+.Apple-Pie {
+    background-image: url("../images/apple-pie.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+  
+}
+.Grandma {
+    font-size: 28px;
+    padding-left: 85px;
+    padding-right: 89px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.Recipe {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Recipe > p{
+    text-align: center;
+    font-size: 1.8em;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content:center;
+    color: black;
+}
+.Recipe > img{
+    background-image: url("apple-pie/images/recipe-info.png");
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    font-size: 1.8em;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Ingredients {
+    
+    font-size: 20px;
+}
+.Directions {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ul {
+    list-style-type: "- ";
+}
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+  }
+  
