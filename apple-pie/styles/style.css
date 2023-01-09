@@ -1,7 +1,64 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+    line-height: 2.5;
+  }
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 100px;
+    padding: 25px 0;
+}
+
 header {
     background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
     color: white;
-    font-weight: bold;
-    padding: 100px
+    padding: 300px 500px;
 }
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+p {
+    text-align: justify;
+    margin: 50px 10;
+    line-height: 1.5;
+}
+
+.time-info-img {
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 0 100px;
+}
+
+ul {
+    line-height: 1.5;
+}
+
+ol {
+    list-style: none;
+    line-height: 1.5;
+}
+
+ol > li {
+    counter-increment: listcounter;
+}
+
+ol > li::before {
+    content: counter(listcounter) ")";
+}
+
+
 
