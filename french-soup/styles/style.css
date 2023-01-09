@@ -7,3 +7,24 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 400px;
+    width: 400px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .test{
+    color: blue;
+  }
