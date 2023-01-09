@@ -33,11 +33,11 @@ main {
 section {
     padding-bottom: 50px;
     padding-top: 50px;
-    width: 600px;
+    width: 700px;
 }
 
 hr {
-    width: 600px;
+    width: 700px;
 }
 
 p {
@@ -83,5 +83,11 @@ h2 {
     width: 50%;
     flex-flow: row wrap;
     align-self: center;
+}
+
+.border-item {
+    border-right: 1.5px solid grey;
+    border-left: 1.5px solid grey;
+    padding: 10px;
 }
 
