@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    box-sizing: content-box;
+    width: 100%;
+    font-size: 16px;
+}
+
+header{
+    box-sizing: content-box;
+    width: 100%;
+    height: 1%;
+
+}
+
+.head .img{
+    box-sizing: content-box;
+    width: 100%;
+    height: 50em;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+h1 {
+    position: absolute ;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+  } 
+
+
+#introduction{
+    box-sizing: content-box;
+    text-align: center;
+    margin: 50px 100px;
+    padding: 50px 0;
+   
+}
+
+.intro-text{
+        text-align: justify;
+        margin-bottom: 60px !important;
+        box-sizing: content-box;
+        width: 90%;
+        font-weight: normal;
+        font-size:  2em;
+        &:after {
+            content: "";
+            display: inline-block;
+            width: 100%;
+        };
+
+
+
+}
+
+
+
+#ingredients{
+    margin: 50px 100px;
+    padding: 50px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    box-sizing: content-box;
+    font-size: 1.2em;
+
+}
+
+h1 , h2{
+    font-weight: normal;
+}
+
+h3 {
+
+}
+
+
+.cooking-icon{
+    box-sizing: content-box;
+    text-align: center;
+
+}
+
+.list {
+    font-size: 1.2em;
+}
+
+
+
+#instructions{
+    margin: 50px 100px;
+    padding: 50px 0;
+}
+
+
+.directions{
+    padding-left: 0;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+
+ol {
+    list-style: none;
+    padding-inline-start: 10px;
+
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
