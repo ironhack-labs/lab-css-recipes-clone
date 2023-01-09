@@ -16,11 +16,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-bottom: 100px;
 }
 
 .apple-pie > h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   color: white;
+  font-weight: normal;
 }
 
 .recipe-info,
