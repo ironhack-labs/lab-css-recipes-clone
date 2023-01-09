@@ -4,8 +4,6 @@ body {
     font-family: Geneva;
     }
     
-    /*HEADER*/
-    
     .header {
         background-image: url("../images/apple-pie.jpg");
         height: 700px;
@@ -26,8 +24,6 @@ body {
         padding: 175px 0 0 0;
        
     }
-    
-    /*QUOTE*/
     
     .quote {
         text-align: center;
@@ -54,10 +50,9 @@ body {
         width: 80%;
     }
     
-    /*INGREDIENTS*/
     
     .ingredients-directions {
-        margin: 50px 0px 0px 130px;
+        margin: 30px 0px 0px 150px;
     }
     
     .ingredients-directions ul {
@@ -66,13 +61,13 @@ body {
     
     .ingredients-directions img {
         height: 80px;
-        margin: 0 0 0 360px;
+        margin: 0 0 0 410px;
             
     }
     
-    /*DIRECTIONS*/
     
     .directions {
         width: 900px;
+        margin-bottom: 100px;
     }
     
