@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    letter-spacing: 1.2px;
+}
+
+
+.header {
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__title {
+    font-size: 6em;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 600px;
+}
+
+hr {
+    width: 600px;
+}
+
+p {
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+ul,
+ol {
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction__shortfacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    flex-flow: row wrap;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients__shortfacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    flex-flow: row wrap;
+    align-self: center;
+}
+
