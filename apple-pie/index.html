@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple Pie Recipe</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class="header">
@@ -16,9 +16,9 @@
           be my favorite and has won me several first place prizes in local competitions. I hope it becomes one of your
           favorites as well! </p>
           <div class="introduction__shortfacts">
-            <div><span class="shortfacts__text"></span><img class="shortfacts__icon" src="" alt=""></div>
-            <div><span class="shortfacts__text"></span><img class="shortfacts__icon" src="" alt=""></div>
-            <div><span class="shortfacts__text"></span><img class="shortfacts__icon" src="" alt=""></div>
+            <div class="shortfacts__item"><span class="shortfacts__text"><em>1</em>h <em>30</em>min</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+            <div class="shortfacts__item"><span class="shortfacts__text"><em>8</em>servings</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg></div>
+            <div class="shortfacts__item"><span class="shortfacts__text"><em>512</em>cals</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
           </div>
         </section>
         <hr>
@@ -35,17 +35,21 @@
             <li>1/2 cup packed brown sugar</li>
             <li>8 Granny Smith apples - peeled, cored and sliced</li>
           </ul>
+          <div class="ingredients__shortfacts">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span class="shortfacts__item">Prep<br><strong>30</strong>min</span>
+            <span class="shortfacts__item">Cook<br><strong>1</strong>h</span>
+            <span class="shortfacts__item">Ready in<br><strong>1</strong>h <strong>30</strong>min</span>
         </section>
         <hr>
-        <section class="">
-
-        </section>
-                 Directions Preheat oven to 425 degrees F (220 degrees
-        C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring
-        to a boil. Reduce temperature and let simmer. Place the bottom crust in your pan. Fill with apples, mounded
-        slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so
-        that it does not run off. Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175
-        degrees C). Continue baking for 35 to 45 minutes, until apples are soft.
+        <section class="directions">
+          <h2 class="directions__title">Directions</h2>
+          <ol class="directions__list">
+            <li>Directions Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.</li>
+            <li>Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.</li>
+            <li>Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft.</li>
+          </ol>
+        </section>          
       </main>
   </body>
 </html>
