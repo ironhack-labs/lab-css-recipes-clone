@@ -46,6 +46,11 @@ body {
   margin-bottom: 50px;
 }
 
+.horizontal-rule {
+  border: 1px solid #999;
+  margin-bottom: 50px;
+}
+
 .ingredients {
   margin-bottom: 25px;
 }
