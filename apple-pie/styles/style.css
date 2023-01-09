@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    
+}
+h1 {
+    background-image: url(../images/apple-pie.jpg) ;
+    background-position : center;
+    background-size: cover ;
+    color : white ;
+    text-align : center;
+    font-size: 50px;
+    margin : 0;
+    vertical-align : middle;
+    padding : 150px;
+}
+.hero1 {
+    margin: 8vh ;
+    background-size: cover ;
+
+}
+hr {
+    margin : 20px;
+}
+.center-image {
+    display : block;
+    margin : 0 auto ;
+}
+#Pagehead p{
+    margin: 10vh;
+    
+}
