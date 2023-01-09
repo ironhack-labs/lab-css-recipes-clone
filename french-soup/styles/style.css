@@ -1,9 +1,86 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,400,500,700');
+ 
+* {
+    font-family: 'Roboto', sans-serif;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+h1 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+hr {
+    border: .5px black solid;
+    margin: 0 300px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/soup.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    color: white;
+    font-size: 52px;
+}
+
+#introduction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 300px;
+    font-size: 24px;
+}
+
+#introduction img {
+    height: 100px;
+}
+
+#ingredients {
+    font-size: 20px;
+    margin: 10px 350px;
+}
+
+#ingredients img {
+    display: block;
+    margin: auto;
+    height: 90px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+ol {
+    list-style: none;
+}
+
+ol > li {
+    counter-increment: listcounter
+}
+
+ol > li::before {
+    content: counter(listcounter) ") ";
+}
+
+#directions {
+    font-size: 20px;
+    margin: 10px 350px;
 }
