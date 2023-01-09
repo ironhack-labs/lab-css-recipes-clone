@@ -8,9 +8,10 @@ body {
   background-color: #fff;
   max-width: 900px;
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #444;
   line-height: 28px;
+  font-size: 18px;
 }
 
 .container {
