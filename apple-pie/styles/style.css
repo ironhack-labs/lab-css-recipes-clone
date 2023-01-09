@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  margin: 0px;
 }
 
 .detailed-recipe {
@@ -10,6 +11,7 @@ body {
 
 .apple-pie {
   background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
