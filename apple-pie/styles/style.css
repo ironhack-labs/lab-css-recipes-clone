@@ -10,12 +10,13 @@ body {
 }
 
 .apple-pie {
-  background-image: url("../images/apple-pie.jpg");
+  background: url("../images/apple-pie.jpg") center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 40rem;
   margin-bottom: 100px;
 }
 
