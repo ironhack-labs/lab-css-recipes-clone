@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-image: url(/Users/noa/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    background-position: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 300px 0;
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#intro {
+    margin: 100px 150px 50px;
+}
+
+p {
+    font-size: 28px;
+}
+
+#intro .image {
+    height: 80px;
+    margin: 40px 300px;
+}
+
+#ingredients {
+    margin: 60px 150px 20px;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 20px;
+}
+
+ol {
+    padding: 40px;
+}
+
+#ingredients .image {
+    height: 110px;
+    margin: 40px 330px;
+}
+
+#directions {
+    margin: 60px 150px 20px;
+    font-size: 24px;
+    padding-bottom: 80px;
+}
