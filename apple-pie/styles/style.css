@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+#thiswas {
+    display: flex;
+    margin: 25px 250px 25px 250px
+    
+}
+.recipeinfo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.cookinginfo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#ingredients {
+    display: inline-block;
+    margin: 25px 50px 10px 300px
+
+}
+
+.cookinginfo-center {
+    width: 30%;
+    align-items: center;
+}
+
+#directions {
+    display: inline-block;
+    margin: 25px 250px 25px 250px
+
+}
