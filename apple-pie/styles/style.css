@@ -1,3 +1,5 @@
+
+
 .container {
     position: relative;
     text-align: center;
@@ -9,11 +11,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 100px;
 }
 #thiswas {
     display: flex;
-    margin: 25px 250px 25px 250px
+    margin: 25px 350px 25px 350px
     
 }
 .recipeinfo-center {
@@ -32,7 +34,7 @@
 
 #ingredients {
     display: inline-block;
-    margin: 25px 50px 10px 300px
+    margin: 25px 350px 10px 350px
 
 }
 
@@ -43,8 +45,10 @@
 
 #directions {
     display: inline-block;
-    margin: 25px 250px 25px 250px
+    margin: 25px 350px 10px 350px
 
 }
 
-html * { font-family: 'Courier New', Courier, monospace;}
+html * { font-family: 'Courier New', Courier, monospace;
+}
+
