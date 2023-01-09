@@ -31,7 +31,7 @@ h1 {
   font-weight: normal;
 }
 
-div {
+section {
   width: 70%;
 }
 
@@ -49,11 +49,10 @@ div {
   width: 98%;
   font-size: 1.2em;
 }
-
+  
 #description img {
   width: 25vw;
   height: 9vh;
-  margin-left: 27.5%;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -66,7 +65,7 @@ h2 {
 #ingredients img {
   width: 22vw;
   height: 10vh;
-  margin-left: 27.5%;
+  margin-left: 32%;
 }
 
 #ingredients ul {
