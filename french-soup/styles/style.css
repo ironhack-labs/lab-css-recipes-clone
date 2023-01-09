@@ -7,3 +7,71 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*------------------------------------------------------------------------------------------------*/
+
+.french-soup-background-image {
+  background-image: url(../images/soup.jpg);
+  background-size: 100% 100%;
+}
+
+header {
+  width: 100vw;
+  height: 125vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 5em;
+  font-weight: normal;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+main {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+section {
+  width: 75%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+#description {
+  font-size: 1.2em;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+#description img {
+  width: 30vw;
+  height: 10vh;
+}
+
+#ingredients ul {
+  list-style-type: none;
+}
+
+#ingredients img {
+  display: block;
+  width: 28vw;
+  height: 12vh;
+  margin: auto;
+}
+
+#directions ol {
+  width: 90%;
+}
