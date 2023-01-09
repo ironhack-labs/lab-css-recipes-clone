@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+     text-align: center;
+     background-image: url("../images/apple-pie.jpg");
+     background-size: cover;
+     position: relative;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     background-repeat: no-repeat;
+     width: 100 vw;
+     height: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+
+#cooking-info {
+    text-align: center;
+}
+
+
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+  }
+
+
+  ul {
+    list-style-type: "-";
+  }
+  
