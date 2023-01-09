@@ -24,14 +24,14 @@ body {
   background-size: cover;
   height: 400px;
   margin-bottom: 50px;
-  /* position: relative; */
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-title {
   color: #fff;
-  text-align: center;
-  padding-top: 175px;
   font-size: 55px;
   font-weight: 200;
 }
