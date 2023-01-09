@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+* {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+h1 {
+    background-image: url("../images/apple-pie.jpg");
+    color: white;
+    font-size: 200px;
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+#intro p {
+    padding: 30px;
+}
+
+#ingredients li {
+    list-style: none;
+}
+
+.hero1 {
+    margin: 10px;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
