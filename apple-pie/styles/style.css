@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+.detailed-recipe {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.apple-pie > h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.recipe-info,
+.cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.preamble {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.ingredients-list {
+  list-style-type: "- ";
+}
+
+/* create simple ordered list with parentheses */
+
+.directions-list {
+  counter-reset: list;
+}
+
+.directions-list > li {
+  list-style: none;
+}
+
+.directions-list > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
