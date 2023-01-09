@@ -3,19 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>French Onion Soup Recipe</title>
+    <title>Apple Pie Recipe</title>
     <!-- don't forget to link your styles -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
   </head>
   <body>
-    French Onion Soup We have been trying French onion soup in restaurants for years and my family and friends agree
-    none can compare to my recipe for taste and simplicity of preparation. Ingredients 1/2 cup unsalted butter 2
-    tablespoons olive oil 4 cups sliced onions 4 (10.5 ounce) cans beef broth 2 tablespoons dry sherry (optional) 1
-    teaspoon dried thyme salt and pepper to taste 4 slices French bread 4 slices provolone cheese 2 slices Swiss cheese,
-    diced 1/4 cup grated Parmesan cheese Directions Melt butter with olive oil in an 8 quart stock pot on medium heat.
-    Add onions and continually stir until tender and translucent. Do not brown the onions. Add beef broth, sherry and
-    thyme. Season with salt and pepper, and simmer for 30 minutes. Heat the oven broiler. Ladle soup into oven safe
-    serving bowls and place one slice of bread on top of each (bread may be broken into pieces if you prefer). Layer
-    each slice of bread with a slice of provolone, 1/2 slice diced Swiss and 1 tablespoon Parmesan cheese. Place bowls
-    on cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.
+    <header class="header">
+      <h1 class="header__title">French Onion Soup</h1>
+    </header>
+    <main class="main">
+      <section class="introduction" id="introduction">
+        <p class="introduction__text">
+          French Onion Soup We have been trying French onion soup in restaurants for years and my family and friends agree none can compare to my recipe for taste and simplicity of preparation.
+        </p>
+        <div class="introduction__shortfacts">
+          <div class="shortfact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shortfact__icon feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span class="shortfact__text">1 h 5 m</span>
+          </div>
+          <div class="shortfact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shortfact__icon feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            <span class="shortfact__text">4 servings</span>
+          </div>
+          <div class="shortfact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shortfact__icon feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+            <span class="shortfact__text">585 cal</span>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="ingredients" id="ingredients">
+        <h3 class="ingredients__title">Ingredients</h3>
+        <ul class="ingredients__list">
+          <li class="ingredients__item"><strong>1/2 cup</strong> unsalted butter</li>
+          <li class="ingredients__item"><strong>2 tablespoons</strong> olive olive</li>
+          <li class="ingredients__item"><strong>4 cups</strong> sliced onions</li>
+          <li class="ingredients__item"><strong>4 (10.5 ounce)</strong> cans beef broth</li>
+          <li class="ingredients__item"><strong>2 tablepsoons</strong> dry sherry (optional)</li>
+          <li class="ingredients__item">salt and pepper to taste</li>
+          <li class="ingredients__item"><strong>4 slices</strong> French bread</li>
+          <li class="ingredients__item"><strong>4 slices</strong> provolone cheese</li>
+          <li class="ingredients__item"><strong>2 slices</strong> Swiss cheese, diced</li>
+          <li class="ingredients__item"><strong>1/4 cup</strong> grated Parmesan cheese</li>
+        </ul>
+        <div class="timing">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="timing__icon feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <div class="timing__item">
+            <p class="timing__label">Prep</p>
+            <p class="timing__duration"><strong>15</strong> m</p>
+          </div>
+          <div class="timing__item">
+            <p class="timing__label">Cook</p>
+            <p class="timing__duration"><strong>50</strong> m</p>
+          </div>
+          <div class="timing__item">
+            <p class="timing__label">Ready in</p>
+            <p class="timing__duration"><strong>1</strong> h <strong>5</strong> m</p>
+          </div>           
+        </div>
+      </section>
+      <hr>
+      <section class="directions" id="directions">
+        <h3 class="directions__title">Directions</h3>
+        <ol class="directions__list">
+          <li class="directions__step">Melt butter with olive oil in an 8 quart stock pot on medium heat. Add onions and continually stir until tender and translucent. Do not brown the onions.</li>
+          <li class="directions__step">Add beef broth, sherry and thyme. Season with salt and pepper, and simmer for 30 minutes.</li>
+          <li class="directions__step">Heat the oven broiler.</li>
+          <li class="directions__step">Ladle soup into oven safe serving bowls and place one slice of bread on top of each (bread may be broken into pieces if you prefer). Layer each slice of bread with a slice of provolone, 1/2 slice diced Swiss and 1 tablespoon Parmesan cheese. Place bowls on cookie sheet and broil in the preheated oven until cheese bubbles and browns slightly.</li>
+        </ol>
+      </section>
+    </main>
   </body>
 </html>
