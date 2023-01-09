@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+  }
+
+body{
+    font-family: "Roboto";
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed"
+  }
+
+.header{
+    height: 500px;
+    background-image: url("/Users/abielisak/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 170px auto;
+    margin: 0 auto;
+}
+
+.apple-pie >div{
+    width: 80%;
+    margin: 0 80px
+}
+
+#apple-pie-info > div >p{
+    text-align: left;
+    margin: 3em; 
+    font-size:1.3em;
+}
+
+.recipe-info-img{
+    display: block;
+    margin:0 auto;
+  width: 40%;
+}
+
+#apple-pie-info > div > hr{
+    margin: 0 80px;
+  width: 80%;
+}
+
