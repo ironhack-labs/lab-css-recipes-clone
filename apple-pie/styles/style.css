@@ -56,15 +56,15 @@ body {
     
     /*INGREDIENTS*/
     
-    .ingredients {
+    .ingredients-directions {
         margin: 50px 0px 0px 130px;
     }
     
-    .ingredients ul {
+    .ingredients-directions ul {
         list-style-type: none;
     }
     
-    .ingredients img {
+    .ingredients-directions img {
         height: 80px;
         margin: 0 0 0 360px;
             
@@ -72,4 +72,7 @@ body {
     
     /*DIRECTIONS*/
     
-    .directio
+    .directions {
+        width: 900px;
+    }
+    
