@@ -7,3 +7,48 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+p {
+  font-family:Arial;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h3 {
+  width: 400px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+hr {
+  width: 400px;
+  margin: auto;
+  border: 1px solid rgb(105, 103, 103);
+}
+
+
+.hero-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 700px;
+  text-align: center;
+}
+
+
+.hero-text {
+  font-family:Arial;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
