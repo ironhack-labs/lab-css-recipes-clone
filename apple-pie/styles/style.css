@@ -1,0 +1,42 @@
+*{
+    margin-left: 70;
+    padding: 600;
+}
+
+
+h1{
+    color:black;
+    font-size: 90;
+    padding: 400;
+
+}
+
+p{
+    color:black;
+    font-size: 40;
+}
+
+img{
+    width: 300px;
+    height: 50px;
+    padding: 600;
+    margin: 500;
+    position: center;
+}
+
+h2{
+    color:black;
+    font-size: 30;
+}
+
+html {
+    background: url(apple)no-repeat center fixed;
+    background-size: cover;
+  }
+
+  div{
+    widht: 700px
+    height: 800px
+    
+  }
+
