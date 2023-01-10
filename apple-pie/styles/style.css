@@ -1,0 +1,25 @@
+h2{
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+}
+
+.imagen {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 350px;
+}
+.titulo {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    
+}
+.centrado{
+    margin:10px auto;
+		    display:block;
+}
