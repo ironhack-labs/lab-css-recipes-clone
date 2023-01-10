@@ -1,0 +1,30 @@
+*{
+	margin: auto;
+	
+}
+.box{
+	text-align: center;
+	background-image: url(/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-position: center;
+	background-size: cover;
+	padding: 500px;
+	color: aliceblue;
+	font-size: 80px;  
+	
+}
+.subtitle{
+	padding: 50px;
+	font-size: 40px;
+}
+	
+.timeCooking{
+	margin-left: 35%;
+	
+}
+.Ingredients{
+margin-left: 15%;	
+
+}
+.Directions{
+	margin-left: 15%;
+}
