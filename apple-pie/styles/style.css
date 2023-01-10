@@ -1,0 +1,17 @@
+img {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.legenda {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+.legenda {
+  color: white;
+}
