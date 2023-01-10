@@ -1,0 +1,120 @@
+#intro {
+    background-image: url(../images/apple-pie.jpg); 
+    height: 1000px;
+    color:white;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  
+}
+
+#intro > h1 {   
+    text-align: center;
+    vertical-align: middle;
+    line-height: 900px;  
+    font-size: 100px;
+    font-family: "Poppins";
+    color:#ffffff;
+    font-weight: light;
+}
+
+#wrapper {
+    width: 100%;
+ 
+}
+
+#caption {
+    text-align: center;
+    margin: 100px 19% 40px;
+}
+
+#caption > p {
+    color: #1b1b1b;
+    font-family: "Poppins";
+    font-size: 24px;
+    text-align: left;
+
+}
+
+#caption img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+
+
+}
+
+#ingredients {
+    text-align: left;
+    margin: 40px 19% 20px; 
+}
+
+#second-img {
+    text-align: center;
+}
+
+#second-img > img {
+    margin: 50px auto;
+    height: 100px;  
+
+}
+
+#directions {
+    text-align: left;
+    margin: 40px 19% 20px; 
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 32px;
+    color: #393939;
+}
+
+li{
+    margin: 10px 0;
+  }
+
+
+
+ul {
+    list-style: '-';
+    margin: 10px 0;
+  
+}
+
+ul > li {
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+ol {
+  
+    list-style: none;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+  hr {  
+    height: 4px;
+    background: #bfbfbf;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px     ;
+    
+  }
+
+ 
