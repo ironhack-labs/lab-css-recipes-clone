@@ -1,5 +1,14 @@
-.title {
-    text-align: center;
-     font-size: 80px;
-     font-family: Arial, Helvetica, sans-serif;
+.imagen {
+    background-image: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 350px;
 }
+.titulo {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    
+}
+
