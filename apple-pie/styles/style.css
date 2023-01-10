@@ -5,18 +5,17 @@
 }
 
 .header {
-  background-image: url("lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
   background-position: 0 0;
-  background-size: cover;
   position: relative;
   margin: 0;
   height: 650px;
 }
 
 h1 {
+  color: black;
   text-align: center;
 }
 
-img .recipe {
-  position: center;
+.recipeImage {
+  align-items: center;
 }
