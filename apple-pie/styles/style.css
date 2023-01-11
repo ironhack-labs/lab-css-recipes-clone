@@ -1,0 +1,53 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+.container{
+position:relative;
+text-align: center;
+color: white;
+}
+
+.Apple-pies{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+}
+
+.apple-pie{
+    width: 500px;
+    height: 500px;
+    ;
+}
+
+.summary{
+    text-align: center;
+
+}
+
+.info-images{
+    margin-left: 420px;
+    width: 300px;
+
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+section{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#directions-list{
+    text-align: center;
+}
+
+.Directions{
+    box-sizing: border-box;
+    text-align: justify;
+}
