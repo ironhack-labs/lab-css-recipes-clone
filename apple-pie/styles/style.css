@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Leckerli+One&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Inter';
+    line-height: 2.2rem;
+}
+
+/* Global Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+    margin: 40px 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Specific Styles */
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__title {
+    font-size: 8.0rem;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+
+.introduction__shortfacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.shortfact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.shortfact:last-child {
+    margin-right: 0;
+}
+
+.shortfact__icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    stroke: rgba(0, 0, 0, 0.35);
+}
+
+.ingredients {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.ingredients__list {
+    padding-left: 1em;
+}
+
+.timing {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.timing__icon {
+    width: 40px;
+    height: 40px;
+    stroke: rgba(0, 0, 0, 0.35);
+    stroke-width: 1.2;
+    margin-right: 12px;
+}
+
+.timing__item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 1.4rem;
+}
+
+.timing__item:last-child {
+    border: none;
+}
+
+.timing__label {
+    margin: 0;
+    color:rgba(0, 0, 0, 0.35);
+}
+
+.timing__duration {
+    margin: 0;
+}
+
+.directions__list {
+    margin: 20px 0 0 0;
+    padding-left: 1.2em;
+}
+
+.directions__step:not(:last-child) {
+    margin-bottom: 16px;
+}
