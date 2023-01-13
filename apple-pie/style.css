@@ -1,0 +1,28 @@
+#top-bg-img {
+    background-image: url('./images/apple-pie.jpg');
+    background-size: cover;
+    height:480px;
+    padding-top:80px;
+}
+
+#top-description {
+    text-align: center;
+}
+
+#top-bg-img h1 {
+    text-align: center;
+    font-size: 400%;
+    color: antiquewhite;
+}
+
+#recipe-info img {
+    margin: auto;
+    display: block;
+    width: 25%;
+}
+
+#cooking-info img {
+    margin: auto;
+    display: block;
+    width: 18%;
+}
