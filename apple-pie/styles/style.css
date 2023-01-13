@@ -24,7 +24,6 @@
 .header p {
     width: 100%;
     font-size: 38px;
-    
     padding: 100px;    
 }
 
@@ -36,5 +35,26 @@
 .line-1 {
     border-top: 2px solid black;
     margin: 30px 100px 0px 100px;
-    
+}
+
+.ingredients h2 {
+    width: 100%;
+    padding: 50px 0px 50px 100px;
+    font-size: 30px;
+}
+
+.ingredients-list{
+    width:100%;
+    padding: 0px 0px 50px 150px;
+    font-size: 30px;
+}
+
+.ingredients img {
+    width: 100%;
+    padding: 50px 500px 0px 500px;
+}
+
+.line-2 {
+    border-top: 2px solid black;
+    margin: 30px 100px 0px 100px;
 }
