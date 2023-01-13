@@ -58,3 +58,15 @@
     border-top: 2px solid black;
     margin: 30px 100px 0px 100px;
 }
+
+.directions h2 {
+    width: 100%;
+    padding: 50px 0px 50px 100px;
+    font-size: 30px;
+}
+
+.directions-list {
+    width:100%;
+    padding: 0px 150px 100px 150px;
+    font-size: 30px;
+}
