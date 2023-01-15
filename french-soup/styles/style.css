@@ -1,9 +1,61 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: 0px 100px 0px;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: 200px;
+}
+
+h3 {
+  margin: 0px 35px 0px;
+  text-align: left;
+}
+
+#headerBackground {
+  width: 100vw;
+  height: 40vh;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+ul {
+  list-style-type: "-";
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
 }
