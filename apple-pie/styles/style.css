@@ -1,0 +1,60 @@
+
+
+  td{
+    margin-bottom: 1;
+  }
+  hr{
+    color: grey;
+  }
+
+  .info{
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "Audiowide", sans-serif;
+  }
+
+  .lista{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 120%;
+  }
+
+  h2{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 200%;
+  }
+  
+  p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 150%;
+  }
+ 
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size: contain;
+   
+    
+  }
+  h1{
+    font-family: "Audiowide", sans-serif;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 500%;
+    
+  }
+  #imagen{
+    
+    width: 100%;
+    height: 100%;
+  }
+body{margin: 0%;}
