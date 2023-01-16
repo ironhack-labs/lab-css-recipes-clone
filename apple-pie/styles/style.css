@@ -1,0 +1,94 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: #252424;
+    margin: 5px 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60.5%;
+    margin-top: 60px;
+
+}
+
+.small_container{
+    width: 850px;
+    text-align: left;
+}
+
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100%;
+    width: 60.5%;
+    height: 640px;
+}
+
+.text_1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 60.5%;
+    font-size: 5rem;
+    color: rgb(255,255,255);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.text_2{
+    padding: 20px 0px;
+    padding-bottom: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.image_responsive{
+    width: 60.5%;
+}
+
+
+#recipeinfo, #cookinginfo{
+    width: 35%;
+    display: block;
+    margin-left: 30%;
+    padding: 20px 0px;
+}
+
+
+
+
+#paragraph{
+    font-size: 1.7rem;
+}
+
+.list_style{
+    font-size: 1.3rem;
+    list-style-type: "- "; 
+
+}
+ul > li {
+    color: #4e4d4d;
+
+}
+
+
+.list_style_1{
+    font-size: 1.3rem;
+    list-style: none;
+
+}
+ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+    color: #4e4d4d;
+
+}
+ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+}
