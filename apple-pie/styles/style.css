@@ -1,0 +1,63 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: #252424;
+    margin: 5px 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60.5%;
+    margin-top: 60px;
+
+}
+
+.small_container{
+    width: 850px;
+    text-align: left;
+}
+
+
+
+.text_1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 60.5%;
+    font-size: 4rem;
+    color: rgb(255,255,255);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+#applepie{
+    height: 640px;
+    width: 60.5%;
+}
+
+#recipeinfo{
+    
+}
+
+
+#cookinginfo{
+
+}
+
+
+
+
+
+#paragraph{
+    font-size: 1.7rem;
+}
+
+.list_style{
+    font-size: 1.3rem;
+}
