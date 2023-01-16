@@ -5,7 +5,10 @@
 
 
 * {
-  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  max-width: 100%;
+  margin: 0
 }
 
 html {
@@ -14,5 +17,61 @@ html {
 }
 
 
-header{background-image: url("/lab-css-recipes-clone/french-soup/images/soup.jpg");
-height: 350px;}
+header {
+  background-image: url("/lab-css-recipes-clone/french-soup/images/soup.jpg");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  text-align: center
+}
+
+section {
+  padding: 30px 0;
+  margin: 50px;
+  border-bottom: 2px solid black;
+}
+
+section>div {
+  display: flex
+}
+
+.img-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+ul,
+ol {
+  padding: .2rem;
+}
+
+
+
+
+ul {
+  list-style-type: "- ";
+}
+
+ol {
+  list-style-position: inside;
+
+  list-style: none;
+}
+
+
+ol>li {
+
+  counter-increment: listcounter;
+}
+
+ol>li::before {
+
+  content: counter(listcounter) ") "
+}
