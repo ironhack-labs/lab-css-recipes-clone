@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.legenda {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: green;
+}
