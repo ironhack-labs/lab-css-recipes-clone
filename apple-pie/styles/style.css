@@ -12,7 +12,8 @@ body {
 }
 main {
   padding: 0, 1rem;
-  margin: 0 10rem;
+  margin: 0 auto;
+  width: 80%;
 }
 p {
   line-height: 1.5rem;
@@ -82,6 +83,7 @@ hr {
 #direction .text {
   margin: 2rem 0;
 }
+
 
 
 
