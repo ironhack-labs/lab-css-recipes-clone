@@ -1,9 +1,18 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+
+
+
+
+
+* {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+header{background-image: url("/lab-css-recipes-clone/french-soup/images/soup.jpg");
+height: 350px;}

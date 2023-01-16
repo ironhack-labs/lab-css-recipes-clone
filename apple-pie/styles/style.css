@@ -9,7 +9,7 @@ body{font-family:'Poppins',
 header{
 background-image:url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);}
 
-header > div {font-size:3rem;color: white;font-weight: 400;display:flex;align-items: center;justify-content: center;padding:400px 0;font-weight: 400;}
+header > div {font-size:3rem;color: white;font-weight: 400;display:flex;align-items: center;justify-content: center;padding:400px 0;font-weight: 400;background-size: cover;background-repeat: no-repeat;}
 
 section{margin: auto 8%;
     padding:45px 0;
@@ -18,9 +18,18 @@ section{margin: auto 8%;
 
 .img-centered{display:flex;align-items: center;justify-content: center;padding: 30px 0;}
 
-ul{list-style-type: none;}
-ol {margin-left: 1rem;}
+ul{list-style-type: "-";}
+ol {margin-left: 1rem;
+    list-style: none;}
 
 
+ol>li {
+    /* 2. Create a custom list counter */
+    counter-increment: listcounter;
+}
+
+ol>li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")"}
 
 
