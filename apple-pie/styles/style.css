@@ -1,0 +1,76 @@
+html{
+    color: grey;
+    font-family: 'Work Sans', sans-serif;
+}
+
+    
+    #primera-seccion {
+    text-align: center;
+}
+
+header {
+    background-image: url('../images/apple-pie.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+
+
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 4em;
+    color: white;
+  }
+
+  h2 {
+    color: black;
+  }
+
+#portada-apple-pies {
+    font-size: 1.1rem;
+    text-align: center;
+    width:800px;
+    padding-left: 250px;
+
+
+}
+
+.primera-seccion {
+    text-align: center;
+}
+
+.ingredientes {
+    padding-left: 300px;
+}
+
+.imagen-info-cocina {
+    display: block;
+    text-align: center;
+}
+
+
+
+.instrucciones {
+    padding-left: 300px;
+    display: block;
+    text-align: justify;
+}
+
+#pasos-cocinar {
+    padding-bottom: 100px;
+    padding-right: 300px;
+
+}
+
+hr {
+    color: grey;
+}
+
+#informacion-recetas {
+    height: 70px;
+}
