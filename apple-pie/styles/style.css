@@ -52,7 +52,7 @@ h2{
 }
 
 .ingredients{
-    border-top: solid lightgrey 1px;
+    border-top: solid lightgrey 2px;
     display: flex;
     flex-direction: column;
     width: 70%;
