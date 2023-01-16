@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #1A242F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: #18212C;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+nav img {
+    width: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+/*-------------------------------section1------------------------------------------*/
+
+.section1 {
+
+
+    
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+    height: 25rem;
+    background-image: url("./avatar_the_way_of_the_water_0003_MCDAVTH_WD035.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+/*-------------------------------section1------------------------------------------*/
+.wrapper-section3{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-img {
+    width: 12rem;
+    min-width: 12rem;
+    height: 18rem;
+    min-height: 18rem;
+}
+
+.wrapper-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
