@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+header {
+    background-image: url("/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+hr {
+    margin: 0 10rem;
+}
+
+section {
+    position: relative;
+    margin: 4rem 10rem 4rem 10rem;
+}
+
+.intro {
+    text-align: justify;
+}
+
+section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
+    width: 45%;
+    padding-top: 1.5rem;
+}
+
+.intro p {
+    font-size: 1.3rem;
+}
+
+.ingredients li {
+    font-size: 1.1rem;
+    list-style-type: '- ';
+}
+
+.ingredients img {
+    width: 40%;
+    padding-top: 2rem;
+}
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+  }
+
+.directions li {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 125%;
+}
+
+.directions {
+    margin-bottom: 8rem;
+}
