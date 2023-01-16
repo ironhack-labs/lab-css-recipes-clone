@@ -68,6 +68,7 @@ header {
 
 .list_style{
     font-size: 1.3rem;
+    list-style-type: "- "; 
 
 }
 ul > li {
