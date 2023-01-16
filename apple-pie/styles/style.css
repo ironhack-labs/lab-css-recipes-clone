@@ -1,0 +1,116 @@
+ body{
+font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.header {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+  }
+   
+  h1 {
+    text-align:  center;
+    background-image: url("https://i.ibb.co/26cbwnT/apple-pie.jpg");
+    background-position: center center; 
+    background-size: 100% 100%; 
+    color:white;
+    font-size: 6em;
+    height: 700px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+ 
+h2 {
+    font-size: 1.2em;
+}
+
+
+.sectionOne {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+ 
+ }
+
+#firstDiv {
+    font-size: 1.85rem;
+    background-color: white;
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+
+.sectionTwo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+#ingredientsDiv {
+    font-size: 1.5rem;
+    background-color: white;
+    height: 400px;
+    width: 1000px;
+    text-align: left;
+    border-top: grey solid 3px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+.sectionThree {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  
+}
+
+#directionsDiv {
+    background-color: white;
+    height: 400px;
+    width: 1000px;
+    font-size: 1.5rem;
+    border-top: grey solid 3px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+    
+    
+.smallerImagesOne {
+    width: 600px;
+    height: 85px;
+}
+
+
+.smallerImagesTwo {
+    width: 500px;
+    height: 100px;
+    padding-bottom: 30px;
+}
