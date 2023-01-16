@@ -19,7 +19,7 @@ p {
   line-height: 1.5rem;
 }
 hr {
-  margin: 2rem 0;
+  margin: 0;
 }
 #hero {
   min-height: 850px;
@@ -30,6 +30,7 @@ hr {
   position: relative;
 }
 #hero p {
+  position:absolute;
   color: #ffffff;
   font-size: 5rem;
   text-align: center;
@@ -37,15 +38,20 @@ hr {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+  line-height: 6rem;
 }
+
 #introduction {
   margin-top: 5rem;
 }
-
 #introduction .image-recipe {
-  display: flex;
-  justify-content: center;
-  margin: 1.2rem 0;
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+  background-image: url("../images/recipe-info.png");
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position: center;
 }
 
 #ingredient {
@@ -59,6 +65,7 @@ hr {
 #ingredient ul {
   list-style: none;
   margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 #ingredient ul li {
@@ -66,10 +73,12 @@ hr {
   line-height: 1.5rem;
 }
 
-#ingredient .image-cooking {
-  display: flex;
-  justify-content: center;
-  margin: 1.2rem 0;
+#ingredient .cooking-info {
+  min-height: 70px;
+  background-image: url("../images/cooking-info.png");
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position: center;
 }
 
 #direction {
