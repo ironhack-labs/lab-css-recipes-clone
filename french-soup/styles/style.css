@@ -1,9 +1,86 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+
+body, html {
   margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+  font-weight:lighter;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+h2 {
+  font-size: 1.0em;
+  font-weight: 500;
+  margin-top: 35px;
+}
+header {
+  background-image: url(file:///C:/Users/escagarrinats/Desktop/ironhack/week1/lab-css-recipes-clone/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  background-size: 100%;
+  background-position-y: bottom;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul { 
+  list-style-type: '- ';
+  font-size: 15px;
+  width: 660px; 
+  padding-left: 12px;
+  margin: 0;
+}
+li {
+  line-height: 19px;
+}
+p {
+  font-size: 0.9em;
+  font-weight: lighter;
+  width: 660px;
+  letter-spacing: 0.8px;
+  line-height: 21px;
+  padding-top: 60px;
+}
+.container {
+  width: 660px;
+}
+hr {
+  width: 660px;
+  height: 2px;
+  border-style: none;
+  background-color: rgb(163, 162, 162);
+}
+#image {
+  height: 50px;
+  margin-bottom: 35px;
+}
+article {
+  font-size: 15px;
+  line-height: 23px;
+  width: 660px;
+  margin: 20px 0 50px 10px;
+}
+#image2 {
+  height: 60px;
+}
+section {
+  background-color: white;
+  width: 800px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
