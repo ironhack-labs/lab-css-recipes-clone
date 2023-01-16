@@ -1,9 +1,9 @@
-img {
-  width: 100%;
-}
-
 .container {
   position: relative;
+}
+
+img {
+  width: 100%;
 }
 
 .legenda {
@@ -12,6 +12,10 @@ img {
   bottom: 50%;
 }
 
-.legenda {
+h1 {
   color: white;
+}
+
+h2 {
+  color: green;
 }
