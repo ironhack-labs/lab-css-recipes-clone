@@ -1,0 +1,66 @@
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body {
+    background-color: white;
+    width: 800px;
+  }
+
+  .header {
+    background-image: url('images/apple-pie.jpg');
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+  }
+
+
+  .introduccion {
+    color:black;
+    width: 700px;
+    padding: 120px;
+    text-align: left;
+    align-items: center;
+    background-image: url("images/recipe-info.png");
+  }
+
+h1 {
+    color: rgb(163, 4, 4);
+    text-align: center;
+}
+  h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+      }
+  
+.recipe {
+ font-weight: lighter;
+ font-size: 16.5px;
+ margin: 10px 100px 10px 100px;
+ width: 700px;
+ align-content: center;
+ border-top: 2px solid grey;
+ 
+}
+
+ul li::marker {
+    content: "- ";
+  }
+
+  ol { 
+    list-style: none;
+  }
+  
+  ol > li { 
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ") ";
+  }
+ 
