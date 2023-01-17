@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:black;
+}
+
+.cajaRoja, .cajaAzul{
+    width:100vw;
+    height:20vh;
+    margin-bottom:10px;
+    background-color: red;
+}
+
+.cajaAzul{
+   
+    background-color: blue;
+}
+
+/*  media queries*/
+@media(min-width:768px){
+body{
+    background-color:aqua;
+}
+.cajaRoja, .cajaAzul{
+    width:40vw;
+}
+}
+@media(min-width:1000px)and (max-width:1200px){
+    .cajaRoja, .cajaAzul{
+        width:49vw;
+        /*para que se quite el bloque*/
+        display: inline-block;
+         /*para poner parametros*/
+        background-color: orange;
+    }
+}
