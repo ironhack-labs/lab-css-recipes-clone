@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.contenedor{
+    width:100vw;
+    height: 20vh;
+    background-color: #0096c7;
+    display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.productos{
+    /*cuando escribimos un display flex, 
+    por defecto los hijos se acomodan uno al lado del otro*/
+    display:flex;
+    /*el papa se encarga de posicionarlos, osea el azul que dice pie de manzana*/
+    justify-content: space-evenly;
+    /*separamos las imagenes del color del titulo*/
+    padding: 15px;
+    /*si los elementos no caben, les damos un salto de linea*/
+    flex-wrap: wrap;
+}
+
+.productos div{
+    width:30%;
+    /* acomodamos solo las cajitas de la imagen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.productos div img{
+    width:100%;
+    height: 150px;
+}
+
+p{
+    text-align: center;
+}
+
+.primero{
+    order: -1;
+}
+
+/*  */
+@media(max-width:425px){
+    .productos{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .productos div{
+        width: 50%;
+    }
+}
+
+/*  */
