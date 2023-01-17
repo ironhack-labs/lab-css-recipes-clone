@@ -1,0 +1,31 @@
+
+.imagem_principal {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center:
+    height: 50vh;
+    color: white;
+    font-size:35px;
+    
+}
+
+.intro {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.listas {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h2,li,ol {
+    text-align: left;
+}
