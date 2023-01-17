@@ -75,6 +75,16 @@ ul{
 
 ol{
     font-size: 25px;  
+    counter-reset: list;
+}
+ 
+ol > li {
+    list-style: none;
+ }
+
+ ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
 
 #section3{
