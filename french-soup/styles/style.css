@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;700&display=swap');
 
 /*Some necessary adjustments*/
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 /*Import the font and set the default size*/
