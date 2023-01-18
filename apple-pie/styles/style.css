@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.apple-pie{
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    height: 50vh;
+    width: 100vw;
+    padding: 10px;
+ 
+}
+.apple-pie-h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 100px;
+}
+
+section{
+    margin: 40px 120px;
+}
+
+.cooking-img{
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: 2px;
+    margin-bottom: 40px;
+    border-color: lightgrey;
+}
+.style-ul{
+    list-style-type: "- ";
+}
+ol {
+    list-style: none;
+    counter-reset: num;
+}
+
+ol li {
+    counter-increment: num;
+}
+
+ol li::before {
+    content: counter(num) ") ";
+}
