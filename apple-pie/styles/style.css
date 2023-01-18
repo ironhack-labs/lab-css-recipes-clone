@@ -40,6 +40,10 @@ p {
     margin-top: 20px;
 }
 
+.recipe-info,  .cooking-info{
+    margin-top: 20px;
+}
+
 hr {
     margin: 30px;
 }
@@ -54,8 +58,7 @@ hr {
 }
 
 .cooking-info {
-    width: 50vh;
-    margin-top: 20px;
+    width: 40vh;
 }
 
 .directions {

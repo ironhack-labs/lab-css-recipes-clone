@@ -1,4 +1,8 @@
-/*Some necessary adjustments*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1, body, html, main {
   margin: 0;
 }
@@ -7,3 +11,67 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.margin {
+  margin: 70px;
+}
+.center {
+  text-align: center;
+}
+
+p, li{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+.top-title {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#title-recipe {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+.recipe-info {
+  width: 50vh;
+  margin-top: 20px;
+}
+
+.recipe-info,  .cooking-info{
+  margin-top: 20px;
+}
+
+hr {
+  margin: 30px;
+}
+
+.ingredients {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.ingredients li:before { 
+  content: "-" ;
+}
+
+.cooking-info {
+  width: 40vh;
+}
+
+.directions {
+  margin: 20px;
+  text-align: justify;
+}
+
