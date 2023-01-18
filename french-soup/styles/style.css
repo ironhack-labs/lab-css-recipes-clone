@@ -18,7 +18,7 @@ header {
   color: white;
 }
 
-.section1 {
+.section1{
   margin: 60px 50px 20px 50px;
   border-bottom-style: solid;
   border-width: 3px;
@@ -29,4 +29,32 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.section2{
+  margin: 20px 50px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: lightgrey;
+  margin-bottom: 40px;
+}
+.style-ul{
+  list-style-type: "-  ";
+}
+
+.section3{
+  margin: 20px 50px;
+  padding-bottom: 60px;
+}
+
+ol {
+  list-style: none;
+  counter-reset: num;
+}
+
+ol li {
+  counter-increment: num;
+}
+
+ol li::before {
+  content: counter(num) ") ";
 }
