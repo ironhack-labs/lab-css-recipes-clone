@@ -24,7 +24,7 @@ p, li{
   font-family: 'Open Sans', sans-serif;
 }
 
-p {
+.text, .directions {
   text-align: justify;
 }
 
@@ -34,7 +34,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -63,7 +63,7 @@ hr {
 }
 
 .ingredients li:before { 
-  content: "-" ;
+  content: "- " ;
 }
 
 .cooking-info {
@@ -72,6 +72,10 @@ hr {
 
 .directions {
   margin: 20px;
-  text-align: justify;
+  list-style-type: none;
+  counter-reset: item;
 }
-
+.directions li:before { 
+  content: counter(item) ")"; 
+  counter-increment: item 
+}
