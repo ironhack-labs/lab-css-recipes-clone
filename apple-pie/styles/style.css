@@ -1,0 +1,62 @@
+ul,
+ol {
+  padding: 0;
+}
+
+#appleimage {
+  width: 100%;
+  height: auto;
+}
+
+#containerpage {
+  margin: 0 2%;
+}
+
+#containerimage {
+  max-height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#middlecontainer {
+  margin: 0 6%;
+}
+
+#imagetext {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+#imagetextcontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  padding-left: 1rem;
+}
+ul > li {
+  list-style: none;
+}
+.middleimagecontainer {
+  text-align: center;
+}
+.middleimagecontainer > img {
+  width: 50%;
+}
+
+ol {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
