@@ -12,7 +12,7 @@
 
 p, li{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -35,6 +35,10 @@ p {
     text-align: center;
 }
 
+.text {
+    text-align: justify;
+}
+
 .recipe-info {
     width: 50vh;
     margin-top: 20px;
@@ -54,7 +58,7 @@ hr {
 }
 
 .ingredients li:before { 
-    content: "-" ;
+    content: "- " ;
 }
 
 .cooking-info {
@@ -64,4 +68,10 @@ hr {
 .directions {
     margin: 20px;
     text-align: justify;
+    list-style-type: none;
+    counter-reset: item;
+}
+.directions li:before { 
+    content: counter(item) ")"; 
+    counter-increment: item 
 }
