@@ -1,18 +1,17 @@
-
-*{
+* {
     margin:0;
     padding: 0;
 }
 
 header {
-background-image: url(/images/apple-pie.jpg);
+background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
 position: relative;
 background-repeat: no-repeat;
 background-position: center;
 background-size:100%;
 }
 
-h1{
+header h1{
     color: white;
     text-align: center;
     padding-top: 450px;
@@ -22,15 +21,13 @@ h1{
 }
 
 p {
-   margin-top: 15px;
-   margin-left: 17%;
-   margin-right: 17%;
+   margin: auto;
    align-items: center;
    flex-direction: row;
    font-size: 30px;
 }  
 
-h2 {
+.ingredients {
     margin-top: 30px;
     margin-left: 15%;
     font-weight: 15px;
@@ -39,40 +36,29 @@ h2 {
 
 .removerdots {
     list-style: none;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 17%;
     font-size: 30px;
 }
 
-.image1 {
+.image {
     text-align: center;
     flex-direction: column;
     margin-top: 30px;
     margin-left: 70px;
     margin-right: 70px;
     border-bottom: 2px solid gray;
-    border-left: 15%;
-    border-right: 15%;
+    border-left: 10%;
+    border-right: 10%;
 }
-
-.image2 {
-    text-align: center;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    border-bottom: 2px solid gray;
-    border-left: 15%;
-    border-right: 15%;
-}
-h2 {
+.directions {
     margin-top: 30px;
     margin-left: 15%;
     font-weight: bold;
     font-size: 30px;
 }
 .preparation {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 17%;
     margin-right: 17%;
     margin-bottom: 80px;
@@ -81,5 +67,4 @@ h2 {
     flex-direction: column;
    flex-direction: row;
 }
-
 
