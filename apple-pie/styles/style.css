@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+font-family: "Poppins";
+margin: 0;
+padding: 0;
+color: rgb(105,105,105)
+}
+article {
+    font-size: large;
+    text-align:left;
+}
+
+hr {
+    width: 80%;
+   
+    color: rgb(105,105,105)
+    
+}
+h2 {
+    color: black;
+}
+
+#list-alignment {
+    padding-left: 2%;
+    margin-bottom: 5%;
+}
+
+.apple-img {
+   width: 100% ;
+   height: 500px;
+   object-fit: cover;
+}
+
+
+.firstSection {
+    position: relative;
+}
+.firstSection h1 {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    color: white;
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% ;
+    
+    
+   
+}
+
+#images {
+    width: 60%;
+    display: block;
+    margin: 50px auto 10px;
+}
