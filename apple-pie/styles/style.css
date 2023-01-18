@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-font-family: "Poppins";
+font-family: "Montserrat";
 margin: 0;
 padding: 0;
-color: rgb(105,105,105)
+color: rgb(105,105,105);
+line-height: 1.5;
 }
 article {
     font-size: large;
@@ -13,50 +14,52 @@ article {
 
 hr {
     width: 80%;
-   
-    color: rgb(105,105,105)
-    
+    border: 1px solid rgb(105,105,105) 
 }
 h2 {
     color: black;
 }
 
-#list-alignment {
-    padding-left: 2%;
-    margin-bottom: 5%;
+ul {
+    list-style-type: "- ";
 }
 
 .apple-img {
    width: 100% ;
    height: 500px;
    object-fit: cover;
+   padding-bottom: 40px;
 }
-
 
 .firstSection {
     position: relative;
 }
+
 .firstSection h1 {
     position:absolute;
     width:100%;
     text-align:center;
     color: white;
     font-size: 70px;
-    padding-top: 100px;
+    padding-top: 150px;
+    letter-spacing: 2px;
 }
 
 #boxes {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 10% ;
-    
-    
-   
+    margin: 5% 10%
 }
 
 #images {
     width: 60%;
     display: block;
     margin: 50px auto 10px;
+}
+
+#list-alignment {
+    padding-left: 1.8%;
+    margin-bottom: 5%;
+    line-height: 2;
 }
