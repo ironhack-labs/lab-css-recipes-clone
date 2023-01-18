@@ -14,13 +14,13 @@ font-family: Arial, Helvetica, sans-serif;
    
   h1 {
     text-align:  center;
-    background-image: url("https://i.ibb.co/26cbwnT/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     background-position: center center; 
     background-size: 100% 100%; 
     color:white;
     font-size: 6em;
     height: 700px;
-    width: 60%;
+    width: 72%;
     display: flex;
     justify-content: space-around;
     align-items: center;
