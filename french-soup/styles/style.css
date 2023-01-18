@@ -1,9 +1,32 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+header {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: 0 0;
+  display: flex;
+  font-size: 3.5em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.section1 {
+  margin: 60px 50px 20px 50px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: lightgrey;
+}
+.img-sec1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
