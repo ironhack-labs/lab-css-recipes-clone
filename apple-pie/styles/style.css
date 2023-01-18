@@ -1,0 +1,66 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center; 
+}
+
+.main-img {
+    display: flex;
+    align-items: center;
+    height:1000px;
+    width:1200px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family:Verdana;
+    font-weight: 100;
+    position:absolute;
+    color:white;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family:Verdana;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left : 70px;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+
+
+.ingredients {
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    font-family: Verdana;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+    
+}
+
+.direction {
+    font-family: Verdana;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    font-family: Verdana;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: ;
+}
