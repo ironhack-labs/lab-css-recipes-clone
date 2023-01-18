@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+    width: 65%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ol {
+    list-style: none;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+  p{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    color:rgb(37, 37, 37)
+  }
+
+  header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    margin: 0px, 0px;
+    padding: 0px, 0px;
+    margin-top: 0px;
+    display: block;
+    
+    }
+    header h1{
+        color: white;
+        text-align: center;
+        padding-top: 450px;
+        padding-bottom: 450px;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    .image-cooking {
+        align-items: center;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 30px;
+    
+    }
+
+    .image-recipe{
+        align-items: center;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 30px; 
+    }
+
+    li{
+    
+        font-size: 20px;
+        font-style: normal;
+        color: rgb(54, 54, 54);
+        width: 70%;
+        justify-content: flex-start;
+    }
+
+    .Ingredients-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 80px;
+        margin-top: 20px;
+        margin-left: 17%;
+        margin-right: 17%;
+        font-size: 30px;
+        margin-bottom: 80px;
+        text-align: left;
+        font-weight: lighter;
+    }
+
+    .direction-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 80px;
+        margin-top: 20px;
+        margin-left: 17%;
+        margin-right: 17%;
+        font-size: 30px;
+        margin-bottom: 80px;
+        text-align: left;
+        font-style: normal;
+        font-weight: lighter;
+    }
+
+    h3 {
+       font-weight: lighter;
+       font-style: normal;
+       font-size: 25px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+       color: rgb(49, 48, 48);
+    }
+
+
