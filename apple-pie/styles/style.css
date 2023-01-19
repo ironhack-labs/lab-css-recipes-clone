@@ -1,0 +1,82 @@
+
+
+
+
+*{
+  
+  font-family:serif;
+  font-size: large;
+  font-weight: 250;
+  
+}   
+
+p{
+text-align: center;
+
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+  
+}
+  
+.title{
+  font-size:60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.mainImage{
+  width: 2500px;
+  height: 550px;
+}
+
+
+.cookingInfo{
+   text-align: center;
+
+}
+hr {
+  width: 800px;
+  align-items: center;
+  margin-bottom: 50px;
+  
+  
+}
+
+ul > li {
+  list-style: none;
+  margin: 5px;
+  margin-left: 550px;
+
+}
+
+h4 {
+  margin-left: 550px;
+
+}
+  
+  
+ol {
+    
+  list-style: none;
+  margin: 5px;
+  margin-left: 550px;
+  
+}
+
+ol > li {
+  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+ 
+  content: counter(listcounter) ")";
+}
+
