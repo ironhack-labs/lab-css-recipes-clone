@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(248, 247, 247);
+}
+
+.div1 {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  display: inline;
+  color: black;
+  font: size 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.titulo {
+  background-image: url(../images/apple-pie.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.div2 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: size 30px;
+  text-align: center;
+  text-anchor: middle;
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.Ingredientes {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: size 30px;
+  text-align: left;
+  text-anchor: middle;
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.Instruções {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: size 30px;
+  text-align: left;
+  text-anchor: middle;
+  width: 90%;
+  margin: auto;
+  display: block;
+}
