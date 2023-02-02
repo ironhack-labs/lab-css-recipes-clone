@@ -1,0 +1,87 @@
+/* general */
+
+body {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+section + section {
+    border-top: 3px solid lightgray;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
+/* typography */
+
+h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+ul li,
+ol li {
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li:before {
+    content: "- ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ol {
+    
+}
+
+
+/* header */
+
+header {
+    position: relative;
+}
+
+header h1 {
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header img.bg {
+    width: 100%;
+}
+
+
+/* main */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+img.info {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+}
