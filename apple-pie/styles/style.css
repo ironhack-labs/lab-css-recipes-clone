@@ -23,6 +23,8 @@ main {
     padding: 5% 10%;
 }
 
+ /* intro */
+
 .intro {
     padding-bottom: 2%;
 }
@@ -31,16 +33,17 @@ main {
     font-weight: 200;
 }
 
-.recipeInfo {
-    width: 50%;
+.imgCenter {
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
-.ingredients .recipeInfo {
-    width: 45%;
+.intro img {
+    width: 50%;
 }
+
+
 
 /* ingredient list */
 
@@ -59,6 +62,9 @@ h2 {
     list-style: '- ';
 }
 
+.ingredients img {
+    width: 45%;
+}
 
 /*directions*/
 
