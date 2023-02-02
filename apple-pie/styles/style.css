@@ -1,0 +1,82 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+header {
+    background: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 750px;
+    color:white;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    font-weight: 400;
+}
+
+
+main {
+    padding: 5% 10%;
+}
+
+ /* intro */
+
+.intro {
+    padding-bottom: 2%;
+}
+.intro p {
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.imgCenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro img {
+    width: 50%;
+}
+
+
+
+/* ingredient list */
+
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.listText {
+    font-weight: 100; 
+    font-size: 1.5rem;
+}
+
+.ingredientsList {
+    list-style: '- ';
+}
+
+.ingredients img {
+    width: 45%;
+}
+
+/*directions*/
+
+ol {
+    counter-reset: list;
+    
+  }
+
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
