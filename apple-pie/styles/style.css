@@ -1,0 +1,21 @@
+.container-h1 {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.img-apple-pie {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
