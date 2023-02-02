@@ -1,0 +1,18 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Montserrat'; 
+}
+
+.header {
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    padding: 100px; 
+
+}
+
+.h1 {
+    color: #FFFFFF; 
+    font-weight: normal;
+    text-align: center;
+}
