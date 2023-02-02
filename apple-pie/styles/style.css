@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+@counter-style empty-style {
+    system: extends decimal;
+    suffix: '';
+  }
+  
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+
+}
+header {
+    background-image: url(/apple-pie/images/apple-pie.jpg) ;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0% 30%;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    width: 800px ;
+    padding: 90px;   
+}
+
+#intro {
+    font-size: 18px;
+
+}
+ul {list-style-type: none;
+    padding-left: 10px;
+    
+}
+
+h2{
+    margin: 20px auto;
+    font-weight: 400;
+    font-size: 18px;
+}
+ul li:before { content: "-" }
+ol li:before { content: ")" }
+
+ol{
+    list-style: empty-style;
+    list-style-position: inside;
+
+}
+.info_bar {
+    height: 50px;
+    object-fit: contain;
+    margin: 20px;
+}
