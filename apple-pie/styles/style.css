@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centeredHeadline {
+    position: absolute;
+    font-size: 5rem;
+    font-weight:normal;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bigApple {
+    width: 100%;
+}
+
+#prelude {
+    margin: 50px auto;
+    font-size: 1.5rem;
+    width: 65%;
+    color: rgb(87, 87, 87);
+}
+
+.text {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    width: 65%;
+    color: rgb(87, 87, 87);
+}
+
+hr {
+    width: 75%;
+}
+
+h2 {
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+}
