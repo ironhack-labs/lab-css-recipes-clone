@@ -1,9 +1,80 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header {
+  background-image: url(../images/soup.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: rgb(255, 255, 255);
+  /*Center h1 inside header*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+section {
+  margin: 40px 120px;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+p {
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+ul,
+ol {
+  margin-left: 8px;
+  margin-bottom: 30px;
+}
+
+/*Style for unordered list (dash)*/
+ul {
+  list-style-type: none;
+}
+
+ul > li::before {
+  content: "- ";
+}
+
+/*Style for ordered list (number)*/
+ol {
+  list-style: none;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ") ";
 }
