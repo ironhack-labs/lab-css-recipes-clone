@@ -1,0 +1,72 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 10%;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "heading"
+        "intro"
+        "content"
+        "footer";
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+#heading {
+    grid-area: heading;
+    background: url('https://raw.githubusercontent.com/GuriCz/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg') no-repeat; 
+    background-size: cover;
+    width: 100vw;
+    height: 30vw;
+    max-height: min-content;
+}
+
+#intro {
+    grid-area: intro;
+    text-align: center;
+    font-size: 25px;
+    margin: 3% 20%;
+    font-weight: 900;
+}
+#ingredients  {
+    grid-area: content;
+    text-align: left;
+    margin: auto 20%;
+    font-size: 25px;
+}
+#directions {
+    grid-area: footer;
+    text-align: left;
+    margin: auto 20%;
+    font-size: 25px;
+}
+
+img {
+    height: 80px;
+}
+aside{
+    text-align: center;
+    align-items: center;
+}
+
+ol {
+    list-style: none;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
