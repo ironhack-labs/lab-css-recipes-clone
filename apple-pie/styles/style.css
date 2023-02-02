@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recipe-header{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.recipe-name {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 350;
+    letter-spacing: 4px;
+}
+.recipe-history{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: rgb(49, 47, 47);
+}
+.recipe-info {
+    width: 60%;
+}
+hr {
+    width: 60%;
+}
+.recipe-list{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: rgb(49, 47, 47);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.recipe-unordered-list{
+    list-style-type: none;
+}
+.recipe-unordered-list li::before{
+    content: "- ";
+}
+.second-recipe-info {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.recipe-ordered-list{
+    list-style: none;
+}
+.recipe-list ol > li {
+    counter-increment: listcounter;
+}
+.recipe-list ol > li::before {
+
+    content: counter(listcounter) ") ";
+  }
