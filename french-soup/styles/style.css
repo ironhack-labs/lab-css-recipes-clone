@@ -1,6 +1,7 @@
 /*Import the font and set the default size*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
+/*Base settings*/
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +14,12 @@ html {
 }
 
 header {
+  /*Background image settings*/
   background-image: url(../images/soup.jpg);
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  color: rgb(255, 255, 255);
   /*Center h1 inside header*/
   display: flex;
   justify-content: center;
@@ -40,6 +41,7 @@ img {
 h1 {
   font-size: 80px;
   font-weight: 400;
+  color: rgb(255, 255, 255);
 }
 p {
   font-size: 20px;

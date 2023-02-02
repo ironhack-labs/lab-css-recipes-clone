@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
+/*Base settings*/
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +11,12 @@ html {
   line-height: 1.5;
 }
 .header {
+  /*Background image settings*/
   background-image: url(../images/apple-pie.jpg);
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  color: rgb(255, 255, 255);
   /*Center h1 inside header*/
   display: flex;
   justify-content: center;
@@ -26,22 +27,26 @@ html {
 h1 {
   font-size: 100px;
   font-weight: 300;
+  color: rgb(255, 255, 255);
 }
 
 h2 {
   margin-bottom: 25px;
 }
 
+/*Both images size and centering*/
 img {
   width: 60%;
   height: auto;
   display: block;
   margin: 30px auto;
 }
+/*Only header has no margin*/
 section {
   margin: 40px 120px;
 }
 
+/*Line separation*/
 section hr {
   margin-top: 30px;
 }
@@ -50,6 +55,7 @@ section hr {
   text-align: center;
 }
 
+/*Or p{} since there's only one p, testing selectors*/
 .intro > p {
   font-size: 20px;
   margin-bottom: 30px;
@@ -57,19 +63,16 @@ section hr {
 
 ul,
 ol {
-  margin-left: 8px;
+  margin-left: 8px; /*A little margin adjustment*/
   margin-bottom: 30px;
 }
-
 /*Style for unordered list (dash)*/
 ul {
   list-style-type: none;
 }
-
 ul > li::before {
   content: "- ";
 }
-
 /*Style for ordered list (number)*/
 ol {
   list-style: none;
