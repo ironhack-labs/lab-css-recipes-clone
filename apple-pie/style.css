@@ -13,8 +13,10 @@ html, body {
 h1 {
     font-size:  7em;
     text-align: center;
+    margin:0 auto;
     color: white;
     position:absolute;
+    padding-top: 15%;
     top: 300px;
     left: 30px;
     bottom: 30px;
