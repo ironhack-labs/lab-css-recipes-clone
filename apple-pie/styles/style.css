@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html,
+body {
+    margin: 0 120px;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    position: relative;
+}
+.ap-title h1 {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 14vw;
+    top: 200px;
+
+}
+.ap-title {
+    position: relative;
+}
+.applepie {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recipe-info { 
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.ap-intro p {
+    text-align: center;
+}
