@@ -1,16 +1,16 @@
 .container-h1 {
-  z-index: 99;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-h1 {
+.h1 {
   font-size: 70px;
   color: white;
   text-align: center;
   margin-top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .img-apple-pie {
@@ -18,4 +18,22 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 700px;
+}
+
+.container {
+  height: 600px;
+  padding-top: 50px;
+}
+
+.container-div-img {
+}
+
+.img-cooking-info {
+}
+
+.list {
+  list-style-type: "-";
 }
