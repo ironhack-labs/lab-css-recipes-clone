@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+.first-tittle {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 60px;
+    padding: 200px 450px;
+}
+
+.container {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    font-size: 30px;
+    padding: 750px 200px;
+}
+
+.recepie-history p {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.recepie-history img {
+    margin-top: 50px;
+}
+
+.recepie-ingredients img {
+    margin-top: 50px;
+}
+
+hr {
+    margin: 20px auto 50px;
+    width: 70%;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.ingredients-list {
+    text-align: left;
+}
+
+.ingredients-list li {
+    list-style-type: square;
+}
+
+ol {
+    list-style: none;
+    line-height: 40px;
+}
+
+ol > li{  
+    counter-increment: listcounter;
+    text-align: left;
+}
+
+ol > li::before {
+    content: counter(listcounter) ")";
+}
