@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('path/to/OpenSans-Regular.ttf');
+}
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    width: 1200px;
+    margin: auto;
+  }
+
+.banner img{
+      width: 1200px;
+      height: 800px;
+}
+  
+.banner {
+      position: relative;
+}
+  
+.center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-weight: normal;
+      font-size: 2em;
+}
+  
+h2 {
+     font-weight: normal;
+}
+  
+ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+  
+ul li::before {
+    content: "-";
+    padding-right: 10px;
+}
+
+ol {
+    counter-reset: list;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    content: counter(list, number) ") ";
+    counter-increment: list;
+}
+  
+hr {
+      border: 0;
+      height: 2px;
+      background-color: #6B6B6B;
+      margin: 2em 0;
+}
+  
+main {
+    padding: 50px 150px;
+}
+  
+.recipe-info {
+    position: relative;
+    text-align: center;
+}
+  
+.cooking-info {
+    position: relative;
+    text-align: center;
+}
+
+.cooking-info img{
+    height: 94px;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.recipe-info img{
+    height: 94px;
+    width: 600px;
+    margin-top: 20px;
+}
