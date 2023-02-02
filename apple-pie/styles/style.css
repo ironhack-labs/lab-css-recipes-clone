@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+    background-color: red;
+}
+
+h1{
+    color: white;
+    background-color: red;
+    background-image: url('https://raw.githubusercontent.com/GuriCz/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg');
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "heading"
+        "intro"
+        "content"
+        "footer";
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+#heading {
+    grid-area: heading;
+    background-image: url('https://raw.githubusercontent.com/GuriCz/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg');
+}
+
+#intro {
+    grid-area: intro;
+}
+#ingredients  {
+    grid-area: content;
+}
+#directions {
+    grid-area: footer;
+}
