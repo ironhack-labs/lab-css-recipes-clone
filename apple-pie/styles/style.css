@@ -3,13 +3,23 @@
   top: 0;
   left: 0;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img {
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1 {
   font-size: 70px;
   color: white;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 150px;
+}
+
+.container {
+  padding: 50px 80px 50px 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,12 +30,11 @@
   left: 0;
   z-index: -1;
   object-fit: cover;
-  height: 700px;
+  height: 500px;
 }
 
-.container {
-  height: 600px;
-  padding-top: 50px;
+p {
+  font-size: 20px;
 }
 
 .container-div-img {
