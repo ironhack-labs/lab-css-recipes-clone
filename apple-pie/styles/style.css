@@ -1,0 +1,91 @@
+ h1, body, section, main {
+    width: 600px;
+    margin: auto;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px
+  }
+  
+  body {
+    line-height: 25px;
+    background-color: white;
+    color: black;
+  }
+
+  .header {
+    background-color: white;
+  }
+
+  .apple-pie-image {
+    height: 400px;
+    display: block;
+    display: flex
+    margin-left: auto;
+    margin-right: auto;
+    object-position: left top;
+
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .paragraph {
+    top: 2000px;
+    color:black
+    display: block;
+    text-align: justify;
+  }
+
+  img {
+    height: 80px;
+    display: block;
+    padding: 50px 50px;
+    display: flex
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h4, ul, ol, p, hr {
+    margin: 20px 50px;
+  }
+ 
+ h1 {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    height: 500px;
+    width: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 180px;
+    color: black;
+    font-weight: 90;
+    font-size: 45px;
+  }
+
+.ingredients {
+    color: black;
+    font-weight: 100;
+    font-size: 30px;
+    border-top:    1px solid  black;
+    padding-top: 50px;
+}
+
+   ol {
+    padding: 0;
+    color: black;
+    
+  }
+
+.directions {
+    border-top:    1px solid  black;
+    padding-top: 50px;
+    color: black;
+    font-weight: 100;
+    font-size: 30px;
+}
+    ul {
+    padding: 0;
+    color: black;
+  }
