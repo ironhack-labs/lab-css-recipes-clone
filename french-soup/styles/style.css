@@ -1,3 +1,6 @@
+*{
+  border:1px solid red;
+}
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +9,16 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+img{
+  width:100%;
+}
+.container-fluid{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width:80%;
 }
