@@ -1,5 +1,5 @@
 *{
-  border:1px solid red;
+
 }
 /*Some necessary adjustments*/
 h1, body, html, main {
@@ -19,6 +19,25 @@ img{
   align-items: center;
   justify-content: center;
 }
+.d-flex{
+  display:flex;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
 .container{
   width:80%;
+}
+.fw-normal{
+  font-weight: 300;
+}
+.padding-sm{
+  padding:1.5rem;
+}
+.border-bottom-gray{
+  border-bottom:2px solid gray;
+}
+.resize-img-sm{
+  width:35vw;
 }
