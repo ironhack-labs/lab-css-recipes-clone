@@ -28,21 +28,32 @@
   height: 500px;
 }
 .container {
-  padding: 50px 80px 50px 80px;
+  padding: 20px 80px 20px 80px;
   font-family: Arial, Helvetica, sans-serif;
+}
+.container.img {
+  padding: 0 20px 0 20px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.border {
+  border-bottom: 2px solid #707070;
 }
 
 .img-cooking-info {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
 }
 
 .list {
   list-style-type: "-";
+}
+
+.p-heading {
+  font-size: 20px;
 }
