@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.hero-section img {
+#hero-section img {
   top: 0;
   left: 0;
   z-index: 10;
@@ -13,7 +13,7 @@
   object-fit: cover;
 }
 
-.hero-section h1 {
+#hero-section h1 {
   position: absolute;
   top: 25%;
   left: 50%;
@@ -24,60 +24,51 @@
   color: white;
 }
 
+#recipe-info,
+#ingredients-info {
+  width: 80%;
+  margin: 40px auto;
+  border-bottom: 2px solid black;
+}
+
 #recipe-info {
   text-align: center;
 }
 
 #recipe-info article {
-  width: 90%;
-  margin: 40px auto;
   font-size: 24px;
 }
 
-.info {
+#recipe-info img {
   width: 50%;
-  margin-bottom: 20px;
-}
-
-#ingredients-info {
-  width: 90%;
-  margin: 20px auto;
-  padding-top: 40px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-#ingredients-info ul {
-  margin: 20px 5px;
-}
-
-#ingredients-info li {
-  list-style: none;
-}
-
-#ingredients-info li:before {
-  content: "-";
+  margin: 20px;
 }
 
 #ingredients-info img {
   display: block;
-  margin: auto;
+  width: 50%;
+  margin: 20px auto;
+}
+
+ul,
+ol {
+  margin: 20px 5px;
+  list-style: none;
+}
+
+ul > li::before {
+  content: "-";
 }
 
 #directions-info {
-  width: 90%;
+  width: 80%;
   margin: 40px auto;
 }
 
-#directions-info ol {
-  margin: 20px 5px;
+ol > li {
+  counter-increment: listcounter;
 }
 
-#directions-info li {
-  list-style: none;
-  counter-increment: list;
-}
-
-#directions-info li:before {
-  content: counter(list) ") ";
+ol > li::before {
+  content: counter(listcounter) ") ";
 }
