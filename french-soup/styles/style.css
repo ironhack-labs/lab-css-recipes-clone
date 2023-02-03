@@ -1,9 +1,56 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+
+header {
+  font-size: 100px ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(250, 250, 250);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.soup-image {
+  width: 90vw;
+  height: 80vh;
+  object-fit: cover;
+  padding:30px 30px 30px 70px;
+}
+
+.intro {
+  font-family: roboto thin;
+  font-size: 20px;
+  text-align: center;
+}
+
+.recipe-info {
+  width: 30vw ;
+  padding: 40px 40px 40px 550px ;
+}
+h3 {
+  font-weight: 200;
+  font-size: 30px;
+  padding-left: 100px;
+}
+
+ul {
+  font-size: 20px;
+  font-family: Roboto Thin;
+  list-style:none;
+  padding: 50px 50px 50px 100px;
+}
+.cooking-info {
+  width: 30vw ;
+  padding: 40px 40px 40px 550px ;
+}
+
+.directions {
+  font-size: 20px;
+  font-family: Roboto Thin;
+  list-style:none;
+  padding: 50px 50px 50px 100px;
+}
+
+hr {
+  width: 70em;
 }
