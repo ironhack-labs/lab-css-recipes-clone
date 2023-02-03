@@ -3,3 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
+.container-fluid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+}
+.container{
+    width:80%;
+}
