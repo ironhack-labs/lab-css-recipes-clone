@@ -48,6 +48,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  padding: 0 85px 10px 85px;
 }
 
 .list {
