@@ -1,0 +1,56 @@
+body{
+  display:flex;
+  flex-direction:column;
+    align-items: center;
+   justify-content: center;
+   
+}
+
+ 
+
+
+.apple {
+    width:800px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    
+
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+  }
+#grand {
+    width: 650px;
+    text-align: center;
+    
+   }
+
+.recipe {
+    width: 300px;
+    
+}
+#ingredients {
+width: 650px;
+text-align: start;
+}
+.cook {
+    width: 300px;
+   text-align: center;
+}
+#dir{
+    width: 650px;
+
+}
+h1{
+    text-align: center;
+  
+}
