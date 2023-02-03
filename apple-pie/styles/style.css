@@ -1,0 +1,85 @@
+/*
+ header {
+    background-image: url("/Users/ivana/Desktop/Recipe/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+     background-position: 0 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 650px;
+     padding-top: 50px;
+     position:relative; 
+   }*/
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ * {
+    margin:0px;
+    padding:0px;
+ }
+
+ body {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    
+ }
+
+ .photo {
+  margin-top:-50px;
+ }
+
+  .background {
+  height: 450px;
+  width:650px;
+  display: block;
+  margin: auto;
+   }
+
+   .abstract {
+    font-size: 15px;
+   display: inline-table;
+   text-align:center;
+  padding: 25px 420px;
+   }
+
+   .ingredients {
+   
+    padding: 25px 420px;
+    
+  
+   }
+
+   .directions {
+
+    padding: 25px 420px;
+   
+   
+   }
+
+h1 {
+    font-size: 2.5em;
+    position: relative;
+    left: 42%;
+    bottom: -25vh;
+    color: white;
+}
+
+h2 {
+    font-size: 1em;
+    position: relative;
+}
+
+h3 {
+position: relative;
+
+font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+
+  ul li::before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
