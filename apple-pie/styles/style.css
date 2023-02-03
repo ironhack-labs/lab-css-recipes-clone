@@ -52,7 +52,7 @@ p {
 }
 
 .list {
-  list-style-type: "-";
+  list-style-type: "- ";
 }
 
 .p-heading {
