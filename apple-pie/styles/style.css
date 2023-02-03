@@ -1,0 +1,75 @@
+
+
+.border {
+  border: 1px solid black;
+  margin: 10px 20px 10px 10px; 
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  
+}
+.apple-pie {
+width: 50em;
+height: 30em;
+padding: 50px 20px 20px 20px ;
+
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: roboto thin;
+  padding-bottom: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.intro {
+  font-size: 25px;
+  font-weight: light;
+  font-family: Roboto Thin;
+  padding: 50px 30px 30px 50px ;
+  text-align: center;
+  
+}
+.recipe-info {
+  width: 40vw;
+  padding: 50px 50px 50px 350px;
+  
+  
+}
+.ingredients {
+  font-size: 30px;
+  padding-left: 300px;
+  font-weight: 200;
+}
+.cook-info {
+  width: 40vw;
+  padding: 50px 50px 50px 350px;
+}
+ul {
+  font-size: 20px;
+  font-family: Roboto Thin;
+  list-style:none;
+  padding: 50px 50px 50px 300px;
+
+}
+p {
+  font-size: 20px ;
+  font-family: Roboto Thin;
+  padding: 50px 50px 50px 300px;
+
+}
+.directions {
+  font-size: 30px;
+  padding-left: 300px;
+  font-weight: 200;
+}
+hr {
+  width: 70em;
+}
