@@ -14,7 +14,7 @@
 }
 
 
-.first-tittle {
+#first-tittle {
     position: absolute;
     z-index: 2;
     color: white;
@@ -30,6 +30,11 @@
     padding: 750px 200px;
 }
 
+hr {
+    margin: 20px auto 50px;
+    width: 100%;
+}
+
 .recepie-history p {
     margin-top: 30px;
     text-align: justify;
@@ -37,15 +42,6 @@
 
 .recepie-history img {
     margin-top: 50px;
-}
-
-.recepie-ingredients img {
-    margin-top: 50px;
-}
-
-hr {
-    margin: 20px auto 50px;
-    width: 70%;
 }
 
 h2 {
@@ -61,16 +57,20 @@ h2 {
     list-style-type: square;
 }
 
-ol {
+.recepie-ingredients img {
+    margin-top: 50px;
+}
+
+.recepie-directions ol {
     list-style: none;
     line-height: 40px;
 }
 
-ol > li{  
+.recepie-directions ol > li{  
     counter-increment: listcounter;
     text-align: left;
 }
 
-ol > li::before {
+.recepie-directions ol > li::before {
     content: counter(listcounter) ")";
 }
