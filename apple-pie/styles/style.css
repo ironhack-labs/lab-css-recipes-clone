@@ -1,0 +1,60 @@
+.container-img {
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.img-apple-pie {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 500px;
+}
+.container {
+  padding: 20px 80px 20px 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container.img {
+  padding: 0 20px 0 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.border {
+  border-bottom: 2px solid #707070;
+}
+
+.img-cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 0 85px 10px 85px;
+}
+
+.list {
+  list-style-type: "- ";
+}
+
+.p-heading {
+  font-size: 20px;
+}
