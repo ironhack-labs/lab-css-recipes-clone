@@ -11,4 +11,23 @@
 }
 .container{
     width:80%;
+    justify-self: center;
+}
+.d-flex{
+    display:flex;
+}
+.center{
+    align-items:center;
+    justify-content: center;
+}
+.padding-sm{
+    padding:1.3rem;
+}
+.padding-md{
+    padding:2rem;
+}
+.img-resize{
+    width:100vw;
+    height:30vh;
+    object-fit: cover;
 }
