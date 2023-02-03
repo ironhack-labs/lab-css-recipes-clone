@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero-section img {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+#hero-section h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  font-size: 50px;
+  font-weight: 300;
+  color: white;
+}
+
+#recipe-info,
+#ingredients-info {
+  width: 80%;
+  margin: 40px auto;
+  border-bottom: 2px solid black;
+}
+
+#recipe-info {
+  text-align: center;
+}
+
+#recipe-info article {
+  font-size: 24px;
+}
+
+#recipe-info img {
+  width: 50%;
+  margin: 20px;
+}
+
+#ingredients-info img {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+ul,
+ol {
+  margin: 20px 5px;
+  list-style: none;
+}
+
+ul > li::before {
+  content: "-";
+}
+
+#directions-info {
+  width: 80%;
+  margin: 40px auto;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
