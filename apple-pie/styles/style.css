@@ -75,4 +75,37 @@ body {
   margin-bottom: 10vh;
  }
 
+ h2 {
+  margin-left: 45vh;
+  margin-bottom: 10vh;
+  font-size: 35px;
+  font-weight: 40;
+ }
+
+ .unordered-list {
+  margin-left: 45vh;
+  margin-top: 10vh;
+  margin-bottom: 50px;
+  list-style-type: none;
+  font-size: 24px;
+  line-height: 1.7;
+  letter-spacing: 0,7px;
+  font-weight: 220;
+
+ }
+
+ .ordered-list {
+  margin-left: 45vh;
+  margin-top: 5vh;
+  margin-bottom: 40px;
+  list-style-type: none;
+  margin-bottom: 20vh;
+  font-size: 24px;
+  justify-content: left;
+  margin-right: 20vh;
+  line-height: 1.5;
+  letter-spacing: 0,7px;
+  font-weight: 220;
+ }
+
  
