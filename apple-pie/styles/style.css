@@ -1,0 +1,59 @@
+h1 {
+    color: white;
+    font-size: 80px;
+    z-index: 1;
+    padding-top: 40vh;
+    text-align: center;
+    width: 100%;
+}
+
+.body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+
+    justify-content: center;
+}
+
+.intro_p {
+    font-size: 30px;
+}
+
+.container {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+#ingredients {
+    align-self: flex-start;
+    width: 44vh;
+}
+
+.container-whole-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    box-sizing: content-box;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
