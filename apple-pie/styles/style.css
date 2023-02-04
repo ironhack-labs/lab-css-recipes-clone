@@ -1,0 +1,62 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+   text-align: center;
+   color: black;
+   position: relative;
+}
+
+div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+    font-size: 1.5em;
+  }
+
+h3 {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+#apple-pie-header-img {
+  width: 100%;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: block;
+}
+
+.separator {
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 20px 0;
+}
