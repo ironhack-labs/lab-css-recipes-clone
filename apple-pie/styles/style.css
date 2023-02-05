@@ -2,17 +2,91 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family:'Montserrat'; 
+    font-family: "Montserrat", sans-serif;  
 }
 
 .header {
     background-image: url("/apple-pie/images/apple-pie.jpg");
-    padding: 100px; 
-
+    background-size: 100% 450px;
+    width: 100%;
+    height: 450px;
 }
 
 .h1 {
     color: #FFFFFF; 
     font-weight: normal;
+    font-size: 45px;
     text-align: center;
+    padding: 180px; 
 }
+
+.body-recipe {
+    margin: 80px;
+}
+
+.introduction-text {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.recipe-info {
+    width: 400px;
+    height: 50px;
+    padding-bottom: 40px;
+}
+
+.recipe-info-image {
+    text-align: center;
+    border-bottom: 2px solid #d1d1d1;
+    margin-bottom: 60px;
+}
+
+.h2 {
+    margin-bottom: 30px;
+}
+
+.ul-first {
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.ul-first > li::before {
+    content: "-";
+    padding-right: 5px;
+}
+
+.li-first {
+    padding-bottom: 5px;
+}
+
+.cooking-info-image {
+    text-align: center;
+    border-bottom: 2px solid #d1d1d1;
+    margin-bottom: 60px;
+}
+
+.cooking-info {
+    width: 320px;
+    height: 60px;
+    padding-bottom: 36px;
+}
+
+.ul-second {
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.ul-second > li {
+    counter-increment: listcounter;
+}
+
+.ul-second > li::before {
+    content: counter(listcounter) ")";
+    padding-right: 5px;
+}
+
+.li-second {
+    padding-bottom: 5px;
+}
+
+
