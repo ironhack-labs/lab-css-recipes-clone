@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    margin: 0 300px;
+    padding: 0;    
+}
+
+body{ 
+    font-family: roboto;
+    color: grey;
+}
+
+.header{
+    background-image: url(../images/apple-pie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;   
+}
+
+p{
+    font-size: 2em;
+    padding: 0;
+    margin: justify;
+
+}
+h1 {
+    color: white;
+    background-color: transparent;
+    font-size: 4em;   
+    text-align: center;
+    position: center;
+}
+.grandmother{
+    font-size: 2em;
+    padding: 0;
+} 
+.cooking{
+    font-size: 1em;
+    margin: justify;
+    height: 150px;
+    padding-top: 30px;
+}
+.cook{
+    height: 100px;
+    background-image: url(../images/cooking-info.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ingredients{
+    margin: justify;
+    height: 10px;
+    padding-top: 10px;
+    
+}
+ul{
+    font-size: 1.5em;
+}
+
+.imageing{
+    height: 100px;
+    background-image: url(../images/recipe-info.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
