@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+header {
+  background-image: url(/images/apple-pie.jpg);
+  background-size: cover;
+  height: 100%;
+}
