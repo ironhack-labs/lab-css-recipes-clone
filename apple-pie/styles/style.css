@@ -51,3 +51,31 @@ hr{
 .list li{
     font-size: 20px;
 }
+.list2{
+    padding: 0% 15% 5% 17%;
+}
+
+.list2 li{
+    font-size: 20px;
+}
+.list2 ol{
+    list-style: none;
+}
+.list2 ol>li{
+    counter-increment: listcounter;
+}
+
+.list2 ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+
+
+.list ul{
+    list-style: none;
+}
+.list ul > li::before {
+    /*3. Set the new style for the list markers */
+    content:  "-";
+  }
