@@ -1,3 +1,37 @@
 header {
-    background-image: url(../images/apple-pie.jpg)
+    background-image: url(../images/apple-pie.jpg);
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#recipe-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#first-section {
+    border-bottom: 2px solid grey;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
