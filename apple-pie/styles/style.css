@@ -4,7 +4,7 @@ header {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100px;
     color: white;
     display: flex;
@@ -14,8 +14,10 @@ h1 {
 }
 
 p {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 40px;
     text-align: justify;
 }
 
@@ -23,15 +25,55 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 40px;
+
 
 }
 
+main {
+    margin: 0 100px 100px 100px;
+}
 #first-section {
     border-bottom: 2px solid grey;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 100px;
+    margin: 100px 0 0 0;
 }
+
+#second-section {
+    border-bottom: 2px solid grey;
+    margin: 50px 0 0 0;
+}
+#cooking-info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+ol, ul { 
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+   ul > li:before{content: "-"}
+   
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+
+  ul, ol {
+    margin-top: 30px;
+    font-size: 30px
+  }
+
+  #third-section {
+    margin: 50px 0 0 0;
+  }
