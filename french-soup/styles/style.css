@@ -1,5 +1,8 @@
 header {
     background-image: url(../images/soup.jpg);
+    background-position: 0 -350px; 
+    background-size:cover;
+    background-repeat: no-repeat;
     height: 800px;
 }
 
@@ -35,7 +38,6 @@ main {
 }
 #first-section {
     border-bottom: 2px solid grey;
-    margin: 100px 0 0 0;
 }
 
 #second-section {
