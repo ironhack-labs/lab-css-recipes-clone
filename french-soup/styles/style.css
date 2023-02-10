@@ -5,5 +5,87 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+h2 {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position: relative;
+  height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.intro {
+  font-size: 1em;
+  vertical-align: middle;
+  font-weight: 500;
+  align-content: center;
+}
+
+.imginfo {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 175px;
+}
+
+hr {
+  margin: 0 200px;
+}
+
+ul {
+  margin-left: 175px;
+  list-style-type: '- ';
+}
+
+
