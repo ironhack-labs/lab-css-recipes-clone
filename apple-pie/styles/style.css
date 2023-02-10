@@ -1,0 +1,130 @@
+/* Eric Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* exercise start */
+@import url('https://fonts.googleapis.com/css?family=Segoe UI');
+@import url('https://fonts.googleapis.com/css?family=Tahoma');
+
+body {
+    font-family: 'Segoe UI';
+  }
+
+#title {
+    height: 500px;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Tahoma';
+    font-size: 80px;
+    
+}
+
+#intro {
+    height: 160px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#grandmother {
+    margin: 80px 100px 50px 100px;
+}
+
+#cooking {
+    display: flex;
+    justify-content: center;
+}
+
+#ingredients {
+    height: 450px;
+    margin: 100px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 30px 0px;
+    border-top: 2px solid grey;
+    padding: 60px 0px 0px 0px;
+}
+
+#ingredients-list {
+    line-height: 25px;
+    margin: 0px 0px 50px 10px;
+}
+
+#recipe {
+    display: flex;
+    justify-content: center;
+}
+
+#directions {
+    height: 300px;
+    margin: 100px;
+}
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+}
+  
+ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+}
+  
+ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ") ";
+}
+
+#directions-list {
+    line-height: 25px;
+    margin-left: 10px;
+}
