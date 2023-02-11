@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    }
+
+img {
+    width: 100%;
+}
+
+main {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 17px;
+}
+
+
+.header {
+
+background-image: url(../images/apple-pie.jpg);
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+h1 {
+color: white;
+margin: 0 auto;
+font-size: 60px;
+font-family: 'Segoe UI', Tahoma;
+font-weight: 100;
+
+
+
+
+    
+    
+
+}
+    
+
