@@ -1,65 +1,55 @@
-h1,
-h2 {
-    font-family: Helvetica, sans-serif
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+header {
+    background-color: gray;
+    height: 100vh;
+    background-image: url("../images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: calc(50vh - 60px);
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 80px;
     text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
-h2 {
-    font-size: 2em;
-}
-
-body {
-    font-family: Helvetica, sans-serif;
-    font-size: 1em;
-    line-height: 2em;
+ul {
     
-  }
+    list-style-type: "-";
+    
 
-html,
-body {
-  margin: 0;
-  padding: 0;
 }
 
-.header {
-    background-image: url("apple-pie.jpg");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-    position: relative;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#intro p {
-    width: 60%;
-    margin: 10px auto;
-    font-size: 1.5em;
+.container {
+    padding: 100px;
 }
 
-.infoimage {
-    width: 60%;
-    margin: 10px auto;
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: center;
+
+
+.article {
+    border-top: 1px solid;
+    
 }
 
-#ingredients {
-    width: 60%;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
 
-#directions {
-    width: 60%;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
+
+
+
