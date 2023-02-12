@@ -48,11 +48,11 @@ table {
 @import url('https://fonts.googleapis.com/css?family=Tahoma');
 
 body {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma;
   }
 
 #title {
-    height: 500px;
+    height: 600px;
     background-image: url("../images/apple-pie.jpg");
     background-size: 100%;
     display: flex;
@@ -62,9 +62,8 @@ body {
 
 h1 {
     color: white;
-    font-family: 'Tahoma';
+    font-family: 'Segoe UI', Tahoma;
     font-size: 80px;
-    
 }
 
 #intro {
@@ -105,7 +104,7 @@ h2 {
 }
 
 #directions {
-    height: 300px;
+    height: 280px;
     margin: 100px;
 }
 
