@@ -1,0 +1,69 @@
+body{
+    font-family: Arial;
+    font-size: small;
+    width: 500px;
+   
+    background-color: black;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    
+    margin: 0 auto; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgray;
+    
+
+}
+div.cover{
+
+    font-size: 30px;
+    color: white;
+    
+    background-image: url(../images/apple-pie.jpg)  ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    padding-top: 50%; /* para centrar el texto" pero cambiar el zoom de la imagen*/ 
+    
+
+}
+.cover h1{
+    color: white;
+    
+    
+}
+
+section{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid grey;
+
+}
+.intro{
+    padding-top: 10%;
+
+}
+
+.directions{
+    padding-bottom: 20%;
+}
+img {
+    width: 70%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
