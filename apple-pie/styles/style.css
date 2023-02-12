@@ -17,14 +17,14 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 p, ul, ol{
-    font-size: 40px;
+    font-size: 30px;
     font-style: 300;
 
 }
@@ -52,6 +52,7 @@ header{
     font-size: auto;
     position: relative;
     text-size-adjust: auto;
+  
 
 }
 
@@ -67,7 +68,7 @@ main{
 
 .img-recipe, .img-cooking{
     display: block;
-    margin: auto;  
+    margin: 0 auto;  
     min-width: 200px;
     max-width: 30%;  
 }
@@ -79,13 +80,14 @@ ul{
 .item-ul{
     list-style-type:"- ";
     margin-left: 30px;
-    mar
     font-style: none;
+    font-size: x-large;
 
 }
 
 ol{
     list-style: none;
+    font-size: x-large;
 }
 
 ol > li{
@@ -95,6 +97,7 @@ ol > li{
 ol > li::before{
     content: counter(listcounter) ")";
 }
+
 
 
 
