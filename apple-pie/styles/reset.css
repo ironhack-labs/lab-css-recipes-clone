@@ -32,6 +32,10 @@ body {
 	line-height: 1;
 }
 
+img{
+	width: 100%;
+}
+
 blockquote, q {
 	quotes: none;
 }
