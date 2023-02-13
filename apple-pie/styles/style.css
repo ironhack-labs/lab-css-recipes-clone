@@ -1,0 +1,120 @@
+/* Global configuration */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* Font styles */
+
+h1,
+h2,
+li,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+ol,
+ul {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* Tools */
+
+.container {
+  padding-bottom: 30px;
+  margin: 0px 120px 60px;
+}
+
+.border-bottom {
+  border-bottom: solid 3px gray;
+}
+
+.img-container {
+  padding-top: 50px;
+  width: 500px;
+}
+
+/* Header */
+
+.header {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image {
+  background-image: url(../images/apple-pie.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Introduction section */
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.introduction p {
+  line-height: 125%;
+}
+
+/* Ingredientes section */
+
+.ingredients ul {
+  list-style-type: "- ";
+  padding-left: 25px;
+}
+
+.ingredients ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.ingredients div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Directions section */
+
+.directions ol {
+  padding-left: 10px;
+  list-style-position: inside;
+  list-style-type: none;
+  line-height: 125%;
+}
+
+.directions li:before {
+  content: counter(section, number) ") ";
+}
+
+.directions li {
+  counter-increment: section;
+}
