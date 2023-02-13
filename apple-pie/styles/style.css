@@ -1,0 +1,25 @@
+.p{
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}
+
+#image{
+ background-image: url(apple-pie.jpg);
+}
+
+ol { 
+    list-style: none;
+  }
+  
+  ol > li { 
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+  
