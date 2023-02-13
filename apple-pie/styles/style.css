@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(../fonts/Segoe\ UI.ttf);
+}
+
+@font-face {
+  font-family: 'Segoe UI lighter';
+  src: url(../fonts/Segoe\ UI\ Lighter.ttf);
+}
+
+*{
+  line-height: 40px;
+}
+
+header {
+    background-image: url(../images/apple-pie.jpg);
+    background-position: 0 -50px; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+p {
+    font-family: 'Segoe UI lighter', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#recipe-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+main {
+    margin: 0 100px 100px 100px;
+}
+#first-section {
+    border-bottom: 2px solid grey;
+    margin: 100px 0 0 0;
+}
+
+#second-section {
+    border-bottom: 2px solid grey;
+    margin: 50px 0 0 0;
+}
+
+#cooking-info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+ol, ul { 
+    font-family: 'Segoe UI lighter', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ") ";
+  }
+
+   ul > li:before{content: "- "}
+   
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+
+  ul, ol {
+    margin-top: 30px;
+    font-size: 30px
+  }
+
+  #third-section {
+    margin: 50px 0 0 0;
+  }

@@ -1,9 +1,95 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(../fonts/Segoe\ UI.ttf);
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+@font-face {
+  font-family: 'Segoe UI lighter';
+  src: url(../fonts/Segoe\ UI\ Lighter.ttf);
 }
+
+*{
+  line-height: 40px;
+}
+
+header {
+    background-image: url(../images/soup.jpg);
+    background-position: 0 -350px; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+p {
+    font-family: 'Segoe UI lighter', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#recipe-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+
+}
+
+main {
+    margin: 0 150px 100px 150px;
+}
+#first-section {
+    border-bottom: 2px solid grey;
+}
+
+#second-section {
+    border-bottom: 2px solid grey;
+    margin: 50px 0 0 0;
+}
+#cooking-info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+ol, ul { 
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ") ";
+  }
+
+   ul > li:before{content: "- "}
+   
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+
+  ul, ol {
+    font-family: 'Segoe UI lighter', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-size: 30px
+  }
+
+  #third-section {
+    margin: 50px 0 0 0;
+  }
