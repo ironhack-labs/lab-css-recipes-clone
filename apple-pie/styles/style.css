@@ -1,0 +1,148 @@
+body{
+    all: unset;
+}
+
+img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+header{
+
+    background-image: url(../images/apple-pie.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-repeat : no-repeat;
+    background-size :cover;
+
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    font-size:5em;
+    display: flex;
+    color: white;
+    width: 15cm;
+    justify-content: center
+
+
+}
+
+
+
+
+
+.parrafo{
+    display: flex;
+    margin-left: 5cm;
+    margin-right: 5cm;
+
+}
+.texto-parrafo{
+    display:inline-block;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+ 
+}
+.info-recipe{
+    display: flex;
+    margin-left: 11.5cm;
+    margin-right: 11.5cm;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    display: flex;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+
+
+
+
+
+
+.ingredientes{
+   
+    margin-left: 5cm;
+    margin-right: 5cm;
+
+}
+
+
+h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    font-size:2em;
+    
+   
+
+}
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+
+.img-cooking-info{
+    display: flex;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.Procedimiento{
+    display:inline-block;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-right: 5cm;
+    margin-left: 5cm;
+
+}
+
+   
+
+p{
+    display:inline-block;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+     
+
+  
+
+
+}
+

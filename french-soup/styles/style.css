@@ -7,3 +7,23 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.encabezado img{
+  
+  background-image: url(../images/soup.jpg);
+
+
+}
+header{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+h1{
+  margin
+  color: blueviolet;
+  font size: 25px;
+  
+}
