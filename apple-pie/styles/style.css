@@ -1,0 +1,95 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url(../images/apple-pie.jpg);
+    height: 680px;
+    width: auto;
+    background-size: cover;
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+}
+
+h2 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.regular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 130px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.regular2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 130px;
+    border-bottom: 2px solid gray;
+}
+
+.img-section {
+    display: flex;
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 26px;
+    font-weight: 100;
+    padding: 60px 80px;
+    text-align: left;
+}
+
+.script {
+    list-style-type: '- ';
+  }
+
+  li {
+        font-size: 18px;
+        font-weight: 100;
+        padding-top: 8px;
+  }
+
+  .regular div {
+    width: 100%;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 44px;
+    padding-bottom: 60px;
+  }
+
+  .regular2 div {
+    width: 100%;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 44px;
+    padding-bottom: 60px;
+  }
