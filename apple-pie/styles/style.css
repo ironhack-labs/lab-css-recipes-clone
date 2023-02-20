@@ -27,3 +27,74 @@ img {
 * {
     font-family: sans-serif;
 }
+
+hr {
+  max-width: 1000px;
+  border-width: 2px;
+  border-radius: 5px;
+  color: grey;
+}
+
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px, auto; 
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+header h1 {
+  color: white;
+  font-size: 4rem;
+}
+#description {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#description p {
+  font-size: 1.7rem;
+}
+#description img {
+  height: 80px;
+  margin: 40px auto 0 auto;
+}
+.instructions {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.instructions h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+.instructions ul {
+  list-style: "-  ";
+  line-height: 2rem;
+  font-size: 1.5rem;
+  list-style-position: inside;
+  margin-left: 10px;
+}
+.instructions img {
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: block;
+}
+ol {
+  margin-left: 10px;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ") ";
+
+}
