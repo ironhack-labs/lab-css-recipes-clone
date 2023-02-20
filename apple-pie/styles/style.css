@@ -1,0 +1,52 @@
+
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 3.5em;
+    font-family: sans-serif;
+}
+
+.text {
+    margin: auto;
+  width: 75%;
+  padding: 35px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.recipe-info {
+    margin:  auto;
+    display: flex;
+}
+
+.ingredients {
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 25px;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+}
+
+
+h3 {
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.cooking-info {
+    margin:auto;
+    display: flex;
+}
+
+.directions {
+    padding: 25px;
+    letter-spacing: normal ;
+    font-size: 1em;
+    font-family: sans-serif;
+}
