@@ -1,0 +1,63 @@
+header {
+    position: relative;
+    background-image: url(./../images/apple-pie.jpg);
+    background-size: cover;
+    height: 650px;
+    margin: 25px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    padding: 300px;
+}
+#grandmother-recipe {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+}
+
+#ingredients {
+    text-rendering: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 50px;
+}
+
+
+.section-1 {
+    text-align: left;
+    padding: 50px;
+}
+
+#ingredients> h2 {
+    padding-left: 360px;
+ }
+
+#ingredients > li {
+    text-indent: 10cm;
+ }
+
+ .section-2 {
+    text-align: left;
+    padding-left: 360px;
+    padding-top: 30px;
+   
+ }
+
+ #recipe-info {
+    position: relative;
+    padding-left: 280px;
+ }
+ 
+#cooking-info {
+    position: relative;
+    padding-left: 280px;
+    padding-top: 25px;
+}
+ 
