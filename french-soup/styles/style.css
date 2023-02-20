@@ -7,3 +7,38 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#soup {
+  width: 1450px;
+}
+
+.centered {
+  font-size: 150px;
+  position: relative;
+  width: 1500px;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+ul { 
+  list-style: none;
+}
+
+
+ul > li::before {
+  content: "- ";
+}
+
+
+ol { 
+  list-style: none;
+}
+
+ol > li { 
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
