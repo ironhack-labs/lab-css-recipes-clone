@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body{
+    size: auto;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url('https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: 375; 
+    text-align: center; 
+    display: flex;
+    justify-content: center; align-items: center
+}
+
+
+main{
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 100px 100px;
+    text-align: justify;
+}
+
+
+.img{
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: #403e3e;
+    /* font-weight: 600; */
+    font-weight: 400;
+}
+
+.ul{
+    list-style-type: "- ";
+}
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+
+
