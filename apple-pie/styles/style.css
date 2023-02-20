@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    color: white;
+    height: 500px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0% 10%;
+    padding: 5% 0% 0%;
+}
+
+.images {
+    height: 100px;
+    padding: 5%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    border-top: 2px solid;
+}
+
+ol {
+    list-style: none;
+    padding: 0px 10px;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ") ";
+  }
+
+ul {
+    list-style: none;
+    padding: 0px 10px;
+  }
+
+  ul > li::before {
+    content: "- ";
+  }
+
