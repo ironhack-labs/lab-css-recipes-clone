@@ -1,0 +1,79 @@
+/* General HTML Attributes */
+html {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px
+  }
+  
+
+h1, body, html, main {
+    margin: 0;
+  }
+
+header {
+    position: relative;
+    background-image: url(./../images/apple-pie.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 3.5em;
+}
+
+section {
+    font-size: 1.2em;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: lightgray;
+}
+
+/* Classes */
+
+.container {
+    padding: 50px 125px;
+}
+
+.recipe-list {
+    padding: 35px 0;
+}
+
+.section-img {
+    height: auto;
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+/* Styling ul and ol to change the list symbol */
+ol, ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ol > li {
+    counter-increment: listcounter;
+}
+
+ol > li::before {
+    content: counter(listcounter) ") ";
+}
+
+ul > li::before {
+    content: "- ";
+}
+
+li {
+    padding-left: 20px;
+}
