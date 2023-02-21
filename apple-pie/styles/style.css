@@ -1,0 +1,50 @@
+
+body {
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header img {
+    max-width: 100%;
+    
+}
+
+.header h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 10em;
+    color: white;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.prep {
+    text-align: center;
+}
+
+.ingredients {
+    font-size: 1.5em;
+}
+
+.padding {
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
