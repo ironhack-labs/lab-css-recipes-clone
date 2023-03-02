@@ -4,13 +4,13 @@
 
 ## Introduction
 
-We have only learned the very basics today with HTML and CSS, so what the heck we can really build, right? Wrong, we can build some cool stuff already, and we are going to do just that.
+We have only learned the basics today with HTML and CSS, so what the heck can we build, right? Wrong, we can create some cool stuff already, and we will do just that.
 
-We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we prepared a French Onion Soup recipe as well.
+We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we also prepared a French Onion Soup recipe.
 
 Cloning something that already exists is the best way to get better at frontend development, so check out the deliverable below to see what we are expecting.
 
-Some starter code is already provided, so you can jump right into it.
+Some starter code is already provided so you can jump right into it.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ Some starter code is already provided, so you can jump right into it.
 - Use a single external CSS stylesheet to style all pages
 - Use the images provided to construct the appropriate elements on the page:
   - The background with a picture of the apple pie
-  - The recipe servings / nutrients section
+  - The recipe servings/nutrients section
   - The prep section
 
 ## Submission
@@ -49,7 +49,7 @@ Please find a screenshot of the expected results below:
 
 ## Extra Practice
 
-If you feel you need more practice, you can keep working on the `french-soup` exercise. There you will find the `expected-result.md` file where you can see what is expected from you to build. This folder has the same structure as the `apple-pie` one so follow the same steps.
+If you need more practice, keep working on the `french-soup` exercise. There you will find the `expected-result.md` file where you can see what is expected from you to build. This folder has the same structure as the `apple-pie` one, so follow the same steps.
 
 **Happy coding!** :heart:
 
@@ -70,7 +70,7 @@ If you feel you need more practice, you can keep working on the `french-soup` ex
   <summary>I am stuck in the exercise and don't know how to solve the problem or where to start.</summary>
   <br>
 
-  If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
+  If you are stuck in your code and need help with how to solve the problem or where to start, you should take a step back and try to form a straightforward question about the specific issue you are facing. This will help you narrow down the problem and develop potential solutions.
 
 
 For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
@@ -117,7 +117,7 @@ This will remove the default list style, create a new counter called `listcounte
 
 
 
-For more information on CSS Counters check: [MDN -  Using CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters)
+For more information on CSS Counters, check: [MDN -  Using CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters)
 
 
 
@@ -271,9 +271,9 @@ To check which remote repository you have cloned, run the following terminal com
   ```bash
   git remote -v
   ```
-If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first, and then clone your fork to your local machine to be able to push the changes.
+If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first and then clone your fork to your local machine to be able to push the changes.
 
-Note: You may want to make a copy of the code you have locally, to avoid losing it in the process.
+Note: You should make a copy of the code you have locally, to avoid losing it in the process.
 
   [Back to top](#faqs)
 
