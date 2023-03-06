@@ -48,9 +48,9 @@ Some starter code is already provided so you can jump right into it.
 Upon completion, run the following commands:
 
 ```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
+git add .
+git commit -m "done"
+git push origin master
 ```
 
 Create Pull Request so your TAs can check up your work.
