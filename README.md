@@ -71,16 +71,16 @@ Please find a screenshot of the expected results below:
 
 If you need more practice, keep working on the `french-soup` exercise. There you will find the `expected-result.md` file where you can see what is expected from you to build. This folder has the same structure as the `apple-pie` one, so follow the same steps.
 
-**Happy coding!** :heart:
-
-
+<br>
 
 ## Extra Resources
 
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [CSS Background Image](https://developer.mozilla.org/en/docs/Web/CSS/background-image)
 
+<br>
 
+**Happy coding!** :heart:
 
 ## FAQs
 
