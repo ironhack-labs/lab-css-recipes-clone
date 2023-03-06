@@ -7,11 +7,11 @@
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise is designed to allow you practice and apply the concepts and techniques taught in class. 
+  This exercise allows you to practice and apply the concepts and techniques taught in class. 
 
   Upon completion of this exercise, you will be able to:
 
-  - Properly structure a webpage using basic HTML tags (head, body, headings, paragraphs, images, and lists)
+  - Properly structure a webpage using basic HTML tags (head, body, headings, paragraphs, images and lists)
   - Create and link an external CSS stylesheet with an HTML document.
   - Use *id* and *class* selectors to apply CSS styles to elements on a webpage.
   - Display images in a webpage using HTML image tags and CSS `background` property.
@@ -24,11 +24,11 @@
 
 ## Introduction
 
-We have only learned the basics today with HTML and CSS, so what the heck can we build, right? Wrong, we can create some cool stuff already, and we will do just that.
+We have only learned the basics today with HTML and CSS, so what the heck can we build, right? Wrong, we can create some cool stuff already and we will do just that.
 
 We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we also prepared a French Onion Soup recipe.
 
-Cloning something that already exists is the best way to get better at frontend development, so check out the deliverable below to see what we are expecting.
+Cloning something already existing is the best way to get better at frontend development, so check out the deliverable below to see what we expect.
 
 Some starter code is already provided so you can jump right into it.
 
@@ -57,7 +57,7 @@ Create Pull Request so your TAs can check up your work.
 
 ## Instructions
 
-You will be working in the `apple-pie` folder. There you will find all the files, images, and text content needed to create the page. The text is in the `index.html`, and a CSS file is created in `styles/style.css`.
+You will be working in the `apple-pie` folder. There you will find all the files, images and text content needed to create the page. The text is in the `index.html` and a CSS file is created in `styles/style.css`.
 
 ## Deliverable
 
@@ -93,7 +93,7 @@ If you need more practice, keep working on the `french-soup` exercise. There you
   If you are stuck in your code and need help with how to solve the problem or where to start, you should take a step back and try to form a straightforward question about the specific issue you are facing. This will help you narrow down the problem and develop potential solutions.
 
 
-For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
+For example, is it a concept you don't understand, or are you receiving an error message you don't know how to fix? It is usually helpful to state the problem as clearly as possible, including any error messages you receive. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
 
 
 Once you have a clear understanding of the problem, you will be able to start working toward the solution.
@@ -133,7 +133,7 @@ ol > li::before {
 
 
 
-This will remove the default list style, create a new counter called `listcounter`, and style the list markers to use parentheses and the current value of the `listcounter` counter.
+This will remove the default list style, create a new counter called `listcounter` and style the list markers to use parentheses and the current value of the `listcounter` counter.
 
 
 
@@ -293,7 +293,7 @@ To check which remote repository you have cloned, run the following terminal com
   ```
 If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first and then clone your fork to your local machine to be able to push the changes.
 
-Note: You should make a copy of the code you have locally, to avoid losing it in the process.
+Note: You should make a copy of your local code to avoid losing it in the process.
 
   [Back to top](#faqs)
 
