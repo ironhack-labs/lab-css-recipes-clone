@@ -5,14 +5,26 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0 150px 8px 150px;
   padding: 0;
   font-weight: lighter;
+  letter-spacing: 1px;
 }
 
 /*  Set the font */
@@ -22,3 +34,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.title {
+  color: white;
+  text-align: center;
+  margin: 20%;
+  position: absolute;
+  font-size: 60px;
+}
+.p {
+  text-align: center;
+}
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+.recipe-list {
+  text-align: justify;
+  margin-top: 10px;
+}
+.title-image {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 700px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.recipe-image {
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  height: 90px;
+  margin: auto;
+}
+.cooking-info-image {
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  height: 90px;
+  margin: auto;
+}
+.directions {
+  margin-top: 30px;
+  font-size: medium;
+  margin-bottom: 50px;
+}
+.hr {
+  width: 70%;
+}
+.li {
+  margin:20px;
+  letter-spacing: 1.5px;
+}
+.ingredient-list {
+  margin-left: 180px;
+}
