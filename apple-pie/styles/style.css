@@ -1,24 +1,73 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 14pt;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
 }
-
 /* STYLES */
 /* Write your CSS below */
+header{
+  height: 100vh;
+  background-image: url("../images/apple-pie.jpg");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  font-size: 72pt;
+  font-weight: 300;
+}
+.wrapper{
+  padding: 100px 15%;
+}
+section{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-1{
+  padding: 0;
+}
+.recipe-info-img{
+  margin: 40px auto;
+  width: 60%;
+}
+.cooking-info-img{
+  margin: 0px auto;
+  width: 50%;
+}
+ul, ol{
+  line-height: 1.75em;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash{
+  list-style: none;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
