@@ -18,26 +18,55 @@ body, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  counter-reset: my-list-counter;
+}
+
+.margin-spacer {
+height: 10px;
 }
 
 p {
   margin-top: 2%;
   margin-bottom: 10%;
-  margin-right: 30%;
+  margin-right: 10%;
   margin-left: 10%;
   padding: 2%;
 }
 
+hr {
+  width: 90%;
+}
+
 ul {
-  margin: 2% 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+ul.dashed {
   list-style-type: none;
 }
 
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
 ol {
+  list-style: none;
   margin-top: 2%;
   margin-bottom: 10%;
-  margin-right: 30%;
+  margin-right: 10%;
   margin-left: 10%;
+}
+
+
+ol > li::before {
+  counter-increment: my-list-counter;
+  content: counter(my-list-counter) ") ";
 }
 
 h2 {
@@ -48,41 +77,46 @@ h2 {
 
 #apple-pie-image {
   height: 500px;
-  width: 900px;
+  width: 800px;
   background-size: auto 120%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-image:  url('../images/apple-pie.jpg');
-  position: flexible;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 #apple-pie-text {
     font-weight: lighter;
     text-align: center;
     position: absolute;
+    padding-top: 25%;
     font-size:50px;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 #recipe-info {
-width: 65%;
-margin: auto;
+width: 75%;
+
 }
 
 #recipe-info-div {
-  width: 50%;
+  width: 55%;
   margin: auto;
 }
 
 #cooking-info {
-  width: 60%;
-  margin: auto;
+  width: 65%;
+
 }
 
 #cooking-info-div {
-  width: 50%;
+  width: 55%;
   margin: auto;
 }
