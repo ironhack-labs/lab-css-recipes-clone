@@ -21,4 +21,104 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+hr {
+  width: 75%;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 0 0;
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+}
+
+section {
+  margin: 50px 0;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.introduction p {
+  text-align: center;
+  padding: 0 2rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.introduction img {
+  margin: 50px auto;
+  width: 25%;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.ingredients__list h2 {
+  margin: 25px 0;
+}
+
+.ingredients__image {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients ul {
+  list-style-type: none;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.directions h2 {
+  margin: 50px 0;
+}
+
+.directions ol {
+  width: 50%;
+}
