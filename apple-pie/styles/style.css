@@ -22,8 +22,10 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-img {
-  padding: 0px;
+.headerclass img {
+  display: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
 .centered {
@@ -32,15 +34,22 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 100px;
 }
 
 section {
-  padding: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
 }
 
 section h2 {
   padding: 20px;
   font-weight: 550;
+}
+
+section article {
+  padding: 20px;
 }
 
 section li {
@@ -59,5 +68,8 @@ section li {
 .ingredients {
   border-top: solid;
   border-bottom: solid;
-  
+  border-color: rgb(153, 140, 140);
 }
+
+
+
