@@ -22,3 +22,45 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.head{
+  
+  color: rgb(209, 212, 214);
+  font-size: 4em;
+background-image: url("../images/apple-pie.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 80vh;
+  
+
+
+
+
+}
+.grandma{
+  text-align: center;
+  font-size: 2em;
+
+   border-bottom: 1px solid #17212e;
+  
+
+ 
+}
+.ingre{
+  text-align: center;
+  font-size: 1.7em;
+  border-bottom: 1px solid #17212e;
+  
+
+
+}
+
+.end{
+  
+  font-size: 1.4em;
+  
+}
+h1{
+ margin:1px;
+  text-align: center;
+}
+
