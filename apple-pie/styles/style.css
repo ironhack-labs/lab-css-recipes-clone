@@ -20,5 +20,67 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+.grandmaRecipe {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+}
+
+
+.applePie {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+}
+
+hr {
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cookingInfo {
+  align-items: center;
+  margin-left: 500px;
+  width: 60%;
+}
+
+h1 {
+  margin-left: 390px;
+  font-size: 20px;
+}
+
+.ingredients {
+  margin-left: 390px;
+  list-style: none;
+  font-size: 16px;
+  
+
+}
+
+.directions {
+  margin-left: 390px;
+  font-size: 20px;
+}
+
+.instructions {
+  margin-left: 390px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.recipeInfo {
+  align-items: center;
+  margin-left: 500px;
+  width: 60%;
+}
