@@ -1,3 +1,4 @@
+
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -17,8 +18,72 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.apple-pie-container img{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.apple-pie-heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+
+/* .center{
+  text-align: center;
+  display: flex;
+} */
+
+section{
+  /* background-color: aqua; */
+  width: 80%;
+  margin: auto;
+}
+
+.first-section-container{
+  text-align: center;
+  padding: 40px;
+  margin-top: 20px;
+}
+.first-section-container>p{
+  margin-bottom: 20px;
+}
+.first-section-container>img{
+  width: 34%;
+}
+
+
+
+.second-section-container{
+  padding: 40px;
+  margin-top: 20px;
+}
+.second-section-container img{
+  display: block;
+  margin: auto;
+  width: 34%;
+  margin-top: 40px;
+}
+li{
+  list-style: none;
+}
+
+.third-section-container>h2{
+  margin: 39px 0px;
+}
+
+.third-section-container{
+  padding-bottom: 60px;
+}
+
