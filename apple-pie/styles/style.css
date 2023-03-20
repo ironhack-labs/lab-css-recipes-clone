@@ -20,5 +20,91 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+h1 {
+ 
+}
+
+.container {
+  /*position: relative;
+  text-align: center;*/
+  color: white;
+  font-size: larger;
+  display: flex;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container1 > div {
+  
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+  font-size: 10px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container2 > div {
+  
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  margin: 50px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  line-height: 25px;
+  font-size: 10px;
+}
+
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container3 > div {
+  
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  margin: 10px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  line-height: 25px;
+  font-size: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+
+
 /* STYLES */
 /* Write your CSS below */
