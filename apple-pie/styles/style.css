@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  text-align: center;
 }
 
 *, *:before, *:after {
@@ -15,10 +16,97 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  line-height: 1.4em;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 500px;
+  padding-top: 50px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 500;
+  text-align: left;
+}
+
+#cooking-info {
+  margin: 30px;
+  width: 750px;
+}
+
+.text {
+  font-size: 1.1em;
+}
+
+hr {
+  width: 800px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 800px;
+}
+
+#ingredients {
+  margin: 30px;
+  text-align: left;
+}
+
+.cooking-info-img {
+  width: 300px;
+  ;
+}
+
+.ingredients-list {
+  margin: 30px;
+  text-align: left;
+}
+
+.ingredients-info-img {
+  width: 350px;
+}
+
+#directions {
+  margin: 30px;
+}
+
+.directions-list {
+  margin: 30px;
+  text-align: left;
+}
