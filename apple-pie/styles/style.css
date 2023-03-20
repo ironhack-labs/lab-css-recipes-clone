@@ -22,3 +22,76 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+/* -------------------------------------- general settings */
+body {
+  margin-bottom: 100px;
+}
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 1.1em;
+  padding: 10px 0 15px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main {
+  max-width: 80%;
+}
+.center-item {
+  margin: 0 auto;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------------- header */
+header {
+  color: white;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cccccc;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+/* -------------------------------------- section: introduction */
+.introduction > p {
+  font-size: 1.2em;
+}
+.image-container  {
+  max-width: 300px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.image-container > img {
+  max-width: 100%;
+}
+
+/* -------------------------------------- section: directions */
+ul {
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 5px;
+}
+ul > li {
+  list-style-type: '– ';
+}
+ol {
+  counter-reset: myList;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(myList) ") ";
+  counter-increment: myList;
+}
