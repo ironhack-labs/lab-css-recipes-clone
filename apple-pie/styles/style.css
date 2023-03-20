@@ -22,3 +22,83 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.imageApplePie {
+  background-image:url("../images/apple-pie.jpg") ;
+  font-size: 150px;
+  padding: 880px;
+  color: white;
+  text-align: center;
+}
+
+.firstQuote {
+  text-align: center;
+  font-size: 62px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.mainPart {
+  margin-right: 250px
+
+}
+
+.secondImageSize {
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 1000px;
+}
+
+.thirdImageSize {
+  height: 200px;
+  margin-top: 90px;
+  margin-left: 1000px;
+}
+
+.ingredients {
+  font-size: 65px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 270px;
+  padding: 130px;
+  border-top: 1px solid #000 
+}
+
+.ingredientList {
+  font-size: 54px;
+  margin-left: 440px;
+}
+
+.directions {
+  font-size: 65px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 280px;
+  padding: 130px;
+  border-top: 1px solid #000 
+}
+
+.directionsList {
+  font-size: 54px;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+body{
+  font-family: "Helvetica", sans-serif;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
