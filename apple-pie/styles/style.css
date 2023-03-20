@@ -50,8 +50,6 @@ body {
   background-repeat: no-repeat;
   width: 800px;
   height: 500px;
-  padding-top: 50px;
-  position: relative;
   color: white;
   display: flex;
   flex-direction: column;
