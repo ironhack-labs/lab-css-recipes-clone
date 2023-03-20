@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +23,92 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h2 {
+  font-weight: bolder;
+  margin: 35px;
+}
+
+
+.apple-box {
+  position: relative; /* ! */
+}
+
+.header {
+  font-weight: bolder;
+  margin: 50px;
+}
+
+.apple-pie-sentence {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  top: 50%;
+  width: 100%;
+  color: white;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+.cooking-image {
+  padding-top: 50px ;
+}
+
+p{
+text-align: center;
+padding: 40px ;
+}
+
+hr {
+  width: 40%;
+  margin-left: auto;
+}
+
+
+ul.lists {
+  list-style-type: none;
+}
+ul.lists > li {
+  text-indent: -5px;
+}
+ul.lists > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+
+.section-first {
+  font-size: 1.5em;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.apple-picture {
+  display: block; /*centered kinda*/
+  margin: auto;
+  width: 600px;
+  height: 500px;
+}
+
+.section-second {
+  font-size: 1.5em;
+  margin: 0 auto;
+  max-width: 1000px;
+  line-height: 1.5;
+}
+
+ol {
+  list-style: none;
+}
+ol > li {
+  list-style: none;
+  counter-increment: list;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  
+}
