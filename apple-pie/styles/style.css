@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,94 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  height: 450px;
+}
+
+.apple-pie {
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+}
+
+.header {
+  font-weight: bolder;
+  margin: 40px;
+}
+
+.hr-short {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.list {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 2px 2px 40px 2px;
+}
+
+.cooking-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.recipe-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+ol {
+  list-style: none;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+ul {
+  margin: 75px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 1000px;
+}
