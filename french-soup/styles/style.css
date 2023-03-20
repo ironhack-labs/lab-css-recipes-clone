@@ -43,9 +43,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   width: 800px;
-  height: 450px;
-  padding-top: 50px;
-  position: relative;
+  height: 500px;
   color: white;
   display: flex;
   flex-direction: column;
