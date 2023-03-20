@@ -22,3 +22,80 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+  padding: 300px;
+  text-align: center;
+  background-image: url(../images/apple-pie.jpg);
+
+}
+
+.introduction {
+  max-width: 920px;
+  margin: 45px auto 0;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+#container {
+  max-width: 920px;
+  margin: 0 auto 45px;
+}
+
+.cooking {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 45px;
+}
+
+.cooking-image {
+  max-width: 500px;
+  align-self: center;
+}
+
+.cooking-title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  padding: 35px 0 25px;
+  border-top: 1px solid #000;
+}
+
+.list {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.list-text {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.ingridient::before {
+  content: '\002d';
+  position: absolute;
+  margin-left: -20px;
+}
+
+.direction::before {
+  content: counter(list-item) '\0029';
+  counter-increment: list;
+  position: absolute;
+  margin-left: -20px;
+}
