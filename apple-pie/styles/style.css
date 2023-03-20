@@ -20,5 +20,25 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h1 {
+  margin: auto;
+}
+
+p {
+  margin: 10%;
+}
+
+#apple-pie {
+  height: 400px;
+  background-size: auto 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-image:  url('../images/apple-pie.jpg');
+}
+
+#recipe-info {
+  size: auto 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
