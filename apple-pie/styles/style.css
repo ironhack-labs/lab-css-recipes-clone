@@ -11,7 +11,6 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
   font-weight: lighter;
 }
 
@@ -22,3 +21,43 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+img {
+  padding: 0px;
+}
+
+.centered {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  padding: 20px;
+  font-weight: 550;
+}
+
+section li {
+  padding: 3px;
+}
+
+.info {
+  padding: 10px;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ingredients {
+  border-top: solid;
+  border-bottom: solid;
+  
+}
