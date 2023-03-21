@@ -18,7 +18,30 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  height: 200px;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+div {  
+  width: 300px;  
+  height: auto;  
+  text-align: center;  
+  padding: 15px;  
+  border: 3px solid red;  
+  } 
+
+  .applePieimage {  
+    height: 400px;  
+    } 
+  ul{  
+    text-align: center; 
+    }
+    ul{text-align: center;
+
+    }
+    .recipe {
+      height: 10;
+
+    }
