@@ -1,0 +1,77 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+  }
+  
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  /* STYLES */
+  /* Write your CSS below */
+  
+  
+  .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 48px 550px 48px 550px;
+height: 350px;
+ background: no-repeat center/100% url(./images/apple-pie.jpg);
+color: white;
+text-align: center;
+font-size: 18px;
+}
+
+
+.intro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 48px 200px 24px 200px
+   }
+   
+.recipe-info-img {
+    display: flex;
+    width: 350px;
+}
+.ingredients {
+    border-top: 0.8px solid;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 48px 200px 48px 200px  
+}
+.cooking-info-img-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px 200px 24px 200px;
+}
+.cooking-info-img {
+    display: flex;
+    width: 350px;  
+}
+.directions {
+    border-top: 0.8px solid;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 48px 200px 48px 200px }
