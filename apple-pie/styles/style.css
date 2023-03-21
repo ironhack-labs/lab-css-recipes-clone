@@ -22,3 +22,86 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-header{
+  width:100vw;
+  height: 80vh;
+  background-image: url(../images/apple-pie.jpg);
+  font-family: "Helvetica", sans-serif;
+  background-size: cover;
+   padding-top: 150px;
+  padding-bottom: 80px; 
+  font-size: 20px;
+  text-align:center;
+  color: white;
+}
+
+
+.recipe-info {
+  background-position: center;
+  justify-content: center;
+  height: auto; 
+  width: auto; 
+  max-width: 250px; 
+  max-height: 200px;
+  
+}
+.cooking-info {
+  background-position: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  max-width: 250px; 
+  max-height: 200px;
+  
+}
+ul{
+  text-align;
+}
+
+h2{
+  font-size: 15px;
+  font-weight:bold;
+}
+h3{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+.recipe-info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.cooking-info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+}
