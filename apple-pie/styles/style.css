@@ -85,13 +85,19 @@ li {
 ul > li {
   list-style-type: '– ';
 }
+
 ol {
-  counter-reset: myList;
+  /* 1. remove default list style */
+  counter-reset: myListCounter;
+  
 }
 ol > li {
+  /* 2. create a custom list counter */
   list-style: none;
 }
 ol > li:before {
-  content: counter(myList) ") ";
-  counter-increment: myList;
+  /* 3. set the new style */
+  content: counter(myListCounter) ") ";
+  /* make sure the numbering increments */
+  counter-increment: myListCounter;
 }
