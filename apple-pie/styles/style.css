@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -14,11 +15,49 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   padding: 0;
   font-weight: lighter;
 }
-
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
-}
-
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 50%;
+
+}
+h1 { 
+  font: 120px Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid red;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+  padding: 0 150px;
+  }
+article{
+    text-align: justify;
+    font: 30px roboto, sans-serif;
+    font-weight: 200;
+}
+h2{
+  font: 30px roboto, sans-serif;
+  font-style: 500;
+  
+  }
+ul.lines {
+  text-align: justify;
+  font: 30px roboto, sans-serif;
+  font-weight: 200;
+  list-style: none
+}
+h3{
+  font: 30px roboto, sans-serif;
+  font-style: 500;
+}
+ul.numbers {
+  text-align: justify;
+  font: 30px roboto, sans-serif;
+  font-weight: 200;
+  list-style: none;
+}
