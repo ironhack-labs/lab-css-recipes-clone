@@ -22,37 +22,27 @@ body {
 
 /* STYLES */
 
-hr {
-  width: 75%;
-}
-
-.maincontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem auto;
-  padding: 0 2rem;
-}
-
-.introduction {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-}
-
 .header {
   background-image: url("../images/apple-pie.jpg");
   background-repeat: repeat;
   background-size: cover;
-  background-position: 0 0;
+  background-position: center;
   width: 100vw;
   height: 500px;
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 60rem;
 }
 
 .header h1 {
@@ -61,39 +51,51 @@ hr {
   text-align: center;
 }
 
-section {
-  margin: 50px 0;
-}
 
 .introduction {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  max-width: 100%;
 }
 
 .introduction p {
   text-align: center;
   padding: 0 2rem;
-  margin: 0 auto;
   line-height: 1.5;
+  font-weight: 500;
+  margin: 15px 25px;
 }
 
 .introduction img {
-  margin: 50px auto;
-  width: 25%;
+  margin: 25px auto;
+  width: 50%;
+}
+
+hr {
+  width: 100%;
+  color: #969696;
 }
 
 .ingredients {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .ingredients__list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.ingredients__list ul li {
+  list-style-type: none;
+}
+
+.ingredients__list ul li:before {
+  content: "- ";
 }
 
 .ingredients__list h2 {
@@ -105,20 +107,35 @@ section {
   justify-content: center;
 }
 
+.ingredients__image img {
+  width: 50%;
+}
+
 .ingredients ul {
   list-style-type: none;
+  line-height: 1.5;
 }
 
 .directions {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .directions h2 {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .directions ol {
-  width: 50%;
+  counter-reset: list;
+}
+
+.directions ol > li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.directions ol > li:before {
+  content: counter(list, decimal) ") ";
+  counter-increment: list;
 }
