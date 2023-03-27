@@ -18,7 +18,58 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 40px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.first1{
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  font-size:100px ;
+}
+
+.centered{
+  text-align: center;
+}
+
+.applepie{
+  background-image: url("../images/apple-pie.jpg");
+  height: 600px;
+  
+}
+
+.sect p{
+  padding: 40px 100px;
+  margin-bottom: 50px 0px;
+  text-align: justify;
+}
+
+.subheader{
+  font-weight: bold ;
+  margin: 20px 0px;
+}
+
+.img1{
+ width: 400px;
+}
+
+.list1{
+  padding-left: 30px;
+  list-style-type: "-";
+}
+
+.list2{
+  padding-left: 30px;
+  list-style: none;
+
+}
+.list2 li{
+  counter-increment: listcounter;
+}
+.list2 li::before{
+  content: counter(listcounter) ")";
+}
