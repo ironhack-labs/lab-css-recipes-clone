@@ -1,5 +1,9 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -9,16 +13,90 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body, h1, h2, h3, p, ol, ul {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
 }
+
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica",sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.container  {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+font-size: 20px;
+margin: 50px 0;
+color: grey;
+}
+
+
+h2 {
+  margin: 20px;
+
+}
+
+img {
+width: 500px;
+margin: 30px;
+}
+
+hr {
+  width: 100%;
+}
+
+.ingredientsBox {
+  background-color: aqua;
+  width: 100%;
+}
+
+ul li {
+list-style: "- ";
+color: grey;
+line-height: 30px;
+}
+
+
+ol{
+  padding-left: 50px;
+  line-height: 20px;
+  color: grey;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+ol li::marker {
+  content: counter(list-item)") ";
+}
+
+
