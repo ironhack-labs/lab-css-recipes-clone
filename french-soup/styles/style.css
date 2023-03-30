@@ -27,7 +27,7 @@ body, html, main, h1 {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    height: 100vh;
+    height: 200vh;
     padding-top: 500px;
     background-repeat: no-repeat;
 
@@ -64,6 +64,7 @@ body, html, main, h1 {
 .list li{
   padding-left: 10vw;
   font-size: 1.8vw;
+
 }
 .cooking{
   display: flex;                     
@@ -80,12 +81,20 @@ h3{
    
 }
 
-
-
 ol{
   padding-left: 12vw;  
   font-size: 1.9vw; 
-  list-style:outside;
+}
+
+ol{
+  list-style: none;
+}
+ol > li{
+  counter-increment: listcounter;
+}
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
 }
  
 
