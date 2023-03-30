@@ -1,14 +1,17 @@
 
 body {
     padding-bottom: 100px;
-    font-family: sans-serif;
+    font-family: 'Geneva', sans-serif;
+    
 }
 
 div h1{
     text-align: center;
     color: white;
-    font-size: 5rem;
+    font-size: 300%;
     font-weight: normal;
+    background-size: cover;
+    padding: 250px;
 
 }
 .Apple-Pie {
@@ -21,11 +24,12 @@ div h1{
   
 }
 .Grandma {
-    font-size: 28px;
+    font-size: 1.5em;
     padding-left: 85px;
     padding-right: 89px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 2.5em;
     
 }
 .Recipe {

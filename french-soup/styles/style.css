@@ -1,9 +1,92 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+ /*Some necessary adjustments*/
+body, html, main, h1 {
+  margin: 0;
+  padding-bottom: 4em;
+  font-family: 'Open Sans', sans-serif;
+
+ }
+
+ h1 {
+  color: rgb(22, 22, 22);
+  font-size: 150px;
+  background-size: cover;
+  padding: 100px;
+  background: url("../french-soup/images/soup.jpg");
+}
+.French-Onion-Soup {
+    background-image: url("../french-soup/images/soup.jpg");
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+    padding-top: 500px;
+    background-repeat: no-repeat;
+
+    
+}
+ 
+.Restaurant {
+  font-size: 2.2vw;
+  padding-top: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: rgb(74, 74, 74);
+  display: flex;                     
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+
+}
+.Ingredients {
+    display: flex;                     
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;  
+}
+.ingredients{
+  color:rgb(102, 102, 102);
+  font-size: 1.9vw;
+  padding-left: 10vw;
+}
+.list li{
+  padding-left: 10vw;
+  font-size: 1.8vw;
+}
+.cooking{
+  display: flex;                     
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+}
+h3{
+  font-size: 1.9vw;
+  color:rgb(102, 102, 102);
+  display: flex;  
+  padding-left: 10vw;                   
+   
+}
+
+
+
+ol{
+  padding-left: 12vw;  
+  font-size: 1.9vw; 
+  list-style:outside;
+
+}
+ 
+
