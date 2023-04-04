@@ -1,0 +1,64 @@
+hr{width: 90%;}
+
+
+/* SECTION 1 */
+
+h1{
+   color: white; 
+   font-size: 3.4em;
+   display: flex;
+   position: absolute;  
+   align-self: center;
+}
+
+.table{
+    flex: 1;
+    height: 900px;
+    }
+  
+
+p{
+    font-size: 2.5em;
+    text-align: center;
+    font-style: none;
+}
+
+.imgContainer{
+    
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.info-img{   
+
+display: flex;    
+justify-content: center;
+}
+
+
+/* SECTION 2 */
+
+.prepImg{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients{
+    list-style-type:'-';
+    padding-top: 20px;
+    line-height: 140%;
+
+}
+
+
+
+/* SECTION 3 */
+
+.section3{
+    text-align: justify;
+    padding-top: 20px;
+    line-height: 140%;
+}
+
