@@ -27,6 +27,13 @@ h1 {
   color: white;
   font-size: 4.5rem;
 }
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.2rem;
+}
 
 header {
   background-image: url("/apple-pie/images/apple-pie.jpg");
@@ -61,6 +68,7 @@ main section {
 }
 main section hr {
   width: 100%;
+  
 }
 
 #context {
@@ -81,12 +89,15 @@ main section hr {
   width: 100%;
   align-items: flex-start;
   justify-content: right;
-  padding: 1em 0;
+  padding: 1.2em 0;
   text-align: justify;
 }
 #ingredients ul {
   padding-left: 1.5em;
   list-style-type: none;
+}
+#ingredients ul li {
+  margin-bottom: 0.3em;
 }
 #ingredients ul li:before {
   content: '-';
