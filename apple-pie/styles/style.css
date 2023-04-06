@@ -22,3 +22,64 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Image css  */
+#applePie{
+  background-image: url(/w1/lab1/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  color: azure;
+  font-size: 100px;
+  width: 100%;
+  height: 400px;
+/* Image css  */
+}
+.cooking{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  width: 300px;
+}
+/* Image css  */
+.cooking2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+/* Image css  */
+.plot{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* Ingredients  */
+.ingredi{
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+h3{
+  padding-bottom: 20px;
+}
+.ingredients-list{
+  padding-left: 30px;
+}
+/* directions  */
+.direction{
+  padding: 50px;
+  text-align: justify;
+}
+.directions {
+  /* Estilos para la lista ordenada */
+  list-style-type: decimal; /* Cambia el estilo de numeración a decimal (1, 2, 3, ...) */
+  margin-left: 20px; /* Agrega un margen izquierdo de 20 pixels */
+}
+.directions li {
+  /* Estilos para los ítems de la lista */
+  margin-bottom: 5px; /* Agrega un margen inferior de 5 pixels */
+}
