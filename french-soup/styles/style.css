@@ -1,9 +1,108 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/* ---------------- START OF PAGE CSS ---------------- */
+
+
+/* ---------------- HEADER ---------------- */
+
+.hero-image {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-color: rgba(0,0,0,0.2);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-position-y: 90%;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.hero-image-title {
+  color: #FFFFFF;
+  font-size: 6rem;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  
+}
+
+#introduction .flexbox-container,
+#ingredients .flexbox-container,
+#directions .flexbox-container{
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 15vw;
+  position: relative;
+}
+
+#introduction .flexbox-container::after,
+#ingredients .flexbox-container::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 15%; /* set to 15% to cover only 70% of the width */
+  width: 70%;
+  border-bottom: 4px solid lightgray;
+}
+
+#ingredients .flexbox-container,
+#directions .flexbox-container{
+  align-items: flex-start;
+}
+
+#ingredients .flexbox-container img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#introduction p {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+#ingredients h2,
+#directions h2 {
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+
+#ingredients .section-list,
+#directions .section-list {
+  text-decoration: none;
+  list-style: none;
+  line-height: 2rem;
+  padding-left: 2%;
+}
+
