@@ -112,6 +112,7 @@ main section hr {
 #directions ol {
   padding-left: 1em;
   list-style-position: inside;
+  counter-reset: list;
 }
 #directions ol > li {
   list-style-type: none;
