@@ -13,6 +13,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: center;
+  width: 800px;
 }
 
 /*  Set the font */
@@ -24,11 +26,53 @@ body {
 /* Write your CSS below */
 #apple-div{
   background-image: url('../images/apple-pie.jpg');
+  background-size: 100%;
   width: 800px;
   height: 500px;
   text-align: center;
   color: white;
+  margin-left: 225px;
 }
 #h1-apple{
-  
+  padding-top: 230px;
+  font-size: 45px;
+}
+#p-text{
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 50px;
+  width: 700px;
+  font-size: 20px;
+}
+#break{
+  width: 85%;
+  text-align: center;
+  margin-left: 275px;
+}
+#image{
+  background-size: 100%;
+  width: 350px;
+  margin-left: 400px;
+}
+#ul-text{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 310px;
+  font-size: 15px;
+  margin-bottom: 30px;
+
+}
+#ol-text{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 310px;
+  width: 77%;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+#h4-text{
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 280px;
+  font-weight: 500;
 }
