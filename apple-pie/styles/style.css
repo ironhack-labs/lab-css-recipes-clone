@@ -18,6 +18,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: grey;
+  font-size: large;
 }
 
 /* STYLES */
@@ -28,21 +30,42 @@ body {
 }
 
 main {
-  padding: 7%;
+  padding: 50px 7%;
 }
 
 #title {
-  position: relative;;
-  top: 50;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  color: white;
+  font-size: 80px;
 }
 
-header > h1 {
-  /* display: flex;
-  align-items: center;
-  flex-direction: column; */
-  position: absolute;
-  left: 50%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -25px;
+.sec {
+  border-bottom: 3px solid grey;
 }
+
+section {
+  padding-top: 50px;
+}
+
+ul, ol {
+  padding: 30px;
+}
+
+section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+article {
+  font-size: larger;
+  color: rgb(72, 72, 72);
+}
+
+h3 {
+  color: rgb(49, 48, 48);
+}
+
