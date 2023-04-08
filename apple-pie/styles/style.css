@@ -22,3 +22,13 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#apple-div{
+  background-image: url('../images/apple-pie.jpg');
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  color: white;
+}
+#h1-apple{
+  
+}
