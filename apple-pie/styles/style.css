@@ -18,7 +18,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-  color: grey;
+  color: rgb(62, 62, 62);
   font-size: large;
 }
 
@@ -58,6 +58,7 @@ section > img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding: 30px 0;
 }
 
 article {
@@ -69,3 +70,21 @@ h3 {
   color: rgb(49, 48, 48);
 }
 
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+ul > li:before {
+  content: "-";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}
