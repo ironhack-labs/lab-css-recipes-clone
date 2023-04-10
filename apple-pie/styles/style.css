@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin: 100px;
 }
 
 *, *:before, *:after {
@@ -22,3 +23,23 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.Ingredients{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+
+img{
+  border: black;
+}
+
+.Subtitle{
+  display: flex;
+  justify-content: flex-start;
+  font-style: italic;
+ 
+}
+.Title{
+  color: white;
+  
+}
