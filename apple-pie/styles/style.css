@@ -22,3 +22,52 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.liIngredients>ul{
+  list-style-type: none;
+}
+
+h1{
+  color: whitesmoke;
+  font-size: 40px;
+}
+#recipePhoto {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.container{
+  margin: 60px 120px;
+  border-bottom: solid whitesmoke;
+  
+}
+#direction{
+  border-bottom: none;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  
+}
+.smallImages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleImg{
+  width: 240px;
+  margin: 24px 0;
+}
+#ingredients{
+  height: 0%;
+}
+article>h2 {
+  margin-bottom: 24px;
+
+}
