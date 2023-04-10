@@ -22,3 +22,88 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+section {
+  padding: 10px 70px;
+}
+
+
+#cabecera {
+  background-image: url("../images/apple-pie.jpg");
+  text-align: center;
+  color: white;
+  background-size: cover;
+  padding: 150px 0 150px 0;
+  margin: 0 15%;
+  font-size: 30px;
+}
+
+
+#introduccion {
+  text-align: center;
+  padding: 2% 15%;
+
+}
+
+#introduccion p {
+  padding: 20px 70px;
+}
+
+ol {
+  list-style: none;
+}
+
+#ingredientes {
+  padding: 0px 15%;
+
+}
+
+#ingredientes li::marker {
+  content: "- ";
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.imagen-pequeña {
+  width: 40%;
+  height: 40%;
+}
+
+#direcciones {
+  padding: 0px 15%;
+  
+}
+
+#direcciones li {
+  counter-increment: listcounter;
+
+}
+#direcciones li::before {
+  content: counter(listcounter) ") ";
+}
+
+
+h2 {
+  padding: 20px;
+}
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+
+ul {
+  padding-left: 5%;
+}
+
+ol {
+  padding-left: 5%;
+}
