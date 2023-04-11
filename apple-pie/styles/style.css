@@ -23,17 +23,17 @@ h1 {
     text-transform: capitalize;
 }
 
-.contenido {
+.main-description {
     margin: 0 auto;
 }
 
-.contenido{
+.main-description {
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
 }
 
 hr {
