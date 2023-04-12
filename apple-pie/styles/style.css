@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -13,12 +14,65 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+  color: #2c2c2c;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+nav{
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  height: 400px;
+  display: flex;
+}
+
+.nav-title{
+  color: #fff;
+  font-size: 3.5em;
+  margin: auto;
+}
+
+.sections{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content:space-evenly;
+}
+
+.recipe-description{
+  margin: 5% 10%
+}
+
+.symbol-list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-evenly;
+  width: 100%;
+  list-style-type: none;
+  color: #919191;
+}
+
+.divider{
+  background-color: #616161;
+  margin: 5% 10%;
+  height: 0.12em;
+}
+
+.section-title{
+  margin: 0% 10% 5%
+}
+
+.offset-list{
+  margin: 0% 13% 5%
+}
