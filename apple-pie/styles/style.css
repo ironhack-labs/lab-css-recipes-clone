@@ -13,12 +13,64 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color:rgb(36, 36, 36);
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-}
+  }
 
 /* STYLES */
 /* Write your CSS below */
+
+header img{
+  width: 850px;
+  height:500px;
+  display: block;
+  margin:auto;
+  position: relative;
+}
+
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  text-align: center;
+  margin-top:70px;
+}
+
+.info-Div{
+  display:block;
+  margin: auto;
+  width:650px;
+}
+
+p{
+  text-align: center;
+}
+
+.info-img {
+  width:250px;
+  height: auto;
+  display: block;
+  margin:auto;
+}
+
+ul {
+  margin-left: 30px;
+  list-style-type: "- ";
+}
+
+ol {
+  margin-left: 30px;
+  list-style: none;
+}
+
+section {
+  margin: 40px 0px;
+}
