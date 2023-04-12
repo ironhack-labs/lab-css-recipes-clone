@@ -22,3 +22,61 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  height: 600px;
+  width: auto;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 72px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.section1 {
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.intro-text {
+  font-size: 24px;
+  font-weight: 200;
+}
+.icons1 {
+  padding-left: 175px;
+}
+hr {
+  width: 800px;
+}
+.ingredients {
+  padding-left: 250px;
+  font-size: 22px;
+  font-weight: 120;
+}
+.list-one {
+  list-style-type: "-  ";
+  padding-left: 50px;
+  color: rgb(78, 78, 78);
+  line-height: 1.25;
+}
+.directions {
+  width: 1050px;
+  padding-left: 250px;
+  font-size: 22px;
+  font-weight: 120;
+}
+.list-two {
+  padding-left: 25px;
+  color: rgb(78, 78, 78);
+  line-height: 1.25;
+}
+.icons2 {
+  padding-left: 475px;
+}
