@@ -22,3 +22,84 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  width: auto;
+}
+
+.firstPic {
+  width: 100%;
+  
+}
+
+.secondPic {
+  width: 300px;
+  position: relative;
+  left: 40%;
+}
+
+.thirdPic {
+  width: 300px;
+  position: relative;
+  left: 40%;
+}
+
+section {
+  margin: 50px;
+  margin-left: 20px;
+}
+
+p {
+  text-align: start;
+  width: 872px;
+  font-size: x-large;
+}
+
+#firstSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#secondSec {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 210px;
+
+}
+
+#thirdSec {
+  display: flex;
+  flex-direction: column;
+  margin-left: 210px;
+}
+
+.list {
+  width: 600px;
+  margin-top: 20px;
+}
+
+.div1 {
+  position: relative;
+  text-align: center;
+}
+
+.heading {
+  position: absolute;
+    color: white;
+    left: 35%;
+    bottom: 50%;
+    font-size: 5em;
+}
+
+.heading2 {
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+.heading3 {
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
