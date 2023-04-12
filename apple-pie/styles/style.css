@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,103 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+}
+h1 {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: stretch;
+  padding-top: 27%;
+  font-size: 5em;
+}
+
+#all-text {
+  width: 850px;
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+hr {
+  border: 1.5px solid gray;
+}
+
+#first {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#first p {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.recipe-info {
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#second,
+#third {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: left;
+}
+ul {
+  text-align: left;
+  list-style-type: "- ";
+  padding-left: 2%;
+  font-weight: 100;
+  line-height: 1.5em;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 1.2em;
+}
+.cooking-info {
+  width: 300px;
+  height: auto;
+}
+
+ol {
+  text-align: left;
+  list-style: none;
+  padding-left: 2%;
+  font-weight: 100;
+  line-height: 1.5em;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 1.2em;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
