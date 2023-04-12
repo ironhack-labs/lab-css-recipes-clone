@@ -21,4 +21,95 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+.heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-size-adjust: 100px;
+  align-items: end;
+  height: 250px;
+  font-size: 80px;
+
+}
+
+.picture {
+  background-image: url(../images/apple-pie.jpeg);
+  background-size: cover;
+  height: 700px;
+  padding-top: 50px;
+}
+
+.about { 
+  text-align: center;
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-top: 50px;
+
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.recipe-info-image {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.line {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+.ingridients-title {
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-top: 50px;
+}
+
+.ingridients {
+  margin-bottom: 20px;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+.directions-title {
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-top: 50px;
+}
+
+.directions {
+  margin-bottom: 20px;
+}
+
+.directions-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.directions-info-picture {
+  height: 65px;
+  margin-top: 20px;
+}
+
