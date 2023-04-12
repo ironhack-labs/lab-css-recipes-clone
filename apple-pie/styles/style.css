@@ -22,3 +22,72 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+}
+h1{
+  color: white;
+  font-size: 6em;
+}
+#introduction {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 30px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.information-image{
+  height: 100px;
+  display: flex;
+}
+hr{
+  border:0 0 1px 0;
+  width: 80%;
+  border-bottom-color: rgb(0, 0, 0);
+  position: absolute;
+  margin: 0 10%;
+  display: flex;
+
+}
+.information-image{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+#ingredients {
+  padding: 30px 10%;
+  
+}
+#ingredients ul {
+  margin: 0 5% 5% 5%;
+  align-items: left;
+}
+h3{
+  font-size: 2em;
+  margin: 30px 0;
+}
+
+#directions {
+  padding: 30px 10%;
+}
+#directions ol {
+  margin: 0 5% 5% 5%;
+  align-items: left;
+}
+
+li{
+  font-size: 1.8em;
+}
+
+
+
