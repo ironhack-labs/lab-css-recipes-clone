@@ -20,5 +20,106 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+.main-header {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.main-header-title {
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.apple-pie-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.intro-container {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 3px solid #979797;
+}
+
+.intro-paragraph {
+  font-size: 35px;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 30px;
+  
+}
+
+.recipe-info-img {
+  align-items: center;
+}
+
+
+.ingredients-container {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 3px solid #979797;
+}
+
+.ingredients-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+
+}
+
+.ingredients-paragraph {
+  font-size: 30px;
+  line-height: 1.2;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.cooking-info-img {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.directions-container {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 3px solid #979797;
+
+}
+
+.directions-title {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.directions-paragraph {
+  font-size: 30px;
+  line-height: 1.2;
+  padding-left: 50px;
+}
