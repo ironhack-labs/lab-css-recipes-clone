@@ -24,10 +24,15 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+body {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+}
+
 .main-header {
   text-align: center;
   position: relative;
   color: white;
+  padding-top: 500px;
 }
 
 .main-header-title {
@@ -49,10 +54,8 @@ body {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 80px;
-  padding-bottom: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
   border-bottom: 3px solid #979797;
+  background-color: white;
 }
 
 .intro-paragraph {
@@ -71,11 +74,8 @@ body {
 .ingredients-container {
   padding-left: 80px;
   padding-right: 80px;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
   border-bottom: 3px solid #979797;
+  background-color: white;
 }
 
 .ingredients-title {
@@ -89,7 +89,6 @@ body {
   font-size: 30px;
   line-height: 1.2;
   padding-left: 50px;
-  padding-bottom: 30px;
 }
 
 .cooking-info-img {
@@ -104,11 +103,8 @@ body {
 .directions-container {
   padding-left: 80px;
   padding-right: 80px;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
   border-bottom: 3px solid #979797;
+  background-color: white;
 
 }
 
