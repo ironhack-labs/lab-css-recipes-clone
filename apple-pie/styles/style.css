@@ -12,50 +12,63 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
 
+/*-----------------------------------------------------My CSS-----------------------------------------------------------*/
+
+
+
 header{
-  background-image: url("images/apple-pie.jpg");
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:500px;
-  height:500px;
-/* Inicialmente consegui meter a imagem e dpois perdi-a não sei bem como */
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #Title1 {
-  font-size: 100px;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#Texto1{
+  font-size: 20px;
+  width: 700px ;
+  height: 200px;
   text-align: center;
-  padding: center;
-  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Title2{
+  
   font-size: 30px;
   text-align: left;
   color: black;
 }
 
-#Imagen2{
+.Inst{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
-#Imagen3{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+#Directions{
+ font-size: 20px;
+
 }
