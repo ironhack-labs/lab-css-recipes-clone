@@ -1,24 +1,82 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* CSS RESET - do not remove /
+/ Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
-}
-
-*, *:before, *:after {
+  }
+  
+  *, *:before, *:after {
   box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  max-width: 800px;
   margin: 0;
   padding: 0;
   font-weight: lighter;
-}
-
-/*  Set the font */
-body {
+  
+  }
+  /* Set the font */
+  body {
   font-family: "Helvetica", sans-serif;
-}
+  max-width: 800px;
+  margin: 0 auto;
+  }
 
-/* STYLES */
-/* Write your CSS below */
+  /* STYLES /
+  / Main section */
+  .main-img {
+  background-image: url("https://scontent.flis8-1.fna.fbcdn.net/v/t39.30808-6/340931835_1082049136518627_5795556412911218033_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeG26mNqM1sKg-bUB_erbTV4_yIseuSwHiX_Iix65LAeJTT5zpVrSOlKcJVXKyX26iTOOa6BlMZlWttYb4OdxJ7v&_nc_ohc=LkGkvs2B5RMAX_ARQGC&_nc_ht=scontent.flis8-1.fna&oh=00_AfAq4Sw7qeWRbMC0u2_6_2Tg1MnLi8J6mPyRvKBaogsUxA&oe=643BAA6F");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  }
+
+  .main-img h1 {
+  font-size: 65px;
+  font-weight: 100;
+  color: #fff;
+  font-style: normal;
+  }
+
+  /* Container */
+  .container {
+  margin: 0 80px 0 80px;
+  }
+
+  /* Recipe info */
+  .recipe-info {
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+  height: auto;
+  }
+
+  /* Paragraph */
+  .paragraph {
+  font-size: 19px;
+  margin-top: 55px;
+  text-align: justify;
+  }
+
+  /* Igredients title */
+  .ingredients-title {
+  font-size: 25px;
+  margin-top: 55px;
+  }
+
+  /* Ingredient List */
+  .ingredients-list {
+  list-style: none;
+  font-size: 100 px;
+  }
+
+  /* Directions List */
+  .directions-list {
+  list-style: none;
+  font-size: 55 px;
+  }
