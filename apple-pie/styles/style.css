@@ -20,5 +20,94 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+#apple-image-background {
+ height: auto;
+ width: 21cm;
+}
+
 /* STYLES */
 /* Write your CSS below */
+
+.image {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+.text {
+  display: flex;
+  position: relative;
+  padding-top: 2cm;
+  padding-left: 4cm;
+  padding-right: 4cm;
+  display: block;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+#line {
+  display: block;
+  padding-right: 3cm;
+  padding-left: 3cm; 
+}
+
+#ingredients-word {
+  display: flex;
+  position: relative;
+  padding-left: 3cm;
+  top: 1cm;
+  font-size: 130%;
+  
+}
+
+#directions-word {
+  display: flex;
+ padding-left: 3cm;
+  position: relative;
+  padding-bottom: 2cm;
+  top: 1cm;
+  font-size: 130%;
+}
+.Ingredients-list {
+  display: flex;
+  position: relative;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  padding-left: 4cm;
+  display: block;
+  list-style-type:none;
+  line-height: 140%;
+  font-size: 110%;
+}
+
+.how_to_bake_it {
+  display: flex;
+  position: relative;
+  display: block;
+  line-height: 140%;
+  font-size: 110%;
+  padding-left: 4cm;
+  padding-bottom: 2cm;
+  padding-right: 4cm;
+}
+
+#icon {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
