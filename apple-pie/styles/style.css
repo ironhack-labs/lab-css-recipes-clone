@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  margin: 100px;
+  
 }
 
 *, *:before, *:after {
@@ -23,10 +23,14 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
-.Ingredients{
-  display: flex;
-  justify-content: flex-start;
+.Ingredients {
+ margin-top: 2em;
  
+ 
+}
+
+.Ingredients > ul{
+  list-style: none;
 }
 
 img{
@@ -34,12 +38,35 @@ img{
 }
 
 .Subtitle{
-  display: flex;
-  justify-content: flex-start;
-  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2em;
  
 }
 .Title{
   color: white;
-  
+  position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-image: url("../images/apple-pie.jpg");
+    height: 1000px;
+    background-position: center;
+    background-size: auto;
+    font-size: 50px;
+}
+.Centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container{
+  margin: 3em 5em;
+}
+.receiptDescription{
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.imageBorder{
+  width: 35%;
 }
