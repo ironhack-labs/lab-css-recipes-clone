@@ -17,47 +17,42 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 /* STYLES */
 /* Write your CSS below */
-header {
-  background-image: url("../images/apple-pie.jpg");
-  background-size: 50%;
-
+body {
+  font-family: "Roboto", sans-serif;
 }
 h1 { 
-  font: 120px Roboto, sans-serif;
-  font-weight: 300;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100%;
+  font-size: 80px;
+  font-weight: 350;
   text-align: center;
-  border: 1px solid red;
-}
-body {
-    font-family: "Roboto", sans-serif;
+  width: auto;
+  height: max-content;
+  padding: 130px;
+  color: white;
 }
 
 section{
-  padding: 0 150px;
+  padding: 100px;
   }
 article{
     text-align: justify;
-    font: 30px roboto, sans-serif;
-    font-weight: 200;
+    font: 20px roboto, sans-serif;
+    font-weight: 100;
 }
-h2{
-  font: 30px roboto, sans-serif;
-  font-style: 500;
+.image1 {
+  width: 300px;
+}
+
+.subtitulo{
+  font: 20px roboto, sans-serif;
+  font-style: 100;
+  padding-left: 30px;
   
   }
-ul.lines {
+.lista {
   text-align: justify;
-  font: 30px roboto, sans-serif;
-  font-weight: 200;
+  font: 20px roboto, sans-serif;
+  font-weight: 100;
   list-style: none
-}
-h3{
-  font: 30px roboto, sans-serif;
-  font-style: 500;
-}
-ul.numbers {
-  text-align: justify;
-  font: 30px roboto, sans-serif;
-  font-weight: 200;
-  list-style: none;
 }
