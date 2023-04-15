@@ -37,23 +37,43 @@ h1{
   padding: 300px;
 }
 
+.containerPage {
+  width: 80%;
+  margin: auto;
+}
+
 p {
   text-align: center;
-  width: 60%;
-  margin: 50px;
-  font-size: larger;
+  font-size: 16px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.containerImg {
+    border-bottom: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-#cookingInfo {
-  width: 30%;
+#cookingInfo, #recipeInfo {
+  width: 40%;
+  padding: 40px;
+
 }
 
-#recipeInfo {
-  width: 30%;
+h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1.3em;
+}
+
+ul {
+  list-style: none;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.directions>p {
+  text-align: left;
+  font-size: 16px;
 }
