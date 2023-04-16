@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +23,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  height: 300px;
+  width: 100%;
+  background: url("../images/apple-pie.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: white;
+  padding-top: 125px;
+  text-align: center;
+}
+
+.section1, .section2, .section3 {
+  padding: 20px 50px;
+}
+
+.section1 p {
+  padding-bottom: 20px;
+}
+
+.recipe {
+  width: 300px;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px
+}
+
+.cooking {
+  width: 270px;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px
+}
+
+h2 {
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+
+ul {
+  padding-bottom: 20px;
+  padding-left: 30px;
+  list-style: '- '
+}
+
+ol {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
