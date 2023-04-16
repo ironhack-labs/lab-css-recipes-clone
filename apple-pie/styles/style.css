@@ -23,6 +23,69 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+.header {
+  height: 600px;
+  width: auto;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  word-spacing: 5px;
+}
+
+
+hr {
+  margin: 0 35px;
+}
+
+
+.info {
+  width:250px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.description {
+  text-align: left;
+  margin: 40px;
+}
+
+.secondary-titles {
+  text-align: left;
+  margin: 35px;
+  font-weight: bold;
+}
+
+.ingredients {
+  text-align: left;
+  margin: 40px;
+}
+
+.directions {
+  text-align: left;
+  margin: 40px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul > li::before {
+  content:  "- ";
+}
+
 ol {
   /* 1. Remove the default list style */  
   list-style: none;
