@@ -32,7 +32,7 @@ nav{
   background-image: url(../images/apple-pie.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-x: center;
+  background-position: center;
   height: 400px;
   display: flex;
 }
