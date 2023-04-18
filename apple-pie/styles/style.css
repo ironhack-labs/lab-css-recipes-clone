@@ -22,3 +22,57 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+main {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 1.5em;
+}
+
+#container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+#apple-pie {
+  height: auto;
+  width: 100%;
+}
+
+#image-text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  color: white;
+}
+
+.info-picture {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+h3 {
+  margin: 30px auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+ul > li:before {
+  content: "-";
+  margin: 5px;
+}
+
+ol {
+  counter-reset: number-list;
+}
+
+ol > li:before {
+  content: counter(number-list) ") ";
+  counter-increment: number-list;
+}
