@@ -22,3 +22,81 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  width: auto;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 90px;
+    word-spacing: 5px;
+    font-weight: lighter;
+}
+
+
+hr {
+  margin: 0 35px;
+}
+
+
+.info {
+  width:auto;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.description {
+  text-align: center;
+  margin: 40px;
+}
+
+.secondary-titles {
+  text-align: left;
+  margin: 35px;
+  font-weight: bold;
+}
+
+.ingredients {
+  text-align: left;
+  margin: 40px;
+}
+
+.directions {
+  text-align: left;
+  margin: 40px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul > li::before {
+  content:  "- ";
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+
