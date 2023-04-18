@@ -24,23 +24,22 @@ body {
 /* Write your CSS below */
 
 .header {
-  height: 600px;
-  width: auto;
   background-image: url(../images/apple-pie.jpg);
-  background-size: 100%;
+  width: auto;
+  height: 600px;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .title {
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 70px;
-  word-spacing: 5px;
+    color: white;
+    font-size: 90px;
+    word-spacing: 5px;
+    font-weight: lighter;
 }
 
 
@@ -50,14 +49,14 @@ hr {
 
 
 .info {
-  width:250px;
+  width:auto;
   height: auto;
   display: block;
   margin: 20px auto;
 }
 
 .description {
-  text-align: left;
+  text-align: center;
   margin: 40px;
 }
 
