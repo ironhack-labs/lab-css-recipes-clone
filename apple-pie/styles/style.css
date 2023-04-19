@@ -22,3 +22,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body {
+  margin: 0; /* Quitamos el margen predeterminado del cuerpo de la página */
+}
+
+/* Centramos todo el contenido y agregamos margen a los lados */
+.header,
+.intro,
+.ingredients,
+.directions {
+  width: 80%; /* Establecemos un ancho del 80% del ancho de la pantalla */
+  max-width: 800px; /* Establecemos un ancho máximo de 1200px */
+  margin: 0 auto; /* Centramos horizontalmente y agregamos margen a los lados */
+  
+  padding: 2rem;
+}
+
+/* Agregamos margen superior e inferior a los títulos */
+.title,
+.ingredients h2,
+.directions h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Agregamos margen inferior a las listas */
+ul,
+ol {
+  margin-bottom: 2rem;
+}
+
+/* Agregamos margen a las imágenes */
+.recipe-image,
+.cooking-image {
+  display: block;
+  max-width: 400px; /* Reducimos el ancho máximo de la imagen a 400px */
+  margin: 4rem auto 2rem; /* Agregamos margen arriba y abajo de 4rem, y margen abajo de 2rem */
+  border-bottom: 2px solid black; /* Agregamos una línea negra debajo de la imagen */
+}
+.header {
+  position: relative; /* Establecemos la posición relativa para la div */
+  height: 100vh; /* Asignamos el 100% del alto de la pantalla a la div */
+}
+
+.title {
+  position: relative; /* Establecemos la posición absoluta para el título */
+  top: 50%; /* Lo movemos al 50% del alto de la div */
+  left: 50%; /* Lo movemos al 50% del ancho de la div */
+  transform: translate(-50%, -50%); /* Lo centramos tanto vertical como horizontalmente */
+  z-index: 1; /* Establecemos un índice de posición para que aparezca encima de la imagen */
+  color: white; /* Establecemos el color del texto en blanco */
+  text-align: center; /* Centramos el texto */
+  font-size: 4em;
+}
+
+.hero-image {
+  position: absolute; /* Establecemos la posición absoluta para la imagen */
+  top: 0; /* La movemos a la parte superior de la div */
+  left: 0; /* La movemos a la izquierda de la div */
+  width: 100%; /* La hacemos ocupar el 100% del ancho de la div */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  z-index: 0; /* Establecemos un índice de posición inferior al del título */
+  margin: 0 auto; /* Le agregamos margen a los lados para que se ajuste a la pantalla */
+}
