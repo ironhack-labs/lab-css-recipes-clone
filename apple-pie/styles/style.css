@@ -26,9 +26,59 @@ h1{
   color: white;
   font-size:70px;
 }
+
+h2 {
+  font-weight:bold;
+}
+
+div.imageContent {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
 #recipeName {
   background-image: url("../images/apple-pie.jpg");
   background-position:center center;
   background-size: cover;
   padding: 200px 150px;
+}
+
+.recipeContent {
+  margin: 25px 120px 25px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+.recipeDescription {
+  padding-top: 50px;
+}
+
+img {
+  width: 350px;
+}
+
+hr {
+  margin: 0px 120px;
+}
+
+li {
+  padding: 6px 0px 6px;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: '-';
+}
+
+ol {
+  list-style-position: inside;
+}
+div > ol,ul{
+  margin-top: 20px;
+  padding-left: 10px;
 }
