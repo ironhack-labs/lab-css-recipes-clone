@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, html, main {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/* STYLES */
+/* Write your CSS below */
+#hero {
+  height: 40rem;
+  background-image: url(/french-soup/images/soup.jpg);
+  display: grid;
+  place-items: center;
+  background-size: 100% auto;
+}
+
+h1 {
+  font-size: 7rem;
+  color: white;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 5rem;
+  font-weight: 500;
+}
+
+.main-content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.horizontal-line {
+  height: 5px;
+  border-top: 2px solid lightgray;
+}
+
+#article-description{
+  font-size: 2rem;
+  margin: 50px auto 20px auto;
+  display: grid;
+  place-items: center;
+}
+
+.figure-ingredients-time{
+  display: grid;
+  place-items: center;
+}
+
+#my-ingredients, #article-ingredients, #directions {
+  font-size: 30px;
+  margin: 30px auto 20px auto;
+  text-align: left;
+}
+
+#ingredients-list, #directions-list {
+  margin: 20px 0px;
+  padding: 0 0 0 25px;
+  text-align: le;
+}
