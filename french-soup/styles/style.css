@@ -7,3 +7,57 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+#description{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 440px;
+  font-weight: lighter;
+}
+
+.onion p{
+  text-align: center;
+  font-size: 25px;
+  padding: 85px 125px;
+  font-weight: lighter;
+}
+
+.recipe{
+  background-image: url(../images/recipe-info.png);
+  height: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 25px;
+}
+
+.ingred ul{
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 40px;
+    list-style: none;
+}
+
+#cooking{
+  background-image: url(../images/cooking-info.png);
+  height: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 60px 0px;
+}
+
+ol{
+  font-size: 20px;
+  padding: 0px 120px 15px 80px;
+  font-weight: lighter;
+}
