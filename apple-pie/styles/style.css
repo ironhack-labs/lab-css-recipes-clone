@@ -42,12 +42,11 @@ h1{
   padding: 85px 125px;
 }
 
-.first-block ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 0px 200px;
-  margin-bottom: 55px;
+.recipe{
+  background-image: url(../images/recipe-info.png);
+  height: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h3{
@@ -63,11 +62,12 @@ h3{
     list-style: none;
 }
 
-table{
-  display: flex;
-  justify-content: space-around;
-  padding: 30px 50px;
-  border-spacing: 15px
+#cooking{
+  background-image: url(../images/cooking-info.png);
+  height: 105px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 60px 0px;
 }
 
 ol{
