@@ -21,4 +21,14 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+h1{
+  text-align: center;
+  color: white;
+  font-size:70px;
+}
+#recipeName {
+  background-image: url("../images/apple-pie.jpg");
+  background-position:center center;
+  background-size: cover;
+  padding: 200px 150px;
+}
