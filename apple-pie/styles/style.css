@@ -21,7 +21,7 @@ body {
 }
 
 /* STYLES */
-h1{
+h1 {
   text-align: center;
   color: white;
   font-size:70px;
@@ -29,6 +29,41 @@ h1{
 
 h2 {
   font-weight:bold;
+}
+
+
+p {
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+
+img {
+  width: 350px;
+}
+
+hr {
+  margin: 0px 120px;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: '-';
+}
+
+ol {
+  list-style-position: inside;
+}
+
+div > ol,ul{
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+
+li {
+  padding: 6px 0px 6px;
 }
 
 div.imageContent {
@@ -48,37 +83,6 @@ div.imageContent {
   margin: 25px 120px 25px;
 }
 
-p {
-  font-size: 20px;
-  text-align: justify;
-
-}
-
 .recipeDescription {
   padding-top: 50px;
-}
-
-img {
-  width: 350px;
-}
-
-hr {
-  margin: 0px 120px;
-}
-
-li {
-  padding: 6px 0px 6px;
-}
-
-ul {
-  list-style-position: inside;
-  list-style-type: '-';
-}
-
-ol {
-  list-style-position: inside;
-}
-div > ol,ul{
-  margin-top: 20px;
-  padding-left: 10px;
 }
