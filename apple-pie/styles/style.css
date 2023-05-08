@@ -46,20 +46,27 @@ ol > li::before {
 /* OTHER */
 /*//////////////////////*/
 
+body {
+  width: 1200px;
+  margin: 0px auto; /* to center child elements */
+}
+
 h1 {
   text-align: center;
   color: white;
-  font-size: 12em;
-  padding: 500px 0px 800px 0px; /* using shorthand property instead of longhand */
+  font-size: 5em;
+  padding: 350px 0px 350px 0px; /* using shorthand property instead of longhand */
   background-origin: padding-box; /* default = padding-box */
   background-image: url("../images/apple-pie.jpg");
   background-size: 100% auto; /* using two-value syntax, first value: width of the image, second value: height */
-  background-position: top -200px left 0px; /* using edge offsets values */
   background-repeat: no-repeat;
+  /* background-position: top -200px left 0px; using edge offsets values */ 
+  margin-top: -100px; /* simpler */
 }
 
 section, hr {
   margin: 50px 200px;
+  font-size: large;
 }
 
 section:has(img) {
@@ -71,16 +78,41 @@ h2 {
   margin-bottom: 50px;
 }
 
+ul, ol {
+  margin: 0 20px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+/*///////////////////////////////*/
+/* LISTS AND ALIGNMENTS MATCHING */
+/*///////////////////////////////*/
+
 ul {
   list-style-type: "-"; /* using <string> value syntax */
-  margin-left: 20px;
+  /* margin-left: 0px; */
+  list-style-position: inside; /* default = outside, using inside to EXACTLT match alignment with the other list items */
 }
 
 ul li {
-  padding-left: 1ch;
+  /* padding-left: 1ch; to control space between list markers and text when list-style-position: outside ; */
 }
 
-ol {
-  margin-left: 15px; /* ??? */
+ul li::marker {
+  /* only certain CSS properties can be used with the ::marker selector (tno padding or margin) */
 }
 
+ul li span {
+  padding-left: 1ch; /* wrapping li elements in span or just use a white space in text */
+}
+
+ol li::before {
+  margin-right: 10px;
+}
+
+/* #intro {
+  text-align: center;
+} */
