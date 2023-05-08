@@ -22,3 +22,78 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.header-container {
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.description-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#inner-text {
+  text-align: justify;
+  
+}
+
+.first-image-container, .second-image-container {
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+
+#first-image, #second-image {
+  width: 250px;
+  height: 50px;
+}
+
+.horizontal-line {
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+
+#ingredients-header {
+  display: block;
+}
+
+/* These are ingredients section */
+
+.ingredients-container {
+  margin-top: 30px;
+  margin-left: 98px;
+}
+
+div ul {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#second-line {
+  margin-top: 5px;
+}
+
+/* These are directions section */
+
+.directions-container {
+  margin-top: 30px;
+  margin-left: 98px;
+  margin-right: 98px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
