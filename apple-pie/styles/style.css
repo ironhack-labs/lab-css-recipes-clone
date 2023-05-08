@@ -22,3 +22,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover; 
+  width: auto;
+  height: 40em;
+}
+
+  #main-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    padding-top: 5em;
+   
+}
+h2 {
+  margin-bottom: 1em;
+}
+
+section{
+  padding-top: 7em;
+  padding-bottom: 7em;
+  padding-left: 7em;
+  padding-right: 7em;
+  text-align: justify;
+
+.image {
+  position: relative;
+  margin-top: 3em;
+  align-items: center;
+  margin-bottom: 3em;
+
+}
+  
+
+
+
+
+
+
+
+
+}
+
+
