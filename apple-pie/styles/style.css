@@ -10,9 +10,10 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -20,5 +21,66 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  }
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width:auto;
+  margin: 48px 24px 48px 24px;
+}
+
+header .hero-text{
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p{
+  margin: 48px 24px 48px 100px;
+  font-size: 16px;
+}
+
+section .introduction{
+  text-align: justify;
+  margin: 48px 24px 48px 260px;
+  align-content: center;
+  justify-content:
+}
+
+section .block{
+  
+}
+
+.subtitle {
+  margin: 48px 24px 48px 100px;
+  font-size: 16px;
+}
+
+.ul-block{
+  margin: 48px 24px 48px 100px;
+  font-size: 16px;
+  list-style: none;
+}
+
+
+
+
+
+
+
+
