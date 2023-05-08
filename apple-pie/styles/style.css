@@ -22,3 +22,19 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h3 {
+  font-weight: 520;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.image-info {
+  text-align: center;
+}
