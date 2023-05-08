@@ -5,13 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   font-weight: lighter;
 }
 
@@ -22,3 +31,74 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.wrapper1 {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.titleText {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 8rem;
+  text-shadow: 5px 5px 12px black;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.intro {
+  margin: 150px 300px 0px 300px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid black;
+  margin: 100px 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.recipeInfoImg {
+  display: block;
+  margin: 100px auto;
+}
+
+.wrapper3,
+.wrapper4 {
+  margin-left: 300px;
+}
+
+.ingredients {
+  text-align: left;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+article {
+  font-size: 2rem;
+}
+
+ol {
+  margin-right: 300px;
+  margin-bottom: 150px;
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
