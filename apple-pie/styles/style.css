@@ -23,7 +23,7 @@ body {
 /* STYLES */
 /* Write your CSS below */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/apple-pie.jpg);
+  background-image: linear-gradient(rgba(55, 55, 55, 0.5), rgba(55, 55, 55, 0.5)),url(../images/apple-pie.jpg);
   background-position: center;
   height: 40em;
   background-size: cover;
@@ -32,7 +32,7 @@ header {
 }
 
   h1 {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     letter-spacing: 1px;
     margin: auto;
@@ -62,6 +62,7 @@ hr {
     list-style-type: "- ";
     margin: 10px;
     line-height: 1.5;
+    word-spacing: 0.1em;
   }
   ol {
     counter-reset: list;
@@ -69,6 +70,7 @@ hr {
   ol > li {
     list-style: none;
     line-height: 1.5;
+    word-spacing: 0.1em;
   }
   ol > li::before {
     content: counter(list) ") ";
