@@ -22,3 +22,33 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  width: auto;
+  height: 40em;
+}
+
+.apple-pie-title {
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding top: 15em;
+  size: 100rem;
+  transform: translate(-50%);
+  color: white;
+}
+ul {
+  margin: 30px;
+}
+ul li::before {
+  content: "-";
+}
+
+ol {
+  margin: 30px;
+}
