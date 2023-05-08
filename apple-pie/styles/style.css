@@ -22,3 +22,76 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+html {
+  background-color: #111111;
+}
+
+body {
+  background-color: white;
+  width : 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg") ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -55px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+div.recipe {
+  margin: 50px 10% 50px 10%;
+}
+
+ul, li {
+  margin-left: 5px;;
+}
+
+li {
+  list-style-type: none;
+  margin: 2px;
+}
+
+section h1 {
+  font-size: larger;
+}
+
+section img {
+  margin: 20px;
+  width: 50%;
+}
+
+/* Introduction */
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+/* Ingredients */
+
+#ingredients img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
