@@ -24,6 +24,7 @@ body {
 /* Write your CSS below */
 
 h1 {
+  font-size: 50px;
   color: white;
   min-height: 100vh;
   background-image: url(../images/apple-pie.jpg);
@@ -35,20 +36,18 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.intro-text {
-  display: inline-block;
-  float: left;
-  text-align: left;
+section {
   margin: 10%;
+  padding: 0;
+  font-weight: lighter;
 }
 
-.intro-text img{
-  width: 70%;
+.image {
+  width: 40%;
   display: block;
   margin: 0 auto;
 }
 
-.line {
-  border-bottom: 10px gray;
+h2 {
+  margin: 30px;
 }
-
