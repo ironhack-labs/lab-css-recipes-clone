@@ -22,3 +22,37 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#hero-text{
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: none;
+    font-size: 24px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+  .hero-image{
+    background-image: url("-/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+      height: 48em;
+      position: relative;
+      width: auto;
+  }
+
+.center-info{
+  justify-content: center;
+
+
+}
+
+.ullist{
+  list-style: none;  
+  list-style-type: "- ";
+ 
+.ollist{
+  list-style: none;
+  counter-increment: listcounter;
+  content: counter(listcounter) ")";
+  }
+
+}
