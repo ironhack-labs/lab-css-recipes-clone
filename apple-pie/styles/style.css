@@ -48,13 +48,28 @@ p {
 
 .text {
   line-height: 1.5;
-  letter-spacing: 2;
+  letter-spacing: 0.4px;
 }
 
 .introduction {
   text-align: center;
 }
 
-.image-info {
+.image-section {
   text-align: center;
+}
+
+.image-info {
+  margin: 20px 0;
+  width: 400px;
+}
+
+.line {
+  border-bottom: 2px solid rgb(125, 125, 125);
+  display: block;
+  margin: 0 60px;
+}
+
+.list-section {
+  margin-top: 50px;
 }
