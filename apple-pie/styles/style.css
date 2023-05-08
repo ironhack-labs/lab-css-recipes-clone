@@ -32,7 +32,7 @@ body {
 }
 
   .hero-image{
-    background-image: url("-/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     background-size: cover;
       height: 48em;
       position: relative;
@@ -41,18 +41,16 @@ body {
 
 .center-info{
   justify-content: center;
-
-
 }
 
 .ullist{
   list-style: none;  
   list-style-type: "- ";
- 
+}
+
 .ollist{
   list-style: none;
   counter-increment: listcounter;
   content: counter(listcounter) ")";
   }
 
-}
