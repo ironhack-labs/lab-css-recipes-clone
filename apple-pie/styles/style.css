@@ -95,3 +95,21 @@ section img {
   margin-right: auto;
   width: 50%;
 }
+
+ul.list-ingredients > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+/* Directions */
+ol.list-directions {
+  counter-reset: listcounter;
+}
+
+ol.list-directions > li {
+  counter-increment: listcounter;
+}
+
+ol.list-directions > li:before {
+  content: counter(listcounter) ") ";
+}
