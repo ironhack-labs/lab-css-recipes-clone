@@ -22,3 +22,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/*//////////////////////*/
+/* STYLING ORDERED LIST */
+/*//////////////////////*/
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+/*//////////////////////*/
+/* OTHER */
+/*//////////////////////*/
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 12em;
+  padding: 500px 0px 800px 0px; /* using shorthand property instead of longhand */
+  background-origin: padding-box; /* default = padding-box */
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% auto; /* using two-value syntax, first value: width of the image, second value: height */
+  background-position: top -200px left 0px; /* using edge offsets values */
+  background-repeat: no-repeat;
+}
+
+section, hr {
+  margin: 50px 200px;
+}
+
+section:has(img) {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: "-"; /* using <string> value syntax */
+  margin-left: 20px;
+}
+
+ul li {
+  padding-left: 1ch;
+}
+
+ol {
+  margin-left: 15px; /* ??? */
+}
+
