@@ -23,6 +23,71 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+
 h1 {
-font-size: 16px; // this is just a test
+  color: white;
 }
+
+h2 {
+  margin: 40px;
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid lightgray;
+}
+
+ul {
+  margin: 60px;
+  list-style-type: "- ";
+}
+
+ol {
+  margin: 60px;
+  list-style: none;
+  }
+
+  ol > li {
+  counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+p {
+  margin: 60px;
+  font-size: 1.2em;
+}
+
+header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  width: auto;
+  height: 40em;
+}
+
+
+/* Classes */
+
+.instructions {
+  width: 800px;
+  margin: auto
+}
+
+.Instruction-Images {
+  display: grid;
+  place-items: center;
+}
+
+/* IDs */
+
+#text-overlay {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 8em;
+  padding-top: 2em;
+}
+
+
