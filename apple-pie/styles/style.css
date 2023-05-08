@@ -23,9 +23,9 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-/*//////////////////////*/
+/* ////////////////////////////////////////////////// */
 /* STYLING ORDERED LIST */
-/*//////////////////////*/
+/* ////////////////////////////////////////////////// */
 
 ol {
   /* 1. Remove the default list style */  
@@ -42,9 +42,10 @@ ol > li::before {
   content: counter(listcounter) ")";
 }
 
-/*//////////////////////*/
+
+/* ////////////////////////////////////////////////// */
 /* OTHER */
-/*//////////////////////*/
+/* ////////////////////////////////////////////////// */
 
 body {
   width: 1200px;
@@ -69,8 +70,18 @@ section, hr {
   font-size: large;
 }
 
-section:has(img) {
+/* section:has(img) { using the relational pseudo-class (not working with Firefox as per MDN)
   text-align: center;
+} */
+
+img {
+  width: 50%;
+  height: auto;
+
+  /* alternative way to center images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -82,14 +93,9 @@ ul, ol {
   margin: 0 20px;
 }
 
-img {
-  width: 50%;
-  height: auto;
-}
-
-/*///////////////////////////////*/
+/* ////////////////////////////////////////////////// */
 /* LISTS AND ALIGNMENTS MATCHING */
-/*///////////////////////////////*/
+/* ////////////////////////////////////////////////// */
 
 ul {
   list-style-type: "-"; /* using <string> value syntax */
