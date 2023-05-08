@@ -22,3 +22,82 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ELEMENTS */
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  counter-increment: listcounter;
+
+}
+
+ul > li::before {
+  content: "-";
+
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+
+/* CLASSES */
+
+.container1 {
+  position: relative;
+  text-align: center;
+  height: 700px;
+}
+
+.container2 {
+  box-sizing: content-box;
+  margin: 10px 80px 10px 80px;
+  padding: 20px 80px 20px 80px;
+  text-align: center;
+  max-width: 70%;
+}
+
+.container3 {
+  box-sizing: content-box;
+  margin: 10px 80px 10px 80px;
+  padding: 20px 80px 20px 80px;
+  max-width: 70%;
+}
+
+.header-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 100%;
+}
+
+.header-title {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.other-image {  
+  height: 70px;
+  width: auto;
+}
