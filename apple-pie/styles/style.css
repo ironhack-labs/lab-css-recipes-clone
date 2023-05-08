@@ -19,6 +19,81 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
-
 /* STYLES */
 /* Write your CSS below */
+
+.padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+header img {
+  padding: 0;
+  padding-bottom: 40px;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+.text-position {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+h2 {
+  padding-left: 20px;
+  padding-top: 25px;
+  border-top: #000000 solid;
+  border-top-width: 1px;
+  
+}
+
+.recipe {
+  padding: 20px;
+  text-align: left;
+}
+.recipe p {
+  line-height: 25px;
+}
+.recipe div {
+  text-align: center;
+}
+.recipe div img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.ingredients {
+  text-align: center;
+  padding: 20px;
+}
+.ingredients img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.ingredients ul {
+  text-align: left;
+  padding-left: 20px;
+  list-style: none;
+  line-height: 25px;
+}
+
+.directions {
+  padding: 20px;
+}
+.directions ol {
+  padding-left: 20px;
+  list-style: none;
+  line-height: 25px;
+}
+
+
+
+
