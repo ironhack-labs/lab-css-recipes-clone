@@ -30,8 +30,13 @@ h1 {
   color: #ffffff;
 }
 
-header {
+.header {
   background-image: url("D:\gabriela\ironhack\module1\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
 }
 
 div {
@@ -51,7 +56,7 @@ p {
   letter-spacing: 0.4px;
 }
 
-.introduction {
+#introduction {
   text-align: center;
 }
 
