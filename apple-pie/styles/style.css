@@ -31,6 +31,48 @@ header {
   height: 40em;
 }
 
+.subtitles {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.introduction {
+ display: block;
+ text-align: center;
+ width: 700px;
+ margin:auto;
+ padding-top: 50px;
+}
+
+.ingredients{
+display: grid;
+ text-align: left;
+ width: 700px; ;
+ padding-top: 50px
+}
+
+.recipe {
+ text-align: left;
+ width: 700px;
+ padding-top: 50px;
+ padding-left: 30px;
+}
+.cook-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  
+
+}
+
+.lines {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .apple-pie-title {
   text-align: center;
   font-size: larger;
