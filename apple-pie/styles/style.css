@@ -59,32 +59,41 @@ p {
 .section2 {
 
   line-height: 0.2;
-   
+}
+
+
+h2 {
+  font-size: 19px;
+  text-align: left;
+  }
+
+ul li {
+  list-style-type: "-";
+  line-height: 1.2;
+text-indent: 3%;
 }
 
 ol {
 list-style: none;
-text-indent: 3%;
-text-align: justify;
+
 }
 
 ol li {
   counter-increment: listcounter;
-
+  margin: 5px;
+  line-height: 1;
 }
+
 
 ol > li::before {
   content: counter(listcounter) ")";
 }
 
- h2 {
-  font-size: 19px;
-  text-align: left;
-  }
+
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 35%;
 } 
