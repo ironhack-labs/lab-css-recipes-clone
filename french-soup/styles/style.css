@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header{
+  background-image: url(/images/soup.jpg);
+  width: auto;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header h1{
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description{
+  text-align: center;
+  height: 230px;
+
+}
+.description p{
+  margin:2em 4em 2em 4em  ;
+  font-size: 30px;
+}
+
+hr{
+  text-align: center;
+  width: 80%;
+}
+
+.container{
+  height: 35em;
+  margin-left: 8em;
+  margin-top: 3em;
+}
+.container img{
+  margin-top: 2em;
+  position: relative;
+  right: 25%;
+  left: 25%;
+}
+.container h2{
+  font-size: 40px;
+}
+.ingredient li{
+    list-style-type: "-  ";
+    line-height: 1.4em;
+    font-size: 22px;
+}
+
+.container img{
+  text-align: center;
+}
+.direction li{
+  list-style: none;
+  font-size: 30px;
+  line-height: 1.5em;
+  margin-right: 3.8em;
+}
+.direction > li{
+   counter-increment: listcounter;
+}
+.direction li::before{
+  content: counter(listcounter) ")";
+}
