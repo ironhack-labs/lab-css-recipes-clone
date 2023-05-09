@@ -112,7 +112,7 @@ ul li::marker {
 }
 
 ul li span {
-  padding-left: 1ch; /* wrapping li elements in span or just use a white space in text */
+  padding-left: 1ch; /* wrapping li elements in span or just use a white space in text (and no reason to use a vertical unit like em here) */
 }
 
 ol li::before {
