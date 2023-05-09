@@ -20,5 +20,34 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+div {
+  width: 500px;
+  margin: 0 auto;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+p {
+  text-align: center; /* Center align all p elements */
+}
+
+h2 {
+  text-align: center; /* Center align all h2 elements */
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
