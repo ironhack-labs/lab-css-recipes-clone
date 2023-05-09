@@ -63,6 +63,7 @@ h1 {
   background-repeat: no-repeat;
   /* background-position: top -200px left 0px; using edge offsets values */ 
   margin-top: -100px; /* simpler */
+  /* background-size: cover; */
 }
 
 section, hr {
@@ -96,6 +97,8 @@ ul, ol {
 /* ////////////////////////////////////////////////// */
 /* LISTS AND ALIGNMENTS MATCHING */
 /* ////////////////////////////////////////////////// */
+
+/* CTRL+/ or ALT+SHIFT+A */
 
 ul {
   list-style-type: "-"; /* using <string> value syntax */
