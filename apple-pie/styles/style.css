@@ -22,3 +22,105 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ////////////////////////////////////////////////// */
+/* STYLING ORDERED LIST */
+/* ////////////////////////////////////////////////// */
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+/* ////////////////////////////////////////////////// */
+/* OTHER */
+/* ////////////////////////////////////////////////// */
+
+body {
+  width: 1200px;
+  margin: 0px auto; /* to center child elements */
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  padding: 350px 0px 350px 0px; /* using shorthand property instead of longhand */
+  background-origin: padding-box; /* default = padding-box */
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% auto; /* using two-value syntax, first value: width of the image, second value: height */
+  background-repeat: no-repeat;
+  /* background-position: top -200px left 0px; using edge offsets values */ 
+  margin-top: -100px; /* simpler */
+  /* background-size: cover; */
+}
+
+section, hr {
+  margin: 50px 200px;
+  font-size: large;
+}
+
+/* section:has(img) { using the relational pseudo-class (not working with Firefox as per MDN)
+  text-align: center;
+} */
+
+img {
+  width: 50%;
+  height: auto;
+
+  /* alternative way to center images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+ul, ol {
+  margin: 0 20px;
+}
+
+/* ////////////////////////////////////////////////// */
+/* LISTS AND ALIGNMENTS MATCHING */
+/* ////////////////////////////////////////////////// */
+
+/* CTRL+/ or ALT+SHIFT+A */
+
+ul {
+  list-style-type: "-"; /* using <string> value syntax */
+  /* margin-left: 0px; */
+  list-style-position: inside; /* default = outside, using inside to EXACTLT match alignment with the other list items */
+}
+
+ul li {
+  /* padding-left: 1ch; to control space between list markers and text when list-style-position: outside ; */
+}
+
+ul li::marker {
+  /* only certain CSS properties can be used with the ::marker selector (tno padding or margin) */
+}
+
+ul li span {
+  padding-left: 1ch; /* wrapping li elements in span or just use a white space in text (and no reason to use a vertical unit like em here) */
+}
+
+ol li::before {
+  margin-right: 10px;
+}
+
+/* #intro {
+  text-align: center;
+} */
