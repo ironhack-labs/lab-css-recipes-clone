@@ -1,24 +1,69 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+head {
+  display: none;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  font: 400 130%/1.5 Helvetica, sans-serif;
+  padding-bottom: 5em;
+   font-weight: lighter;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 300%;
+  background: url(../images/apple-pie.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+.container {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+hr {
+  width: 70%;
+}
+header p {
+  margin-top: 2.5em;
+ }
+header img {
+  height: 4em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+ol {
+  list-style: none;
 }
 
-/* STYLES */
-/* Write your CSS below */
+ol > li {
+  counter-increment: listcounter;
+  counter-incre;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+ul {
+  list-style: none;
+}
+
+
+ul > li::before {
+  content:  "-";
+}
+section img {
+  margin-right: auto;
+  margin-left: auto;
+  height: 5em;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em
+}
+
