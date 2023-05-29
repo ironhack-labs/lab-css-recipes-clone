@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  
 }
 
 *, *:before, *:after {
@@ -18,7 +19,40 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+.applePie{
+  background-image: url("../images/apple-pie.jpg");
+  height: 400px;
+  
+
+}
+.applePieText{
+  color:white;
+  font-size:5em;
+  padding:150px;
+  font-weight:bold;
+  text-align:center;
+}
+
+hr{
+  width:75%;
+}
+
+section{
+  padding: 10px 400px 10px 400px;
+  text-align:left;
+}
+
+h2{
+  font-weight:bold;
+  padding: 30px 0 0 350px; 
+  align-items:flex-start;
+}
+.images{
+  width:20%;
+  margin:0 0 0 40%
+  
+}
