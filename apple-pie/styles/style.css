@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -12,13 +13,97 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
 /*  Set the font */
+html,
 body {
-  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  height: 100%
+}
+body {
+  margin: 0px;
+ padding: 0px;
+ font-family: Roboto;
+ font-size: 15px;
+ line-height: 1.5em;
+ font-weight: 300;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h1 {
+font-size: 3em;
+text-align: center;
+margin: 0;
+font-weight: 400;
+color: RGB(255, 255, 255);
+margin: auto;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: auto;
+}
+
+.header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin: 120px 250px 200px;
+  font-size: 30px;
+  color: #393939;
+  line-height: 40px;
+  padding-bottom: 100px;
+}
+
+.introduction {
+width: 1050px;
+margin: auto;
+align-items: center;
+justify-content: center;
+}
+
+.recipe-info {
+  border-bottom: 2px solid #979797;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+   padding-left: 50;
+   margin-left 100;
+}
+
+ul > li:before {
+  content: "–"; /* en dash */
+  position: absolute;
+  margin-left: -1.1em;
+}
+
+div {
+  padding: 20px;
+}
+
+ol {
+  counter-reset: list;
+  display: inline-block;
+
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
