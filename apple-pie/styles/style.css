@@ -1,4 +1,4 @@
-/* CSS RESET - do not remove */
+/* / CSS RESET - do not remove / */
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
@@ -13,12 +13,57 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+
 }
 
-/*  Set the font */
+
+.headerclass {
+  background-image: url(/images/apple-pie.jpg);
+  margin: 0 0% 50px 0%;
+  padding: 300px 0 300px 0;
+
+
+  }
+
+.headerclass h1 {
+text-align: center;  
+color: white;
+font-size: 85px;
+  }
+
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.Intro {
+  text-align: center;
+  margin: 40px 32% 50px 33%;
+  padding: 0;
+  color: grey;
+}
+
+.Intro img {
+  border-bottom: 2px solid grey;
+}
+
+.Ingredient {
+  text-align: left;
+  margin: 40px 0% 50px 34%;
+  padding: 0;
+  color: grey;
+}
+
+.Ingredient img {
+  border-bottom: 2px solid grey;
+}
+
+.Direction {
+  text-align: left;
+  margin: 40px 32% 50px 33%;
+  padding: 0;
+  color: grey;
+}
+
+
+
+
