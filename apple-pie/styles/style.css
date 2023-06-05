@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  
 }
 
 *, *:before, *:after {
@@ -10,8 +11,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 40px;
+  padding: 40px;
   font-weight: lighter;
 }
 
@@ -19,6 +20,76 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+/* Foto y texto*/
+.photo {
+  position:relative;
+  text-align: center;
+  margin-top: -100px;
+  
+}
+.encabezado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 80px;
+}
+/* Enunciado pie de foto*/
+.enunciado {
+  height: 200px;
+  margin: 2rem auto;
+  text-align:center;
+  width:1050px;
+  font-size: 25px;
+  margin-top: -40px;
+  
+}
+/*Foto Información Nutricional*/
+.recipe{
+  text-align: center;
+  margin-top: -100px;
+}
 
-/* STYLES */
-/* Write your CSS below */
+/*Lista de Ingredientes*/
+.Ingredients {
+  padding-left: 510px;
+  margin-top: -60px;
+  
+}
+
+ul {
+  font-size: 23px;
+  padding-bottom:-300px;
+  margin-top: -100px;
+ 
+}
+/* Foto Tiempos de Cocción*/
+.cooking {
+  text-align: center;
+  margin-top:-40px;
+}
+
+/*Directions*/
+.directions {
+  padding-left: 510px;
+  margin-top: -60px;
+}
+
+
+
+/*list counter*/
+ol {
+  height: 100px;
+  margin-top:-100px ;
+  margin-bottom: 250px;
+  width:1000px;
+  font-size: 23px;
+  list-style: none;
+}
+ol > li {
+    counter-increment: listcounter;
+}
+ol > li::before {
+   content: counter(listcounter) ")";
+}
