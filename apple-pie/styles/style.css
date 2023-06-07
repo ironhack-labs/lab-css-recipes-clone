@@ -5,6 +5,120 @@ html {
   font-size: 16px;
 }
 
+.ApplePiePhoto {
+  width: 850px;
+  height: 550px;
+}
+
+.containerApplePiePhoto {
+  background-image: url("images/apple-pie.jpg");
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.centeredApplePie {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.tituloApplePie {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  color: white;
+  font-size: 45px;
+}
+
+.containerTextoApplePie{
+  margin-left: 380px;
+  margin-right: 380px;
+  color: grey;
+  margin-top: 50px;
+  
+}
+
+.containerIconsInstruccion1 {
+  background-image: url("../images/recipe-info.png");
+  background-repeat: none;
+  background-image: center;
+  height:50px;
+  width: 200px;
+  display: flex;
+  margin-left: 650px;
+  margin-right: 480px;
+  margin-top: 20px;  
+}
+
+.containerLinea1{
+  border: none;
+  border-top: 1px solid grey; 
+  margin-left: 380px;
+  margin-right: 380px;
+  margin-top: 20px;
+}
+
+.containerIngredients {
+  color: grey;
+  white-space: pre-line;
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+.containerTextoIngredients {
+  color: grey;
+  white-space: normal;
+  margin-left: 420px;
+  margin-right: 380px;
+
+}
+
+.containerIconsInstruccion2 {
+  background-image: url("../images/recipe-info.png");
+  background-repeat: none;
+  background-image: center;
+  height:75px;
+  width: 200px;
+  display: flex;
+  margin-left: 650px;
+  margin-right: 470px;
+  margin-top: 20px;  
+}
+
+.containerLinea2 {
+  border: none;
+  border-top: 1px solid grey; 
+  margin-left: 380px;
+  margin-right: 380px;
+  margin-top: 20px;
+}
+
+.containerTextoDirection {
+  color: grey;
+  white-space: pre-line;
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+.containerTextoReceta {
+  margin-left: 390px;
+  margin-right: 390px;
+  margin-bottom: 200px;
+  white-space: normal;
+  color: grey;
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
