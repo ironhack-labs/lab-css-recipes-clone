@@ -30,10 +30,8 @@ header {
   color: white;
   font-size:75px;
   padding: 300px 0;
-  margin-bottom: 70px;
   background-size: 100%;
   text-align: center;
-  max-width: ;
 }
 
 .instruction-image {
@@ -42,7 +40,7 @@ header {
 }
 
 article {
-  padding: 10px 100px;
+  padding: 80px 100px;
   max-width: max-content;
   text-align:justify;
 }
