@@ -34,9 +34,10 @@ body {
 .Img {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
-  height: 600px;
+  height: 500px;
   color: white;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .text-in-img {
@@ -46,6 +47,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 38px;
   color: #fff;
+  padding: 10px;
 }
 
 .flex-container1 {
@@ -80,7 +82,7 @@ body {
   text-align: justify;
   margin: 0 auto;
   padding: 20px;
-  width: 60%;
+  width: 60px;
 }
 
 .default.paragraph.formatting {
