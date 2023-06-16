@@ -18,7 +18,57 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
+}
+.image {
+  text-align: center;
+  font-size: 4em;
+  background-image: url(/Users/suni/Desktop/IronHack/lab-css-recipes-clone/apple-pie/styles/apple-pie.jpg);
+  width:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  color:white;
+  padding: 400px 100px 400px 100px;
+  margin: auto;
+}
+article{
+  padding: 100px 200px 100px 200px;
+  font-size: 1.5em;
+  text-align:start;
+}
+img{
+ padding-left: 500px;
+ padding-top: 25px;
+ width: 60%;
+}
+.line-1 {
+  border-top: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+h1{
+  font-weight: bolder;
+}
+.ingre {
+  list-style-type: none;
+  /*use padding to move list item from left to right*/
+  padding-left: 2em;
 }
 
+.ingre li:before {
+  content: "–";
+  position: absolute;
+  /*change margin to move dash around*/
+  margin-left: -1em;
+  
+}
+ul li{
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.3em;
+}
 /* STYLES */
 /* Write your CSS below */
