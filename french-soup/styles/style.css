@@ -7,3 +7,87 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#soup {
+  height: 550px;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+}
+
+#soup-title {
+  color: white;
+  padding-top: 100px;
+  font-size: 4em;
+  font-weight: lighter;
+  padding-top: 200px;
+  text-align: center;
+}
+
+#intro {
+  padding-top: 100px;
+  padding-left: 50px;
+  text-align: center;
+  font-size: 2em;
+  width: 85%;
+}
+
+p {
+  opacity: 0.7;
+}
+
+
+h2 {
+  font-weight: bold;
+  padding-top: 50px;
+  position: relative;
+  left: 60px;
+  opacity: 0.7;
+}
+
+#food {
+  position: relative;
+  left: 60px;
+  line-height: 1.5;
+  list-style: none;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+#food > li{
+  text-indent: -5px;
+}
+
+#food >li::before {
+  content: "-";
+  text-indent: -5px;
+}
+
+div {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+#instructions {
+  position: relative;
+  left: 50px;
+  line-height: 1.5;
+  list-style: none;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+#instructions {
+  width: 90%;
+  list-style: none;
+}
+
+#instructions > li {
+  counter-increment: listcounter;
+}
+
+#instructions > li::before {
+  content: counter(listcounter)  ")";
+}
