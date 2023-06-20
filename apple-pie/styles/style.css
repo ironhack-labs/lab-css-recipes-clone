@@ -22,3 +22,89 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#banner {
+  height: 550px;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  
+}
+
+#banner-title {
+  color: white;
+  font-size: 4em;
+  padding-top: 200px;
+  text-align: center;
+}
+
+
+#intro {
+  text-align: center;
+
+  font-size: 1.5em;
+  padding-top: 40px;
+  font-weight: lighter;
+
+}
+
+
+hr {
+  width: 90%;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 50px;
+  position: relative;
+  left: 50px;
+}
+
+
+
+#stuff {
+  position: relative;
+  left: 50px;
+  line-height: 1.5;
+  list-style: none;
+  font-weight: lighter;
+}
+
+
+#stuff > li{
+  text-indent: -5px;
+  
+}
+
+
+#stuff > li::before {
+  content: "-";
+  text-indent: -5px;
+}
+
+
+div {
+  text-align: center;
+  height: 120px;
+}
+
+#directions {
+  position: relative;
+  left: 50px;
+  line-height: 1.5;
+  list-style: none;
+  font-weight: lighter;
+}
+
+
+#instructions {
+  width: 90%;
+  list-style: none;
+}
+
+#instructions > li {
+  counter-increment: listcounter;
+}
+
+#instructions > li::before {
+  content: counter(listcounter)  ")";
+}
