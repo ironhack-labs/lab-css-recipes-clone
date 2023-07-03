@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 *, *:before, *:after {
