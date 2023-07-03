@@ -22,3 +22,24 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#header {
+  height: 40vh;
+  background: url('./../images/apple-pie.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#title {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+main {
+  width: 80%;
+
+  margin: 20px auto;
+}
