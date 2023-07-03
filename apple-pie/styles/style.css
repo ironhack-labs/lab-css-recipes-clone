@@ -18,12 +18,14 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  line-height: 1.2;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
 #header {
-  height: 50vh;
+  height: 43vh;
   background: url('./../images/apple-pie.jpg');
   background-size: cover;
   position: relative;
@@ -40,18 +42,20 @@ body {
 
 main {
   width: 80%;
-  margin: 60px auto;
+  margin: 50px auto;
 }
 
 #intro-paragraph {
   font-size: 0.9em;
 }
 .page-subtitle{
-  margin: 30px 0;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .recipe-info{
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
   width: 50%;
 }
 
@@ -60,6 +64,11 @@ hr {
 }
 
 ul{
-
+  font-size: 0.75em;
   list-style: none;
+}
+
+#instructions{
+  font-size: 0.75em;
+  margin-left: 5px;
 }
