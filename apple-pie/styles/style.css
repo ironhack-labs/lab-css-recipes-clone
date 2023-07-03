@@ -68,6 +68,18 @@ ul{
   list-style: none;
 }
 
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
 #instructions{
   font-size: 0.75em;
   margin-left: 5px;
