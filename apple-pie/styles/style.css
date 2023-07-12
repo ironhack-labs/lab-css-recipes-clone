@@ -26,57 +26,59 @@ body {
   background-color: white;
 }
 
+/* Style all classes */
+
 .header {
   position: relative;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#header-img {
-  width: 100%;
-}
-
-#title {
-  position: absolute;
-  top: 35%;
-  left: 35%;
-  color: white;
-  font-size: 100px;
-}
-
-.section {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+.intro-section {
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .intro-text {
+  margin: 0px;
   text-align: justify;
-  
 }
 
-.img-box {
-  display: block;
-  margin: 10px auto 50px auto;
-  width: 5
-}
-
-.bar {
-  color: rgb(190, 190, 190);
-  margin: 5%;
-}
-
-.section {
-  margin: 10%;
-}
-.section-title {
+.content-img {
+  text-align: center;
+  margin-bottom: 0;
   margin-top: 5%;
-  margin-bottom: 5%;
-  font-weight: bold;
+}
+
+.section-title {
+  margin: 5% 10%;
 }
 
 .section-text {
-  text-align: justify;
+  margin: 5% 10%;
 }
 
-#list {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
+
+.bar {
+  margin: 10%;
+}
+/* Style all the ID's */
+
+#title {
+  color: white;
+  font-size: 40px;
+}
+
