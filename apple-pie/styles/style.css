@@ -22,3 +22,61 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body {
+  background-color: white;
+}
+
+.header {
+  position: relative;
+}
+
+#header-img {
+  width: 100%;
+}
+
+#title {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  color: white;
+  font-size: 100px;
+}
+
+.section {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intro-text {
+  text-align: justify;
+  
+}
+
+.img-box {
+  display: block;
+  margin: 10px auto 50px auto;
+  width: 5
+}
+
+.bar {
+  color: rgb(190, 190, 190);
+  margin: 5%;
+}
+
+.section {
+  margin: 10%;
+}
+.section-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.section-text {
+  text-align: justify;
+}
+
+#list {
+  list-style-type: none;
+}
