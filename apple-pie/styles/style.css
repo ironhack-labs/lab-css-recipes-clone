@@ -23,20 +23,6 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-/* .recipe-info, .cooking-info{
-  margin-left: 30%;
-}
-
-
-.description {
-  margin: 100px 100px 100px 100px;
-  text-align: justify;
-}
-
-.ingredients {
-  color: aquamarine;
-}
-*/
 #header {
   color: white;
   background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
