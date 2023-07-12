@@ -7,6 +7,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -22,3 +23,79 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background: url(../images/apple-pie.jpg) no-repeat center center/cover;
+  height: 400px;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  size: 70px;    
+  padding: 170px;
+}
+
+.description {
+  line-height: 1.7em;
+  color: #333;
+  font-size: 0.9em;
+  margin: 30px 40px 10px 40px;
+  border-bottom: 1px solid black;  
+}
+.ingredients {
+  margin: 30px 40px 10px 40px;     
+  border-bottom: 1px solid black; 
+}
+.directions {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 17px;
+  padding: 10px 70px 5px 30px;
+  color: #333;
+}
+
+ul {
+  margin: 5px 70px 10px 50px;
+  color: #333;  
+}
+ul li {
+  list-style: none;
+  line-height: 1.5em;
+  font-size: 13px;
+}
+ol {
+  margin: 5px 70px 10px 50px;
+  color: #333;  
+  padding: 5px;
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+  line-height: 1.5em;
+  font-size: 13px; 
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+.recipe-info {
+  margin:0 400px;
+}
+.recipe-info img {
+  height: 70px;
+  margin: 0 auto;
+}
+.cooking-info {
+  margin: 0 450px;  
+  padding: 10 100px;  
+}
+.cooking-info img {
+  height: 80px;
+  margin: auto;
+}
