@@ -5,5 +5,94 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 16px
+}
+
+h1 {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 160%;
+  padding: 550px 0;
+  color: white;
+  text-align: center;
+  font-size: 130px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+p {
+  font-size: 44px;
+  width: 1600x;
+  padding: 100px 200px;
+  margin-top: -100px
+}
+
+.recipe-info,
+.cooking-info {
+  background-repeat: no-repeat;
+  background-size: 750px;
+  height: 170px;
+  width: 60%;
+  margin-left: 600px;
+}
+
+.recipe-info {
+  background-image: url(/french-soup/images/recipe-info.png);
+}
+
+.cooking-info {
+  background-image: url(/french-soup/images/cooking-info.png);
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 60px;;
+}
+
+.ingredients,
+.directions {
+  margin-left: 200px;
+  margin-right: 200px;
+  border-top: 1px solid black;
+  padding-top: 60px;
+}
+
+.ingredients {
+  font-size: 25px;
+  margin-bottom: 100px
+}
+
+.directions {
+  margin-top: 20px;
+}
+
+.unordered-list {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+ul li{
+  list-style: none;
+  position: relative
+}
+
+ul li:before {
+  content: '-';
+  position: absolute;
+  left: -25px;
+}
+
+.directions {
+margin-top: 20px;
+}
+
+.ordered-list {
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: 170px;
+  font-size: 35px;
+  list-style: none;
+  line-height: 50px;
 }
