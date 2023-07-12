@@ -22,3 +22,50 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#header {
+  color: white;
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  padding: 500px 500px 500px 500px;
+  text-align: center;
+  font-size: 150px;
+}
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style: none;
+
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+
+section{
+  margin: 50px 100px 20px 100px;
+
+}
+.directions {
+  margin-bottom: 50px;
+}
+hr{
+  margin: 0px 100px 0px 100px;;
+}
+.info-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.section-content {
+  margin-left: 20px;
+}
+.section-title {
+  margin-bottom: 20px;
+}
