@@ -57,3 +57,36 @@ img {
 }
 
 /*-------Description product------*/
+
+#description{
+  padding: 70px 120px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about img{
+  width: 450px;
+  padding-bottom: 20px;
+}
+
+hr{
+  border-top: 2px solid rgba(0, 0, 0, 0.447);
+}
+
+.ingredients{
+  padding: 40px 0;
+}
+
+.ingredients p{
+  margin: 20px 0px 20px 10px;
+}
+
+.ingredients img{
+  display: flex;
+  align-content: center;
+  width: 300px;
+}
