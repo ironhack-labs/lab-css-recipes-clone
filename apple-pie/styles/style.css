@@ -21,4 +21,49 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+h1 { 
+  background-image: url("apple-pie.jpg");
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+.image {
+  background-image: url("apple-pie.jpg");
+  height: 250px;}
+
+.header {
+  padding-top: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: center;}
+
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    border-top: 1px dashed #000;
+  }
+  
+
+  
+
