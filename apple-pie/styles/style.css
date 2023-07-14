@@ -50,7 +50,7 @@ h1 {
   color: #FFF;   
 }
 
-img {
+.home img {
  display: block;
  max-width: 100%;
  height: auto;
@@ -69,8 +69,9 @@ img {
 }
 
 .about img{
-  width: 450px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 50%;
 }
 
 hr{
@@ -78,15 +79,18 @@ hr{
 }
 
 .ingredients{
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .ingredients p{
   margin: 20px 0px 20px 10px;
 }
 
-.ingredients img{
+.img-ingredients{
   display: flex;
-  align-content: center;
-  width: 300px;
+  justify-content: center;
+}
+
+.img-ingredients img{
+  width: 35%;
 }
