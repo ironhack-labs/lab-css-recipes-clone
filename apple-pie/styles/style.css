@@ -22,3 +22,92 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/*-------Main picture------*/
+
+.home {
+  position: relative;
+  display: inline-block;
+}
+
+.text-home {
+  position: absolute;
+  height: 100%;
+  text-align: center;    
+  width: 100%;
+}
+
+.text-home:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 100px;
+  color: #FFF;   
+}
+
+.home img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+/*-------Ingredients Section------*/
+
+#description{
+  padding: 70px 120px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about img{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 40%;
+}
+
+hr{
+  border-top: 2px solid rgba(0, 0, 0, 0.447);
+}
+
+.ingredients,
+.directions{
+  padding: 30px 0;
+}
+
+.ingredients p{
+  margin: 20px 0px 10px 10px;
+}
+
+.img-ingredients{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img-ingredients img{
+  width: 30%;
+}
+
+/*-------Direction Section------*/
+
+.steps{
+  margin: 20px 0px 20px 10px;
+  list-style: none;
+}
+
+.steps > li {
+  counter-increment: listcounter;
+}
+
+.steps > li::before {
+  content: counter(listcounter) ")";
+}
