@@ -1,9 +1,76 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+  /*Some necessary adjustments*/
+body, html, main {
   margin: 0;
 }
+.main-container{
+ /* position: relative; */
+ margin: 0%;
+ position: absolute;
+ top: -400px;
+}
+
+.main-container img{
+  max-width: 100%;
+  /* position: relative; */
+  /* top: -400px; */
+}
+
+
+.main-title {
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: fit-content;
+  position: relative;
+  bottom: 450px;
+  left: 350px;
+}
+
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.intro-section{
+  position: relative;
+  max-width: 70%;
+  top: 1000px;
+  left: 250px;
+}
+
+.intro-section p {
+text-align: justify;
+margin: auto;
+margin-top: -50px;
+font-size: 1.6em;
+margin-bottom: 10px;
+}
+
+.img-section{
+  position: relative;
+  top: 10px;
+  left: 200px;
+  margin-bottom: 70px;
+}
+
+.section-subtitle{
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.intro-section ul{
+  list-style:none;
+  margin-bottom: 50px;
+}
+
+.bottom-section{
+  height: 1000px;
 }
