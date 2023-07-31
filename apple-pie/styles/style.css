@@ -22,3 +22,34 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body{
+  background-color: rgb(20, 20, 20);
+  margin: 0 880px;
+}
+header{
+  text-align: center;
+  color: aliceblue;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: 880px;
+  padding: 15rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+ 
+}
+
+ 
+.recipe-content{
+
+  background-color: #ffffff;
+  padding: 3rem;
+  
+
+}
+
+.recipe-content img{
+
+  text-align: center;
+  max-height: 50px;
+  width: auto;
+}
