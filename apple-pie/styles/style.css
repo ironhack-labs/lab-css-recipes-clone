@@ -18,7 +18,52 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* STYLES */
 /* Write your CSS below */
+header{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center; 
+  position: relative;
+}
+
+header #logo{
+  max-width: 1000px;
+  height: auto;
+  margin: 0;
+}
+
+header #header-text{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  font-size: 100px;
+}
+
+main{
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+.info-pic{
+  height: 50px;
+  width: 320px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.title-div{
+  text-align: left;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+ul > li, ol > li{
+  text-align: left;
+  line-height: 20px;
+}

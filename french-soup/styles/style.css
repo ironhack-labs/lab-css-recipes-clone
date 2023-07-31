@@ -7,3 +7,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body{
+  width: 100%;
+  min-height: 100vh; 
+}
+
+header #logo-img{
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+header{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center; 
+  position: relative;
+}
+
+header #header-text{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  font-size: 50px;
+}
+
+main{
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+.info-pic{
+  height: 50px;
+  width: 320px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.title-div{
+  text-align: left;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+ul > li, ol > li{
+  text-align: left;
+  line-height: 25px;
+}
