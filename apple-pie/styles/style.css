@@ -22,7 +22,7 @@ p,
 ol,
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   font-weight: lighter;
   height: 100%;
 }
@@ -39,16 +39,20 @@ body {
 p {
   text-align: justify;
   margin: 50px;
+  word-wrap: break-word;
+
 }
 
 h1 {
   color: white;
   text-align: center;
   font-size: 60px;
+  margin-top: 300px;
+  font-size: 100px;
 }
 
 h3 {
-  margin: 50px;
+  margin: 0px 50px;
   border-top: 3px solid grey;
   padding-top: 40px;
 }
@@ -57,9 +61,8 @@ h3 {
   background-image: url(/apple-pie/images/apple-pie.jpg);
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height:1000px;
   padding-top: 150px;
-  display: block;
 }
 
 .center {
@@ -77,5 +80,7 @@ img {
 ul,
 ol {
   margin: 50px;
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  word-wrap: break-word;
 }
