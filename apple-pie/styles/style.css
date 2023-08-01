@@ -22,3 +22,13 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#main-header {
+  color: rgb(249, 251, 253);
+  margin: 100px;
+  padding: 250px;
+  font-size: 60px;
+  text-align: center;
+  background-color: black;
+  background-image: url("../images/apple-pie.jpg");
+ }
