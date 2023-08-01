@@ -3,6 +3,10 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
 }
 
 *, *:before, *:after {
@@ -10,15 +14,90 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin:0;
   padding: 0;
   font-weight: lighter;
+  font-size: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
+  
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header { 
+
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 605px;
+  padding-top: 50px;
+  position: relative;
+  }
+  
+
+header > h1{ 
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+section{ 
+ text-align: center;
+ margin-top: 20px;
+ font-size: 15px;
+
+}
+
+div{ 
+ text-align: center;
+ font-size: 16px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.list{
+  text-align: left;
+  list-style-type: none;
+  
+}
+.titles { 
+ margin-top: 20px;
+ margin-bottom: 10px ;
+ text-align: left;
+ font-size: larger;
+
+}
+.intro { 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#cooking-info{ 
+ position: center;
+ max-width: 400px;
+ max-width: auto;
+}
+#recipe-info{
+ position: center;
+ max-width: 400px;
+ max-width: auto;
+}
+.directions{ 
+
+  text-align: left;
+  list-style-type: decimal;
+}
+
+
+
+
+
+
+
