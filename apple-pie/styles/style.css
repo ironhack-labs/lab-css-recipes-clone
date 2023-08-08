@@ -22,3 +22,72 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, head, body {
+  margin: 100px;
+  padding: 100px;
+}
+
+html, body {
+  font-family: "Helvetica", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 10px;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.centered {
+  color: white;
+  font-weight:500;
+  font-size:xx-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-weight:350;
+}
+
+.header {
+  max-width: 100%;
+  padding-top: 10%;
+  position: relative;
+}
+
+#introduction, #ingredients, #directions {
+  padding: 50px;
+}
+
+.center-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.center-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.line{
+  width: 70%;
+  height: 47px; 
+  border-bottom: 1px solid black;
+  position: absolute;
+  }
