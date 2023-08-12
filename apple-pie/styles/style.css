@@ -22,3 +22,44 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header{
+  background-color: blue;
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg); 
+  height: 500px;
+  text-align: center;
+  padding: 200px;
+  color: white;
+  font-size: 70px;
+
+}
+
+p {
+  background-color: white;
+  display: block;
+  width: 70%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  padding: 20px;
+  margin: auto;
+
+}
+
+img {
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  display: block;
+}
+
+
+
+.container {
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
