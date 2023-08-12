@@ -17,8 +17,97 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 100; 
+  color: rgb(104, 102, 102);
 }
 
 /* STYLES */
 /* Write your CSS below */
+h1, h2, h4, h5, h6, p, ol, ul, hr {
+  margin: 0 70px 0 70px;
+  font-size: 1.6em;
+  line-height: 1.5em ;
+}
+
+h3 {
+  margin: 0 70px 0 70px;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg"); 
+  background-position: 100% 35%  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 470px;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+hr {
+  color: grey;
+  height: 2x;
+}
+
+img.visuals  {
+  height: 50px;
+  display: block;
+  margin: 10px auto 20px;
+}
+
+img.prep-img {
+  height: 70px;
+}
+
+/* intro section */
+.intro p {
+  padding: 50px 0 20px 0;
+  font-size: 1.8em;
+}
+
+/* ingredients section */
+.ingredients h3 {
+padding: 30px 0 15px 0;
+}
+
+ul.ingredients {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+ul li {
+padding-left: 5px;
+}
+
+ul>li::before {
+  content: "- ";
+}
+
+/* prep section */
+.prep h3{
+  padding: 30px 0 15px 0;
+}
+
+ol > li {
+  counter-increment: listcounter;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+
+.prep {
+  margin-bottom: 50px;
+}
+
