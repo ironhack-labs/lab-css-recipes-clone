@@ -7,3 +7,119 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+section {
+  width: 80%;
+  margin: 100px auto 100px auto;
+}
+
+.hero-image {
+  height: 100vh;
+  background-image: url('/french-soup/images/soup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight:400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-recipe {
+  margin: 100px auto 100px auto;
+}
+
+.intro-recipe p {
+  font-size: 30px;
+  line-height: 40px;
+  color: #4b4a4a;
+  font-weight: 100;
+}
+
+.recipe-img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+hr {
+  border: 2px solid #4b4a4a7d;
+}
+
+h2 {
+  font-size: 40px;
+  color: #4b4a4a;
+  margin-bottom: 50px;
+}
+
+.ingredients li {
+  font-size: 30px;
+  line-height: 40px;
+  color: #4b4a4a;
+  font-weight: 100;
+  margin-left: 20px;
+  list-style-type: '- ';
+  list-style-position: inside;
+}
+
+.cooking-img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+
+ol {
+  list-style: none;
+  counter-reset: custom-counter;
+  padding-left: 20px; 
+}
+
+.directions li {
+  font-size: 30px;
+  line-height: 35px;
+  color: #4b4a4a;
+  font-weight: 100;
+  margin-left: 30px;
+  list-style-position: inside;
+  position: relative;
+  counter-increment: custom-counter;
+  margin-bottom: 10px; 
+}
+
+.directions li::before {
+  content: counter(custom-counter)") ";
+  position: absolute;
+  left: -35px; 
+}
