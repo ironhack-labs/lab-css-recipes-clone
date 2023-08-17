@@ -36,15 +36,23 @@ h1 {
 }
 
 .css-1 {
-  text-align: center
+  text-align: center;
 }
 
 .recipe {
-  width: 400px
+  width: 400px;
+}
+
+.cooking {
+  width: 350px;
 }
 
 .container {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   align-items: center;
+}
+
+hr {
+  width: 80%;
 }
