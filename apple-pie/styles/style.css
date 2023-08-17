@@ -38,3 +38,13 @@ h1 {
 .css-1 {
   text-align: center
 }
+
+.recipe {
+  width: 400px
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
