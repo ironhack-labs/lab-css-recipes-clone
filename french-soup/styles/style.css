@@ -7,3 +7,14 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+ .box1 {
+  background-color: white;
+   width: 400px;
+   height:500 px;
+   margin-left: 80px;
+ } 
+
+ #title {color: black;
+  text-align: right;
+
+ }
