@@ -1,0 +1,92 @@
+/* first section */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif
+}
+
+/*recipe and preperation img horizontal separator*/
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/*second section*/
+
+/*below three for ingredients list*/
+
+
+
+.custom-ul {
+    list-style-type: none;
+}
+
+.custom-ul li {
+    position: center;
+}
+
+.custom-ul li::before {
+    content: "- ";
+    position: center;
+    left: 0;
+}
+
+/* for img*/
+
+.centered-text {
+    text-align: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centered-text p {
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0 20% 0 20%;
+    padding-bottom: 5px;
+}
+
+
+
+/*it will cover all section*/
+.maneuver {
+    margin: left;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+/*Below three elements for directions part*/
+.custom-ol {
+    list-style: none;
+}
+
+.custom-ol li {
+    counter-increment: list-counter;
+}
+
+.custom-ol li::before {
+    content: counter(list-counter) ") ";
+}
+
+/**/
+
+.center-fix {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
