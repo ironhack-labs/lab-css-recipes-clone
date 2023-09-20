@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,52 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#header-section {
+  height: 700px;
+  background: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-title {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  padding: 300px;
+}
+
+.section{
+  color:rgb(65, 65, 65);
+  padding:90px 120px 50px 120px;
+  font-size:26px;
+}
+
+img{
+  display: block;
+  margin: 40px auto 0 auto;
+  width: 45%;
+}
+
+hr{
+  margin:40px 0px 40px 0px;
+}
+
+.section-list{
+  color:rgb(65, 65, 65);
+  padding:0px 120px 50px 120px;
+  font-size: 26px;
+}
+
+.section-list li{
+  list-style:none;
+}
+
+.section-title{
+  color:black;
+}
+
+.list-content{
+  padding-left:20px;
+  padding-top:50px;
+}
