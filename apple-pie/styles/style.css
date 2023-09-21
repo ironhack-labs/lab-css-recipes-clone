@@ -34,7 +34,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 .Recipe{
 margin-left: 10%;
 margin-right: 10%;
-margin-top: 10%;
+margin-top: 5%;
+margin-bottom: 5%;
 color: black;
 border-bottom: 1px;
 }
@@ -47,15 +48,12 @@ margin-bottom: 100px;
 body {
   font-family: "Helvetica", sans-serif;
 }
-.Primera-imagen{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
+
 
 .imagenes{
-  /* align-content:  center; */
-  width: 400px;
+  
+  width: 600px;
+  margin-top: 20%;
   display: flex;
   margin-left: 20%;
   border-bottom: 1px;
@@ -67,6 +65,9 @@ body {
 
 .margenes{
   margin-left: 5%;
+}
+hr{
+  margin-top: 2%;
 }
 
 /* STYLES */
