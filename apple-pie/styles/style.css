@@ -47,7 +47,8 @@ body {
 
  .recipe {
   width: 350px;
-  margin-left: 200px;
+  margin-left: 40%;
+  margin-right: 60%;
   margin-top: 4%;
  } 
 
@@ -57,13 +58,16 @@ body {
   margin-left: 8%;
   margin-right: 8%;
  } 
+
  ul {
   list-style-type: none;
   margin-left: 15px;
  } 
+ 
  .cooking {
   width: 300px;
-  margin-left: 230px;
+  margin-left: 42.5%;
+  margin-right: 57.5%;
   margin-top: 4%;
  } 
 
