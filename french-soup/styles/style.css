@@ -1,9 +1,178 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/*  Set the font */
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+/* STYLES */
+/* Write your CSS below */
+.w-80 {
+  width: 80%;
+}
+
+.p4-v {
+  padding: 4em 0;
+}
+.p1-l {
+  padding-left: 1em;
+}
+.p06-l {
+  padding-left: 0.6em;
+}
+
+.pos-sticky {
+  position: sticky;
+  position: fixed;
+}
+
+.flex {
+  display: flex;
+}
+.f-column {
+  flex-direction: column;
+}
+.f-hv-center {
+  justify-content: center;
+  align-items: center;
+}
+.f-v-center {
+  align-items: center;
+}
+.f-h-between {
+  justify-content: space-between;
+}
+.g25 {
+  gap: 2.5em;
+}
+
+.border-bottom-grey {
+  border-bottom: 2px solid #a3a3a3;
+}
+h1 {
+  color: #fff;
+
+  /* Below are the properties and its order of appearence for the "font" shorthand: */
+  /*
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: auto;
+  */
+  font: normal normal 500 4.5em / normal Open Sans, sans-serif;
+}
+h2 {
+  font: normal normal 500 2.25em / normal Open Sans, sans-serif;
+}
+
+aside.sections-navigation {
+  right: 1vw;
+  bottom: 25vh;
+  background-color: #a3a3a3;
+  opacity: 0.5;
+  padding: 0.5em;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+aside.sections-navigation:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+aside.sections-navigation p {
+  font-weight: 600;
+}
+aside.sections-navigation ul {
+  list-style: none;
+  font: normal normal 300 1em / 1.5em Open Sans, sans-serif;
+}
+aside.sections-navigation ul li {
+  transition: scale 0.2s ease-in-out;
+}
+aside.sections-navigation ul li:hover {
+  scale: 1.05;
+  transition: scale 0.2s ease-in-out;
+}
+
+section.main-banner {
+  width: 100vw;
+  min-height: 500px;
+  height: 100vh;
+}
+section.main-banner .background-image-container {
+  height: 100%;
+
+  /* Below are the properties and its order of appearence for the "background" shorthand: */
+  /* 
+  background-image: url(./../images/apple-pie.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  */
+  background: url(./../images/soup.jpg) center/cover no-repeat;
+}
+
+section.intro-info p {
+  font: normal normal 300 1.875em / normal Open Sans, sans-serif;
+}
+section.intro-info img {
+  scale: 0.8;
+}
+
+section#ingredients {
+  scroll-margin-top: -0px;
+}
+section.ingredients ul {
+  font: normal normal 300 1.875em / 1.5em Open Sans, sans-serif;
+  list-style: none;
+}
+section.ingredients li::before {
+  content: '-';
+  padding-right: 0.2em;
+}
+section.ingredients img {
+  scale: 0.5;
+}
+
+section.directions ol {
+  counter-reset: list;
+  font: normal normal 300 1.875em / 1.5em Open Sans, sans-serif;
+}
+section.directions ol li {
+  list-style: none;
+}
+section.directions ol li::before {
+  content: counter(list) ') ';
+  counter-increment: list;
 }
