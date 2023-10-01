@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,102 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Header customization */
+
+.recipe-title {
+  margin: 0 auto;
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  text-align: center;
+  padding: 250px 0;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+}
+
+/* Ingredients and Directions title */
+
+h2 {
+  font-weight: 400;
+  padding: 40px 0 30px 0;
+}
+
+/* Intro, Ingredients and Directions Sections */
+
+section {
+  max-width: 80%;
+  margin: auto;
+}
+
+/* Intro Section */
+
+.intro-section {
+  font-size: 1.5em;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.intro-section p {
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+.recipe-info-image {
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+}
+
+/* Ingredients Section */
+
+.ingredients-section {
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.cooking-info-image {
+  display: block;
+  margin: 0 auto;
+  height: 90px;
+}
+
+/* Ingredients and Directions lists */
+
+.list {
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+li {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+/* Lists' Marker customization */
+
+.ingredients-list {
+  list-style-type: '-';
+  list-style-position: outside;
+}
+
+.directions-list li::marker {
+  content: counter(list-item) ')';
+  list-style-position: outside;
+}
+
+/* Bottom padding */
+
+.directions-section {
+  padding-bottom: 30px;
+}
