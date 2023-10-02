@@ -64,18 +64,18 @@ li {
   height: 70px;
 }
 
+/* Recipe Ingredients section */
+
+.recipe-ingredients {
+  border-bottom: solid grey 1.5px;
+}
+
 ul {
   list-style-position: outside;
 }
 
 ul li::marker {
   content: '-';
-}
-
-/* Recipe Ingredients section */
-
-.recipe-ingredients {
-  border-bottom: solid grey 1.5px;
 }
 
 .recipe-ingredients img {
