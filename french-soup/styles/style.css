@@ -1,9 +1,93 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.recipe-title {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+  text-align: center;
+  padding: 300px;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+/* Intro, Ingredients and Directions sections */
+
+section {
+  width: 80%;
+  margin: 50px auto;
+}
+
+/* Recipe and Cooking info images */
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Ingredients and Directions titles */
+
+h2 {
+  font-weight: 400;
+}
+
+/* Bullets line height */
+
+li {
+  line-height: 2;
+  padding-left: 10px;
+}
+
+/* Recipe intro section */
+
+.recipe-intro {
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 2;
+  border-bottom: solid grey 1.5px;
+}
+
+.recipe-intro img {
+  height: 70px;
+}
+
+ul {
+  list-style-position: outside;
+}
+
+ul li::marker {
+  content: '-';
+}
+
+/* Recipe Ingredients section */
+
+.recipe-ingredients {
+  border-bottom: solid grey 1.5px;
+}
+
+.recipe-ingredients img {
+  height: 100px;
+}
+
+/* Recipe Directions section */
+
+ol {
+  list-style-position: outside;
+}
+
+ol li::marker {
+  content: counter(list-item) ')';
 }
