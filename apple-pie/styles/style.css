@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,124 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'calibri', sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ---------Header------------ */
+
+.header {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  max-height: 700px;
+  margin-bottom: 100px;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+}
+
+.header h1 {
+  color: white;
+  position: absolute;
+  top: 48%;
+  left: 41%;
+  transform: translateY(-50%, -50%);
+  font-size: 70px;
+}
+
+/* first text block */
+
+.paragraph1 {
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.paragraph1 p {
+  font-size: 30px;
+}
+
+/* recipe info picture */
+
+.recipe-info {
+  position: relative;
+  text-align: center;
+  max-height: 300px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* ingredients block */
+
+.ingredients-block {
+  text-align: left;
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ingredients-block h2 {
+  font-size: 35px;
+  font-weight: 530;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.ingredients-block ul {
+  list-style-type: none;
+  font-size: 25px;
+  padding-left: 22px;
+  padding-bottom: 50px;
+}
+
+.ingredients-block img {
+  padding-left: 230px;
+}
+
+/* Directions block */
+
+.directions-block {
+  text-align: left;
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.directions-block h2 {
+  font-size: 35px;
+  font-weight: 530;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.directions-block ol {
+  font-size: 25px;
+  list-style: none;
+  counter-reset: custom-counter;
+}
+
+.directions-block ol li {
+  counter-increment: custom-counter;
+}
+
+.directions-block ol li:before {
+  content: counter(custom-counter) ')';
+}
+
+hr {
+  width: calc(100% - 500px);
+  border: 0;
+  height: 2px;
+  background-color: darkgray;
+}
