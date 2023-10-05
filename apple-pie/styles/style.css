@@ -5,20 +5,143 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  margin: 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/*  Set the font */
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.section-style {
+  margin: 50px 200px;
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+/*-------------------------------Cover---------------*/
+
+#cover {
+  height: 950px;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 0 0;
+  position: relative;
+}
+
+#cover h1 {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+/*-----------------Intro------------------------*/
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#intro p {
+  margin: 50px 0px;
+  font-size: 30px;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#intro img {
+  width: 40%;
+}
+
+/*----------------------Ingredients---------------*/
+
+#ingredients {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul.dashed {
+  list-style-type: none;
+  margin: 30px 50px;
+  font-size: 20px;
+}
+
+ul.dashed > li {
+  text-indent: -40px;
+  margin: 0 0 3px 0;
+}
+
+ul.dashed > li:before {
+  content: '-';
+  text-indent: -40px;
+}
+
+#ingredients img {
+  width: 400px;
+  height: 100px;
+  margin-left: 35%;
+  margin-bottom: 30px;
+}
+
+/*---------------Preparation----------------*/
+
+#preparation {
+  border-bottom: none;
+}
+
+#preparation > h2 {
+  margin-bottom: 50px;
+}
+
+#preparation ol > li {
+  font-size: 25px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 20px;
+}
+ol > li {
+  counter-increment: listcounter;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+ol > li:before {
+  content: counter(listcounter) ')';
+}
