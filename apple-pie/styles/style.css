@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 /*  Set the font */
@@ -22,3 +23,47 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.image {
+  background-size: 1920px;
+	background-image: url(https://raw.githubusercontent.com/51V3/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg);
+}
+
+.header {
+	color: white;
+	font-size: 65px;
+	text-align: center;
+  height: 750px;
+  position: relative;
+  font-weight:500
+  bolder: 0px solid black;
+  padding-top: 310px;
+}
+
+p {
+  text-align: center;
+  border: 0px solid black;
+  margin: 50px 100px 20px 100px;
+}
+
+ul{
+  margin: 20px 100px 50px 100px;
+}
+
+h2{
+  margin: 30px 100px 20px 100px;
+  font-weight:500;
+  font-size: 25px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+ }
+ol{margin:0; padding:0; text-decoration:none;}
+ol {list-style-type: none;}
+li:before {content: "" counter(section, decimal) ") ";}
+li { counter-increment: section;}
