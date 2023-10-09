@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 *, *:before, *:after {
@@ -22,3 +24,43 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#first-paragraph {
+  text-align: center;
+  font-size: 22px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
