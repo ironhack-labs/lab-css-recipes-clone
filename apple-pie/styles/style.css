@@ -18,7 +18,103 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#landing{
+  background-image: url("../images/apple-pie.jpg");
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  height: 1000px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+#landing h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.description{
+  padding: 100px;
+  height: 350px;
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom:  solid black;
+  width: 75%;
+}
+
+.ingredients h2{
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 50px;
+}
+
+.ingredients{
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: solid black;
+  width: 75%;
+}
+
+.ingredients ul{
+  width: 1200px;
+  margin: 0 auto;
+  list-style-type:none;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.directions{
+  text-align: center;
+  font-size: 1.5em;
+  margin: 30px;
+  width: 75%;
+}
+
+.directions h2{
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 50px;
+}
+
+.directions ol {
+  counter-reset: list;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+  
+}
+
