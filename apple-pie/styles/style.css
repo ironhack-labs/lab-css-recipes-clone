@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+
 }
 
 /*  Set the font */
@@ -20,5 +21,96 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+
+header{
+  position: relative;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+header h1{
+  font-size: 4rem;
+  color: white;
+  font-family: Helvetica, sans-serif;
+
+
+}
+hr{
+  margin: 0 70px;
+  height: 3px;
+  background-color: rgb(154, 154, 154);
+}
+section{
+  padding: 50px 70px 0px 70px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(94, 91, 91);
+  line-height: 25px;
+}
+
+section ul{
+  font-size:1rem;
+}
+
+h3{
+  font-weight: bolder;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.section-introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-introduction p{
+  width: 100%;
+}
+
+.section-introduction img, .section-ingredients img{
+  width: 320px;
+  padding: 20px 0px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.section-ingredients{
+  display: flex;
+  flex-direction: column;
+}
+
+.section-ingredients ul{
+  margin: 20px 0px 0px 15px;
+}
+
+.section-ingredients ul li{
+  list-style: none
+}
+
+
+.section-ingredients img{
+  align-self: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.section-directions{
+  padding-bottom: 50px;
+}
+.section-directions ul{
+  margin: 20px 0px 0px 15px;
+}
+.section-directions li{
+  list-style: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+
