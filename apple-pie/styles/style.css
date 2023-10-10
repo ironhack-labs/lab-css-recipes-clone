@@ -24,7 +24,7 @@ body {
 /* Write your CSS below */
 
 .container {
-  background: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background: url("/apple-pie/images/apple-pie.jpg");
   background-position: center;
   background-size: cover;
 }
