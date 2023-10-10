@@ -17,8 +17,105 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.section-header {
+  background: url("/apple-pie/images/apple-pie.jpg");
+  height: 485px;
+  margin: 0 auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.section-about {
+  margin: 70px 70px 0px 70px;
+}
+ 
+.about-text{
+font-weight: lighter;
+font-size: 17px;
+}
+
+.about-elements {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-ingredients {
+  margin: 20px 70px 20px 70px;
+  
+}
+
+.ingredients-border {
+  border: 1px solid black;
+}
+
+.ingredients-title {
+  margin-top: 35px;
+  margin-bottom: 23px;
+}
+
+.ingredients-list {
+  margin-bottom: 50px;
+}
+
+.ingredients-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-directions {
+  margin: 20px 70px 20px 70px;
+}
+
+.directions-border {
+  border: 1px solid black;
+  margin: 40px 0px;
+}
+
+.directions-title {
+  margin-bottom: 40px;
+}
+
+.ingredients-ol {
+  margin-bottom: 10px;
+}
+
+.ingredients-ol ::before {
+  /*3. Set the new style for the list markers */
+  content: "-";
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 90px;
+}
+
+.directions-list {
+  font-size: 15px;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
