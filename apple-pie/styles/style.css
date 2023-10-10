@@ -22,3 +22,55 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+    margin-left: 60px;
+}
+
+.header{
+  background-image: url(apple-pie.jpg);
+  height: 500px;  
+}
+
+.applePieImage {
+  color:white;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#paragraph1 {
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 40px;
+  text-align: center;
+  text-align: justify;
+}
+
+.directions {
+  padding: 30px;
+}
+
+
+
+ul {
+  margin-left: 50px;
+  list-style: none;
+}
+
+ol {
+  margin-left: 60px;
+  text-align: center;
+  text-align: justify;
+}
+
+.myName {
+  text-align: center;
+  margin: 30px;
+  zoom: 60%;
+  padding-top: 30px;
+}
+
+.footer {
+  padding-bottom: 100px;
+  padding-right: 40px;
+  width: 70%;
+}
