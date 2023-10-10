@@ -1,5 +1,13 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+head {
+
+  background-image:"images/apple-pie.jpg" height="900px";
+}
+
+
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -22,3 +30,7 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  background-image:"images/apple-pie.jpg"
+}
