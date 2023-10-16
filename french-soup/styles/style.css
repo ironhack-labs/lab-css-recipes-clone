@@ -1,9 +1,84 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+  min-height: 100vh;
+  line-height:  2;
+  
+}
+
+.image-placeholder {
+  background-image: url('/images/soup.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 35vh;
+
+}
+
+.heading {
+  color:  white;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 72px;
+
+}
+
+.text-content {
+  margin: 70px;
+
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-info {
+  width: 500px;
+}
+
+.cooking-info {
+  width: 400px;
+}
+
+
+
+hr {
+  height:2px;
+  border-width:0;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.subheading {
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 20px 10px;
+
+}
+
+p {
+  margin-bottom: 20px;
 }
