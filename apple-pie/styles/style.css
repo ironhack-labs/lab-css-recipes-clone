@@ -19,6 +19,33 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+.head {
+  padding: 50px;
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-position: 0 0;
+  height: 500px;
+}
+h1 {
+  font-size: 8em;
+  color: white;
+  text-align: center;
+}
+h2 {
+  margin: 80px;
+  text-align: left;
+}
 
-/* STYLES */
-/* Write your CSS below */
+.main {
+  margin: 30px;
+  text-align: center;
+}
+.list {
+  margin: 80px;
+}
+.text {
+  text-align: left;
+  margin: 80px;
+}
+ul {
+  list-style-type: none;
+}
