@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h2 {
+  font-size: 6rem;
+  margin: 8rem 0;
+}
+
+hr {
+  border: 3px solid grey;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+#hero-img {
+  height: 100vh;
+  width: 100%;
+}
+
+#hero-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20rem;
+  color: white;
+}
+
+.outer-container {
+  margin: 15rem 30rem;
+}
+
+.outer-container p {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.ingredients-list li:before {
+  content: "- ";
+}
+
+.ingredients {
+  width: 100%;
+}
+
+.directions {
+  width: 100%;
+}
+
+.directions ol {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.img {
+  width: 30vw;
+  display: block;
+  margin: 10rem auto;
+}
