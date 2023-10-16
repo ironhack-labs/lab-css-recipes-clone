@@ -12,7 +12,8 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul, hr {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: medium;
+  color: #4E4E4E;
 }
 
 /*  Set the font */
@@ -25,7 +26,6 @@ body {
 /* General styling */
 
 h2 {
-  color: #4E4E4E;
   font-weight: bold;
   font-size: 2em;
   line-height: 3em;
@@ -33,8 +33,6 @@ h2 {
 }
 
 p, ol, ul {
-  color: #4E4E4E;
-  font-weight: medium;
   font-size: 1.4em;
   line-height: 1.4em;
 }
@@ -46,7 +44,7 @@ hr {
 
 }
 
-.section-padding{
+.section-padding {
   padding: 3em 3em 0 3em;
 }
 
@@ -113,16 +111,14 @@ header h1 {
 }
 
 #cooking-information ol {
-  padding: 0 0 0 1.4em;
   list-style-type: none;
+  padding-left: 1.4em;
   counter-reset: list;
 }
 
-#cooking-information ol li {
-  counter-increment: list;
-}
 
 #cooking-information ol li::before {
   content: counter(list)")";
   margin-right: 0.2em;
+  counter-increment: list;
 }
