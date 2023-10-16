@@ -22,3 +22,61 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.background-header {
+  height : 700px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-header h1 {
+  color: white;
+  text-align: center;
+  padding: 295px 0;
+  font-size: 6em;
+}
+
+.recipe {
+  margin: 0 10%;
+}
+
+.recipe-description {
+  margin: 75px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.recipe-ingredients, .recipe-directions {
+  margin : 50px 0;
+}
+
+.recipe h2 {
+  font-size: 1.5em;
+}
+
+.recipe-ingredients-list, .recipe-directions-list {
+  margin: 30px;
+  line-height: 1.5em;
+}
+
+.recipe-ingredients-list li {
+  list-style:none;
+}
+
+
+.recipe-directions-list ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+.recipe-directions-list ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+.recipe-directions-list ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
