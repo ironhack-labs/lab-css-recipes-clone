@@ -36,11 +36,17 @@ h2 {
 }
 
 .main {
-  margin: 30px;
+  margin: 60px;
   text-align: center;
 }
-.list {
+.listcont {
   margin: 80px;
+}
+.list {
+  list-style-type: none;
+}
+.list li::before {
+  content: "- ";
 }
 .text {
   text-align: left;
