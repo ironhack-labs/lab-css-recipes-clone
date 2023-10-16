@@ -8,7 +8,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+/*  */
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
@@ -19,6 +19,77 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+
+.header{
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px;
+  padding: 180px 0 250px;
+}
+
+.head{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.section2{
+  text-align: left;
+  margin: 5em;
+}
+
+.section1{
+  text-align: left;
+  margin: 5em;
+}
+
+
+
+.head2{
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+
+
+.listbullets{
+  list-style-type: "- ";
+  margin-left: 20px;
+}
+
+.recipe{
+  margin-top: 3em ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 400px;
+  align-items: center;
+}
+
+
+
+.section3{
+  text-align: left;
+  margin: 5em;
+}
+
+.unaltre{
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+hr{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.directionstext{
+  margin-left: 10px;
+}
+
+
 
 /* STYLES */
 /* Write your CSS below */
