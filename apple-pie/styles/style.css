@@ -18,7 +18,83 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  min-height: 100vh;
+  line-height:  2;
+  
 }
 
-/* STYLES */
-/* Write your CSS below */
+.image-placeholder {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 35vh;
+
+}
+
+.heading {
+  color:  white;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 72px;
+
+}
+
+.text-content {
+  margin: 70px;
+
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-info {
+  width: 500px;
+}
+
+.cooking-info {
+  width: 400px;
+}
+
+
+hr {
+  height:2px;
+  border-width:0;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.subheading {
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.list-style {
+  list-style-type: none;
+  margin: 20px 10px;
+
+}
+
+ul.ingredients-list > li:before {
+  content: "- ";
+}
+
+.direction-list {
+  counter-reset: my-counter;
+}
+
+.direction-list li {
+  counter-increment: my-counter;
+}
+
+.direction-list li::before {
+  content: counter(my-counter) ") ";
+}
+
