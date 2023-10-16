@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, hr {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +18,111 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
-/* Write your CSS below */
+/* General styling */
+
+h2 {
+  color: #4E4E4E;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 3em;
+  letter-spacing: 0.05em;
+}
+
+p, ol, ul {
+  color: #4E4E4E;
+  font-weight: medium;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+hr {
+  height: 0.125em;
+  border: none;
+  background-color: #BFBFBF;
+
+}
+
+.section-padding{
+  padding: 3em 3em 0 3em;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling header */
+
+header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Styling section 'recipe-information' */
+
+
+#recipe-information img {
+  height: 75px;
+  margin: 32px 0;
+}
+
+
+/* Styling section 'ingredients' */
+
+
+#ingredients ul {
+  list-style-type: none;
+  padding: 0 0 0 1.4em;
+}
+
+#ingredients ul li::before{
+  content: "–";
+  margin-right: 0.5em;
+}
+
+/* Styling section 'cooking-information' */
+
+#cooking-information {
+  padding-bottom: 3em;
+}
+
+#cooking-information h2{
+  padding-top: 48px;
+}
+
+#cooking-information img {
+  height: 90px;
+  margin: 32px 0;
+}
+
+#cooking-information ol {
+  padding: 0 0 0 1.4em;
+  list-style-type: none;
+  counter-reset: list;
+}
+
+#cooking-information ol li {
+  counter-increment: list;
+}
+
+#cooking-information ol li::before {
+  content: counter(list)")";
+  margin-right: 0.2em;
+}
