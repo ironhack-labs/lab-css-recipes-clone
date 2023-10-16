@@ -1,9 +1,54 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  text-align: left;
+  
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Helvetica", sans-serif; 
 }
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 15%;
+  font-size: 70px;
+}
+
+.header {
+  background-image: url("/french-soup/images/soup.jpg");
+  color: white;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+hr {
+  width: 85%;
+  
+}
+
+h2 {
+  padding-left: 7%;
+  padding-top:3%;
+  }
+
+p {
+  padding: 2% 7% 2% 7%;
+  text-size-adjust: 20px;
+}
+
+
