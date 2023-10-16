@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url();
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -18,7 +19,44 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  size: 10px;
+  line-height: normal;
+  font-weight: 300;
 }
 
 /* STYLES */
 /* Write your CSS below */
+h1{
+  text-align: center;
+  transform: uppercase;
+  size: 9em;
+  
+}
+
+h2{
+  text-align: left;
+}
+.image {
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+  background-image: 
+    url(/apple-pie/images/apple-pie.jpg);
+    /* position: 0 0; */
+    /* size: cover; */
+    height: 550px;
+    width: 700px;
+    display: flex;
+    flex-direction: ;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.text{
+text-align: center;
+width: 700px;
+;
+}
+
