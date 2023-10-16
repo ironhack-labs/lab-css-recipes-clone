@@ -24,7 +24,7 @@ body {
 }
 
 .image-placeholder {
-  background-image: url('/images/soup.jpg');
+  background-image: url('../images/soup.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -60,7 +60,6 @@ body {
 }
 
 
-
 hr {
   height:2px;
   border-width:0;
@@ -73,12 +72,29 @@ hr {
   font-size: 20px;
 }
 
-.list {
+p {
+  margin-bottom: 20px;
+}
+
+.list-style {
   list-style-type: none;
   margin: 20px 10px;
 
 }
 
-p {
-  margin-bottom: 20px;
+ul.ingredients-list > li:before {
+  content: "- ";
 }
+
+.direction-list {
+  counter-reset: my-counter;
+}
+
+.direction-list li {
+  counter-increment: my-counter;
+}
+
+.direction-list li::before {
+  content: counter(my-counter) ") ";
+}
+
