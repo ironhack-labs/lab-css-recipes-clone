@@ -1,23 +1,41 @@
-/*Some necessary adjustments*/
-h1,
-body,
-html,
-main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.intro h2 {
-  text-align: left;
-  font-size: 24px;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
 
 .banner {
-  background-image: url(/french-soup/images/soup.jpg);
+  background-image: url(/apple-pie/images/apple-pie.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -29,10 +47,17 @@ html {
 h1 {
   color: white;
   position: absolute;
-  font-size: 120px;
+  font-size: 90px;
+  font-weight: 700;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.intro h2 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 h3 {
@@ -55,7 +80,7 @@ h3 {
 }
 
 .intro {
-  margin: 30px 10%;
+  margin: 30px 20%;
 }
 .intro p {
   font-size: 24px;
@@ -63,7 +88,7 @@ h3 {
 }
 
 .recipe-info ul {
-  padding-left: 10%;
+  padding-left: 20%;
   list-style-type: none;
 }
 
@@ -78,15 +103,21 @@ li {
 }
 
 .cooking-info ol {
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .cooking-info {
   margin-bottom: 50px;
 }
 
-ol li:before {
+ol {
+  counter-reset: item;
   list-style-type: none;
-  content: ')';
-  padding-right: 5px;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ' ) ';
+  counter-increment: item;
 }

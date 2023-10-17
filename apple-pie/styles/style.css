@@ -34,11 +34,6 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-.intro h2 {
-  text-align: left;
-  font-size: 24px;
-}
-
 .banner {
   background-image: url(/apple-pie/images/apple-pie.jpg);
   background-repeat: no-repeat;
@@ -52,10 +47,17 @@ body {
 h1 {
   color: white;
   position: absolute;
-  font-size: 120px;
+  font-size: 90px;
+  font-weight: 700;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.intro h2 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 h3 {
@@ -78,7 +80,7 @@ h3 {
 }
 
 .intro {
-  margin: 30px 10%;
+  margin: 30px 20%;
 }
 .intro p {
   font-size: 24px;
@@ -86,7 +88,7 @@ h3 {
 }
 
 .recipe-info ul {
-  padding-left: 10%;
+  padding-left: 20%;
   list-style-type: none;
 }
 
@@ -101,15 +103,21 @@ li {
 }
 
 .cooking-info ol {
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .cooking-info {
   margin-bottom: 50px;
 }
 
-ol li:before {
+ol {
+  counter-reset: item;
   list-style-type: none;
-  content: ')';
-  padding-right: 5px;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ' ) ';
+  counter-increment: item;
 }
