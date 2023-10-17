@@ -26,13 +26,17 @@ body {
   height: 500px;
 }
 h1 {
-  font-size: 8em;
+  font-size: 5em;
   color: white;
   text-align: center;
+  position: relative;
+  top: 50%;
+  
 }
 h2 {
   margin: 80px;
   text-align: left;
+  
 }
 
 .main {
