@@ -57,11 +57,11 @@ h1 {
 .intro h2 {
   text-align: left;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h3 {
-  padding-left: 10%;
+  padding-left: 20%;
   margin: 30px 0;
   font-size: 22px;
   font-weight: 500;
@@ -118,6 +118,6 @@ ol li {
   display: block;
 }
 ol li:before {
-  content: counter(item) ' ) ';
+  content: counter(item) ') ';
   counter-increment: item;
 }
