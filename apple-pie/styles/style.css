@@ -41,9 +41,11 @@ h2 {
 }
 .listcont {
   margin: 80px;
+  text-align: center;
 }
 .list {
   list-style-type: none;
+  text-align: left;
 }
 .list li::before {
   content: "- ";
@@ -54,4 +56,10 @@ h2 {
 }
 ul {
   list-style-type: none;
+  text-align: left;
+}
+img {
+  margin-top: 30px;
+  text-align: center;
+
 }
