@@ -5,6 +5,7 @@ html {
   font-size: 16px;
 }
 
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -22,3 +23,63 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+  
+
+.apple-pie-receipe{
+  height: 10%;
+  width: 100%;
+}
+
+.apple-pie-heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:54px;
+}
+
+
+.receipe-text{
+  text-align: left;
+  padding: 100px 100px 100px 100px;
+}
+
+.recipe-info, .cooking-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+
+    
+}
+
+
+.direction-title,.ingredients {
+  padding:10px 100px 20px 100px;
+}
+
+.directions,.ingredients-list{
+  padding:10px 100px 10px 120px;
+}
+
+.ingredients,.direction-title{
+  font-weight: 200;
+}
+.ingredients-list{
+  list-style: none;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, decimal-leading-zero-alpha) ") ";
+  counter-increment: list;
+}
