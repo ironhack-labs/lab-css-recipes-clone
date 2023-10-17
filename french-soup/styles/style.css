@@ -1,9 +1,26 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  box-sizing: border-box;
 }
+.header {
+  background-position: 0 0;
+  background-image: url("/lab-css-recipes-clone/french-soup/images/soup.jpg");
+  margin: 20px;
+  height: 500px;
+  background-size: cover;
+}
+.ingredlist{
+  list-style-type: none;
+}
+.ingredlist li::before{
+  content: "- ";
+}
+
