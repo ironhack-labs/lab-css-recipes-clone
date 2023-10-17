@@ -41,7 +41,6 @@ body {
   background-size: cover;
   height: 1000px;
   padding-top: 50px;
-  position: relative;
 }
 
 h1 {
@@ -100,6 +99,7 @@ ul li:before {
 li {
   font-size: 20px;
   line-height: 1.5;
+  padding-left: 3%;
 }
 
 .cooking-info ol {
@@ -111,13 +111,22 @@ li {
 }
 
 ol {
-  counter-reset: item;
-  list-style-type: none;
+  /* 1. Remove the default list style */
+  list-style: none;
 }
-ol li {
-  display: block;
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
 }
-ol li:before {
-  content: counter(item) ') ';
-  counter-increment: item;
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ')';
+}
+
+hr {
+  height: 2px;
+  width: 60%;
+  background-color: gray;
 }
