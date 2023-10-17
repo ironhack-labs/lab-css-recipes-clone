@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*  Set the font */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
@@ -88,7 +88,7 @@ h1 {
   margin-left: 150px;
   line-height: 1.6em;
   width: 70%;
-  text-align: justify
+  text-align: justify;
 }
 
 #second-section li{
