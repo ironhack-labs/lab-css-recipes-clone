@@ -27,16 +27,6 @@ body {
 
   
 
-/* .landing-receipe{
-  height: 100px;
-  width: 50%;
-} */
-
-/* section{
-  margin-left: 50px;
-  margin-right: 50px;
-} */
-
 .apple-pie-receipe{
   height: 10%;
   width: 100%;
@@ -61,14 +51,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+
+
     
 }
-
-hr{
-  font-weight: 100;
-}
-
 
 
 .direction-title,.ingredients {
@@ -86,3 +73,13 @@ hr{
   list-style: none;
 }
 
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, decimal-leading-zero-alpha) ") ";
+  counter-increment: list;
+}
