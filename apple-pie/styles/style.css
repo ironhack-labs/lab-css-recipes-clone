@@ -22,3 +22,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  padding: 0 8% 5% 8%;
+}
+
+.title-bg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title-bg img {
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* WHY DID THE MARGIN CHANGE!! */
+
+h1  {
+  font-size: 3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2  {
+  padding: 1em 0 1em 0;
+  font-size: 1.2em;
+}
+
+h3  {
+  padding-top: 1em;
+}
+
+hr  {
+  border: 1px solid;
+  border-color: grey;
+}
+
+.info-img-transform {
+  text-align: center;
+}
+/* Couldn't change img size :( */
+
+ol { 
+  list-style: none;
+}
+
+ ol > li { 
+  counter-increment: listcounter;
+  margin-left: 1.5em;
+  line-height: 1.3em;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+} 
+
+ ul { 
+  list-style-type: "- "; /* Couldn't get style type to work*/
+}
+
+ul li {
+  margin-left: 1.5em;
+  line-height: 1.3em;
+}
