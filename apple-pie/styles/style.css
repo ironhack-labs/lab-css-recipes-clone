@@ -24,7 +24,7 @@ body {
 /* Write your CSS below */
 .title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 40%;
   color: white;
   font-size: 5em;
@@ -34,7 +34,7 @@ body {
 .banner {
   background-image: url('/apple-pie/images/apple-pie.jpg');
   background-size: cover;
-  height: 1000px;
+  height: 800px;
   background-position: contain;
 }
 
