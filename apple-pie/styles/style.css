@@ -29,6 +29,8 @@ ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: #4e4e4e;
+  padding-bottom: 4em;
 }
 
 /* STYLES */
@@ -41,21 +43,23 @@ body {
 .title-text-block {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 0);
   top: 50%;
+  transform: translate(-50%, 0);
   font-size: 50px;
   color: white;
 }
 
 .content-center {
-  margin: auto;
+  margin-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4rem;
   width: 80%;
-  padding: 10px;
 }
 
-.wrapper {
+/* .wrapper {
   margin: 150px;
-}
+} */
 
 .space-around {
   margin: 10px;
