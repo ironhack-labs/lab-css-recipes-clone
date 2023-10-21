@@ -29,13 +29,16 @@ ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: #4e4e4e;
+  padding-bottom: 4em;
 }
 
 /* STYLES */
 /* Write your CSS below */
 
 .container {
-  position: relative;
+  background: center no-repeat;
+  background-size: cover;
 }
 
 .title-text-block {
@@ -45,17 +48,21 @@ body {
   top: 50%;
   font-size: 50px;
   color: white;
+  margin-top: 3.5rem;
 }
 
 .content-center {
   margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   padding: 10px;
+  font-size: 1.4rem;
 }
 
-.wrapper {
+/* .wrapper {
   margin: 150px;
-}
+} */
 
 .space-around {
   margin: 10px;
