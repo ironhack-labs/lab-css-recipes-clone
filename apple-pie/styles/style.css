@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,111 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/*Below modify hero image */
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: url("../images/apple-pie.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.paragraph {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.paragraph p {
+  font-size: 42px;
+  text-align-last: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+}
+
+.Ingredients-image1 {
+  background-image: url("../images/recipe-info.png");
+  height: 100px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: block;
+}
+
+hr {
+  width: 77%;
+  border-top: 2px solid gray;
+}
+
+/* edit detailed list */
+
+dl dt {
+  font-weight: bold;
+
+}
+
+dl {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  font-size: 42px;
+  text-align-last: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+  padding-bottom: 20px;
+}
+
+ol {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  font-size: 42px;
+  text-align-last: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+  padding-bottom: 20px;
+}
+
+
+
+/*image */
+.Ingredients-image2 {
+  background-image: url("../images/cooking-info.png");
+  height: 128px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
