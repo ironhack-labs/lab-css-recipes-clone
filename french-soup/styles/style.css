@@ -1,9 +1,72 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+h1,
+body,
+html,
+main {
+    margin: auto;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+body {
+    font-family: 'open sans' sans-serif;
+    font-weight: lighter;
+}
+main {
+    padding: 50px 80px;
+}
+hr {
+    margin-block-end: 35px;
+}
+header {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    position: absolute;
+    color: white;
+    font-size: 53px;
+}
+header img {
+    width: 100%;
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Ingredients img {
+    max-width: 70%;
+}
+.Ingredients h2 {
+    margin-bottom: 15px;
+}
+.Ingredients ul {
+    line-height: 25px;
+    list-style-type: inside;
+    margin-bottom: 15px;
+    list-style-type: decimal;
+}
+.Ingredients li {
+    line-height: 25px;
+    list-style-position: inside;
+}
+.Directions-title {
+    margin: 20px 0;
+}
+.Directions ul {
+    list-style-type: decimal;
 }
