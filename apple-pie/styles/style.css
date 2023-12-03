@@ -22,3 +22,18 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.head {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+
+h1 {
+  font-size: 8em;
+  text-align: center;
+}
+
