@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -25,5 +26,29 @@ body {
 
 
 .title {
-background-image: url("images\apple-pie.jpg");
+background-image: url(apple-pie.jpg);
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+text-align: center;
+padding: 400px 0 400px 0;
+}
+
+h1 {
+  font-size: 7em;
+  color: white;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+.intro h3 {
+  text-align: justify;
+  margin: 100px 150px;
+}
+
+#recipe {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
