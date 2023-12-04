@@ -22,3 +22,8 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.title {
+background-image: url("images\apple-pie.jpg");
+}
