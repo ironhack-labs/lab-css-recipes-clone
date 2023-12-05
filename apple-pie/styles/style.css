@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  background-color: black;
+  
 }
 
 *, *:before, *:after {
@@ -13,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +25,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#base{
+  position: relative;
+  background-color: #fff ;
+  width: 1280px;
+  justify-content: center;
+}
+.photo{
+  width: 700px;
+  height: 480px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color:#fff;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 210px;
+}
+.boxText{
+  display: grid;
+  place-items: center;
+}
+.mainText{
+  width: 580px;
+  line-height: 24px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  
+}
+.times{
+  width: 350px;
+  padding-top: 10px;
+}
+.line{
+  width: 600px;
+  align-items: center;
+}
+h2{
+  font-size: 28px;
+  padding: 30px 0px;
+  margin-right: 35%;
+}
+ul{
+  line-height: 25px;
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-right: 15%;
+}
+ol{
+  width: 600px;
+  text-decoration: none;
+}
+ol li{
+  list-style-type: none;
+  line-height: 24px;
+  margin-left: 30px;
+}
