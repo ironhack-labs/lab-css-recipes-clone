@@ -10,7 +10,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-weight: lighter;
 }
@@ -18,7 +18,64 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin: 0 100px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.figure1 img {
+  width: 500px;
+}
+
+.figure1 {
+  text-align: center;
+  position: relative;
+  text-align: center; 
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+figcaption {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 16px;
+  margin: 0;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.figure2 img {
+  width: 400px;
+}
+.figure2 {
+  text-align: center;
+  position: relative;
+  text-align: center; 
+  margin: 20px auto;
+}
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  list-style-type: '- ';
+}
+
+.figure3 img {
+  width: 300px;
+}
+.figure3 {
+  text-align: center;
+  position: relative;
+  text-align: center; 
+  margin: 20px auto;
+}
+
+ol {
+  margin-left: 20px;
+  margin-top: 20px;
+}
