@@ -9,16 +9,93 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+
+.image-ApplePie {
+  width: 100%;
+}
+
+.container {
+  margin: 0 150px;
+}
+
+.text {
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  padding-bottom: 280px;
+  border-bottom: 2px solid grey;
+}
+
+.text p {
+  margin-bottom: 50px;
+  padding: 0 80px;
+}
+
+.principal {
+  font-size: 20px;
+}
+
+.ingredients {
+  margin: 50px auto;
+  padding-bottom: 80px;
+  border-bottom: 2px solid grey;
+
+}
+
+h2 {
+  margin-bottom: 35px;
+}
+
+.img-cooking {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.directions {
+  margin-bottom: 100px;
+}
+
+.directions p {
+  margin: 20px;
+  font-size: 25px;
+}
+
+ul {
+  margin: 20px;
+  line-height: 40px;
+  font-size: 30px;
+
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  content: "-"; 
+}
