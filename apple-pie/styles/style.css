@@ -23,3 +23,18 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+h1{
+  color: white;
+  bottom: 380px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+}
+
+.applePie{
+  width: 90%;
+  height: 800px;
+  display: flex;
+}
