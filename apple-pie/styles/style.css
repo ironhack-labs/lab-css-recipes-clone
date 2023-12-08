@@ -2,23 +2,99 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
+  background-color: black;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+
+#principal{
+  position: relative;
+  background-color: #fff ;
+  width: 1280px;
+  justify-content: center;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: lighter
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+
+
+.applePie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h1 {
+  color:#fff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.boxRecipeInfo{
+  display: grid;
+  place-items: center;
+}
+
+.recipeInfo {
+  width: 580px;
+  line-height: 24px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.recipeImages{
+  width: 350px;
+  padding-top: 10px;
+}
+
+.separation{
+  align-items: center;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+h2{
+  font-size: 28px;
+  padding: 30px 0px;
+  margin-right: 35%;
+}
+
+ul{
+  line-height: 25px;
+  text-decoration: none;
+  list-style-type: "-";
+  margin-bottom: 30px;
+  margin-right: 15%;
+}
+
+ol{
+  width: 600px;
+  text-decoration: none;
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter);
+}
+
+ol li {
+  line-height: 24px;
+  margin-left: 30px;
+}
