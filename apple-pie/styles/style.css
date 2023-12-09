@@ -25,16 +25,75 @@ body {
 
 h1{
   color: white;
-  bottom: 380px;
   position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4em;
+  top: 70%;
+  left: 35%;
+  font-size: 10em;
 }
 
-.applePie{
+IMG.applePie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
   width: 90%;
-  height: 800px;
-  display: flex;
 }
+
+p {
+  text-align: center;
+  font-size: x-large;
+  margin: 100px 150px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ingredients {
+  text-align: justify;
+  margin: 30px 120px 30px 120px;
+}
+
+.blocktext {
+  margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+ul {
+  font-size: 1.5em;
+  line-height: 35px;
+  }
+
+IMG.cookingInfo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
+  width: 30%;
+}
+
+  .directions {
+    text-align: justify;
+    margin: 30px 120px 30px 120px;
+  }
+
+  ol {
+    font-size: 1.5em;
+    line-height: 35px;
+    list-style: decimal;
+    counter-reset: item;
+    margin-bottom: 100px;;
+    text-align: center;
+    font-size: x-large;
+  }
+ 
