@@ -3,16 +3,27 @@
 @import url();
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin-left: 50px;
+  margin-right: 50px;
   font-weight: lighter;
 }
 
@@ -26,37 +37,26 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
-h1{
-  text-align: center;
-  transform: uppercase;
-  size: 9em;
-  
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-h2{
+h2 {
   text-align: left;
 }
 .image {
-  background-repeat: no-repeat;
-  background-color: aliceblue;
-  background-image: 
-    url(/apple-pie/images/apple-pie.jpg);
-    /* position: 0 0; */
-    /* size: cover; */
-    height: 550px;
-    width: 700px;
-    display: flex;
-    flex-direction: ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
-/* .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
-.text{
-text-align: center;
-width: 700px;
-;
+.text {
+  text-align: left;
+  width: 700px;
 }
 
