@@ -35,7 +35,10 @@ p {
 
 .applePie {
   background-image: url(/Users/pimpisa/Desktop/Ironhack_Labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
-  height: 400px;
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,22 +52,25 @@ section {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .cookingInfo{
-  width: 20%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 30px;
  
 }
 .recipeInfo{
-  width: 20%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
  ul {
