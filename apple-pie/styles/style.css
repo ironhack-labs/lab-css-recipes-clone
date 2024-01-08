@@ -24,17 +24,6 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-/*.apple-pie {
-  width: 100%;
-  position: relative;
-}
-
-h1 {
-  position: absolute;
-  color: white;
-  text-align: center;
-  background-color: aqua;
-}*/
 
 header {
   width: auto;
@@ -43,26 +32,27 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url("https://github.com/jydvfg/lab-css-recipes-clone/blob/9b19990bd66c90479f902e89c55804931d255269/apple-pie/images/apple-pie.jpg") center/cover no-repeat;
+  background: url("lab-css-recipes-clone\apple-pie\images\apple-pie.jpg") center/cover no-repeat;
+  overflow: hidden;
 }
 
 h1 {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5); 
   padding: 10px; 
   display: inline-block; 
+  position: absolute;
+  font-size: 75px;
+  font-weight: bold;
 }
 .paragraph {
-  font-size: 18px;
+  font-size: 25px;
 }
 
-.paragraph img {
-  /* Add styles for images within paragraphs if needed */
-}
 
 main {
   margin: 3% 10%;
   text-align: left;
+  font-size: 18px;
 }
 
 #info {
@@ -74,12 +64,32 @@ h2 {
   margin-bottom: 10px;
 }
 
+ol {
+  list-style: none;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
 ul {
+  margin: 0;
+}
+ul.dashed {
   list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }
 
 main span {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px; 
 }
