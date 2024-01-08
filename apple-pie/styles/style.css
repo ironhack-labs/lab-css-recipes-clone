@@ -22,3 +22,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.apple-img{
+  width:1200px;
+  height:700px;
+}
+
+.main-paragraph {
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.recipe-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.ingredients
+{
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+.cooking-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.list{
+  width: 50%;
+margin-top: 1rem;
+margin-left: 50px;
+margin-bottom: 3rem;
+}
+.directions{
+  font-weight: bold;
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+}
+.last-paragraph{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
