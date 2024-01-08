@@ -1,0 +1,207 @@
+body {
+    font-family: 'Arial', serif;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    font-weight: normal;
+  }
+/*
+  img {
+    height: 600px;
+    width: 600px;
+  }
+*/
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .header h1 {
+    font-size: 24px;
+    }
+    .recipe-info, .ingredients, .directions {
+    margin-bottom: 20px;
+    padding: 20px;
+    }
+    .recipe-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    .recipe-info div {
+    text-align: center;
+    padding: 20px;
+    }
+    .ingredients ul, .directions ol {
+    padding-left: 20px;
+    padding: 20px;
+    }
+    .directions ol {
+    counter-reset: step-counter;
+    }
+    .directions ol li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+    }
+    .directions ol li::before {
+    content: counter(step-counter) ". ";
+    font-weight: bold;
+    }
+
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay-text {
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 48px; 
+        text-align: center;
+        font-weight: normal}
+
+.intro-desc{
+    text-align: center;
+    padding: 20px;
+    font-weight: normal;
+    font-size:16px;
+}
+
+.image-container-recipe-info{
+
+    display: flex; /* Use flexbox to center items */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if the container has a specific height */
+  height: 5vh; /* Optional: if you want the container to fill the height of the viewport */
+
+}
+
+.image-container-recipe-info img {
+
+    
+    max-width: 50%; /* Make the image responsive to the container width */
+  height: auto; /* Keep the aspect ratio of the image */
+
+  }
+
+.recipe-section{
+
+    padding: 20px;
+}
+
+
+  .recipe-section h2 {
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Replace with the font you prefer */
+    font-size: 14px; /* Adjust size as needed */
+    margin-bottom: 0px; /* Space between the title and the divider */
+    margin-left:20px;
+    margin-top:20px;
+    font-weight: medium;
+  }
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Space between the divider and the list */
+    background: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .ingredients-list {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    font-family: 'Arial', sans-serif; /* Replace with the font you prefer */
+    font-size: 12px; /* Adjust size as needed */
+    padding: 20px;
+    margin-top: 0;
+    font-weight: normal;
+  }
+  
+  .ingredients-list li {
+    margin-bottom: 1px; /* Space between list items */
+    padding: 1px;
+    margin-left: 10px;
+  }
+
+
+
+
+.image-container-cooking-info{
+
+  display: flex; /* Use flexbox to center items */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if the container has a specific height */
+  height: 5vh; /* Optional: if you want the container to fill the height of the viewport */
+
+}
+
+.image-container-cooking-info img {
+
+  margin-top: 40px;
+  max-width: 50%; /* Make the image responsive to the container width */
+  height: auto; /* Keep the aspect ratio of the image */
+
+  }
+
+.directions-section{
+
+    padding: 20px;
+
+}
+
+.directions-section h2 {
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Replace with the font you prefer */
+    font-size: 14px; /* Adjust size as needed */
+    margin-bottom: 0px; /* Space between the title and the divider */
+    margin-left:20px;
+    margin-top:20px;
+    font-weight: medium;
+  }
+
+.directions-list{
+    list-style: none; /* Remove default list styling */
+    counter-reset: custom-counter; /* Create a new counter */
+
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    font-family: 'Arial', sans-serif; /* Replace with the font you prefer */
+    font-size: 12px; /* Adjust size as needed */
+    padding: 20px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.directions-list li{
+    counter-increment: custom-counter;
+
+
+    margin-bottom: 1px; /* Space between list items */
+    padding: 1px;
+    margin-left: 10px;
+}
+
+.directions-list li::before {
+    content: counter(custom-counter) ") "; /* Insert the counter value and a parenthesis */
+    margin-right: 5px; /* Add space after the number */
+  }
