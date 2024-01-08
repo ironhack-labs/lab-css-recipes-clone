@@ -22,3 +22,56 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h2 {
+  padding: 20px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.applePie {
+  background-image: url(/Users/pimpisa/Desktop/Ironhack_Labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  font-size:30px;
+}
+ 
+section {
+  border-bottom: solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.cookingInfo{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+ 
+}
+.recipeInfo{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+ ul {
+padding-left: 50px;
+ }
+ 
+ol {
+  padding-bottom: 60px;
+  padding-left: 40px;
+}
