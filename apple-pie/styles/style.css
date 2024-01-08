@@ -18,7 +18,118 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding: 200px 20px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 100px; 
+  text-align: center;
+}
+
+.recipe-info {
+  display: flex;
+  font-size: 22px;
+  margin: 80px 200px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipe-info img {
+  width: 50%;
+  margin: 35px 0px 0px 0px;
+}
+
+.ingredients {
+  display: flex;
+  font-size: 15px;
+  text-align: left;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px 150px;
+
+}
+
+.ingredients img {
+  width: 50%;
+  margin: 35px 0px 0px 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  font-size: 19px;
+  margin: 25px 20px;
+  list-style-type: '-';
+  padding: 0px 25px; 
+}
+
+hr {
+  width: 80%;
+  color: lightgray;
+}
+
+.directions {
+  display: flex;
+  font-size: 19px;
+  text-align: left;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px 150px;
+
+}
+
+ol {
+  font-size: 19px;
+  margin: 25px 20px;
+  padding: 0px 25px; 
+}
+
+.ingpic {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ingpic img {
+  width: 450px; 
+}
