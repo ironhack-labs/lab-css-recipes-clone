@@ -34,7 +34,11 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-.header1 {
+.font-size-mid {
+  font-size: 1.5rem;
+}
+
+.main-header {
   position: absolute;
   z-index: 10;
   top: 50%;
@@ -57,15 +61,15 @@ body {
   object-fit: cover;
 }
 
-#recipe-info {
+#recipe-info-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.description {
-  width: 80%;
-  margin: 20px auto;
+.recipe-info-description {
+  width: 45%;
+  margin: 50px auto;
 }
 
 .ingredient-container {
@@ -74,16 +78,17 @@ body {
 }
 
 .info-img {
-  width: 40%;
+  width: 30%;
   margin: 10px auto;
 }
 
 #ingredients {
-  margin: 30px 10px;
+  margin: 30px 30px;
 }
 
 #ingredients li {
   list-style-type: "-";
+  font-size: 1.5rem;;
 }
 
 .cooking-img-container {
@@ -105,6 +110,10 @@ hr {
 }
 
 .directions p {
+  font-size: 1.5rem;
   margin: 10px;
 }
 
+.direction-text-container {
+  margin: 3em 0 7em 0;
+}
