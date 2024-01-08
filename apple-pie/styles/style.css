@@ -49,5 +49,39 @@ h1 {
 }
 
 .recipe-img {
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.ingredients
+{
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+.cooking-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.list{
+  width: 50%;
+margin-top: 1rem;
+margin-left: 50px;
+margin-bottom: 3rem;
+}
+.directions{
+  font-weight: bold;
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+}
+.last-paragraph{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
 }
