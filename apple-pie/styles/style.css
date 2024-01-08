@@ -34,7 +34,7 @@ p {
 }
 
 .applePie {
-  background-image: url(/Users/pimpisa/Desktop/Ironhack_Labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-image: url("../images/apple-pie.jpg");
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
