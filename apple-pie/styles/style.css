@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header1 {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 40%;
+  font-size: 5rem;
+  color: white;
+}
+
+/* .header-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.apple-pie-img {
+  width: 100%;
+  position: relative;
+}
+
+#recipe-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.ingredient-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.info-img {
+  width: 40%;
+  margin: 10px auto;
+}
+
+#ingredients {
+  margin: 30px 10px;
+}
+
+#ingredients li {
+  list-style-type: "-";
+}
+
+.cooking-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 80%;
+}
+
+.directions {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#direction-header {
+  margin: 30px 0;
+}
+
+.directions p {
+  margin: 10px;
+}
