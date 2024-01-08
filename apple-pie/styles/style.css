@@ -23,3 +23,31 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+.title
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.apple-img{
+  width:1200px;
+  height:700px;
+}
+
+.main-paragraph {
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.recipe-img {
+
+}
