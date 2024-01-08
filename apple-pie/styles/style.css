@@ -43,14 +43,19 @@ body {
   color: white;
 }
 
-/* .header-container {
-  display: flex;
-  justify-content: center;
-} */
+
+.apple-pie-img-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
 
 .apple-pie-img {
-  width: 100%;
   position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #recipe-info {
@@ -103,3 +108,4 @@ hr {
 .directions p {
   margin: 10px;
 }
+
