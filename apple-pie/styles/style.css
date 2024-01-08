@@ -1,24 +1,114 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
-
+h1 {
+	font-size: 106px;
+}
 /* STYLES */
 /* Write your CSS below */
+.sizing-box {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+.divider {
+	margin: 50px auto;
+	width: 65%;
+}
+#apple-pie-picture {
+	position: relative;
+	position: relative;
+	background-image: url('..//images/apple-pie.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+
+#apple-pie-picture h1 {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#apple-pie-overview,
+#apple-pie-recipe,
+#apple-pie-directions {
+	width: 65%;
+	margin: 0 auto;
+}
+#apple-pie-overview .apple-pie-overview__description {
+	margin: 50px 0 0;
+}
+#apple-pie-overview .apple-pie-overview__description p {
+	font-size: 30px;
+	color: rgb(75, 70, 70);
+}
+#apple-pie-overview .apple-pie-instructions-img {
+	display: block;
+	margin: 0 auto;
+}
+#apple-pie-recipe h2 {
+	margin-bottom: 35px;
+}
+#apple-pie-recipe .apple-pie-recipe-list ul {
+	padding-left: 35px;
+	list-style: none;
+}
+
+#apple-pie-recipe .apple-pie-recipe-list ul li::before {
+	content: '-';
+	left: -3px;
+	position: relative;
+}
+#apple-pie-recipe .apple-pie-recipe-img {
+	display: block;
+	margin: 0 auto;
+}
+#apple-pie-directions {
+	margin-top: 60px;
+}
+#apple-pie-directions .apple-pie-directions-list ol {
+	counter-reset: list;
+	padding-left: 30px;
+	margin: 40px 0;
+	font-size: 20px;
+}
+ol > li {
+	list-style: none;
+}
+ol > li:before {
+	content: counter(list, list-number) ') ';
+	counter-increment: list;
+}
