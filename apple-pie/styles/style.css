@@ -8,11 +8,20 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+h1{
+  font: size 40px ;
+  
+}
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  h2, h3, h4, h5, h6 ,ul{
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight:bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+li{
+  text-transform: lowercase;
 }
 
 /*  Set the font */
@@ -23,7 +32,7 @@ body {
   background-size: auto;
   
     background-image: url("paper.gif");
-    background-color: #77c192;
+    background-color: #898797;
    
 
     font-family: "Helvetica", sans-serif;
@@ -42,7 +51,7 @@ body {
   }
   
 div {
-  background-color: lightgreen;
+  background-color: rgb(177, 163, 172);
   inline-size: 300px;
   padding:0%;
   writing-mode: horizontal-tb;
