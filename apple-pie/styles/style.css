@@ -12,6 +12,10 @@ h1{
   font: size 40px ;
   
 }
+ul{
+  list-style-image: url('sqpurple.gif');
+}
+
 
   h2, h3, h4, h5, h6 ,ul{
   margin: 0;
@@ -20,9 +24,14 @@ h1{
   font-size: 20px;
   text-transform: uppercase;
 }
-li{
-  text-transform: lowercase;
+ul.list{
+  list-style-position: outside;
 }
+
+ul.list {
+  list-style-position: inside;
+}
+
 
 /*  Set the font */
 body {
@@ -36,7 +45,7 @@ body {
    
 
     font-family: "Helvetica", sans-serif;
-    font-size: 20px;
+    font-size:15px;
 
 }
 
