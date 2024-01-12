@@ -23,19 +23,30 @@ body {
   background-size: auto;
   
     background-image: url("paper.gif");
-    background-color: #601d1d;
+    background-color: #77c192;
    
 
     font-family: "Helvetica", sans-serif;
     font-size: 20px;
 
 }
+
+ 
+    img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+   image{ 
+    border-radius: 30px;
+    padding: 4px;
+    width: 150px;
+  }
+  
 div {
   background-color: lightgreen;
   inline-size: 300px;
-  padding: 10px;
+  padding:0%;
   writing-mode: horizontal-tb;
-  border-block: rgb(123, 21, 77) dashed 8px;
+  border-block: rgb(123, 21, 77) dashed 2px;
 }
 
 /* STYLES */
