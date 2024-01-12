@@ -17,7 +17,25 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  border: 2px solid black;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+    background-image: url("paper.gif");
+    background-color: #601d1d;
+   
+
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+
+}
+div {
+  background-color: lightgreen;
+  inline-size: 300px;
+  padding: 10px;
+  writing-mode: horizontal-tb;
+  border-block: rgb(123, 21, 77) dashed 8px;
 }
 
 /* STYLES */
