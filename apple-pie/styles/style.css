@@ -1,5 +1,12 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+* {
+  padding: 100px;
+
+}
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -8,6 +15,8 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
@@ -22,3 +31,49 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+/* Hero */
+
+.hero {
+  padding: 100px 100px 0 100px;
+}
+
+.hero-image {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+}
+
+.hero-content {
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hero-content {
+  padding-bottom: 0;
+}
+
+.container-characteristics {
+  padding: 0;
+  text-align: center;
+}
+
+.container-characteristics img {
+  padding: 30px 0;
+  width: 50%;
+}
+
+hr {
+  padding: 0;
+  margin: 0 18%;
+  border: solid 2px #BFBFBF;  
+
+}
+
+/* Hero */
+
