@@ -1,24 +1,127 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.desktop .div {
+  background-color: #ffffff;
+  width: 553px;
+  height: 1255px;
+  position: relative;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+.desktop .line {
+  top: 609px;
+  left: 71px;
+  position: absolute;
+  width: 441px;
+  height: 1px;
+  object-fit: cover;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.desktop .img {
+  top: 937px;
+  left: 64px;
+  position: absolute;
+  width: 441px;
+  height: 1px;
+  object-fit: cover;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.desktop .overlap-group {
+  position: absolute;
+  width: 553px;
+  height: 463px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/FajBMozT/img/apple-pie-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 187px;
+  top: 230px;
+  left: 191px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .ingredients-recipe {
+  position: absolute;
+  width: 441px;
+  top: 657px;
+  left: 71px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .span {
+  font-weight: 500;
+}
+
+.desktop .text-wrapper-2 {
+  font-size: 12px;
+}
+
+.desktop .text-wrapper-3 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.desktop .directions-preheat {
+  position: absolute;
+  width: 441px;
+  top: 985px;
+  left: 71px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .this-was-my {
+  position: absolute;
+  width: 441px;
+  top: 485px;
+  left: 71px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .recipe-info {
+  position: absolute;
+  width: 303px;
+  height: 47px;
+  top: 554px;
+  left: 133px;
+  object-fit: cover;
+}
+
+.desktop .cooking-info {
+  position: absolute;
+  width: 278px;
+  height: 64px;
+  top: 865px;
+  left: 152px;
+  object-fit: cover;
+}
