@@ -47,3 +47,9 @@ h1 {
 
 
 }
+
+img {
+  background-image: url(../images/recipe-info.png);
+  background-position: center;
+
+}
