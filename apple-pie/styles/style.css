@@ -15,47 +15,20 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
   /* added */
   height: 100%;
-  
+
 }
 
 /*  Set the font */
 body {
- 
   font-family: "Helvetica", sans-serif;
- 
 }
 
-/* STYLES */
-/* Write your CSS below */
-
-/* h1 for the main text */
-/* .div-picture1 {
-   margin: 0 auto; 
-  min-width: 300px; 
-   height: 200px;
-  position: 0 0;
-  display: block; */
-  /* appearance: no-repeat; }*/
-
-
-
-
-  
- 
-/* experi */
 .div-picture1{
   margin: 0 auto;
- 
-  
-  
   text-indent: 1px;
 }
 #apple-pie{
   color: white;
-}
-
-.apple-pie{
-
 }
 
 .apple-text{
@@ -69,15 +42,13 @@ body {
   font-size:34px ;
 }
 
-
 .cooking-info-image{
   margin-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-
-  
+ 
 }
 /* horizontal ruler */
 hr
@@ -93,12 +64,7 @@ hr
   padding-top: 40px;
   padding-bottom: 10px;
   text-indent: 1px;
-
-  /* margin: auto;  */
- 
-  
 }
-
 
 h2{
   text-indent: 1px;
@@ -113,10 +79,7 @@ h2{
   padding-top: 20px;
   padding-bottom: 10px;
   text-indent: 1px;
-  line-height: 200%;
- 
- 
-
+  line-height: 200%; 
 }
 
 ul{
