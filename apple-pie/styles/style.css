@@ -3,16 +3,17 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  background-color: white;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body, h2, h3, h4, h5, h6, p, ol, ul {
+  display: block;
+  margin: auto;
+  padding: auto;
 }
 
 /*  Set the font */
@@ -22,3 +23,53 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-div{
+  background:url(../images/apple-pie.jpg);
+  color : white;
+  font-size: 50px;
+  padding: 150px;
+  background-size: cover;
+  
+
+}
+
+h1{
+  
+  text-align: center;  
+  
+}
+
+.Recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-size: 50px;
+} 
+
+.Cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#info-recipe{
+  margin: 0 250px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+h2{
+  text-size-adjust: 150px;
+  font-size: 40px;
+}
+
+li{
+  font-size: 25px;
+}
+
+p{
+  font-size: 30px;
+}
