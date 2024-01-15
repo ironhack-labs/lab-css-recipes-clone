@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+
 }
 
 /*  Set the font */
@@ -22,3 +23,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.background-section{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center center;
+  }
+
+.h1-padding{
+  padding: 200px;
+  text-align: center;
+  color: white;
+  font-size: 5em;
+}
+
+.div-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: auto;
+  width: 400px;
+  padding-top: 10px;
+}
+.section1{
+  padding: 50px 50px 0px 50px; 
+}
+
+.section2{
+  padding: 50px 50px 0px 50px; 
+}
+
+.section3{
+  padding: 50px 50px 50px 50px;
+}
+
+ul{
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+ol{
+  padding-left: 10px;
+  list-style-type: none;
+}
