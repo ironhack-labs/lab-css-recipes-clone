@@ -22,3 +22,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header{
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-position: 0.0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding-top: 240px;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+
+}
+#description{
+  text-align: center;
+  font-size: 2em;
+  padding: 40px 400px 0px 400px;
+}
+.images{
+  display: block;
+  margin: 0 auto; 
+  
+}
+.ingredients{
+  padding-left: 100px;
+  padding-top: 50px;
+  border-top: 5px solid lightgray;
+  margin: 0 10em;
+
+}
+.directions{
+  padding-left: 100px;
+  padding-top: 50px;
+  border-top: 5px solid lightgray;
+  margin: 0 10em;
+  padding-bottom: 100px;
+  
+
+}
+h3{
+  font-size: 3em;
+
+}
+li{
+  font-size: 1.5em;
+}
+.list{
+  padding-left: 20px;
+
+}
+ul{
+  list-style-type: "- ";
+}
+
+ol {
+    
+  list-style: none;
+}
+
+ol > li {
+  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  
+  content: counter(listcounter) ")";
+}
