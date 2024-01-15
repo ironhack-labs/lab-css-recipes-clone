@@ -22,3 +22,15 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  text-align: center;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  color: white;
+  background-position: cover;
+}
+
+/*li {
+  display: list-item;
+  list-style-position: inside;
+}*/
