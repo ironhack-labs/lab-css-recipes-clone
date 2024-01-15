@@ -24,53 +24,74 @@ body {
 /* Write your CSS below */
 
 .header-container {
-  background-image: url(/images/apple-pie.jpg);
-  height: 80vh;
+  background-image: url(../images/apple-pie.jpg);
+  height: 100vh;
   background-size: cover;
-  margin: 0 400px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
 }
 
 .header-text{
-  color: white  ;
-  text-align: center;
-  padding-top:35vh;
+  color: white;
   font-size: 60px;
-}
-
-.header-div{
-  margin: 50px 490px 30px 490px;
-  text-align:center;
 }
 
 #recipe-intro{
   display: flex;
   flex-direction: column;
-	justify-content: space-evenly;
 	align-items: center;
 }
 
+.header-div{
+  font-size: 20px;
+  margin: 50px 20px 30px 20px;
+  text-align:center;
+  width: 60%;
+}
+
 .recipe-info{
-  width: 300px;
+  width: 400px;
+  height: auto;
 }
 
 #ingredients{
+  padding: 20px 0px 0px 310px;
+}
+
+.ingredients-list{
   display: flex;
   flex-direction: column;
-	justify-content: space-evenly;
-	align-items: baseline;
-  margin: 30px 490px;
-  border-top: 2px solid black;
 }
 
-#ingredients h2{
-  margin-bottom: 20px;
-  margin-top: 50px
+.ingredients-list ul {
+  padding-top: 20px;
+  padding-left: 10px;
+  list-style-type: '- ';
 }
 
-ul{
-  list-style: '- ';
+.cooking-info{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 250px;
 }
 
-ol{
-  list-style-type: ;
+hr{
+  width: 60vw;
+}
+
+.cooking-info img {
+  width: 400px;
+  height: auto;
+}
+
+#directions {
+  padding: 20px 0px 0px 310px;
+  margin-bottom: 40px;
+}
+
+#directions ol {
+  padding-top: 20px;
+  padding-left: 20px;
+
 }
