@@ -18,7 +18,102 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: white;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* .container {
+  font: 200;
+  color: white;
+  text-align: center;
+  background-color: white;
+  background-image: url(../images/apple-pie.jpg); 
+  background-position: cover;
+} */
+
+ .container {
+  position:relative;
+  background-image: url(../images/apple-pie.jpg); 
+  /*background-position: 0 0;*/
+  background-size: cover;
+  height: 650px;
+  padding-top: 315px;
+ }
+
+ h1 {
+  font-size:4em;
+  color: white;
+  text-align: center;
+ }
+
+ .text {
+  font-size: 15px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+ }
+
+ p {
+  padding: 50px;
+ }
+
+ .time1 { 
+  width: 300px;
+
+ }
+
+ .time2 { 
+  width: 250px;
+
+ }
+
+ .ingredients {
+  padding-left: 9%;
+  font-size: 15px;
+  padding-bottom: 20px;
+
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font: 25px;
+}
+ ul {
+  padding: 20px, 0;
+  list-style-type: none;
+ }
+
+ .Directions {
+  padding-left: 9%;
+  font-size: 15px;
+ }
+
+ .listNumber {
+  margin-right: 15%;
+  padding-left: 12%;
+  font-size: 15px;
+  padding-bottom: 20px;
+
+ }
+
+ h2 {
+  margin-bottom: 30px;
+  font: 20px;
+}
+ hr {
+  width: 80%; 
+  border: 1px solid #ccc; 
+  margin: 20px auto;
+  
+ }
+
+ 
+
