@@ -35,15 +35,53 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
-img {
-  width: 100%;
-}
+
 
 header {
   background-image: url(./../images/apple-pie.jpg);
-
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px;
+  padding-top: 50px;
+  position: relative;
 }
 
 h1 {
-  width: auto;
+  text-align: center;
+  font-size: 7em;
+  color: white;
+
+}
+
+h3 {
+  margin: 30px 450px;
+}
+
+p {
+  text-align: center;
+  margin: 50px 470px;
+  font-size: 24px;
+}
+
+.recipe {
+  padding: 50px 570px;
+
+}
+
+.cooking {
+  padding: 50px 570px;
+
+}
+
+hr {
+  margin: 30px 450px;
+}
+
+ul {
+  margin: 20px 450px;
+}
+
+ol {
+  margin: 20px 450px;
 }
