@@ -18,7 +18,32 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding:50px;
 }
+
+
+.background-image{
+  background-image: url(https://github.com/dannielcosta/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+  color:white;
+  font-size:9em;
+  text-align:center;
+}
+
+.description{
+  text-align:center;
+}
+
+.method{
+  list-style-type:none;
+}
+
+
+
+
+
+
+
+
 
 /* STYLES */
 /* Write your CSS below */
