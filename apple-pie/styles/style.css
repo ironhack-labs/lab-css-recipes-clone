@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +23,52 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-kitchen{
+  font-size: 70px;
+  color: white;
+  background:url(../images/apple-pie.jpg);
+  background-size: cover;
+  padding: 60px;
+}
+
+h1{
+  padding: 500px;
+  text-align: center;
+}
+.recipe-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.cooking-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 40%
+}
+
+#info-recepie{
+  margin: 100px 250px;
+  margin-bottom: 100px;
+}
+
+li {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+p {
+font-size: 40px;
+}
+
+h2{
+  margin: 5px 0;
+  font-size: 50px;
+}
