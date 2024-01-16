@@ -65,7 +65,7 @@ height: 30%;
     width: 260px;
   }
   .ingredient-list ul{
-    list-style-type: none;
+    list-style: "- ";
     margin-top: 16px;
     margin-left: 24px ;
     margin-bottom: 50px;
@@ -86,6 +86,7 @@ height: 30%;
   .directions-list ol{
     list-style-type: none;
     margin-top: 20px;
+    counter-reset: list;
   }
   .directions-list{
     width: 76%;
@@ -95,4 +96,9 @@ height: 30%;
   }
 .directions-list li{
   margin-left: 15px;
+
+}
+ol> li:before{
+  content: counter(list) ")";
+  counter-increment: list;
 }
