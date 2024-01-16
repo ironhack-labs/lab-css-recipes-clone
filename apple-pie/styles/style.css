@@ -9,16 +9,78 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2,  h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
 /*  Set the font */
+
 body {
   font-family: "Helvetica", sans-serif;
+  line-height: 2;
+  padding:50px;
 }
+
+h3{
+  font-weight: 100; 
+  text-align: justify;
+  align-content: center;
+}
+
+.background-image h3{ 
+  background-image: url(https://github.com/dannielcosta/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+  color:white;
+  font-size:9em;
+  text-align:center;
+  height: 600px;
+  
+}
+h1{
+  padding: 50px;
+}
+
+.description, .list, .method {
+  margin: o;
+  padding: 50px;
+  font-size: 40;
+}
+
+.method {
+  text-align: justify;
+}
+
+.method li{
+  list-style-type: none;
+}
+
+.list ul{ 
+  margin: 0;
+
+}
+
+.list img{
+: center;
+}
+.list li{
+  list-style-type: none;
+}
+
+.recipe-info, .cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 80px;
+}
+
+
+
+
+
+
+
 
 /* STYLES */
 /* Write your CSS below */
