@@ -11,7 +11,7 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding:0;
   font-weight: lighter;
 }
 
@@ -20,5 +20,69 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+header{
+  background-image: url("/apple-pie/images/apple-pie.jpg") ;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+  height: 500px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size:100px;
+  padding-top: 7%;
+  }
+
+section{
+  margin:5% 15%
+}  
+
+hr{
+  height:2px;
+  background-color: black;
+}
+
+.centerimg{
+  text-align: center;
+}
+
+.introduction p{
+  text-align:justify;
+  line-height: 2;
+}
+
+.ingredients h2{
+  text-align: justify; 
+}
+
+.ingredients ul{
+  list-style: none;
+  line-height: 2;
+  text-align: justify 
+}
+
+.directions h2{
+  text-align: justify;
+}
+
+.directions ol{
+  counter-reset: list;
+  line-height: 2;
+}
+
+.directions ol > li{
+  list-style: none;
+}
+
+.directions ol > li:before{
+  content: counter(list, counter-increment) ") ";
+  counter-increment: list;
+}
+
+ 
 /* STYLES */
 /* Write your CSS below */
