@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#top {
+  background-image: url("../images/apple-pie.jpg");
+
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 620px;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  color: white;
+  font-size: 4.8em;
+}
+
+h3 {
+  color: gray;
+}
+
+#recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 40px;
+  margin: auto;
+  text-align: left;
+
+  justify-content: center;
+}
+
+.sectionHeading {
+  font-size: 1.2em;
+  padding: 40px;
+}
+.recipe-info {
+  margin: 10px auto;
+}
+
+#directions {
+  font-size: 1em;
+  width: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ingredients {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
