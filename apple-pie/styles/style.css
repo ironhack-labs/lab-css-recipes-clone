@@ -1,24 +1,45 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.background-section{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center center;
+  }
+
+.h1-padding{
+  padding: 200px;
+  text-align: center;
+  color: white;
+  font-size: 5em;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.div-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+img{
+  height: auto;
+  width: 400px;
+  padding-top: 10px;
+}
+.section1{
+  padding: 50px 50px 0px 50px; 
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.section2{
+  padding: 50px 50px 0px 50px; 
 }
 
-/* STYLES */
-/* Write your CSS below */
+.section3{
+  padding: 50px 50px 50px 50px;
+}
+
+ul{
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+ol{
+  padding-left: 10px;
+  list-style-type: none;
+}
