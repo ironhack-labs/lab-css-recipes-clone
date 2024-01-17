@@ -22,3 +22,23 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ----------------------------- Header Section -------------------------- */
+.header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.recipe-title {
+  position: relative;
+  top: 48vh;
+  left: 45vw;
+}
+
+/* .recipe-img {
+  width: 100vw;
+  height: 100vh;
+} */
