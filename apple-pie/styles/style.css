@@ -33,4 +33,15 @@ header {
 
 header h1 {
   color: white;
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 100px;
+}
+
+img {
+  width: 30%;
+}
+
+section {
+  border-bottom: 2px solid black;
 }
