@@ -22,3 +22,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header{
+  background-image: url('../images/apple-pie.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.description{
+  padding-top: 6vh;
+}
+
+section{
+  font-size: 2vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.title-apple{
+  font-size: 15vh;
+  text-align: center;
+  color: white;
+  padding-top: 20vh;
+}
+
+.padding-title{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.image{
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+
+.image img{
+  width: 50vh;
+  height: auto;
+}
+
+/* Metodos para el estilo de las listas */
+
+.custom-list-dash {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list-dash li:before {
+  content: "- ";
+  padding-right: 5px;
+}
+
+.custom-list-number {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: listcounter;
+}
+
+.custom-list-number > li {
+  counter-increment: listcounter;
+}
+
+.custom-list-number > li::before {
+  content: counter(listcounter) ") ";
+}
