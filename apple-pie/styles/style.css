@@ -21,4 +21,8 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+header {
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  color: white;
+  text-align: center;
+}
