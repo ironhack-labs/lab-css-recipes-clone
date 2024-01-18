@@ -23,6 +23,22 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+/* ----------------------------- Universal Elements -------------------------- */
+
+section {
+  padding: 0 25vw;
+  text-align: center;
+}
+
+hr {
+  margin-top: 2vh;
+}
+
+h3 {
+  margin: 5vh 0 3vh 0;
+  text-align: left;
+}
+
 /* ----------------------------- Header Section -------------------------- */
 .header {
   background-image: url(/apple-pie/images/apple-pie.jpg);
@@ -34,11 +50,67 @@ body {
 
 .recipe-title {
   position: relative;
-  top: 48vh;
-  left: 45vw;
+  font-size: 11vh;
+  color: white;
+  padding-top: 43vh;
+  padding-left: 33vw;
 }
 
 /* .recipe-img {
   width: 100vw;
   height: 100vh;
 } */
+
+/* ----------------------------- Recipe Intro Section -------------------------- */
+
+.recipe-intro {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.recipe-intro img {
+  width: 28vw;
+  margin-top: 3vh;
+}
+
+/* ----------------------------- Recipe Ingredients Section -------------------------- */
+
+.recipe-ingredients ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.recipe-ingredients ul > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+}
+
+.recipe-ingredients img {
+  width: 28vw;
+  margin-top: 3vh;
+}
+
+
+/* ----------------------------- Recipe Directions Section -------------------------- */
+
+.recipe-directions {
+  text-align: left;
+  padding-bottom: 10vh;
+}
+
+.recipe-directions ol > li {
+  margin-left: 2em;
+  list-style: none;
+  position: relative;
+}
+
+.recipe-directions ol > li:before {
+  counter-increment: list;
+    content: counter(list, decimal) ") ";
+    position: absolute;
+    left: -1em;
+
+}
