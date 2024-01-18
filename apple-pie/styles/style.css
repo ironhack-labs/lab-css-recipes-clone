@@ -1,24 +1,116 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+/* {
+  margin: 0;
+  padding: 0;
+} */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.4;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.container{
+	max-width: 100%;
+	width: 1170px;
+	margin: 0px auto;
+}
+
+
+header {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: calc(50% - 57px);
+
+}
+
+section {
+  margin: 100px;
+}
+
+img {
+  margin: 2rem 0;
+  position: relative;
+  left: calc(50% - 300px);
+}
+
+section:not(:last-of-type) {
+  border-bottom: 3px solid rgb(150, 150, 150);
+}
+
+
+
+p {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin: 2rem 0;
+}
+
+ul, ol {
+  font-size: 1.5rem;
+}
+
+ul {
+list-style-type: "-";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+/*
+check for the indent list and list spacing from the - 
+
+in html check for F and C tags*/
