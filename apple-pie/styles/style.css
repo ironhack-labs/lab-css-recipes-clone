@@ -29,9 +29,9 @@ ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-  max-width: 45%;
-  width: 100vw;
+  max-width: 45vw;
   margin: 0 auto;
+  color: rgb(14, 14, 14);
 }
 
 /* STYLES */
@@ -40,7 +40,7 @@ body {
 /* ----------------------------- Universal Elements -------------------------- */
 
 main {
-  padding: 16px 20px;
+  padding: 0px 80px;
 }
 
 section {
@@ -50,11 +50,15 @@ section {
 
 hr {
   margin-top: 2vh;
+  border: none;
+  height: 1.5px;
+  background-color: rgb(178, 178, 178);
 }
 
 h3 {
-  margin: 5vh 0 3vh 0;
+  margin: 2.5vh 0 2vh 0;
   text-align: left;
+  font-size: 0.75rem;
 }
 
 /* ----------------------------- Header Section -------------------------- */
@@ -63,14 +67,17 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  width: 40vw;
+  height: 34vh;
+  margin: 0 auto;
 }
 
 .recipe-title {
   position: relative;
-  font-size: 32px;
+  font-size: 38px;
+  font-weight: 300;
   color: white;
-  top: 43%;
+  top: 35%;
   left: 33%;
 }
 
@@ -83,12 +90,16 @@ h3 {
 
 .recipe-intro {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 4vh;
+}
+
+.recipe-back-story {
+  font-size: 0.7rem;
 }
 
 .recipe-intro img {
-  width: 28vw;
-  margin-top: 3vh;
+  width: 15vw;
+  margin-top: 2vh;
 }
 
 /* ----------------------------- Recipe Ingredients Section -------------------------- */
@@ -98,6 +109,7 @@ h3 {
   margin-left: 0;
   padding-left: 1em;
   text-align: left;
+  font-size: 0.65rem;
 }
 
 .recipe-ingredients ul > li:before {
@@ -107,26 +119,22 @@ h3 {
 }
 
 .recipe-ingredients img {
-  width: 28vw;
-  margin-top: 3vh;
+  width: 15vw;
+  margin-top: 2vh;
 }
 
 /* ----------------------------- Recipe Directions Section -------------------------- */
 
 .recipe-directions {
   text-align: left;
-  padding-bottom: 10vh;
+  padding-bottom: 4vh;
+}
+
+.recipe-directions ol {
+  font-size: 0.65rem;
 }
 
 .recipe-directions ol > li {
-  margin-left: 2em;
+  margin-left: 1em;
   list-style: none;
-  position: relative;
-}
-
-.recipe-directions ol > li:before {
-  counter-increment: list;
-  content: counter(list, decimal) ") ";
-  position: absolute;
-  left: -1em;
 }
