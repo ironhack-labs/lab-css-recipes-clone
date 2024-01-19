@@ -32,3 +32,15 @@ header {
   font-size: 25px;
 }
 
+section {
+  text-align: center;
+  text-justify: auto;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+
+
