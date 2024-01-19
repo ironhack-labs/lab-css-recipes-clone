@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 body {
   font-family: "Helvetica", sans-serif;
-}
+  }
 
 header {
   background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
@@ -33,6 +33,7 @@ header {
 }
 
 section {
+  font-weight:lighter;
   text-align: center;
   text-justify: auto;
   font-size: 18px;
@@ -44,15 +45,38 @@ section {
 
 img {
   max-width: 35%;
-  max-height: 50%;
+  max-height: 60%;
   position: relative;
   top: 30px;
 }
 
 hr {
-  position: relative
-  top: 30px;
+ top: 30px;
   width: 80%;
 }
+
+div ul {
+ list-style-type: none; 
+ text-align: left;
+ font-size: 15px;
+}
+
+div li::before {
+  content: "– ";
+}
+
+h4 {
+font-weight: bold;
+text-align: left;
+padding-bottom: 25px;
+}
+
+ol {
+  text-align: left;
+  font-size: 15px; 
+  padding-left: 17px;
+  text-align: justify;
+}
+
 
 
