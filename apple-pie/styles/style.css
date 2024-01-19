@@ -28,12 +28,13 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 400px;
 }
 
 header h1 {
   color: white;
-  padding-top: 50vh;
+  padding-top: 15%;
   text-align: center;
   font-size: 100px;
 }
