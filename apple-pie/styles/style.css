@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2,  h4, h5, h6, p, ol, ul, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -19,41 +19,54 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/*html,
-body {
-  margin: 0;
-  padding: 0;
+
+/*-- Imagen ----------------------------------------------------------------*/
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center center; 
+  height: 100vh; 
+  
 }
-/*-- header ----------------------------------------------------------------*/
-.header {
+
+
+
+.contenedor {
   position: relative;
+  text-align: center;
+  margin-bottom: 10px; 
+  
 }
 
-.imagen {
+.texto-centrado {
   position: absolute;
-  width: auto;
-  height: 700px;
-  overflow: hidden;
-  align-items: center;
+  top: 45%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 100px;   
 }
 
-.header img {
-  display: block;
-  margin: 0 auto;
-}*/
+.imagen { 
+  width: 800px; 
+  height: 470px; 
+  overflow: hidden; 
+}
 
-
-p {
-  text-align: center; /* Center align all p elements */
+h1 {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
 }
 
 h2 {
-  text-align: center; /* Center align all h2 elements */
+  text-align: center;
 }
 
 /*-- general ----------------------------------------------------------------*/
 .general {  
-  width: 620px;
+  width: 800px;
   margin: 0 auto;  
 }
 
@@ -91,6 +104,7 @@ h2 {
 .ingredientes ol {
   list-style-type: none;
   padding-left: 0;
+  padding-top: 10px;
 }
 
 .ingredientes ol li::before {
@@ -108,7 +122,6 @@ h2 {
 /*-- proceso ---------------------------------------------------------------*/
 .proceso h3{
   margin: 30px 0 30px 0;
-
 }
 
 .proceso li{
