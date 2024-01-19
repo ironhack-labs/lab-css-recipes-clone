@@ -1,24 +1,118 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+	box-sizing: border-box; /* element's total width and height should include padding and border */
+	font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+/*  apply to every element on the page, including pseudo-elements. */
+*,
+*:before,  /*  selects all before pseudo-elements */
+*:after { /* selects all after pseudo-elements */
+	box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+	font-family: "Helvetica", sans-serif;
+	color: #3b3736;
 }
 
 /* STYLES */
-/* Write your CSS below */
+.header {
+	background-image: url("../images/apple-pie.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+.header h1 {
+	color: white;
+	font-weight: 350;
+	text-align: center;
+	padding-top: 35vh;
+}
+
+h2 {
+	font-size: 1.5em; 
+	font-weight: bolder;
+	line-height: 4rem;
+}
+
+.introduction p {
+	font-size: 1.5rem;
+	padding: 7rem 7rem 0 7rem;
+	width: 85%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 3rem;
+}
+.cooking_image img {
+	width: 45vh;
+}
+.preparation_image img {
+	width: 50vh;
+}
+.directions {
+	text-align: left;
+	padding: 0 7rem 7rem 7rem;
+}
+
+.ingredients {
+	text-align: left;
+	padding: 0 7rem 0 7rem;
+}
+ol {
+	/* 1. Remove the default list style */
+	list-style: none;
+}
+
+ol > li {
+	/* 2. Create a custom list counter */
+	counter-increment: listcounter;
+}
+
+ol > li::before {
+	/*3. Set the new style for the list markers */
+	content: counter(listcounter) ") ";
+}
+
+ul {
+	list-style: none;
+}
+
+ul > li::before {
+	content: "- ";
+}
+
+.directions_list {
+	margin-left: 10px;
+}
+.ingredients_list {
+	margin-left: 10px;
+}
