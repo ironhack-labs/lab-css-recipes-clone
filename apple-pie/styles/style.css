@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 *, *:before, *:after {
@@ -30,8 +30,6 @@ header {
   height: 100vh; 
   
 }
-
-
 
 .contenedor {
   position: relative;
@@ -66,7 +64,7 @@ h2 {
 
 /*-- general ----------------------------------------------------------------*/
 .general {  
-  width: 800px;
+  width: 700px;
   margin: 0 auto;  
 }
 
@@ -80,9 +78,10 @@ h2 {
 }
 
 .introduccion p {
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom:40px;
   padding-top:40px;
+  text-align: center;
 }
 
 /*-- ingredientes -----------------------------------------------------------*/
