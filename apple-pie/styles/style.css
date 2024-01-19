@@ -62,7 +62,7 @@ div ul {
 }
 
 div li::before {
-  content: "– ";
+  content: "- ";
 }
 
 h4 {
