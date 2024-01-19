@@ -15,10 +15,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  }
+
+header {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+section {
+  font-weight:lighter;
+  text-align: center;
+  text-justify: auto;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+img {
+  max-width: 35%;
+  max-height: 60%;
+  position: relative;
+  top: 30px;
+}
+
+hr {
+ top: 30px;
+  width: 80%;
+}
+
+div ul {
+ list-style-type: none; 
+ text-align: left;
+ font-size: 15px;
+}
+
+div li::before {
+  content: "- ";
+}
+
+h4 {
+font-weight: bold;
+text-align: left;
+padding-bottom: 25px;
+}
+
+ol {
+  text-align: left;
+  font-size: 15px; 
+  padding-left: 17px;
+  text-align: justify;
+}
+
+
+
