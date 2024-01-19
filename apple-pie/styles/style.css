@@ -15,10 +15,20 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+
