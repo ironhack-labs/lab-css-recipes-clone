@@ -15,10 +15,115 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/*html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/*-- header ----------------------------------------------------------------*/
+.header {
+  position: relative;
+}
+
+.imagen {
+  position: absolute;
+  width: auto;
+  height: 700px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}*/
+
+
+p {
+  text-align: center; /* Center align all p elements */
+}
+
+h2 {
+  text-align: center; /* Center align all h2 elements */
+}
+
+/*-- general ----------------------------------------------------------------*/
+.general {  
+  width: 620px;
+  margin: 0 auto;  
+}
+
+/*-- introduccion -----------------------------------------------------------*/
+.introduccion img {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.introduccion p {
+  font-size: 18px;
+  padding-bottom:40px;
+  padding-top:40px;
+}
+
+/*-- ingredientes -----------------------------------------------------------*/
+
+.ingredientes ol {
+
+  padding-bottom:40px;
+  padding-top:40px;
+}
+
+.ingredientes h3 {
+  margin-top: 30px;
+}
+
+.ingredientes li {
+  margin-left: 30px;
+}
+
+.ingredientes ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ingredientes ol li::before {
+  content: "- ";
+}
+
+.ingredientes img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 30px; 
+}
+
+/*-- proceso ---------------------------------------------------------------*/
+.proceso h3{
+  margin: 30px 0 30px 0;
+
+}
+
+.proceso li{
+  margin-left: 30px;
+}
+
+.proceso ol{
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: listcounter;
+  margin-bottom: 50px;
+}
+
+.proceso ol li::before{
+  content: counter(listcounter) ")";
+  counter-increment: listcounter;
+}
+
