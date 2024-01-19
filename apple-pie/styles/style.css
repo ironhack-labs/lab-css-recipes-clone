@@ -1,24 +1,93 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+/*Some necessary adjustments*/
+h1, body, html, main {
   margin: 0;
-  padding: 0;
-  font-weight: lighter;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+/*Make the <hr>s a little thicker*/
+hr {
+    border: none;
+    height: 3px;
+    background-color: #808080; /* Modern Browsers */
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.Encabezado {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: contain;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.titulo {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+  width: 75%;
+  height: 25%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.container {
+  padding: 0 175px;
+}
+
+section {
+  font-size: 1.3rem;
+}
+
+.info-cocina {
+  padding: 60px 0;
+}
+
+.info {
+  font-size: 26px;
+}
+
+.detalles {
+  padding: 40px 0;
+}
+
+.direction-image {
+  height: 65px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.ingredientes, .info {
+  margin-bottom: 40px;
+}
+
+.ingredientes, .direction-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.ingredientes > li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.ingredientes > li:before {
+  content: "-";
+  padding-right: 2px;
+}
+
+.direction-list > li {
+  counter-increment: step-counter;
+}
+
+.direction-list > li:before {
+  content: counter(step-counter)")";
+  padding-right: 3px;
+}
