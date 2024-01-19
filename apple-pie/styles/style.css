@@ -37,10 +37,22 @@ section {
   text-justify: auto;
   font-size: 18px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   padding-right: 100px;
   padding-left: 100px;
 }
 
+img {
+  max-width: 35%;
+  max-height: 50%;
+  position: relative;
+  top: 30px;
+}
+
+hr {
+  position: relative
+  top: 30px;
+  width: 80%;
+}
 
 
