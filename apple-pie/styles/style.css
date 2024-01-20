@@ -78,3 +78,15 @@ ul, ol {
   font-size: 32px;
   line-height: 120%;
 }
+
+ol li {
+  counter-increment: listcounter;
+}
+
+ol li::before {
+  content: counter(listcounter) ")  ";
+}
+
+ul li:before {
+  content: "-  "
+}
