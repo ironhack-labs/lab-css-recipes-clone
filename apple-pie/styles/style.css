@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,117 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  max-width: 45vw;
+  margin: 0 auto;
+  color: rgb(14, 14, 14);
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ----------------------------- Universal Elements -------------------------- */
+
+main {
+  padding: 0px 80px;
+}
+
+section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr {
+  margin-top: 2vh;
+  border: none;
+  height: 1.5px;
+  background-color: rgb(178, 178, 178);
+}
+
+h3 {
+  margin: 2.5vh 0 2vh 0;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+/* ----------------------------- Header Section -------------------------- */
+.header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  height: 34vh;
+  margin: 0 auto;
+}
+
+.recipe-title {
+  position: relative;
+  font-size: 38px;
+  font-weight: 300;
+  color: white;
+  top: 35%;
+  left: 33%;
+}
+
+/* .recipe-img {
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* ----------------------------- Recipe Intro Section -------------------------- */
+
+.recipe-intro {
+  text-align: center;
+  padding-top: 4vh;
+}
+
+.recipe-back-story {
+  font-size: 0.7rem;
+}
+
+.recipe-intro img {
+  width: 15vw;
+  margin-top: 2vh;
+}
+
+/* ----------------------------- Recipe Ingredients Section -------------------------- */
+
+.recipe-ingredients ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-align: left;
+  font-size: 0.65rem;
+}
+
+.recipe-ingredients ul > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+}
+
+.recipe-ingredients img {
+  width: 15vw;
+  margin-top: 2vh;
+}
+
+/* ----------------------------- Recipe Directions Section -------------------------- */
+
+.recipe-directions {
+  text-align: left;
+  padding-bottom: 4vh;
+}
+
+.recipe-directions ol {
+  font-size: 0.65rem;
+  list-style: none;
+}
+
+.recipe-directions ol > li {
+  margin-left: 1em;
+  counter-increment: listcounter;
+}
+
+.recipe-directions ol > li::before {
+  content: counter(listcounter) ")";
+}
