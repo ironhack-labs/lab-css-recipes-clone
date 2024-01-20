@@ -132,9 +132,14 @@ h3 {
 
 .recipe-directions ol {
   font-size: 0.65rem;
+  list-style: none;
 }
 
 .recipe-directions ol > li {
   margin-left: 1em;
-  list-style: none;
+  counter-increment: listcounter;
+}
+
+.recipe-directions ol > li::before {
+  content: counter(listcounter) ")";
 }
