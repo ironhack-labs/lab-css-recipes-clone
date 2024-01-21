@@ -11,16 +11,13 @@ html {
   box-sizing: inherit;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-ol,
-ul {
+p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -29,15 +26,17 @@ ul {
 /*  Set the font */
 body {
   font-family: 'Helvetica', sans-serif;
+  justify-content: center;
 }
 /* STYLES */
 /* Write your CSS below */
+
 body img {
   margin: auto;
   display: block;
 }
 
-header h1 {
+h1 {
   color: white;
   position: absolute;
   top: 50%;
@@ -46,7 +45,7 @@ header h1 {
   font-size: 10rem;
 }
 
-p {
+body p {
   text-align: center;
   font-size: large;
 }
@@ -55,6 +54,10 @@ h3 {
   font-weight: bold;
 }
 
-ul {
-  list-style-type: hyphen;
+.ingrelist {
+  list-style-type: none;
+}
+
+.ingrelist li::before {
+  content: '-';
 }
