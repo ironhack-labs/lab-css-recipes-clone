@@ -38,7 +38,7 @@ body {
   margin: 0 auto;
 }
 
-li{
+.ul-container li{
 list-style-type: none;
 }
 .background-img{
