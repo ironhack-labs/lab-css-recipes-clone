@@ -22,3 +22,45 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  font-size: 180%;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#oneParagraph {
+  font-size: 115%;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lists {
+margin-left: 200px;
+margin-right: 150px;
+margin-bottom: 20px;
+}
+
+.images {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
