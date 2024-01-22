@@ -22,3 +22,111 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+/* Header */
+header {
+  background-size: contain;
+  height: 1000px;
+  width: 100%;
+  background-image: url(../images/apple-pie.jpg);
+}
+
+/* Responsive */
+@media (min-width: 1080px) {
+  header {
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  hr {
+    width: 570px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 678px) {
+  img {
+    width: 70%;
+  }
+  hr {
+    margin: 0;
+  }
+}
+
+@media (max-width: 578px) {
+  header {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 420px) {
+  header {
+    width: 100%;
+    background-size: cover;
+  }
+  hr {
+    width: cover;
+  }
+}
+
+@media (max-width: 420px) {
+  header {
+    background-size: cover;
+  }
+}
+
+header h1 {
+  padding-top: 450px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+/* Pie de Header */
+.piedeimagen {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 550px;
+  margin-top: 50px;
+}
+
+.receta {
+  margin-top: 50px;
+}
+
+hr {
+  width: cover;
+}
+
+.pasos h1 {
+  text-align: center;
+  position: relative;
+  right: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.pasos div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.preparacion {
+  text-align: center;
+}
+
+.segundospasos h1 {
+  text-align: center;
+  position: relative;
+  right: 220px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.segundospasos p {
+ text-align: center;
+}
