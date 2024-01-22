@@ -35,12 +35,35 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
   
+}
+
+header h1 {
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 4rem;
+  font-weight: 100;
+  
+}
+
+.paragraph {
+  font-size: 1rem;
+  padding: 0 10rem;
+  margin-bottom: 2rem;
 }
 
 .container {
   margin: 4rem 3rem;
+  padding: 1rem 3rem;
   
+}
+
+.hr {
+  margin: 2rem 0rem;
 }
 
 .title {
@@ -50,6 +73,11 @@ body {
 }
 
 .img {
-  width: 50rem;
-  margin: 0 auto;
+  display: block;
+  width: 40rem;
+  margin: auto;
+}
+
+.ordered-list {
+  list-style-position: inside;
 }
