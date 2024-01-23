@@ -43,22 +43,20 @@ header h1 {
   margin: auto;
   color: white;
   position: absolute;
-  top: 40%;
-  left: 40%;
-  font-size: 4rem;
+  top: 35%;
+  left: 35%;
+  font-size: 6rem;
   font-weight: 100;
   
 }
 
 .paragraph {
   font-size: 1rem;
-  padding: 0 10rem;
-  margin-bottom: 2rem;
 }
 
 .container {
   margin: 4rem 3rem;
-  padding: 1rem 3rem;
+  padding: 1rem 10rem;
   
 }
 
@@ -67,17 +65,45 @@ header h1 {
 }
 
 .title {
+  margin-bottom: 2rem;
   
-  
-
 }
 
-.img {
+.img-1 {
   display: block;
   width: 40rem;
-  margin: auto;
+  margin: 2rem auto;
+}
+
+.img-2 {
+  display: block;
+  width: 40rem;
+  margin: 3rem auto 2rem auto;
 }
 
 .ordered-list {
   list-style-position: inside;
+}
+
+.list {
+  list-style-type: '- ';
+  padding-left: 1rem;
+  line-height: 1.5rem;
+}
+
+.ordered-list {
+  counter-reset: list;
+  padding-left: 0.5rem;
+  line-height: 1.5rem;
+
+
+}
+
+.ordered-list li {
+  list-style: none;
+}
+
+.ordered-list li:before {
+  content: counter(list, number) ") ";
+  counter-increment: list;
 }
