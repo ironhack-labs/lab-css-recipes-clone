@@ -8,11 +8,22 @@ html {
   color: rgb(89, 89, 89);
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,30 +31,28 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica Regular"
+  font-family: "Helvetica Regular";
 }
 
 /* STYLES */
 /* Write your CSS below */
 h1 {
-  
   color: white;
-  font-size: 100px; 
-
+  font-size: 100px;
 }
 header {
-  background-image: url(../images/apple-pie.jpg) ;
+  background-image: url(../images/apple-pie.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
 p {
-font-size: 30px;
-width: 80%;
+  font-size: 30px;
+  width: 80%;
 }
 article {
   display: flex;
@@ -86,15 +95,14 @@ ol {
   font-size: 26px;
   list-style-type: none;
   margin-bottom: 100px;
-  width: 80%; 
+  width: 80%;
   margin-left: 180px;
   margin-top: 50px;
 }
 ol li::before {
-  content: counter(lista-item) ")"; 
+  content: counter(lista-item) ")";
   counter-increment: lista-item;
 }
 .section3 ol {
   counter-reset: lista-item;
-
 }
