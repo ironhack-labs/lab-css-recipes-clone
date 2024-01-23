@@ -5,7 +5,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  color: rgb(122, 122, 122);
+  color: rgb(89, 89, 89);
 }
 
 *, *:before, *:after {
@@ -36,58 +36,59 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
-  
-  
-  
-  
-}
-.section1 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;  
-}
+  }
+
 p {
 font-size: 30px;
-text-align: center;
-margin: 50px 100px;
+width: 80%;
+}
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
+}
+article img {
+  margin-top: 30px;
 }
 .line {
-  width: 84%;
+  width: 75%;
   border: 2px solid rgb(164, 161, 161);
-  margin-top: 50px;
+  margin-top: 40px;
 }
 h2 {
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-left: 100px;
+  margin-left: 170px;
   font-size: 30px;
+  color: black;
 }
 ul {
   font-size: 25px;
   font-weight: lighter;
-  margin-left: 110px;
+  margin-left: 180px;
   list-style-type: none;
 }
 ul li::before {
   content: "-";
 }
 .section2 img {
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 40px;
 }
-.line1 {
-  width: 84%;
-  border: 2px solid rgb(164, 161, 161)
-}
+
 ol {
-  font-size: 27px;
-  margin-left: 120px;
+  font-size: 26px;
   list-style-type: none;
   margin-bottom: 100px;
-  
+  width: 80%; 
+  margin-left: 180px;
+  margin-top: 50px;
 }
 ol li::before {
   content: counter(lista-item) ")"; 
