@@ -1,9 +1,5 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-/* {
-  margin: 0;
-  padding: 0;
-} */
 
 html {
   box-sizing: border-box;
@@ -52,7 +48,7 @@ header {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 700px;
 }
 
 
@@ -110,7 +106,15 @@ ol > li:before {
   counter-increment: list;
 }
 
-/*
-check for the indent list and list spacing from the - 
 
-in html check for F and C tags*/
+ol, ul {
+position: relative;
+left: 1rem;
+}
+
+li {
+  padding: 10px;
+}
+
+
+
