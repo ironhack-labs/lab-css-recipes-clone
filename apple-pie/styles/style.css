@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,64 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url("../images/apple-pieCropped.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+.article {
+  margin: 3em;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border: 2px solid black;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.list {
+  position: relative;
+  margin: 1em;
+  left: 1em;
+}
+
+.list ul,
+ol {
+  list-style: none;
+}
+
+.list ul > li::before {
+  content: "-";
+  padding: 3px;
+}
+
+.list ol > li {
+  counter-increment: listcounter;
+}
+
+.list ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+.list ol > li > p {
+  display: inline;
+}
