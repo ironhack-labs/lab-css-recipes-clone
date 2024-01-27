@@ -29,33 +29,50 @@ ul {
 /*  Set the font */
 body {
   font-family: "Open Sans", sans-serif;
-  height: 100vh;
+  margin-bottom: 3em;
 }
 
 /* STYLES */
 /* Write your CSS below */
 
-header {
-  background-image: url("../images/apple-pieCropped.jpg");
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  background-color: #102a61;
+  height: 333px;
+  background-position: center -40px;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  color: white;
+}
+
+.apple-pie__text {
+  height: 333px;
+  font-size: 2.59em;
   text-align: center;
+  color: white;
+
+  /* center the text vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-header h1 {
-  font-size: 3em;
-}
-
-.article {
+.introduction {
   margin: 3em;
+}
+
+.introduction__p {
+  margin-bottom: 1em;
+}
+
+hr, h3 {
+  margin: 1em 0;
 }
 
 .img {
   display: block;
   margin: 0 auto;
   width: 200px;
-  border: 2px solid black;
 }
 
 h3 {
