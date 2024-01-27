@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,81 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3em;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  background-color: #102a61;
+  height: 333px;
+  background-position: center -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apple-pie__text {
+  height: 333px;
+  font-size: 2.59em;
+  text-align: center;
+  color: white;
+
+  /* center the text vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introduction {
+  margin: 3em;
+}
+
+.introduction__p {
+  margin-bottom: 1em;
+}
+
+hr, h3 {
+  margin: 1em 0;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.list {
+  position: relative;
+  margin: 1em;
+  left: 1em;
+}
+
+.list ul,
+ol {
+  list-style: none;
+}
+
+.list ul > li::before {
+  content: "-";
+  padding: 3px;
+}
+
+.list ol > li {
+  counter-increment: listcounter;
+}
+
+.list ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+.list ol > li > p {
+  display: inline;
+}
