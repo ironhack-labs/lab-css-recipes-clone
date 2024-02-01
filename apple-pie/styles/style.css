@@ -1,5 +1,5 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+ /* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point 
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -14,11 +14,117 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   padding: 0;
   font-weight: lighter;
 }
+*/ 
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color: black;
+  width: 70%;
+  font-size: 2em;
+  margin: 20px auto;
+  padding-top: 20px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+}
+
+img{
+  width: 40%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 70%;
+}
+
+/* Header */
+h1 {
+  font-size: 80px;
+  font-weight: normal;
+  color: white;
+  text-align: center;  
+  padding: 150px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding: 50px;
+  text-align: center;
+}
+
+#first-section p{
+  width: 70%;
+  margin: 20px auto;
+  text-align: justify;
+  font-size: 2em;
+  padding-top: 50px;
+  line-height: 1.3em;
+}
+
+#second-section div{
+  color: black;
+  font-size: 1.6em; 
+  margin-left: 150px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify
+}
+
+#second-section li{
+  list-style:'-';
+  margin-left: 5%;
+}
+
+#third-section div{
+  color: black;
+  font-size: 1.6em; 
+  margin-left: 150px;
+  margin-bottom: 120px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify;
+  
+}
+
+#third-section li{
+  margin-left: 5%;
+}
+
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /* 3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
