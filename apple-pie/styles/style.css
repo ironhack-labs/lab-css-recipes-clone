@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 28px;
 }
 
 *,
@@ -32,6 +32,7 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
 .apple-text {
   position: absolute;
   top: 50%;
@@ -40,39 +41,76 @@ body {
 }
 
 header {
-  position: relative;
-  background: url(../images/apple-pie.jpg) no-repeat center center;
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
-  height: 400px;
 }
 
 header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  width: 100%; /* Ensures the image takes the full width of its container */
+  height: 500px; /* Sets the height to 400px */
+  object-fit: cover; /* Covers the area without stretching, may crop the image */
+  display: block; /* Removes any default inline spacing */
 }
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 84px;
 }
 
 div {
-  padding: 40px 20px;
+  padding: 50px 120px;
 }
-/* 
+
+h2 {
+  font-size: 34px;
+  padding: 20px 0 40px 0;
+  font-weight: 500;
+}
+
 section {
-  text-align: center;
-  padding-top: 50px;
-  padding-right: 60px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
- */
+
+section img {
+  display: block;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background-color: #333;
+  margin: 30px 0 60px 0;
+}
+
+ul.custom-dash {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+ul.custom-dash li::before {
+  content: "- ";
+  padding-right: 5px;
+}
+
+ul.custom-number {
+  list-style-type: none;
+  counter-reset: custom-counter;
+  padding-left: 0;
+}
+
+ul.custom-number li {
+  counter-increment: custom-counter;
+}
+
+ul.custom-number li::before {
+  content: counter(custom-counter) ") ";
+  padding-right: 5px;
+}
