@@ -38,8 +38,25 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#apple-pie-img {
+
+header {
+  position: relative;
+  background: url(../images/apple-pie.jpg) no-repeat center center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 h1 {
