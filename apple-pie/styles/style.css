@@ -50,6 +50,9 @@ header {
     padding-bottom: 40%;
     max-height: 30%;
   }
+  .info-image {
+    width: 250px;
+  }
 }
 
 h1.recipe-hero-image {
