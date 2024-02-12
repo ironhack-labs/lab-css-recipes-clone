@@ -38,12 +38,12 @@ header {
   margin: 0 auto;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   header {
-    max-width: 60%;
+    max-width: 690px;
   }
   main {
-    max-width: 60%;
+    max-width: 690px;
   }
   h1.recipe-hero-image {
     padding-top: 30%;

@@ -1,9 +1,105 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  /* background-color: #696969; */
+}
+
+/*  Set the font */
+body {
+  font-family: "Open sans", sans-serif;
+  color: #696969;
+  background-color: grey;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+main {
+  max-width: 75%;
+  margin: 0 auto ;
+  background-color: white;
+  padding: 3rem;
+}
+
+header {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  header {
+    max-width: 690px;
+  }
+  main {
+    max-width: 690px;
+  }
+  h1.recipe-hero-image {
+    padding-top: 30%;
+    padding-bottom: 40%;
+    max-height: 30%;
+  }
+  .info-image {
+    width: 250px;
+  }
+}
+
+h1.recipe-hero-image {
+  max-width: 100%;
+  max-height: 10%;
+  /* height: 100px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  /* margin-bottom: 2rem; */
+  font-size: 3rem;
+}
+
+h2 {
+  padding: 0 0 1rem 0;
+}
+
+#intro, #ingredients {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem ;
+  border-bottom: 2px grey solid;
+}
+
+.info-image {
+  display: block;
+  max-width: 75%;
+  margin: 1.5rem auto 0 auto ;
+}
+
+.list {
+  margin-inline-start: 1.5rem;
+  list-style-type: none;
+  counter-reset: list;
+}
+
+#list-ingredients > li::before {
+  margin-left: -1.2rem;
+  content: "- ";
+}
+
+
+#list-directions > li::before {
+  margin-left: -1.2rem;
+  content: counter(list) ")  ";
+  counter-increment: list;
+}
+
