@@ -45,7 +45,7 @@ Some starter code is already provided so you can jump right into it.
 
 ## Submission
 
-Upon completion, run the following commands:
+- Upon completion, run the following commands:
 
 ```
 git add .
@@ -53,7 +53,7 @@ git commit -m "done"
 git push origin master
 ```
 
-Create Pull Request so your TAs can check up your work.
+- Create a Pull Request and submit your assignment.
 
 ## Instructions
 
