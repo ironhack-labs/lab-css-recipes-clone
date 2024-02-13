@@ -48,10 +48,10 @@ header {
 }
 
 header img {
-  width: 100%; /* Ensures the image takes the full width of its container */
-  height: 500px; /* Sets the height to 400px */
-  object-fit: cover; /* Covers the area without stretching, may crop the image */
-  display: block; /* Removes any default inline spacing */
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
 }
 
 h1 {
