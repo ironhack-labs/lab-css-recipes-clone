@@ -1,24 +1,37 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.header {
+  font-family: "Protest Revolution";
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.header img {
+  width: 100%;
+
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+.header h1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-size: 100px;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+p {
+  text-align: center;
 }
 
-/* STYLES */
-/* Write your CSS below */
+#image-container {
+  text-align: center;
+
+}
+
+#second-img-container {
+  text-align: center;
+}
+
+hr {
+  width: 900px;
+}
+
+#list {
+  font-size: 20px;
+}
