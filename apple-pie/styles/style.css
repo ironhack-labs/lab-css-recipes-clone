@@ -1,5 +1,7 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -17,8 +19,110 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Roboto;;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+  color: aliceblue;
+  padding: 100px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 2em;
+  padding: 30px;
+  padding-left: 1px;
+  font-weight: 300;
+}
+.header-class div {
+  width: 70%;
+  height: 700px;
+  padding-top: 80px;
+  background-image: url("../../apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-size: cover;
+  align-content: center;
+  margin: auto;
+  padding: 100px;
+}
+
+.recipe-info{
+  flex: auto;
+  margin: auto;
+  padding: 100px;
+  padding-bottom: 0;
+
+}
+.recipe-info p{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 15px;
+}
+.recipe-info div {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.recipe-info img{
+  display: block;
+  margin: 0 auto; 
+ width: 50%;
+ padding: 20px;
+}
+
+.cooking-info{
+  flex: auto;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 0;
+
+}
+.cooking-info div{
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.cooking-info ul{
+  list-style: none;
+  font-size: 1.5em;
+  padding: 15px;
+}
+.cooking-info ul li::before {
+  content: "- ";
+}
+.cooking-info img{
+  display: block;
+  margin: 0 auto; 
+ width: 50%;
+ padding: 20px;
+}
+
+
+.directions div{
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.directions ol {
+  list-style-position: inside;
+  counter-reset: list;
+  font-size: 1.5em;
+  padding: 15px;
+}
+.directions ol > li {
+  list-style: none;
+}
+.directions ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+hr.solid {
+  border-top: 2px solid #bbb;
+  width: 80%;
+}
