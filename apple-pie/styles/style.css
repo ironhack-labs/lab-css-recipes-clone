@@ -18,7 +18,91 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin: 40px 80px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.apple-pie{
+  background-image: url('../../apple-pie/images/apple-pie.jpg');
+  zoom: 0.66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+}
+
+.section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+section{
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#first-section{
+  align-items: center;
+  width: fit-content;
+  border-bottom: solid;
+}
+
+.img-recipe{
+  width: 500px;
+  margin-top: 50px;
+}
+
+#first-p{
+  font-size: 20px;
+  width: 1000px;
+}
+
+ul{
+  padding: 20px 0px 0px 30px;
+}
+
+#second-section{
+  align-items: flex-start;
+  width: 1000px;
+  border-bottom: solid;
+}
+
+.img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-info{
+  width: 350px;
+  margin-top: 50px;
+}
+
+li{
+  font-size: 17px;
+}
+
+#third-section{
+  align-items: flex-start;
+  width: 1000px;
+}
+
+#first-list{
+  list-style-type:symbols();
+}
+
+#second-list{
+  list-style-type:decimal;
+}
