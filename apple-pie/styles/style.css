@@ -22,3 +22,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+div#appletitle {
+  display: flex;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 600px;
+  align-items:center;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+div#grandmother{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 300px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.pgrandma{
+  font-size: 30px;
+  text-align: justify;
+  color: gray;
+}
+
+.centerimg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid gray;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+div#ingredients{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 300px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+div.h2div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 250px;
+  color: gray;
+}
+
+div#directions{
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+  height: 200px;
+  margin-left: 270px;
+  margin-right: 250px;
+}
+
+ul { 
+  list-style-type: '- '; 
+}
