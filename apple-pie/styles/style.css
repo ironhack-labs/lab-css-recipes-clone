@@ -78,4 +78,5 @@ section {
 section ul {
   text-align: left;
   list-style: none;
+  line-height: 1.5em;
 }
