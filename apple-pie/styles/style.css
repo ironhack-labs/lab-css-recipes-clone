@@ -1,24 +1,82 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
+h2 {
+  padding: 30px 0px;
+  text-align: left;
+}
+
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-image: url(../images/apple-pie.jpg);
+  height: 500px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+section {
+  text-align: center;
+  padding: 30px;
+
+  & #recipe-info,
+  #cooking-info {
+    height: 100px;
+    padding: 25px;
+    border-bottom: 1px solid;
+  }
+}
+
+#intro {
+  width: 100%;
+  margin: auto;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+section ul {
+  text-align: left;
+  list-style: none;
+  line-height: 1.5em;
+}
