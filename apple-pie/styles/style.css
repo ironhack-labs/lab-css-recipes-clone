@@ -102,3 +102,18 @@ ol {
 .center ul {
   list-style-type: "-";
 }
+
+.center ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+.center ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
