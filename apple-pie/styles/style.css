@@ -24,7 +24,7 @@ body {
 /* Write your CSS below */
 
 .header-background{
-  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-image: url('../images/apple-pie.jpg');
   background-size: cover;
   background-position: center;
   height: 600px;
