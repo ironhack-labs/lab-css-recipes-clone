@@ -1,15 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +8,65 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", "sans-serif";
 }
 
-/* STYLES */
-/* Write your CSS below */
+header{
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+}
+
+  h1{
+  color: white;
+  header: 600px;
+  text-align: center;
+  padding: 300px;
+}
+
+h2{
+  color:black;
+  header:700px;
+  text-align: center;
+  padding: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+p{
+  text-align: center;
+  text-size-adjust: 10px;
+  padding:-5000px;
+}
+
+.Ingredients{
+  color:black;
+  padding: 10px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+h3{
+  color: black;
+  padding: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.Directions{
+  color:black;
+  margin-left: 30px;
+  padding:10px;
+  text-align:left;
+}
+
+.Order{
+  color:black;
+  padding:10px;
+  font-size:20px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
