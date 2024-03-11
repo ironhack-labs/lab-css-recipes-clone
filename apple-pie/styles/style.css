@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin: auto;
 }
 
 *, *:before, *:after {
@@ -22,3 +23,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+hr {
+  margin:auto;
+  width: 80%;
+}
+
+.heading {
+  display: block;
+  background-image: url('../images/apple-pie.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+  font-size:40px;
+  font-weight:500;
+  padding-top: 250px;
+  text-align: center;
+  
+}
+
+.container-info {
+  padding: 30px 10%;
+}
+
+.container-info h2 {
+  font-weight: 400;
+  padding-bottom: 20px;
+
+}
+
+.container-info ul {
+  list-style-type:none;
+}
+
+.container-info ul li {
+  text-indent: 20px;
+}
+
+.container-info ul.dashed > li {
+  text-indent: 15px;
+}
+
+.container-info ul.dashed > li:before {
+  content: "-";
+  text-indent: 15px;
+}
+
+img {
+  display: block;
+  margin: 0px auto 0px auto;
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.description {
+  display: block;
+  margin: auto;
+  padding: 50px 10% 30px 10%;
+  font-size: 20px;
+}
+
+.list-items {
+  padding-left: 20px;
+}
