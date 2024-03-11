@@ -110,9 +110,9 @@ li {
 
 /* Styling for images to ensure they are centralized */
 section img {
-  display: block; /* Changes the img from inline to block-level */
-  max-width: 100%; /* Ensure images are not larger than their container */
-  height: auto; /* Maintain the aspect ratio of the images */
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin: 20px auto; /* Centers the image and adds margin on the top and bottom */
   border-radius: 8px; /* Rounded corners for a softer look */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -120,7 +120,25 @@ section img {
 
 /* Apply a max-width to sections if needed to prevent overly wide sections */
 section {
-  max-width: 90%; /* Adjust the max-width as necessary */
-  margin: 0 auto; /* Centers the section */
-  padding: 20px 0; /* Space above and below each section */
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+ol.custom-list-style {
+  counter-reset: custom-counter;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol.custom-list-style li {
+  counter-increment: custom-counter;
+  position: relative;
+  padding-left: 40px;
+}
+
+ol.custom-list-style li::before {
+  content: counter(custom-counter) ") ";
+  position: absolute;
+  left: 0;
 }
