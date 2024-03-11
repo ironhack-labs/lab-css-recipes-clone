@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +31,74 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.sectionOne {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  margin: 20px;
+}
+
+.sectionOne h1 {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+.intro p {
+  width: 75%;
+  margin: 60px auto 45px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+img {
+  width: 350px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+hr {
+  width: 75%;
+}
+
+.ingredients {
+  width: 100%;
+  padding-left: 12.5%;
+  margin: 45px auto 20px;
+}
+
+h3 {
+  height: 40px;
+}
+
+.ingredients ul {
+  list-style: none;
+}
+
+.ingredients li {
+  padding-left: 20px;
+}
+
+/* .ingredients img {
+  position: relative;
+  left: 29.64%;
+  width: 350px;
+  margin-top: 45px;
+} */
+
+.directions {
+  padding-left: 12.5%;
+  margin: 45px auto 40px;
+}
+
+.directions p {
+  padding-left: 10px;
+  width: 85.5%;
+  text-align: justify;
+  line-height: 1.25em;
+}
