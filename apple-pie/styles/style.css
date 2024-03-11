@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,94 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  max-width: 100vw;
+  height: 90vh; /* Adjust height as necessary */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover ensures the image fully covers the area without stretching. Adjust as per your preference */
+}
+
+.overlay-text {
+  position: absolute;
+  color: white; /* Consider your image's predominant colors and adjust */
+  font-size: 6em; /* Increased font size for more prominent text */
+  text-shadow: 0 0 8px #000; /* Improves readability */
+}
+
+/* This will center all the content in the div */
+div {
+  text-align: center;
+  font-family: "Lato", sans-serif; /* A modern, readable font */
+  color: #4e443c; /* A warm, dark brown color for text */
+  background-color: #fff8f0; /* A light, warm background color */
+}
+
+/* This will style your introductory paragraph */
+.text-apple {
+  margin: 0 auto;
+  width: 80%; /* Adjust the width as necessary */
+  padding: 20px;
+  font-size: 2em; /* A slightly larger font size for better readability */
+  line-height: 1.6; /* Improved line height for better readability */
+  color: #6a5445; /* A softer brown to be easy on the eyes */
+}
+
+/* Styling the headings to stand out a bit */
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #d2691e; /* A color reminiscent of caramel or pie crust */
+  margin: 30px auto;
+  text-shadow: 1px 1px 0px #f4e8e0; /* A subtle shadow for a raised effect */
+}
+
+/* This will add styling to your unordered list */
+ul {
+  list-style: none; /* This removes the default list style */
+  padding: 0;
+  display: inline-block; /* This makes the block center-align with text-align */
+  text-align: left; /* Aligns the text inside the ul to the left */
+  margin: 0 auto; /* Centers the unordered list in the section */
+}
+
+/* This will add styling to your ordered list */
+ol {
+  list-style-position: inside; /* Positions the number inside the content area */
+  padding: 0;
+  display: inline-block; /* This makes the block center-align with text-align */
+  text-align: left; /* Aligns the text inside the ol to the left */
+  margin: 0 auto; /* Centers the ordered list in the section */
+}
+
+/* This will style each list item */
+li {
+  padding: 5px 0;
+  text-indent: -20px; /* Hanging indent */
+  padding-left: 20px; /* Align text with the rest of the content */
+  margin-bottom: 10px; /* Spacing between list items */
+}
+
+/* Styling for images to ensure they are centralized */
+section img {
+  display: block; /* Changes the img from inline to block-level */
+  max-width: 100%; /* Ensure images are not larger than their container */
+  height: auto; /* Maintain the aspect ratio of the images */
+  margin: 20px auto; /* Centers the image and adds margin on the top and bottom */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Apply a max-width to sections if needed to prevent overly wide sections */
+section {
+  max-width: 90%; /* Adjust the max-width as necessary */
+  margin: 0 auto; /* Centers the section */
+  padding: 20px 0; /* Space above and below each section */
+}
