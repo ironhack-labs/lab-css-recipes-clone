@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin: auto;
 }
 
 *, *:before, *:after {
@@ -22,3 +23,21 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.heading {
+  background-image: url('../images/apple-pie.jpg');
+  color: blueviolet;
+  padding: 100px 0px 100px 0px;
+}
+
+.container-info {
+  padding: 100px;
+}
+
+.container-info h2 {
+  font-weight: 400;
+
+}
+
+.container-info ul {
+  
+}
