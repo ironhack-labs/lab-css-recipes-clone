@@ -18,7 +18,62 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+} 
+.image-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+  padding: 30px;
 }
+.image-container img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  
+}
+.image1{
+  text-align : center;
+  object-fit: cover;
+  
+}
+.overlay-text{
+  position: absolute;
+  top: 50;
+  left: 50;
+  transform: translate(-50, 50);
+  color: white;
+  padding: 30px;
+  font-size: 80px;
+justify-content: center;  
+align-items: center;
+background-position: center;
+  
+}
+body
+.text-apple{
+text-align: justify;
+margin: auto;
+  width: 640px; 
+  padding: 30px;
+}
+
+.text-ingredients{
+  text-align: left;
+margin: auto;
+  width: 640px; 
+  padding: 30px;
+}
+.text-procedure{
+  text-align : left;
+  object-fit: cover;
+  margin-left: 30;
+    margin-right: 30;
+    padding: 30px;
+}
+
+
 
 /* STYLES */
 /* Write your CSS below */
