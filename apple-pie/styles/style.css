@@ -22,3 +22,120 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Header */
+
+#header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 0 0 25px 0;
+  position: relative;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 245px 0 0 0;
+  color: white;
+  font-size: 68px;
+}
+
+/* Section 1 */
+
+#section1 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+
+p {
+  
+  text-align: justify;
+  font-size: 18px;
+  width: 650px;
+  line-height: 1.25;
+  margin: 30px 0 0 0;
+  
+}
+
+.image {
+  width: 270px;
+  margin: 20px 0;
+}
+
+.bottom-border {
+  border-bottom: 1.5px solid darkgrey;
+  width: 650px;
+}
+
+
+/* Section 2 */
+
+
+#section2 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2 {
+  width: 650px;
+  font-size: 18px;
+  margin: 0 0;
+}
+
+.ingredients-ul {
+  width: 620px;
+  line-height: 1.5;
+  list-style-type: "- ";
+  margin: 0 0 20px 0;
+}
+
+
+
+/* Section 3 */
+
+
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+
+#directions-ol {
+  width: 630px;
+  margin: 0 0 40px 0;
+  text-align: justify;
+  line-height: 1.25;
+  
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+
+ol>li::before {
+  counter-increment: item;
+  content: counter(item, decimal) ") ";
+  
+}
+
+
+
+
+
+
