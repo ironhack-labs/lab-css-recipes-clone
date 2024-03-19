@@ -5,5 +5,110 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(55, 55, 55);
 }
+
+
+#header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 55px;
+  color: white;
+}
+
+/* Section 1 */
+
+#section1 {
+  text-align: justify;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+p {
+  width: 36rem;
+}
+
+.image {
+  width: 18rem;
+  margin-top: 1rem;
+}
+
+.bottom-border {
+  border-bottom: 2px solid darkgrey;
+  width: 36rem;
+  margin: 2rem 0 0;
+}
+
+/* Section 2 */
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.section-left-flex {
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+h2 {
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+#ingredients-ul {
+  list-style-type: "- ";
+  line-height: 1.5;
+  /* border: 1px solid black; */
+  padding: 0 0.5rem;
+}
+
+/* Section3 */
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-bottom: 3rem;
+}
+
+ol {
+  list-style: none;
+  padding: 0 1rem;
+  line-height: 1.5;
+  
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+
+
+
+
+
+
