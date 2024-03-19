@@ -20,5 +20,98 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  text-align: center; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Allows the container to shrink-to-fit */
+}
+
+.image-apple-pie {
+  display: block;
+  width: 900px; 
+  height: auto; 
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 4em; 
+}
+
+.intro-text p{
+  max-width: 700px;
+  text-align: left;
+  position: relative;
+  align-items: center;
+}
+
+.intro-text img {
+  display: block; 
+  margin: 0 auto; /* Center the image horizontally */
+  width: 400px;
+  height: auto;
+
+}
+
+.intro-text {
+  max-width: 700px;
+  margin: 0 auto; /* Center the div horizontally */
+  text-align: justify;
+}
+
+.ingredients img{
+  display: block; 
+  margin: 0 auto; 
+  width: 400px;
+  height: auto;
+}
+
+.ingredients h2,
+.ingredients ul {
+  max-width: 700px;
+  margin: 0 auto; 
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.ingredients ul li::before {
+  content: "-";
+  display: inline-block;
+  width: 1em; /* Adjust spacing between dash and text if needed */
+  margin-left: -1em; /* Move dash back to the left */
+}
+
+.centered-hr {
+    width: 700px;
+    margin: 0 auto;
+}
+  
+.directions h2,
+.directions ol {
+  max-width: 700px;
+  margin: 0 auto; /* Center the elements horizontally */
+  padding-left: 0; /* Remove default left padding */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
