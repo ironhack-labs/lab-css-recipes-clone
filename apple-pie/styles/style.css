@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +23,82 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.title {
+background-image: url(apple-pie.jpg);
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+text-align: center;
+padding: 400px 0 400px 0;
+}
+
+h1 {
+  font-size: 7em;
+  color: white;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+.intro h3 {
+  text-align: justify;
+  margin: 100px 150px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  
+}
+
+img {
+  width: 40%;
+ 
+}
+
+hr {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ingredients {
+  text-align: justify;
+  margin: 0 150px 40px 150px;
+}
+
+.ingredients h3 {
+  margin-bottom: 40px;
+}
+
+ul {
+font-size: 1.5em;
+line-height: 35px;
+}
+
+.directions {
+  text-align: justify;
+  margin: 0 150px 40px 150px;
+}
+
+.directions h3 {
+  margin-bottom: 40px;
+}
+ol {
+  font-size: 1.5em;
+  line-height: 35px;
+  list-style: decimal;
+  counter-reset: item;
+  margin-bottom: 100px;;
+}
+
+li{ 
+  display: block 
+}
+
+li:before { 
+  content: counters(item, ".") ")"; 
+  counter-increment: item 
+}
