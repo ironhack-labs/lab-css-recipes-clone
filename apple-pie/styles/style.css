@@ -1,23 +1,107 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:"Helvetica",sans-serif;
+  line-height: 1,5;
+  
+
+
+}
+.recipetitle {
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family:"Helvetica",sans-serif;
+}
+.recipetitle h1 {
+  font-size: 100px;
+  
+}
+
+.recipeintro {
+  text-align: center;
+  justify-self: auto;
+  margin: 0 20%;
+  margin-bottom: 50px;
+}
+
+.recipe-details {
+  margin-top: 100px;
+  text-align: center;
+  justify-self: auto;
+  margin: 0 20% ;
+  margin-bottom: 50px;
+  line-height: 1,5;
+
+}
+
+.recipe-details p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recipe-details ul li {
+  list-style-type: disc;
+}
+
+.recipe-details2 {
+  margin-top: 100px;
+  text-align: center;
+  justify-self: auto;
+  margin: 0 20% ;
+  margin-bottom: 50px;
+  line-height: 1,5;
+
+}
+
+.recipe-details2 p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  height:  100px;
+}
+
+
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: justify;
+  
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* STYLES */
