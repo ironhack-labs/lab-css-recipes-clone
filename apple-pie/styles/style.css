@@ -18,7 +18,75 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  width: 100vw;
+  height: 600px;
+  color: white;
+  background-size: cover;
+  text-align: center;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.rInfo{
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.rInfoContainer{
+  margin: auto;
+  border-bottom: 3.5px solid rgb(152, 152, 152);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.recipieSection{
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.recipieSection ol{
+  list-style: none;
+  font-size: 22px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.cInfo{
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cInfoContainer{
+  margin: auto;
+  border-bottom: 3.5px solid rgb(152, 152, 152);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.recipieSection p{
+  width: 100%;
+  margin-bottom: 80px;
+}
