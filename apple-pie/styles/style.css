@@ -1,16 +1,26 @@
-/* CSS RESET - do not remove */
+CSS RESET - do not remove
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,68 +28,84 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Certa Sans Extra Light";
+  font-weight: lighter;
+  /* font-family: "Helvetica", sans-serif; */
+  text-align: center;
 }
 
 /* STYLES */
 /* Write your CSS below */
+/* TODO  explain relative and absolute, absolute removed  */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
 
-
-  
-
-.apple-pie-receipe{
-  height: 10%;
-  width: 100%;
+.pie-image {
+  width: 90%;
+  height: 60em;
 }
 
-.apple-pie-heading{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+header h1 {
+  font-size: 60px;
   color: white;
-  font-size:54px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7em;
 }
 
-
-.receipe-text{
+header p {
+  font-size: 22px;
+  padding: 1em 8em 1em 8em;
   text-align: left;
-  padding: 100px 100px 100px 100px;
 }
 
-.recipe-info, .cooking-info{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-
-
-    
+.recipe-info,
+.cooking-info {
+  height: 4em;
 }
 
-
-.direction-title,.ingredients {
-  padding:10px 100px 20px 100px;
+hr {
+  width: 75%;
 }
 
-.directions,.ingredients-list{
-  padding:10px 100px 10px 120px;
-}
-
-.ingredients,.direction-title{
-  font-weight: 200;
-}
-.ingredients-list{
+#ingredients h2,
+ul {
+  padding: 1em 8em 1em 8em;
+  text-align: left;
   list-style: none;
+}
+
+#ingredients li {
+  padding: 0.2em 6em;
+  font-size: 18px;
+}
+
+#ingredients li::before {
+  content: "- ";
+}
+
+#directions h2,
+ol {
+  padding: 1em 8em 1em 8em;
+  text-align: left;
 }
 
 ol {
-  counter-reset: list;
-}
-ol > li {
   list-style: none;
+  counter-reset: ordered-list;
 }
-ol > li:before {
-  content: counter(list, decimal-leading-zero-alpha) ") ";
-  counter-increment: list;
+
+/* The counter-reset CSS property 
+creates named CSS counters and initializes them to a specific value. 
+It supports creating counters that count up from one to the number of elements,
+ as well as those that count down from the number of elements to one. */
+ol li::before {
+  content: counter(ordered-list) ")";
+  counter-increment: ordered-list;
+}
+
+ol li {
+  position: relative;
+  padding: 0 6em;
+  margin: 0.5em;
 }
