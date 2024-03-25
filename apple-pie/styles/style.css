@@ -12,13 +12,92 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+
+.header {
+  display: flex;  
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  padding: 20rem;  
+  margin-bottom: 2rem; 
+}
+
+.cooking-info-img { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1 {
+color: white;
+font-size: 4rem;
+text-align: center;
+margin: auto;
+line-height: 5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+font-size: 1.2rem;
+line-height: 1.7rem;
+margin-right: 2rem;
+margin-left: 2rem;
+font-weight: 200;
+margin-bottom: 2rem;
+
+}
+.section-1,
+.section-2,
+.section-3 {
+margin-right: 2rem;
+margin-left: 2rem;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+ul {
+list-style-type: none;
+padding: 0.5rem;
+line-height: 1.7rem;
+}
+ul li {
+  padding-left: 0.7rem; 
+  position: relative;
+}
+
+.list-ingredients li:before {
+  content: "-"; 
+  position: absolute;
+  left: 0;
+}
+
+directions-list {
+  
+}
+
+
+
