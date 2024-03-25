@@ -22,3 +22,111 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* background image and header */
+
+h1 {font-size: 4em;
+    text-align: center;
+    line-height: 4em;
+    color: white;
+    
+}
+
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 500px; 
+    position: relative;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*article container*/
+.article-container {
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 2em;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+/*setting the style for the introduction paragraph*/
+p {
+  font-size: 1.1em;
+  font-weight: lighter;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.images {
+  width: 55%;
+  margin-top: 2em;
+}
+
+/*starting with sections below*/
+
+hr {
+  margin: 20px auto 30px auto;
+  width: 80%;
+} /*this is styling the white line below text*/
+
+/*styling the headers of each section*/
+h2 {
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 2em;
+  margin: 1.3em 0;
+  font-weight: lighter;
+}
+
+/*for ingredients list */ 
+.ingredients ol {
+  /* 1. Remove the default list style */  
+  list-style-type: none;
+  text-align: left;
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.5em;
+  text-indent: 1em;
+}
+
+.ingredients ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: "- ";
+  text-indent: 5px;
+}
+
+/*for directions list*/ 
+.directions ol {  
+  list-style: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.7em;
+  padding-left: 1em;
+}
+
+.directions ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+  text-indent: 0px;
+}
+
+.directions ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+  text-indent: 5px;
+}
+
+/*add space to the bottom*/
+.directions {
+  padding-bottom: 20%;
+}
