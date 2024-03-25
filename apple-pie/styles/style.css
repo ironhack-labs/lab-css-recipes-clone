@@ -5,11 +5,34 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+.box {
+  display: flex;
+  align-items: center;
+}
+.secondimage {
+  width: 300px;
+  margin: 0 auto;
+  font-size: smaller;
+  display: block;
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-size: smaller;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -19,6 +42,42 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+main {
+  padding: 40px;
+}
 
+ul li {
+  list-style: none;
+}
+
+ul li::before {
+  content: "-";
+  margin-right: 10px;
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  font-size: 30;
+}
+.image {
+  position: relative;
+}
+.list {
+  padding: 30px;
+}
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url("../images/apple-pie.jpg");
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center center;
+}
