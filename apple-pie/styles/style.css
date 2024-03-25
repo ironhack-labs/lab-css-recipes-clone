@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --white: #fff;
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
@@ -17,8 +21,116 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Open sans', 'Noto sans', Arial, "Helvetica", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  min-height: 60vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  margin-bottom: 80px;
+}
+
+@media (min-width: 728px) {
+  header {
+    min-height: 90vh;
+  }
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width: 728px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 20px
+}
+
+@media (min-width: 728px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-weight: 100;
+}
+
+.lead {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+section {
+  padding: 30px 0;
+}
+
+section:last-of-type {
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.img-info {
+  margin-top: 20px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.img-info img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ul.ingredients li {
+  list-style-type: none;
+}
+
+ul.ingredients li:before {
+  content: "-";
+  margin-right: 10px
+}
+
+hr {
+  max-width: 800px;
+}
+
+ol.recipe-steps {
+  counter-reset: list;
+}
+
+ol.recipe-steps > li {
+  list-style: none;
+}
+
+ol.recipe-steps > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
