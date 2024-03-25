@@ -14,11 +14,44 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   padding: 0;
   font-weight: lighter;
 }
+h1{
+  color:white;
+  font-size: 5em;
+  text-align: center;
+}
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 80%;
+  padding: 0 10px 0 10px;
+  margin: 0 200px 50px 200px;
+  justify-content: center;
 }
+
 
 /* STYLES */
 /* Write your CSS below */
+header{
+  background-image: url("../images/apple-pie.jpg");
+  top: 0; left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height:650px;
+  padding:50px;
+  position: relative; 
+  text-align:center;
+}
+
+.imagesbody{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+section{
+  margin: 0 20px 0 20px;
+}
+.sec-descrip{
+  padding:50px;
+}
