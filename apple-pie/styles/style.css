@@ -3,6 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 *, *:before, *:after {
@@ -22,3 +24,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container holding the image and the text */
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+.img-container img{
+  height: 70em;
+  width: 80%;
+}
+.text-container {
+  padding: 0 10%;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  size: cover;
+  color: white;
+  font-size: 30px;
+
+}
+
+p {
+  margin: 35px;
+}
+
+ul {
+  margin-left: 55px;
+  margin-bottom:35px;
+}
+
+ol{
+  margin-left: 55px;
+  margin-bottom:35px;
+}
+
+hr {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+h2{
+margin: 35px;
+}
