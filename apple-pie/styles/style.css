@@ -22,3 +22,85 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.header{
+  background-image: url("../images/apple-pie.jpg");
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 8em;
+  color: white;
+}
+
+.first-paragraph {
+  text-align: center;
+  display: block;
+  margin-top: 3em;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding: 0;
+
+}
+
+hr{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 60%;
+}
+
+
+
+.ingredients-list{
+  margin-left: 20em;
+  list-style: none;
+  text-align: left;
+}
+
+.ingredients-title{
+  margin-left: 12em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.ingredients-list li::before{
+  content:"- "
+}
+
+
+.directions-title{
+  margin-left: 12em;
+  margin-bottom: 2em;
+
+}
+
+.directions-list{
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 5em;
+}
+
+.section-one{
+  /* height: 60vh; */
+  text-align: center;
+}
+
+.section-one{
+  /* height: 60vh; */
+  text-align: center;
+}
+
+.section-two{
+  /* height: 60vh; */
+  text-align: center;
+}
+
+.section-two img{
+  height: 5em;
+  margin-top:1em;
+}
+
+.section-one img{
+  height: 3.5em;
+  margin-top:1em;
+}
