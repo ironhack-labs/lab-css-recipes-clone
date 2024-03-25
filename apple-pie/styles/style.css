@@ -22,3 +22,85 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.headerContainer {
+  position: relative;
+
+}
+
+.header1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+
+.headerImage { 
+     
+  width: 100%;
+  height: 650px;
+  
+  
+}
+
+h1{
+  color: azure;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+
+.list{
+  padding-left: 20px;
+}
+
+
+.ContentImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width:50%;
+  padding-top: 40px;
+}
+
+
+.Info-Section{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-top: 60px;
+
+}
+
+
+.sections {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-top: 40px;
+  
+}
+
+
+hr{
+  width: 50%;
+  height: 3px;
+  background-color: black;
+}
+
+
+
+.empty-container {
+  width: 50%;
+  height: 60px;
+}
+
+
