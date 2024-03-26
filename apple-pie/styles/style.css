@@ -5,6 +5,18 @@ html {
   font-size: 16px;
 }
 
+hr {
+  width:50%;
+}
+
+p {
+  text-align: center; /* Center align all p elements */
+}
+
+div {
+  text-align: center;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -19,6 +31,45 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+.image-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.image-container img {
+  display: block;
+  width: auto;
+  height: 600px;
+  margin: 0 auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+
+
+
 
 /* STYLES */
 /* Write your CSS below */
