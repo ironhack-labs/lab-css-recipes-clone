@@ -93,11 +93,25 @@ body {
   list-style: none;
 }
 
+ul li::before {
+  content: "- ";
+}
+
 .ingredient-title,
 .direction {
   text-align: left;
   font-size: bold;
   padding-top: 40px;
+}
+
+ol {
+  list-style: none;
+  counter-reset: ordered-list;
+}
+
+ol li::before {
+  content: counter(ordered-list) ")";
+  counter-increment: ordered-list;
 }
 
 .cooking-info {
