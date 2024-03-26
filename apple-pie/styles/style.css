@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: center;
 }
 
 /*  Set the font */
@@ -20,5 +21,70 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+.image-container {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+.text-big {
+  font-weight: light;
+  padding: 5% 10%;
+  font-size: 18px;
+
+}
+
+ul, p, #directions {
+  text-align: left;
+}
+.list {
+  font-weight: light;
+  padding: 5% 10%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: ' - ';
+}
+
+.text-small {
+  font-weight: light;
+  padding: 5% 10%;
+  font-size: 16px;
+
+}
+
+.headline-second  {
+  float: left; 
+  clear: both;
+  padding: 10px 80px; 
+}
+
+.image-container-instruction {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
