@@ -5,12 +5,38 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family:"Helvetica",sans-serif;
-  line-height: 1,5;
+}
+
+body {
+  line-height: 1.5;
+  font-family: helvetica, sans-serif;
+  color: #1A1A1A;
   
 
-
 }
+
+.image {
+  background-image: url(/images/apple-pie.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.line1 {
+  max-width: 1000px;
+}
+
+.line2 {
+  max-width: 1000px;
+}
+
+.recipeintro {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 15px 40px;
+  line-height: 40px;
+  
+}
+
 .recipetitle {
   background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
   background-size: cover;
@@ -42,18 +68,15 @@ body, html {
   justify-self: auto;
   margin: 0 20% ;
   margin-bottom: 50px;
-  line-height: 1,5;
-
-}
+  line-height: 40px;
+  }
 
 .recipe-details p {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.recipe-details ul li {
-  list-style-type: disc;
-}
+
 
 .recipe-details2 {
   margin-top: 100px;
@@ -61,7 +84,7 @@ body, html {
   justify-self: auto;
   margin: 0 20% ;
   margin-bottom: 50px;
-  line-height: 1,5;
+  line-height: 40px;
 
 }
 
@@ -103,6 +126,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
 
 /* STYLES */
 /* Write your CSS below */
