@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +23,122 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ----------------------------------------- */
+
+/* I am trying to apply the responsive design I am learning at Codecademy */
+/* rem: measure related to html size. em: related to parent size*/
+/* 
+how to make responsive height? So I can use:
+ display: flex, justify-content: space-around 
+ instead of defined padding? */
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  height: 25rem;
+  background-position: center;
+  /* makes the whole picture fit */
+  background-size: cover; 
+  
+  /* makes the h1 at the middle of header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: inherit;
+  font-weight: normal;
+  /* the font-weigth schould be lighter... */
+}
+
+#section-1, #section-2, #section-3 {
+  display: flex;
+  flex-direction: column;
+  /* center an element horizontally within its parent container  */
+  margin: auto;
+  width: 85%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+#section-1 {
+  align-items: center;  
+  border-bottom: 2px solid darkgray;
+}
+
+#section-1 img, #section-2 img {
+  width: 80%;
+  padding-top: 7%;
+}
+
+#section-1 p {
+  padding-top: 2%;
+}
+
+#section-2 {
+  border-bottom: 2px solid darkgray;
+}
+
+#section-2 img {
+  /* to center the image */
+  display: block;
+  margin: 0 auto;   
+}
+
+h2 {
+  font-size: 1rem;
+  /* it is not exactly bold I wanted */
+  font-weight: bold; 
+  /* here I wanted flex */
+  padding-bottom: 3%;
+}
+
+ul, ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding-left: 2%;  
+}
+
+ul > li::before {
+  content: "- ";
+}
+  
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+  
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}  
+
+ol {
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  #section-1 img, #section-2 img {
+    width: 50%;
+    padding-top: 4%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  #section-1 img, #section-2 img {
+    width: 45%;
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #section-1 img, #section-2 img {
+    width: 35%;
+    padding-top: 2%;
+  }
+}

@@ -5,5 +5,122 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+
+header {
+  background-image: url(../images/soup.jpg);
+  height: 25rem;
+  background-position: center;
+  /* makes the whole picture fit */
+  background-size: cover; 
+  
+  /* makes the h1 at the middle of header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: inherit;
+  font-weight: normal;
+  text-align: center;
+  
+}
+
+#section-1, #section-2, #section-3 {
+  display: flex;
+  flex-direction: column;
+  /* center an element horizontally within its parent container  */
+  margin: auto;
+  width: 85%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+#section-1 {
+  align-items: center;  
+  border-bottom: 2px solid darkgray;
+}
+
+/* strange, but I see just on section 1 */
+#section-1 img {
+  padding-bottom: 3%;
+}
+
+#section-1 img, #section-2 img {
+  width: 80%;
+  padding-top: 3%;
+}
+
+#section-1 p {
+  padding-top: 2%;
+}
+
+#section-2 {
+  border-bottom: 2px solid darkgray;
+}
+
+#section-2 img {
+  /* to center the image */
+  display: block;
+  margin: 0 auto;   
+}
+
+h2 {
+  font-size: 1rem;
+  /* it is not exactly bold I wanted */
+  font-weight: bold; 
+ margin: 2% 0;
+}
+
+ul, ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding-left: 2%;  
+}
+
+ul > li::before {
+  content: "- ";
+}
+  
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+  
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}  
+
+ol {
+  margin-bottom: 5%;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  #section-1 img, #section-2 img {
+    width: 60%;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  #section-1 img, #section-2 img {
+    width: 45%;
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #section-1 img, #section-2 img {
+    width: 35%;
+    padding-top: 2%;
+  }
 }
