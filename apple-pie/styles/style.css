@@ -4,21 +4,108 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
-
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
-
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
-
 /* STYLES */
 /* Write your CSS below */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  border-bottom: 3px solid lightgray;
+  margin-bottom: 20px;
+  .image {
+    max-width: 110%;
+    height: auto;
+    object-fit: contain;
+  }
+  .maintitle {
+    position: absolute;
+    font-size: 4em;
+    color: aliceblue;
+    height: 300px;
+  }
+  .headertext {
+    margin: 50px 20px 50px 0px;
+  }
+  .recipeimg {
+    width: 50%;
+    align-self: center;
+    margin: 10px 20px 30px;
+  }
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+  border-bottom: 3px solid lightgray;
+  margin-bottom: 20px;
+  .titletwo {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+  }
+  .ingredientslist {
+    list-style-type: "-";
+    margin-left: 20px;
+  }
+  .ingredientsimg {
+    width: 45%;
+    align-self: center;
+    margin: 20px;
+  }
+}
+.directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+  margin-bottom: 50px;
+  .titlethree {
+    padding-bottom: 10px;
+    font-size: 1.3em;
+  }
+  .orglist {
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .directionslistitem {
+    counter-increment: list;
+  }
+  .directionslistitem::before {
+    content: counter(list) ")";
+  }
+}
