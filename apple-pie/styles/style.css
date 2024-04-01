@@ -13,12 +13,111 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+ 
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items:center;
+  display:flex; 
+  flex-direction: column;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  color: white;  
+  position: absolute;
+  top:40%; 
+  left:35%;
+  font-size: 100px;
+  font-weight:200;
+}
+
+#apple-img {
+
+  width:100%; 
+  height:auto; 
+  position:relative; 
+  display:block; 
+  padding:50px; 
+}
+
+#top {
+  position:relative; 
+  width:100%; 
+  text-align: center;
+}
+
+
+#intro {
+  display:flex; 
+  flex-direction:column;
+  padding-bottom: 20px;
+  width:60%; 
+  align-items:center; 
+  justify-content: center; 
+  font-size: 23px;
+  text-align: center;
+}
+
+#cooking {
+ width: 300px;
+ height:auto;
+ position:relative;
+ left:30%;
+ padding-top:40px;
+ padding-bottom: 20px;
+}
+
+h2 {
+  padding-top:40px; 
+  padding-bottom:20px;
+  font-weight: bolder;
+    
+}
+
+.content {
+  display:flex; 
+  flex-direction:column;
+  padding-bottom: 20px;
+  width:60%; 
+  align-items:left; 
+  justify-content:left; 
+  border-bottom: 1px solid black;
+
+}
+
+#div1 {
+  border-top:1px solid black; 
+}
+
+#recipe{
+
+  width: 500px;
+  height:auto;
+  padding: 20px;
+}
+
+ul {
+  padding: 0;
+  list-style-type:"-"; 
+}
+
+ol{
+  padding: 0;
+  list-style-type:none; 
+  counter-reset: my-counter; 
+}
+
+ol li{
+  counter-increment: my-counter;
+}
+
+ol li::before{
+  content: counter(my-counter) ")";
+}
+
