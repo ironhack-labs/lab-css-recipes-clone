@@ -2,8 +2,65 @@
 h1, body, html, main {
   margin: 0;
 }
+
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  height: 580px;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 280px;
+}
+
+section {
+  margin: 5% 10%;
+}
+
+img {
+  display: block;
+  height: 70px;
+  margin: 0 auto;
+}
+
+ul {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding: 1rem;
+}
+
+ul > li::before {
+  /*3. Set the new style for the list markers */
+  content: "- ";
+}
+
+
+
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding: 1rem;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
 }
