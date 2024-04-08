@@ -5,14 +5,30 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+}
+
+ul,
+ol,
+li {
+  padding: auto;
+  margin: auto;
 }
 
 /*  Set the font */
@@ -22,3 +38,80 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  color: white;
+  font-size: 100px;
+  margin-top: 130px;
+}
+
+h2 {
+  padding-bottom: 35px;
+  margin-left: 400px;
+}
+
+header {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  height: 560px;
+  padding: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.section-one {
+  padding-top: 70px;
+}
+
+.section-two {
+  padding-top: 50px;
+}
+
+.section-three {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.ingredients-list {
+  li {
+    list-style-type: none;
+  }
+
+  li:before {
+    content: " - "
+  }
+
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-bottom: 30px;
+}
+
+.steps-list {
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+
+
+hr {
+  margin: 20px auto 30px auto;
+  width: 60%;
+
+}
+
+.image-two,
+.image-one {
+  padding: 0 35%;
+}
