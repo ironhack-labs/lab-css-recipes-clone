@@ -5,20 +5,87 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+p {
   margin: 0;
-  padding: 0;
+  padding: 0%;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  text-align: center;
+  padding: 25%;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 3rem;
+  /* font-weight: bold; */
+}
+
+hr {
+  margin: 3%;
+}
+
+.img-infos {
+  text-align: center;
+}
+
+.downsizing {
+  width: 40%;
+}
+
+section {
+  padding-top: 5%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+p {
+  padding: 03% 15% 02%;
+  line-height: 1.5em;
+}
+
+
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
