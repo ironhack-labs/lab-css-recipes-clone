@@ -1,5 +1,7 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+* { margin : 0;}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -21,4 +23,73 @@ body {
 }
 
 /* STYLES */
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  filter: brightness(0.8);
+  width: 100vw;
+  height: 60vw;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 25vw;
+  text-align: center;
+  color: #ffff;
+  font-size: 3rem;
+}
+
+h2 {
+  padding-bottom: 5%;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 1%;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+
+section {
+  margin: 8% 15% 2% 15%;
+}
+
+.img1 {
+  padding-top: 6%;
+  width: 25rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.img2 {
+  padding-top: 6%;
+  width: 20rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.border {
+  padding-bottom: 6%;
+  border-bottom: 2px solid gray;
+}
+
 /* Write your CSS below */
