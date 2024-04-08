@@ -2,23 +2,118 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+div {
+  padding-left: 12px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
+  text-align: left;
   font-weight: lighter;
 }
+
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  text-align: center;
 }
+
+h1 {
+  font-weight: 400;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 240%;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+
+}
+
+
+ul {
+  list-style-type: '- '
+}
+
+ul li {
+  text-align: left;
+}
+
+
+ol {
+  counter-reset: list;
+}
+
+ol>li {
+  list-style: none;
+}
+
+ol>li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+hr {
+  border-top: 2px solid #7a7a7a;
+  border-radius: 8px;
+  margin: 20px 0px;
+}
+
+br {}
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  height: 540px;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.hero-image {
+  background-color: blue;
+  background-image: url("/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 80px 120px;
+}
+
+.recipe-image {
+  height: 60px;
+}
+
+.cooking-image {
+  height: 80px;
+}
