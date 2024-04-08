@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -21,4 +21,122 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+hr {
+  width: 70%;
+}
+
+.container {
+  max-width: 1140px;
+  border: 2px solid gray;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+
+/* main section */
+.main-section {
+  text-align: center;
+}
+
+.main-section .main-section-header {
+  position: relative;
+}
+
+.main-section .main-section-header img {
+  width: 100%;
+}
+.main-section .main-section-header h1 {
+  font-size: 4.5rem;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.main-section .main-section-body p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.main-section .main-section-body img {
+  width: 100%;
+}
+
+@media screen and (min-width:720px){
+  .main-section-header {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .main-section .main-section-header h1 {
+    font-size: 5.5rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+  .main-section .main-section-body p {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  .main-section .main-section-body img {
+    text-align: center;
+    width: 70%;
+  }
+
+  
+}
+
+
+/* ingredients section */
+
+.Ingredients .title , .directions .title {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+.Ingredients .list li {
+  font-size: 1.2rem;
+  margin-bottom: .3rem;
+  margin-left: .3rem;
+  list-style-type: none;
+}
+.Ingredients .list li::before{
+  content: '- ';
+}
+.Ingredients .img-container {
+  text-align: center;
+}
+.Ingredients img {
+  width: 100%;
+}
+
+@media screen and (min-width:720px){
+  .Ingredients .title , .directions .title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .Ingredients .list li {
+    font-size: 2rem;
+    margin-bottom: .3rem;
+  }
+.Ingredients img {
+  width: 70%;
+}
+}
+
+
+/* directions section */
+
+.directions .list {
+  line-height: 1.4;
+}
+.directions .list li{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+@media screen and (min-width:720px){
+  .directions .list li{
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+}
