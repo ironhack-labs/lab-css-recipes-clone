@@ -9,10 +9,15 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h3, h4, h5, h6, p, ol {
+  text-align: center;
   margin: 0;
   padding: 0;
+  /*width:100%;*/
+  margin-left:auto;
+  margin-right:auto;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +27,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+  .image-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100vh;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.firstp {
+  font-size: 37px;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  line-height: 1;
+   
+}
+
+hr {
+  border: none;
+            height: 2px;
+            background-color: #ccc;
+            margin: 40px 0;
+            margin-inline-start: 10%;
+            margin-inline-end: 10%;
+}
+
+
+.ingredient1, .directions {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  line-height: 1.5;
+  margin-bottom: 30px; 
+ }
+
+.ingredient1 {
+  ul {
+    list-style-type: "-";
+  }
+  li {
+    padding-left: 5px;
+  }
+}
+
+ol {
+  margin-left: 2%;
+  text-align: left;
+  font-size: 16px;
+}
+
+ 
+
