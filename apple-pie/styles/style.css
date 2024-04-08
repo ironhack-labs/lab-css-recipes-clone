@@ -10,7 +10,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-weight: lighter;
 }
@@ -22,3 +22,45 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1{
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  background-image: url(../images/apple-pie.jpg);
+  padding: 20% ;
+  background-repeat: no-repeat;
+}
+.quote{
+  font-size: 1.5em;
+  border-bottom: 2px solid black;
+  margin: 5% 0 5% 5%;
+}
+.ingredients{
+  font-size: 1.1em;
+  border-bottom: 2px solid black;
+  margin: 5% 0 5% 5%;
+  
+} 
+.ingredients ul,li{
+  margin-left: 1%;
+}
+.direction{
+  font-size: 1.1em;
+  margin: 5% 0 5% 5%;
+}
+.list{
+  list-style-type: '- ';
+}
+h2{
+  margin-bottom: 2%;
+}
+img{
+  display: block;
+  margin: auto;
+}
+.list2{
+  list-style-type: none;
+}
+body, h3, h4, h5, h6, p, ol, ul {
+ text-align: left;
+}
