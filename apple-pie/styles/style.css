@@ -75,8 +75,6 @@ article {
 
 }
 
-
-
 .edit-images {
   width: 40%;
   display: block;
@@ -97,11 +95,10 @@ article {
 
 .parenthesis-list {
   li {
-    list-style-type: decimal;
+    list-style-type: none;
   }
 
   li:before {
-    content: " ) ";
-
+    content: counter(list-item) ") "
   }
 }
