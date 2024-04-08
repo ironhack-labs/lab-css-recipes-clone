@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +23,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+img {
+  display: flex;
+  height: fit-content;
+  margin: 10px;
+  width: 1499px;
+}
+
+.ImagesCenter {
+  height: 130px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  ;
+}
+
+#ApplePieText {
+  text-align: center;
+  color:white;
+  justify-content:space-between;
+  font-size: 100px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#GrandRecipe {
+  margin: 100px 200px;
+  text-align: center;
+  font-size: 35px;
+}
+
+#Ingredients {
+  text-align: left;
+  color:black;
+  font-size: 50px;
+  position: relative;
+  top: 40%;
+  left: 13%;
+}
+
+UL {
+  content: "-";
+  margin-left: 200px; 
+  margin-top: 20px;
+}
+
+#Directions {
+  margin-top: 20px;
+  text-align: left;
+  color:black;
+  font-size: 50px;
+  position: relative;
+  top: 40%;
+  left: 13%;
+}
+
+hr {
+  width: 1100px;
+}
