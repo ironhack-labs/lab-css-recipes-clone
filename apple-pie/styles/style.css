@@ -9,9 +9,9 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 20px;
+  padding: 20px;
   font-weight: lighter;
 }
 
@@ -22,3 +22,43 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#ordered-list> li {
+  list-style-type: "-";
+}
+
+#big-image {
+  width: 50%;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  top: 50%;
+  left: 50%;
+  
+ 
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:white
+  /*overflow: auto;*/
+}
+
+.contenedor{
+  background-image: url("apple-pie.jpg");
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+p, ol {
+  text-align: justify;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: 50px
+}
+.imatge-petita {
+  height: 80px;
+  padding-left: 200px;
+  padding-right: 500px;
+}
