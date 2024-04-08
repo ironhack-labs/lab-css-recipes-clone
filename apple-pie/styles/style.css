@@ -5,20 +5,103 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
+  color: darkslategrey;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+h1 {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);  
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 60px; 
+  text-align: center;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h2 {
+  font-size: 20px; 
+  margin: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.intro p {
+  font-size: 22px;
+  text-align: justify;
+}
+.intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.icons {
+  text-align: center;
+  font-size: 14px;
+  color: darkslategrey;
+}
+hr {
+  max-width: 80%;
+  margin: 40px;
+}
+.ingredients li {
+  font-weight: 300; /* doesnt work*/
+}
+li {
+  font-size: 17px;
+  line-height: 1.5;
+  list-style-type: none;
+}
+.paragraph {
+  font-size: 17px;
+  margin: 25px;
+  line-height: 1.5;
+  color: darkslategrey;
+}
+
+.ul-no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  color: darkgrey;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 8px;
+}
