@@ -1,24 +1,89 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
+h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+h2,
+h3 {
+  padding: 1rem;
+}
+
+ul,
+ol,
+li {
+  padding: auto;
+  margin: auto;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+article {
+  text-align: center;
+  text-align: justify;
+
+}
+
+.image3,
+.image2 {
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+  padding: 3rem 0 2rem 0;
+}
+
+.bg-image {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 20rem;
+  text-align: center;
+  margin-bottom: 3rem;
+
+
+}
+
+.contenedor1 {
+  margin: 0 30% 10% 30%;
+}
+
+.ul-list {
+  li {
+    list-style-type: none
+  }
+
+  li:before {
+    content: " - "
+  }
+
+}
