@@ -12,13 +12,71 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif; /*  Set the font */
+}
+body{
+  padding: 0 25px;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+ul, ol, li {
+  padding: initial;
+  margin: initial;
 }
 
-/* STYLES */
-/* Write your CSS below */
+img{
+  width: 100%;
+}
+
+.header{
+  position: relative;
+}
+
+.header img{
+  height: 500px;
+  background-size: cover;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  top: 40%;
+  left: 40%;
+}
+
+h2{
+  margin: 0 0 1rem 0;
+}
+
+p{
+  text-align: center;
+  line-height: 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+section{
+  padding: 55px;
+}
+
+hr{
+  width: 70%;
+}
+
+section img{
+  width: 500px;
+}
+
+.box-list{
+  margin: 1rem 0 1rem 6rem;
+}
+
+section .img-box {
+  text-align: center;
+  
+}
+
+
