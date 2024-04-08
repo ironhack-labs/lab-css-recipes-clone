@@ -7,3 +7,97 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.recipe-cooking-info{
+  max-width: 100%;
+  height: auto;
+  padding: 0px 500px 0px 500px;
+  
+  
+
+}
+
+hr {
+  text-align: left;
+  margin: 0px 100px 0px 100px;
+  padding: 0px 50px 0px 50px;
+}
+.photo img{
+  max-width: 100%;
+  height: auto;
+}
+.photo {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.centered h1 {
+  font-size: 72px;
+}
+
+.summary{
+  text-align: center;
+  margin:50px;
+  padding:0px 40px 0px 40px;
+  color: rgb(105, 104, 104);
+
+
+}
+.ingredients h2 {
+  margin: 0px 60px 0px 60px;
+  padding: 20px;
+
+
+
+}
+
+ul {
+  margin: 0px 70px 0px 70px;
+
+}
+
+
+ul li{
+  list-style-type: none;
+}
+ul li:before {
+  content: "-"; /* Adds hyphen before each list item */
+  display: inline-block;
+  width: 1em; /* Adjust as needed */
+  margin-left: -1em; /* Adjust as needed to align hyphens properly */
+}
+
+
+
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+
+.directions h2{
+  margin: 0px 60px 0px 60px;
+  padding: 20px;
+}
+ol {
+  margin: 0px 70px 0px 70px;
+
+}
