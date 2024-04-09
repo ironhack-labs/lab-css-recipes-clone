@@ -22,3 +22,58 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-position: cover;
+  height: 1000px;
+}
+
+header h1 {
+  text-align: center;
+  line-height: 1000px;
+  color: white;
+  font-size: 150px;
+}
+
+section {
+  padding: 50px 150px 0px 150px;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+
+section h2 {
+  padding-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+  padding-top: 40px;
+}
+
+hr {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+ul {
+  list-style-type: '- ';
+  padding-left: 20px;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding-bottom: 40px;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
