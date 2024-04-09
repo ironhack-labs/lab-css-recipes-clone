@@ -1,13 +1,15 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
@@ -15,10 +17,88 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  justify-content: center;
+}
+h1 {
+  font-Size: 120;
+  text-align: center;
+  text-Transform: uppercase;
+  color: white;
+  
+}
+.header{height: 650px;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url("/images/apple-pie.jpg");
+  background-repeat: none;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+
+
+
+.paragraph {
+  margin: 80px 250px 40px 250px;
+  padding: 30px;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+.paragraph p {
+  font-size: 25px;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+}
+
+
+.paragraph img {
+  padding: 20px;
+  margin: auto;
+  margin-left: 150px;
+}
+
+
+.paragraph hr {
+  width: auto;
+  border: 1px solid #000;
+}
+
+
+.recipe {
+  font-size: 25px;
+  display: inline-block;
+}
+
+
+.recipe h2 {
+  margin-left: 275px;
+  font-weight: 400;
+}
+
+
+#recipe-list {
+  width: 600px;
+  margin: 50px 500px 50px 300px;
+
+
+}
+
+
+#recipe-list img {
+  margin-top: 50px;
+  margin-left: 160px;
+}
+
+
+.directions {
+  display: inline-block;
+  width: 600px;
+  margin: 50px 500px 50px 300px;
+}
+
