@@ -2,8 +2,63 @@
 h1, body, html, main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.banner img {
+  height: auto;
+  width: 100%;
+}
+
+.recipeInfoImg img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+margin-bottom: 2em;
+width: 50%;
+}
+
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 40%;
+}
+
+.title {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  font-size: 4em;
+}
+
+.recipeInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+section {
+ margin-right: 10em;
+ margin-left: 10em;
+}
+
+main {
+  margin-top: 5em;
 }
