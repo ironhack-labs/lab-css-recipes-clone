@@ -10,8 +10,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 180;
   font-weight: lighter;
 }
 
@@ -22,3 +22,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header{
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  height: 300px;
+  padding: 12px; ;
+  background-color: azure
+ 
+  
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2 {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+}
+h3 /* imagn*/ { 
+  text-align: justify;
+  padding: 20px;
+  max-width: 100%;
+  height: 46px
+}
+h4 {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+}
+h5 {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+}
+h6 {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px; }
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #ffffff; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  border-radius: 8px; }
+  #description{
+    padding: 10px 40px;
+    background-color: none;
+    height: 100%;
+    width: 50%;
+    width: 100vw;
+    font-size: 20px;
+  
+  }
+
+
+  div{text-align: center;
+  height: 46px;
+  padding: 20px 40px; }
+
+
+  
+
+  
