@@ -15,10 +15,47 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
-
-/* STYLES */
-/* Write your CSS below */
+header{
+  color: white;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 400px;
+}
+h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 60px;
+}
+.parrafo {
+  text-align: center;
+  padding-top: 40px; 
+}
+#principal {
+  text-align: center;
+}
+.ingredients {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  margin-left: 10%;
+}
+section {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+img {
+  height: 60px;
+}
+.final {
+  padding-bottom: 50px;
+}
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+ul {
+  list-style: none;
+} 
