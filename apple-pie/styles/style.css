@@ -18,7 +18,73 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding-bottom: 50px;
 }
+.header{
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  color: white;
+  background-size: cover;
+  height: 600px;  
+}
+header h1{
+text-align: center;
+font-size: 70px;
+line-height: 600px;
+}
+.description{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 28px;
+}
+
+.first{
+  text-align: center;
+}
+
+section{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+h3{
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ul{
+  font-size: 22px;
+}
+ol{
+  font-size: 22px;
+}
+ol { 
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")  ";
+}
+
+.recipe-info{
+text-align: center;
+}
+
+ul{
+  list-style-type: "-   ";
+}
+
+.info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 450px;
+  padding-top: 20px;
+}
+
 
 /* STYLES */
 /* Write your CSS below */
