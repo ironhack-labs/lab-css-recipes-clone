@@ -1,24 +1,45 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+* {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  box-sizing: border-box;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+section{
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+div {
+  width: 130px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 10px 7px 27px -12px rgba(0,0,0,0.75);
+  transition: 300ms;
+}
+
+div img{
+  border-radius: 50%;
+}
+
+div:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 7px 27px -20px rgba(0,0,0,0.75);
+}
+
+@keyframes slide-in {
+  from{
+    transform: translateX(-100px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
