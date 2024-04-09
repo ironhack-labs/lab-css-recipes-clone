@@ -7,3 +7,41 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.header {
+  background-image: url("/french-soup/images/soup.jpg");
+  height: 700px;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  padding-top: 25%;
+  color: white;
+  font-size: 80px;
+}
+.ingredients-section {
+  padding: 0 70px 0 70px
+}
+p {
+  text-align: center;
+}
+.align{
+  align-items: center;
+}
+ol {
+  list-style: none;
+}
+ol>li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol>li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+ul {
+  list-style-type: "- ";
+}
+div {
+  text-align: center;
+}
