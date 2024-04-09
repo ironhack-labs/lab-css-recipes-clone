@@ -39,7 +39,21 @@ body {
 .hero-apple {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
+  align-items: center;
+}
 
+<style>
+
+/* Estilos opcionales para dar formato */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
 }
 
 
