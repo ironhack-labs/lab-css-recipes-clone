@@ -1,0 +1,81 @@
+
+
+*{
+    font-family: Helvetica, sans-serif;
+    font-weight: 50;
+    line-height: 150%;
+    font-stretch: condensed;
+    
+}
+
+.center{
+    text-align: center;
+}
+.main-section{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.applepie{
+    display: flex;
+    height: 600px;
+    background-image: url(apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.white{
+    color: white;
+    font-size: 400%;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+}
+
+.scndsection{
+    display: flex;
+    flex-direction: column;
+}
+.grandmother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+}
+
+.recipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 2%;
+}
+
+h4{
+    font-weight: 500;
+}
+
+hr{
+    width: 70%;
+
+}
+
+ul{
+    font-size: 90%;
+    list-style: none;
+    padding-left: 1%;
+
+    
+}
+
