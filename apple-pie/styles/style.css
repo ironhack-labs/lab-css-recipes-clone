@@ -22,3 +22,83 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+body {
+font-family: Helvetica, sans-serif;
+}
+
+.background-image {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height: 60vh;
+}
+.flex-center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;    
+}
+
+.section {
+  margin: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+    
+}
+.section p{
+  font-size: 20px;
+}
+.section img{
+  width: 500px;
+}
+.section h2{
+  
+  margin-bottom: 20px;
+}
+.separator{
+  margin: 50px auto;
+  width: 80vw;
+  border-bottom: 1px solid grey;
+
+  
+}
+.section-ingredients{
+align-items: flex-start;
+
+}
+.section-ingredients ul{ 
+  margin-left: 10px;
+  list-style: none;
+}
+.section-ingredients ul li:before {
+  content: "-"; 
+  margin-right: 5px; 
+}
+.section-ingredients div{
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.section-ingredients ol{ 
+  margin-left: 10px;
+  list-style: none;
+
+}
+.section-ingredients ol  li {
+  counter-increment: listcounter;
+}
+.section-ingredients ol li:before {
+  content: counter(listcounter) ")";
+  margin-right: 5px;
+}
