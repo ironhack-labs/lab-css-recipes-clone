@@ -1,5 +1,3 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -11,14 +9,84 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding-bottom: 1rem;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header {
+    width: 100vw;
+    height: 60vh;
+    position: relative; /* Añade posición relativa al encabezado */
+}
+
+.bg-image {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+.title {
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.info {
+   text-align: center; 
+   font-size: small;
+   padding: 2rem 2rem 0 2rem;
+}
+
+.info img {
+    width: 40vw;
+    padding-top: 2rem;
+}
+
+.ingredients {
+    font-size: small;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.ingredients ul{
+    padding: 0 0 0 0;
+    list-style-type: none;
+}
+
+.ingredients img { 
+    display: block;
+    margin: auto;
+    width: 40vw;
+    padding-top: 2rem;
+}
+
+.directions {
+    font-size: small;
+   padding: 2rem 2rem 0 2rem;
+}
+
+.directions ol {
+    counter-reset: item;
+    padding-left: 0;
+}
+
+.directions ol li {
+    display: block;
+
+}
+
+.directions ol li::before {
+    display: inline-block;
+    content: counter(item) ") ";
+    counter-increment: item;
+    padding-right: 0.8em;
+}
