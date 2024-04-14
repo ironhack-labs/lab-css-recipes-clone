@@ -1,5 +1,3 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -11,14 +9,90 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding-bottom: 1rem;
   font-weight: lighter;
 }
-
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
+header{
+  width: 100vw;
+  height: 60vh;
+}
 
-/* STYLES */
-/* Write your CSS below */
+.img-header{
+  background-image: url('/lab03/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.titulo{
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    padding-top: 25vh;
+    position: relative;
+}
+.info p{
+  text-align: justify;
+  font-size: small;
+  padding-top: 8vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 4vh;
+  
+}
+.info img{
+  
+  width: 45vw;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0%;
+  padding-bottom: 4vh;
+}
+.ingredients h2{
+  padding-top: 4vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 4vh;
+}
+.ingredients ul{
+
+  font-size: small;
+  list-style: none;
+  padding-top: 0vh;
+  padding-left: 12vh;
+  padding-right: 8vh;
+  padding-bottom: 8vh;
+}
+.ingredients img{
+  
+  width: 45vw;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0%;
+  padding-bottom: 4vh;
+}
+.directions h2{
+  padding-top: 4vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 4vh;
+}
+.directions ol{
+  font-size: small;
+  padding-top: 0vh;
+  padding-left: 12vh;
+  padding-right: 8vh;
+  padding-bottom: 8vh;
+  counter-reset: item;
+}
+.directions ol li {
+  display: block;
+
+}
+.directions ol li::before {
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  padding-right: 0.8em;
+}
