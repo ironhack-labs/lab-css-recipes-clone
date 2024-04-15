@@ -22,3 +22,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.banner h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top:50%;
+  width: 100%;
+  transform: translateY(-50%);
+  font-size: 70px;
+}
+
+.page {
+  margin-right: 100px;
+  margin-left:100px;
+}
+
+.intro {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.image {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.image img {
+  width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+}
+
+#bold {
+  padding: 10px;
+  margin: 10px;
+}
+
+.ingredients ul {
+  list-style-type:disc;
+  padding: 2px;
+  margin-left: 50px;
+}
+
+.ingredients li {
+  padding: 3px;
+}
+
+.prep ol {
+  padding: 2px;
+  margin-left: 50px;
+}
+
+.prep li{
+  padding: 3px;
+}
