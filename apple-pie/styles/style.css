@@ -1,5 +1,8 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -17,8 +20,86 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Raleway';
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url(apple-pie.jpg);
+}
+
+.image-apple {
+  position: relative;
+}
+
+.image-apple img {
+  width: 100vw;
+  height: 30em;
+  object-fit: cover;
+}
+
+.text-apple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-weight: 400;
+  color: white;
+  font-size: 4vw;
+}
+
+h3 {
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.all-recipe {
+  padding: 4em;
+}
+
+/*
+.all-recipe img {
+  position: relative
+}
+*/
+
+section img {
+width: 32%;
+}
+
+.container-img {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+ul li:before {
+  content: "-"
+}
+
+ul li {
+  list-style-type: none;
+  /*  list-style: "-"; */
+}
+
+ol li {
+  list-style: none;
+  content: counter(li);
+  counter-increment: listcounter;
+}
+
+.separador {
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
