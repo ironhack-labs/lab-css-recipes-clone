@@ -22,3 +22,100 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#topContainer { 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Image and h1 styling */
+.heading {
+  position: relative;
+  width: 100%;
+}
+
+.heading h1 {
+    font-size: 3em;
+    font-family: "Helvetica", sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+
+.heading img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+  padding: 10px;
+}
+
+/* Recipe Summary paragraph styles */
+.summary { 
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: center;
+  margin: 50px 50px 15px
+}
+
+
+/* Ingredients Section */
+section h2{
+  font-weight: normal;
+  border-top: 2px solid #858484;
+  width: 80%;
+  margin: 20px auto;
+  padding-top: 1em;
+}
+
+/* ul, ol , li's styles */
+#ingredients ul,
+#directions ol {
+  list-style: none;
+  padding-left: 0;
+}
+ 
+#ingredients li:before {
+  content: "- ";
+}
+
+#directions ol {
+  counter-reset: steps;
+}
+
+#directions li:before {
+  content: counter(steps, decimal) ") ";
+  counter-increment: steps;
+}
+
+/* Lists positioning */
+li {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image Positioning */
+img.recipeInfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 50px;
+}
+
+img.cookingInfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 70px;
+}
