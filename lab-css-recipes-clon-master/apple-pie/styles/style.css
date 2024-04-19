@@ -1,0 +1,115 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+/* CSS Reset */
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* General Styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+/* Header Section with Image */
+header {
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+/* Main section Images */
+
+main img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main section padding reFactor */
+main section {
+  padding: 2rem 0;
+}
+
+/* Main Sections */
+main {
+  padding: 2rem 4rem;
+}
+
+#recipe-information p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+}
+
+/* This block has been refactored into the prop main img{} */
+/* #recipe-information img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+} */
+
+/* Ingredient Section */
+
+/* This block has been refactored into the main section{} block */
+/* #ingredients {
+  padding: 2rem 0;
+} */
+
+#ingredients ul {
+  list-style-type: "- ";
+  margin: 0 0 3rem 2rem;
+}
+
+#ingredients li {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+#ingredients img {
+  width: 60%;
+}
+
+/* This block has been refactored into the prop main img{} */
+/* #ingredients img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+} */
+
+/* Directions Section */
+#directions ol {
+  list-style-type: none;
+  margin: 0 0 3rem 2rem;
+  counter-reset: section;
+}
+
+#directions ol li::before {
+  content: "" counter(section) ") ";
+  counter-increment: section;
+}
+
+#directions li {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
