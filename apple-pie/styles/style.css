@@ -1,3 +1,5 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -5,11 +7,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +30,101 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* General styling */
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+/* Header section with background image */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 4em;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Main section */
+
+main img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+main section {
+  padding: 2rem 0;
+}
+
+main {
+  padding: 2rem 4rem;
+}
+
+#recipe-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#recipe-info p {
+  padding: 40px;
+  font-size: 1.5rem;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+}
+
+/* Ingredients section */
+
+#ingredients ul {
+  list-style-type: "- ";
+  margin: 0 0 3rem 2rem;
+}
+
+#ingredients li {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#ingredients img {
+  width: 60%;
+}
+
+/* Directions section */
+
+#directions ol {
+  list-style-type: none;
+  margin: 0 0 3rem 2rem;
+}
+
+#directions ol > li {
+  counter-increment: listcounter;
+}
+
+#directions ol > li:before {
+  content: counter(listcounter) ")";
+}
+
+#directions li {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
