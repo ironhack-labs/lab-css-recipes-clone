@@ -1,24 +1,86 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+body, h1, h2, p, ol, ul, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
 }
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica";
+    /* font */
+}
+.background-img {
+    background-image: url('/apple-pie/images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:  100vw;
+    height: 40vh;
+    /*Backgorund applepie img - previous flex */
 }
 
-/* STYLES */
-/* Write your CSS below */
+.flex-center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* fixing h1 + Background image position */
+}
+h1 {
+    color:white;
+    font-size: 80px;
+}
+.spacing {
+    display: flex;
+    margin: 3vh 20vh;
+    flex-direction: column;
+    align-content: center;
+    /* Justify flex margin - box 80% vp */
+}
+.spacing p {
+    font-size: 20px;
+    text-align: justify;
+    /* fixing text proportion */
+}
+
+.spacing img {
+    width: 60%;
+    align-self: center;
+    /* fixing cooking-recipe image position & size */
+}
+
+.linea {
+    width: 80vw;
+    border-bottom: 2px solid grey;
+    margin: 50px auto;
+    /* separator + taking consideration of flexbox proportion */
+} 
+
+h2 {
+    font-size: 35px;
+    margin: 30px 0px;
+}
+.spacing li {
+    font-size: 20px;
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* fixing list marks, position vs h2 */
+}
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+  }
