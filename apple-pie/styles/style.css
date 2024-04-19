@@ -1,24 +1,80 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header {
+  height: 700px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 5.5rem;
+}
+
+main img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+main section {
+  padding: 2rem 0;
+}
+
+main {
+  padding: 2rem 4rem;
+}
+
+#about-rcipe p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#ingredients ul {
+  list-style-type: "- ";
+  margin: 0 0 3rem 2rem;
+}
+
+#ingredients li {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+#ingredients img {
+  width: 60%;
+}
+
+#directions ol {
+  list-style-type: none;
+  margin: 0 0 3rem 2rem;
+  counter-reset: section;
+}
+
+
+#directions li {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
