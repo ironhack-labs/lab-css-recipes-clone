@@ -1,0 +1,137 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+
+header{
+
+  background-image: url("/images/apple-pie.jpg");
+  text-align: center;
+  height: 600px;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+h1{
+  vertical-align: middle;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left:20%;
+  right: 20%;
+  color: white;
+  font-size: 4em;
+}
+
+section{
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+.section1{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.section1 img{
+
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.section1 p{
+
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
+
+}
+
+.section2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section2 h2{
+  margin-bottom: 20px;
+}
+
+.section2 ul{
+  list-style: none;
+}
+.section2 ul li{
+
+  text-align: left;
+  font-size: 1em;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 5px;
+
+}
+
+.section2 img{
+
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.section3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section3 ol{
+  list-style: none;
+}
+
+.section3 ol li{
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.section3 h2{
+  margin-bottom: 20px;
+}
+
+.section3 p{
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
+
+.solid{
+  border-top: solid;
+  margin-left: 250px;
+  margin-right:250px;
+  
+}
