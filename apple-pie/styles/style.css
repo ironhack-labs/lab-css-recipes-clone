@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -5,11 +6,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +29,99 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* ------------------------------------------------------------> Header Section */
+header {
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------> Main Section */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 2rem 4rem;
+}
+
+main section {
+  margin: 25px;
+}
+
+main img {
+  width: 80%;
+  display: block;
+  margin: 30px auto;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+/* ------------------------------------------------------------> Reciepe Information Section */
+#reciepe-information p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* ------------------------------------------------------------> Ingredients Section */
+#ingredients ul {
+  list-style-type: "- ";
+  margin: 0 0 3rem 2rem;
+  counter-reset: section;
+}
+
+/* ------------------------------------------------------------> Directions Section */
+#directions ol {
+  list-style-type: none;
+  margin: 0 0 3rem 2rem;
+  counter-reset: section;
+}
+
+#directions ol li::before {
+  content: "" counter(section) ") ";
+  counter-increment: section;
+}
+
+#directions li {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+
+/* ------------------------------------------------------------> Media Queries */
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  main img {
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+  }
+}
