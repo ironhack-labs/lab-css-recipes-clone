@@ -1,0 +1,135 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.background-image {
+  background-image: url("./image/apple-pie\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.flex-center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.spacing {
+  margin: 20px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacing p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.spacing img {
+  margin-left: 100px;
+  width: 500px;
+  margin-top: 50px;
+}
+.spacing h2 {
+  margin-bottom: 20px;
+}
+.separator {
+  width: 80vw;
+  border-bottom: 2px solid grey;
+  margin: 50px auto;
+}
+
+.fix-spacing {
+  align-items: flex-start;
+}
+
+section ul{
+  margin-left: 15px;
+  list-style: " ";
+}
+
+section ul li{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.fix-spacing ul li:before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.fix-spacing div {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+section ol {
+  list-style-type: none;
+  counter-reset: list-counter;
+  margin: left 10px;
+}
+
+/* Reset default list style */
+ol {
+  list-style-type: none;
+  counter-reset: custom-counter;
+}
+
+/* Style list items */
+ol li {
+  counter-increment: custom-counter;
+  margin-bottom: 5px; /* Optional: Adjust spacing between list items */
+}
+
+/* Insert custom number before each list item */
+ol li::before {
+  content: counter(custom-counter) ") "; /* Custom format for numbering */
+}
+section ol li{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+/* STYLES */
+/* Write your CSS below */
