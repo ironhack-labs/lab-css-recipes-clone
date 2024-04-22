@@ -1,0 +1,76 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font: 18px;
+}
+/* section with image */
+
+header{
+    height: 450px;
+    background-image: url("/lab-css-recipes-clone/french-soup/images/soup.jpg");
+   background-position: center;
+   background-size: cover; 
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+h1{
+    color: white;
+    font-weight: 100;
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+/* image */
+
+main img {
+    width: 90%;
+    display: block;
+    margin 0 auto;
+ }
+
+ #recipe-information p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/* ingredients */
+
+#ingredients ul {
+    list-style-type: "-";
+    margin:0 0 3rem 2rem;
+
+}
+
+#ingredients li{
+font-size: 0.9rem;
+font-weight: 100;
+}
+
+#ingredients img{
+    width: 90%;
+}
+
+/* directions */
+
+#directions ol{
+    list-style-type: none;
+    margin:0 0 3rem 2rem;
+    counter-reset: section;
+}
+
+#directions ol li::before {
+    content: "" counter(section) ") ";
+    counter-increment: section;
+  }
+  #directions li {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0.6rem 0;
+  }
