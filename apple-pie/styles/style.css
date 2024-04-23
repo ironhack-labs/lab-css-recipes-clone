@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -9,16 +10,84 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+.body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.class-2{font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.header-1{
+  height: 500px;
+  background-position: center center;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
+ .index-h1{
+  color: white;
+  font-weight: 100;
+  font-size: 3.5rem; 
+}
+
+main img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+main section {
+  padding: 2rem 0;
+
+  main section {
+    padding: 2rem 0;
+  }
+
+  main {
+    padding: 2rem 4rem;
+  }
+
+
+
+#recipe-information p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+
+  #ingredients ul {
+    list-style-type: "- ";
+    margin: 0 0 3rem 2rem;
+
+    #ingredients li {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+    
+    #ingredients img {
+      width: 60%;
+
+    #directions ol {
+      list-style-type: none;
+      margin: 0 0 3rem 2rem;
+      counter-reset: section;
+    }
+
+    #directions ol li::before {
+      content: "" counter(section) ") ";
+      counter-increment: section;
+    }
+
+    #directions li {
+      font-size: 0.8rem;
+      font-weight: 300;
+      margin: 0.5rem 0;
+    }
 /* STYLES */
-/* Write your CSS below */
+/* Write your CSS below *
