@@ -7,3 +7,59 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+header {
+  height: 500px;
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+main {
+  padding: 20px;
+  margin: 10px;
+  text-align: justify;
+}
+
+main img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#info {
+  font-weight: 100;
+  font-size: 1em;
+  text-align: justify;
+}
+
+#ingredients ul {
+  list-style-type: "- ";
+  margin: 0 0 2rem 2rem;
+}
+#ingredients li {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+#ingredients img {
+  width: 50%;
+}
+
+#steps ol {
+  margin: 0 0 2rem 2rem;
+}
+
+#steps li {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
