@@ -1,4 +1,8 @@
 /*Some necessary adjustments*/
+body {
+  background-color: skyblue;
+  background-image: url(/lab-css-recipes-clone/french-soup/images/soup.jpg);
+}
 h1, body, html, main {
   margin: 0;
 }
