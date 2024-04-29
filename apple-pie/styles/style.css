@@ -18,7 +18,64 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin-bottom: 25px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px; 
+}
+
+.list-recipe {
+  margin: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.image-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-centered img {
+  width: 33%;
+}
+
+.wrap-break-line {
+  white-space: pre-line;
+  padding-left: 60px;
+  font-size: 18px;
+  
+}
+
+.indented-line {
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+
+.wrapper {
+  margin: 100px;
+}
+
+.grandma-recipe {
+  white-space: pre-line;
+  text-align: center;
+  font-size: 20px;
+}
