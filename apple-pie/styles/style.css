@@ -18,6 +18,86 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 99vw;
+}
+
+#container {
+  width: 80%;
+}
+
+p {
+  margin: 5% 0%;
+  font-size: 2.4rem;
+}
+
+#landing {
+  background-image:  url ('.../images/apple-pie.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing > h1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+hr {
+  width: 100%;
+}
+
+img {
+  width: 32vw;
+  align-self: center;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 3% 0%;
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul >li:before {
+  content: '-';
+  margin-right: .5rem;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list, numeric) ") ";
+  counter-increment: list;
+}
+
+li {
+  font-size: 1.6rem;
+  margin-left: 2.5%;
 }
 
 /* STYLES */
