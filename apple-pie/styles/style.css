@@ -15,10 +15,66 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+ 
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+h2 {
+  text-align:900;
+  line-height: 3;
+}
+
+.images-cooking{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
+.container {
+  width: 1900px;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container h1 {
+
+  color: #fff;
+  position: absolute;
+  bottom: 1000px;
+  right: 700px;
+  font-size:120px
+  
+}
+
+.list-style-type{
+  
+  
+  font-size:16px;
+  padding:50px;
+  margin:50px
+
+}
+
+.list-style-type h2{
+  
+  margin:1px;
+  padding:10px;
+  
+  
+  font-size:20px;
+
+}
