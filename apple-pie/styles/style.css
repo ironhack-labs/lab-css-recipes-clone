@@ -20,5 +20,83 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+.header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.recipe-info{
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.cooking-info {
+  text-align: center;
+  display: block;
+  padding: 30px 0 10px 0;
+}
+
+
+.ingredients {
+  margin: 20px 0;
+}
+
+.ingredients h2 {
+  padding: 40px 0;
+}
+
+.ingredients ul {
+  padding: 0 40px;
+}
+
+.ingredients li {
+  list-style-type: none;
+}
+
+.container {
+  padding: 0 20%;
+  margin: auto;
+}
+
+.directions {
+  margin: 20px 0;
+}
+.directions h2 {
+  padding: 40px 0;
+}
+
+.directions ol{
+  padding: 0 40px;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
 /* STYLES */
 /* Write your CSS below */

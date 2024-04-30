@@ -7,3 +7,60 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#landing {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  background-position: bottom;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#container {
+  padding: 125px 160px;
+}
+
+#desc {
+  font-size: 30px;
+}
+
+#recipe-icons {
+  text-align: center;
+}
+
+#recipe-icons > img{
+  width: 500px;
+  padding: 40px 0;
+}
+
+h2 {
+  padding: 35px 0;
+}
+
+li {
+  list-style-type: none;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+#cooking-icons {
+  text-align: center;
+}
+
+#cooking-icons > img {
+  width: 500px;
+  padding: 40px 0;
+}
+
+ol li {
+  counter-increment: listcounter;
+}
+
+ol li::before {
+  content: counter(listcounter) ") ";
+}
