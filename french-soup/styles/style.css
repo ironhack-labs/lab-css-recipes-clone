@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 80vh;
+  color: #ffff;
+  font-size: 40px;
+}
+
+p {
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 60%;
+  padding: 0 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 10px;
+  width: 100%;
+}
+
+img {
+  width: 30vw;
+  align-self: center;
+}
+
+hr {  
+  width: 100%;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+
+ul {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+
+
+ul > li::before {
+  /*3. Set the new style for the list markers */
+  content:  "- ";
+}
