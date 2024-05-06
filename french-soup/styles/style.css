@@ -1,9 +1,104 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  max-width: 900px;
+  margin:0 25% 0 25%;
+  border: 1px solid rgb(207, 207, 207)
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin-top: 20px;
+  padding: 0;
+  font-weight: lighter;
+  
+  
+  
+ }
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 30px;
+  
+
+
+  }
+#soup-image {
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  
+}
+
+#soup-image h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  height: 500px;
+  font-size: 3em;
+
+}
+
+.recipe-infor{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+}
+
+hr{
+  margin: auto 8%;
+}
+
+
+.overall-style{
+  width: 100%;
+  margin: 0 auto;
+  padding:0 8%;
+  
+}
+
+#description{
+  font-size: 1.22em;
+  
+}
+
+#ingredients ul {
+  font-weight: lighter;
+  text-decoration: none;
+  list-style-type: "-";
+  margin: 15px 0 15px 0;
+  padding-left: 1em;
+  }
+
+  #ingredients h3{
+    font-weight: bold;
+  }
+
+
+#directions h3{
+  font-weight: bold;
+}
+
+#directions ol {
+  list-style-type: none;
+  counter-reset: list-counter;
+  margin: 15px 0 15px 0;
+  padding-left: 1em;
+}
+
+#directions ol > li:before {
+  content: counter(list-counter) ")";
+  counter-increment: list-counter;
+}
+/* STYLES */
+/* Write your CSS below */
