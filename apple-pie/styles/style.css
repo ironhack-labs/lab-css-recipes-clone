@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,44 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#background-picture {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 500px;
+  width: auto;
+}
+#headertext {
+  color: white;
+  text-align: center;
+  line-height: 400px;
+  font-size: 300%;
+  
+}
+
+.recipe-info {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.ingredients {
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.cook-img {
+    margin:auto;
+    display:block;
+    width: 450px;    
+}
+
+.directions{
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.line-break {
+  border-bottom: 2px solid gray;
+  margin-left: 70px;
+  margin-right: 70px;
+}
