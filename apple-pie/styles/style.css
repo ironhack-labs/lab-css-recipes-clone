@@ -1,5 +1,5 @@
 /* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* Reset default browser styles and provide a consistent starting point 
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -13,7 +13,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
-}
+} */
+
 
 /*  Set the font */
 body {
@@ -22,3 +23,34 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#applepie-container { 
+  background-image: url("../images/apple-pie.jpg") ;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1 {
+  color:white;
+  text-align: center;
+
+}
+
+p {
+  text-align: justify;
+}
+
+.info img {
+  margin: 0 auto;
+  transform: scale(0.9)
+
+}
+
+body {
+  margin-right: 125px;
+  margin-left: 125px;
+
+}
