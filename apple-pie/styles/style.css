@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Helvetica", sans-serif;
 }
 
 *, *:before, *:after {
@@ -10,15 +11,103 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  margin: 0 250px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#apple-pie-header{
+  margin: 20px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 700px;
+  padding: 20px auto 30px auto;
+}
+#apple-pie-header h1{
+  padding: 190px 0;
+  text-align: center;
+  color:white;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+
+#intro{
+  margin: 20px;
+  height: 100px;
+  width: 700px;
+  text-align: center;
+}
+#intro img{
+  width: 300px;
+  padding: 20px auto 30px auto;
+  
+}
+#intro hr {
+  padding: 20px auto 30px auto;
+  width: 700px;
+}
+#intro p {
+  padding: 20px auto 30px auto;
+  font-size: 20px;
+}
+
+
+#ingredients {
+  margin: 100px 20px;
+  height: 100px;
+  width: 700px;
+  text-align: center;
+}
+#ingredients h3{
+  padding: 20px auto 30px auto;
+  text-align: left;
+}
+#ingredients ul{
+  padding: 20px auto 30px 25px;
+  text-align: left;
+}
+#ingredients img{
+  width: 270px;
+  padding: 20px auto 30px auto;
+}
+#ingredients hr {
+  width: 700px;
+  padding: 20px auto 30px auto;
+}
+
+
+#directions {
+  margin: 250px auto 30px 20px;
+  height: 100px;
+  width: 700px;
+  text-align: center;
+}
+
+#directions h3{
+  margin: 20px auto 30px 20px;
+  text-align: left;
+  padding: 20px auto 30px auto;
+}
+#directions ol{
+  counter-reset: list;
+  margin: 20px auto 90px 20px;
+  text-align: left;
+  padding: 0 0 50px 25px;
+}
+#directions ol > li {
+  list-style: none;
+}
+#directions ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
