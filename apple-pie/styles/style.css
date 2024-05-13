@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,91 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  font-size: 10px;
+}
+
+h4 {
+  color: black;
+  width: 70%;
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 1rem;
+  padding-top: 20px;
+  letter-spacing: 0.4px;
+  padding-left: 130px;
+}
+
+img {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 70%;
+}
+
+/* Header */
+h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  padding: 150px;
+  margin: 100px;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#first-section p {
+  width: 70%;
+  margin: 20px auto;
+  font-size: 2em;
+  padding-top: 50px;
+  line-height: 1.3em;
+}
+
+#second-section div {
+  color: black;
+  font-size: 1.6em;
+  margin-left: 150px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify;
+}
+
+#second-section li {
+  list-style: "- ";
+}
+
+#third-section div {
+  color: black;
+  font-size: 1.6em;
+  margin-left: 150px;
+  margin-bottom: 120px;
+  line-height: 1.6em;
+  width: 70%;
+  text-align: justify;
+}
+
+#third-section li {
+  text-align: justify;
+}
+#third-section ol {
+  counter-reset: list;
+}
+#third-section ol > li {
+  list-style: none;
+}
+#third-section ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
