@@ -22,3 +22,119 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.first {
+  width: 1750px;
+  height: 1000px;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position-y: -170px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+#first__title {
+  position: absolute;
+  top: 36%;
+  width: 100%;
+  text-align: center;
+  font-size: 130px;
+  color: white;
+}
+
+/*****************  Recipe information  **********************/
+
+.recipeInformation {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+#recipeInformation__textHistory {
+  margin: 80px auto 60px 0px;
+  font-size: 40px;
+  width: 1380px;
+  text-align: left;
+}
+
+.recipeInformation__imgCenter {
+  width: 100%;
+  text-align: center;
+}
+
+#recipeInformation__imgCenter--infoImage {
+  width: 600px;
+  margin: 0px auto 20px auto;
+}
+
+/*****************  downline  **********************/
+
+.downLine {
+  width: 1380px;
+}
+
+/*****************  Ingredients  **********************/
+
+.ingredients {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.ingredients__subTitle {
+  margin: 80px auto 40px 0px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  width: 1400px;
+}
+
+.ingredients__uList {
+  margin: 0px 0px 60px 40px;
+  font-size: 38px;
+  text-align: left;
+  width: 1400px;
+  list-style-type: "- ";
+}
+
+
+#ingredients__imgCenter--cookingInformation {
+  width: 600px;
+  margin: 0px auto 30px auto;
+}
+
+/*****************  Directions  **********************/
+
+.instructions {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.instructions__subTitle {
+  margin: 80px auto 60px 0px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  width: 1400px;
+}
+
+.instructions__oList {
+  margin: 0px auto 100px 15px;
+  font-size: 33px;
+  text-align: left;
+  width: 1380px;
+}
+
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}

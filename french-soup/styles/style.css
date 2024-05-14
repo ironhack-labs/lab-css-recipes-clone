@@ -7,3 +7,112 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+/**************** FIRST *******************/
+
+.first {
+  width: 1750px;
+  height: 1000px;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first__title {
+  color: white;
+  font-size: 140px;
+  font-weight: 100;
+  
+}
+
+/**************** RECIPE INFORMATION *******************/
+.recipeInformation {
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.recipeInformation__history {
+  width: 1500px;
+  text-align: left;
+  font-size: 42px;
+  margin-top: 150px;
+}
+
+#recipeInformation__imgContainer--img {
+  width: 800px;
+  margin-bottom: 90px;
+}
+
+/******************** HR *******************/
+.separator {
+  width: 1500px;
+}
+
+/**************** INGREDIENTS *******************/
+.ingredients {
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.ingredients__title {
+ font-size: 45px;
+ margin-top: 90px;
+ margin-bottom: 15px;
+}
+
+.ingredients__uList{
+  font-size: 40px;
+  list-style-type: "- ";
+  margin-bottom: 80px;
+}
+
+#ingredients__imgContainer--img {
+  display: block;
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+/**************** DIRECTIONS *******************/
+
+.directions {
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.directions__title {
+  font-size: 45px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.directions__oList {
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
