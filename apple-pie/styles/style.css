@@ -9,9 +9,9 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0; 
+  padding: 0; 
   font-weight: lighter;
 }
 
@@ -22,3 +22,43 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1{
+  text-align: center;
+}
+.apple-pie{
+  height: 500px;
+  width: 100%;
+  position: static;
+}
+/*--------------------------------------------------------*/
+.kitchen{
+  position: relative;
+}
+.title{
+  position: absolute;
+  left: 41%;
+  top: 50%;
+  color: white;
+  font-size: 24px;
+}
+/*---------------------------------------------------------*/
+hr{
+  width: 80%;
+}
+img{
+  position: relative;
+  left: 30%;
+  width: 400px;
+  height: 50px;
+}
+.introduction{
+  margin: 20px 10%;
+}
+.ingredients{
+  margin: 20px 10%;
+}
+.steps{
+  margin: 20px 10%;
+
+}

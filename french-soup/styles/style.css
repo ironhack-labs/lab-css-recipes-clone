@@ -1,5 +1,5 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
@@ -7,3 +7,44 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+/*-----------------Layout-------------*/
+body{
+  width: 850px;
+  margin: 0 auto;
+}
+hr{
+  margin: 5%;
+}
+/*-----------Title-----------------*/
+
+h1{
+  text-align: center;
+  position: relative;
+  bottom: 255px;
+  color: white;
+  font-size: 38px;
+}
+/*-------------Subtitle-----------*/
+h2{
+  text-align: center;
+}
+#recipe-intro img{
+  width: 850px;
+  height: 500px;
+}
+section{
+  margin: 5%;
+}
+#recipe-story img{
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+#recipe-ingredients img{
+  width: 400px;
+  height: 80px;
+  display: block;
+  margin: auto;
+
+}
+
