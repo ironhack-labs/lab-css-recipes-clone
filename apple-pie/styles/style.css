@@ -22,3 +22,81 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#picture-element{
+  position: relative;
+  text-align: center;
+}
+
+#descriptive-text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17vh;
+}
+
+#picture-element img{
+  width: 100%;
+  height: 100%;
+
+}
+
+#introduction{
+  margin: 100px 120px 50px 120px;
+}
+
+#introduction p{
+  font-size: 5vh;
+
+}
+
+#ingredients-of-the-recipe{
+  margin: 20px 120px;
+}
+
+#directions-of-the-recipe{
+  margin: 45px 120px 80px 120px;
+
+}
+
+#ingredients-of-the-recipe ul{
+  list-style-type: none;
+}
+
+#ingredients-of-the-recipe ul li{
+  padding: 5px 0;
+  font-size: x-large;
+}
+
+#ingredients-of-the-recipe ul li::before{
+  content: "-";
+  margin-right: 5px;
+}
+
+#directions-of-the-recipe ol{
+  list-style-type: none;
+  counter-reset: list-item;
+}
+
+#directions-of-the-recipe ol li{
+  font-size: x-large;
+  word-spacing: 10px;
+  counter-increment: list-item;
+}
+
+#directions-of-the-recipe ol li::before{
+  content: counter(list-item) ") ";
+}
+
+.easy-info{
+  padding: 25px 375px;
+
+}
+
+.h2-headings{
+  font-size: 5vh;
+  font-weight: 300;
+  padding: 45px 0 40px 0;
+}
