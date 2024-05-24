@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+#img{
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+     }
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    color: white;
+    font-size: x-large;
+   }
+
+.img2{
+   width: 30%;
+   padding-left: 350px;
+   padding-top: 15px;
+}
+.img3{
+    width: 35%;
+    padding-left: 350px;
+    padding-top: 15px;
+ }
+ .property{
+    padding-left: 250px;
+    padding-right: 250px;
+ }
+ ol{
+    padding-bottom: 50px;
+ }
