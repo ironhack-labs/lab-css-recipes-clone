@@ -18,7 +18,79 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width:99vw;
+
 }
+
+.ul{
+  list-style-type: "- ";
+}
+
+.images{
+  display: block;
+  margin: 0 auto; 
+  
+}
+
+.container{
+  width: 200px;
+  height: 200px;
+  background-color: #0a0a23;
+  
+}
+
+.container img {
+  width: 100px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items:center;
+}
+
+p{
+  margin: 5% 0%;
+  font-size: 18px;
+}
+
+#landing {
+  background-image: url(../images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#landing >h1 {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 600;
+   }
+
+.content{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+  justify-content:flex-end;
+}
+
+.recipe{
+  
+}
+
+hr{
+    width:100%;
+  } 
+
+  img{
+    width:32vw
+  }
 
 /* STYLES */
 /* Write your CSS below */
