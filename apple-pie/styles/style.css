@@ -1,3 +1,4 @@
+
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -9,15 +10,99 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+header {
+background-image: url('/apple-pie/images/apple-pie.jpg');
+background-position: 0 0;
+background-size: cover;
+background-repeat: no-repeat;
+height: 350px;
+padding-top: 50px;
+position: relative;
+
 }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 30px;
+  padding: 10px;
+  font-weight: lighter;
+  
+    }
+
+html {
+  background-color: rgba(126, 158, 70, 0.621);
+}
+
+h1 {
+  font-size: 9em;
+  color: white;
+  text-align: center;
+
+}
+
+h2 {
+  font-weight: 800;
+}
+
+li {
+  margin-left: 5px;
+  padding-left: 5px;
+  line-height: 1.5em;
+}
+
+.intro {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+
+}
+.ingredients {
+  text-align: left;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 rgba(126, 158, 70, 0.621);
+  margin: 50px 5% 0 5%;
+  padding: 10px;
+  width: 50%;
+  background-color: white;
+}
+
+.ingredients img {
+  display: flex;
+  width: 100%;
+  align-items: center;  
+}
+
+.directions {
+  text-align: left;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 rgba(126, 158, 70, 0.621);
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
+}
+
+.directions img {
+  display: flex;
+  width: 60%;
+  text-justify: auto;
+  margin-left: 5%;
+}
+
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
