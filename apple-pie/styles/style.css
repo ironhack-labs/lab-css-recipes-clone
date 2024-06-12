@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,99 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#section1 {
+  font-size: 20px;
+  margin: 10px 300px 50px 450px;
+}
+
+.list {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0 20px 250px;
+}
+
+#section2 ul {
+  font-size: 20px;
+  margin: 30px 0 50px 320px;
+}
+
+.basicinstructions {
+  align-items: center;
+}
+
+.timeimg {
+  display: flex;
+  justify-content: center;
+}
+.time {
+  width: 400px;
+  height: auto;
+}
+
+.basicinstructions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.maindirection {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0 20px 260px;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0 320px 100px 320px;
+}
+
+.timeimg2 {
+  display: flex;
+  justify-content: center;
+}
+
+.time2 {
+  width: 350px;
+  height: auto;
+}
+
+.image {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 500px;
+  margin: 0px 350px 50px 350px;
+}
+
+hr {
+  height: 3px;
+  margin: 0 200px 0 200px;
+  background-color: gainsboro;
+}
+
+/* Style for the centered text */
+.centered-text {
+  position: absolute;
+  top: 35%; /* Move the top of the text to the vertical center */
+  left: 52%; /* Move the left of the text to the horizontal center */
+  transform: translate(-50%, -50%); /* Center the text perfectly */
+  color: white; /* Example: set text color to white */
+  font-size: 24px; /* Example: set font size */
+  font-weight: bold; /* Example: set font weight */
+}
