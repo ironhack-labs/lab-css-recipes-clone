@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 *, *:before, *:after {
@@ -22,3 +22,75 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+
+.title1{
+  color: white;
+  font-size: 100px;
+  position: relative;
+  top: 42vh;
+  letter-spacing: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.section1{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+}
+
+.info{
+  position: relative;
+  left: 46vh;
+  padding-top: 50px;
+}
+
+.separator{
+  height: 4px;
+  background-color: darkgray;
+}
+
+.section2{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+}
+
+ul{
+  padding-left: 5vh;
+  list-style-type: none;
+}
+
+.section2 li::before{
+  content: "- ";
+}
+
+.section3{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+ol{
+  padding-left: 5vh;
+  list-style-type: none;
+  counter-reset: list-counter;
+}
+
+ol li{
+  counter-increment: list-counter;
+}
+
+ol li::before{
+  content: counter(list-counter) ") ";
+}

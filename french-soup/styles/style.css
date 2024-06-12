@@ -1,9 +1,96 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+header{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+
+.title1{
+  color: white;
+  font-size: 100px;
+  position: relative;
+  top: 42vh;
+  letter-spacing: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.section1{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+}
+
+.info{
+  position: relative;
+  left: 46vh;
+  padding-top: 50px;
+}
+
+.separator{
+  height: 4px;
+  background-color: darkgray;
+}
+
+.section2{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+}
+
+ul{
+  padding-left: 5vh;
+  list-style-type: none;
+}
+
+.section2 li::before{
+  content: "- ";
+}
+
+.section3{
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 10vh;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+ol{
+  padding-left: 5vh;
+  list-style-type: none;
+  counter-reset: list-counter;
+}
+
+ol li{
+  counter-increment: list-counter;
+}
+
+ol li::before{
+  content: counter(list-counter) ") ";
 }
