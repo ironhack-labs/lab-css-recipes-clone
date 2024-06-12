@@ -22,3 +22,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.cover-image{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.img-center{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 50px
+}
+
+.text-wrapper{
+  margin: 150px;
+}
+
+.pie-info{
+  color: rgb(95, 85, 85);
+  font-size: large;
+}
+
+.time-info{
+  width: 30%;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading{
+  margin-top: 30px;
+  font-weight:400;
+}
+
+.ingredients-list{
+  padding: 30px;
+  font-size: 15px;
+}
+
+.direction{
+  padding: 30px;
+}
