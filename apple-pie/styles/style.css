@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  transform: all 1s;
 }
 
 *, *:before, *:after {
@@ -22,3 +23,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* -------------------------------- */
+/* --------- FOTO INICIAL --------- */
+/* -------------------------------- */
+.imagenInicio {
+  width: 100vw;
+  height: 60vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100% 100%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+/* -------------------------------- */
+/* ------ ARTICLE & SECTION1 ------ */
+/* -------------------------------- */
+#articuloPrincipal {
+  padding:4em;
+  width:85vw;
+}
+.section1 {
+  height: 20vh;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.imgSection1 {
+ width: 80%;
+ padding-left: 25%;
+}
+
+/*-----------------------------*/
+/*------- SECTION2 ------------*/
+/*-----------------------------*/
+.section2 {
+  height:35vh;
+}
+
+.section2 h2 {
+  padding-top: 20px;
+}
+
+.section2 ul {
+  padding-left: 30px;
+  padding-top: 15px;
+  list-style-type:none;
+}
+
+.imgSection2 {
+  padding-top: 20px;
+  padding-left: 25%;
+  width: 80%;
+  height: 20%;
+}
+
+/*---------------------------*/
+/*-------- SECTION3 ---------*/
+/*---------------------------*/
+.section3 h2 {
+  padding-top: 20px;
+}
+
+.section3 ul {
+  padding-left: 30px;
+  padding-top: 15px;
+  list-style-type:none;
+}
