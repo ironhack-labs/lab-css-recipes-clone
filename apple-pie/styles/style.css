@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,91 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  color: white;
+  height: 650px;
+  font-size: 2em;
+  position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hr {
+  border: 1px solid gray;
+}
+h2 {
+  padding-bottom: 10px;
+}
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  margin-left: 20p;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container p hr {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container ul {
+  margin-left: 20px;
+  list-style: 1.8;
+}
+
+.container ol {
+  margin-left: 20px;
+}
+
+.container,
+ul,
+ol {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol li {
+  counter-increment: list-item;
+}
+
+ol li:before {
+  content: counter(list-item) ")";
+
+  margin-right: 0.5em;
+}
