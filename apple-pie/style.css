@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+#numero1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 20;
+    text-align: center;
+    background-image: url(apple-pie.jpg);
+    padding: 200px;
+    background-size: cover;
+    margin: -10px -100px 40px -100px;
+}
+p {
+    font-size: 20px;
+}
+h3 {
+    padding-top: 20px;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.tiempos {
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    
+}
+li {
+    margin-left: -30px;
+}
+hr {
+    border-width: 2px;
+}
+section ul{
+    list-style:none;
+}
+#lista1 li::before{
+	content:"-";
+	margin-right:8px;
+}
+
+#suma {
+    list-style-type: none;
+    counter-reset: contador;
+}
+#suma li{
+    counter-increment: contador;
+}
+#suma li::before{
+    content: counter(contador)") ";
+}
