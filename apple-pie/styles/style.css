@@ -36,11 +36,15 @@ body {
 
 main {
   padding: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 2rem;
 }
 
 header {
   position: relative;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   height: auto;
 }
 
@@ -56,16 +60,12 @@ h1 {
 }
 
 header > img {
-  max-width: 100%;
-  height: auto;
-  background-position: cover;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
-li {
-  list-style-type: "- ";
-}
-
-.intro-section {
+.intro {
   max-width: 100%;
   height: auto;
   text-align: center;
@@ -76,8 +76,10 @@ li {
   font-size: 1.3rem;
 }
 
-.intro-section > img {
-  width: 70%;
+.intro img,
+.ingredients img {
+  max-width: 70%;
+  margin-bottom: 1rem;
 }
 
 .border {
@@ -89,22 +91,43 @@ li {
 .ingredients {
   max-width: 100%;
   height: auto;
-  flex-direction: column;
-  gap: 0.8rem;
   font-size: 1.3rem;
 }
 
-.ingredients > ul {
+
+.ingredients ul {
   padding-left: 1rem;
-  margin: 0.8rem 0rem;
+  margin: 2rem 0rem;
+  list-style-type: none;
 }
 
-.ingredients > div {
+.ingredients li::before {
+  content: "- ";
+  margin-right: 5px;
+}
+
+.ingredients div {
   display: flex;
   place-content: center;
 }
 
-.ingredients > img {
-  width: 70%;
+.directions {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.3rem;
+}
 
+.directions ol {
+  padding-left: 1rem;
+  margin: 0.8rem 0rem;
+  list-style-type: none;
+  counter-reset: item;
+}
+
+.directions ol li:before {
+  content: counter(item) ") ";
+  counter-increment: item;
 }
