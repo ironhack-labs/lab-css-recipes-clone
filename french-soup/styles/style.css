@@ -1,9 +1,97 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+.container {
+  padding: 5vw 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+  width: 100%;
+}
+
+.hero-image {
+  height: 500px;
+  color: white;
+  font-size: 2em;
+  background-size: cover;
+  background-image: url(../images/soup.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  opacity: 75%;
+  font-weight: bold;
+}
+
+.info-img {
+  max-width: 400px;
+  background-size: cover;
+  align-self: center;
+}
+
+hr {
+  color: black;
+  width: 100%;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 0 2.5vw;
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5em;
+  list-style-type: none;
+  align-self: center;
+}
+
+ul > li::before {
+  content: "-";
+  margin-right: 0.5em;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+  margin-right: 0.5em;
 }
