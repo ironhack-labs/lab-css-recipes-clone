@@ -2,14 +2,25 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,74 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+img-header {
+  display: block;
+  margin-left: 100%;
+  margin-right: 100%;
+  width: fit-content;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6em;
+}
+
+.main {
+  margin: 5% 10%;
+  padding: 10px;
+}
+
+.p1 {
+  text-align: justify;
+  margin-bottom: 5%;
+}
+
+hr {
+  margin: 5px 5%;
+  padding: 5px auto;
+  background-color: grey;
+  height: 3px;
+}
+
+.recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.ingredients {
+  margin-top: 5%;
+  margin-bottom: 10px;
+  padding: 5px auto;
+}
+
+ul {
+  margin: 20px auto 10px 30px;
+  list-style: circle;
+}
+
+.cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  max-height: 200px;
+  margin: 20px auto;
+}
+
+.directions {
+  margin-top: 5%;
+  margin-bottom: 10px;
+  padding: 5px auto;
+}
+
+ol {
+  margin: 20px auto 10px 30px;
+}
