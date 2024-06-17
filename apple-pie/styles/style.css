@@ -10,7 +10,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-weight: lighter;
 }
@@ -18,7 +18,51 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 180px 60px 180px 60px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.intro {
+  padding: 60px 60px 20px 60px;
+  align-self: center;
+}
+
+.ingredients {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  padding: 20px 60px 60px 60px;
+}
+
+.directions {
+  padding: 20px 60px 60px 60px;
+}
+
+div {
+  text-align: center;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
