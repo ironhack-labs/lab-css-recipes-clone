@@ -15,10 +15,77 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
-/* Write your CSS below */
+/* Write your CSS below
+ */
+
+ .header {
+  position: relative;
+ }
+ .header-image {
+  width: 100%;
+  max-height: 37em;
+  overflow: hidden;
+ }
+ .header-image-img {
+  width: 100%;
+  height: auto;
+  display: block;
+ }
+ .header-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2em;
+ }
+ .content-divider {
+  border: none;
+  border-top: 2px solid darkgray;
+ }
+ .content-container {
+  margin: 4.5em 6em;
+ }
+ .content-container-1 {
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -30px;
+ }
+ .prep-images {
+  max-width: 40%;
+  margin-top: 1.5em;
+ }
+ #prep-image2 {
+  margin: 25px;
+  align-self: center;
+  margin-left: 30%;
+ }
+ .content-container2 {
+  line-height: 23px;
+  display: block;
+  margin-bottom: -30px;
+ }
+ .dashed {
+  list-style-type: none;
+  text-indent: 25px;
+ }
+ .dashed > li:before {
+  content: "-";
+  text-indent: 25px;
+}
+.ingredients-h3 {
+  font-weight: 400;
+  margin: 2em 0;
+}
+.directions-list {
+  margin-left: 25px;
+  line-height: 25px;
+} 
