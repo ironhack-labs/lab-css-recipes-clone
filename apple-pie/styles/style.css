@@ -34,6 +34,10 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+main {
+  padding: 2rem;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -57,19 +61,18 @@ header > img {
   background-position: cover;
 }
 
+li {
+  list-style-type: "- ";
+}
+
 .intro-section {
   max-width: 100%;
   height: auto;
-  padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
-
-}
-
-.intro-section > p {
   font-size: 1.3rem;
 }
 
@@ -80,5 +83,28 @@ header > img {
 .border {
   border-top: 2px solid;
   border-color: gray;
-padding: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.ingredients {
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.ingredients > ul {
+  padding-left: 1rem;
+  margin: 0.8rem 0rem;
+}
+
+.ingredients > div {
+  display: flex;
+  place-content: center;
+}
+
+.ingredients > img {
+  width: 70%;
+
 }
