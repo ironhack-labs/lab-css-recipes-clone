@@ -5,11 +5,11 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*, *, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, , h2, h3, h4, h5, h6,, ol,  {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,45 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.encabezado h1{
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: 0px;
+  font-size: 50px;
+  padding: 220px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  
+  text-align: center;
+  color: white; 
+   }
+
+.introduccion p {
+    text-align: center;
+}
+
+.introduccion img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  }
+
+ .ingredientes ul {
+ list-style-type: circle;
+}
+
+.ingredientes img {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.preparacion ol {
+  list-style: none;
+}
+ .preparacion ol > li{
+  counter-increment: listcounter;
+ }
+.preparacion ol > li::before{
+  content: counter(listcounter) ")";
+}
