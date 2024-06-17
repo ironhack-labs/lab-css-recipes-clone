@@ -22,3 +22,49 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1{
+  width: 1700px;
+  margin: 100px;
+  font-size: 80px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: 450px;
+  color: white;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+}
+header p{
+  font-size: 42px;
+  margin: 10px 180px;
+  align-items: center;
+  text-align: center;
+  width: 1500px;
+}
+header img{
+  margin: 40px 650px;
+}
+hr{
+ 
+  height: 3px;
+  width: 85%;
+}
+section h2{
+  font-size: 42px;
+  margin: 60px 150px 20px 150px;
+}
+section ul{
+  font-size: 36px;
+  margin: 60px 180px 70px;
+  list-style-type: none;
+}
+section ol{
+  list-style-type: decimal;
+  font-size: 36px;
+  align-items: center;
+  text-align: start;
+  width: 1400px;
+  margin: 60px 200px 100px;
+}
+section img{
+  margin: 0 650px;
+}
