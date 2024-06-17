@@ -5,20 +5,103 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
 /*  Set the font */
+
 body {
   font-family: "Helvetica", sans-serif;
 }
+h3 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
 
-/* STYLES */
-/* Write your CSS below */
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content {
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.recipe-info {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.list1 {
+  list-style: none;
+  padding: 0;
+}
+.list1 li,
+.list2 li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+.list1 li::before {
+  content: "- ";
+}
+
+.cooking-info {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.list1 li {
+  margin-left: 50px;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.list2 li {
+  margin-left: 50px;
+  padding-left: 0;
+  margin-top: 5px;
+}
+footer {
+  margin-bottom: 100px;
+}
