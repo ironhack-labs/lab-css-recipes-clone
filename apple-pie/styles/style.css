@@ -51,8 +51,34 @@ h1 {
   white-space: nowrap;
 }
 
-img {
+header > img {
   max-width: 100%;
   height: auto;
   background-position: cover;
+}
+
+.intro-section {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+
+}
+
+.intro-section > p {
+  font-size: 1.3rem;
+}
+
+.intro-section > img {
+  width: 70%;
+}
+
+.border {
+  border-top: 2px solid;
+  border-color: gray;
+padding: 1rem;
 }
