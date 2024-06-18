@@ -1,24 +1,44 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.mainParent {
+  width: 100%;
+  text-align: center;
+  padding: 0px 150px;
+  overflow: hidden;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.recipeName {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "Courier New", monospace;
+}
+.photoClass {
+  display: flex;
+  background-image: url("../images/apple-pie.jpg");
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+}
+.textGrandmother {
+  display: flex;
+  width: 800px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 25px;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+ul {
+  list-style: none;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.listcounter > ol {
+  list-style: none;
+}
+.listcounter ol > li {
+  counter-increment: listcounter;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.listcounter ol > li::before {
+  content: counter(listcounter) ")";
+}
