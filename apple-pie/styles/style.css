@@ -1,5 +1,3 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -15,10 +13,82 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
+header{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  text-align: center;
+}
+.title{
+  color:white;
+  font-size: 8em;
+  padding: 220px;
+}
 
-/* STYLES */
-/* Write your CSS below */
+.section1{
+  text-align: justify;
+  padding-top: 10vh;
+  padding-left: 430px;
+  padding-right: 430px;
+  font-size: 1em;
+}
+
+.info{
+  position: relative;
+  left: 25vh;
+  padding-top: 40px;
+  width: 400px;
+}
+
+.line{
+  height: 3px;
+  background-color: darkgray;
+}
+
+.section2 h2{
+  padding-top: 40px;
+  padding-left: 55vh;
+  font-size: 1.5em;
+}
+
+ul{
+  padding-left: 57vh;
+  list-style-type: none;
+  font-size: 1em;
+}
+
+.info2{
+  position: relative;
+  left: 85vh;
+  padding-top: 40px;
+  width: 300px;
+}
+.section3 h2{
+    padding-top: 40px;
+    padding-left: 55vh;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+  }
+ol{
+  padding-left: 57vh;
+  list-style-type: none;
+  counter-reset: list-counter;
+}
+
+ol li{
+  padding-right: 75vh;
+  align-items: center;
+  text-align: justify;
+  counter-increment: list-counter;
+  font-size: 1em;
+}
+
+ol li::before{
+  content: counter(list-counter) ") ";
+}
+
+
