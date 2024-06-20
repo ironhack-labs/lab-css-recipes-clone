@@ -10,15 +10,86 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  
   padding: 0;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
+  display: flex;
   font-family: "Helvetica", sans-serif;
+  align-content: space-between;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  
+}
+div{
+  text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+body >*{
+  margin-bottom: 120px;
+  position: relative;
+  width: 70%;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+#BackgroundImage{
+  width: 100%;
+  height: 2000px;
+
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-image: url(./../images/apple-pie.jpg);
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/*
+#BackgroundImage img{
+  display: flex;
+  flex-direction: row;
+}
+*/
+
+
+.Title{
+  margin: auto;
+  color:white;
+  font-size: 200px;
+}
+
+.SubTitle{
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight:600;
+}
+
+#Introduction{
+  font-size: 60px;
+}
+
+div{
+  font-size: 55px;
+}
+
+ul, ol{
+  margin-top: 20px;
+}
+.Info{
+  display: flex;
+  justify-content: center;
+}
+
+.Info img{
+  width: 1000px;
+}

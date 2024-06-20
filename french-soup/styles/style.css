@@ -1,9 +1,86 @@
 /*Some necessary adjustments*/
+/*
 h1, body, html, main {
   margin: 0;
 }
+*/
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body>*{
+  position: relative;
+  margin-bottom: 20px;
+
+  width: 70%;
+}
+
+#Introduction{
+  font-size: 60px;
+}
+
+#French_Onion_Sup_BG{
+
+  margin-bottom: 250px;
+
+  width: 100%;
+  height: 2200px;
+
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  
+  background-image: url(./../images/soup.jpg);
+
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#French_Onion_Sup_BG h1{
+  margin: auto;
+  font-size: 200px;
+  color: white;
+}
+h2{
+  font-size: 60px;
+  font-weight: 600;
+
+}
+
+ul{
+  list-style-type:none;
+}
+ul li:before {
+
+  content: "-";
+  
+  margin-left: -20px;
+  margin-right: 10px;
+} 
+
+ol li:before {
+
+  content: ")";
+  
+  margin-left: -20px;
+  margin-right: 10px;
+} 
+  .text{
+  font-size: 55px;
+}
+img{
+  display: block;
+  width: 1000px;
 }
