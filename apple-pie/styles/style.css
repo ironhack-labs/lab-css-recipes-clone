@@ -1,24 +1,113 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+h1,
+body,
+html,
+main {
+    margin: 0;
+}
+
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #444;
+    font-weight: 400;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+    padding: 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    color: white;
+    padding-block: 10rem;
+}
+
+section {
+    margin-inline: 4rem;
+    padding-block: 1.8rem;
+}
+
+section:not(:last-of-type) {
+    border-bottom: 3px solid #aaa;
+}
+
+ul,
+ol {
+    padding-left: 1rem;
+    font-size: .9rem;
+}
+
+ul {
+    list-style-type: "- ";
+    margin-block: 1.5rem;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: list-counter;
+}
+
+ol li::before {
+    counter-increment: list-counter;
+    content: counter(list-counter) ") ";
+}
+
+.recipe-info,
+.cooking-info {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #999;
+}
+
+.recipe-info ul,
+.cooking-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-info ul li,
+.cooking-info ul li {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.recipe-info li {
+    padding-inline: .5rem;
+}
+
+.cooking-info li {
+    padding-inline: 1rem;
+}
+
+.cooking-info li:not(:last-of-type) {
+    border-right: 1px solid #ddd;
+}
+
+.cooking-info dd {
+    margin: 0;
+    text-align: center;
+}
+
+.cooking-info dd span:nth-child(odd) {
+    color: #555;
+}
+
+.cooking-info svg {
+    margin-block: auto;
+}
