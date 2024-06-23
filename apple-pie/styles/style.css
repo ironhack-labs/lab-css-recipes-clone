@@ -1,24 +1,120 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+    box-sizing: border-box;
+    font-family: Sans-Medium;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  
+  /* Define la fuente personalizada */
+@font-face {
+    font-family: "Sans-Medium";
+    src: url(../Sans-Medium.ttf);
+  }
+
+
+
+:root {
+    --main-text: #1a1a1a;
+    
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+
+
+header {
+    width: 100vw;
+    position: relative;
+    align-items: center;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+.img-background {
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.title {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.content {
+    padding: 150px;
+    padding-top: 50px;
+}
+
+.description {
+    margin-bottom: 20px;
+    
+}
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--main-text);
+}
+
+
+
+
+.ingredients {
+      
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+}
+.ingredients li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+
+.prep-time {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+.prep-time img {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    align-items: center;
+  }
+  
+
+.directions {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    
+}
+
+
