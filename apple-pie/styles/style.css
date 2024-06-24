@@ -5,14 +5,29 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+}
+
+h3 {
+  color: gray;
 }
 
 /*  Set the font */
@@ -22,3 +37,106 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h3 {
+  font-size: 1.3em;
+  left: 0;
+  margin: 0;
+  color: black;
+  padding-bottom: 10px;
+}
+
+header {
+  width: 100vm;
+}
+
+.header-background {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  color: white;
+  left: 50px;
+}
+
+.main article {
+  position: relative;
+  padding: 50px 10px 10px;
+  width: 100%;
+  border-bottom: 2px solid;
+  border-bottom-color: grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main #presentacion {
+  left: 15%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main #presentacion div img {
+  position: relative;
+  width: 400px;
+}
+
+.main article,
+div,
+p,
+ul {
+  font-size: 1.1em;
+  text-align: left;
+  color: gray;
+}
+
+.main ul {
+  position: relative;
+  left: 5%;
+}
+
+main #receta {
+  position: relative;
+  left: 15%;
+  width: 70%;
+}
+
+main #receta div {
+  align-content: center;
+}
+
+main #receta ul {
+  align-content: normal;
+}
+
+.main #receta div img {
+  width: 400px;
+  left: 50%;
+}
+
+.main #preparacion {
+  position: relative;
+  left: 15%;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+.main #preparacion ol {
+  position: relative;
+  left: 5%;
+}
