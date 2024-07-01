@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +31,114 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+#main-title {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  width: 750px;
+  height: 700px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  padding: 200px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.info-images {
+  margin-top: 50px;
+  margin-left: 570px;
+  margin-right: 400px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+img,
+.info-images {
+  width: 400px;
+}
+
+.italic-text {
+  font-style: italic;
+  color: rgb(143, 124, 156);
+}
+
+.separation-line {
+  background-color: black;
+  color: black;
+  width: 1100px;
+  height: 1100px;
+  border-bottom: solid grey 900px;
+}
+
+.instruction-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 290px;
+  margin-bottom: 15px;
+
+
+}
+
+.list {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 290px;
+  line-height: 38px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "-";
+  left: 0;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol li::marker {
+  content: counter(item) ")";
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  counter-increment: item;
+  padding-left: 20px;
+}
+
+
+
+hr {
+  width: 80%;
+}
+
+.emphatize {
+  font-weight: 350;
+}

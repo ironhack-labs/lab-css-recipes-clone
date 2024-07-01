@@ -7,3 +7,91 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#main-title {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  padding: 200px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 50;
+}
+.info-images {
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+.instruction-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 290px;
+  margin-bottom: 15px;
+}
+
+.list {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 290px;
+  line-height: 30px;
+  text-shadow: ;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "-";
+  left: 0;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol li::marker {
+  content: counter(item) ")";
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  counter-increment: item;
+  padding-left: 20px;
+}
+hr {
+  width: 80%;
+}
+
