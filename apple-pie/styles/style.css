@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,76 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+* {
+  font-family: 'Segoe UI'
+}
+
+html {
+  margin-bottom: 10%;
+}
+
+.apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#main-title {
+  color: white;
+  font-size: 50px;
+}
+
+section {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+hr.solid {
+  border-top: 2px solid #a4a4a4;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+
+h2 {
+  padding-bottom: 5%;
+  font-weight: bolder;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  margin-bottom: 2%;
+  padding-inline-start: 20px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed>li {
+  text-indent: -20px;
+}
+
+ul.dashed>li:before {
+  content: "- ";
+  text-indent: -20px;
+}
+
+ol {
+  padding-inline-start: 20px;
+}
+
+p {
+  margin-bottom: 2%;
+}
