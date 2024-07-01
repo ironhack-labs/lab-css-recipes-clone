@@ -5,11 +5,26 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+img {
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,6 +33,52 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+}
+
+header {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+  padding: 50px 290px;
+}
+
+img {
+  height: 90px;
+  width: 450px;
+  display: block;
+  margin: auto;
+}
+
+hr {
+  margin: 30px 80px;
+}
+
+h2 {
+  margin: 40px 80px;
+}
+
+ul {
+  margin: 20px 110px;
+  font-size: 18px;
+}
+
+ol {
+  margin: 20px 80px 80px 80px;
+  font-size: 18px;
+  padding: 0px 30px;
 }
 
 /* STYLES */
