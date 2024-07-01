@@ -7,3 +7,63 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+header{
+  background-image: url("../images/soup.jpg") ;
+
+  width:100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+font-size: 4em;
+color: white;
+text-align: center;
+padding: 200px;
+}
+section{
+  margin: 10px 100px 10px 100px;
+
+}
+h2{
+font-size: 2em;
+justify-content: left;
+}
+h3{
+text-align: justify;
+padding:20px;
+text-align: center;
+}
+.drawing{
+ text-align: center;
+  position: relative;
+  justify-content: center;
+}
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding: 10px 30px;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+ul{
+  list-style: none;
+  padding: 10px 30px;
+}
+ul > li::before{
+    /*3. Set the new style for the list markers */
+  content: "- ";
+}
+
+list{
+  padding: 10px 100px;
+}
