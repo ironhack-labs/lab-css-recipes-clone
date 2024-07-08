@@ -22,3 +22,80 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header{
+  background-image: url('../images/apple-pie.jpg');
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+h2{
+  padding-top: 200px;
+  font-size: 400%;
+}
+
+ol{
+  list-style: none;
+  margin: 0 1.5em 0 1.5em;
+}
+
+ol > li{
+  counter-increment: listcounter;
+}
+
+ol > li::before{
+  content: counter(listcounter) ")";
+}
+
+ul{
+  margin: 0 1.5em 0 1.5em;
+  list-style-type: none;
+}
+
+ul > li{
+  text-indent: -5px;
+}
+
+ul > li:before{
+  content: "-";
+}
+/* DONT TOUCH IT WORKS */
+
+.rainbow{
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 50px;
+  font-size: 1.4em;
+  height: 230px;
+}
+
+.rainbow p{
+}
+
+.rainbow img{
+
+  scale: 40%;
+}
+
+.appleIngredients{
+  width: 800px;
+  height: 390px;
+}
+
+*{
+  width: 800px;
+  margin: auto;
+}
+
+.appleIngredients img{
+  scale: 40%;
+}
+
+.directionsDiv{
+  padding-top: 20px;
+}
