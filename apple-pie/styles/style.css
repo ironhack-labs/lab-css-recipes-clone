@@ -22,3 +22,63 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  position: 0 0;
+  repeat: no-repeat;
+  size: cover;
+  height: 300px;
+  position: relative;
+
+  h1{
+    font-size: 9am;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+  }
+
+
+  #general-information {
+    padding: 75px 0;
+    margin: 0 auto;
+  }
+
+  #general-information p{
+    width: 60%;
+    margin: 50px auto;
+  }
+
+  #preparation {
+    display: flex;
+    justify-content: space-evenly; 
+  }
+  #general-information hr {
+    margin: 20px auto 30px auto;
+    width: 60%
+  }
+  #ingredients{
+    padding: 75px 0;
+    margin: 0 auto; 
+  }
+  #ingredients div{
+    width: 60%;
+    margin-left: 50px;
+  }
+  #ingredients li{
+    margin-left: 100px;
+    list-style-type: "-";
+  }
+
+  #ingredients h2  {
+    padding: 100px 0;
+  }
+
+  #ingredients img{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #Directions li{
+    margin-left: 100px;
+  }
+}
