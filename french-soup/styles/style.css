@@ -1,9 +1,70 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+.main {
+  margin: 5% 8%;
+  padding: 5px;
+}
+
+#first-paragraph {
+  text-align: justify;
+  margin: 20px 30px;
+}
+
+.centered-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  max-height: 90px;
+}
+
+hr {
+  margin: 10px 3%;
+  background-color: gray;
+  height: 1px;
+}
+
+h3 {
+  margin: 3% auto 10px 3%;
+  font-weight: 400;
+}
+
+ul {
+  margin-left: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 5px;
+  margin-top: 30px;
 }
