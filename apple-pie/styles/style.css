@@ -17,8 +17,66 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif; 
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  text-align: center; 
+}
+
+.header .img{
+  width: 20%;
+  max-width: 80px;
+  height: auto;
+}
+.header .text {
+      color: black;
+      text-align: center;
+  }
+
+.intro {
+text-align: center;
+font-size: medium;
+line-height: default;
+margin: 20px 0;
+padding: 10px;
+padding-bottom: 0%;
+padding-top: 0%
+}
+
+.recipeinfo{
+  img{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+h2 {
+  text-align: left;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.list {
+  text-align: left;
+  font-size: medium;
+  padding-left: 15%;
+}
+
+hr {
+  height: 2px;
+  margin: 10px; 
+}
