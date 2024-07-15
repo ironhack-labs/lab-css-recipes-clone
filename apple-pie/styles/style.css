@@ -1,15 +1,27 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +34,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title {
+  background-image: url(../images/apple-pie.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  padding-top: 400px;
+}
+
+h1 {
+  color: white;
+  font-size: 8vh;
+}
+
+.info {
+  font-size: 40px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-title {
+  font-size: 40px;
+  text-align: left;
+  width: 100%;
+  padding-left: 70px;
+}
+
+.list {
+  font-size: 25px;
+  padding-left: 70px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.cooking-info {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  border-bottom: 1px solid #888;
+}
+
+.recipe-directions {
+  font-size: 40px;
+  text-align: left;
+  width: 100%;
+  padding-left: 70px;
+}
+
+.directions {
+  font-size: 25px;
+  padding-left: 70px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
