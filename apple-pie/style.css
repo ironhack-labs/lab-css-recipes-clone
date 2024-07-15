@@ -1,0 +1,72 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #555;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+body {
+  background-color: white;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-style: ;
+  font-weight: 100;
+  color: black;
+  text-align: justify;
+}
+h1 {
+  font-family:"Helvetica", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+.{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box ;
+}
+
+.container{
+  width: 100%;
+  width:auto;
+  position: relative;
+}
+
+.container img{
+  width: 100%;
+}
+
+.container .text{
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+  font-family: "Helvetica", sans-serif;
+} 
