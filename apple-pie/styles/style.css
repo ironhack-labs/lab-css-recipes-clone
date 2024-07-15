@@ -18,7 +18,69 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: #555;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header img {
+  height: 1100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header h1{
+  color: white;
+  font-size: 98px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.header {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.section {
+   max-width: 850px;
+   margin: 30px auto;
+}
+
+.main {
+  margin: 80px auto;
+}
+
+.recipe-story {
+  font-size: 24px;
+}
+
+.section img {
+  margin: 40px auto;
+  display: block;
+  width: 400px;
+}
+
+.recipe {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.section h2 {
+  font-weight: 600;
+  margin: 50px 0 20px;
+
+}
+
+.recipe-steps {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
