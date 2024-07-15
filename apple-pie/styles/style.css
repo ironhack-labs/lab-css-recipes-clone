@@ -15,10 +15,134 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
+/* Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.recipe-info {
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-info p {
+  margin: 0;
+}
+
+.img-recipe-info {
+  margin-top: 20px;
+}
+
+hr {
+  width: 90%;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.info-1 {
+  text-align: left;
+  padding-left: 20px; /* Adjust the padding if needed */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  margin-left: 0;
+}
+
+.cooking-info h2, .Directions h2 {
+  text-align: left;
+  width: 100%;
+  padding-left: 55px; /* Adjust the padding if needed */
+}
+
+.cooking-info h2 {
+  padding-bottom: 20px;
+}
+
+.cooking-info, .Directions {
+  justify-content: center;
+  align-items: flex-start; /* Aligns children to the start */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.cooking-info {
+  height: 500px;
+}
+
+.Directions {
+  height: 300px;
+}
+
+.cooking-info ul{
+  padding-left: 70px;
+}
+
+.Directions .info-1{
+  padding-left: 70px;
+}
+
+.img-cooking-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.img-cooking-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+ol {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+  padding-top: 20px;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+li {
+  padding-top: 5px;
+}
