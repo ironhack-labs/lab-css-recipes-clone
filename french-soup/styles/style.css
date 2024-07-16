@@ -3,7 +3,68 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 300px;
+  color: white;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: initial;
+}
+
+
+#h1header {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  font-size: 100px;
+  padding: 100px;
+}
+
+h1 {
+  font-style: normal;
+  text-align: left;
+  padding: 20px;
+}
+
+h2 {
+  padding: 50px;
+
+}
+
+ul {
+  font-size: large;
+  text-align: left;
+  text-justify: initial;
+  padding:  15px;
+}
+
+ol {
+  font-size: large;
+  text-align: left;
+  text-justify: initial;
+  padding:  15px;
+}
+
+.Ingredients {
+  text-align: center;
+  padding: 20px;
+}
+
+.Ingredients {
+  text-align: center;
+  padding: 20px;
+  
 }
