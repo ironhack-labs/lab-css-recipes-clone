@@ -22,3 +22,87 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#seccion-imagen{
+  color: white;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 900px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 450px;
+  font-size: 100px;
+}
+
+#seccion-parrafo{
+  height: 300px;
+  background-image: url("../images/recipe-info.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: bottom;
+  
+}
+#seccion-parrafo p{
+  text-align: center;
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 150px;
+  font-size: 30px;
+}
+#seccion-direcciones{
+  text-align: justify;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 150px;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+#seccion-ingredientes{
+  height: 600px;
+  text-align: center;
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 150px;
+  font-size: 30px;
+  background-image: url("../images/cooking-info.png");
+  background-repeat: no-repeat;
+  background-size: 550px;
+  background-position: bottom;
+}
+#seccion-ingredientes h4{
+  margin-bottom: 30px;
+  
+}
+#seccion-ingredientes ul{
+  list-style-type: "- ";
+  line-height: 1.5;
+  margin-left: 50px;
+}
+ol {
+  list-style: none;
+  counter-reset: listcounter;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+h4{
+  font-size: 40px;
+}
+#seccion-direcciones h4{
+  margin-bottom: 30px;
+}
+.seccion {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#seccion-direcciones ol{
+  margin-left: 50px;
+}
