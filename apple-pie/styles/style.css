@@ -11,7 +11,7 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-weight: lighter;
 }
 
@@ -22,3 +22,54 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header{
+  background-image: url(../images/apple-pie.jpg);
+  padding: 300px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  }
+
+body{
+padding: 50px;
+}
+
+p{
+  text-align: center;
+}
+
+section{
+  padding: 50px;
+}
+
+  img{
+    display: block;/*para centrar la imagen*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /*reduce a la mitad*/
+    height: auto;/*mantiene la proporción*/
+    padding: 20px;
+  }
+
+ul{
+  list-style-type: "-";
+}
+
+ol{/*para que la lista tenga la numeración con )*/
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ol li{
+  counter-increment: item;
+  padding-left: 20px;
+  position: relative;
+}
+
+ol li::before{
+  content: counter(item) ") ";
+  position: absolute
+  left: 0
+}
