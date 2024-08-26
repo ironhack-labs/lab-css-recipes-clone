@@ -7,18 +7,139 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  font-style: arial;
+  
+  
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
+  
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 120%;
+  
 }
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  margin: auto;
+  
+}
+
+
+.apple-pie {
+  width: 100%;
+  height: 80%;
+}
+
+h1 {  
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+
+}
+
+.introduction {
+  display: flex;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  
+ ;
+
+}
+
+hr {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 70%;
+}
+
+.Ingredients ul li::before {
+
+  content: "-";
+
+}
+
+.Ingredients {
+  
+  padding-left: 20%;
+  padding-right: 10%;
+  
+  padding-bottom: 20px;
+  
+}
+
+.recipe {
+  display: block;
+  margin: auto;
+  width: 25%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+ul {
+  list-style: none;
+}
+
+h3 {
+  padding-left: 20%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+ 
+  
+}
+
+.cooking {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.directive {
+  display: flex;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+.directive {
+  counter-reset: list-counter;
+  list-style: none;
+}
+.directive ul li {
+  counter-increment: list-counter;
+  
+}
+.directive ul li::before {
+  
+  content: counter(list-counter) ')';
+  margin-right: 10px;
+  
+}
