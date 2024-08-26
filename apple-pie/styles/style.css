@@ -22,3 +22,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/apple-pie.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat:  no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 1px;
+}
+
+header p{
+  text-align: center;
+  margin: 40px;
+}
+
+#images{
+ text-align: center;
+}
+
+.second-title{
+  text-align:left;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+
+.list{
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.second-list {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.second-list li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+.second-list li::before {
+  content: counter(item) ") ";
+}
