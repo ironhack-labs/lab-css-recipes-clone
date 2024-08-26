@@ -3,22 +3,94 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+header {
+  background-image: url("../images/apple-pie.jpg");
+  width: 800px;
+  height: 500px;
+  background-position: 50% 0%;
+  background-size:cover;
+  color: white;
+  text-align: center;
+  padding: 200px;
+  font-size: 30px;
+}
+
+div {
+  width: 800px;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 100px 0px 100px;
+}
+
+div img {
+  width: 350px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
+section{
+  margin: 20px 100px;
+  padding: 10px 0px;
+  width: 600px;
+  /* padding: 20px 100px; */
+  text-align: left;
+  border-top: 3px solid #ddd;
+}
+/* 
+#ordered {
+  text-align: center;
+  width: 400px;
+} */
+
+section img {
+  width: 350px;
+  margin: 10px 120px;
+}
+
+ul {
+  counter-reset: list-counter;
+}
+
+ul li {
+  counter-increment: list-counter;
+  list-style-type: "-";
+  position: relative;
+}
+/* ul li::before {
+  content: "-";
+  position: absolute;
+  left: -6px;
+} */
+ol {
+  counter-reset: list-counter;
+  width: 600px;
+}
+
+ol li {
+  counter-increment: list-counter;
+  list-style-type: none;
+  position: relative;
+  list-style-position:outside;
+}
+
+ol li::before {
+  content: counter(list-counter) ")";
+  position: absolute;
+  left: -15px;
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
-
-/* STYLES */
-/* Write your CSS below */
+/* coment */
