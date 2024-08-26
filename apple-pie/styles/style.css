@@ -17,8 +17,70 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: sans-serif, "Helvetica" ;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background: url("/lab1/lab1/apple-pie/images/apple-pie.jpg") no-repeat; 
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 100px 120px;
+  font-size: 50px;
+}
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px 20px 0;
+}
+p {
+  font-size: 15px;
+}
+.card {
+  color: #444444;
+  margin: 30px 50px;
+}
+.pic {
+  text-align: center;
+}
+#intro {
+  text-align: justify;
+  padding-top: 10px;
+  }
+#intro img {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+}
+#ingredients img {
+  width: 300px;
+  height: 70px;
+  margin: 10px;
+}
+#ingredients ul {
+  padding-left: 20px;
+}
+#ingredients li{
+  list-style-type: none
+}
+#ingredients li:before{
+  content: "-"
+}
+#directions ol {
+  list-style-type: none;
+  padding-left: 10px;
+}
+#directions ol li {
+  counter-increment: contador;
+  list-style-position: inside;
+}
+#directions ol li::marker {
+  content: counter(contador) ") ";
+}
