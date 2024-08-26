@@ -21,4 +21,60 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+}
+
+.header h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin: auto;
+}
+
+.container {
+  display: block;
+  margin: auto 10%;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+#info {
+  margin-top: 10vh;
+}
+
+h2 {
+  margin: 30px auto;
+}
+
+ul {
+  list-style-type: "- ";
+}
+
+li {
+  margin-left: 20px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
