@@ -9,16 +9,73 @@ html {
   box-sizing: inherit;
 }
 
+
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
-
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  color: #fff;
+}
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
-
+ul, ol {
+  list-style: none;
+}
+li {
+  /* padding: 3px; */
+  line-height: 1.8em;
+}
 /* STYLES */
-/* Write your CSS below */
+.main { 
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section {
+  padding: 100px;
+}
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.coocking-info {
+  display: block;
+  margin: 30px auto;
+  width: 40vw;
+  min-width: 350px;
+}
+h2 {
+  margin: 20px 0;
+}
+.ingredients { 
+  border-top: 2px solid rgb(148, 148, 148);
+  border-bottom: 2px solid rgb(148, 148, 148);
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+.ingredients_list {
+  padding-left: 20px;
+}
+.ingredients_list li::before {
+
+  content: '- ';
+}
+.directions_list {
+  counter-reset: list;
+  padding-left: 15px;
+}
+.directions_list li::before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
