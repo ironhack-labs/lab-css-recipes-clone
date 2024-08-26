@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -17,8 +20,93 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family:Roboto;
+  justify-content: center;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.contenido{
+  width: 850px;
+  margin: 0 auto;
+}
+
+.contenido p{
+  width: 85%;
+}
+.cuerpo{
+  width: 85%;
+  margin: 0 auto;
+}
+
+ul, ol{
+  margin: 20px 10px 40px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+  list-style-position: inside;
+  font-size: 1.1em;
+}
+ul, ol li{
+  line-height: 1.1em;
+  margin-bottom: 3px;
+}
+
+img{
+  display: block;
+  height: 55px;
+  margin: 40px auto;
+}
+
+.encabezado {
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 30% ;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  align-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3em;
+  text-shadow: .5px .5px 1px aliceblue;
+}
+
+header p{
+  margin: 60px auto 25px;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+}
+hr{
+  margin: 20px auto 40px;
+  height: 3px;
+  border-style: none;
+  background-color:rgb(180, 180, 180);
+}
+
+section h2{
+  font-weight: 400;
+  font-size: 1.2em;
+  color: rgb(102, 102, 102);
+  margin-bottom: 30px;
+}
+
+ol{
+  margin-bottom: 70px;
+  padding-left: 0;
+}
+
+ol li::marker{
+  content: counter(list-item) ") ";
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li::before{
+  content: "- "
+}
