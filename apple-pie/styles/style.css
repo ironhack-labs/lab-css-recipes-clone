@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -16,9 +17,71 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 
 /*  Set the font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Roboto', "Helvetica", sans-serif;
+  line-height: 25px;
+  padding-bottom: 50px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding: 100px;
+}
+
+#intro {
+  padding: 50px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.image-div {
+  text-align: center;
+}
+
+#image-info {
+  text-align: center;
+  padding: 15px;
+  max-width: 250px;
+}
+
+hr {
+  width: 85%;
+}
+
+p, h3, #ingredients, #directions {
+  padding: 25px 50px;
+}
+
+h3 {
+  padding-bottom: 0;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: '- ';
+  margin-left: 10px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
