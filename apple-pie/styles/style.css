@@ -15,10 +15,88 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin-bottom: 200px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header{
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+h1 {
+
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  padding-top: 225px;
+  padding-bottom: 225px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 32px;
+}
+
+section {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+img {
+  width: 400px;
+}
+
+ul {
+  padding-left: 20px;
+}
+ul li {
+  list-style-type: '- ';
+}
+
+ol {
+  list-style: none; 
+  padding-left: 20px;
+}
+ol li {
+  counter-increment: item; 
+  margin-bottom: 5px; 
+}
+ol li::before {
+  content: counter(item) ") "; 
+}
+
+.image {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.onion {
+  background-image: url(../../french-soup/images/soup.jpg);
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
