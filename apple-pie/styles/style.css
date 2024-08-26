@@ -22,3 +22,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#intro{
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.Apple-Pie {
+  background-image: url(/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: 0 0;
+ color: white;
+font-size: 7em;
+ padding-top: 500px;
+ padding-bottom: 500px;
+}
+  .ap-intro{
+    font-size: 2em;
+    font-weight: 200;
+    margin: 75px;
+    
+  }
+ 
+.instructions{
+  margin-left: 50px;
+  font-size: xx-large;
+  
+}
+.titles{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+div {
+text-align: center;
+}
+
+ol{
+  list-style: none;
+  margin-bottom: 50px;
+}
+ol > li{
+  counter-increment: listcounter;
+}
+ol > li::before{
+  content: counter(listcounter) ")";
+}
+ul{
+  margin-bottom: 50px;
+  list-style: '-';
+}
+
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+li{
+  margin-left: 25px;
+  font-weight: 100;
+  word-spacing: 1.5px;
+  line-height: 50px;
+  
+}
