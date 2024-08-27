@@ -22,3 +22,85 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/*etiquetas-sueltas-detalles!!!repasar ol maldita!!!*/
+ul li::before {
+  content: "–";
+  font-size: 10px;
+  margin-right: 10px;
+}
+ol li::before {
+  content: counter(list-counter) ") ";
+  counter-increment: list-counter;
+  
+}
+
+.imagenes-cocina{
+
+  margin-left:100px;
+  margin-top: 5px;
+}
+hr{
+  margin: 5px 60px 5px 60px;
+  
+
+}
+
+/*Plantilla*/
+
+#fondo-web{
+
+  margin: 30px;
+}
+
+/*Encabezado*/
+
+#encabezado{
+  padding: 400px;
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#encabezado h1{
+  text-align: center;
+  color: antiquewhite;
+  font-size: 90px;
+}
+
+/*sección 1*/
+
+.parrafo-seccion p {
+  margin: 0px 60px 5px 60px;
+  padding: 60px 50px 0px 110px;
+  text-align: justify;
+  font-size: 25px;
+  color: rgb(51, 50, 50);;
+}
+
+/*sección 2*/
+
+.parrafo-seccion h4{
+  font-size: 15px;
+  margin: 5px 60px 5px 60px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.parrafo-seccion ul{
+  list-style-type: none;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: rgb(63, 63, 63);
+  
+
+}
+.parrafo-seccion ol {
+  list-style-type: none;
+  counter-reset: list-counter;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+  color: rgb(63, 63, 63);
+
+
+}
