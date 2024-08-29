@@ -18,7 +18,95 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 8rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 400;
+    margin-block: 40px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  ul li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+  }
+
+  ul li::before {
+    content: "-";
+    position: absolute;
+    left: -1rem;
+    padding-left: 30px;
+  }
+
+  ol {
+    list-style-type: none;
+    counter-reset: list-counter;
+    line-height: 1.2;
+    margin-bottom: 60px;
+  }
+
+  ol li {
+    counter-increment: list-counter;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 50px;
+  }
+
+  ol li::before {
+    content: counter(list-counter) ".) ";
+    position: absolute;
+    left: -2.5rem;
+    padding-left: 50px;
+  }
+
+  article p {
+    font-size: 2.1rem;
+    font-weight: 200;
+  }
+
+  ol, ul {
+    font-size: 1.5rem;
+  }
