@@ -7,3 +7,89 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.french-soup-container{
+  background-image: url("../images/soup.jpg");
+  background-repeat:initial;
+  background-size:cover;
+  background-position: 1px;
+  height: 400px;
+  margin: auto;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.recipe-intro{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro{
+  color: grey;
+  font-size: 20px;  
+  width: 800px;
+}
+
+.recipe-info{  
+  padding-top: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+.info-img{
+  width: 40%;
+  height: 40%;
+  margin-left: 350px;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+.ingredients-list{
+  color: grey;
+  font-size: 18px;  
+  margin-top: 20px;
+  list-style: '-';
+  text-indent: 10px;
+  padding-left: 10px;
+}
+
+.prep-info{   
+  padding-top: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+.prep-img{
+  width: 35%;
+  height: 35%;
+  margin-left: 350px;
+}
+
+.direction-list{
+  color: grey;
+  font-size: 18px;  
+  margin-top: 20px;
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+
+.direction-list li {
+  counter-increment: step-counter;
+  margin-bottom: 5px;
+}
+
+.direction-list li::before {
+  content: counter(step-counter)') ';  
+}

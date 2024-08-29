@@ -22,3 +22,86 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.apple-pie-container{
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 400px;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+}
+
+.recipe-intro{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro{
+  color: grey;
+  font-size: 20px;  
+  width: 800px;
+}
+
+.recipe-info{  
+  padding-top: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+.info-img{
+  width: 40%;
+  height: 40%;
+  margin-left: 350px;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+.ingredients-list{
+  color: grey;
+  font-size: 18px;  
+  margin-top: 20px;
+  margin-left: 15px;
+  list-style: '-';
+  text-indent: 10px;
+}
+
+.prep-info{   
+  padding-top: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+.prep-img{
+  width: 35%;
+  height: 35%;
+  margin-left: 350px;
+}
+
+.direction-list{
+  color: grey;
+  font-size: 18px;  
+  margin-top: 20px;
+  margin-left: 5px;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.direction-list li {
+  counter-increment: step-counter;
+  margin-bottom: 5px;
+}
+
+.direction-list li::before {
+  content: counter(step-counter)'.) ';  
+}
