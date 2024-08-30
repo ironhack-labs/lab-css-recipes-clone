@@ -18,7 +18,108 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-}
+  background-color:white;} 
 
 /* STYLES */
 /* Write your CSS below */
+img{
+  display: block;
+  height: auto;
+  width: 100%; 
+}
+
+.image-container {
+  position: relative;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.small-image {
+  width: 20%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  padding: 10px;
+  text-align: center;
+  font-size: 100px;
+  white-space: nowrap;
+  overflow: visible;
+  max-width: 100%;
+}
+
+.centered-text {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.ingredients {
+  margin: 40px;
+  margin-left: 70px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.title {
+  margin-left: 30px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  width: 0 auto; 
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 100px;
+  white-space: nowrap;
+  overflow: visible;
+  max-width: 60%;
+}
+
+.directions {
+  list-style-type: decimal;
+  margin: 40px;
+  margin-left: 70px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
