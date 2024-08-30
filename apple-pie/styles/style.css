@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,71 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(39, 34, 34);
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-apple-pie {
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 40px 80px;
+  background-image: url("../images/apple-pie.jpg");
+  height: 800px;
+}
+body {
+  padding: 40px;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+ol {
+  list-style-type: decimal;
+}
+.recipe-text {
+  justify-content: center;
+  padding: 40px 80px;
+}
+.title {
+  color: white;
+  justify-content: center;
+  padding-top: 350px;
+  font-size: 100px;
+  font-weight: 400;
+}
+h2 {
+  padding: 10px;
+  font-style: inherit;
+  font-weight: 400;
+}
+#recipe-info {
+  display: block;
+  margin: 40px auto;
+  justify-content: center;
+  padding: 0px 200px;
+  width: 80%;
+  height: 60px;
+  position: relative;
+}
+#recipe-time-info {
+  display: block;
+  margin: 40px auto;
+  justify-content: center;
+  padding: 0px 200px;
+  width: 70%;
+  height: 70px;
+  position: relative;
+}
+p {
+  font-size: larger;
+}
+li {
+  font-size: larger;
+}
