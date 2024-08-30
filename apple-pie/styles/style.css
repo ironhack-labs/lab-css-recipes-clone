@@ -1,9 +1,5 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,12 +9,16 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  background-color: rgb(49, 23, 136);
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
 }
 
+#imageContainer {height: 400px; background-image: url("../images/apple-pie.jpg");}
 /* STYLES */
 /* Write your CSS below */
+
