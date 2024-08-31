@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4;
+}
+
+#main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #c5a880;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+#hero-section img {
+    width: 100%;
+    height: auto;
+}
+
+#recipe-info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#recipe-info-section img {
+    max-width: 45%;
+    height: auto;
+}
+
+#prep-steps-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#prep-steps-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#prep-steps-section ol {
+    padding-left: 20px;
+}
+
+#prep-steps-section li {
+    margin-bottom: 10px;
+    color: #555;
+}

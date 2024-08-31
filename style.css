@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Set the font family for the entire document */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.3; /* Set default line height for the body */
+    height: 100px; /* Set the height of the body to 100px (likely an error, usually the body height is not fixed) */
+}
+
+.header-image {
+    position: relative; /* Position the header image relative to its container */
+    text-align: center; /* Center-align the text within the header */
+    color: white; /* Set text color to white */
+}
+
+.header-image img {
+    width: 100%; /* Set the image width to 95% of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+.title-overlay {
+    position: absolute; /* Position the title overlay absolutely within the header image */
+    top: 50%; /* Vertically center the overlay */
+    left: 50%; /* Horizontally center the overlay */
+    transform: translate(-50%, -50%); /* Offset the overlay to ensure exact centering */
+    background-color: transparent; /* Set the background color of the overlay to transparent */
+}
+
+.title-overlay h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 3em; /* Set the font size for the header title */
+    font-weight: normal; /* Set font weight to normal */
+    display: inline; /* Display the title inline */
+    white-space: nowrap; /* Prevent the title from wrapping to the next line */
+}
+
+.custom-line {
+    width: 80%; /* Set the width of the horizontal line to 70% of its container */
+    margin: 10px auto; /* Center the line with a small margin */
+    border: 0; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    background: #ccc; /* Set the background color of the line to light grey */
+}
+
+#introduction-text {
+    padding: 1px 5%; /* Add minimal padding around the introduction text */
+    text-align: justify; /* Justify the text */
+    font-size: 0.9em; /* Set the font size for the introduction text */
+    line-height: 1.8; /* Set line height for better readability */
+    color: black; /* Set text color to black */
+    margin-inline-start: 80px; /* Add left margin to align with the content */
+    margin-bottom: 40px; /* Add bottom margin for spacing */
+}
+
+.intro-text p {
+    display: inline-flex; 
+    width: 90%; /* Set the paragraph width to 90% */
+    margin-bottom: 3.6em; /* Add margin below paragraphs */
+    margin-top: 3.6em; /* Add margin above paragraphs */
+    
+}
+
+.intro-text p:first-child,
+.intro-text p:nth-child(2) {
+    font-size: 1.7em; /* Increase font size for the first two paragraphs */
+    word-spacing: 0.05em; /* Add slight spacing between words */
+}
+
+.intro-text p:last-child {
+    font-size: 1.7em; /* Increase font size for the last paragraph */
+    word-spacing: 0.1em; /* Add more spacing between words */
+    letter-spacing: 0.03em; /* Add slight spacing between letters */
+}
+
+.recipe-info {
+    margin-top: 10px; /* Add margin above the recipe info */
+    text-align: center; /* Center-align the recipe info */
+}
+
+
+.ingredients-section {
+    width: 48%; /* Set the width to 48% for inline display */
+    padding: 20px 5%; /* Add padding around the ingredients section */
+}
+
+.ingredients-section h2 {
+    font-size: 1.5em; /* Set the font size for the section title */
+    margin-bottom: 10px; /* Add margin below the section title */
+    margin-inline-start: 80px; /* Add left margin to align with the content */
+    line-height: 2.8; /* Set line height for better readability */
+}
+
+.ingredients-section ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    margin-bottom: 3.6em; /* Add bottom margin for spacing */
+    margin-inline-start: 95px; /* Add left margin to align with the content */
+    line-height: 0.8; /* Set line height for list items */
+}
+
+.ingredients-section ul li {
+    padding: 5px 0; /* Add padding between list items */
+    font-size: 1.1em; /* Set the font size for list items */
+}
+
+#cooking-information {
+    max-width: 100%; /* Set the maximum width to 100% */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center-align the text */
+    padding: 0px; /* Remove padding */
+}
+
+.directions-section { 
+    width: 70%; /*Set the width to 70% for inline display */
+    padding: 10px 5%; /*Add padding around the directions section */
+    margin-bottom: 50px; /*Add margin below the directions section */
+}
+
+.directions-section h2 {
+    font-size: 1.5em; /* Set the font size for the section title */
+    margin-inline-start: 80px; /* Add left margin to align with the content */
+    line-height: 2.8; /* Set line height for better readability */
+}
+
+.directions-section ol {  
+    padding-left: 10px; /*Add padding to the left of the list */ 
+    list-style: none; /*Remove default list numbering */
+    counter-reset: list-counter; /*Reset the list counter*/
+}
+
+.directions-section ol li {
+    margin-bottom: 10px; /* Add margin below each list item */
+    counter-increment: list-counter; /* Increment the list counter */
+    position: relative; /* Position the list items relative to the container */
+    padding-left: 20px; /* Add padding to the left of the list items */
+    width: 112%; /* Set the width of the list items to 100% */
+    margin-inline-start: 85px; /* Add left margin to align with the content */
+}
+
+.directions-section ol li::before {
+    content: counter(list-counter) ")"; /* Add custom numbering format */
+    position: absolute; /* Position the number absolutely */
+    left: 0; /* Align the number to the left */
+    top: 0; /* Align the number to the top */
+}
