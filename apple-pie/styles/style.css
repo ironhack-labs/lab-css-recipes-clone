@@ -22,3 +22,102 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.mainText {
+  margin: 50px;
+  border: 20px;
+  margin: 100px;
+}
+
+h2 {
+  padding: 15px;
+}
+
+.applePie {
+  max-width: 100%;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.applePie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.imageContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+.textOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+p {
+  text-align: center;
+  padding: 40px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.recipeInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipePrep {
+  height: 100px;;
+}
+
+.recipeTime {
+  height: 70px;;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li::before {
+  content: "- ";
+  margin-right: 5px;
+}
+
+
+
+
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol li {
+  counter-increment: item;
+  margin-bottom: 5px;;
+}
+
+ol li::before {
+  content: counter(item) ".) ";
+  margin-right: 5px;
+}
