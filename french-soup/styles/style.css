@@ -1,9 +1,118 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+/*--------Header--------*/
+
+header {
+  height: 800px;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-position: 0 -400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+header > h1 {
+  font-size: 5em;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 300px 0 0 0;
+}
+
+.section-style {
+  margin: 10px 200px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+/*-------Intro--------*/
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+#intro > p {
+  width: 100%;
+  font-size: 1.7em;
+  font-weight: 200;
+  padding: 0;
+  text-align: justify;
+}
+
+#intro img {
+  width: 500px;
+}
+
+/*------------Ingredients----------*/
+
+#ingredients > h2 {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+ul.dashed {
+  list-style-type: none;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+
+ul.dashed > li {
+  text-indent: -40px;
+  margin: 0 0 3px 0;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+ul.dashed > li:before {
+  content: '-';
+  text-indent: -40px;
+}
+
+#ingredients > img {
+  width: 40%;
+  padding-left: 30%;
+}
+
+/*---------------Directions----------*/
+
+#directions {
+  border: none;
+}
+
+#directions > h2 {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+#directions > ol {
+  list-style: none;
+  width: 1000px;
+}
+
+#directions > ol > li {
+  counter-increment: listcounter;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 0 0 5px 0;
+}
+
+#directions > ol > li::before {
+  content: counter(listcounter) ')';
 }
