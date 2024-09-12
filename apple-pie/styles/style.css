@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -21,4 +32,78 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+/* Write your CSSijnn     bn below */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  background-image: url("../images/apple-pie.jpg");
+  background-color: transparent;
+  background-size: cover;
+  height: 600px;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail p {
+  font-size: 1em;
+  color: white;
+  background-image: none;
+  background-color: transparent;
+}
+.second-section {
+  margin: 50px 60px 30px;
+
+}
+.first-paragraph p {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+.ingredients,
+.directions {
+  padding-top: 35px;
+  font-size: 22px;
+}
+.ingredients ul,
+.directions ol {
+  padding: 20px 35px 20px;
+}
+.ingredients li,
+.directions li {
+  list-style: none;
+  padding-top: 10px;
+}
+.ingredients li:before {
+  content: "- ";
+}
+.cooking-info img {
+  width: 50%;
+}
+.recipe-info.cooking-info img {
+  width: 60%;
+}
+.cooking-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+.directions ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+  padding-top: 5px;
+}
+
+.directions ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
