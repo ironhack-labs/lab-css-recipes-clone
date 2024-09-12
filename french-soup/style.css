@@ -1,0 +1,141 @@
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0   ;
+}
+
+/* header styling */
+
+#header{
+    position: relative;
+    text-align: center;
+}
+#header > img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+#header > h1 {
+    font-size:8vw;
+    font-weight: 300;
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* info styling  */
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.info > p{
+padding-top: 8%;
+padding-left: 8%;
+padding-right: 8%;
+font-size: 1.2em;
+color: #878787;
+font-weight: 100;
+}
+
+.container-info img{
+    height: 20px;
+}
+.container-info p{
+    font-size: 0.8em;
+    color: #878787;
+}
+.break-info{
+width: 85%;
+margin: 0 auto;
+margin-top: 40px;
+border: none;
+height: 0.5px;
+background-color: #878787;
+}
+
+/* ingredients styling*/
+
+#ingredients{
+    padding-left: 8%;
+    padding-top: 2%;
+}
+#ingredients > h2{
+    font-weight: 200;
+    color: #232323;
+}
+.dashed {
+    font-weight: 200;
+    color: #232323;
+}
+
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -40px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+  }
+  .break-ingredients{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    height: 0.5px;
+    background-color: #878787;
+  }
+.container-ingredients{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-ingredients img{
+    height: 35px;
+}
+.container-ingredients p{
+    font-size: 0.8em;
+    color: #878787;
+}
+.container-ingredients p >span{
+    color: #060606;
+}
+.break-line{
+    width: 1px;
+    height: 40px;
+    background-color: #dddddd;
+}
+
+/* ingredients styling*/
+
+.container-directions{
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-right: 8%;
+}
+
+.list-directions{
+    color: #878787;
+}
+
+.list-directions {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-bottom: 50px;
+  }
+  .list-directions li {
+    counter-increment: step-counter;
+    margin-bottom: 5px;
+  }
+  .list-directions li::before {
+    content: counter(step-counter) ")";
+    padding: 5px 5px;
+  }
