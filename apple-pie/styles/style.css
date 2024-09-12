@@ -22,3 +22,78 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1{
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  font-size: 10em;
+}
+
+IMG.applePie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
+  width: 90%;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+  margin: 100px 150px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ingredients {
+  text-align: justify;
+  margin: 30px 120px 30px 120px;
+}
+
+.blocktext {
+  margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+ul {
+  font-size: 1.5em;
+  line-height: 35px;
+  }
+
+IMG.cookingInfo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
+  width: 30%;
+}
+
+  .directions {
+    text-align: justify;
+    margin: 30px 120px 30px 120px;
+  }
+
+  ol {
+    font-size: 1.5em;
+    line-height: 35px;
+    list-style: decimal;
+    counter-reset: item;
+    margin-bottom: 100px;;
+    text-align: center;
+    font-size: x-large;
+  }
+ 
