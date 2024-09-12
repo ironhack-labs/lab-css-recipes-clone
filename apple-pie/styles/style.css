@@ -1,24 +1,88 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+* {
   box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
 }
-
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
   font-weight: lighter;
 }
-
-/*  Set the font */
 body {
+  margin: 0;
   font-family: "Helvetica", sans-serif;
 }
+#first-contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.apple-image{
+  max-width: 100%;
+}
+#absoute-text{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.small-introduction{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.small-introduction p{
+  width:800px;
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+.image-info{
+  width: 350px;
+  margin-bottom: 20px;
+}
+hr{
+  width: 60%;
+}
+.ingredients{
+  width:800px;
+  font-size: 23px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+.ingredients ul{
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+li::before{
+  content: "- ";
+  color: black;
+}
+.ingredients img{
+  width: 300px;
+  margin-left: 30%;
+}
+.directions{
+  width:800px;
+  font-size: 23px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+ol{
+  list-style-type: none;
+}
+ol li{
+  counter-increment: item; 
+}
+ol li::before{
+  content: counter(item) ") ";
+}
 
-/* STYLES */
-/* Write your CSS below */
