@@ -1,24 +1,102 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: auto;
+    padding: 0;
+    font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+main {
+    padding: 70px 80px;
+}
+hr {
+    margin-block-end: 35px;
+}
+.header {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1 {
+    position: absolute;
+    color: white;
+    font-size: 53px;
+}
+.header img {
+    width: 100%;
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.ingredients img {
+    max-width: 70%;
+}
+.ingredients ul {
+    line-height: 25px;
+    list-style-type: inside;
+    margin-bottom: 15px;
+}
+.ingredients li {
+    margin-left: 17.8px;
+}
+.ingredients h2 {
+    margin-bottom: 15px;
+}
+.list-type {
+    list-style-position: inside;
+    line-height: 25px;
+}
+.directions-title {
+    margin: 20px 0;
+}
+ul#custom-numbering {
+    list-style: none;
+    counter-reset: list-counter;
+}
+
+ul#custom-numbering li {
+    counter-increment: list-counter;
+}
+
+ul#custom-numbering li::before {
+    content: '- '; /* Change numbers to hiphen */
+}
