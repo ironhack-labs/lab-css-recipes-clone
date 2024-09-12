@@ -3,22 +3,76 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+body{
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 0;
   font-weight: lighter;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+ font-family: Arial, Helvetica, sans-serif
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+img.recipe{
+  width: 40%;
+}
+img.prep{
+  width: 30%;
+}
+
+h1{
+  color: white;
+  
+}
+.intro{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.centered{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  color: aliceblue;
+}
+.stintro{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ing{
+ text-align: left;
+ margin-left: 50px;
+}
+.direct{
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-transform: inherit;
+}
+
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+}
