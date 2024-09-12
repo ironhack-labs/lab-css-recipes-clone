@@ -22,3 +22,20 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
