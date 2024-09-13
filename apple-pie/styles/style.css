@@ -22,3 +22,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.apple-pie_div {
+  height: 850px;
+  overflow: hidden;
+}
+
+#apple-pie_img {
+  width: 100%;
+  position: relative;
+  bottom: 115px;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 7rem;
+}
+
+
+.recipe-info {
+  margin-top: 2rem;
+}
+
+.recipe-info p {
+  font-size: 2rem;
+}
+
+.recipe-div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.recipe-info img {
+  display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 2.2rem;
+}
+
+.ingredients-section ul {
+  font-size: 1.7rem;
+  padding-left: 3rem;
+  list-style-type: none;
+}
+
+.ingredients-section ul li::marker {
+  content: "- ";
+  color: black;
+  font-size: 27px;
+}
+
+.ingredients-div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+
+#ingredients-info_img {
+  display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.directions-section ol {
+  font-size: 1.7rem;
+  padding-left: 1.7rem;
+  counter-reset: list-counter;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: contador;
+}
+
+ol li {
+  counter-increment: contador;
+}
+
+ol li::before {
+  content: counter(contador) ") ";
+}
