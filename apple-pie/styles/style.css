@@ -20,5 +20,9 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+body {
+  background-image: image("apple-pie");
+}
+
 /* STYLES */
 /* Write your CSS below */
