@@ -1,24 +1,51 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+body{
+  padding:0;
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.image-apple{
+  position:relative;
+  width:100%;
+  height:600px;
+  background:url(../images/apple-pie.jpg) center/cover no-repeat;
+  margin:0;
+  padding:0;
+  border:0;
+   
+}
+.text-apple{
+  position:absolute;
+  color:white;
+  text-align: center;
+  top:35%;
+  left:44%;
+  font-size:60px;
+}
+.text{
+  text-align: center;
+  margin-left:10%;
+  font-size:25px;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+hr.solid {
+  border-top: 3px solid #bbb;
 }
+#cooking-image{
+  
+  margin-left:35%;
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
 }
-
-/* STYLES */
-/* Write your CSS below */
+h2{
+  margin-bottom:5%;
+}
+ul{
+  margin-left:10%;
+  margin-bottom:3%;
+  font-size:25px;
+}
+ol{
+  margin-left:10%;
+  font-size:25px;
+  margin-bottom:5%;
+}
