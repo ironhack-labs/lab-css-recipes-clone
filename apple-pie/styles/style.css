@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,85 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 1.2rem;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: top center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 5rem;
+}
+
+h2{
+  margin-block: 3rem 2rem;
+}
+
+main {
+  max-inline-size: 65ch;
+  margin: 0 auto;
+}
+
+p{
+  margin-block: 3rem;
+}
+
+
+img#recipe-info {
+  display: block;
+  margin: 0 auto;
+  block-size: 4rem;
+  margin-block: 3rem;
+}
+
+ul{
+  list-style: none;
+
+  & > li {
+    padding-left: 1em;
+  }
+  
+  & > li:before {
+    content: "-";
+    padding-right: 0.5rem;
+  }
+}
+
+
+
+ol{
+  list-style: none;
+  counter-reset: steps;
+  padding-block-end: 40px;
+
+  &>li::before {
+    counter-increment: steps;
+    content: counter(steps)")";
+  }
+}
+
+
+
+
+img#cooking-info {
+  display: block;
+  margin: 0 auto;
+  block-size: 5rem;
+  margin-block: 3rem;
+}
+
+hr{
+  margin-block: 3rem;
+}
