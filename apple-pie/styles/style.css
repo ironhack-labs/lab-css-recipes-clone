@@ -2,23 +2,140 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2,  h4, h5, h6, p, ol, ul, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+/*-- Imagen ----------------------------------------------------------------*/
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center center; 
+  height: 100vh; 
+  
+}
+
+.contenedor {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px; 
+  
+}
+
+.texto-centrado {
+  position: absolute;
+  top: 45%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 100px;   
+}
+
+.imagen { 
+  width: 800px; 
+  height: 470px; 
+  overflow: hidden; 
+}
+
+h1 {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*-- general ----------------------------------------------------------------*/
+.general {  
+  width: 700px;
+  margin: 0 auto;  
+}
+
+/*-- introduccion -----------------------------------------------------------*/
+.introduccion img {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.introduccion p {
+  font-size: 20px;
+  padding-bottom:40px;
+  padding-top:40px;
+  text-align: center;
+}
+
+/*-- ingredientes -----------------------------------------------------------*/
+
+.ingredientes ol {
+
+  padding-bottom:40px;
+  padding-top:40px;
+}
+
+.ingredientes h3 {
+  margin-top: 30px;
+}
+
+.ingredientes li {
+  margin-left: 30px;
+}
+
+.ingredientes ol {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.ingredientes ol li::before {
+  content: "- ";
+}
+
+.ingredientes img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 30px; 
+}
+
+/*-- proceso ---------------------------------------------------------------*/
+.proceso h3{
+  margin: 30px 0 30px 0;
+}
+
+.proceso li{
+  margin-left: 30px;
+}
+
+.proceso ol{
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: listcounter;
+  margin-bottom: 50px;
+}
+
+.proceso ol li::before{
+  content: counter(listcounter) ")";
+  counter-increment: listcounter;
+}
+
