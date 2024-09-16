@@ -22,3 +22,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.style-applepie h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 80px;
+  padding: 20% 0% 20% 0%;
+}
+
+.style-applepie p {
+  text-align: justify;
+  margin: 7% 16.7% 2% 16.7%;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.5rem;
+}
+
+.style-applepie {
+  display: flex;
+  flex-direction: column;
+  
+}
+.style-applepie img {
+  width:30%;
+  align-self: center;
+  margin-bottom: 3%;
+}
+
+.style-ingredients ul {
+  padding-left: 3%;
+}
+
+.style-ingredients li::marker {
+  content: "- ";
+}
+
+hr {
+  margin: 0 15% 0 15%;
+  height: 2.5px;
+  background-color: black;
+}
+
+.style-ingredients {
+  margin-left: 15%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.style-ingredients h2 {
+  margin-bottom: 2.3%;
+  font-weight: 600;
+}
+
+ul li {
+  line-height: 30px;
+}
+
+.style-ingredients img {
+  width:28%;
+  align-self: center;
+  margin: 3% 20% 3% 0;
+}
+ 
+.style-directions {
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.style-directions h2 {
+  margin-bottom: 2.3%;
+  font-weight: 600;
+}
+
+ol {
+  margin-right: 15%;
+  margin-left: 5%;
+}
+
+.style-directions li::marker {
+  content: counter(list-item) ") " 
+}
+
+ol li{
+  line-height: 30px
+}
