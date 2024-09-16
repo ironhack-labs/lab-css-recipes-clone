@@ -18,7 +18,64 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1{
+  font-size: 5em;
+  color: beige;
+}
+
+.receipe{
+  padding: 60px 100px;
+  line-height: 1.4;
+}
+
+#each-section{
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(77, 74, 74);
+  margin: 40px 0 20px;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+  width: 430px;
+}
+
+hr{
+  border: 2px solid rgb(176, 169, 169);
+}
+
+h3{
+  font-weight: 500;
+  color: black;
+}
+
+.content{
+  padding: 20px 10px;
+}
