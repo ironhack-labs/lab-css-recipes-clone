@@ -1,24 +1,72 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+
+/* header img {
+height: 80%;
+ width:100%
+} */
+
+
+body image {
+  margin: auto;
+  display: block;
+}
+.container{
+  background-image: url("../apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 41vh;
+  clear: both;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.container img {
+  width: 100%;
+}
+.centered{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+h2 {
+  fond-size: 1.875em;
+  margin-left:30px;
+  text-alinment
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.all-section{
+  margin: 1px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.paragraph{
+  clear:both
+}
+
+.cooking-info{
+width: 100%;
+
+}
+
+
+.recipe-info {
+ width: 100%;
+}
+
+.oderlist{
+  margin-right: 10px;
+}
