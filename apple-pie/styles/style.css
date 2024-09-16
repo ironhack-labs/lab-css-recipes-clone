@@ -11,14 +11,63 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
+  height: 100%;
+  width: 100%;
   padding: 0;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
-/*  Set the font */
+.title-header {
+  font-size: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.centered-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.background-container {
+  height: 400px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+}
+
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.content-container {
+  padding: 70px
+}
+
+.centered-small {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 100px;
+  padding: 20px;
+  margin: auto
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.section-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+ol {
+  list-style: none;
+  padding-left: 20px;
+}
