@@ -22,3 +22,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-apples {
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+#main-headline {
+  color: #ffffff;
+  text-align: center;
+  font-size: 42px;
+}
+
+section {
+  margin: 40px 40px 40px 40px; 
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.icons-container img {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.dashed > li:before {
+  content: "-";
+  position: absolute;
+  /*change margin to move dash around*/
+  margin-left: -0.5em;
+}
+
+ol {
+  list-style-type: none;
+  margin-left: 20px;
+  counter-reset: list;
+}
+
+.bracket-list > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+.introtext {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
