@@ -5,6 +5,64 @@ html {
   font-size: 16px;
 }
 
+p {
+  text-align: center;
+}
+
+
+h1 {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.instructions {
+  width: 60vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.instructions > hr {
+  width: 100%;
+}
+
+.instructions img {
+  align-self: center;
+}
+
+img {
+  width: 25vw;
+}
+
+ul { 
+  list-style-type: '- '; 
+}
+
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -18,6 +76,12 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98vw;
+
+
 }
 
 /* STYLES */
