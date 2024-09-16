@@ -22,3 +22,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.img{
+  width: 1000px;
+  height: 550px;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+
+}
+
+.img-first{
+  margin-top: 50px;
+  
+}
+
+#text{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  left: 570px;
+  top: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-last{
+  width: 300px;
+  height: 70px;
+  margin-left: 550px;
+  margin-top: 50px;
+
+}
+
+.body-strong{
+margin-top:50px;
+margin-left: 280px;
+}
+
+.body-text{
+  margin-left: 300px;;
+  margin-right:300px;
+  margin-top: 5px;
+   word-break: break-all;
+   font-size: large;
+}
+.body-div-text{
+  margin-top: 40px;
+}
+.img-second{
+  width: 400px;
+  height: 60px;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+.body-text-title{
+  margin-top:50px;
+ margin-left: 280px;
+}
+.body-hr{
+  margin-left: 270px;
+  margin-right: 270px;
+}
