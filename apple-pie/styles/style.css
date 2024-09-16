@@ -22,3 +22,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.recipe-title {
+  display: inline-block;
+  position: relative;
+}
+
+.recipe-title img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.recipe-title h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.recipe-info p {
+  font-size: 22px;
+  margin: 80px 200px;
+  text-align: center;
+}
+
+.recipe-info img {
+ width: 450px;
+}
+
+.cooking-info {
+  width: 80%;
+  margin: 80px 200px;
+}
+
+.cooking-info  ul {
+  list-style-type: "-";
+  margin: 30px auto;
+}
+
+.cooking-info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 30px auto;
+ }
+
+ .cooking-info-img img {
+  width: 400px;
+ }
+
+ .recipe-direction {
+  width: 80%;
+  margin: 80px 200px;
+ }
+
+ .recipe-direction ol {
+    margin: 30px auto;
+ }
