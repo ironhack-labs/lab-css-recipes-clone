@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,63 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  font-size: 7em;
+  color: white;
+  text-align: center;
+}
+.recipeName {
+  background-image: url(../images/apple-pie.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.recipe-Info {
+  font-size: 1.5rem;
+  border-bottom: 1px solid;
+  padding-top: 5rem;
+}
+.applePieFormat p {
+  text-align: start;
+}
+
+.applePieFormat {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: start;
+}
+
+.Ingredients {
+  border-bottom: 1px solid;
+  font-size: 1.5em;
+}
+
+.Ingredients li {
+  text-align: start;
+}
+ul.listStyle {
+  list-style-type: none;
+}
+
+ul.listStyle > li {
+  text-indent: 20px;
+}
+
+ul.listStyle > li::before {
+  content: "-";
+  text-indent: -20px;
+}
+
+.Directions {
+  font-size: 1.5em;
+}
