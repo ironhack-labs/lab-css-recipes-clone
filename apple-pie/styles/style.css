@@ -22,3 +22,98 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.image {
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  margin-top: calc(50% - 50vw);
+}
+↑ centering img?
+
+then ↓ "inline" to "block " so able to change to full screen?
+
+.image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.imgTitle {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  font-size: 10vw;
+  max-height: 100%;
+  /* font-weight: bold; */
+  color: white;
+}
+
+.cook {
+  text-align: center;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  margin-top: calc(50% - 50vw);
+  size: vw;
+}
+/* --> cntering image use VW and clac(()) not really understood but its works:-) */
+
+
+.cook img{
+  width: 35%;
+  height: 35%;
+}
+
+.mjr {
+  text-align: center;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  margin-top: calc(50% - 50vw);
+  size: vw;　　            
+}
+/* --> cntering image use VW and clac(()) not really understood but its works:-) */
+
+.mjr img {
+  width: 60%;
+  height: 60%;
+}
+
+
+.P {
+  text-align: left;
+  font-size: 15px;
+  max-height: 100%;
+  line-height : 20px;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.SP {
+  text-align: left;
+  font-size: 15px;
+  max-height: 100%;
+  line-height : 20px;
+  color: black;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.HR {
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
