@@ -11,7 +11,7 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 400;
   font-weight: lighter;
 }
 
@@ -19,6 +19,55 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+
+.apple-pie-section {
+  background-image: url("../images/apple-pie.jpg");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#apple-pie-header{
+  color: white;
+  font-size: 40px;
+}
+
+.sections{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+ul {
+  list-style-type: "-";
+}
+
+img {
+  height: 60px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* STYLES */
 /* Write your CSS below */
