@@ -18,7 +18,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#header-section {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+
+
+
+.header-title {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 5em;
+  padding-top: 200px;
+
+}
+
+.intro {
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 30px 70px 10px 70px;
+
+}
+
+.cooking-process {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 30px 70px 10px 70px;
+  border-top: 2px solid lightgrey;
+  margin-left: 70px;
+  margin-right: 70px;
+  
+
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+ol li {
+  margin-left: 20px;
+
+}
+
+#recipe-info {
+  height: 60px;
+  margin-left: 150px;
+}
+
+#cooking-info {
+  height: 70px;
+  margin-left: 100px;
+
+}
+
