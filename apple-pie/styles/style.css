@@ -22,3 +22,64 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+#page-title {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  font-size: 10rem;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+ 
+}
+
+#title-background {
+  width: 100%;
+  height: auto; 
+  overflow: hidden;
+  size: cover; 
+  position: relative;
+  display: inline-block;
+  /*margin-bottom: -21%;*/
+}
+
+
+.sec {
+  font-size: 1.4rem;
+  text-align: justify;
+  
+  background-color: white;
+  border-bottom: 2px solid black;
+  /*position: absolute;*/
+  padding: 8%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 5%;
+}
+
+#intro-text {
+  font-size: 1.8rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 5%;
+}
+
+.recipe-info-img {
+  display: block;
+  /*width: 40%;*/
+  margin: auto;
+}
+
+#directions {
+  border-bottom: 0px solid black;
+}
+
+
+.lists {
+  list-style-type: none;
+  margin-left: 2%;
+}
