@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -17,8 +18,73 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family:Roboto; 
 }
 
 /* STYLES */
 /* Write your CSS below */
+h1, h4{
+
+  text-align: center;
+  
+  }
+  .header{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    height: 650px;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+         }
+    p{
+      text-align: justify;
+      text-justify: inter-word;
+      padding: 40px 100px 40px 100px;
+      margin: 50px 200px 50px 200px;
+      font-size: 25px;
+
+    }
+    h4{
+      font-size: 25px;
+      text-align: left;
+      font-weight: bold;
+      padding: 20px;
+      margin-left: 200px;
+    }
+    ul li {
+      list-style: "-";
+      padding: 0px 0px 20px 20px;
+      text-align: justify;
+      margin: 0px 0px 0px 200px;
+    }
+    
+    ol li{
+      padding: 0px 0px 20px 20px;
+      text-align: justify;
+      margin: 0px 200px 0px 200px;
+    
+  
+    }
+
+    hr{
+    
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+    ol{
+      margin-bottom: 100px;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+    
+  
+  
