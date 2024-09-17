@@ -7,3 +7,54 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.image {
+  text-align: center;
+  font-size: 4em;
+  background-image: url(/Users/suni/Desktop/IronHack/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  width:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  color:white;
+  padding: 400px 100px 400px 100px;
+  margin: auto;
+}
+article{
+  padding: 100px 200px 100px 200px;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align:start;
+}
+img{
+ padding-left: 400px;
+ padding-top: 25px;
+ width: 40%;
+}
+.line-1 {
+  border-top: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+h1{
+  font-weight: bolder;
+}
+.ingre {
+  list-style-type: none;
+  /*use padding to move list item from left to right*/
+  padding-left: 2em;
+}
+
+.ingre li:before {
+  content: "–";
+  position: absolute;
+  /*change margin to move dash around*/
+  margin-left: -1em;
+  
+}
+ul li{
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.3em;
+}
