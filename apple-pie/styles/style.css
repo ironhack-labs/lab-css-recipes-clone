@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,111 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.header {
+  margin-top: 0px;
+  position: relative;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: none;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-left: 160px;
+}
+
+ul li {
+  font-size: 16px;
+  line-height: 0.7;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+ol {
+  margin-bottom: 20px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+ol li {
+  font-size: 16px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 160px;
+}
+
+.first-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.second-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.centered-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.keeper {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 50px;
+}
+
+.line-between {
+  border-top: 2px solid black;
+  padding-bottom: 20px;
+}
