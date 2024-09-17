@@ -20,5 +20,40 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+div {
+  margin: 30px 50px;
+}
+
+.titles {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sectionImage {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../images/apple-pie.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.appleText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-weight: bold;
+}
+
+.center {
+  margin: 10px 500px;
+  width: 50%;
+}
+
+
 /* STYLES */
 /* Write your CSS below */
