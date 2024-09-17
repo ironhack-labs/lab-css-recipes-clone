@@ -1,9 +1,85 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+#title{
+  font-size: 15vh;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+}
+p{
+  margin: 5% 10%;
+  font-size: 4.8vh;
+  color: rgb(89, 89, 89);
+}
+div{
+  width: 80%;
+}
+div .recipe{
+  max-width: 100%;
+  height: auto;
+  margin: 0 25%;
+}
+hr{
+  margin: 5% 10%;
+}
+h2{
+  margin: 5% 10% 2% 10%;
+  font-size: 4vh;
+}
+li{
+  color: rgb(89, 89, 89);
+  font-size: 3.8vh;
+  margin-left: 12%;
+  list-style: none;
+}
+ul > li::before{ 
+  content: "- ";
+}
+
+div .cooking{
+  max-width: 80%;
+  margin: 5% 25% 0 25%;
+}
+ol {
+  list-style-type: none; /* Elimina el punto */
+  counter-reset: item;
+}
+ol li{
+  margin-right: 10%;
+}
+
+ol li::before {
+  counter-increment: item;
+  content: counter(list-item) ") "; /* Añade un ') ' después del número */
+}
+#prep{
+  margin-bottom: 10%;
 }
