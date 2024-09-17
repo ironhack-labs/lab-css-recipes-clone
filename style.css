@@ -1,0 +1,39 @@
+
+.container {
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+background: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+text-align: center;
+margin-bottom: 20px;
+}
+.header h1 {
+font-size: 24px;
+}
+.recipe-info, .ingredients, .directions {
+margin-bottom: 20px;
+}
+.recipe-info {
+display: flex;
+justify-content: space-between;
+}
+.recipe-info div {
+text-align: center;
+}
+.ingredients ul, .directions ol {
+padding-left: 20px;
+}
+.directions ol {
+counter-reset: step-counter;
+}
+.directions ol li {
+counter-increment: step-counter;
+margin-bottom: 10px;
+}
+.directions ol li::before {
+content: counter(step-counter) ". ";
+font-weight: bold;
+}
