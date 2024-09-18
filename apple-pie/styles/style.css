@@ -10,9 +10,86 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 30px;
+  padding:30px;
   font-weight: lighter;
+}
+#header {
+  color:white;
+background-image: url(../images/apple-pie.jpg);
+background-size:cover;
+font-size: 30px;
+height: 360px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#receta {
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+
+ul{
+  font-size: large;
+}
+
+hr {
+  color: #848484;
+  background-color: #fc1717;
+  border-style: solid;
+  border-width: 1px;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  padding: 20px 100px 20px 100px;
+  font-size: 20px;
+}
+  
+h3{
+  font-size: 30px;
+  margin-left: 120px;
+}
+
+#ingredientes {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 110px;
+}
+
+.mi-imagen1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  margin-left: 310px;
+}
+
+.mi-imagen2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin-left: 280px;
+}
+
+ul{
+  ;
+}
+
+ol{
+  margin-left: 140px;
+  margin-right: 95px;
+  font-size: large;
 }
 
 /*  Set the font */
