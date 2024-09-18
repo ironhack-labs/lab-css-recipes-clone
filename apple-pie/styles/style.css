@@ -9,9 +9,13 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body, h1, h2, h3, h4, h5, h6, p {
+  /*margin-left: 400px;
+  margin-right: 400px;
+  */
+  width: 100%;
+  padding-left: 30;
+  padding-right: 30;
   font-weight: lighter;
 }
 
@@ -19,6 +23,106 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+
+
+
+
+.header {
+  display:flex;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 400px;
+  width: 100%;
+  
+  
+}
+
+.header h1 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+
+  color: white;
+  
+}
+.body-text{
+  margin-left:30px;
+  margin-right:20px;
+}
+
+.intro {
+  padding-top: 20px;
+  width: 90%;
+  text-align: center;
+  
+}
+.image1 {
+  display:flex;
+  justify-content: center;
+  padding-top:10px;
+
+}
+
+.image1 img{
+  padding: 1px 1px;
+  margin: 1px 1px;
+  height: 60px;
+}
+
+.Ingredients {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 90%;
+}
+
+.Ingredients ul {
+  list-style-type: none;
+}
+
+.Ingredients ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.image2 {
+  display:flex;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:10px;
+
+}
+
+.image2 img{
+  padding: 1px 1px;
+  margin: 1px 1px;
+  height: 70px;
+}
+
+
+.directions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left ;
+  width: 90%;
+}
+
+
+.directions ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.directions ol > li:before {
+  content: counter(item)")";
+  counter-increment: item;
+}
+
+
 
 /* STYLES */
 /* Write your CSS below */
