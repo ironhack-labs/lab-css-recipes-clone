@@ -1,17 +1,17 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+html { 
+  
+  font-size: 30px;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 20 px;
   font-weight: lighter;
 }
 
@@ -22,3 +22,18 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero-image {
+  height: 500px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text{ 
+  color: azure;
+}
+
+
