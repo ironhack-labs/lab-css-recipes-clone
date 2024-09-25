@@ -20,5 +20,76 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+header{
+  
+background-image: url(../images/apple-pie.jpg);
+  height: 550px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 500px;
+  padding-top: 200px;
+}
+
+p{
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.instrucciones li::marker{
+   content: "- " ;
+}
+ul {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+ul {
+  line-height: 30px;
+}
+ol {
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+ text-align: justify;
+ line-height: 30px;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter)")";
+}
+img {
+  display: block;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+.linea {
+  border-bottom: 1px solid black;
+  height: 2px;
+  max-width: 600px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+
+
 /* STYLES */
 /* Write your CSS below */

@@ -7,3 +7,70 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+ header {
+  background-image: url(../images/soup.jpg);
+  padding-top: 50px;
+  height: 400px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+
+}
+.titulo{
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+p{
+  text-align: justify;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px0;
+  padding-right: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+.linea {
+  border-bottom: 1px solid black;
+  height: 2px;
+  max-width: 500px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+h3{
+  margin-top: 20px;
+  margin-left: 25px
+}
+.ingredientes li::marker {
+  content: "-  ";
+
+}
+ul {
+  line-height: 30px;
+}
+
+ol {
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  text-align: justify;
+  line-height: 30px;
+ 
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter)")";
+}
