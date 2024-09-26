@@ -22,3 +22,53 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.info-images{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  
+}
+
+h2 {
+  margin-left: 85px;
+  font-size: 40px;
+  font-weight:bold;
+}
+
+hr {
+  width:90%;
+  height: 2px;
+  background: black;
+  color: black;
+}
+
+.text-description {
+  margin-left: 140px;
+  padding-bottom: 100px;
+  font-size: 38px;
+  margin-right: 110px;
+}
+
+.header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  color: white;
+  height: 1115px;
+  padding: 550px 0;
+  
+}
+
+.history-text {
+  margin-left: 85px;
+  margin-right: 85px;
+  font-size: 40px;
+  text-align: justify;
+}
