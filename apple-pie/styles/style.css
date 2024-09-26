@@ -1,5 +1,5 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* CSS RESET - do not remove*/
+/* Reset default browser styles and provide a consistent starting point*/
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -15,10 +15,83 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
+/*  Set the font*/
 body {
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header-container {
+  background-image: url(../images/apple-pie.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+
+.header-text{
+  color: white;
+  font-size: 60px;
+}
+
+#recipe-intro{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
+
+.header-div{
+  font-size: 20px;
+  margin: 50px 20px 30px 20px;
+  text-align:center;
+  width: 60%;
+}
+
+.recipe-info{
+  width: 400px;
+  height: auto;
+}
+
+#ingredients{
+  padding: 20px 0px 0px 310px;
+}
+
+.ingredients-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients-list ul {
+  padding-top: 20px;
+  padding-left: 10px;
+  list-style-type: '- ';
+}
+
+.cooking-info{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 250px;
+}
+
+hr{
+  width: 60vw;
+}
+
+.cooking-info img {
+  width: 400px;
+  height: auto;
+}
+
+#directions {
+  padding: 20px 0px 0px 310px;
+  margin-bottom: 40px;
+}
+
+#directions ol {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 60vw;
+}
