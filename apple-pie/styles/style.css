@@ -22,3 +22,150 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* background image with text flex centered on top of it */
+#hero {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* hero title absolute positioned in the center */
+#hero-title {
+  font-size: 3.5rem;
+  font-weight: medium;
+  color: white;
+  position: absolute;
+
+}
+
+#recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 36px;
+}
+
+#preview p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#preview img {
+  width: 75%;
+  max-width: 400px;
+  padding: 24px;
+}
+
+hr {
+  width: 100%;
+}
+
+#ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ingredient-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  width: 100%;
+  max-width: 800px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+#ingredient-list h2 {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+#ingredient-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+#ingredient-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+#ingredient-list li:before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+
+#cooking-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ingredients img {
+  width: 75%;
+  max-width: 400px;
+  padding: 24px;
+}
+
+#directions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#directions-list {
+display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  width: 100%;
+  max-width: 800px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 36px;
+}
+
+#directions-list h2 {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+#directions-list ol {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
