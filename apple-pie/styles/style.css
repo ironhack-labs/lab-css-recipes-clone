@@ -22,3 +22,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 400%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1000px;
+  line-height: center;
+
+}
+
+hr {
+  margin: 20px 50px 20px 50px;
+}
+
+p {
+  margin: 50px 50px 30px 50px;
+}
+
+.container-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:300
+}
+.image1 {
+ display: block;
+ margin: 0 auto;
+ position: center;
+ width: 17%;
+}
+
+h2 {
+  margin: 30px 50px 30px 50px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+ul {
+  margin: 0px 50px 0px 70px;
+  list-style-type: none;
+}
+
+ul > li::before {
+  content: "-";
+  margin-right: 8px;
+}
+
+li {
+  font-size: small;
+}
+
+ol {
+  margin: 0px 50px 50px 70px;
+  list-style-type: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter)")";
+  margin-right: 8px;
+}
+
+.container-image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:300
+}
+.image2 {
+ display: block;
+ margin: 0 auto;
+ position: center;
+ width: 14%;
+}
