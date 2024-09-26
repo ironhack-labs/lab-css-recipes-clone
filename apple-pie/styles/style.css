@@ -17,8 +17,78 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  height: 650px;
+  padding: 50px 0 0 0;
+  position: relative;
+  color: white;
+}
+h1{
+  font-size: 150px;
+  text-align:center;
+  padding-top: 350px;
+}
+.intro p{
+  font-size: 32.5px;
+  text-align: left;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 75%;
+  margin: auto;
+}
+.img1{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100px;
+  width: 475px;
+  position:relative;
+}
+.ingredients{
+  width: 75%;
+  margin: auto;
+}
+.img2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 110px;
+  width: 450px;
+  position:relative;
+}
+.directions{
+  width: 75%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+h3{
+  font-size: 35px;
+  font-weight:400;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.list{
+  font-size: 28px;
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+hr{
+  width: 75%;
+}
+
