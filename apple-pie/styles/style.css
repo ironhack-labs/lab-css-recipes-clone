@@ -9,9 +9,9 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body, h1, h2, h3, h4, h5, h6, ol, p, ul {
+  margin: 1;
+  padding: 1;
   font-weight: lighter;
 }
 
@@ -22,3 +22,39 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#Applepie {
+  background-image:url("../images/apple-pie.jpg") ;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 90px;
+  height: 800px;
+  vertical-align: middle;
+  line-height: 800px;
+  
+}
+
+p , ol, ul {
+  font-size: 1.5em;
+}
+ 
+
+.centerFirst {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.centerSeccond {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.horizontal-line {
+  border-top: 2px solid #000; 
+}
