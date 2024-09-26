@@ -15,10 +15,81 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  width: auto;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("lab-css-recipes-clone\apple-pie\images\apple-pie.jpg") center/cover no-repeat;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  padding: 10px; 
+  display: inline-block; 
+  position: absolute;
+  font-size: 75px;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 25px;
+}
+
+
+main {
+  margin: 3% 10%;
+  text-align: left;
+  font-size: 18px;
+}
+
+#info {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ol {
+  list-style: none;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+main span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; 
+}
