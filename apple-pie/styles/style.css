@@ -22,3 +22,92 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#apple{
+  width: 100%;
+  height: 0 auto;
+  margin-bottom: 50px;
+}
+
+header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+}
+
+#section-one p{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#section-one img{
+  width: 500px;
+  padding-bottom: 75px;
+}
+
+#section-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 150px;
+  border-bottom: 2px solid lightgrey;
+}
+
+#section-two h3{
+  padding-bottom: 20px;
+  font-weight:bold ;
+  font-size: 25px;
+}
+
+#ingredients{
+  margin-left: 0; 
+  align-self: flex-start;
+}
+
+#section-two img{
+  width: 500px
+}
+
+#section-two ul{
+  padding: 20px;
+  list-style:'-';
+  margin-bottom: 40px;
+}
+
+#section-two li{
+  line-height: 25px;
+  font-size: 18px;
+}
+
+#section-two{
+  margin: 60px 150px;
+  border-bottom: 2px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-three{
+  margin: 60px 150px;
+}
+
+#section-three h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#section-three ol{
+  list-style:decimal;
+  padding: 50px 20px;
+}
+
+#section-three li{
+  line-height: 25px;
+  font-size: 18px;
+}
