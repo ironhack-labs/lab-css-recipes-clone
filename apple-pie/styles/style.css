@@ -1,8 +1,12 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 *, *:before, *:after {
@@ -18,7 +22,52 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url('https://i.postimg.cc/sxrcKGxH/apple-pie.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 800px;
+  position: relative;
+} 
+
+h1 {
+  font-size: 6em;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.div-box {
+  max-width: 1000px;
+  padding: 80px 200px;
+}
+
+.img-class {
+  display: block;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ingredients-list {
+  list-style-type: "- ";
+}
+
+.ingredients-section {
+  padding-top: 30px;
+  border-top: 2px grey solid;
+  border-bottom: 2px grey solid;
+}
+
+#directions-section {
+  padding-top: 30px;
+}
