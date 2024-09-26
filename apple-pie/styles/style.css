@@ -1,15 +1,25 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+html { 
   box-sizing: border-box;
   font-size: 16px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +28,77 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  text-align: left;
 }
 
 /* STYLES */
 /* Write your CSS below */
+/* Foto y texto*/
+.apple {
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.apple-pie {
+  width: 100%;
+}
+
+.directions {
+  text-align: left;
+}
+.ingredients {
+  text-align: left;
+}
+
+.first-main {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.second-main {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.img-2 {
+  text-align: center;
+}
+
+.third-main {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.footer-list {
+  counter-reset: list;
+}
+
+.footer-list > li {
+  list-style: none;
+}
+
+.footer-list > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
