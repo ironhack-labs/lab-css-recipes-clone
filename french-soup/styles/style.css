@@ -1,9 +1,81 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, html, main {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/* STYLES */
+/* Write your CSS below */
+#hero {
+  height:550px;
+  background-size: cover;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+#sub-hero, #ingredients, #directions {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+
+#img-info {
+  text-align: center;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.horizontal-line {
+  width: 600px;
+  height: 5px;
+  border-top: 2px solid lightgray;
+}
+
+
+#intro {
+  font-size: 18px;
+  margin: 50px auto 20px auto;
+}
+
+#my-ingredients, #my-directions {
+  font-size: 16px;
+  width: 600px;
+  margin: 30px auto 20px auto;
+}
+
+#ingredients-list, #directions-list {
+  margin: 20px 0px;
+  padding: 0 0 0 25px;
 }
