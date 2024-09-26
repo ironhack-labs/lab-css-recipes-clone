@@ -17,8 +17,85 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+  width: 75%;
+  height: 25%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+#header > h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#description > p {
+  text-align: left;
+  margin: 70px 100px;
+}
+
+#description > img {
+  height: 70px;
+  display: block;
+  margin: auto;
+}
+ul {
+  list-style-type:"- ";
+  margin: 50px 100px;
+}
+h3 {
+  font-weight: 400;
+  margin: 50px 120px;
+}
+
+#ingredients > img {
+  height: 110px;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#ingredients-list {
+  width: 75%;
+  margin: 0 auto;
+}
+
+ol {
+  list-style: none;
+  margin: 0 auto;
+  width: 75%;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+
+#directions {
+  margin-bottom: 100px;
+}
