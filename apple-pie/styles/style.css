@@ -6,11 +6,11 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing:border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   font-weight: lighter;
 }
@@ -22,3 +22,73 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body {
+  margin: 1 8% 5% 8%;
+  padding: 0 8% 5% 8%;
+}
+
+.title-bg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title-bg img {
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h1  {
+  font-size: 3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2  {
+  padding: 1em 0 1em 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+h3  {
+  padding-top: 1em;
+  
+}
+
+hr  {
+  border: 1px solid;
+  border-color: grey;
+}
+
+.info-img-transform {
+  text-align: center;
+}
+
+
+ol { 
+  list-style-type: none;
+  text-align: justify;
+}
+
+ ol > li { 
+  counter-increment: listcounter;
+  margin-left: 1.5em;
+  line-height: 1.3em;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+} 
+
+ ul { 
+  list-style-type: "- "; }
+
+ul li {
+  margin-left: 1.5em;
+  line-height: 1.3em;
+}
