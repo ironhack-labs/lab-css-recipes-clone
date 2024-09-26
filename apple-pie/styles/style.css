@@ -22,3 +22,76 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.main-header-title{
+    font-size: 72px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header {
+  height: 600px;
+  width: auto;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.second-title{
+  padding-left: 18%;
+  padding-right: 18%;
+  font-weight: bold;
+}
+.third-title{
+  padding-left: 18%;
+  padding-right: 18%;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.main-header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.text-1 {
+justify-content: center;
+padding-left: 25%;
+padding-right: 25%;
+}
+
+.second-image{
+  
+  padding-left: 37%;
+
+}
+.third-image{
+ 
+
+  padding-left: 37%;
+
+}
+.text-2 {
+  padding-left: 20%;
+  padding-right: 20%;
+  }
+  .text-3 {
+    padding-left: 20%;
+    padding-right: 20%;
+    }
+
+
+    hr{
+      width: 800px;
+    }
