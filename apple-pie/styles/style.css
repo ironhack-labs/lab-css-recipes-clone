@@ -22,3 +22,83 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-container{
+  position: relative;
+  display:inline-block;
+}
+
+.image-container img{
+display: block;
+width: 100%;
+height: 30%;
+}
+
+.overlay-text{
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%,-50%);
+  color: white; 
+  text-align: center;
+  padding: 50px; 
+  font-size: 60px;
+  }
+
+  p{
+    justify-content: center;
+    margin: 50px 0px 20px 0px;
+  }
+  .recipe-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 76%;
+  }
+
+  .recipe-info img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 260px;
+  }
+  .ingredient-list ul{
+    list-style: "- ";
+    margin-top: 16px;
+    margin-left: 24px ;
+    margin-bottom: 50px;
+  }
+  .ingredient-list{
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 50px;
+  }
+  .ingredient-list img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 210px;
+  }
+  .directions-list ol{
+    list-style-type: none;
+    margin-top: 20px;
+    counter-reset: list;
+  }
+  .directions-list{
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 50px;
+  }
+.directions-list li{
+  margin-left: 15px;
+
+}
+ol> li:before{
+  content: counter(list) ")";
+  counter-increment: list;
+}
