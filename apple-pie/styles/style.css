@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +31,70 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.section1 {
+  text-align: center;
+  padding: 350px;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  color: white;
+  font-size: 130px;
+}
+
+.section2 {
+  padding: 80px;
+  text-align: center;
+}
+
+.recipe-info {
+  text-align: center;
+  size: 100%;
+
+}
+
+.section2>p {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+hr {
+  height: 2px;
+  width: 90%;
+  color: black;
+}
+
+.section3 {
+  padding-top: 60px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.cooking-info {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section4 {
+  text-align: start;
+  margin: 100px;
+  padding: 20px;
+  font-weight: 100px;
+  font-size: 20px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol>li {
+  counter-increment: listcounter;
+}
+
+ol>li::before {
+  content: counter(listcounter) ")";
+}
