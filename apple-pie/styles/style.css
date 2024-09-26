@@ -1,6 +1,7 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+html,
+body {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -19,6 +20,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
-
 /* STYLES */
 /* Write your CSS below */
+
+#backgroundImg {
+  background-image: url("../images/apple-pie.jpg");
+  height: 50vh;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+  background-position: 0 0;
+  background-size: cover;
+  font-size: 40px;
+}
+
+.content-body {
+  padding: 9vw;
+  color: #5b5a5a;
+  font-weight: 100;
+}
+
+.cooking-info {
+  text-align: justify;
+}
+
+.inf-img {
+  width: 35vw;
+  margin-top: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 30px 0;
+  color: black;
+  font-weight: 300;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: "- ";
+}
