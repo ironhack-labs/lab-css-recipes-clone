@@ -1,9 +1,69 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: grey;
+}
+
+/* MY CSS */
+
+#header-image {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+}
+
+#article-content {
+  padding: 5% 15% 5% 15%;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.recipe-info-image {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 2%;
+}
+
+h2 {
+  color: black;
+}
+
+/* List Styles */
+
+ul,
+ol {
+  list-style: none;
+  text-align: justify;
+}
+
+ul > li::before {
+  content: "- ";
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
 }
