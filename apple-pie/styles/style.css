@@ -20,5 +20,62 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+header{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white; 
+  font-size: 4em; 
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li:before {
+  content: "-";
+}
+
+ol li:before {
+  content: ") ";
+}
+
+section, hr {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+}
+
+.section1 {
+  margin-top: 75px;
+  
+}
+
+.section2 {
+
+}
+
+.section3 {
+
+}
+
 /* STYLES */
 /* Write your CSS below */
+
