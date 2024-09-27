@@ -5,6 +5,7 @@ html {
   font-size: 16px;
 }
 
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -17,8 +18,79 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Noto", sans-serif;
+  font-weight: 100;
+  color: rgb(69, 69, 69);
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+
+}
+
+h1 {
+  font-size: 70px;
+  position: relative;
+  top: calc(50% - 70px);
+  text-align: center; 
+  color: #fff;
+}
+
+
+.main {
+  max-width: 600px;
+  margin: 50px auto;
+  line-height: 140%;
+}
+
+
+.main img{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.section{
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+
+.recipe-info {
+  width: 45%;
+  margin-top: 20px;
+}
+.cooking-info {
+  margin-top: 20px;
+  width: 35%;
+}
+
+h2{
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+li{
+  list-style:none;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
