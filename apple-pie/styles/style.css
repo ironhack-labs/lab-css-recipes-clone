@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,100 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  width: 100%;
+  justify-content: center;
+}
+
+.recipe {
+  padding: 20px;
+  margin: 50px;
+}
+.header {
+  object-fit: cover;
+  object-position: top;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.header img {
+  max-width: 100%;
+  height: 50%;
+  filter: blur(1.5px);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introduction {
+  font-family: "Helvetica", sans-serif;
+  padding: 10px;
+  text-align:justify;
+}
+
+.recipe {
+  display: block;
+  flex-wrap: wrap;
+}
+
+hr{
+margin: 40px;
+width: 90%;
+}
+
+.ingredients-title{
+  padding-bottom: 15px;
+}
+
+.details,
+.details-info {
+  display: flex;
+  justify-content: center;
+}
+.details img {
+  width: 60%;
+  padding: 5px;
+}
+
+ul {
+  list-style: "-";
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.directions-title{
+  padding-bottom: 15px;
+}
+
+.details-info img {
+  width: 50%;
+  padding: 5px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ol > li {
+  counter-increment: listcounter;
+  text-align: left;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
