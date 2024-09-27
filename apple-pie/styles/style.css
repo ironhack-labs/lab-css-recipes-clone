@@ -22,3 +22,21 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.ingredients-section{
+  padding: 100px;
+}
+
+.img-container{
+  text-align: center;
+}
+
+#cooking-info{
+  width: 35%;
+}
+
+ul{
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
