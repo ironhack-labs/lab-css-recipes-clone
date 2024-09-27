@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* Reset default browser styles and provide a consistent starting point
+Redefina estilos de navegador padrão e forneça um ponto de partida consistente */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -9,16 +10,70 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body, h1, h2, h4, h5, h6, p, ol, ul {
+  margin: 20px;
+  padding: 15px;
   font-weight: lighter;
+  line-height: 30px;
 }
 
-/*  Set the font */
+/*  Set the font/ Definir a fonte*/
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.itens-torta {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+.recipe {
+  display: block;
+  margin: 0px auto;
+}
+
+p {
+  font-family:'amatic sc';
+  font-size: 28px;
+  font-weight:'Regular 400 at 21px';
+  text-align: center;
+  margin: 30px;
+  
+}
+
+ol, ul {
+  margin: 0px 0px 35px 35px;
+  font-size: 20px;
+  padding: 0px 0px 35px 35px;
+}
+
+hr {
+  width: 1100px;
+}
+
+
+.cooking {
+  display: block;
+  margin: 0px auto;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 50px;
+}
+
