@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(50, 50, 50)
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p,
+.img-separator,
+.list-container {
+  padding: 0px, 100px;
+}
+
+
+#header-container {
+  font-weight: 100;
+  font-size: 28px;
+
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 280px;
+  color: white;
+
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.img-separator {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list-container {
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.list-container h2 {
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+li:before {
+  content: "_";
+  padding-right: 5px;
+}
+
+#directions-section li:before {
+  content: "";
+}
