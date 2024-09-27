@@ -1,3 +1,7 @@
+
+
+
+
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -22,3 +26,60 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../images/apple-pie.jpg);
+  background-position: center;
+  height: 30em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  
+}
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+.section-title {
+  font-weight: bold;
+}
+  section {
+margin: 100px;
+  }
+
+hr {
+  width: 85%;
+}
+  div {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: "- ";
+    margin: 10px;
+    line-height: 1.5;
+    word-spacing: 0.1em;
+  }
+  ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+    line-height: 1.5;
+    word-spacing: 0.1em;
+  }
+  ol > li::before {
+    content: counter(list) ") ";
+    counter-increment: list;
+    line-height: 1.5;
+  }
+
