@@ -1,9 +1,22 @@
-/*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header img {
+  width: auto;
+  height: auto;
+}
+
+
+.box-model {
+width: 600px;
+height: auto;
+margin-left: ;
+
+
 }
