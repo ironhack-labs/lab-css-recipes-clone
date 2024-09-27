@@ -22,3 +22,84 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.appleImage {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  padding: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh; 
+  width: 100vw;
+  font-size: 40px;
+}
+
+.textCenter {
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+  margin: 6% 15%;
+}
+
+.textCenter img {
+  width: auto;
+  height: auto;
+}
+
+.ingredients {
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.ingredients h3 {
+  margin-bottom: 20px;
+}
+
+.ingredients img {
+  width: auto;
+  height: auto;
+  margin-left: 20%;
+}
+
+.directions {
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.directions h3 {
+  margin-bottom: 20px;
+}
+
+.ingredientList {
+  list-style-type: none;
+}
+
+.ingredientList li::before {
+  content: "-" ;
+}
+  .ingredientList li {
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-left: 15%;
+  margin-right: 15%;
+} 
+
+.directionsList {
+  list-style-type: none;
+  counter-reset: custom-counter;
+}
+.directionsList li::before {
+  content: counter(custom-counter) ") ";
+  counter-increment: custom-counter;
+}
