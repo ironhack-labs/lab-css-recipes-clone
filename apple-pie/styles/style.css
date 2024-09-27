@@ -22,3 +22,77 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+hr {
+width:60%;
+}
+
+#apple {
+  width:100%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#apple {
+  padding: 0px;
+  position: relative;
+}
+
+#apple h1 {
+  text-align: center;
+  color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 9999;  
+    font-size: 8em;
+}
+
+#apple img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  padding-bottom: 50px;
+}
+
+#ingredients p{
+  font-size: 1.2em;;
+  padding: 0 20% 0 20%;
+  padding-bottom: 5px;
+}
+
+#ingredients li{
+  padding-left:20%;
+  padding-bottom: 5px;
+}
+
+#ingredients h2{
+  padding-left:18%;
+  padding-bottom: 5px;
+}
+
+#ingredients img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#directions li{
+  padding:0 20% 0 20%;  
+}
+
+#directions h2{
+  padding-left:18%;
+  padding-bottom: 5px;
+}
+
+#directions img{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
