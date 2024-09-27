@@ -1,24 +1,97 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+  box-sizing: content-box;
+  font-size: 18 px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: content-box;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 10 px 40px;
+  padding: 10px;
+  font-weight: normal;
+
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Arial, Helvetica, sans-serif, serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+/* welcome es un div. holdea a la foto y al h1 */
+#welcome {
+  height: 30%;
+
+}
+
+#fotoTable {
+  width: fit-content;
+  height: fit-content;
+}
+
+ul {
+  list-style: none;
+  /* background-color: blueviolet; */
+}
+
+/* tit es la class del titulo */
+.tit {
+  /* background-color: rgb(255, 0, 0); */
+  display: inline;
+  /* text-align: center; */
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: whitesmoke;
+  font-size: 70px;
+}
+
+#intro {
+  text-align: center;
+  /* width: 24%; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+
+  /* justify-content: center;
+  align-items: center;
+  margin-left: 800px; */
+
+}
+
+#recipe-info {
+  text-align: center;
+
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+}
+
+#direction {
+  text-align: center;
+  align-content: flex-start;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10 10;
+
+}
