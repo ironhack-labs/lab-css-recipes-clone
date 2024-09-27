@@ -22,3 +22,64 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body {
+  background-color: white;
+}
+
+/* Style all classes */
+
+.header {
+  position: relative;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-section {
+  margin: 0px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-text {
+  margin: 10%;
+  text-align: justify;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+
+.content-img {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.section-title {
+  margin: 0% 10% 5% 10%;
+}
+
+.section-text {
+  margin: 0% 10% 5% 10%;
+}
+
+.list {
+  list-style: none;
+}
+
+.bar {
+  margin: 5% 10%;
+}
+/* Style all the ID's */
+
+#title {
+  color: white;
+  font-size: 40px;
+}
+
