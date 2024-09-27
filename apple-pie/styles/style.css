@@ -17,8 +17,99 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
+  /*text-align: center;
   font-family: "Helvetica", sans-serif;
+  padding: 30px;
+  margin: 10px;
+  opacity: 0.9;-->*/
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Estilo para el contenedor del encabezado */
+header {
+  background-color: #333; /* Cambia el color de fondo a tu elección */
+  color: #fff; /* Cambia el color del texto a tu elección */
+  padding: 20px; /* Añade espacio alrededor del encabezado según sea necesario */
+  text-align: center; /* Centra el contenido del encabezado horizontalmente */
+}
+
+/* Estilo para el contenedor dentro del encabezado */
+.cover {
+  position: relative; /* Permite que los elementos secundarios se posicionen en relación con este contenedor */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.cover img {
+  max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  display: block; /* Elimina espacios en blanco debajo de la imagen */
+}
+
+/* Estilo para el texto centrado */
+.texto-centrado {
+  position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */
+  top: 50%; /* Coloca el texto en el centro vertical del contenedor */
+  left: 50%; /* Coloca el texto en el centro horizontal del contenedor */
+  transform: translate(-50%, -50%); /* Centra el texto tanto horizontal como verticalmente */
+  padding: 10px; /* Añade espaciado alrededor del texto (ajusta según sea necesario) */
+  color: #fff; /* Cambia el color del texto a tu elección */
+  font-size: 150px; /* Cambia el tamaño de fuente según sea necesario */
+  font-family:  'Open Sans', sans-serif;
+}
+
+
+.title {
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 30px;
+  margin: 10px;
+  font-family:  'Open Sans', sans-serif;
+}
+
+.images {
+  text-align: center;
+}
+
+#text {
+  font-size: 30px;
+  font-family:  'Open Sans', sans-serif;
+  padding:px;
+  margin: 30px 200px 20px;
+}
+
+
+section li{
+  list-style-type: "-";
+
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+/*#directions {
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+#directions li::before {
+  content: counter(list-counter) ") ";
+  counter-increment: list-counter;
+
+  padding-left: 20px;
+  list-style-position: inside;
+}*/
+
+ol{counter-reset: item;}
+ol li{
+  *list-style:decimal;
+
+  padding-left: 20px;
+  list-style-position: inside;
+}
+ol li:before {
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  margin-right: 0.5em;
+}
