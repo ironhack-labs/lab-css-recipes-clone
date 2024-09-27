@@ -22,3 +22,60 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1{
+  color:white;
+  
+}
+
+
+.titleimg {
+  background-image: url(/apple-pie/images/apple-pie.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 2000px;
+
+  
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  
+
+}
+
+.body-text {
+  padding-top: 60px;
+  padding-left: 600px;
+  padding-right: 600px;
+  font-family: "Helvetica", sans-serif;
+ 
+  
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.recipe-info{
+  background-image: url(/apple-pie/images/recipe-info.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 100px;
+  transform: scale(0.5);
+}
+
+
+.cooking-info{
+  background-image: url(/apple-pie/images/cooking-info.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 150px;
+  transform: scale(0.5);
+}
+
