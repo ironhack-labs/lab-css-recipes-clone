@@ -22,3 +22,37 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  padding: 25px;
+}
+
+.heading{
+  /* display: block; */
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg") ;
+background-size:cover;
+height: 30vw;
+width: 100vw;
+text-align: center;
+color: white;
+padding: 33vw 30vw;
+font-size: 40px;
+}
+
+
+.recipe{
+padding:40px 60px ;
+}
+
+.recipe h3{
+  padding-bottom: 20px;;
+}
+ul,ol{
+  padding-left:20px;
+}
+.recipe-info, .ingredients{
+  border-bottom: solid gray 2px;
+}
+.recipe img{
+ width:80%;;
+ padding-left: 25%;
+}
