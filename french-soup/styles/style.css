@@ -1,9 +1,112 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+section {
+  margin: 50px 150px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 0px 150px;
+}
+
+.section-text {
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ')';
+}
+
+.intro-image {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.intro-image > h1 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 500px;
+  color: white;
+  font-size: 4.3em;
+  font
+}
+
+.intro-text {
+  font-size: 1.25em;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+section > img{
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+#intro-img{
+  height: 70px;
+}
+
+#ingredients-img{
+  height: 80px;
+}
+
+footer {
+  height: 50px;
 }
