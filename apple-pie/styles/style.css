@@ -22,3 +22,52 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+<!--
+.applePie {
+  width: 750px;
+  height: auto;
+}
+
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.ingredientsImage, .directionsImage {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box {
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.holyDiv2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+}
+
+#content div {
+  flex-basis: 120px;
+}
