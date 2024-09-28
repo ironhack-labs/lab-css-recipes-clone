@@ -22,3 +22,42 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#imageConfiguration{
+  width: 100%; 
+  height: 900px;
+}
+
+.paragraphConfiguration{
+  margin: 3% 7% 3% 7%;
+  text-align: justify;
+}
+
+#firstDiv{
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  color: #fff;
+  font-size: 100px;
+}
+
+#mainList{
+  list-style-type: none;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+
+.divisionLine{
+  margin-left: 7%;
+  margin-right: 7%;
+  color: rgb(190, 190, 190);
+}
+
+#secondaryList{
+  margin-left: 3%;
+  margin-top: 3%;
+}
