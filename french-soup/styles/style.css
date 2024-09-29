@@ -1,9 +1,157 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos globales */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+/* Estilo global */
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header con imagen de fondo y título centrado */
+.recipe-header {
+  position: relative;
+  text-align: center;
+  height: 400px;
+  background-image: url('../images/soup.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* Sección de descripción */
+.recipe-description {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Centrar imágenes */
+.recipe-image, .recipe-info-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sección de información (iconos de tiempo, porciones, calorías) */
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #666;
+}
+
+.recipe-info ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.recipe-info li {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.recipe-info img {
+  width: 15px;
+  height: auto;
+}
+
+/* Sección de ingredientes */
+.ingredients,
+.directions {
+  width: 80%;
+  margin: 40px auto;
+  font-size: 18px;
+}
+
+/* Estilo del separador */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 40px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingredients h2,
+.directions h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+/* Fondo uniforme sin separaciones visuales */
+ul {
+  list-style-type: none;
+  margin: 10px;
+}
+
+ul li {
+  position: relative;
+  padding-left: 30px !important; 
+}
+
+ul li::before {
+  content: "-"; 
+  position: absolute;
+  left: 0;
+  color: #333;  
+  width: 20px;
+}
+
+.ingredients ul,
+.directions ol {
+  padding-left: 20px;
+  color: #555;
+}
+
+.ingredients ul li,
+.directions ol li {
+  padding: 5px 0;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+  .recipe-description,
+  .ingredients,
+  .directions {
+    width: 95%;
+  }
+
+  .recipe-header h1 {
+    font-size: 36px;
+  }
 }
