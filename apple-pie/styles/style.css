@@ -9,16 +9,127 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: rgb(36, 35, 35);
+}
+
+h1{
+  color: white;
+}
+
+p, br {
+  box-sizing: border-box;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font-weight: lighter;
+  padding-top: 1vh;
+  padding-bottom: 20px;
+  
+}
+
+hr{
+  width: 60%;
+  margin: 0;
+  border: 1px solid grey;
+}
+
+h2{
+  box-sizing: border-box;
+  margin-left: 20vw;
+  margin-right: auto;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+li, ul, ol {
+  box-sizing: border-box;
+  margin-left: 20vw;
+  margin-right: auto;
+  padding-left: 15px;
+  text-align: left;
+  
+}
+
+
+ol {
+  box-sizing: border-box;
+  margin-left: 20vw+10px;
+  margin-right: 20vw;
+  padding-left: 10px;
+  padding-bottom: 10%;
+  text-align: left;
+
+  
+}
+
+li {
+  box-sizing: border-box;
+  margin: 2px;
+  text-align: left;
+  padding-left: 10px;
+  list-style-position: inside;
+}
+
+ul{
+  list-style-type: disc;
+  padding-bottom: 5%;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "lucida grande", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
+/* * {
+  border: 1px solid rgb(199, 67, 181);
+} */
+
+
+.container, .container-header {
+  position: center;
+  text-align: center;
+  color : white;
+  font-weight: bold;
+  font-size: xx-large;
+ 
+
+}
+
+.container-header {
+  height: 60vh;
+  width: 70vw;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+img{
+  height: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1{
+padding-top: 18% ;
+
+}
+
+
 
 /* STYLES */
 /* Write your CSS below */
