@@ -5,6 +5,42 @@ html {
   font-size: 16px;
 }
 
+
+#image-container {
+  background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  line-height: 500px;
+  vertical-align: 50%;
+  font-size: 50px;
+}
+.intro {
+  padding: 50px 50px 50px 50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.title {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.list {
+  padding: 50px 50px 50px 50px;
+  list-style-type: "- ";
+  line-height: 1.4;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
