@@ -1,13 +1,23 @@
-/* CSS RESET - do not remove */
+@/* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  text-align: center;
+  background-size: cover;
+  padding: 300px;
+  margin-bottom: 50px;
+}
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
@@ -17,8 +27,42 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
+  padding: 1rem;
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+header img {
+  width: 800px;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+
+h2 {
+ margin-top: 3rem;
+ margin-bottom: 2rem;
+ font-weight: bold;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+ol {
+  list-style-position: inside;
+}
