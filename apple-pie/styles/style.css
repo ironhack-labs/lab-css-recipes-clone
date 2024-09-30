@@ -19,6 +19,49 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+.mainHeading{
+  background-image: url("../images/apple-pie.jpg");
+  height: 500px;
+  width:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.firstParagraph{
+  margin-bottom: 50px;
+  
+}
+.applepieImage{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.recipeImage{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
+}
+hr{
+  margin:25px 0;
+}
+.contents{
+  padding: 40px;
+}
+.firstList{
+  list-style-type: none;
+}
+.ingredients{
+  margin-bottom:25px ;
+}
+.directionHeading{
+  margin-bottom: 25px;
+}
+.orderList{
+  list-style-type: none;
+}
 /* STYLES */
 /* Write your CSS below */
