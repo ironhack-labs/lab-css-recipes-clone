@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,62 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  color: #343434;
 }
 
 /* STYLES */
 /* Write your CSS below */
+section {
+  padding-bottom: 25px;
+  margin: auto 8rem;
+}
+/* ************* */
+/* Class Selectors */
+/* ************ */
+.summary,
+.ingredient {
+  border-bottom: 1px solid #000;
+}
+.main-header {
+  height: 760px;
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cooking-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* *********Descendant*********** */
+.main-header h1 {
+  color: #ffffff;
+  font-size: 60px;
+}
+.summary p {
+  text-align: center;
+  margin: 3rem auto;
+
+  max-width: 600px;
+}
+.ingredient ul {
+  margin-left: 32px;
+  padding-bottom: 20px;
+}
+.cooking-info img {
+  max-width: 300px;
+}
+.ingredient h3,
+.direction h3 {
+  margin: 2rem auto;
+}
+.direction ol {
+  margin-left: 32px;
+  padding-bottom: 20px;
+}
