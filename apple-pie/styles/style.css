@@ -10,9 +10,10 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 50;
+  padding: 25;
   font-weight: lighter;
+  max-width: 900px;
 }
 
 /*  Set the font */
@@ -22,3 +23,39 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.hero-img h1 {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  font-size: 5rem;
+  color: white;
+  text-shadow: black;
+  text-shadow: 1cm;
+}
+
+hr.solid {
+  border-top: 1px solid grey;
+}
+
+.recipe-tips img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.cooking-tips img{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: auto;
+}
+
+.intro {
+text-align: justify;
+margin: 0 30px;
+}
