@@ -5,14 +5,87 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 500px;
+  background-size: 100%;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+
+
+h1 {
+  font-size: 3em;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #333;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 10px;
+}
+
+
+
+.image-1 {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.image-2 {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.Ingredients,
+.time,
+.description {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /*  Set the font */
