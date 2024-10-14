@@ -20,5 +20,72 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url(https://github.com/Peedee01/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+  height: 300px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.recipe {
+  margin: 20px 100px 0px 100px;
+  padding: 30px 0px 30px 0px;
+  border-bottom: 1px solid rgba(107, 107, 107, 0.482);
+}
+
+.recipe p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.recipe img {
+  height: 60px;
+  align-self: center;
+  padding-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.ingredients {
+  list-style-type: circle;
+}
+
+.cooking img {
+  height: 70px;
+  width: 250px;
+  align-self: center;
+  padding-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
