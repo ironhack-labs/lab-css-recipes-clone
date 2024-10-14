@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +31,71 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 200px;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.recipe-info {
+  padding: 50px 70px 0px 70px;
+}
+
+.recipe-info>p {
+  font-size: 110%;
+}
+
+.recipe-info>img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.recipe-ingredients {
+  padding: 50px 70px 0px 70px;
+}
+
+.recipe-ingredients>img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.recipe-ingredients>ul {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 90%;
+}
+
+.recipe-ingredients>ul>li::before {
+  list-style: none;
+  content: "- ";
+}
+
+.recipe-directions {
+  padding: 50px 70px 80px 70px;
+}
+
+.recipe-directions>ol {
+  list-style: decimal;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 90%;
+}
