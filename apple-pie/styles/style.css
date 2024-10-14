@@ -10,9 +10,9 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
   font-weight: lighter;
+  padding: 0;
+  margin: 0;
 }
 
 /*  Set the font */
@@ -22,3 +22,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  padding: 30%;
+  color: white;
+  font-size: 6em;  
+}
+
+h2 {
+  font-size: 2.4em;
+  padding: 100px;
+  padding-bottom: 50px;  
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+section > img {
+  width: 30%;
+}
+p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.recipe {
+  padding-left: 50px;
+}
+
+ul {
+  list-style: "- ";
+  padding: 25px 25px 25px 35px;
+  font-size: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ol {
+  padding: 25px 25px 25px 35px;
+  font-size: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+ol > li {
+  list-style: none;
+  counter-increment: list;
+}
+
+ol > li::before {
+  content: counter(list)") ";
+}
+
+hr {
+  margin: 40px;
+}
