@@ -1,9 +1,85 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+}
+
+.banner {
+  padding: 200px 50px 200px 50px;
+  text-align: center;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+}
+
+.banner h1 {
+  height: 200px;
+  font-size: 80px;
+  color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+
+  margin: 20;
+  padding: 20;
+  font-weight: 2px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+
+.Ingredients {
+  list-style: none;
+}
+
+.Ingredients li::before {
+  content: "- ";
+  color: black;
+  font-weight: bold;
+}
+
+hr {
+  width: 80%;
+}
+
+div {
+  margin-left: 350px;
+}
+
+.firstP,
+.list,
+.int {
+  padding: 80px 100px 40px 100px;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.instructions {
+  list-style: none;
+}
+
+ol li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+ol li::before {
+  content: counter(item) ") ";
+  font-weight: bold;
 }

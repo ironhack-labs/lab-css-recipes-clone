@@ -5,20 +5,91 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+img {
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+
+  margin: 20;
+  padding: 20;
+  font-weight: 3px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-family: Helvetica, sans-serif;
+  text-transform: lowercase;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+.banner {
+  padding: 200px 50px 200px 50px;
+  text-align: center;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+}
+
+.banner h1 {
+  font-size: 80px;
+  color: aliceblue;
+}
+
+
+.cookingimg {
+  width: 500px;
+  align-content: center;
+}
+
+
+
+.Ingredients {
+  list-style: none;
+}
+
+.Ingredients li::before {
+  content: "- ";
+  color: black;
+  font-weight: bold;
+}
+
+.recipess {
+  width: 500px;
+  align-content: center;
+
+}
+
+.parrafoP,
+.listado,
+.ultimapart {
+  padding: 80px 100px 40px 100px;
+  text-align: justify;
+}
+
+
+div {
+  margin-left: 350px;
+}
+
+hr {
+  width: 80%;
+}
