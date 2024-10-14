@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
 }
 /*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+h1, h2 {
+  font-weight: 400;
+}
+
+.h1-container{
+  background-image: url(../images/soup.jpg);
+  width: auto;
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20%;
+  }
+}
+
+section{
+  padding: 40px 80px;
+  img{
+    margin: auto 150px;
+  }
+}
+
+hr{
+  border: 2px solid rgb(179, 179, 179);
+  width: 80%;
+}
+
+ul{
+  list-style-type: '-';
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
