@@ -7,3 +7,94 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/* Centered Container */
+.container {
+  max-width: 1200px; /* Set a maximum width for your content */
+  margin: 0 auto; /* Center the container */
+  padding: 0 40px; /* Add padding inside the container */
+}
+
+/* Section Styles */
+section {
+  margin: 20px 0; /* Vertical margin between sections */
+  padding: 20px; /* Padding inside each section */
+}
+
+/* Font Styles*/
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h3 {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+p, li {
+  font-weight: 100;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.85);
+}
+
+.hero-text{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+/* Centered-image Styles */
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+/* List Styles */
+
+.unordered-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.unordered-list li::before {
+  content: "- "; /* Adds a dash before each list item */
+}
+
+.ordered-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.ordered-list li {
+  counter-increment: item; /* Increment a counter for each list item */
+}
+
+.ordered-list li::before {
+  content: counter(item) ") "; /* Display the counter followed by a closing parenthesis */
+}
+
+/* Horizontal Rule Element <hr> */
+
+hr {
+  height: 2px;
+  background-color: rgb(1, 1, 1, 0.45);
+  border: none; 
+}

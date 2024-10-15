@@ -18,7 +18,67 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: #ffffff;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Centered Container */
+.container {
+  max-width: 1200px; /* Set a maximum width for your content */
+  margin: 0 auto; /* Center the container */
+  padding: 0 40px; /* Add padding inside the container */
+}
+
+/* Section Styles */
+section {
+  margin: 20px 0; /* Vertical margin between sections */
+  padding: 20px; /* Padding inside each section */
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h3{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.85);
+}
+
+.hero-text{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.unordered-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.unordered-list li::before {
+  content: "- "; /* Adds a dash before each list item */
+}
