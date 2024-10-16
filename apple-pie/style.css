@@ -1,0 +1,64 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+header{
+    height: 80vh;
+    background-image: url(images/apple-pie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+section{
+    margin: 40px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 24px;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 600;
+    color: azure;
+}
+
+h2{
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 500;
+    line-height: 2.5em;
+    width: 100%;
+}
+
+hr{
+    size: 1px;
+    color: antiquewhite;
+    width: 70%;
+    align: center;
+}
+
+ul{
+    width: 100%;
+    list-style-type: "- ";
+}
+
+/*ol li:before {
+    display: inline-block;
+    content: counter(item) ") ";
+    counter-increment: item;
+}*/
+
+.intro p{
+    font-size: 24px;
+    font-style: italic;
+}
+
