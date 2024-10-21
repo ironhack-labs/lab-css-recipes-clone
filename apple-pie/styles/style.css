@@ -22,3 +22,63 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+li {
+  margin-left: 35px;
+  line-height: 1.5;
+}
+ul li {
+  list-style-type: '- ';
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 30px 0;
+}
+
+#ol-increment-styled li {
+  counter-increment: li;
+  display: list-item;
+}
+#ol-increment-styled li::marker {
+  /*    display: list-item; */
+  content: counter(li) ' ) '
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  margin-bottom: 50px;
+}
+.section-container{
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.img-container {
+  display:flex;
+  background-image: url('../images/apple-pie.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
