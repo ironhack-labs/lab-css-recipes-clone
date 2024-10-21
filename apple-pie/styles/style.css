@@ -20,5 +20,100 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+/*elements*/
+body { 
+  background-color:white;
+}
+
+h1{   
+  text-align: center;
+  
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  /* width: 500px;
+  margin: 0 auto; */
+  background-color: transparent;
+  position: absolute;
+  margin:10% 0 10% 40%;
+}
+
+h3 {
+  font-weight: bold;
+  margin-left: 9vw;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+p,ul,ol {
+  line-height: 1.5;
+}
+
+p {
+  padding: 5% 25% 3% 25%;
+}
+
+hr {
+  border-color: gray;
+  width: 80vw;
+}
+
+ul {
+  margin-left: 10vw;
+  list-style-type: "-";
+}
+
+ol {
+  counter-reset: list;
+  margin: 0 10%;
+  margin-bottom: 5%;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list, latin) ") ";
+  counter-increment: list;
+}
+
+/*classes*/
+.img-container{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*IDs*/
+#apple-pie {
+  background-image: url("../images/apple-pie.jpg");
+  height: 50vh;
+}
+
+#recipe-info, #cooking-info{
+  display: flex;
+  justify-content: center; 
+}
+
+/*AI suggested feedback*/
+/*
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  position: absolute;
+  margin: 10% 0 10% 40%;
+  background-color: transparent;
+}
+*/
