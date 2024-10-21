@@ -6,4 +6,62 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+
+  
+}
+
+
+.recipe-header{
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.recipe-header h1{
+  color: white;
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
+section {
+  width: 75%;
+  margin: 0 auto 50px auto;
+  color: grey;
+  
+}
+
+section p{
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+section h2 {
+  font-weight: 400;
+}
+
+.recipe-container img {
+  display: block;
+  width: 45%;
+  margin: 20px auto;
+}
+
+ul{
+  list-style-type: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
