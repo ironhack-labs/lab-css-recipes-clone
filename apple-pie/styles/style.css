@@ -15,6 +15,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+h1 {
+  font-size: 45px;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +26,106 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header-box {
+/*background-image: url(../images/apple-pie.jpg);*/
+  height: 400px;
+  background-image: url('../images/apple-pie.jpg');
+  text-align: center;
+  color: antiquewhite;
+  background-size: cover;
+}
+
+.header-box h1 {
+
+  padding-top:  180px;
+}
+
+.section-1 p {
+  padding: 40px 40px 20px 40px;
+  font-style: inherit;
+  font-size: 18px;
+}
+
+.section-1-box-align {
+
+  text-align: center;
+}
+
+.section-1-box-align img {
+
+  height: auto;
+
+  width: 300px;
+}
+
+.line {
+margin: 20px auto 30px auto;
+width: 85%;
+border-top: 1px solid black;
+}
+
+.section-2, .section-3 {
+
+  height: 380px;
+}
+
+.section-2 .list {
+  padding-left: 50px;
+}
+
+
+ul {
+
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li {
+padding-bottom: 7px;
+
+}
+
+ul li::before {
+  content: '- '; 
+}
+
+.section-2 img {
+  height: auto;
+  width: 300px;
+}
+
+.image-cooking-info {
+
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section-3 h2 {
+
+  padding-bottom: 20px;
+
+  padding-left: 50px;
+
+}
+
+ol {
+
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ") ";
+}
