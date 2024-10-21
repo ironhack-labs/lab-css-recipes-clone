@@ -2,16 +2,27 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size : 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin     : 0;
+  padding    : 0;
   font-weight: lighter;
 }
 
@@ -21,4 +32,60 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+header {
+  margin-bottom: 3rem;
+
+  width           : 100%;
+  aspect-ratio    : 16/9;
+  background-image: url('../images/apple-pie.jpg');
+  background-size : cover;
+
+  display        : grid;
+  justify-content: center;
+}
+
+header h1#title {
+  align-self: center;
+  color     : white;
+  font-size : 3rem;
+}
+
+section {
+  width        : clamp(10rem, 70%, 50rem);
+  margin       : 0 auto;
+  margin-bottom: 3rem;
+}
+
+article img {
+  display: block;
+  margin : 1rem auto;
+  width  : 20rem;
+}
+
+article h2 {
+  margin   : 2rem 0;
+  font-size: 1.3rem;
+}
+
+article ul,
+article ol {
+  list-style-position: inside;
+  margin-left        : .7rem;
+}
+
+article.ingredients ul {
+  list-style-type: "- ";
+}
+
+article.directions ol {
+  list-style   : none;
+  counter-reset: counter-round-bracket;
+}
+
+article.directions li {
+  counter-increment: counter-round-bracket;
+}
+
+article.directions li::before {
+  content: counter(counter-round-bracket) ") "
+}
