@@ -7,3 +7,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+header {
+  background: url(../images/soup.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom; 
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1{
+  color: white;
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
+section {
+  width: 75%;
+  margin: 4.6875rem auto 3.125rem auto;
+}
+
+section p{
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+section img {
+  display: block;
+  width: 35%;
+  margin: 1.25rem auto;
+}
+
+ul{
+  list-style-type: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}

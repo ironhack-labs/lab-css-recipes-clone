@@ -7,7 +7,7 @@
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+  This exercise allows you to practice and apply the concepts and techniques taught in class.
 
   Upon completion of this exercise, you will be able to:
 
@@ -18,7 +18,7 @@
   - Submit completed work using Git and GitHub by creating a pull request.
 
   <br>
-  <hr> 
+  <hr>
 
 </details>
 
@@ -65,7 +65,7 @@ Please find a screenshot of the expected results below:
 
 ![Apple Pie](https://i.imgur.com/lGGM68Q.jpg)
 
-<!-- ![French Onion](https://i.imgur.com/uepu2DO.jpg) -->
+![French Onion](https://i.imgur.com/uepu2DO.jpg)
 
 ## Extra Practice
 
@@ -93,7 +93,7 @@ If you need more practice, keep working on the `french-soup` exercise. There you
   If you are stuck in your code and need help with how to solve the problem or where to start, you should take a step back and try to form a straightforward question about the specific issue you are facing. This will help you narrow down the problem and develop potential solutions.
 
 
-For example, is it a concept you don't understand, or are you receiving an error message you don't know how to fix? It is usually helpful to state the problem as clearly as possible, including any error messages you receive. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
+For example, is it a concept you don't understand, or are you receiving an error message you don't know how to fix? It is usually helpful to state the problem as clearly as possible, including any error messages you receive. This can help you communicate the issue to others and potentially get help from classmates or online resources.
 
 
 Once you have a clear understanding of the problem, you will be able to start working toward the solution.
@@ -105,7 +105,7 @@ Once you have a clear understanding of the problem, you will be able to start wo
   <summary>How can I style an ordered list <code>ol</code> to use parentheses (e.g., 1), 2) ) instead of dots?</summary>
   <br>
 
-You can use [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters) to style an ordered list (`ol`) element to use parentheses (e.g., 1), 2) ). Here's how to do it:  
+You can use [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters) to style an ordered list (`ol`) element to use parentheses (e.g., 1), 2) ). Here's how to do it:
 
 
 1. First, you need to remove the default list style
@@ -116,12 +116,12 @@ You can use [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_
 
 ```css
 ol {
-  /* 1. Remove the default list style */  
+  /* 1. Remove the default list style */
   list-style: none;
 }
 
 ol > li {
-  /* 2. Create a custom list counter */  
+  /* 2. Create a custom list counter */
   counter-increment: listcounter;
 }
 
@@ -157,7 +157,7 @@ Here is an example of how you can use the `text-align` property to center align 
 ```html
 <div>
   <h2>This is a title</h2>
-  
+
   <p>This is some text in here</p>
 </div>
 ```
@@ -187,7 +187,7 @@ For more information, check: [W3C: Centering Things](https://www.w3.org/Style/Ex
   <summary>How do I center align HTML block elements?</summary>
   <br>
 
-  To center align a block-level element, such as a `div`, `h1`, etc., you can use the `margin` property and set it to `auto`. This will center the element horizontally within its parent container. 
+  To center align a block-level element, such as a `div`, `h1`, etc., you can use the `margin` property and set it to `auto`. This will center the element horizontally within its parent container.
 
 Here is an example of how you can do this:
 
