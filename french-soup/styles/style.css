@@ -1,9 +1,112 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+
+.product-info {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+
+.intro {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+
+.ingredients {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.ingredients h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.ingredients ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.ingredients li {
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+
+.ingredients li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+
+
+.directions {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.directions h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.directions ol {
+  padding-left: 0;
+  list-style-type: decimal;
+}
+
+.directions li {
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+
+
+.soup-recipe-img img,
+.soup-cooking-img img {
+  width: 40%;
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
+}
+
+.image-line {
+width: 600px;
+height: 1px;
+margin: 20px auto;
+
 }
