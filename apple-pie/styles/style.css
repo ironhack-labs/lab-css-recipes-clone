@@ -1,8 +1,40 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+  box-sizing: border-,stylrbox;
+  font-size: 30px;
+  color: black;
+  hr {
+    width: 80%; 
+        margin: 30px auto; 
+        border: none; 
+        border-top: 2px solid #080c0f; 
+  }
+    .Introduction {
+      display: flex;
+      font-size: 28px;
+     text-align: center ; 
+     padding-top: 30px ;
+
+    }
+  
+    .centered-text {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .text-overlay {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: white; 
+        font-size: 2em; 
+        font-weight: bold; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    }
+    
+  
 }
 
 *, *:before, *:after {
@@ -13,12 +45,70 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: rgb(27, 24, 20);
 }
+.Pic-aligned {
+  
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 35vh; 
+    padding-bottom: 0;           
+  
+}
+
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 18px;
 }
+.banner {
+  background-image: url("../styles/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Apple-Pie-Text {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  height: 10;
+  margin-left: 140px;
+  height:70px;
+
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  height: 10;
+  margin-left: 160px;
+  height: 70px;
+
+}
+.Directions {
+  display: flex;
+  flex-direction: column;
+  height: 10;
+  margin-left: 140px;
+  height:70px;
+
+}
+
+
+
 
 /* STYLES */
 /* Write your CSS below */
