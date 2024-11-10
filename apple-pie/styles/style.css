@@ -17,8 +17,82 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Lato'
 }
 
+h1 {
+  font-size: 10vh;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 4%;
+}
+
+
 /* STYLES */
-/* Write your CSS below */
+
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  padding: 10%;
+  max-width: 1280px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+
+}
+
+.details {
+  max-width: 45%;
+  padding-top: 4%;
+}
+
+.info-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.data {
+  width: 100%;
+}
+
+ul, ol {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+li{
+  font-size: 20px;
+}
