@@ -1,24 +1,131 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
+* {
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-style: normal;
   font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header h1 {
+  margin-top: -25px;
+  font-weight: 360;
+  font-size: 4em;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 56px;
+  font-size: 1.12em;
+  text-align: justify;
+  line-height: 1.25;
+}
+
+
+.recipe_imagen{
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 28%;
+}
+
+.cooking_imagen{
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+.line{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ingredients {
+  margin-left: 85px;
+  margin-right: 56px;
+}
+
+
+.ingredients {
+  margin-top: 35px;
+  margin-left: 85px;
+  margin-right: 56px;
+}
+
+.ingredients h2, .directions h2 {
+  font-weight: 100;
+}
+
+.directions {
+  margin-top: 35px;
+  margin-left: 84px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+}
+
+.ingredients ul{
+  margin-left: -32px;
+}
+
+.directions ol {
+  margin-left: -33px;
+  margin-top: 30px;
+}
+
+.ingredients ul li {
+  margin-bottom: 8px;
+  line-height: 0.8;
+}
+
+.directions ol li {
+  line-height: 1.4;
+}
+
+.guion-lista {
+  list-style-type: none;
+}
+
+.guion-lista li::before {
+  content: "- ";
+}
+
+.item-lista {
+  list-style-type: none;
+  counter-reset: item;
+}
+
+.item-lista li {
+  counter-increment: item;
+}
+
+.item-lista li::before {
+  content: counter(item) ") ";
+}
