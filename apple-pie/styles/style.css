@@ -1,5 +1,23 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+#title{
+background-image:url(../images/apple-pie.jpg);
+background-size: cover;
+padding: 220px;
+color: white;
+text-align: center;
+font-size: 50px;
+}
+
+#intro{
+  margin: 150px;
+  text-align: center;
+  font-family:Helvetica, sans-serif;
+font-size: 30px;
+
+  
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -9,7 +27,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +40,46 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+#Ingredients {
+
+  margin-left: 50px;
+  list-style-type: "- ";
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 800;
+}
+
+h2{
+  margin-left: 80px;
+  font-weight: bold;
+
+}
+
+#Directions{
+  list-style-type:decimal;
+  margin: 80px;
+  font-family:Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+}
+#img-recipe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px; ;
+}
+
+hr{
+  margin: 80px;
+}
+
+
+
+#img-ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
