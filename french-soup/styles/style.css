@@ -7,3 +7,100 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  max-width: 90%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0 auto;
+}
+
+/* STYLES */
+
+hr{
+  width: 80%;
+}
+
+/*---------------------IMAGEN CON TITULO----------------------*/
+.frenchSoupImg {
+  
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.frenchSoupImg img {
+  margin-top: 20px;
+  justify-content: center;
+  object-fit: cover;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.frenchSoupImg h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.3em;
+  text-shadow: 2px 2px 4px black;
+}
+
+/*-------------------------------------------*/
+.recipeDescription {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.recipeDescription h3 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.recipeIngredients {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.recipeIngredients h3 {
+  padding-bottom: 15px;
+}
+
+.recipeIngredients ul {
+  padding-left: 5%;
+  list-style-type: "- ";
+}
+
+.recipeIngredients img {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  margin-bottom: -20px;
+}
+
+.recipeSteps {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: fit-content;
+  padding-left: 5%;
+}
+
+.recipeSteps h3 {
+  padding-bottom: 30px;
+}
+
+.recipeSteps ol {
+  padding-left: 5%;
+}
