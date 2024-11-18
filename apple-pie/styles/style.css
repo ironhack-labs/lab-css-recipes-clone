@@ -4,7 +4,6 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -17,8 +16,57 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+}
+.general-style, hr {
+  margin: 50px 150px 50px 150px;
+  font-size: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  height: 50%;
+  width: auto;
+}
+
+.section-title {
+  margin: 20px 0 0 120px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li::marker {
+  content: "- ";
+}
+
+ol {
+  list-style-position: inside;
+}
