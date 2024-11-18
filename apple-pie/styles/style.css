@@ -22,3 +22,63 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.appleBar{
+  height: 650px;
+  width: 100%;
+  background-image: url("../images/apple-pie.jpg"
+  );
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  h1 {
+  color:white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 70px;
+}
+
+.historyOfRecipie {
+  text-align:left;
+  margin: 60px 60px 30px 60px;
+}
+
+.durationOfRecipie {
+text-align: center;
+}
+
+.durationOfRecipie img {
+  height: 60px;
+  width: 35%;
+}
+
+.recipieDescription {
+  text-align: left;
+  margin-left: 70px;
+}
+
+.recipieDescription h2 {
+  margin-bottom:30px
+}
+
+.recipieDescription img {
+  
+  height: 60px;
+  width: 35%;
+}
+
+.followDirections {
+  text-align: left;
+  margin-left: 70px;
+}
+
+.followDirections h2 {
+  margin-bottom: 30px;
+}
+
+
+ul, ol{
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
