@@ -10,8 +10,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 60;
+  padding: 50;
   font-weight: lighter;
 }
 
@@ -22,3 +22,41 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.content-wrapper {
+  margin: 60px; 
+  padding: 60
+}
+
+p {
+  margin: 60;
+  font-size: 20;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+ul li {
+  margin: 5px 0; 
+}
+
+ul li::before {
+  content: "- "; 
+  margin-right: 5px; 
+}
+
+ol {
+  list-style-type: none; 
+  counter-reset: item;
+}
+ol li {
+  counter-increment: item; 
+  margin: 5px 0;
+}
+ol li::before {
+  content: counter(item) ") ";  
+  margin-right: 0%;
+}
+
+
