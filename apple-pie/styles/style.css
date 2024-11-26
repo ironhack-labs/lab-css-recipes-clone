@@ -18,6 +18,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+  background-color:#fffaf0;
+  color: #333;
+  padding: 20px
 }
 
 /* STYLES */
