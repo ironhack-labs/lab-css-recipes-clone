@@ -17,8 +17,71 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  color: white;
+  font-size: 90px;
+  margin-top: 200px;
+  margin-left: 400px;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+#allformats {
+ margin-top: 70px;
+ margin-right: 130px;
+ margin-bottom: 50px;
+ margin-left: 130px;
+}
+
+.paragraph1 {
+  font-size: 22px;
+  text-align: justify;
+}
+
+.imagem2 {
+  width: 400px;
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.receita {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imagem3 {
+  width: 300px;
+  margin-left: 330px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#ul {
+list-style-type: disc;
+}
+
+#ol {
+
+}
