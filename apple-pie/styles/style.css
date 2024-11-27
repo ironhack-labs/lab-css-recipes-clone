@@ -5,20 +5,143 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+* {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight:100;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+#hero-section {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-title {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+@media (max-width: 649px) {
+  #hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  #main-title {
+    font-size: 2.5em;
+  }
+}
+
+@media (width > 650px) and (width < 999px) {
+  #hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+  }
+}
+h2{
+  font-size: 1em;
+}
+main {
+  padding: 0 80px;
+}
+
+#introduction-page {
+  padding: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  img{
+    width: 280px;
+  }
+}
+
+hr{
+  margin: 30px 0;
+}
+
+h3{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+ul, ol{
+  padding-top: 10px;
+ list-style-type: none;
+}
+li{
+  margin: 10px;
+}
+.directions {
+  margin-bottom: 50px;
+}
+
+/*box-sizing: border-box; quiero mantener el box del mismo tamaño que quiero y le añado el padding hacia adentro y no hacia afuera*/
+/*overflow: hidden; para ocultar barras (x o y se puede elegir)*/
+
+/*  Resetear estilos
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  */
+
+  /* comentar rápido: command+k, command+c  */
+  /* para saber si lo que hacemos es seguro en todos los navegadores --> can i use.com
+  css nesting por ejemplo:
+  #identificado{
+      div{
+    }
+  }
+    */
+
+    /* en una flex box:: para alinear el mismo espacio entre contenedores en varias filas
+    gap: 15px; para darle hueco
+    flex-wrap: wrap; para ponerlo en filas */
+
+    /* command+d: seleccionas la siguiente fila y puedes editarlas las 2 a al vez */
+    /* avater en url gratis: pravatar */
+
+    /* box shadow generator: cssmatic.com
+    para copiar y pegar */
+
+    /* para indicar que se puede clicar sobre algo: 
+    cursor: diferentes opciones
+    lo normal es:
+    cursor:pointer
+
+    o cambiando el color del elemento si pasas por encima: hover
+    .elemento:hover{
+    transform:rotate (6deg) scale (1.2); etc
+    transition:300m/s IMPORTANTE
+    */
+
+    /* puedo poner un div o una sección o algo que se pueda scrollear
+     overflow: scroll 
+     hay que dar imputs de que se puede scrollear*/
