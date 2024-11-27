@@ -22,3 +22,118 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.appleHead {
+  font-size: 100px;
+  word-spacing:30px;
+  text-decoration: none;
+  font-weight: lighter;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  padding: 600px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.generalRecipeInfo {
+  padding-top: 30px;
+  
+}
+
+.infoText {
+  font-size: 24px;
+  text-align: center;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute; left: 25%;
+  padding: 70px;
+  color: rgb(99, 99, 99);
+}
+
+.generalBox{
+  padding-top: 200px;
+  color: rgb(185, 185, 185);
+  padding-left: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.generalClock {
+  width: 30px;
+  position: absolute; left: 39%;
+}
+
+.generalServing {
+  width: 30px;
+  position: absolute; left: 55%;
+}
+
+.generalCalories {
+  width: 30px;
+  position: absolute; left: 72%;
+}
+hr {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: rgb(99, 99, 99);
+}
+
+.ingredientsHeader {
+  padding-left: 260px;
+  padding-bottom: 25px;
+  color: rgb(99, 99, 99);
+}
+
+.ingredientsList {
+  font-size: large;
+  padding-left: 300px;
+  padding-bottom: 40px;
+  color: rgb(99, 99, 99);
+}
+
+.ingredientsDash{
+  list-style-type: "-";
+}
+
+.clock {
+  width: 30px;
+  position: absolute; left: 32%;
+}
+
+.ingredientsBox {
+  padding-left: 60px;
+  padding-bottom: 40px;
+  color: rgb(185, 185, 185);
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.directionsHeader {
+  padding-left: 260px;
+  padding-bottom: 35px;
+  color: rgb(99, 99, 99);
+}
+
+.directionsList {
+  font-size: large;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 150px;
+  color: rgb(99, 99, 99);
+}
+
+.ingredientsDash{
+  list-style-type: "-";
+}
