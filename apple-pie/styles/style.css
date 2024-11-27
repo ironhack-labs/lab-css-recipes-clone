@@ -5,12 +5,23 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0px;
   padding: 0;
   font-weight: lighter;
 }
@@ -22,3 +33,122 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+#apple {
+  width: 100%;
+  padding: 2px;
+  display: block;
+  object-fit: cover;
+  height: 700px;
+}
+
+#section1{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 50px;
+  align-self: center;
+}
+
+/*
+a;adir div con height para hacer margen
+
+#section1{
+  background-image: url("../images/apple-pie.jpg");
+}
+
+#title{
+text-align:center;
+font-size:40px;
+padding-top:160px; usando calculo no tan recomendable
+border -radios redondea la imagen
+}*/
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+}
+
+#some-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin: 25px auto;
+  padding: 28px;
+  align-items: center;
+  width: 68%;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 1050px;
+}
+
+#Ingredients{
+  list-style-type: none;
+}
+ul li::before{
+  content: "- ";
+}
+
+
+/*  FLEXBOX 
+
+.square{
+weight:
+height:
+background color"
+}
+
+#flex-container{
+aqui usamos propiedades flex
+}
+*/
+
+.subtitle{
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+#Ingredients {
+  margin-left: 70px;
+}
+
+#instructions {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
+  align-self: center;
+  padding-bottom: 60px;
+  width: 83%;
+  
+}
