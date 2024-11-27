@@ -18,7 +18,65 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 1.5rem;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.imagen {
+  height: auto;
+  width: 1300px;
+  margin: auto; 
+  display: block;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  font-size: 6rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+}
+
+p {
+  text-align-last: center;
+  margin-top: 50px;
+  margin-left: 28%;
+  margin-right: 28%;
+
+}
+
+section {
+  margin-left: 36%;
+  margin-top: 50px;
+}
+
+.time {
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.prep {
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+ol {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-right: 55%;
+}
+
+hr {
+  margin-right: 28%;
+  margin-left: 28%;
+}
