@@ -22,3 +22,72 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+*{
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.wrapper{
+  width: 75%;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 35px 0 25px;
+}
+
+#intro-text{
+  margin-top: 70px;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.wrapper img{
+  margin: 25px 0;
+  width: 50%;
+  margin-top: 40px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "- "; /* Add the hyphen before each list item */
+}
+
+ol {
+  list-style-type: none; /* Remove the default numbering */
+  counter-reset: item;    /* Initialize the counter */
+}
+
+ol li::before {
+  counter-increment: item;  /* Increment the counter */
+  content: counter(item) ") ";  /* Display the counter value followed by a closing parenthesis and a space */
+}
+
+ul,
+ol{
+  margin-left: 10px;
+}
