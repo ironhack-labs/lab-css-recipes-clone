@@ -22,3 +22,74 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#title-header {
+  background-image: url("/images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no repeat;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  padding: 150px;
+}
+
+#preamble {
+  font-size: 20px;
+  margin: 5%;
+}
+
+
+#image-recipe > img {
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  height: auto;
+  max-width: 42%;
+}
+
+hr {
+  max-width: 90%;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+#ingredients-container {
+  font-size: 15px;
+  margin-top: 2.5%;
+  margin-left: 5%;
+}
+
+#image-directions > img {
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  height: auto;
+  max-width: 32%;  
+}
+
+#directions-container {
+  font-size: 15px;
+  margin-top: 2.5%;
+  margin-right: 5%;
+  margin-bottom: 8%;
+  margin-left: 5%;
+}
