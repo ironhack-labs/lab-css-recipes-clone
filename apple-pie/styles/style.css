@@ -22,3 +22,70 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1280px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: white;
+  font-size: 110px;  
+}
+
+main {
+  padding: 80px;
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+section img {
+  margin: 30px auto;
+  display: block;
+
+}
+
+section p {
+  font-size: 32px
+}
+
+section h2 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.recipe-process {
+border-top: 2px black solid;
+padding: 30px 0;
+}
+
+section ul li::before {
+  content: "- "
+}
+
+section ol li{
+ counter-increment: listcounter;
+}
+
+section ol li::before {
+  content: counter(listcounter) ") ";
+}
+
+.list {
+  font-size: 30px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.recipe-image {
+  margin-bottom: 0;
+}
