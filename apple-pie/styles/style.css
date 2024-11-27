@@ -22,3 +22,34 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#title-background {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 250px;
+  color: white;
+  height: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#ingredients {
+  margin-top: 20px;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ol {
+  margin-left: 20px;
+}
