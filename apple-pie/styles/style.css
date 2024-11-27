@@ -22,3 +22,60 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#apple-pie h1, #french-soup h1 {
+  padding: 225px 0 225px 0;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#apple-pie h1 {
+  background-image: url(../images/apple-pie.jpg);
+}
+
+#french-soup h1 {
+  background-image: url(../../french-soup/images/soup.jpg);
+}
+
+hr {
+  width: 85%;
+}
+
+section {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+#resume {
+  margin-top: 50px;
+}
+
+#resume img {
+  margin-top: 20px;
+  height: 50px;
+}
+
+section h3 {
+  text-align: left;
+  margin: 20px;
+}
+
+#ingredients ul {
+  text-align: left;
+  padding-left: 5%;
+  list-style: '- ';
+}
+
+#ingredients img {
+  margin-top: 20px;
+  height: 65px;
+}
+
+#directions ol {
+  text-align: left;
+  padding-left: 5%;
+}
