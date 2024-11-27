@@ -10,8 +10,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   font-weight: lighter;
 }
 
@@ -22,3 +22,79 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Begining of banner */
+
+#banner {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  padding: 400px;
+  width: 100% ;
+  height: 400% ; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-display: center;
+  color: white;
+
+}
+
+.history {
+  margin: 0px ;
+  border: 30px 30px;
+  padding: 100px;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+.history img {
+  margin: 3px;
+  border: 30px;
+  padding: 20px;
+  width: 40% ;
+  height: 40% ; 
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients {
+  margin-top: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 5px solid darkgrey;
+  border-bottom: 5px solid darkgrey;
+  padding: 100px;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: left;
+  color: black;
+}
+.ingredients img {
+  margin: 3px;
+  border: 30px;
+  padding: 20px;
+  width: 30%;
+  height: 30%; 
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.directions {
+  margin-top: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 5px solid;
+  padding: 100px;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: left;
+  color: black;
+}
