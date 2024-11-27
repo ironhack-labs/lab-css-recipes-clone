@@ -1,9 +1,55 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+header {
+  background-image: url('../images/soup.jpg');
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+section {
+  margin: 100px;
+}
+
+ul {
+  list-style-type: '-';
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+ol {
+  margin: 20px;
+  list-style-type: none;
+  counter-reset: custom-counter;
+}
+
+ol li::before {
+  content: counter(custom-counter) ') '; /* Add custom numbering format */
+  counter-increment: custom-counter; /* Increment the counter */
 }
