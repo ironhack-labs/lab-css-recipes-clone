@@ -21,4 +21,59 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.titulo {
+font-size: 55px;
+font-family:sans-serif, Helvetica, Arial;
+color: white;
+text-align:center;
+height: 500px;
+padding-top: 200px;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.introduccion {
+  font-family: sans-serif, Helvetica, Arial;
+  font-size: large;
+  text-align:left;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.imagen-recipe-info, .cooking-info {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+}
+.ingredientes, .directions {
+font-family: sans-serif, Helvetica, Arial;
+font-size: medium;
+text-align: left;
+margin-top: 30px;
+margin-left: 200px;
+margin-bottom: 30px;
+margin-right: 200px;
+}
+h3{
+  font-weight: bolder;
+}
+ol{
+  list-style-type:decimal;
+  list-style-position: inside;
+}
+ul{
+  list-style-position: inside;
+  list-style-type: "-";
+}
+li {
+  padding-left: 12px;
+}
