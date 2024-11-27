@@ -5,20 +5,80 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  list-style-position: inside;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.sectionWrapper {
+  max-width: 720px; /* Adjust as needed */
+  margin: auto;
+  /* padding: 40px;s */
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  /* background-color: yellow; */
+  /* background-color: green; */
 }
 
-/* STYLES */
+.sectionContent {
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 /* Write your CSS below */
+
+.headerSection {
+  color: white;
+  background-image: url(/images/apple-pie.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introSection {
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+.ingredientSection {
+  border-bottom: 2px solid black;
+}
+
+.infoGrafic {
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  /* margin: 30px 0; */
+  margin-top: 75px;
+}
