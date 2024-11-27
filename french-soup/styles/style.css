@@ -7,3 +7,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.headerOnion {
+  background-image: url(../../lab-css-recipes-clone/french-soup/images/soup.jpg);
+}
