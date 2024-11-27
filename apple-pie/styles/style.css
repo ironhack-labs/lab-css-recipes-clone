@@ -15,10 +15,104 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/* MY CODE */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-weight: 300;
+    width: 75%;
+    height: 25%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#header {
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#description > p {
+    text-align: left;
+    margin: 70px 100px;
+}
+
+#description > img {
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #808080;
+    width: 1050px;
+    margin: 50px auto;
+}
+    
+ul {
+    list-style-type: none;
+    margin: 50px 100px;
+}
+      
+ul > li {
+    text-indent: -5px;
+}
+
+ul > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 50px 120px;
+}
+
+#ingredients > img {
+    height: 110px;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#ingredients-list {
+    width: 75%;
+    margin: 0 auto;
+}
+
+ol {
+    list-style: none;
+    margin: 0 auto;
+    width: 75%;
+}
+
+ol > li {
+    counter-increment: listcounter;
+}
+
+ol > li::before {
+    content: counter(listcounter) ") ";
+}
+
+#directions {
+    margin-bottom: 100px;
+}
+
