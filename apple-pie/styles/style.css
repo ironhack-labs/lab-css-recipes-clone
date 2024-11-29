@@ -18,7 +18,75 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
+}
+
+.hero {
+  background-image: url("../images/apple-pie.jpg");
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight:bold;
+
+}
+
+.content{
+  /* margin: 50px;
+   */
+   max-width: 600px;
+   margin: 60px auto;
+   /* margin-top: ; */
 }
 
 /* STYLES */
 /* Write your CSS below */
+.imgCtn {
+   border-bottom: 1px solid black;
+   margin-bottom: 20px;;
+}
+img {
+  max-width: 400px;
+  display: block;
+  margin: 40px auto 30px;
+ 
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/*ul li - instead of dot*/
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}
+
+/* ----END ------*/
+/* Solid line */
+
+/* ----END ------*/
