@@ -15,6 +15,36 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+h2 {
+  padding-top: 0.5rem;
+  font-size: 16px;
+  font-weight: 310;
+}
+
+ol, ul{
+  list-style-position: inside;
+  padding: 1rem;
+  line-height: 1.3rem;
+}
+
+ul {
+  list-style: '- ';
+}
+
+ol{
+  list-style: none;
+  counter-reset: num;
+}
+
+ol li {
+  counter-increment: num;
+}
+
+ol > li:before {
+  content: counter(num)') ';
+  background-position: 0rem 50%;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +52,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title h1 {
+  font-size: 3rem;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 400;
+}
+
+.recipe {
+  margin: 3rem;
+}
+
+.info-img{
+  width: 100%;
+  text-align: center;
+}
+
+.top{
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
+.btm{
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.intro{
+  padding-bottom: 1rem;
+}
