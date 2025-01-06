@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -22,3 +23,78 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50em;;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.description, .ingredients, .directions {
+  margin: 3em 6em;
+}
+
+#recipe-info{ 
+  display: grid;
+  place-items: center;
+}
+
+#recipe-info img {
+
+  height: 80px;
+  width: auto;
+
+}
+
+h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: "- ";
+  padding-left: 20px;
+}
+
+.cooking-info{ 
+  display: grid;
+  place-items: center;
+}
+
+.cooking-info img {
+
+  height: 150px;
+  width: auto;
+  padding-top: 50px;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  padding-left: 20px;
+}
+
+ol > li::before {
+  content: counter(item) ") ";
+  counter-increment: item;
+  text-align: justify;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid  lightgray
+}
