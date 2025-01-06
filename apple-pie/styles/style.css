@@ -78,6 +78,11 @@ h1 {
 }
 
 p {
-  background-color: blue;
+  text-align: justify;
+
+  font-size: 20px;
+  background-color: rgb(232, 232, 241);
   padding: 20px;
+  border-bottom: 1px solid black;
+
 }
