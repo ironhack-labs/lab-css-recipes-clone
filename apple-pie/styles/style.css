@@ -68,10 +68,13 @@ h1 {
 
 .grid-container {
   padding: 50px 30px 30px 30px;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
+  ;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "first" "second" "third";
   justify-items: center;
   align-content: space-between;
   row-gap: 50px;
@@ -81,8 +84,26 @@ p {
   text-align: justify;
 
   font-size: 20px;
-  background-color: rgb(232, 232, 241);
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   border-bottom: 1px solid black;
 
+}
+
+p img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.first {
+  grid-area: first;
+}
+
+.second {
+  grid-area: second;
+}
+
+.thrid {
+  grid-area: third;
 }
