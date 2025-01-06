@@ -85,8 +85,6 @@ p {
 
   font-size: 20px;
   background-color: rgb(255, 255, 255);
-  padding: 20px;
-  border-bottom: 1px solid black;
 
 }
 
@@ -96,14 +94,40 @@ p img {
   padding: 15px;
 }
 
+h2 {
+  padding-bottom: 30px;
+}
+
+ul {
+  padding: 10px;
+}
+
+ul li {
+  list-style-type: none;
+
+}
+
 .first {
   grid-area: first;
+  padding: 10px;
+  border-bottom: 1px solid black;
 }
 
 .second {
+
   grid-area: second;
+  /* padding: 20px; */
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.thrid {
+.third {
   grid-area: third;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
