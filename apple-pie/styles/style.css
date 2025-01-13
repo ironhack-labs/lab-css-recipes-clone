@@ -20,5 +20,66 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+#title{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+#background-image{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  position: absolute;
+}
+
+img{
+  margin: auto;
+  display: block;
+  height: 70px;
+  width: auto;
+}
+
+section{
+  margin: 80px 150px;
+}
+
+ul {
+  margin: 0;
+  margin-left: 20px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+ol {
+  counter-reset: list;
+  margin-left: 10px;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+
 /* STYLES */
 /* Write your CSS below */
