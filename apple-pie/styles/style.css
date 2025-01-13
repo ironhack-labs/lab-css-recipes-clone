@@ -10,9 +10,10 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-weight: lighter;
+
 }
 
 /*  Set the font */
@@ -22,3 +23,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.apple-pie-text {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  padding: auto;
+  padding-top: 120px;
+}
+
+.apple-pie-header{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
+.ingredients{
+  text-align: justify;
+}
+
+.directions{
+  text-align: justify;
+  padding-bottom: 25px;
+}
+
+hr{
+  width: 50%;
+}
+
+.first{
+  text-align: justify;
+  font-size: extra-large;
+  width: 500px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.recipe-image{
+margin-left: 500px;
+margin-right: 500px;
+height: auto;
+  width: 25%;
+  margin-top: 15px;
+}
+
+.title2{
+  margin-left: 400px;
+}
+
+li{
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.recipe-image2{
+  margin-left: 500px;
+  margin-right: 500px;
+  height: auto;
+  width: 25%;
+  margin-top: 15px;
+}
