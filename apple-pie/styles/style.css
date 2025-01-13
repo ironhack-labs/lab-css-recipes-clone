@@ -1,6 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+/*html {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -18,7 +18,67 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-weight: lighter;  
+}
+
+h1{
+  margin-top: 150px;
+  font-size: 60px;
+}
+
+h2{
+  font-weight: 600;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+ol {
+  
+  list-style: none;
+}
+
+ol > li {
+  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  
+  content: counter(listcounter) ")";
+}
+
+header{
+  background-image:url("../images/apple-pie.jpg");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:400px;
+  padding-top:50px;
+  position:relative;
+  color: white;
+  text-align:center;
+  margin-bottom: 40px;
+
+}
+
+.introduction {
+  margin: 0 auto;
+  width: 600px;
+  
+  
+}
+
+.ingredients{
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 40px;
+  
+}
+
+.directions{
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 40px;
+}
+
