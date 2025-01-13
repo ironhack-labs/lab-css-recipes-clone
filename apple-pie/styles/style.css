@@ -20,5 +20,98 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+body {
+  font-family: Arial, sans-serif;
+  margin: 5;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+.banner {
+  background: url('../images/apple-pie.jpg') no-repeat center center/cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  
+}
+
+.banner h1 {
+  font-size: 5rem;
+  margin-bottom: 225px;
+  margin-right: -50px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: white;
+  overflow: hidden;
+}
+
+.intro {
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  margin : 0 auto;
+
+}
+
+.recipe-info {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1rem;
+  color: #777;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #1b1a1a;
+  margin: 25px 5;
+}
+
+.ingredients, .directions {
+  padding: 20px;
+  color: 333;
+}
+
+.ingredients ul, .directions ol {
+  padding-left: 0px;
+}
+
+.dash-list {
+  list-style-type: none;
+}
+
+.dash-list li::before{
+  content:"- ";
+  color: 333;
+  margin-right: 0px;
+}
+
+.enum-list {
+  list-style-type: none;
+  counter-reset: list-counter;
+}
+
+.enum-list li{
+  counter-increment: list-counter;
+}
+
+.enum-list li::before{
+  content: counter(list-counter)")";
+}
+
+.ingredients h2, .directions h2 {
+  margin-bottom: 50px;
+  color: 333;
+}
+
+
