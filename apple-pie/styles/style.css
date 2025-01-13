@@ -9,6 +9,9 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  /* border: 1px solid red */
+}
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
@@ -18,7 +21,95 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.background{
+  background: url("../images/apple-pie.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color : white;
+  font-size: 5em;
+  }
+
+  .recipe-info-box {
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px black solid;
+  }
+  .paragraph_one{
+    
+      width: 80%; 
+      margin: 0 auto; 
+      align-items: center; 
+      line-height: 1.5; 
+      padding: 20px;
+      margin: 10px;
+      font-size: 1.9em
+  }
+  
+  .ingredients {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: left; 
+    font-size: 2em;
+}
+
+.custom-bullets {
+    list-style-type: none; 
+    padding-left: 0; 
+    text-align: left; 
+    margin: 0 auto; 
+}
+
+.custom-bullets li::before {
+    content: "- "; 
+    color: black;
+    font-weight: bold;
+}
+.cook-info-box {
+  width: 80%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px black solid;
+}
+.directions {
+  width: 80%; 
+  margin: 20px auto; 
+  padding: 20px;
+  text-align: left; 
+  font-size: 2em;
+}
+
+.directions ol {
+  list-style: none; 
+  margin-left: 20px; 
+  padding-left: 0; 
+  counter-reset: list-counter; 
+}
+
+.directions ol li {
+  counter-increment: list-counter; 
+  margin-bottom: 10px; 
+}
+
+.directions ol li::before {
+  content: counter(list-counter) ") "; 
+  font-weight: lighter; 
+  color: black; 
+}
+
+
