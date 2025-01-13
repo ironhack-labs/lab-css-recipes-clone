@@ -18,7 +18,50 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+ 
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-container{
+  position: relative;
+  text-align: center;
+}
+.image-text{
+  position: absolute;
+  bottom: 50%; /* Ajusta la posición del texto desde la parte inferior */
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+}
+.cover-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height: 1000px;
+  object-fit: cover;
+}
+.text-intro{
+   width: 50%;               /* Ancho de la línea, 50% para que ocupe la mitad del contenedor */
+  margin: 20px auto;        /* Centra la línea con auto en los márgenes izquierdo y derecho */
+  border: none;             /* Elimina los bordes por defecto */
+ }
+
+
+.content-centered{
+  list-style-type: decimal;  /* Mantener la numeración estándar */
+  padding-left: 40px; 
+  line-height: 1.6;         /* Espacio entre líneas */
+  max-width: 600px;         /* Limitar el ancho máximo de la lista */
+  margin: 0 auto;   
+  
+}
+.centered-line {
+  width: 50%;               /* Ancho de la línea, 50% para que ocupe la mitad del contenedor */
+  margin: 20px auto;        /* Centra la línea con auto en los márgenes izquierdo y derecho */
+  border: none;             /* Elimina los bordes por defecto */
+  border-top: 2px solid #333; /* Crea una línea de 2px de grosor */
+}
