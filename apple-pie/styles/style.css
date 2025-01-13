@@ -3,13 +3,26 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +33,62 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.apple-pie {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  color: white;
+  width: 100%;
+  margin: 40% auto;
+  font-size: 4rem;
+}
+
+.header p {
+  margin-top: 20px;
+  text-align: justify;
+  padding: 0 50px;
+}
+
+.recipe-info {
+  width: 400px;
+  margin: 20px 0 0 0;
+}
+
+.ingredients {
+  padding: 20px 50px;
+}
+
+.ingredients h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ingredients ul li {
+  list-style: "- ";
+}
+
+.cooking-info {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+hr {
+  width: 90%;
+}
+
+.directions {
+  padding: 20px 50px;
+}
+
+.directions h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
