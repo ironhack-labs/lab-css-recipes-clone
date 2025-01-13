@@ -1,6 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+/*html {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -22,3 +22,31 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  position: relative;
+  width: 100vw;
+  height: 40vw;
+  background-image:url("../images/apple-pie.jpg");
+  text-align: center;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+}
+ h1 {
+  padding-top: 20rem;
+  font-size: 70px;
+  
+ }
+
+main {
+  text-align: left;
+}
+
+ul, li{
+  text-align: left;
+}
+
+main>img {
+  position: center;
+}
