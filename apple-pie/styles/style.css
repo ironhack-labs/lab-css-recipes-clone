@@ -5,12 +5,49 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+header{
+  background-image: url('../images/apple-pie.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+
+
+}
+header h1{
+  text-align: center;
+  color: white;
+  line-height: 8;
+}
+img{
+  
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+  
+}
+section {
+  width: 80%;
+  margin:auto;
+}
+#ingredients ul{
+  list-style-type: '-';
+}
+
+#Directions ol{
+  list-style-type: none;
+  counter-reset: custom-counter;
+ 
+}
+#Directions ol li{
+  counter-increment: costum-counter;
+}
+#Directions ol li::before{
+  content: counter(costum-counter)")";
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-weight: lighter;
 }
