@@ -22,3 +22,64 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image:url("https://raw.githubusercontent.com/nestorsdelgado/lab-css-recipes-clone/refs/heads/master/apple-pie/images/apple-pie.jpg");
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 335px;
+}
+
+section {
+  padding: 50px 50px 0px 50px;
+  background-color: white;
+}
+
+#cabecera p {
+  text-align: justify;
+  padding: 0px 100px 0px 100px;
+  font-size: 20px;
+  
+}
+
+img {
+  padding: 25px 10% 0 10%;
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.separador {
+  padding: 0 5% 0 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-bottom: 2px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+}
+
+h2 {
+  padding: 0px 100px 25px 100px;
+
+}
+
+#ingredients li {
+  padding: 0px 100px 0px 110px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#ingredients li::before {
+  content: "- "
+}
+
+#directions ol {
+  padding: 0px 100px 0px 130px;
+  font-size: 20px;
+}
