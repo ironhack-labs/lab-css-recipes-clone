@@ -19,6 +19,79 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
-
+h1{
+  font-size: 55px;
+}
+.default-cont{
+   max-width: 1100px;
+   height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.header-cls{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: auto;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#intro{
+justify-content: center;
+align-items: center;
+text-align:center ;
+}
+#intro p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+#ingredient img{
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#ingredient h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+.ing {
+  display: flex;              
+  justify-content: center;   
+  align-items: center;        
+  max-width: 1100px;  
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+ul li::before {
+  content: "-";
+  margin-right: 8px;
+}
+ol li {
+  list-style-position: inside;
+}
+ol li::marker {
+  content: counter(list-item) ")";
+      }
+#prepare{
+     margin-bottom: 30px;
+     }
+#prepare h2{
+      margin: 30px;
+     }
 /* STYLES */
-/* Write your CSS below */
+
+/* Write your CSS below#ingredient li::before {
+  
+    content: counter(list-counter) "- ";
+    position: absolute;
+    left: 0;
+    font-weight: normal;
+     } */
