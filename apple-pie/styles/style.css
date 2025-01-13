@@ -5,7 +5,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -22,3 +24,55 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+.introduction {
+  width: 60%;
+  margin: 20px auto 20px auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.img-page {
+  display: block;
+  margin: 20px auto;
+}
+
+ul {
+  margin: 20px 0 0 0;
+
+} 
+
+ul li {
+  list-style-type: none;
+  margin: 2px 10px
+
+}
+
+ol {
+  margin: 20px 0 0 0;
+}
+
+ol li {
+  margin: 2px 10px;
+  list-style-type: number;
+}
+
+hr {
+  border-style: inset;
+  border-width: 1px
+}
