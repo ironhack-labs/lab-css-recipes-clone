@@ -21,4 +21,43 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.header{
+  margin: auto;
+  padding-top: 110px;
+  background-image:url(../images/apple-pie.jpg);
+  background-size: cover;
+  color: white;
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.section{
+  width:80%;
+  margin:40px auto;
+  text-align: justify;
+}
+
+.info-img{
+  display:block;
+  margin:20px auto;
+  width:300px;
+}
+
+.ingredient-list{
+  margin: 20px 10px;
+  list-style-type: "-";
+}
+
+/* modifeid counter for list */
+.directions-list{
+  margin: 20px 10px;
+  list-style-type: none;
+  counter-reset: count;
+}
+.directions-list > li{
+  counter-increment: count;
+}
+.directions-list > li::before{
+  content: counter(count)")";
+}
