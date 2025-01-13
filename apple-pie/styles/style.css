@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,97 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+   text-align: center; 
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  background-image: url("../images/apple-pie.jpg");
+  /* margin-top: auto; */
+  width: 3000px;
+  height: 2000px; 
+  
+}
+
+h1 {
+  position:absolute;
+  top: 75%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 200px;
+}
+
+
+hr {
+  margin-left: 450px;
+  margin-right: 450px;
+
+}
+
+.below-image {
+  font-size: 45px;
+  width: 1700px;
+  margin-left: 400px;
+  text-align: left;
+  padding: 0 70px;
+
+
+}
+img {
+width:800px;
+
+}
+h3 {
+  text-align: justify;
+  margin-left: 400px;
+  margin-right: 200px;
+  font-size: 40px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  text-align: left;
+  margin-left: 450px;
+  font-size: 35px;
+  padding: 0 70px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed>li {
+  text-indent: -5px;
+}
+
+ul.dashed>li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+ol {
+  margin: 0;
+  text-align: left;
+  margin-left: 450px;
+  margin-right: 300px;
+  font-size: 35px;
+  padding: 0 70px;
+}
+
+.comma{
+  counter-reset: list;
+ padding-left: 40px;
+}
+.comma > li{
+ list-style: none;
+}
+.comma > li:before{
+  content: counter(list)")";
+  counter-increment: list;
+} 
