@@ -7,3 +7,71 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+header {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 140px;
+}
+h2{
+  text-align: left;
+}
+
+.parrafos {
+  text-align: center;
+  padding: 30px;
+}
+.parrafos img{
+  display: block;
+  margin: auto;
+}
+
+.izq {
+  text-align: left;
+}
+
+.izq ul {
+
+  list-style-type: none;
+  
+}
+
+.izq ul {
+
+  list-style-type: none;
+  margin-left: 5px;
+
+}
+
+ul li::before {
+  content: "- ";
+}
+
+hr {
+  width: 90%;
+  font-size: 2em;
+}
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+/* STYLES */
+/* Write your CSS below */
