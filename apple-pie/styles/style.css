@@ -22,3 +22,112 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+hr {
+  width: 45%;
+  border: 1px solid rgb(158, 155, 155);
+}
+
+.header {
+  width: 100%;
+  height: 20rem;
+  background: url("images/apple-pie.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 40%;
+  background-size: cover;
+}
+
+.header__h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  .description {
+      width: 45%;
+      margin-top: 1rem;
+  }
+  .image-one {
+      text-align: center;
+      img {
+          width: 70%;
+      }
+  }
+}
+
+.section-two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .section-two__article {
+      width: 50%;
+      font-weight: bolder;
+      margin-top: 2rem;
+      margin-bottom: .6rem;
+      ul {
+          list-style-type: '- ';
+      }
+  }
+  .image-two {
+      text-align: center;
+      img {
+          width: 70%;
+      }
+  }
+}
+
+.section-three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ol {
+      width: 50%;
+      li {
+          padding: .4em;
+      }
+  }
+}
+
+.section-three__h3 {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: .6rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #3e2410;
+  height: calc(1.5rem + .5vw);
+  line-height: calc(1.5rem + .5vh);
+  span {
+      color: rgb(65, 196, 26);
+      a {
+          text-decoration: none;
+          color: rgb(187, 43, 187);
+      }
+  }
+}
