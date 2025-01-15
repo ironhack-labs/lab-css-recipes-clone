@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,30 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.Encabezado{
+  position: relative;
+ 
+}
+.Encabezado h1{
+  position: absolute;
+  color: rgb(237, 233, 233);
+  margin-top: 50%;
+  margin-left: 50%;
+  font-size: 500%;
+}
+.Encabezado img{
+  width: 100%;
+}
+.Reseta {
+  margin: 5%;
+}
+.Ingredientes{
+  margin: 5%;
+}
+.Guia{
+  margin: 5%;
+}
+hr{
+  margin: 5%;
+}
