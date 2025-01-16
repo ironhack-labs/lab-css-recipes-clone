@@ -22,3 +22,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+ 
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 50px 0 50px;
+  text-align: center;
+  height: 600px;
+  width: auto;
+  position: relative;
+
+}
+
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+.body.text {
+  margin: 100px 95px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+p.intro {
+  text-align: center;
+  font-size: 2.4em;
+  color: rgb(72, 72, 72);
+
+
+}
+
+.ingredients, .directions {
+  text-align: left;
+  list-style: none;
+  margin: 50px 60px 40px;
+  margin-bottom: 40px;
+  color: #444;
+  font-size: 2em;
+}
+
+
+ul {
+  text-align: center;
+}
+
+ol {
+
+  text-align: center;
+}
+
