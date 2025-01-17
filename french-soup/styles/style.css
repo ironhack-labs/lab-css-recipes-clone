@@ -3,7 +3,13 @@ h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Roboto, 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.header {
+  background-image: url(../images/soup.jpg);
 }
