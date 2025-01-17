@@ -22,3 +22,67 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-color: grey;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 200px 0;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  font-family: 'Montserrat';
+}
+
+.recipe-info{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h2 {
+  padding: 0.5cm;
+}
+
+p {
+  padding: 2cm;
+  max-width: 20cm;
+  margin: auto;
+}
+
+ul {
+  padding-left: 1cm;
+}
+
+
+ol {
+  padding-left: 1cm;
+  padding-bottom: 1cm;
+  list-style: none;
+}
+
+
+ul li {
+  list-style-type: '- ';
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
