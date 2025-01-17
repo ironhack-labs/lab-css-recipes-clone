@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -21,4 +32,103 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+/*ids*/
+#intro p {
+  font-size: 31px;
+  margin-bottom: 50px;
+}
+
+#directions {
+  margin-top: 25px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/*selectors*/
+
+/*position the h1 element inside its container div*/
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 61.04px;
+  position: relative;
+  top: 50%;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  /*text-decoration: underline;*/
+  margin-bottom: 15px;
+}
+
+section {
+  margin: auto;
+  padding: 0px 50px;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+ol,
+ul {
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  background-color: rgb(56, 56, 56);
+  margin-top: 100px;
+}
+
+/*classes*/
+
+/*Set the background image of the header*/
+.hero {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Styles the specifications block*/
+.specifications {
+  /*text-align: center;*/
+  max-width: 1200px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  opacity: .25;
+}
+
+.data {
+  color: rgb(168, 168, 168);
+  display: inline;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.card {
+  margin: 0;
+  max-width: 30%;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 150%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px rgb(168, 168, 168);
+}
+
