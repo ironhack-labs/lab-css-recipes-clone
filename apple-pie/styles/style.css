@@ -20,5 +20,102 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.applepieImg {
+background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}
+
+.intro {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: 60px auto 20px auto;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  margin: 20px auto;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img{
+  height: 60px;
+  width: auto;
+  padding-top: 10px;
+}
+
+.ingredients {
+    /* styling the container and the place of the elements within*/  
+  display: block;
+  margin: 30px auto;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
+}
+
+.ingredients h2{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.ingredients ul {
+   /* adding more space from the left */  
+  margin-left: 50px;
+}
+
+.directions {
+   /* styling the container and the place of the elements within*/  
+  display: block;
+  margin: 30px auto;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.directions h2{
+  /* adding space between h2 and the ul */  
+  padding-bottom: 15px;
+}
+
+.directions ol {
+    /* Remove the default list style */  
+  margin-left: 50px;
+  list-style: none;
+}
+
+  ol > li{
+     /* Create a custom list counter */ 
+    counter-increment: listcounter;
+  }
+
+  ol > li::before{
+  /* Set the new style for the list markers */
+    content: counter(listcounter) ") ";
+  }
