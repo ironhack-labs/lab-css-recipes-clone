@@ -13,7 +13,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
-}
+  }
+  
 
 /*  Set the font */
 body {
@@ -22,3 +23,101 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  }
+
+h2 {
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+
+
+header img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+header {
+   color: white;
+  background-position: 0 0;
+   background-repeat: no-repeat;
+    height: 450px;
+  background-size: cover;
+    position: relative;
+  
+}
+
+.Ingredients img {
+  margin: auto;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+  width: 40%;
+  margin: auto;
+       
+}
+ hr {
+  margin: 20px auto 50px auto;
+  width: 100%;
+}
+
+.Directions img {
+  margin: auto;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+  width: 40%;
+  margin: auto;
+}
+
+ol {  
+  list-style: none;
+    line-height: 1.6;
+    
+  }
+
+ol > li {  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+ul {  
+  list-style: none;
+    line-height: 1.6;
+    
+    
+  }
+
+
+ul > li::before {
+
+  content: "-";
+}
+
+html {
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Directions{
+  padding-left: 50px;
+}
+
+.Ingredients{
+  padding-left: 50px;
+}
