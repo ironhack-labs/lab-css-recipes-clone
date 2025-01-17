@@ -7,3 +7,70 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+ 
+header {
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  margin: 100px 95px;
+}
+
+.meal-title {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+}
+
+.meal-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.meal-description {
+  text-align: left;
+  font-size: 2.1em;
+  color: rgb(72, 72, 72);
+}
+
+.cooking-info, .recipe-info {
+  display: block;
+  margin: 60px auto 30px auto;
+  width: auto;
+}
+
+.divider {
+  border: none;
+  height: 3px;
+  background-color: rgb(221, 221, 221);
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+.ingredients-list, .directions-list {
+  list-style: none;
+  color: #444;
+  font-size: 1.4em;
+}
+
+.ingredients-list > li::before {
+  content: "-";
+}
+
+.directions-list > li {
+  counter-increment: listcounter;
+}
+
+.directions-list > li::before {
+  content: counter(listcounter) ")";
+}
