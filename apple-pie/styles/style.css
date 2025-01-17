@@ -22,3 +22,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header img {
+  background-image: url('./images/apple-pie.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  height: 0%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  }
+  
+hr {
+  width: 80%;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+section {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.recipeInfo img {
+  padding-left: 25rem;
+  max-width: 70%;
+    
+}
+
+.cookingInfo img {
+  padding-left: 27rem;
+  max-width: 65%;
+}
+
+p {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+}
+
+ul {
+  padding-left: 9rem;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+}
+
+ul li {
+  list-style-type: "- ";
+}
+
+ol {
+  padding-left: 9rem;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+}
+
+ol li {
+  counter-increment: custom-counter;
+  position: relative;
+  padding-left: 20px;
+  list-style: none;
+}
+ol li:before { 
+  content: counter(custom-counter) ")"; 
+  position: absolute; 
+  left: 0;
+}
+
+h3 {
+  padding-left: 7.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
