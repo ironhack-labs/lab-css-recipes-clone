@@ -9,16 +9,101 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
+
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 80px;
+  color: white;
+}
+
+h2{
+font-weight: 400;
+font-style: normal;
+padding: 32px 0 24px 0;
+}
+
+.subheading {
+font-size: 20px;
+padding: 48px 128px 24px;
+display: flex;
+flex-direction: column;
+}
+
+ul{
+  list-style-type:none;
+}
+
+ul li::before {
+  content: "- ";
+  padding-right: 10px; 
+}
+
+ol{
+  margin-left: 16px;
+}
+
+.double-list {
+  counter-reset: count 0;
+}
+
+.double-list li {
+  counter-increment: count 1;
+}
+
+.double-list li::marker {
+  content: counter(count, decimal) ' ) ';
+}
+
+#hero{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+background-image: url("../images/apple-pie.jpg");
+background-size: cover;
+background-color: rgb(145, 125, 95);
+width: 100%;
+height: 800px;
+
+}
+
+.recipe-info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+padding: 24px 0;
+}
+
+.recipe-info-img{
+width: 35%;
+}
+
+#ingredients{
+padding: 32px 128px;
+}
+
+#directions{
+  padding: 32px 128px;
+}
