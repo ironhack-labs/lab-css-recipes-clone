@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+
+.text{
+    background-color: white;
+    max-width: 698px;
+    margin:0 auto;
+    position: center;
+    padding-bottom: 30px;
+}
+
+#title{
+    background-image: url("images/apple-pie.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 76vh;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.first{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 3%;
+    font-family: Verdana, sans-serif;
+}
+
+#image2 {
+    height: 6vh;
+    margin: 0 auto;
+    display: block;
+    padding-top: 2%;
+}
+
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 400;
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+  }
+ul li::before {
+    content: " - ";
+    font-size: 14px; 
+    margin-left: 60px;
+}
+
+#image3 {
+    height: 7vh;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2%;
+}
+
+ol { 
+    list-style: none;
+    margin-left: 20px;
+} 
+  ol > li {  
+    counter-increment: listcounter;
+    font-size: 15px;
+    font-family: "Josefin Sans", serif;
+  }
+   ol > li::before {
+    content: counter(listcounter) ") ";  
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
