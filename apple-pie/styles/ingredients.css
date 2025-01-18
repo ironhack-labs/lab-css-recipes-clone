@@ -1,0 +1,61 @@
+.ingredients {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+.ingredients h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    text-align: left;
+}
+
+.ingredients ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.ingredients::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+
+.ingredients .info-bar {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.ingredients .info-bar img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+
+.ingredients .info-bar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}

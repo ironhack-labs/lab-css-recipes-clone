@@ -1,0 +1,29 @@
+.directions {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+.directions h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+.directions ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+}
+
+.directions ol li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}

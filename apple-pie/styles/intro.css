@@ -1,0 +1,27 @@
+.intro {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.intro p {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+    max-width: none;
+    text-align: left;
+}
+
+
+.recipe-info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.recipe-info img {
+    max-width: 400px;
+    width: 100%;
+
+}
