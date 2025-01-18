@@ -4,6 +4,99 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 3.5em;
+}
+
+p { 
+  font-size: 1.2em;
+}
+
+img {
+  width: 400px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "-"
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol li::before {
+  content: counter(listcounter) ") "
+}
+
+li {
+  line-height: 1.3em;
+}
+
+hr {
+  width: 900px;
+}
+
+
+.background {
+  background-image: url("../images/soup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+ 
+}
+
+#intro {
+  margin-top:70px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 800px;
 }
