@@ -22,3 +22,51 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header{
+  height: 500px;
+  display: grid;
+  place-items: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 4em;
+}
+
+img{
+  width: 70%;
+}
+
+article {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;font-size: 1.4em;
+  
+}
+
+.description p{
+  margin: 0 auto;
+}
+
+.custom-list{
+  list-style-type: none;
+  padding: 10px;
+}
+
+li{
+  padding: 5px;
+}
+
+.img-time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+img{
+  width: 50%;
+}
+
+.directions{
+  padding: 15px;
+}
