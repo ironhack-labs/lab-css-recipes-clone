@@ -5,13 +5,24 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
-  padding: 0;
+  padding: 10px 0px 10px 0px;
   font-weight: lighter;
 }
 
@@ -20,5 +31,74 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.image-header {
+  position: relative;
+}
+
+h1.text-header {
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 200px);
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.img-top {
+  width: 100vw;
+  height: 900px;
+  object-fit: cover;
+}
+
+.intro-section {
+  position: relative;
+  left: 20%;
+  width: 50%;
+  margin: 10px;
+}
+
+.ingredients-section {
+  position: relative;
+  left: 20%;
+  width: 50%;
+  margin: 10px;
+}
+
+.img-recipe{
+  position:relative;
+  left:20%;
+}
+
+.directions-section {
+  position: relative;
+  left: 20%;
+  width: 50%;
+  margin: 10px;
+}
+
+.img-cooking{
+  position:relative;
+  left:20%;
+}
+
+.directions-list{
+  list-style-type: none;
+}
+
+.custom-list {
+  list-style-type: none; /* Removes default bullets */
+}
+
+.custom-list li::before {
+  content: "- "; /* Adds dash before each item */
+}
+
+.custom-line {
+  border: none;          /* Removes default borders */
+  border-top: 2px solid black;  /* Adds a solid black line */
+  margin: 20px 0;        /* Adds some spacing around the line */
+}
+
+ul{
+  padding: 0px 10px 0px 10px;
+  margin: 0;
+}
