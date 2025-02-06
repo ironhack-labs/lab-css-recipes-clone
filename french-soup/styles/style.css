@@ -5,5 +5,60 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.header{
+  width: 100vw;
+  height: 50vh;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-color: #edebeb;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title h1{
+  color: #edebeb;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction p{
+  margin: 5%;
+}
+
+.introduction img {
+  scale: 50%;
+}
+
+hr {
+ margin: 0 5% 0 5%
+}
+
+.ingredients {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients h3{
+  font-weight: 700;
+}
+
+.ingredients img {
+  scale: 50%;
+}
+
+.directions {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
 }
