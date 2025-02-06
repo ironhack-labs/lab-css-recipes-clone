@@ -22,3 +22,75 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title-container {
+  position: relative;
+}
+
+.background-img {
+  width: 100vw;
+}
+
+.title {
+  color: #FFF;
+  position: absolute;
+  font-size: 4rem;
+  top: calc(50% - 2rem);
+  left: calc(50% - 138px);
+}
+
+.text-container {
+  width: 70vw;
+  margin: 3vh auto;
+}
+
+.img-container {
+  text-align: center;
+}
+
+ h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+ }
+
+
+ ol, ul {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+ul > li {
+  padding-inline-start: 0.5em;
+  list-style-type: "-";
+}
+
+.author-comment {
+  img {
+    width: 36vw;
+    margin-top: 2vh;
+  }
+}
+
+.ingredients {
+  img {
+    width: 32vw;
+    margin-top: 2vh;
+  }
+}
+
+.directions {
+  margin-bottom: 4vh;
+}
+
+
+
