@@ -1,13 +1,17 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+* {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  color:#5e5959;
 }
+
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+  
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
@@ -22,3 +26,135 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+  header {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+  
+
+    div {
+      width: 100%;
+      height: 100%;
+      position: relative; 
+    
+      
+      h1 {
+        &.titulo-pagina {
+          font-size: 5em;
+          color: antiquewhite;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); 
+          margin: 0;
+
+        }
+      }
+
+        img {
+          &.imagen-header {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+           
+           
+          }
+
+        }
+      }
+    }
+
+    /* estilos */
+    hr {
+      width: calc(100% - 40em); 
+      margin-left: 20em; 
+      margin-right: 20em;
+      border: 1px solid #ccc; 
+    }
+  /* estilos */
+    main {
+
+      div {
+      
+        &.contenido-1 {
+
+        
+        p { 
+          margin-top: 5em;
+          margin-left: 20em;
+          margin-right: 20em;
+          font-size: 20px;
+          text-align: center; 
+        }
+    
+        img {
+          &.imagen-ingredientes {
+            margin-top: 2em;
+            width: 20%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+          }
+        }
+      }
+      
+    
+        &.contenido-2 {
+          text-align: start;
+          margin-left: 20em;
+          margin-right: 20em;
+          
+          h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            margin-top: 2em;
+            color: #383636;
+            
+          }
+    
+          ul {
+            text-align: start; 
+            list-style: none;
+            line-height: 2em;
+            
+            
+          }
+    
+          img {
+            &.imagen-tiempo {
+              margin-top: 2em;
+              width: 40%;
+              display: block;
+              margin-left: auto;
+              margin-right: auto; 
+            }
+          }
+        }
+
+        &.contenido-3 {
+          h3 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            margin-top: 2em;
+            margin-left: 10em;
+            color: #383636;  
+          
+          }
+          ol {
+            text-align: start;
+          margin-left: 20em;
+          margin-right: 20em;
+          line-height: 2em;
+          
+          }
+          
+        }
+      }
+    }
+   
+
+    footer {
+      width: 30em;
+      height: 50%;
+    }
