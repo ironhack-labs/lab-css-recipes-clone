@@ -1,24 +1,102 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+@font-face {
+  font-family: "Cedora Regular";
+  src: url(../cedora-cufonfonts-webfont/Cedora-RegularStd.woff);
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
-}
+  font-family: "Cedora Regular", "Helvetica", sans-serif;
+  min-height: 100vh;
 
-/* STYLES */
-/* Write your CSS below */
+  div.apple-pie {
+
+    position: relative;
+    height: 33%;
+    text-align: center;
+
+    h1 {
+      background-image: url(../images/apple-pie.jpg);
+      color: white;
+      padding: 33%;
+      font-size: 7rem;
+      line-height: 0;
+
+    }
+
+    p {
+      text-align: center;
+      position: relative;
+      padding: 5% 10%;
+      font-size: 2.5rem;
+      text-align: left;
+    }
+
+  }
+
+  hr {
+    margin: 2% 10%;
+    border: 1px solid grey;
+  }
+
+  img {
+    padding: 0% 33%;
+    position: relative;
+    top: 10%;
+  }
+
+
+  div.ingredients {
+    padding: 1% 11%;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    ul {
+      padding: 2% 1%;
+      list-style-type: none;
+      font-size: 2rem;
+    }
+
+
+  }
+
+  div.directions {
+    padding: 1% 11% 5%;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    ol {
+      padding: 4% 1%;
+      font-size: 2rem;
+      list-style-type: none;
+    }
+  }
