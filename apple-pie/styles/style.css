@@ -1,6 +1,8 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -20,5 +22,62 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+header{
+  background-image: url(/home/aleyda/Escritorio/IRONHACK/LABS/week2/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.introduction p{
+  margin-top: 80px;
+}
+h1{
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h2{
+  border-top:solid 1px grey;
+
+}
+section{
+margin-left: 80px;
+margin-right: 80px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+div img{
+  width: 25rem;
+  margin-bottom: 20px;
+}
+h2
+{
+  padding-top: 40px;
+}
+
+p{
+  line-height: 25px
+}
+footer{
+  margin: 80px;
+}
 /* STYLES */
 /* Write your CSS below */
