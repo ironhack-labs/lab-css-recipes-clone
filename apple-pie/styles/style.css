@@ -22,3 +22,53 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.big-image{
+  position: relative;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  h1{
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    bottom: 50%;
+    color:white;
+  }
+}
+p {
+  text-align: justify;
+  margin: 3rem;
+}
+hr{
+  margin: 0 3rem;
+}
+.recipe-img{
+  width: 40%;
+  margin: 0 auto;
+}
+
+h2{
+  margin: 1rem 3rem;
+}
+
+.ingredients{
+  margin:1rem 3rem;
+  list-style: inside;
+  list-style-type: "- ";
+}
+.directions{
+  margin: 1rem 3rem;
+  list-style: none;
+  li{
+    counter-increment: listcounter;
+  }
+  li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ") ";
+  }
+
+
+}
+
+
