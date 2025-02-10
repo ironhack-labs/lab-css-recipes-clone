@@ -4,6 +4,9 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
+body {
+  font-family: "Helvetica", sans-serif;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -15,10 +18,67 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+h1{
+  font-size: 8em;
+  text-align:center;
+  vertical-align: middle;
+  color: white;
 }
 
-/* STYLES */
-/* Write your CSS below */
+h2{
+  font-size: 18px;
+  text-align:left;
+  line-height: 4em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 12px;
+  text-align:left;
+  line-height: 4em;
+
+}
+
+/*  Set the font */
+
+
+.header{
+background-image:url("/apple-pie/images/apple-pie.jpg");
+background-position: left top;
+background-size: cover ;
+margin-bottom: 8em;
+height: 730px;
+}
+.centrar{
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+.contenido{
+  margin: 0 10%;
+}
+
+#Introduction p{
+  font-size: 1.5em;
+}
+
+.image-container{
+  text-align: center;
+  margin: 0 auto;
+
+}
+.image-container img{  
+  width: 500px;
+}
+
+ul{
+  list-style-type:'- ';
+  margin-left: 15px;
+  font-size: 1.1em;
+}
+
+ol{
+  margin-left: 5px;
+  list-style-type: none;
+  font-size: 1.1em;
+}
