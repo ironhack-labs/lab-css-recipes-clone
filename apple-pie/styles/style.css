@@ -18,7 +18,66 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding: 2em;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15em;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 1em;
+  line-height: 15em;
+  font-size: 6em;
+
+}
+
+.section {
+  padding: 1em 4em;
+  text-align: center;
+}
+
+.section p {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.section img {
+  height: 5em;
+  width: auto;
+}
+
+.section h3 {
+  font-size: 1em;
+  text-align: left;
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+  font-weight: 600;
+
+}
+
+.ul-ingredients {
+  list-style-type: '- ';
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.ol-dierections {
+  list-style-type: none;
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
