@@ -22,3 +22,44 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#encabezado {
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 00;
+  height: 600px;
+  h1{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+}
+#historia-de-la-receta p{
+  font-size: 1em;
+  text-align: center;
+  margin: 2em 10em;
+  font-weight: lighter;
+  
+}
+.grafico-info div{
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2em 0;
+}
+#ingrdientes{
+  list-style: "-";
+
+}
+section{
+  font-size: 1em;
+  margin: 2em 10em;
+  font-weight: lighter;
+}
+

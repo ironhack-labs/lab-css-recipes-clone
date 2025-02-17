@@ -1,9 +1,63 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+#encabezado {
+  background-image: url(/lab-css-recipes-clone/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 00;
+  height: 600px;
+  h1{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+}
+#historia-de-la-receta p{
+  font-size: 1em;
+  text-align: center;
+  margin: 2em 10em;
+  font-weight: lighter;
+  
+}
+.grafico-info div{
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2em 0;
+}
+#ingrdientes{
+  list-style: "-";
+
+}
+section{
+  font-size: 1em;
+  margin: 2em 10em;
+  font-weight: lighter;
 }
