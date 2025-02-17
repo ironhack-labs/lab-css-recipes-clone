@@ -7,3 +7,41 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+#header{
+  color: white;
+  font-style: bold;
+  font-size: 50px;
+  padding: 300px 500px 300px 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/soup.jpg);
+}
+
+
+#ingredients{
+text-align: justify;
+padding: 100px 470px 50px 470px;
+}
+
+#directions{
+text-align: left;
+padding: 0;
+}
+
+ol {
+  list-style: none; /* Remove default numbers */
+  counter-reset: list-counter; /* Create a counter */
+}
+
+ol li {
+  counter-increment: list-counter; /* Increase counter */
+}
+
+ol li::before {
+  content: counter(list-counter) ") "; /* Format number */
+}
+
+ul {
+  list-style-type: "- "; /* Change bullet to dash */
+}
