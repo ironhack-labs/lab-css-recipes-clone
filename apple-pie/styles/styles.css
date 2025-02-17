@@ -1,0 +1,109 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+header {
+background-image: url('../images/apple-pie.jpg');
+width:100%;
+height: 600px;
+background-size: cover;
+text-align: center;
+}
+
+header h1 {
+  font-size: 4em;
+  color: white;
+  padding-top: 200px;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+}
+
+/* Intro Section */ 
+
+.intro {
+  width: 80%;
+  text-align: justify;
+  margin: 60px auto; 
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.intro img {
+  width: 80%;
+  height: auto; 
+  margin: 40px auto;
+  display: block;
+}
+
+
+/* Ingredients Section */
+
+
+.ingredients {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.ingredients h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.ingredients ul {
+  list-style-type: "- ";
+  font-size: 1.2em;
+  line-height: 1.4;
+  font-weight: light;
+}
+
+.ingredients img{ 
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  display: block;
+}
+
+/* Directions Section */
+
+.direction {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.direction h2 { 
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.direction ol {
+  font-size: 1.2em;
+  line-height: 1.4;
+  font-weight: light;
+}
+
+.direction ol li {
+  margin-bottom: 10px;
+}
