@@ -22,3 +22,78 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(28, 28, 28);
+}
+section{
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 144px;
+}
+h1{
+  width: max-content;
+  font-size: 106px;
+  color: #fff;
+  position: relative;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+hr{
+  height: 3px;
+  border: none;
+  background-color: gray;
+  margin-bottom: 72px;
+}
+.hero_section{
+  height: 848px;
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-position:top -112px center;
+  background-size: cover;
+}
+.resume_section{
+  padding-top: 108px;
+  padding-bottom: 48px;
+  font-size: 32px;
+}
+.ingredients_section, .directions_section{
+  font-size: 28px;
+  line-height: auto;
+}
+.title_section{
+  font-size: 32px;
+  line-height: 150%;
+  font-weight: 500;
+  margin-bottom: 48px;
+  color: black;
+}
+.ingredient_list{
+  padding-left: 20px;
+  list-style-position:inside;
+  list-style-type:"-  ";
+  margin-bottom: 72px;
+}
+.img_section{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 16px;
+}
+.directions_section{
+  padding-bottom: 56px;
+}
+.direction_list{
+  padding-left: 20px;
+  list-style-position:inside;
+  list-style-type:decimal;
+  margin-bottom: 72px;
+}
+.direction_list li{
+  counter-increment: list;
+}
+.direction_list li::marker{
+  content: counter(list) ") ";
+}

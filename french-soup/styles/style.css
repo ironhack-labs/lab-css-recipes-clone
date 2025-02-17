@@ -1,9 +1,90 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+/**/
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(28, 28, 28);
+}
+section{
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 144px;
+}
+h1{
+  width: max-content;
+  font-size: 106px;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+  top:55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+hr{
+  height: 3px;
+  border: none;
+  background-color: gray;
+  margin-bottom: 72px;
+}
+.hero_section{
+  height: 848px;
+  background-image: url('../images/soup.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+.resume_section{
+  padding-top: 108px;
+  padding-bottom: 48px;
+  font-size: 32px;
+}
+.ingredients_section, .directions_section{
+  font-size: 28px;
+  line-height: auto;
+}
+.title_section{
+  font-size: 32px;
+  line-height: 150%;
+  font-weight: 500;
+  margin-bottom: 48px;
+  color: black;
+}
+.ingredient_list{
+  padding-left: 20px;
+  list-style-position:inside;
+  list-style-type:"-  ";
+  margin-bottom: 72px;
+}
+.img_section{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 16px;
+}
+.directions_section{
+  padding-bottom: 56px;
+}
+.direction_list{
+  padding-left: 20px;
+  list-style-position:inside;
+  list-style-type:decimal;
+  margin-bottom: 72px;
+}
+.direction_list li{
+  counter-increment: list;
+}
+.direction_list li::marker{
+  content: counter(list) ") ";
 }
