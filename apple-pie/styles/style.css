@@ -22,3 +22,39 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#header{
+color: white;
+background-color: white;
+font-size: 50px;
+text-align: center;
+padding: 300px 400px 300px 400px;
+background-image: url(../images/apple-pie.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#ingredients{
+  text-align: justify;
+  padding: 100px 470px 50px 470px;
+}
+
+#directions{
+  text-align: left;
+  padding: 0px 470px 100px 470px;
+}
+
+ol {
+  list-style: none; /* Remove default numbers */
+  counter-reset: list-counter; /* Create a counter */
+}
+ol li {
+  counter-increment: list-counter; /* Increase counter */
+}
+ol li::before {
+  content: counter(list-counter) ") "; /* Format number */
+}
+ul {
+  list-style-type: "- "; /* Change bullet to dash */
+}
+
