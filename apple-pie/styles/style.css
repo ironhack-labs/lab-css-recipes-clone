@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,51 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+p {
+  font-size: 1.5em;
+  margin: 25px 75px;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding: 300px;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+}
+
+.ingridients {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 11%;
+}
+
+h2 {
+  font-weight: normal;
+  margin-left: 75px;
+  margin: 25px 75px 25px 75px;
+}
+
+ol {
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
