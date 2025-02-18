@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,87 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+section {
+  padding: 0 144px;
+}
+
+h1 {
+  font-size: 106px;
+  width: max-content;
+
+  color: #fff;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.hero_section {
+
+  height: 848px;
+  background-image: url('../images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.resume_section {
+  padding-top: 108px;
+  font-size: 32px;
+
+}
+
+
+
+.ingredients_section {
+  padding-top: 72px;
+  top: 45%;
+  left: 50%;
+
+}
+
+.title_section {
+  font-size: 32px;
+  line-height: 150%;
+  font-weight: 500;
+  margin-bottom: 48px;
+  color: black;
+}
+
+.ingredient_list {
+  padding-left: 20px;
+  list-style-position: inside;
+  list-style-type: "-  ";
+  margin-bottom: 72px;
+}
+
+.img_section {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.bottom_section {
+  padding-bottom: 108px;
+  font-size: 32px;
+
+}
+
+.directions_list {
+  padding-left: 20px;
+  list-style-position: inside;
+  list-style-type: decimal;
+  margin-bottom: 72px;
+}
+
+.ingredient_list,
+.directions_list {
+  font-size: 25px;
+}
+
+.directions_list {
+  counter-increment: list;
+}
