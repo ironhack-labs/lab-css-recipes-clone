@@ -22,3 +22,56 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.hero {
+  position: relative; /* Permite posicionar el texto encima de la imagen */
+  width: 100%; /* Hace que la imagen ocupe todo el ancho */
+}
+
+.hero img {
+  width: 100%; /* Ocupará el 100% del ancho de la pantalla */
+  height: auto; /* Mantiene la proporción */
+  display: block; /* Elimina espacios en blanco extra */
+}
+
+.hero-text {
+  position: absolute; /* Permite superponer el texto sobre la imagen */
+  top: 50%; /* Lo mueve al 50% de la altura */
+  left: 50%; /* Lo mueve al 50% del ancho */
+  transform: translate(-50%, -50%); /* Centra perfectamente */
+  color: white; /* Color del texto */
+  font-size: 3em; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Agrega sombra para mejorar la visibilidad */
+  text-align: center;
+}
+
+.container {
+  width: 100%; /* Ocupa todo el ancho de la página */
+  padding: 20px; /* Espaciado interior */
+  background-color: #f4f4f4; /* Color de fondo */
+  text-align: justify; /* Centra el texto dentro del contenedor */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Estilo del primer div con texto */
+.top-text {
+  margin-bottom: 20px; /* Espacio entre el texto y la fila de elementos */
+}
+
+/* Fila que contiene los 3 elementos */
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%; /* La fila ocupa solo el 50% del ancho */
+  margin: 0 auto; /* Centrar la fila en la página */
+}
+
+.box {
+  width: 32%; /* Cada elemento ocupa aproximadamente 1/3 del 50% */
+  padding: 10px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.2em;
+}
