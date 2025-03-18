@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+/* CSS RESET - provided */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -15,10 +16,58 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/* Custom Styles */
+.hero {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.ingredients, .directions {
+  margin-bottom: 30px;
+}
+
+.ingredients h2, .directions h2 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
