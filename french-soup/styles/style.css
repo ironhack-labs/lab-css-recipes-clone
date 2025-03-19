@@ -1,9 +1,92 @@
-/*Some necessary adjustments*/
+/* Reset básico para evitar márgenes no deseados */
 h1, body, html, main {
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
+
+/* Importar la fuente y establecer tamaño predeterminado */
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  background-color: #f8f8f8;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Sección de imagen de fondo con título */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Sección de información de la receta */
+.recipe-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.recipe-info img {
+  width: 100px;
+}
+
+/* Sección de ingredientes e instrucciones */
+.ingredients, .instructions {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ingredients h2, .instructions h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Listas con estilo */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .recipe-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    height: 250px;
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
 }
