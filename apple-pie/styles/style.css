@@ -22,3 +22,111 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 55%;
+  margin: 0 auto;
+  height: 500px;  
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
+
+.main {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.container-1 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}  
+
+.container-1 p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.container-1 img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 0 auto;
+}
+
+.container-2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 430px;
+}
+
+.container-2 h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.container-2 ul{
+  list-style: none;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.container-2 li::before {
+  content: "- ";
+}
+
+.container-2 img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-3 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.container-3 h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.container-3 ol{
+  list-style: none;
+  line-height: 1.5;
+}
+
+.container-3 ol > li {
+  counter-increment: listcounter;
+}
+
+.container-3 ol > li::before {
+  content: counter(listcounter) ") ";
+}
