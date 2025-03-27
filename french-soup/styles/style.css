@@ -1,9 +1,109 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 4em;
+}
+
+main {
+  padding: 7%;
+}
+
+.story {
+  font-size: 1.3em;
+}
+
+section {
+  margin: 40px;
+}
+
+.line {
+  height: 2px;
+  border: 1px gray solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pic {
+  text-align: center;
+  height: auto;
+}
+
+.pic img {
+  width: 50%;
+}
+
+.ingredients {
+  list-style-type: none;
+  margin: 0;
+  padding: 13px;
+}
+
+.ingredients-list {
+  position: relative;
+}
+
+.ingredients-list span {
+  position: absolute;
+  left: -13px;
+}
+
+.directions-list {
+  position: relative;
+}
+.directions-list span {
+  position: absolute;
+  left: 9px;
+  top: -1px;
+  background-color: white;
+}
+
+h3 {
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section ol {
+  margin-left: 30px;
+}
+
+.directions {
+  list-style-position: inside;
+  margin: 0px;
+  padding: 5px;
 }
