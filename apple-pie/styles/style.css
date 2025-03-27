@@ -13,7 +13,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+
 }
+
+
 
 /*  Set the font */
 body {
@@ -22,3 +25,102 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.header{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+}
+
+.header h1{
+  color: white;
+  text-align: center;
+padding-top: 180px;
+font-size: 3em;
+
+}
+
+.general-information{
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.general-information img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top: 20px;
+}
+
+
+.recipe{
+width: 70%;
+margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+  }
+  
+  
+  ul > li:before {
+    /*3. Set the new style for the list markers */
+    content:  "- ";
+  }
+
+ol {
+  /* 1. Remove the default list style */  
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+
+
+.recipe h2{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+.ingredients{
+  border-top: 1px solid rgba(0, 0, 0, 0.400);
+  padding: 5px;
+}
+
+
+.ingredients  img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top: 20px;
+}
+
+
+.directions{
+  border-top: 1px solid rgba(0, 0, 0, 0.400);
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
