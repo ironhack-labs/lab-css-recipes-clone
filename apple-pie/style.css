@@ -1,0 +1,109 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  padding-top: 225px;
+  font-size: 5em;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  height: 570px;
+  background-image: url(https://github.com/borjagonz/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 500px;
+}
+
+.introduction {
+  padding: 75px 75px 25px 75px;
+  font-size: 1.2em;
+  font-weight: 100;
+  min-width: 500px;
+}
+
+.ingredients {
+  padding: 40px 75px 25px 75px;
+  min-width: 500px;
+}
+
+.ul-ingredients {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.guion-ingredients::before {
+  content: "- ";
+}
+
+.directions {
+  padding: 40px 75px 75px 75px;
+  min-width: 500px;
+}
+
+.ul-directions {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.numeracion-directions-1::before {
+  content: "1) ";
+}
+
+.numeracion-directions-2::before {
+  content: "2) ";
+}
+
+.numeracion-directions-3::before {
+  content: "3) ";
+}
+
+.img-1 {
+  height: 50px;  
+  display: block;
+  margin: auto;
+}
+
+.img-2 {
+  padding-top: 30px;
+  height: 100px;  
+  display: block;
+  margin: auto;
+}
+
+.linea-horizontal-1 {
+  width: 85%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: auto;
+}
+
+.linea-horizontal-2 {
+  width: 85%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: auto;
+}
