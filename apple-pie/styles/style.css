@@ -22,3 +22,75 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.title {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 200px;
+}
+
+.title > h1 {
+  font-size: 50px;
+}
+
+
+.content {
+  margin: 50px;
+}
+
+
+.image {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.recipe {
+  border-bottom: 2px solid grey;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+
+.ingredients {
+  border-bottom: 2px solid grey;
+  margin-bottom: 40px;
+}
+
+.ingredients > h2 {
+  margin-bottom: 20px;
+}
+
+.ingredients ul {
+  list-style-type: '-';
+  padding-left: 20px;
+}
+
+
+.preparation {
+  
+}
+
+.preparation > h2 {
+  margin-bottom: 40px;
+}
+
+.preparation ol {
+  margin-left: 20px;
+  counter-reset: list;
+}
+
+.preparation ol > li {
+  list-style: none;
+}
+
+.preparation ol > li:before {
+  content: counter(list) ")";
+  counter-increment: list;
+}
+
