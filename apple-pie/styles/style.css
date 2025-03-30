@@ -3,22 +3,124 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  background-color: black;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
-
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
 }
-
 /* STYLES */
 /* Write your CSS below */
+/* Typography */
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.recipe-intro p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  text-align: justify;
+  width: 100%;
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
+  color: #666666;
+}
+li {
+  font-size: 1.4rem;
+  color: #666666;
+}
+/* Layout */
+header {
+  background-image: url(../images/apple-pie.jpg);
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.recipe-intro,
+.recipe-ingredients {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1.5em;
+}
+
+.recipe-intro {
+  margin-top: 4.9em;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.recipe-intro img {
+  width: 48%;
+  margin-top: 2em;
+}
+
+.recipe-ingredients {
+  margin-top: 3em;
+  color: #666666;
+}
+
+.recipe-ingredients h2,
+.recipe-directions h2 {
+  color: black;
+  font-weight: normal;
+}
+
+.recipe-ingredients ul {
+  list-style-type: '-';
+  margin: 1.5em 0 0 1.5em;
+}
+
+.recipe-ingredients ul > li {
+  margin-top: 0.18em;
+}
+
+.recipe-ingredients img {
+  width: 43%;
+  margin-top: 2.8em;
+}
+
+.recipe-directions {
+  margin-top: 2.6em;
+  padding-bottom: 100px;
+  color: #666666;
+}
+
+.recipe-directions ol {
+  margin: 2.4em 0 0 0.9em;
+  list-style: none;
+}
+
+.recipe-directions ol > li {
+  margin-top: 0.4em;
+  counter-increment: listcounter;
+}
+
+.recipe-directions ol > li::before {
+  content: counter(listcounter) ")";
+  margin-right: 5px;
+}
