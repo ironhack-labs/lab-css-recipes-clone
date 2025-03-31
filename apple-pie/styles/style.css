@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -21,4 +21,113 @@ body {
 }
 
 /* STYLES */
+:root{
+  --text-color: grey;
+  --header-color: white;
+}
 /* Write your CSS below */
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../images/apple-pie.jpg);
+  position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+header h1{
+  color: var(--header-color);
+  font-size: 5em;
+}
+
+#intro {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+
+  padding-top: 2em;
+
+
+}
+
+ #intro article {
+  text-align: justify;
+ }
+
+ img {
+  width: 32vw;
+ }
+
+
+hr {
+  width: 70vw;
+}
+
+#ingredients {
+  width: 70vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+
+  padding-top: 2em;
+}
+
+h2 {
+  padding-bottom:1em;
+}
+
+#ingredients ul {
+  list-style-position: inside;
+  list-style-type: "- ";  
+  padding-left: 1em;
+}
+
+#ingredients img {
+  align-self: center;
+}
+
+
+
+#directions {
+  width: 70vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+
+  padding-top: 2em;
+
+  padding-bottom: 6em;
+}
+
+#directions ol {
+  list-style: none;
+  counter-reset: list;
+  list-style-position: inside;  
+  padding-left: 1em;
+}
+
+#directions ol>li:before {
+  content:counter(list) ") ";
+  counter-increment: list;
+}
+
+
+
+
