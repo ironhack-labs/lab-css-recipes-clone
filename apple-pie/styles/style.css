@@ -5,20 +5,102 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0;
+  position: relative;
+  
+  
+}
+
+.mainTitel {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-weight: lighter;
-}
-
-/*  Set the font */
-body {
+  font-size: 15px;
+  list-style: none;
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+ol,
+ul {
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding: 0 80px;
+  line-height: 1.5em;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: my-counter;
+
+}
+
+ol li {
+  counter-increment: my-counter;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+ol li::before {
+  content: counter(my-counter) ") ";
+  position: absolute;
+  left: -25px;
+}
+
+
+
+
+p {
+  font-weight: lighter;
+  font-size: 1.8em;
+  padding: 0 100px;
+  line-height: 1.5em;
+  text-align: center;
+
+}
+
+
+
+
+h2 {
+  font-size: 2em;
+  margin: 0 50px;
+  padding: 20px 0;
+  font-weight: lighter;
+
+}
+
+.container {
+
+  text-align: justify;
+  margin: 0px;
+  padding: 0 70px;
+  color: #464646;
+  line-height: 1.5em;
+  
+}
