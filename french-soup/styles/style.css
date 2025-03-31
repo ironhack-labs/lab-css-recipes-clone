@@ -1,9 +1,96 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+
+body {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
+  padding: 0;
+  color:#333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.first {
+position: relative;
+margin: 0 auto;
+}
+
+.first img {
+  width: 100%;
+}
+
+.first h1 {
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+color: white;
+font-size: 80px;
+}
+
+.introduction {
+  margin-top:70px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+}
+
+.introduction img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.ingredients {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+.ingredients img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+hr {
+  margin-left: 200px;
+  margin-right:200px;
+  border: none;
+  height: 0.5px;
+  color:#333;
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.directions {
+  margin-left: 200px;
+  margin-top:30px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: list-counter;
+  padding-left: 0;
+}
+
+ol li {
+  counter-increment: list-counter; 
+}
+
+ol li::before {
+  content: counter(list-counter) ") ";
 }

@@ -5,20 +5,104 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: white;
+  color: #333;
 }
 
-/* STYLES */
-/* Write your CSS below */
+div {
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.image-recipe {
+  height: 80px;
+}
