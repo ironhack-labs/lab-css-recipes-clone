@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  list-style-type: none;
 }
 
 /*  Set the font */
@@ -22,3 +23,42 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+ .header{
+   
+   
+  background-image: url(../images/apple-pie.jpg);
+  background-position: 0px 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding:300px 0;
+  position: relative;
+  
+}
+
+.header h1{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+article{
+  text-align: justify;
+  margin:0px auto;
+  padding:100px;
+  font-weight:lighter;
+  color:#464646;
+  line-height: 1.5em;
+}
+#recipe-description {
+  text-align: justify;
+   font-weight: lighter;
+}
+
