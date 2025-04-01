@@ -11,14 +11,84 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
+  
 }
+
+h4 {
+  font-size: 30px;
+  font-weight: 350;
+}
+
 
 /* STYLES */
 /* Write your CSS below */
+
+.main-img {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+
+}
+
+.main-img img {
+  width: 100%;
+  height: 350%;
+  margin: auto;
+  object-fit: cover;
+} 
+
+.image-title {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  font-weight: 350;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section img {
+ display: block;
+ margin: auto;
+ margin-top: 30px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 30px;
+  list-style-type: "- ";
+}
+
+ol {
+  padding-left: 30px;
+  list-style: none;
+}
+
+ol li {
+  list-style-position: inside;
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ") ";
+}
+/* Doenst work so I added breaks instead
+#directions {
+  padding-bottom: 40px;
+}
+
