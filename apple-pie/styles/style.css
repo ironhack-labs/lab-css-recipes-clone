@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -21,4 +32,65 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.bg-img {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.text-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.global-indents {
+  margin: 30px 100px;
+}
+
+.global-indents h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.global-indents p {
+  font-size: 20px;
+}
+
+.global-indents img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.separator {
+  border-top: 2px solid gray;
+  margin: 0 100px;
+}
+
+.global-indents ul, ol {
+  margin-left: 10px;
+  list-style-type: none;
+  counter-reset: num-list-counter;
+}
+
+.custom-list ul li::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.custom-list ol li::before {
+  counter-increment: num-list-counter;
+  content: counter(num-list-counter) ")";
+  margin-right: 5px;
+}
