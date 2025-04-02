@@ -1,0 +1,98 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, body, html, main {
+  margin: 0;
+}
+
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#hero {
+  background: url('images/apple-pie.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#hero .title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#description {
+  text-align: center;
+  padding: 20px;
+}
+
+#description .description-text {
+  margin-bottom: 20px;
+}
+
+#description .description-image img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#ingredients {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#ingredients .section-title {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+#ingredients .ingredients-list {
+  list-style: none;
+  padding: 0;
+}
+
+#ingredients .ingredient-item {
+  margin: 5px 0;
+}
+
+#ingredients .ingredients-image img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#directions {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#directions .section-title {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+#directions .directions-list {
+  padding-left: 20px;
+}
+
+#directions .direction-step {
+  margin-bottom: 10px;
+}
+
