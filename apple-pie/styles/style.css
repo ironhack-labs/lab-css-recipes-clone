@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,81 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.imageContainer {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 60px;
+}
+.applePie {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  position: absolute;
+}
+
+.description {
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-weight: 150;
+}
+.recipeInfo {
+  margin: auto;
+  height: 75px;
+  width: auto;
+}
+.ingredientsTitle {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 303;
+}
+.dashList {
+  list-style: none;
+  padding-left: 1em;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.dashList li::before {
+  content: "-";
+  margin-right: 0.5em;
+  color: #333;
+}
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.ingredientsUl {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.cookingInfo {
+  margin: auto;
+  height: 100px;
+  width: auto;
+}
+.directionsTitle {
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-weight: 303;
+}
+.cooking {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+section {
+  margin: 0 7em;
+}
+.line {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 2.5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+}
