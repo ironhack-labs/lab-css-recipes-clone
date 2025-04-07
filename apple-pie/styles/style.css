@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -21,4 +32,59 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+body {
+  line-height: 150%;
+  font-size: 1.2em;
+}
+h2 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+hr {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.image-container {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-headline {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+}
+.intro {
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+.main-text {
+  margin: 10%;
+}
+.info-images {
+  text-align: center;
+  margin: 5%;
+}
+.info-images > img {
+  width: 50%;
+}
+.ingredients-list {
+  list-style-type: "- ";
+  padding-left: 1em;
+}
+.directions-list {
+  list-style: none;
+  padding-left: 0.5em;
+}
+.directions-list > li {
+  counter-increment: listcounter;
+}
+.directions-list > li::before {
+  content: counter(listcounter) ") ";
+}
