@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+font-family: "Helvetica", sans-serif;
+font-weight: 300;
+}
+
+.header {
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/refs/heads/master/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 560px;
+  align-content: center;
+  text-align: center;
+}
+
+
+h1 {
+  color:white;
+  font-size: 75px;
+  font-weight: 200;
+}
+
+#description-site{
+text-align: center;
+margin: 40px 80px 40px 80px;}
+
+#description-site p{
+font-size: 22px;
+line-height: 1.3;
+
+}
+.receipe-info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+hr{
+  border-width: 0.5px;
+  width: 80%;
+}
+
+.Ingredients{
+  width: 80%;
+}
+
+.Ingredientes {
+  margin: 40px 80px 40px 80px;
+}
+h2{
+  font-weight: 300;
+  font-style: strong;
+}
+.Ingredientes ul{
+  font-size: 18px;
+
+}
+.Ingredientes ul li{
+  margin: 10px 0px 10px 0px;
+}
+
+div .tiempo{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  margin-top: 30px;
+}
+.tiempo{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*separar las secciones de div class tiempo por barras verticales, menos en la primera*/
+.tiempo .prep-time{
+
+
+}
+.tiempo .Cook {
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+h3{
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.Directions ol{
+  font-size: 18px;
+  margin: 20px 0px 20px 0px;
+  line-height: 1.5;
+}
