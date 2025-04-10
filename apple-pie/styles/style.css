@@ -22,3 +22,104 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.vip{
+  background:url(../images/apple-pie.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.vip h1{
+  color:white;
+  text-align: center;
+  padding-top: 20vh;
+font-size: 80px;
+font-weight: bolder;
+}
+  
+.about{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: chocolate;
+}
+
+.about h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.about hr{
+  margin: 22px;
+  max-width: 10%;
+  color: bisque;
+}
+
+.about p {
+  line-height: 1.7;
+  color: darkgoldenrod;
+  margin: 60px; 
+  max-width: 50%;
+  margin: auto;
+}
+
+hr{
+  margin: 20px auto;
+}
+
+img{
+  margin: 0 auto;
+  display: block;
+}
+
+.recipe {
+margin: 0 auto;
+padding: 30px;
+max-width: 80%;
+}
+
+.recipe h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: darksalmon;
+}
+
+#Ingredients ul{
+  margin-left: 50px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li::before{
+content: "-";
+display: inline-block;
+margin-right: 0.2rem;
+}
+
+#directions ol{
+  margin-left: 50px;
+  line-height: 30px;
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+ol li{
+  counter-increment: number;
+}
+
+ol li::before {
+  content: counter(number)")";
+  display: inline-block;
+  margin-right: .2rem;
+}
+
