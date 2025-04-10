@@ -22,3 +22,58 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+img {
+  width: 100%;
+  height: auto;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+
+}
+
+.paragraph{
+  display: grid;
+  place-items: center;
+  height:20vh;
+  margin-left: 23.5%;
+  margin-right: 23.5%;
+  text-align: justify;
+  font-size:larger;
+}
+
+.my-image{
+  width: 30%;
+  height: auto;
+  text-align: center;
+  margin-left: 35%;
+}
+
+
+
+.my-im{
+  width: 30%;
+  height: auto;
+  text-align: center;
+  margin-left: 35%;
+}
+
+.dir{
+  margin-bottom: 20px;
+}
+
+ul.ingredients {
+  list-style: none; 
+}
+
+ul.ingredients li::before {
+  content: "- ";
+  color: black;
+  margin-right: 5px;
+}
