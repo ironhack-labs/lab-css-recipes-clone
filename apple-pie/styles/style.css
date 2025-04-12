@@ -18,7 +18,91 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  padding: 50px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#top-page{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: 800px;;
+}
+
+.title{
+  font-size: 75px;
+  padding: 300px;
+}
+
+#help{
+  height: 150px;
+}
+
+.description-text{
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+
+}
+.cooking-info{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.recipe-info-img{
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  }
+
+.grey-separator{
+border: none;
+height: 2px;
+background-color: #dcdcdc;
+width: 80%;
+margin-bottom: 20px;
+}
+
+.subtitle{
+  margin-bottom: 25px;
+}
+
+.ingredients-list{
+  line-height: 20px;
+  list-style-type: none;
+}
+
+ul li::before{
+  content: "-";
+  margin-right: 10px;
+}
+.cooking-info-img{
+  height: 95px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  }
+  .ol-description{
+    list-style-type: none;
+    counter-reset: list-counter;
+    padding-left: 0;
+  }
+
+  ol li {
+    counter-increment: list-counter;
+  }
+
+  ol li::before {
+    content: counter(list-counter)") ";
+  }
