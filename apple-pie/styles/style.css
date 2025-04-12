@@ -1,24 +1,17 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.header{
+    background-color:  (rgb(77, 13, 13));
+    position: 0 0;
+    background-repeat: no repeat;
+    size: cover;
+    height: 800px;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
+section1{
+    text-align: center;    
 }
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+section2{
+    text-align: center;
 }
-
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+section3{
+    text-align: center;
 }
-
-/* STYLES */
-/* Write your CSS below */
+;
