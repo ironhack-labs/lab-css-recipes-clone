@@ -10,6 +10,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  width:1500;
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,6 +19,92 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+display:flex;
+height: 500px;
+width: 100vw;
+background-image: url("/images/apple-pie.jpg");
+background-position: center;
+background-size: cover;
+font-family: "Helvetica", sans-serif;
+font-size: 100px;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+h2{
+  line-height: 2em;
+  margin: 0;
+  font-weight: 500;
+}
+
+.intro-text {
+  font-size: x-large;
+  text-align:justify;
+  padding: 100px;
+}
+
+#Introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+hr {
+  width: 1000px;
+}
+
+#Ingredients {
+ padding:0px 100px;
+ margin: 0px 0;
+}
+
+ul{
+  list-style-type: "- ";
+  padding: 20px;
+}
+
+ol{
+  list-style-type: ")";
+  /* counter-reset: list-counter;
+  padding: 20px;
+}
+
+ol li{
+  counter-increment: list-counter;
+}
+
+ol li::before {
+  content: counter(list-counter) ") "; Adds numbers with ')' */
+}
+
+.recipe-text {
+  font-size:larger;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+img {
+display: block;
+margin: 20px auto;
+width: 30%;
+height: auto;
+}
+
+#Directions {
+  padding: 0px;
+  margin:0px 100px;
+}
+
+
+div{
+  padding: 0;
+  margin: 0;
 }
 
 /* STYLES */
