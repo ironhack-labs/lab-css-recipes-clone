@@ -1,8 +1,7 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* CSS Reset */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 16px; /* Root font size for easier scaling */
 }
 
 *, *:before, *:after {
@@ -15,10 +14,103 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
+/* Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/* Wrapper for centered content */
+.wrapper {
+  max-width: 1200px; /*  large screens */
+  width: 100%; /* width on smaller screens */
+  margin: 0 auto; /* Center the wrapper */
+  padding: 10px; /* spacing */
+}
+
+/* Image container */
+.upper_image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2%; 
+}
+
+.upper_image img {
+  width: 100%; 
+  max-height: 400px; 
+  object-fit: cover; 
+}
+
+.upper_image_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem; /* Adjust font size for better scaling */
+}
+
+/* Main content section */
+.content {
+  padding: 2em;
+}
+
+/* Text Content */
+.upper_text {
+  text-align: center;
+  font-size: 1.1rem; 
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+/* Lists (Ingredients, Directions) */
+ul, ol {
+  font-size: 1rem; 
+  margin-left: 2em; 
+}
+
+ul li, ol li {
+  margin-bottom: 1em;
+}
+
+/* Images */
+.recipe-info, .cooking-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  height: auto;    /*aspect ratio*/
+}
+
+.line {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+/* Resp */
+@media (max-width: 768px) {
+  .upper_image_text h1 {
+    font-size: 1.5rem; 
+  }
+
+  .upper_text {
+    font-size: 1rem; 
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    padding: 1em;
+  }
+
+  .wrapper {
+    width: 90%; 
+  }
+}
