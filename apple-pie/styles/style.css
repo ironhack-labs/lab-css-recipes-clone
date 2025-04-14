@@ -1,4 +1,4 @@
-/* CSS RESET - do not remove */
+
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
@@ -22,3 +22,66 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+img{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+
+
+.header-class{
+  background-image:url("../images/apple-pie.jpg");
+  height: 100%;
+width: auto;
+/* extended code */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  height: 500px;
+  color:white;
+}
+
+h1{
+  text-align: center;
+  padding-top: 25vh;
+  font-size:40px ;
+}
+
+#main{
+  margin: auto;
+  width: 80%;
+  line-height: 30px;
+  padding: 25px;
+}
+
+
+h2{
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.dash > li {
+  list-style-type: none;
+  text-indent: 60px;
+}
+.dash li:before {
+  content: '\2011';
+  position: absolute;
+  margin-left: -80px;
+}
+
+.directions {
+  counter-reset: list;
+  padding-left: 35px
+}
+.directions > li {
+  list-style: none;
+  
+}
+.directions > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
