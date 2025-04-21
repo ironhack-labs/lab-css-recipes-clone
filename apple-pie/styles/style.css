@@ -22,3 +22,48 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+img {
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+h1 {
+  text-align: justify;
+  margin-top: 10px !important;
+}
+h2{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+body {
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+  color:black;
+  font-family: "roboto", sans-serif !important;
+  margin-bottom: 30px !important;
+}
+
+div#imagen-cabecera {
+background-image: url("../images/apple-pie.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 750px;
+;
+}
+div#imagen-cabecera p{
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 250px; 
+  font-weight: 400;
+
+}
