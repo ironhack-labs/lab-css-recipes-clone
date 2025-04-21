@@ -5,20 +5,68 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+ *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
-}
-
 /* STYLES */
 /* Write your CSS below */
+
+body {
+    margin: 0;
+    color: #333;
+    background-color: #fff;
+}
+ 
+
+
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+
+
+.hero {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 50px;
+}
+
+section {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 40px;
+
+}
+
+.details img {
+  display: flex;
+  text-align: center;
+}
+
+.ingredients ul {
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+
+.directions ol {
+  padding-left: 20px;
+  padding-bottom: 35px;
+
+}
