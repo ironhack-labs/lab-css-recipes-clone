@@ -22,3 +22,44 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1 {
+  color: white;
+  text-align: center;
+  margin: 50px;
+  padding-top: 150px;
+}
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 750px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p{ 
+  margin: 60px;
+}
+
+h2 {
+  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+ul {
+  padding-left: 110px;
+  padding-bottom: 50px;
+}
+ol {
+  padding-left: 110px;
+  padding-bottom: 50px;
+  margin: 30px;
+}
+
+hr {
+  width: 85%;
+}
+img.centrada {
+  display: block;
+  margin: 0 auto;
+}
