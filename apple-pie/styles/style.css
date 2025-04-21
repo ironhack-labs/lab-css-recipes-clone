@@ -22,3 +22,57 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.header{
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+
+.infoReceta{
+  margin: 50px;
+  text-align: center;
+  padding-bottom:20px ;
+}
+
+.infoReceta p{
+  padding-bottom: 30px;
+}
+
+img{
+  width: 400px;
+  height: auto;
+}
+
+h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style: none;
+  li{
+    padding: 2px;
+  }
+}
+
+.cookingInfoImg{
+  text-align: center;
+  margin: 50px;
+}
+
+.directions p{
+  padding: 5px
+}
