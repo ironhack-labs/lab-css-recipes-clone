@@ -1,9 +1,54 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+body {
+  body {
+    margin: 0;
+    color: #333;
+    background-color: #fff;
+    font-weight: lighter;
+  }
+ 
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+.hero {
+  background-image: url('/french-soup/images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 36px;
+
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+
+}
+
+.details {
+  display: flex;
+  text-align: center;
+}
+
+.ingredients ul {
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+
+.directions ol {
+  padding-left: 20px;
+  padding-bottom: 35px;
+
 }
