@@ -1,24 +1,45 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
-}
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  background: #fff;
+  color: #767373;
+  line-height: 1.6;
+}
+
+.header {
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4)),
+    url("../images/apple-pie.jpg") center/cover no-repeat;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin: 0;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+ol {
+  margin: 0 auto;
+  max-width: 85%;
+  padding: 0 0 100px 0;
+}
+
+ol li {
+  list-style: none;
+  padding: 5px 0;
+  text-align: left; 
+}
