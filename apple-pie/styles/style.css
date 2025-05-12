@@ -21,4 +21,164 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+.pasos {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+.pasos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+.pasos ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+}
+
+.pasos ol li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+} 
+.encabezado {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 8vw;
+    }
+}
+.ingredientes {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+.ingredientes h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.ingredientes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    text-align: left;
+}
+
+.ingredientes ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.ingredientes::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+
+.ingredientes .barra-info {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.ingredientes .barra-info img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+
+.ingredientes .barra-info::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+.intro {
+    text-align: left;
+    padding: 2rem 1rem;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.intro p {
+    font-size: 1.2rem;
+    margin: 0 0 2rem 0;
+    max-width: none;
+    text-align: left;
+}
+
+
+.informacion {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.informacion img {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+main {
+  max-width: 60%;
+  margin: 0 auto;
+}
