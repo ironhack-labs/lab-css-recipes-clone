@@ -11,23 +11,26 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
   color: dimgray;
+  font-weight: lighter;
+  font-size: smaller;
 }
 
 header {
   background-image: url(../images/soup.jpg);
   background-size: cover;
   display: flex;
-  height: 450px;
+  height: 400px;
   background-position: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  background-position: center;
 }
 
 h1 {
   color: white;
   font-weight: lighter;
   font-size: 250%;
+  text-align: center;
 }
 
 .intro {
@@ -35,8 +38,14 @@ h1 {
 }
 
 section img {
-  width: 300px;
+   width: 300px;
   height: auto;
+  padding: 20px 0px 0px 0px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
 }
 
 hr {
@@ -44,9 +53,26 @@ hr {
 }
 
 .ingredients {
-  margin: 0px 80px 0px 80px;;
+  margin: 0px 80px 0px 80px;
+  font-size: smaller;
 }
 
 .list {
   list-style-type: none;
+}
+
+.directions {
+  margin: 0px 80px 0px 80px;
+  font-size: smaller;
+  padding: 0px 0px 50px 0px;
+}
+
+.directions p {
+  margin: 0px 0px 0px 10px;
+  
+}
+
+h3 {
+  color: black;
+  font-weight: lighter;
 }
