@@ -7,3 +7,106 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.heading{
+  background-image: url(/Users/aakritisharma/Desktop/lab-css-recipes-clone/french-soup/images/soup.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:white;
+  
+    object-fit: cover;
+}
+
+    
+
+.heading h2{
+  text-align: center;
+  text-decoration: solid;
+  text-decoration: white;
+  font-family:  Helvetica, sans-serif;
+}
+
+
+
+body{
+  margin: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: sans-serif;
+}
+
+.image {
+
+    display: block;
+    align-items: center;
+    justify-content:center;
+    color:white;
+    object-fit: cover;
+    margin-left: auto;
+  margin-right: auto;
+  
+    
+
+}
+
+.intro {
+  text-align:inherit;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+
+
+.Ingredients, .Direction{
+  text-align:inherit;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 0%;
+  padding-left: 20px;
+  padding-left: 0;
+  margin: 0;
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+ul > li::before {
+  
+  content:  "-";
+}
+
+
+h2{
+  margin-top: 50px ;
+  font-weight:400;
+  margin-left: 0%;
+}
+
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  
+  content: counter(listcounter) ")";
+}
+
+
+
