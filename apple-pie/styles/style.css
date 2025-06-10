@@ -1,5 +1,7 @@
 /* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+/* Reset default browser styles and provide a consistent starting point *
+/* STYLES */
+/* Write your CSS below */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -18,7 +20,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: white
+}
+.header {
+  background-color: white;
+  padding: 20px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.header h1 {
+  color: white;
+  font-size: 90px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 400px;
+}
+.description{
+  font-size: 20px;
+  color: #333;
+  margin: 50px auto;
+  padding-top: 50px;
+}
+.description div {
+  padding-top: 20px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.ingredients ul {
+  color: #333;
+  margin: 50px auto;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 1.6;
+}
+section {
+border-bottom: 1px solid #ccc;
+padding-bottom: 20px;
+margin-bottom: 20px;
+border-bottom-width: 100;
+justify-content: center;
+padding-left: 300px;
+padding-right: 300px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #333;
+  font-weight: normal;
+}
+
+#instructions {
+  margin: 50px auto;
+  font-size: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
