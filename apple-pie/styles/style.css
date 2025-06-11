@@ -5,14 +5,26 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -22,3 +34,64 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.foto {
+  width: 100%;
+  
+}
+.titulo {
+  top:20rem;
+  left:23rem ;
+  font-size: 4.95rem;
+ 
+}
+
+/* ESTILOS DEL CUERPO*/
+p{ 
+  font-size: 1.4rem;
+  text-align:justify;
+  line-height: 1.2;
+  
+  
+}
+
+
+i{
+  color:lightslategray;
+  
+}
+ul {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+
+
+ul > li::before {
+  /*3. Set the new style for the list markers */
+  content: "- ";
+} 
+
+.graella{
+  display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+ol {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
