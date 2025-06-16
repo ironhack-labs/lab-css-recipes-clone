@@ -1,8 +1,11 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
@@ -17,8 +20,75 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin-bottom: 50px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/*header*/
+  .header-class {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+            
+  height: 400px;     
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   margin: 50px auto 0 auto;
+   max-width: 800px
+}
+
+#header-title {
+  font-size: 50px;
+  }
+
+
+/*section*/
+section {
+   padding: 10px ;
+   margin: 50px auto 0 auto;
+   max-width: 700px
+}
+
+.section-title {
+  margin: 0 0 20px 0
+}
+
+ #cooking-info {
+  margin: 20px 0 0 140px;
+  display: flex;
+  justify-content: center;
+  }
+
+#recipe-info {
+  margin: 20px 0 0 140px;
+  display: flex;
+  justify-content: center;
+  } 
+
+
+.image-class {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+   } 
+
+
+/*list*/
+ul { list-style: '- '; }
+
+
+ol {
+  list-style: none;
+}
+
+ol>li:before {
+  content: attr(seq) ") ";
+}
