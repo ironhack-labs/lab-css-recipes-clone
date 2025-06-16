@@ -1,5 +1,30 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+/*html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+/*
+body {
+  font-family: "Helvetica", sans-serif;
+}*/
+
+
+
+/* STYLES */
+/* Write your CSS below */
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -9,10 +34,37 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+
+}
+
+#main-header {
+  background-image:url("../images/apple-pie.jpg") ;
+  position: 0 0;
+  size: cover;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;  /* Vertically center */
+  justify-content: center; /* Optional: Horizontally center */
+  padding: 2rem; /* Optional: For spacing */
+  color: white; /* Assuming you want contrast over image */
+  text-align: center;
+  
+}
+
+body, h2, h3, h4, h5, h6, ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 15px;
   font-weight: lighter;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
 }
 
 /*  Set the font */
@@ -20,5 +72,18 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+ol {
+
+}
+
+.image-formatting {
+  padding: 10px;
+  size: cover;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+}
