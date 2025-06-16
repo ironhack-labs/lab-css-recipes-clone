@@ -22,3 +22,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.text-section {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.text-section ul {
+  margin-left: 25px;
+  list-style: none;
+}
+
+li::before {
+  content: "-";
+  padding-right: 8px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.img-info {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.img-info img {
+  width: auto;
+  max-height: 60px;
+  ;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45pt;
+}
+
+.header img {
+  height: 400px;
+  width: 800px;
+  object-fit: cover;
+}
