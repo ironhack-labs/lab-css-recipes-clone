@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,76 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  font-family: "Georgia", serif;
+  /* Example of a serif font */
+}
+
+.main-header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  padding: 200px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px;
+
+  .main-title {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+}
+
+}
+.ingridients {
+ text-align: left;         /* Align text to the left */
+  padding-left: 10px;       /* Adds space on the left */
+  max-width: 700px;         /* Optional: limits how wide the content goes */
+  margin: 0 auto;  
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.description {
+  white-space: pre-line;
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 100px;  /* adjust as needed */
+  padding-right: auto;
+
+}
+.list-ingridients {
+ text-align: left;         /* Align text to the left */
+  padding-left: 10px;       /* Adds space on the left */
+  max-width: 700px;         /* Optional: limits how wide the content goes */
+  margin: 0 auto;  
+  margin-top: 40px;
+
+}
+.gray-line {
+  border: none;
+  height: 3px;
+  background-color: gray;
+  width: 700px;  /* length of the line */
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.directions {
+ margin-bottom: 30px;
+  text-align: left;
+  padding-left: 100px;  /* adjust as needed */
+  padding-right: auto;
+}
+  .list-directions {
+  margin-top: 800px;
+  adding-left: 10px;       /* Adds space on the left */
+  max-width: 700px;         /* Optional: limits how wide the content goes */
+  margin: 0 auto;  
+}
+.gray-line {
+  border: none;
+  height: 3px;
+  background-color: gray;
+  width: 700px;  /* length of the line */
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
