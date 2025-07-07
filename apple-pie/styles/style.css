@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,57 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /*background-image: url();*/
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hyphen-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px;
+}
+
+.hyphen-list li::before {
+  content: "-";
+  color: black;
+  padding: 2px;
+}
+
+.recipe-info {
+  margin: 30px;
+  border-bottom: solid lightgrey;
+}
+
+.cooking-png {
+  text-align: center;
+}
+.cooking-png img {
+  max-width: 100%;
+}
+
+.ingredients {
+  margin: 30px;
+  border-bottom: solid lightgrey;
+}
+
+.directions {
+  margin: 40px;
+}
