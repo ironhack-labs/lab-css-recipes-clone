@@ -9,10 +9,12 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+h2, h3, h4, h5, h6, p, ol, ul {
+  margin-right: 100px;
+  margin-left: 100px;
   padding: 0;
   font-weight: lighter;
+  background-color: #FFFFFF;
 }
 
 /*  Set the font */
@@ -22,3 +24,59 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+p {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+h1{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
+  font-size: xxx-large;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin-bottom: 100px;
+}
+
+.recipeco {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.recipeco img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
+.cookingco {
+  display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cookingco img {
+  max-width: 500px;
+  height: auto;
+  display: block; }
