@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#recipe-header {
+  text-align: center;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  padding: 200px 10px;
+  margin-bottom: 50px;
+}
+
+#recipe-header h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.recipe {
+  margin: 50px;
+  padding: 0px 0px;
+}
+
+hr {
+  width: 90%;
+}
+
+.additional-info#recipe-info-summary {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 50%;
+}
+
+img {
+  padding-top: 15px;
+}
+
+#intro img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.recipe h2 {
+  margin: 10px 0;
+}
+
+#ingredients-list,
+#directions-list {
+  padding: 10px 0px 0px 25px;
+}
+
+#ingredients-list {
+  list-style: "- ";
+}
+
+#ingredients img {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  width: 350px;
+}
+
+#directions li {
+  list-style-position: inside;
+}
+
+#directions li::marker {
+  content: counter(list-item) ") ";
+}
