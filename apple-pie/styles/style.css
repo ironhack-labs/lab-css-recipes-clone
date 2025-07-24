@@ -22,3 +22,13 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  background-image: url('apple-pie.jpg');
+  background-size: center;
+}
+
+#mi-img {
+  width: 120px;
+  height: auto;
+}
