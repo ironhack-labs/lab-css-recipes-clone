@@ -22,3 +22,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0 ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 400px;
+  justify-content: center;
+}
+h2 {
+  font-size:x-large;
+  text-align: left;
+}
+div {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type:none;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+ul > li::before {
+  content: "-";
+  margin-right: 0.5em;
+}
+
+.info-image {
+ text-align: center;
+
+}
+
+.info-image img {
+  height: 70px;
+}
+
+ol {
+  text-align: justify;
+  line-height: 1.2;
+}
+
+ol > li::before {
+  content: " ) ";
+}
+
+hr {
+  border-width: 2px;
+  margin: 0 100px;
+}
