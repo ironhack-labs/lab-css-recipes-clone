@@ -1,9 +1,81 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:Georgia, serif;
+  font-size:15px;
+  line-height:1.65;
+  color:#333;
+  background:#fafafa;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+.container{width:min(100%,960px);margin:0 auto;padding:0 24px}
+
+
+.hero{
+  height:340px;
+  display:flex;
+  align-items:center;
+  color:#fff;
+  background:
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("../images/french-soup.jpg") center/cover no-repeat;
 }
+.hero .container{width:min(100%,960px);margin:0 auto}
+.hero h1{
+  font-weight:800;
+  font-size:48px;
+  letter-spacing:.2px;
+  text-shadow:0 1px 2px rgba(0,0,0,.25);
+  padding:28px 24px;
+}
+
+
+.intro{margin:18px 0 12px;color:#222}
+.intro p{max-width:860px}
+
+/* META BAR */
+.meta{
+  display:flex;
+  align-items:center;
+  gap:36px;
+  margin:10px 0 14px;
+}
+.meta-item{display:inline-flex;align-items:center;gap:8px}
+.meta .icon{width:20px;height:20px;object-fit:contain;display:inline-block}
+.meta .label{font-weight:700}
+.meta .value{color:#6b6b6b}
+.meta-secondary{opacity:.95;margin-top:18px}
+
+
+.divider{border-top:1px solid #ddd;margin:12px 0 16px}
+
+
+h2{
+  font-size:22px;
+  font-weight:700;
+  color:#222;
+  margin:14px 0 6px;
+}
+h2::after{
+  content:"";
+  display:block;
+  height:1px;
+  background:#ddd;
+  width:75%;
+  margin:10px 0 0;
+}
+
+.ingredients ul{
+  list-style-type:square !important;
+  list-style-position:outside;
+  margin:10px 0 10px 18px;
+  padding-left:2px;
+}
+.directions ol{
+  list-style:decimal;
+  list-style-position:outside;
+  margin:10px 0 10px 18px;
+  padding-left:2px;
+}
+.ingredients li,
+.directions li{margin:6px 0}

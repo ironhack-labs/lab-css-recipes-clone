@@ -1,24 +1,77 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+
+body{
+  margin:0;
+  font-family: Georgia, serif;
+  color:#333;
+  line-height:1.7;
+  background:#fafafa;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+.container,
+.meta,
+.hero{
+  width:min(100%, 960px);
+  margin:0 auto;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+
+.hero{
+  height:340px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("../images/apple-pie.jpg") center/cover no-repeat;
+}
+.hero h1{
+  font:800 52px/1.1 "Arial Black", Impact, sans-serif;
+  letter-spacing:1px;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+
+.meta{
+  display:flex;
+  gap:36px;
+  justify-content:center;
+  align-items:center;
+  padding:14px 24px 18px;
+  border-bottom:1px solid #ddd;
+}
+.meta-item{display:flex;align-items:center;gap:8px;color:#444}
+.meta .icon{font-size:18px;line-height:1}
+.meta .label{font-weight:700}
+.meta .value{color:#666}
+
+
+main.container{padding:28px 24px 40px}
+.intro{font-style:italic;text-align:center;margin-bottom:22px}
+.intro p{max-width:620px;margin:0 auto}
+
+
+h2{
+  font-size:26px;
+  text-transform:uppercase;
+  text-align:center;
+  margin:18px 0 12px;
+  letter-spacing:.5px;
+}
+h2::after{
+  content:"";
+  display:block;
+  width:60%;
+  height:1px;
+  background:#ddd;
+  margin:12px auto 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+.ingredients ul{list-style:square;margin:14px 0 26px 28px}
+.directions ol{list-style:decimal;margin:10px 0 26px 28px}
+.ingredients li,.directions li{margin:8px 0}
