@@ -22,3 +22,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#header-container {
+  display:grid;
+  grid-template-areas: "a";
+  align-items: center;
+  text-align:center;
+  font-size:2rem;
+  color:white;
+}
+
+#header-container img, 
+#header-container h1 {
+  grid-area: a;
+}
+
+#header-image {
+width:100%;
+height:auto;
+}
+
+main {
+  padding: 3rem 5rem;
+  width:90%;
+  max-width:800px;
+}
+
+@media (min-width: 1000px) {
+  main {
+    max-width: 50%;   
+    margin: 20px auto; 
+  }
+}
+
+#intro {
+  padding-bottom:2rem;
+  text-align:justify;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+
+.info {
+  display: block;
+  margin: 0 auto;
+  width:50%;
+  
+}
+
+hr {
+  border: none;
+  height: 2px; 
+  margin: 30px 0;
+  border-radius: 2px; 
+  background-color:rgb(169, 168, 168);    
+}
+
+h3 { 
+  padding-bottom:1rem; 
+  padding-top:1rem;
+}
+
+ul {
+  padding-left: 1rem;
+  padding-bottom:2rem;
+  list-style-type: "-";
+}
+

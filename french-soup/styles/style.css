@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+
+main {
+  padding: 3rem 5rem;
+  color:grey;
+  width:90%;
+  max-width:800px;
+  box-sizing:border-box;
+}
+
+@media (min-width: 1000px) {
+  main {
+    max-width: 50%;   
+    margin: 20px auto; 
+  }
+}
+
+
+#header-image {
+  width:100%;
+  height:auto;
+}
+
+#header-container {
+  display:grid;
+  grid-template-areas: "a";
+  align-items: center;
+  text-align:center;
+  font-size:2rem;
+  color:white;
+}
+
+#header-container img, 
+#header-container h1 {
+  grid-area: a;
+}
+
+.info {
+  display: block;
+  margin: 0 auto;
+  width:50%;
+}
+
+hr {
+  border: none;                 /* removes default border */
+  height: 2px;                  /* thickness of the line */
+  background-color: grey;    /* soft gray color */
+  margin: 30px 0;               /* space above and below */
+  border-radius: 2px; 
+ 
+}
+
+h3 { 
+  padding-bottom:1rem; 
+  padding-top:1rem;
+  color:black;
+}
+
+ul {
+  margin: 0;   /* removes space above/below */
+  padding: 0;  /* removes the indentation on the left */
+  list-style-position: inside; /* optional: bullet aligns with text */
+  padding-bottom:2rem;
+  list-style-type: "- ";
+}
