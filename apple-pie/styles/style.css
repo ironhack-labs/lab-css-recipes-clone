@@ -20,5 +20,81 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
+
+
 /* STYLES */
 /* Write your CSS below */
+html{
+  margin-bottom: 20%;         /*set bottom margin of the webpage*/
+}
+
+
+/*Edit first image and the text on top*/
+.pie-header {
+  display:grid;
+  grid-template-areas: "a";
+  align-items: center;
+  justify-content: center;
+  margin: 0% 10% 5% 10%;
+}
+
+.pie-header img,
+.pie-header h1 {
+  grid-area: a;
+  display: grid;
+  justify-content: center;
+}
+
+.pie-header h1{
+  color: white;
+}
+
+
+
+/*edit the 3 sections*/
+.section-text {                /*edit text margins*/
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.section-text img {         /*edit the images with time, cals, nb servings*/
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+ 
+.section-text hr.solid {        /*edit bars between secitons*/
+  border-top: 2px solid grey;
+}
+
+.section-text h3 {           /*edit the headers*/
+    margin: 4% 0%;
+}
+
+.section-text p, ul, ol {      /*edit the color of the text in the paragraphs only*/
+  color: #3b3b3b;
+}
+
+.section-text ul, ol {      /*Adjust the margins of the lists*/
+  margin: 0% 2%;
+}
+
+
+/*Edit the bullet points of an Unordered list*/
+.section-text ul {
+  list-style-type: "- ";
+}
+
+
+/*Edit the number points of an Ordered list*/
+.section-text ol {
+  counter-reset: list;
+}
+.section-text ol > li {
+  list-style-type: none;
+}
+.section-text ol > li:before {
+  content: counter(list, number) ") ";
+  counter-increment: list;
+}
