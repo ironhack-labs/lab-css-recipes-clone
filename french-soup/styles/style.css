@@ -7,3 +7,107 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.img-pie {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.title {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: white;
+  font-size: 10rem;
+
+}
+
+.description {
+  text-align: center;
+  text-wrap: balance;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 2rem;
+}
+
+.hr {
+  width: 80%;
+  border: 0.1rem solid darkgray;
+  margin-bottom: 2vh;;
+}
+
+.det {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+.det span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.5vw;
+}
+
+.ingredients {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+.ingredients li:before{
+  content: "-";
+}
+
+.steps {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+
+.steps li::marker {
+  content: counter(list-item) ") ";
+}
+
+.sec {
+  margin-left: 15%;
+  width: 70%;
+  margin-bottom: 5vh;
+}
+
+.svg {
+  color: darkgray;
+}
+
+.secTitle {
+  font-size: 3rem;
+  margin-bottom: 2vh;
+}
+
+li {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.vertical-line {
+  border-left: 2px solid darkgray;
+  height: 3rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  
+}
+.item {
+  color: darkgray;
+  text-align: center;
+}
+.item > p > span {
+  color: black;
+}
+
