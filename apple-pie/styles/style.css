@@ -22,3 +22,54 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body {
+  background-color: rgb(246, 239, 239);
+  color: rgb(64, 62, 62); 
+  font-family:  "Helvetica", sans-serif; 
+   
+}
+h1 {
+  color: white;
+  text-align: center;
+
+}
+.pie-header {
+  display:grid;
+  grid-template-areas: "a";
+  align-items: center;
+}
+.pie-header img,
+.pie-header h1 {
+  grid-area: a;
+}
+
+.pie {
+  width: 100%;
+  height: auto;
+  
+}
+
+.introduction, .ingredients, .directions {
+  max-width: 800px;
+  margin: 50px auto;
+  font-size: 1.2rem; 
+}
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h3 {
+  margin: 30px auto ;
+}
+.cook-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section  {
+ padding: 2rem;
+ font-weight: lighter;
+}
