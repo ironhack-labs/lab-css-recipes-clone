@@ -4,21 +4,82 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
+<<<<<<< HEAD
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+=======
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+>>>>>>> 420e47e (solution)
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 420e47e (solution)
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
+<<<<<<< HEAD
 
 /* STYLES */
 /* Write your CSS below */
+=======
+/* STYLES */
+/* Write your CSS below */
+#recipe-name {
+  background-image: url("../images/apple-pie.jpg");
+  height: 700px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 48px;
+}
+p {
+  color: gray;
+  margin: 40px 15%;
+  font-size: 20px;
+}
+.info {
+  width: 30%;
+  margin: 40px 35%;
+}
+.hor-line {
+  border-top: 3px solid #bbb;
+}
+ul,
+ol {
+  font-size: 20px;
+  color: gray;
+  margin: 40px 17%;
+}
+.headers {
+  font-size: 30px;
+  margin: 40px 15%;
+}
+ol > li::marker {
+  content: counter(list-item) ") ";
+}
+>>>>>>> 420e47e (solution)

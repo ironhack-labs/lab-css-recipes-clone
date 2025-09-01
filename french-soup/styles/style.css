@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +7,82 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+=======
+.title {
+  background-image: url("/french-soup/images/soup.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 48px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.description {
+  padding: 0 90px;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: grey;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Ingredients {
+  font-size: 32px;
+  padding: 0 90px;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0 90px;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: grey;
+}
+.directions {
+  font-size: 32px;
+  padding: 0 90px;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+ol > li::marker {
+  content: counter(list-item) ") ";
+}
+ol {
+  padding: 0 90px;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: grey;
+  list-style: none;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 88%;
+  margin: 20px auto;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+>>>>>>> 420e47e (solution)
 }
