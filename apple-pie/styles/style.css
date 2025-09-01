@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,84 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif; line-height: 1.5em;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#container {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  background-image: url(../images/apple-pie.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+}
+
+.info-image {
+  display: block;
+  margin: auto;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+hr {
+  color: gray;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+ol {
+  padding-left: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.custom-list {
+  list-style: none;
+  counter-reset: custom-counter;
+}
+
+.custom-list li {
+  counter-increment: custom-counter;
+}
+
+.custom-list li::before {
+  content: counter(custom-counter) ") ";
+}
+
+
+ul.dash {
+    list-style: none;
+    margin-left: 40;
+    padding-left: 1em;
+}
+ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: 1em;
+}
