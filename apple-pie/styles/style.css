@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -19,6 +30,94 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   font-family: "Helvetica", sans-serif;
 }
+
+#titulo {
+  aspect-ratio: 16/9;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  background-image: url(../images/apple-pie.jpg);
+  align-content: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+section{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+#p1 {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.Ingredients {
+  margin-bottom: 40px;
+}
+#timeImg {
+  background-image: url(../images/recipe-info.png);
+  background-size: contain;
+  width: 350px;
+  height: 50px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+#cookingInfo {
+  background-image: url(../images/cooking-info.png);
+  background-size: contain;
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: none;
+  /* Quitamos el estilo por defecto */
+  border-top: 1px solid #000;
+  /* Línea negra */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 90%;
+  /* Largo de la línea */
+}
+
+h2 {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type:disc;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 0;
+}
+
+ol {
+  list-style-type:decimal;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 
 /* STYLES */
 /* Write your CSS below */
