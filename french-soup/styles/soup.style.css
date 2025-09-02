@@ -1,0 +1,67 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-right: 10%;
+  margin-left:  10%;
+}
+
+
+.hero {
+  display: grid;
+  grid-template-areas: "a";
+  text-align: center;
+  color:white;
+  align-items: center;
+}
+
+.hero img {
+  width: 100vw;
+  height: auto;
+  margin-left:  calc(50% - 50vw);       
+  margin-right: calc(50% - 50vw);
+  
+
+}
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.hero img,
+.hero h1 {
+  grid-area: a;
+}
+
+.recipe-info {
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  padding: 3rem;
+  padding-bottom: 0px;
+  
+  
+}
+
+.main-section {
+  padding-top: 80px;
+}
+.image-wrapper {
+  padding-bottom: 50px;
+}
+.image-content {
+  padding-bottom: 50px;
+}
+.h3 {
+  
+}
+.divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 2rem 0;   
+  padding-bottom: 50px;
+}

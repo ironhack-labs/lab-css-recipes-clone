@@ -21,4 +21,55 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+
+
+  /* Write your CSS below */
+.hero {
+  display:grid;
+  grid-template-areas: "a";
+  text-align: center;
+  color:white;
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  
+}
+
+
+.hero img,
+.hero h1 {
+  grid-area: a;
+}
+
+.main-section {
+  padding: 5rem;
+}
+
+.main-section h3 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid black;
+  margin-top: 2rem;
+}
+
+.recipe-info {
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*.image-wrapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.image-wrapper img {
+  max-width: 300px;
+}*/
