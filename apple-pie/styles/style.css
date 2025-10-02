@@ -18,7 +18,48 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
-/* Write your CSS below */
+#container {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#main-image {
+  width: 80%;
+  height: auto;
+}
+
+#text-container {
+  margin: 10%;
+}
+
+#text-container > img {
+  padding: 5%;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid grey;
+  }
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size:8vw;
+  }
+  h2 {
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+  
+  ul {
+    list-style-type: none;
+    }
+    .hyphen-list {
+      margin-left: 1em;
+    }
+  
