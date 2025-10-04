@@ -22,3 +22,78 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+*{
+  box-sizing: border-box;  
+}
+
+header{
+  background-image: url(./../images/apple-pie.jpg);
+  background-size: cover;
+  padding: 300px;
+}
+
+main{
+  padding: 100px;
+}
+
+section{
+  padding: 0px 50px;
+}
+
+#intro{
+  padding: 0px;
+}
+
+section img{
+  margin: 1% 25%;
+}
+
+h1{
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+}
+
+h2{
+  font-size: 17pt;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.text{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+
+hr{
+  margin: 30px 0px;
+  border: 1px solid #bebebe;
+}
+
+#ingredients ul{
+  padding-left: 60px;
+  margin: 30px 0px;
+}
+
+#ingredients ul>li{
+  list-style-type: none;
+}
+
+#ingredients ul>li::before{
+  content: "- ";
+  margin-right: 10px;
+}
+
+ol{
+  list-style: none;
+}
+
+#directions li{
+  counter-increment: listcounter;
+}
+
+#directions li::before{
+  content: counter(listcounter) ")";
+}
