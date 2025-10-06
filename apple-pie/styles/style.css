@@ -12,13 +12,73 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.hero-section {
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 300;
+}
+.recipe-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recipe-intro p {
+  font-size: 18px;
+  margin-top: 70px;
+  text-align: left;
+}
+.recipe-intro img {
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.content-container {
+  width: 40%;
+  margin: 0 auto;
+}
+.content-container h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.ingredients-list {
+  font-size: 15px;
+  list-style-type: "-";
+  
+  margin-left: 15px;
+}
+.img-container{
+  display:flex;
+  justify-content: center;
+}
+.img-container img{
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.directions-list {
+  list-style: none;
+  margin-bottom: 60px;
+}
