@@ -2,23 +2,98 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(56, 56, 56)
+}
+
+hr {
+  margin: 0 2rem;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#banner {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannerSoup {
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+#description {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+#description p {
+  padding-top: 2rem;
+  font-weight: 400;
+}
+
+#description img {
+  height: 4em;
+  margin-top: 1rem;
+}
+
+#recipe {
+  padding: 1rem 2rem;
+}
+
+#recipe h3 {
+  margin-left: 2rem;
+}
+
+#recipe ul{
+  list-style-type:disc;
+}
+
+#recipe img{
+  height: 5em;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+#directions {
+  padding: 1rem 2rem;
+}
+
+#directions h3 {
+  margin-left: 2rem;
+}
+
+#directions ul{
+  list-style-type: decimal;
+}
