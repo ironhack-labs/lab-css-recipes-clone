@@ -1,0 +1,22 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('styles/french-onion-soup.jpg');
+    }
+
+h1 {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
