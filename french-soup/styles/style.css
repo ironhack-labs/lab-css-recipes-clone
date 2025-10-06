@@ -4,6 +4,53 @@ h1, body, html, main {
 }
 /*Import the font and set the default size*/
 html {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 16px
+}
+
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 10em;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  font-size: 3em;
+}
+
+p {
+  margin: 3em 5em 1.5em 5em;
+  font-size: 1.25em;
+  color: rgb(70, 70, 70)
+}
+
+#info-img {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  width: auto;
+  height: 4em;
+  margin-bottom: 1.5em
+}
+
+h2 {
+  margin: 1.25em 3em 1.25em 4em;
+}
+
+ul {
+  list-style-type: "-";
+  margin-left: 4em;
+  margin-bottom: 1.5em
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 4em;
+  margin-bottom: 1.5em;
+  margin-right: 5em;
 }
