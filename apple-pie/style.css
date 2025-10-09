@@ -1,0 +1,55 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+.ingredients {
+  text-align: center;
+
+
+}
+
+h1 {
+  background-image: url(../images/apple-pie.jpg);
+  align-items: center;
+  color: white;
+  text-align: center;
+  size: 400px; 
+  height: 500px;
+
+}
+
+
+
+p {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+ h2 {
+  margin-left: 100px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+h3 {
+  margin-left: 100px;
+}
+
+ol {
+  margin-left: 100px;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;}
