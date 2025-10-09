@@ -1,5 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -13,6 +14,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  margin: auto;
+  
 }
 
 /*  Set the font */
@@ -22,3 +25,87 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.estructura{
+  padding:  0px 50px 50px 650px;
+  height: auto;
+  justify-content: center;
+  background-color: rgb(102, 102, 94);
+  align-items: center;
+
+}
+
+.image{
+  background-image: url(../images/apple-pie.jpg);
+  image-orientation: center;
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding:  150px 50px 50px 50px;
+}
+
+.secondImage{
+  background-image: url(../images/recipe-info.png);
+  width: 600px;
+  height: 80px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -25px;
+  scale: 0.5;
+  
+}
+
+.thirdimage{
+  background-image: url(../images/cooking-info.png);
+  width: 550px;
+  height: 110px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -25px;
+  scale: 0.50;
+}
+
+.subtitulos{
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.firstContent{
+  padding: 20px 40px 30px 30px;
+  background-color: white;
+  height: 150px;
+  width: 600px;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.secondContent{
+  padding: 20px 40px 10px 40px;
+  background-color: white;
+  width: 600px;
+  font-size: 14px;
+}
+
+.thirdContent{
+  padding: 20px 40px 40px 40px;
+  background-color: white;
+  width: 600px;
+  font-size: 14px;
+  font-style: normal;
+
+}
+
+.ingredientsList{
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.infoDirections{
+  margin-top: 10px;
+  margin-left: 30px;
+  word-break: normal;
+}
