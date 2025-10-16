@@ -18,7 +18,83 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: black;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main img {
+  width: 100%;
+  margin: 1rem 0;
+  display: block;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-align: left;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+}
+
+ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+
+ol {
+  margin: 1rem 0;
+  padding-left: 0rem;
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+
+li {
+  margin: .5rem 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: gray;
+  margin: 1rem 0;
+}
