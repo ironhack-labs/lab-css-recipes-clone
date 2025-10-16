@@ -22,3 +22,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  margin-bottom: 60px;
+}
+
+div {
+  position: relative;
+}
+
+.apple-pie {
+  width: 98vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  left:40%;
+  top: 30%;
+}
+
+article {
+  margin: 30px 70px;
+}
+
+p {
+  margin-left: 50px;
+}
+
+ul {
+  margin-left: 60px;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+ul > li::before{
+  content: "-"
+}
+
+ol {
+ margin: 0 60px; 
+ list-style-type: none;
+ counter-reset: item;
+}
+
+ol li {
+  counter-increment: item;
+}
+
+ol li::before {
+  content: counter(item) ")";
+}
+
+
+hr {
+  width: 650px;
+}
+
+.ingredients {
+max-width: 50%;
+margin: 0 175px;
+}
+
+.directions {
+  max-width: 40%;
+  margin: 0 200px;
+}
