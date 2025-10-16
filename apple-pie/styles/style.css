@@ -22,3 +22,54 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.Face{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 650px;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.line{
+  height: 1px;
+  color: black;
+  margin: 24px;
+}
+
+.bottom{
+  padding: 80px;
+}
+
+h2, p {
+  font-family:'Times New Roman', Times, serif
+}
+
+.cooking{
+  max-block-size: 80px;
+  display: block;
+  margin: auto auto;
+ 
+}
+
+.recipe{
+  max-block-size: 70px;
+  display: block;
+  margin: auto auto;
+ 
+}.hero{
+  min-height: 50vh;              
+  background: url("../images/apple-pie.jpg") center/cover no-repeat; 
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;
+  position: relative;             
+  text-align: center;}
+
+  h1 {
+    color: white;
+    font-size: 100px
+  }
