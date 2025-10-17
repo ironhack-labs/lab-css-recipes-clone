@@ -22,3 +22,9 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  background-color: bisque
+  color(srgb red rgb(155, 72, 72) rgb(168, 197, 151));
+  line-height: 1.7
+;
+}
