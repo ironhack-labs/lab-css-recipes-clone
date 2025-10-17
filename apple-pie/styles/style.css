@@ -22,3 +22,49 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+.apple-pie {
+  width: 100vw;
+  height: 33vw;
+  object-fit: fill;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 350%;
+}
+
+
+.text-block
+{
+  margin: 3% 5%;
+}
