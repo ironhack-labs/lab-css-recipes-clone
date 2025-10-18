@@ -22,3 +22,56 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 35vh;
+  margin-left: 10vb;
+  margin-right: 10vb;
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 25vb;
+  margin-left: 37vb;
+  width: 45vw;
+  text-size-adjust: initial;
+}
+
+p{
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 13px;
+  margin-left: 40vb;
+  margin-right: 40vb;
+}
+
+.recipe{
+  margin-left: 50vb;
+  margin-right: 50vb;
+  max-width: 360px;
+  height: 10vh;
+}
+
+h2{
+  margin-left: 40vb;
+}
+
+ol{
+  margin-left: 45vb;
+  font-size: small;
+  margin-right: 50vb;
+}
+
+.cooking{
+  margin-left: 50vb;
+  margin-right: 50vb;
+  max-width: 360px;
+  height: 10vh;
+}
+
+
+
