@@ -1,8 +1,16 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
+  .title {
+ background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  text-align: left;   
+  }
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 *, *:before, *:after {
@@ -17,8 +25,38 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.hero {
+  background-image: url(../images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 50vw
+}
+.recipe-info {
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
+}
+.cooking-info {
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
+}
+.apple-title {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
