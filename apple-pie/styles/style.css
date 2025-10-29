@@ -2,23 +2,75 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
-}
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  }
 
 *, *:before, *:after {
   box-sizing: inherit;
-}
+  }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+#image {
+  width: 1250px;
+  height: 400px;
+}
+
+.sub-content {
+  border-left: 10%;
+  border-right: 10%;
+  text-align: center;
+  }
+
+
+.h1 {
+  position: absolute;
+  color:aliceblue;
+  top: 250px;
+  right: 250px;
+}
+
+.intro {
+  border-left: 10px;
+  border-right: 10px;
+  text-align: center;
+}
+
+.time-img {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 60px;
+}
+
+#ititle {
+  text-align: center;
+}
+
+.Ingredients ol {
+  border-left: 10px;
+  border-right: 10px;
+  text-align: left;
+}
+
+.ingredient-img {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 60px;
+}
+
+#dtitle {
+  text-align: center;
+  justify-content: center;
+}
+
+.Directions ol {
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 20px;
+  text-align: left;
+}
