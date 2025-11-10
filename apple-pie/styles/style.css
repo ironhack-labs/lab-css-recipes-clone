@@ -22,3 +22,61 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header{
+  background-image: url(../images/apple-pie.jpg);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+
+.centrado2{
+   
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+   
+    
+}
+
+
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.divisor {
+    border: none; 
+    border-top: 4px solid #ccc;
+    width: 68%; 
+    margin: 20px auto; 
+}
+
+.letraizq{
+  margin-left: 400px;
+}
+.lista1{
+   margin-left: 400px;
+   font-size: 1.3em;
+   list-style-type: '-';
+}
+.texto1{
+  text-align:initial;
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
