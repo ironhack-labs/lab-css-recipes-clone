@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,77 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.recipe {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 2px solid white border-radius: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+#fondo {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center, upper;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 40px;
+}
+
+#fondo h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.quick-info,
+.prep-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.quick-info img,
+.prep-info img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.separator {
+  width: 102%;
+  border-top: 4px solid lightgray;
+  margin: 20px 0;
+}
