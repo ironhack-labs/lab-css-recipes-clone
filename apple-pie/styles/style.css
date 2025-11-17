@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,80 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  background: white;
+  padding: 20px;
+}
+
+.all-contents {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.header-container {
+  background-image: url("../images/apple-pie.jpg");
+  height: 500px;
+  padding-top: 200px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.ingredients h2 {
+  margin-bottom: 10px;
+}
+
+.ingredients ul {
+  list-style-type:none;
+  color: rgb(78, 77, 77);
+}
+
+.ingredients li::before {
+  content: "-";
+  margin-left: 25px;
+}
+
+.directions h2 {
+  margin-bottom: 10px;
+}
+
+.directions ol {
+  list-style-type: none;
+  counter-reset: list;
+  color: rgb(78, 77, 77);
+}
+
+.directions li::before {
+  counter-increment: list;
+  content: counter(list) ") ";
+  margin-left: 25px;
+}
+
+li {
+  margin-bottom: 4px;
+}
