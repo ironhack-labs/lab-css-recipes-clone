@@ -1,9 +1,88 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+#welcome {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 155px;
+  font-size: 2.7em;
+}
+
+#presentation {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/* check after */
+.description {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  text-align: justify;
+}
+
+#presentation img {
+  height: 50px;
+}
+
+hr {
+  background-color: black;
+  height: 3px;
+  width: 75%;
+}
+
+#ingredients {
+  text-align: center;
+}
+
+#ingredients h2 {
+  text-align: left;
+  padding-left: 70px;
+}
+
+.ingredientsList {
+  padding-left: 90px;
+}
+
+.ingredientsList li {
+  list-style: "-";
+  text-align: left;
+}
+
+#ingredients img {
+  height: 50px;
+  text-align: end;
+}
+
+#directions h2 {
+  padding-left: 66px;
+}
+
+#directions ol {
+  padding-left: 90px;
+  list-style: decimal;
+}
+
+#directions ol li::marker {
+  content: counter(list-item) ") ";
+}
+
+#directions {
+  padding-bottom: 50px;
 }

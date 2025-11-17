@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,79 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#welcome {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 350px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 155px;
+  font-size: 2.7em;
+}
+
+#presentation {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/* check after */
+.description {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  text-align: justify;
+}
+
+#presentation img {
+  height: 50px;
+}
+
+hr {
+  background-color: black;
+  height: 3px;
+  width: 75%;
+}
+
+#ingredients {
+  text-align: center;
+}
+
+#ingredients h2 {
+  text-align: left;
+  padding-left: 70px;
+}
+
+.ingredientsList {
+  padding-left: 90px;
+}
+
+.ingredientsList li {
+  list-style: "-";
+  text-align: left;
+}
+
+#ingredients img {
+  height: 50px;
+  text-align: end;
+}
+
+#directions h2 {
+  padding-left: 66px;
+}
+
+#directions ol {
+  padding-left: 90px;
+  list-style: decimal;
+}
+
+#directions ol li::marker {
+  content: counter(list-item) ") ";
+}
+
+#directions {
+  padding-bottom: 50px;
+}
