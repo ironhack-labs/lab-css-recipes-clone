@@ -5,5 +5,79 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+.container {
+  width: 80%;
+  margin: 5px auto;
+ }
+.header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center;   
+  /* height: 350px;  */
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  height: 100%;
+  width: auto;
+  padding: 75px;
+}
+
+.section {
+  padding: 20px;
+  width: 100%;
+}
+.section-center {
+  text-align: center;
+}
+.section-img {
+  /* height: 150px; */
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+.section div {
+  text-align: center;
+}
+h2 {
+  padding: 10px 0;
+  margin-left: 0;
+}
+.divider {
+  border: 1px solid grey;
+}
+
+.list {
+  padding: 10px 0;
+  margin-left: 0;
+}
+
+.unordered {
+  list-style: none;
+}
+.unordered li::before {
+  content: "- ";
+}
+
+.ordered {
+  list-style: none;
+  counter-reset: listcounter;
+}
+
+.ordered > li {
+  counter-increment: listcounter;
+}
+.ordered > li::before {
+  content: counter(listcounter) ") ";
 }
