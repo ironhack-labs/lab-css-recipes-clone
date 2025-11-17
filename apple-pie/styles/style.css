@@ -22,3 +22,91 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.header{
+  background-image: url(../images/apple-pie.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  height: 1000px;
+  /* position: relative; */
+  width: full;
+  margin-bottom: 100px;
+
+  
+}
+
+.header-text{
+  color: white;
+font-size: 60px;
+text-align: center;
+/* position: absolute;
+top: 50%;
+left: 50%; */
+padding-top: 400px;
+}
+
+
+
+
+
+.sectiontwo-paragraph{
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: lighter !important;
+  text-align: center;
+ 
+}
+
+
+.parent-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+
+  width: 60%;
+  margin: 100px auto;
+ 
+}
+
+.section-three{
+  margin-left: 300px;
+}
+
+.section-three-heading{
+  font-size: 40px;
+}
+
+.section-three-list li{
+font-size: 50px;
+font-weight: 100 !important;
+list-style: none;
+}
+
+.section-three-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.section-four{
+  margin-left: 300px;
+  width: 70%;
+}
+
+.section-four-heading{
+  font-size: 40px;
+}
+
+.section-four-list li{
+font-size: 50px;
+font-weight: 100 !important;
+
+}
