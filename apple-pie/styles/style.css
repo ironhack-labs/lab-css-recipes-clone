@@ -22,3 +22,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+/* GLOBAL */
+h1{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+}
+li{
+  margin-top: 15px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(45, 45, 45);
+}
+
+p{
+  color: grey;
+
+}
+
+ul{
+  list-style: none;
+}
+
+
+/* CLASS */
+.background-h1{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;  
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+.section-1  {
+  text-align: center;
+}
+.section-p1, .section{
+  font-size: 20px;
+  text-align: justify;
+  max-width: 100%;
+  margin: auto;
+  padding: 40px 10px;
+  color: gray;
+}
+
+.border{
+  border-bottom: 3px solid grey;
+  max-width: 60%;
+  margin: auto;
+
+}
+.img-cooking{
+  width: 400px;
+}
+
+.ol.direction{
+  list-style: decimal;
+}
+
