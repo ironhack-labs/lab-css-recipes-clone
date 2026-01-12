@@ -18,7 +18,71 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  border: 3px solid blue;
+  margin: 60px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+#apple-pie-recipe h1{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 25px 25px 50px 25px;
+  padding:300px 300px 300px 300px ;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 200px;
+  font-size: 300px;
+  text-align: center;
+}
+#apple-pie-recipe p{
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin: 50px;
+  color: rgb(68, 58, 58);
+  font-family: system-ui;
+  font-size: 30px;
+}
+#apple-pie-recipe img{
+  width: 45%;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+hr{
+  height: 4px;
+  background-color: gray;
+  width: 85%;
+  margin-bottom: 50px;
+}
+#ingredients h2{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+#ingredients div{
+    margin-left: 52px;
+    margin-bottom: 50px;
+    color: rgb(68, 58, 58);
+    font-size: 20px;
+    font-family: system-ui;
+}
+#ingredients div img{
+   width:50%;
+   margin-left: 170px;
+   margin-top: 30px;
+}
+#directions h2{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+#directions div{
+    margin: 25px 60px 50px 60px;
+    margin-bottom: 50px;
+    color: rgb(68, 58, 58);
+    font-size: 20px;
+    font-family: system-ui;
+}
