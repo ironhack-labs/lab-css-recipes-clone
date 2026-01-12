@@ -5,20 +5,103 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+hr {
+  width: 85%;
+  margin: 20px auto;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+section {
+  padding: 30px;
+  margin: 20px 40px;
+}
+
+#header {
+  min-height: 60vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  /* Possibility to add #header h1 or in this section */
+  font-size: 2.5rem;
+}
+
+#header-content p {
+  line-height: 25px;
+  font-weight: 300;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+  padding-bottom: 40px;
+}
+
+#header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100px;
+  background-image: url(../images/recipe-info.png);
+  background-position: bottom;
+  background-size: 35%;
+  background-repeat: no-repeat;
+}
+
+#ingredients {
+  background-image: url(../images/cooking-info.png);
+  background-position: bottom;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+#ingredients ul {
+  padding: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+}
+
+#ingredients ul li {
+  list-style-type: "-";
+  line-height: 25px;
+}
+
+#directions ol {
+  padding: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+}
+
+#directions ol li {
+  line-height: 25px;
+  text-align: justify;
+}
