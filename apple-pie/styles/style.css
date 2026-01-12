@@ -17,8 +17,100 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
+
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+header{
+
+ background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+ 
+  position: relative;
+  margin: 60px 60px ;
+ 
+  background-image: url("../images/apple-pie.jpg");
+ 
+ 
+
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  
+  color: white;
+  padding-top: 130px;
+  font-family: "Helvetica", sans-serif;
+   font-weight: lighter;
+}
+
+.first{
+  font-size: small;
+   font-weight: lighter;
+   text-align: justify;
+   
+   margin-left: 100px;
+   margin-right: 100px;
+  
+}
+#minutes{
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+h2{
+  margin-left: 100px;
+    font-family: "Helvetica", sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.liste{
+   margin-left: 110px;
+    font-size: small;
+    
+   font-weight: lighter;
+   margin-bottom: 20px;
+    
+}
+ul {
+   list-style-type: none;
+}
+li:before {
+   content: '- ';
+}
+
+.recipe{
+  display: block;
+  width: 30%;
+  margin: auto;
+  padding-bottom: ;
+
+}
+
+#ending{
+  font-size: 12px;
+   font-weight: lighter;
+   text-align: justify;
+   
+  margin-left: 110px;
+  padding-top: 11px;
+  
+ padding-bottom:150px;
+  
+
+}
+
+hr{
+  border-top: 1px solid rgb(51, 51, 51);
+ 
+  margin-left: 70px;
+  margin-right: 70px;
+
+}
