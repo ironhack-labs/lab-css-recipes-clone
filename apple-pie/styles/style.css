@@ -87,3 +87,11 @@ body {
 .cooking-info {
   background-image: url('../images/cooking-info.png');
 }
+
+hr {
+  border: 0px solid #3e3d3d;
+  height: 10px;
+  background-color: #858484;
+  margin: 40px auto;
+  max-width: 800px;
+}
