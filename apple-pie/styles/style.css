@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,h1,h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -20,5 +20,88 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
+
 /* Write your CSS below */
+
+
+.hero {
+  height: 55vh;
+  background: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg") center/cover no-repeat;
+  position: relative;}
+
+  .hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 300;
+  }
+
+  .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  }
+
+  hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+
+  .intro p {
+  text-align: center;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;  
+  }
+
+  .meta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.0rem;
+  color: #666;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.meta-item img {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.ingredients {
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+
+.ingredients li {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+.directions {
+  padding-left: 1.2rem;
+}
+
+.directions li {
+  margin-bottom: 1.5rem;
+}
+
