@@ -22,3 +22,97 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  position: relative;
+  width: 100%;
+}
+
+#apple_pie_image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.intro_text {
+  text-align: center;
+  max-width: 700px;
+  margin: 40px auto;
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.recipe_info_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.recipe_info_wrapper img {
+  width: auto;
+  height: 90px;
+}
+
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*
+.ingredients_section {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  align-items: center;
+}
+*/
+
+
+.ingredients {
+  list-style: none;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+
+.cooking_info_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.cooking_info_wrapper img {
+  width: auto;
+  height: 90px;
+}
+
+
+.directions {
+  padding-left: 20px;
+}
+
+.directions li {
+  margin-bottom: 20px;
+}
