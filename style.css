@@ -1,0 +1,115 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+body {
+  background-image: url('apple-pie/images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.92);
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px 32px 24px 32px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.main-image {
+  display: block;
+  margin: 0 auto 28px auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.info-image {
+  max-width: 90%;
+  height: auto;
+}
+
+.ingredients-section {
+  margin-bottom: 32px;
+}
+
+.ingredients-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.ingredients-list {
+  list-style: disc inside;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 1.08rem;
+}
+
+.directions-section {
+  margin-bottom: 32px;
+}
+
+.directions-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.directions-list {
+  list-style: decimal inside;
+  margin-left: 10px;
+  font-size: 1.08rem;
+}
+
+.prep-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.prep-image {
+  max-width: 90%;
+  height: auto;
+}
