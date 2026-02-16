@@ -11,14 +11,55 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 4px;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 24px;
+}
+
+header {
+  margin-bottom: 50px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#header {
+  width: 100%;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 300px;
+}
+
+#header-title {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+section {
+  padding: 0px 100px;
+  margin-bottom: 50px;
+}
+
+ul, ol {
+  margin-left: 35px;
+}
+
+h2 {
+  margin-bottom: 35px;
+}
+
+.info-image {
+  margin: 35px auto;
+  display: block;
+}
