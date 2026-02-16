@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,85 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.container-img-text {
+  position: relative;
+
+}
+
+.imagen-apple-pie {
+  height: auto;
+  width: 100%;
+}
+
+.texto {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.receta {
+  padding-top: 70px;
+  padding-right: 70px;
+}
+
+
+.lista {
+  padding-left: 90px;
+  list-style-type: none;
+}
+
+.lista li::before {
+  content: "- ";
+}
+
+.imagen-ingredientes {
+  text-align: center;
+  padding-top: 30px;
+}
+  
+.imagen-receta {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  padding-left: 70px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+hr {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+li{
+  padding-top: 5px;
+}
+
+.container-direcciones{
+  padding-bottom: 70px;
+  padding-right: 70px;
+}
+
+#lista-numeros {
+  list-style-type: none;   /* quitamos 1. 2. 3. */
+  counter-reset: contador;
+}
+
+
+#lista-numeros li {
+  counter-increment: contador;
+}
+
+#lista-numeros li::before {
+  content: counter(contador) ") ";
+}
