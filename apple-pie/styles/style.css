@@ -5,14 +5,26 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*  Set the font */
@@ -22,3 +34,46 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  text-align: center;
+  background-image: url('../images/apple-pie.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 15%;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.container {
+  padding: 40px;
+  color: rgb(113, 119, 119);
+
+  img {
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.intro {
+  text-align: center;
+}
+
+.ingredients li {
+  margin-left: 50px;
+}
+
+.ingredients img {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+
+.directions li {
+  margin-left: 50px;
+}
