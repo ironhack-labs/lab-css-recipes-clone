@@ -1,24 +1,105 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
 }
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+	background-image: url("../images/apple-pie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h2 {
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+
+img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 450px;
+	padding: 40px;
+}
+
+div {
+	margin: 0 auto;
+	justify-content: center;
+	width: 90%;
+	padding: 150px;
+}
+
+.centrar {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	margin: auto;
+}
+
+.introduction {
+	margin-top: 50px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 40px;
+	line-height: 1.6;
+	color: black;
+}
+
+ul > li {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	line-height: 1.6;
+	color: black;
+	margin-left: 50px;
+}
+
+ol > li {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	line-height: 1.6;
+	color: black;
+	margin-left: 50px;
+}
