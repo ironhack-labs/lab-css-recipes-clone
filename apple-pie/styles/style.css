@@ -22,3 +22,68 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.hero-banner-contanier { 
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+} 
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .hero-banner {
+    color: white;
+    font-size: 5rem;
+    padding-top: 250px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+section.contanier-description {
+    width: 700px;
+    font-size: 20px;
+    margin: 3rem auto 3rem auto;
+    align-content: center;
+}
+.cooking-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.cooking-info-icon, .cooking-info-icon {
+    width: 300px;
+}
+
+.title-ingredients
+ {
+    margin: 1rem 0 1rem 0;
+ }
+
+ul.ingredients-list 
+ {
+    padding-left: 20px;
+    list-style: none;
+ }
+
+ol.directions-list {
+    padding-left: 30px;
+ }
+
+ul > li:before {
+    content: " - ";
+}
+
+
+
+
+
+ 
