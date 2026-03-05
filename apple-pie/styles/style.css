@@ -22,3 +22,97 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero {
+  background-image: url("../images/apple-pie.jpg");
+  filter: brightness(100%);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.recipe-content {                                                                                                                                             
+  width: 900px;                                                                                                                                               
+  margin: 0 auto;                                                                                                                                             
+  padding: 50px 0;                                                                                                                                            
+  color: #555;                                                                                                                                                
+  line-height: 1.6;                                                                                                                                           
+  font-size: 20px;                                                                                                                                            
+}                                                                                                                                                             
+                                                                                                                                                                
+.description,                                                                                                                                                 
+.ingredients,                                                                                                                                                 
+.directions {                                                                                                                                                 
+  margin: 0 40px;                                                                                                                                             
+}                                                                                                                                                             
+                                                                                                                                                                
+.recipe-info,                                                                                                                                                 
+.cooking-info {                                                                                                                                               
+  text-align: center;                                                                                                                                         
+  margin: 30px 0;                                                                                                                                             
+}                                                                                                                                                             
+                                                                                                                                                                
+.ingredients,                                                                                                                                                 
+.directions {                                                                                                                                                 
+  border-top: 1px solid #d3d3d3;                                                                                                                              
+  padding-top: 30px;                                                                                                                                          
+  margin-top: 20px;                                                                                                                                           
+}                                                                                                                                                             
+                                                                                                                                                                
+.ingredients h2,                                                                                                                                              
+.directions h2 {                                                                                                                                              
+  font-size: 30px;                                                                                                                                            
+  margin-bottom: 20px;                                                                                                                                        
+}                                                                                                                                                             
+                                                                                                                                                                
+.ingredients ul {
+  margin-left: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredients li::before {
+  content: "- ";
+}
+
+.directions ol {
+  margin-left: 30px;
+  list-style: none;
+  padding-left: 0;
+  counter-reset: step;
+}
+
+.directions li {
+  counter-increment: step;
+}
+
+.directions li::before {
+  content: counter(step) ") ";
+}
+
+.ingredients li,
+.directions li {
+  margin-bottom: 8px;
+}
+
+/* NOTES
+  - .recipe-content: Creates a centered 900px content column, adds vertical spacing,
+    and sets base text color/size/line spacing for readability.
+  - .description, .ingredients, .directions: Adds left/right inner spacing.
+  - .recipe-info, .cooking-info: Centers the section images and adds vertical space.
+  - .ingredients, .directions: Adds top separators and spacing before section content.
+  - .ingredients h2, .directions h2: Makes section titles larger with bottom spacing.
+  - .ingredients ul, .directions ol: Indents list markers and list text.
+  - .ingredients li, .directions li: Adds spacing between list items.
+*/
