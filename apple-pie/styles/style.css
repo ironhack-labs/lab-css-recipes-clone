@@ -22,3 +22,8 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body{
+  background-color: black;
+  color: white;
+}
