@@ -22,3 +22,58 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.recipe-title {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  background-image: url('../images/apple-pie.jpg');
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+}
+.recipe-title h1 {
+  padding-top: 250px;
+}
+
+.recipe-description {
+  text-align: left;
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: left;
+}
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#recipe {
+  width: 70%;
+  margin: 0 auto;
+}
+h3{
+  margin-bottom: 30px;
+}
+.ingredients li{
+  list-style-type: none;
+  margin-left: 30px;
+  color: lightslategray;
+
+}
+.ingredients li::before{
+  content: "-";
+}
+
+.directions li{
+  margin-left: 7px;
+  color: lightslategray;
+  text-align: left;
+  font-size: 16px;
+
+}
+
+.directions li::before{
+  content: ") ";
+}
