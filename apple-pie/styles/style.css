@@ -22,3 +22,56 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.apple-pie-image {
+  background-image: url("../images/apple-pie.jpg");
+  color: white;
+  height: 200px;
+  width: justify;
+  text-align: center;
+  padding: 500px;
+  padding-top: 150px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.first-text {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.recipe-info .cooking-info {
+  width: 30%;
+  margin: 20px 0;
+  text-align: center;
+
+  display: block;
+  margin : 0 auto;
+}
+
+.first-li .second-ol {
+  list-style: none;
+
+}
+.first-li {
+  text-align: ;
+
+}
+.second-ol {
+  counter-increment: listcounter
+}
+
+.second-ol li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+}
