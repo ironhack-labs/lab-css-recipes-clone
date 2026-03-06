@@ -1,5 +1,6 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
+
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -15,10 +16,93 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
-/*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: rgb(3, 3, 3);
+  background-color: white;
+  
+
+  
 }
 
-/* STYLES */
-/* Write your CSS below */
+main{
+  text-align: left;
+  position: relative;
+  padding: 50px;
+}
+
+
+#div1 {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 600px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#p1 {
+  padding: 50px 50px 25px 0;
+  text-align: center;
+  
+}
+
+#div-p1 {
+  padding: 50px 0 50px  25px;
+  margin: 0 100px;
+
+}
+
+#img1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 400px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+#img2 {
+  padding-top: 32px;
+  padding-bottom: 20px;
+  width: 400px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.div-with-border {
+  border-top: solid 1px black; 
+  padding: 50px 50px 50px 0; 
+
+  
+  margin: 0 100px;;
+
+}
+
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+ul li::before{
+  content: "- ";
+}
+ol li::marker {
+  content: counter(list-item) ") ";
+  
+}
+
+.Ingredients{
+  padding-bottom: 50px;
+
+}
+.Directions{
+  padding-bottom: 50px;
+}
