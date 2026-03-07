@@ -22,3 +22,83 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+body{
+  background-color: white;
+  color: black;
+}
+
+header{
+  background-image: url("../images/apple-pie.jpg");
+  background-position:center;
+  background-size:cover;
+  height: 600px;
+}
+.banner-text{
+  text-align:center;
+  padding-top: 600px;
+  color: white;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+}
+.intro-text{
+  text-align:start;
+  padding-top: 32px;
+  font-size: 20px;
+   margin-top:40px;
+}
+.container{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+hr{
+  border-top: 2px solid;
+}
+
+.image {
+ display:block;
+ width: 50%;
+ margin:auto;
+ text-align: center;
+}
+
+.title {
+  margin-top: 80px;
+  font-size: 14px;
+  margin-left: 80px;
+
+}
+.title ul{
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.imagerecipe { 
+ display:block;
+ width: 50%;
+ margin:auto;
+ text-align: center;
+}
+
+.recipe {
+  margin-top: 40px;
+  font-size: 14px;
+  margin-left: 80px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+
+
+
+ 
+
+
+
