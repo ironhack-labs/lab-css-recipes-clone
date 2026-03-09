@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,118 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+
+header {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 70px;
+  padding-top: 200px;
+
+}
+
+hr {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+#recipe-description {
+  text-align: center;
+  padding: 60px 400px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #555;
+}
+
+#recipe-description p {
+  font-size: 23px;
+  padding: 0 100px;
+  text-align: justify;
+}
+
+#recipe-description img {
+  margin-top: 30px;
+  height: 60px;
+  width: auto;
+}
+
+#recipe-ingredients {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #555;
+}
+
+#recipe-ingredients h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#recipe-ingredients ul {
+  margin-top: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+#recipe-ingredients ul li::before {
+  content: "- ";
+  color: #555;
+
+}
+
+#recipe-ingredients img {
+  margin-top: 30px;
+  height: 80px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+#recipe-steps {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #555;
+}
+
+#recipe-steps h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#recipe-steps ol {
+  margin-top: 20px;
+  line-height: 30px;
+  padding-left: 40px;
+  list-style: none;
+  font-size: 20px;
+}
+
+#recipe-steps ol>li {
+
+  counter-increment: listcounter;
+}
+
+#recipe-steps ol>li::before {
+  content: counter(listcounter) ")";
+}
