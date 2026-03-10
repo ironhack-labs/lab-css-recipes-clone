@@ -30,7 +30,7 @@ body {
   line-height: 1.6;
 }
 
-/* HERO IMAGE */
+
 
 .hero {
   background-image: url("../images/apple-pie.jpg");
@@ -48,21 +48,21 @@ body {
   font-size: 60px;
 }
 
-/* CONTAINER CENTRAL */
+
 
 .container {
   width: 800px;
   margin: 40px auto;
 }
 
-/* TEXTO CENTRALIZADO */
+
 
 .description p {
   text-align: center;
   font-size: 18px;
 }
 
-/* CENTRALIZAR IMAGENS */
+
 
 .recipe-info,
 .nutrition {
@@ -75,14 +75,14 @@ body {
   width: 350px;
 }
 
-/* LISTAS */
+
 
 .ingredients ul,
 .directions ol {
   margin-left: 20px;
 }
 
-/* TITULOS (não centralizados) */
+
 
 h2 {
   margin-bottom: 10px;
