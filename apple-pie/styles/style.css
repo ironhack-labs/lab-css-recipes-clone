@@ -22,3 +22,68 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+.hero {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+}
+
+
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+
+
+.description p {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+.recipe-info,
+.nutrition {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.recipe-info img,
+.nutrition img {
+  width: 350px;
+}
+
+
+
+.ingredients ul,
+.directions ol {
+  margin-left: 20px;
+}
+
+
+
+h2 {
+  margin-bottom: 10px;
+}
