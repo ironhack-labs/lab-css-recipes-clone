@@ -18,7 +18,62 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+p{
+  font-size: 20px;
+}
+
+.tituloheader {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+
+  color: white;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenescocina{
+  display: block;
+  margin: 30px auto;
+}
+
+.ingredientes{
+  list-style: none;
+}
+
+.ingredientes li::before{
+  margin-left: 40px;
+  content: "- ";
+}
+
+/*https://www.w3schools.com/cssref/pr_list-style-type.php*/
+.pasoscocina{
+  list-style: none;
+  counter-reset: item;
+  padding:0;
+  margin-bottom: 20px;
+}
+
+.pasoscocina li {
+  counter-increment: item;
+  display: flex;
+  justify-content: center;
+}
+
+.pasoscocina li::before {
+  margin-left: 40px;
+  content: counter(item) ") ";
+  font-weight: bold;
+}
