@@ -1,8 +1,10 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
+    
 }
 
 *, *:before, *:after {
@@ -13,6 +15,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: rgb(73, 73, 73);
+
 }
 
 /*  Set the font */
@@ -22,3 +26,95 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+main {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.hero{
+  position: relative;
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 3.8rem;
+  position:absolute;
+  top: 65%;
+  left: 42%;
+  /*transform: translate(-30%, -50%);*/
+  color: white;
+}
+
+h2 {
+  margin: 1.3rem auto;
+  font-size: 1.4rem;
+  color: rgb(37, 37, 37);
+}
+.image-cooking-info,
+.image-recipe-info,
+  .image-hero{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+ul li,
+ol li {
+  margin-left: 30px;
+}
+
+ul li {
+  list-style-type: "- ";
+}
+
+ol li::marker {
+  content: counter(list-item) ") ";
+}
+
+.recipe {
+width: 90%;
+margin:0 auto;
+}
+
+.image-hero {
+width: 55%;
+margin: -400px auto 70px;
+}
+ 
+.image-recipe-info {
+ width: 350px; 
+ margin: 30px auto 20px auto;
+ 
+}
+
+.image-cooking-info {
+width: 300px;
+ margin: 30px auto 20px auto;
+
+}
+
+.intro {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.intro-info {
+text-align: center;
+font-size: 1.3rem;
+
+ 
+}
+
+
+footer {
+   margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
