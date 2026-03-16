@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,8 +28,71 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.content {
+  height: 100%;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+header {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.mama {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 390px;
+  margin: 0 auto;
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+}
+p {
+  width: 80%;
+  margin: 0 auto;
+}
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+}
+ul,
+ol {
+  width: 75%;
+  list-style: none;
+  margin-left: 150px;
+  padding-bottom: 10px;
+}
+ul li::before {
+  content: '- ';
+  margin-right: 10px;
+}
+h3 {
+  margin-left: 90px;
+  padding: 20px;
+}
+.direction ol {
+  list-style: decimal;
+}
+.direction {
+  margin-bottom: 2em;
+}
+ol li::before {
+  content: ') ';
+}
