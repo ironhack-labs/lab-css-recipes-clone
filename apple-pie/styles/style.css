@@ -1,8 +1,10 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
 html {
   box-sizing: border-box;
   font-size: 16px;
+ 
 }
 
 *, *:before, *:after {
@@ -17,8 +19,189 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 0 20px;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+/* HEADER*/
+
+.header-content {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;          
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+/*MAIN*/
+
+.hero {
+  padding: 3rem 0;
+}
+
+.hero p {
+  padding: 0 4.2rem;
+  text-align: justify;
+}
+
+.recipe-info {
+  padding: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+  
+}
+
+.recipe-info img {
+  width: 19rem;
+  margin: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 4.2rem;
+}
+
+/* INGREDIENTS */
+
+.ingredients {
+  padding: 0 4.2rem;
+}
+
+.ingredients h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.ingredients ul {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.ingredients ul li::before {
+  content: "-";
+  display: inline-block;
+  width: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.ingredients ul li {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.cooking-info {
+  padding: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.cooking-info img {
+  width: 17.2rem;
+  margin: 1rem;
+}
+
+/*DIRECTIONS*/
+
+.directions {
+  padding: 2.5rem 4.2rem;
+}
+
+.directions h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.directions ol {
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.directions ol li {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.directions ol li::before {
+  content: counter(list-item) ") ";
+  
+}
+
+/*
+RESPONSIVE DESIGN
+@media screen and (min-width: 1286px){
+  body {
+    padding: 0 400px;
+  }
+ 
+  .hero p {
+  padding: 0 9.2rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  }
+  
+  .recipe-info img {
+  width: 22.5rem;
+  margin: 1.5rem;
+  }
+  
+  hr {
+  margin: 0 9.2rem;
+  }
+
+  .ingredients {
+  padding: 0 9.2rem;
+  }
+
+  .cooking-info img {
+  width: 20.2rem;
+  margin: 1rem;
+  }
+
+  .ingredients h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
+  }
+
+  .ingredients ul li {
+  font-size: 1rem;
+  line-height: 1.5rem; 
+  }
+
+  .directions {
+  padding: 3.5rem 9.2rem;
+  }
+
+  .directions h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .directions ol {
+    margin-bottom: 1rem;
+    list-style-type: none;
+  }
+
+  .directions ol li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem; 
+  }
+
+}
+*/
