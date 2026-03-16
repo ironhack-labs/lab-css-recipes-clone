@@ -59,7 +59,7 @@ h2 {
 
 /* Centrar la imagen de info (reloj, porciones, etc.) */
 .recipe-image {
-  width: 40%;
+  width: 30%;
   display: block;
   margin: 0 auto;
 }
@@ -117,13 +117,13 @@ h2 {
 
 
 .cooking-image {
-  width: 30%;
+  width: 25%;
   display: block;
   margin: 30px auto;
 }
 
 hr {
-  width: 80%;
+  width: 50%;
   border: 0;
   border-top: 1px solid #ccc;
   margin: 40px auto;
