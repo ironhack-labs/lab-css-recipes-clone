@@ -22,3 +22,109 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+/*Header*/
+.header {
+	height: 500px;
+	background-image: url("../images/apple-pie.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	position: relative;
+}
+.header h1{
+  color:white;
+  font-size: 4em;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  width: 100%;
+}
+h2 {
+  font-size: 2em;
+}
+/*INTRO*/
+.intro {
+  padding: 40px 20px; 
+}
+.intro p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px; 
+}
+
+/* Centrar la imagen de info (reloj, porciones, etc.) */
+.recipe-image {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*ingredients and directions*/
+.ingredients, 
+.directions {
+  padding: 40px 0;
+  
+}
+
+
+.ingredients article,
+.directions article {
+  max-width: 800px; 
+  margin: 0 auto;   
+  text-align: left; 
+  padding: 0 20px;
+}
+
+/* Títulos H2 */
+.ingredients h2, 
+.directions h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+/* LISTAS (Ingredientes y Pasos) */
+.ingredients ul, 
+.directions ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* Elementos de la lista */
+.ingredients li,
+.directions li {
+  display: block;     
+}
+
+/* Formato de los guiones en ingredientes */
+.ingredients ul > li::before {
+  content: "- ";
+  margin-right: 5px;
+}
+
+
+.directions ol > li::before {
+  counter-increment: listcounter;
+  content: counter(listcounter) ")";
+}
+
+
+.cooking-image {
+  width: 30%;
+  display: block;
+  margin: 30px auto;
+}
+
+hr {
+  width: 80%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 40px auto;
+}
