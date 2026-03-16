@@ -7,3 +7,117 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+hr {
+  width: 70%;
+  margin: 10% auto;
+}
+
+/* Header */
+
+.header{
+ position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header img{
+  width: 100%;
+  height: auto;
+}
+
+.header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+/* Recipe information */
+
+.recipe-info{
+  margin: 5% 10%;
+  text-align: center;
+}
+.recipe-info p{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-info img{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* Ingredients */
+.ingredients{
+  margin: 5% 10%;
+}
+.ingredients h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.ingredients ul{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.ingredients li{
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.ingredients li::before{
+  content: "-";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.ingredients img{
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+
+/* Directions */
+.directions{
+  margin: 5% 10%;
+}
+.directions h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.directions ol{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.directions li{
+  margin-bottom: 0.5rem;
+  counter-increment: step;
+  list-style-type: none;
+}
+
+.directions li::before{
+  content: counter(step) ")";
+  display: inline-block;
+  width: 2rem;
+  margin-left: -2rem;
+
+}
+
+.recipe-info img{
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+
