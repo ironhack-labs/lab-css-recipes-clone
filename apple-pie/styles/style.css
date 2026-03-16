@@ -22,3 +22,102 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Header */
+.header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header img{
+  width: 100%;
+  height: auto;
+}
+
+.header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+
+/* Recipe info */
+
+.recipe-info p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin: 5% 20%;
+  text-align: center;
+}
+
+.recipe-info img{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* Ingredients */
+
+.ingredients{
+  gap:20px;
+  margin: 5% 20%;
+}
+
+.ingredients h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.ingredients ul{
+  list-style-type: none;
+}
+
+.ingredients li{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ingredients li::before{
+  content: "-";
+  margin-right: 10px;
+}
+
+.ingredients img{
+  display: block;
+  margin: 70px auto;
+}
+
+/* Directions */
+
+.directions{
+  gap:20px;
+  margin: 5% 20%;
+}
+
+.directions h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.directions ol{
+  list-style-type: none;
+  counter-reset: step;
+}
+.directions li{
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  counter-increment: step;
+}
+
+.directions li::before{
+  content: counter(step) ")";
+  margin-right: 10px;
+}
+
+hr{
+  margin: 5% 10%;
+}
