@@ -18,7 +18,69 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  height: 500px;
+  aspect-ratio: 16/9;
+  margin: auto;
+  background-color: antiquewhite;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  position: relative;
+  aspect-ratio: 16/9;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: auto;
+}
+
+.recipe {
+  color: white;
+  font-size: 75px;
+}
+
+.margins {
+  margin: auto;
+  padding: 50px 80px 0px;
+  background-color: white;
+}
+.bottomMargin {
+  margin: auto;
+  padding: 50px 80px;
+  background-color: white;
+}
+
+.infoImages {
+  max-width: 60%;
+}
+
+hr {
+  margin: 0px;
+}
+h2 {
+  padding-bottom: 20px;
+}
+
+ul,ol {
+  padding-left: 20px;
+}
+ul {
+  list-style-type: "- ";
+}
+
+@counter-style cs-extends {
+  system: extends decimal;
+  suffix: ') ';
+}
+
+ol {
+  list-style: cs-extends;
+}
