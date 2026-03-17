@@ -1,9 +1,99 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+   width: 610px;
+   margin: 0 auto;
+   line-height: 1.2;
+   margin-bottom: 50px;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+.stripes-li  {
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.stripes-li li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stripes-li li::before {
+  content: "- ";
+}
+
+ol.directions-list {
+  list-style-type:decimal;
+  list-style-position: inside;
+  margin-left: 10px;
+}
+
+ol.directions-list li::before {
+  content: ") ";
+  margin-right: 0;
+}
+
+ol.directions-list li::marker {
+  content: counter(list-item) "";
+}
+
+.recipe-header {
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position-y: -165px;
+  height: 320px;
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+  font-size:25px;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+.content-web {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.info-img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+h2 {
+  font-size:1em;
+  margin: 25px auto 15px auto ;
+  font-weight:bold
+}
+
+#recipe {
+  font-size:0.8em;
+  color: rgb(114, 114, 114);
+}
+
+p {
+  color: rgb(114, 114, 114);
+  padding-bottom: 15px;
+  font-size:0.9em;
 }
