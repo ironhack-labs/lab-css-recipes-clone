@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.hero {
+  margin: 50px;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+hr {
+  margin: 45px;
+}
+
+.ingredients {
+  margin: 50px;
+}
+
+.ingredients h2{
+  font-weight: bolder;
+}
+
+.ingredients ul{
+  margin-left: 40px;
+  margin-top: 10px;
+  list-style-type: "-";
+}
+
+#img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.directions {
+  margin: 50px;
+}
+
+.directions h2{
+  font-weight: bolder;
+}
+
+.directions ol{
+  margin-left: 40px;
+  margin-top: 20px;
+  list-style-type:decimal;
+}
+
+
