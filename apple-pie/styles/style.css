@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+* {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,86 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* TITLE */
+.title {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.title img {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;  
+}
+
+.title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:6rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* CONTENT */
+#content {
+  padding: 40px 80px;
+  line-height: 1.7;
+  font-size: 1.5rem;
+  color: #4f4e4e;
+  text-align: justify;
+}
+
+.image {
+  text-align: center;
+  padding: 10px 0px 20px;
+  border-style: outset;
+  
+}
+
+.ingredients {
+  padding: 20px 80px;
+  text-align: justify;
+}
+.ingredients h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4f4e4e;
+  margin-bottom: 16px;
+}
+.ingredients ul {
+  padding: 0;
+  line-height: 2;
+  color: #4f4e4e;
+  font-size: 1.2rem;
+}
+
+.image-directions {
+  text-align: center;
+  padding: 10px 0px 20px;
+  border-style: outset;
+}
+.directions {
+  padding: 20px 80px;
+  text-align: justify;
+}
+.directions h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4f4e4e;
+  margin-bottom: 16px;
+}
+.directions p {
+  
+  line-height: 1.7;
+  font-size: 1.5rem;
+  color: #4f4e4e;
+  text-align: justify;
+}
