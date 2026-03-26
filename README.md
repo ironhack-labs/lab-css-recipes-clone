@@ -35,7 +35,7 @@ Some starter code is already provided so you can jump right into it.
 ## Requirements
 
 - [Fork](https://guides.github.com/activities/forking/) this repo
-- Clone this repo
+- Clone this repo CHECK
 - Make sure you use `class` and `id` selectors throughout your exercise. Remember, only use type selectors if you want to modify _every_ element of that type
 - Use a single external CSS stylesheet to style all pages
 - Use the images provided to construct the appropriate elements on the page:
