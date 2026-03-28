@@ -82,7 +82,6 @@ If you need more practice, keep working on the `french-soup` exercise. There you
 
 **Happy coding!** :heart:
 
-## FAQs
 
 <br>
 
