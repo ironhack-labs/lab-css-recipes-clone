@@ -10,8 +10,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 50px;
   font-weight: lighter;
 }
 
@@ -22,3 +22,44 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#overlay {
+  position: absolute;
+  text-align: centre;
+  color: white;
+}
+div {
+  width: 700px;
+  border: 15px; grey;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+body {
+  margin: 20px;
+  padding: 50px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+}
+h1  {
+  text-align: center;
+  font: "Helvetica", sans-serif;
+  background-image: <img src="./images/apple-pie.jpg" alt="decorative image" , height="400," width="850px" />;
+}
+h2  {
+  text-align: left;
+
+}
+ul {
+  width: inherit;
+}
+ol {
+  width: 700px;
+}
+h4 {
+  text-align: center;
+}
+h5 {
+  text-align: left;
+}
