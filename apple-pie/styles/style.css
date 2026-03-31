@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +33,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+h1 {
+  font-size: 3rem;
+  padding: 80px;
+  color: white;
+  /* position: absolute; */
+  text-align: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: "-";
+}
+
+ol {
+  padding-top: 40px;
+  list-style: none;
+}
+
+ol > li {
+  /* 2. Create a custom list counter */
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  /*3. Set the new style for the list markers */
+  content: counter(listcounter) ")";
+}
+
+#image-info {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#ingredients {
+  border: 1px;
+  padding: 40px;
+}
+
+.ingredients {
+  padding-bottom: 30px;
+}
+
+#cooking-info {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#directions {
+  padding: 40px;
+}
+
+.description {
+  padding: 40px;
+}
