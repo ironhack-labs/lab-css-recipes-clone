@@ -16,9 +16,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 
 /*  Set the font */
+
 body {
-  font-family: "Helvetica", sans-serif;
+margin: auto;
+font-family: "Helvetica", sans-serif;
+color: rgb(33, 32, 32);
 }
 
+.header-image{
+  position: relative;
+  height: 0%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+img{
+  display: block;
+  align-items: center;
+} 
+.main-container{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+padding: 50px;
+display: block;
+ 
+}
+
+h1{
+ font-size: 4rem;
+ position: absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+ color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.header{
+  margin-top: 40px;
+}
+
+#recipe-info-image{
+  align-content: center;
+}
+.cooking-info-image{
+  align-content: center;
+}
+
+
+h3{
+  font-weight: semi-bold;
+}
+ p{
+  font-size: 11pt;
+ }
+ ul{
+  font-size: 11pt;
+ }
+ul .li{
+ text-decoration: none;
+ }
 /* STYLES */
 /* Write your CSS below */
