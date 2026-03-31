@@ -1,24 +1,53 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+header { border: 10px;}
+    
+.header-img { 
+size: 650px;
+margin:auto 30px;
+ height: 300px;
+ background-image: url("../images/apple-pie.jpg"); width:auto  
+} 
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+.message {
+border:#333 100px;
+justify-content: center;
+border-bottom: 0.25px ;
+Size: 1.5em;
+letter-spacing: 0.4px;
+line-height: 1em;
+text-align: auto;
+background-color: white;
+width: 400px;
+height: 50px;
 }
-
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.message-img {
+  
+    padding: 15px;
+     width:auto  
+    }
+   
+.time_cooking {
+    justify-content: center;
 }
+ul {
+    height: 10px;}
+    
+    h1, h2, h3{
+   padding: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 40px;
+   
 
-/* STYLES */
-/* Write your CSS below */
+ 
+}
+.quote{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+ line-height: 1.5;
+ margin-bottom: 100px;
+}
