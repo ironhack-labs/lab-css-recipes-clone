@@ -1,3 +1,4 @@
+
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # LAB | HTML & CSS - Recipes Clone
@@ -63,7 +64,7 @@ You will be working in the `apple-pie` folder. There you will find all the files
 
 Please find a screenshot of the expected results below:
 
-![Apple Pie](https://i.imgur.com/lGGM68Q.jpg)
+![Apple Pie] (https://i.imgur.com/lGGM68Q.jpg)
 
 <!-- ![French Onion](https://i.imgur.com/uepu2DO.jpg) -->
 
