@@ -22,3 +22,51 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.hero {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: white;
+  font-size: 80px;
+}
+p {
+  font-size: 21px;
+  line-height: 1.6;
+  margin: 80px 100px 40px 100px;
+}
+.info-image {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+hr {
+  margin: 40px 100px;
+  border: none;
+  border-top: 2px solid #ccc;
+}
+h2 {
+  font-size: 22px;
+  margin: 40px 100px 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0 100px 40px 100px;
+  padding-left: 0;
+}
+li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+ol {
+  margin: 0 100px 40px 100px;
+  padding-left: 0;
+  list-style: none
+}
