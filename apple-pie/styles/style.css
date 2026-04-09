@@ -22,3 +22,129 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#recipe-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 680px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#recipe-title {
+  color: #ffffff;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+#recipe-page {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 72px 88px 56px;
+}
+
+.recipe-section {
+  padding: 0 0 72px;
+  margin-bottom: 72px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+#recipe-directions {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.section-copy {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.section-image {
+  display: block;
+  max-width: 100%;
+  margin: 36px auto 0;
+}
+
+#recipe-intro .section-image {
+  width: 420px;
+}
+
+#recipe-ingredients .section-image {
+  width: 400px;
+  margin-top: 32px;
+}
+
+.section-heading {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.ingredient-list,
+.direction-list {
+  padding-left: 0;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.ingredient-list {
+  list-style: none;
+}
+
+.ingredient-list li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.ingredient-list li::before {
+  position: absolute;
+  left: 0;
+  content: "-";
+}
+
+.direction-list {
+  list-style: none;
+  counter-reset: recipe-steps;
+}
+
+.direction-list li {
+  position: relative;
+  padding-left: 28px;
+  counter-increment: recipe-steps;
+}
+
+.direction-list li::before {
+  position: absolute;
+  left: 0;
+  content: counter(recipe-steps) ")";
+}
+
+@media (max-width: 768px) {
+  #recipe-hero {
+    min-height: 420px;
+    padding: 24px;
+  }
+
+  #recipe-title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  #recipe-page {
+    padding: 48px 24px;
+  }
+
+  .recipe-section {
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+  }
+
+  .section-copy,
+  .ingredient-list,
+  .direction-list {
+    font-size: 1.125rem;
+  }
+}
