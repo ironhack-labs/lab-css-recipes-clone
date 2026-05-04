@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: center;
 }
 
 /*  Set the font */
@@ -22,3 +23,61 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.titel-img {
+  margin: 2px;
+  padding: 200px;
+  background-image: url('../images/apple-pie.jpg');
+  background-position: center;
+  background-size: cover;  
+  background-repeat: no-repeat;
+
+  text-align: center;
+}
+
+.titel-img h1 {
+  color: aliceblue;
+}
+
+.description p{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-align: justify;
+}
+
+#ingredients h2{
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.unsorted-list {
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  text-align: justify;
+}
+
+#directions h2{
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.sorted-list {
+  margin: 20px;
+  padding: 20px 20px 80px 20px;
+  text-align: left;
+  text-align: justify;
+}
+
+.graphics-img {
+  width: 400px;
+  height: 100px;
+}
+
+.graphics-img-2 {
+  width: 500px;
+  height: 80px;
+}
