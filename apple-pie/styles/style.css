@@ -13,12 +13,74 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  text-align: center;
 }
 
 /* STYLES */
 /* Write your CSS below */
+.background{
+  background-image: url("../images/apple-pie.jpg");
+  height: 700px;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+
+}
+
+section {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.title{
+  margin: 0;
+  font-size: 3rem;
+  color: white;
+  
+}
+h4{
+  text-align: center;
+  margin: 50px auto;
+}
+.cooking_imge{
+  margin: 10px auto;
+  display: block;
+  max-height: 60px;
+}
+hr {
+  width: 100%;
+}
+
+h2 {
+  margin: 32px 0 16px;
+}
+
+ul,
+ol {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  list-style-position: outside;
+  padding-left: 24px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 8px;
+}
