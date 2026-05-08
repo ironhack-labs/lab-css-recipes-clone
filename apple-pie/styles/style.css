@@ -20,5 +20,45 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.container {
+  display: flex;
+  justify-content: center;
+}
+.apple {
+  width: 1200px;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+}
+.center1{
+  text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.imagen1{
+display: block;
+  margin: 0 auto;
+}
+.imagen2{
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ingredientes{
+width: none;
+right: 20%;
+}
+hr{
+  width: 50%;
+  margin: 0 auto;
+   margin-top: 50px;
+  margin-bottom: 50px;
+
+}
