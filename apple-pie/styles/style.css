@@ -13,12 +13,68 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  font-family: "Avenir";
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
 }
+section {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 600%;
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul li{
+  list-style:none;
+}
+
+ul li::before{
+  content: "- ";
+}
+
+ol{
+  counter-reset: item;
+  list-style: none;
+}
+
+ol li{
+  counter-increment: item;
+}
+
+ol li::before{
+  content: counter(item) ") "
+}
+
+.main_image {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin: 2% auto;
+  width: 50%;
+  
+}
 /* STYLES */
 /* Write your CSS below */
