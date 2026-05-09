@@ -1,0 +1,89 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+  padding: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url('soup.jpg');
+  background-position: 0 0;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.header h1 {
+
+  font-size: 8em;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  
+}
+
+p{
+  margin: 50px 300px;
+  text-align:left;
+  width: 500px;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+h2 {
+  margin-left: 300px;
+  font-weight: lighter;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-left: 300px
+}
+
+ol {
+    
+  list-style: none;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+ol > li {
+ 
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+ 
+  content: counter(listcounter) ")";
+}
+
+hr {
+   margin: 0 300px;
+}
