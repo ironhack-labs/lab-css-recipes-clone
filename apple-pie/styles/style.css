@@ -22,3 +22,39 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.img-header img{
+  
+  width: 500px;
+  height: 600px;
+  margin: 40px;
+  position: relative;
+}
+p{
+  font-size: large;
+}
+
+.contanier {
+  font-size: small;
+}
+
+.description {
+  padding: 40px 80px 40px 80px;
+  font-size: larger;
+}
+h2 {
+  font-size: x-large;
+  padding: 40px 0 0 40px;
+}
+.contanier {
+  font-size: medium;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contanier .list-item {
+  font-size: larger;
+  margin-top: 40px;
+}
