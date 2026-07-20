@@ -64,10 +64,11 @@ img {
   width: 500px;
 }
 #ingredients-list {
-  list-style: none ;        /* pour enlever les puces */
+  list-style: none ; 
+  counter-reset: listcounter;         /* pour enlever les puces */
 }
 #ingredients-list li::before {
-  content: "-";           /* pour ajouter le tiret */
+  content: "- ";           /* pour ajouter le tiret */
 }
 
 #directions-list {
