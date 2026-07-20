@@ -29,6 +29,15 @@ h1{
   color: white;
   font-weight: 300;
 }
+h2{
+  margin: 20px auto;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 150px;         /* 50px sur les côtés = ne touche pas les bords */
+}
 #header {
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
@@ -37,30 +46,36 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 350px;
 }
 .textdesc{
-  margin: 60px 100px 60px 100px;
+  margin: 40px 150px;
+  font-size: 20px;
+}
+#description p{
+  font-size: 25px;
+  
 }
 
-hr {
-  border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin: 20px 50px;         /* 40px sur les côtés = ne touche pas les bords */
-}
+
 img {
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
+  width: 500px;
 }
 #ingredients-list {
   list-style: none ;        /* pour enlever les puces */
 }
 #ingredients-list li::before {
-  content: "-"           /* pour ajouter le tiret */
+  content: "-";           /* pour ajouter le tiret */
 }
 
 #directions-list {
   list-style: none;
 }
-#directions-list {
+#directions-list li{
+    counter-increment: listcounter;
+}
+#directions-list li::before{
+  content: counter(listcounter)") ";
+}
