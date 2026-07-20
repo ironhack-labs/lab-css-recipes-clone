@@ -2,17 +2,18 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: black;
 }
 
 /*  Set the font */
@@ -20,5 +21,70 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+#header{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  color:aliceblue;
+}
+
+#main{
+  padding: 70px 200px 50px 200px;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin: 0 auto;
+  display: block;
+   }
+
+hr {
+  height: 4px;
+  background-color: #cdd0d4;
+  }
+
+ul {
+  list-style: none;
+  }
+
+  #receipy {
+    padding: 50px 200px 50px 200px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin: 0 auto;
+  }
+
+  #directions {
+    padding: 70px 200px 50px 200px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin: 0 auto;
+  }
+
+.small-image{
+  text-align: center;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
