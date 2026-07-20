@@ -22,3 +22,51 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+}
+
+.section-style{
+
+  
+  padding: 100px 30px 100px 100px;
+
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  
+}
+
+h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+
+li{
+  line-height: 1.5;
+  
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px 30px 30px;
+  align-content: center;
+  align-items: center;
+  
+
+}
+
+img{
+  display: block;
+}
