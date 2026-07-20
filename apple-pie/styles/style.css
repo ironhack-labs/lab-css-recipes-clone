@@ -15,9 +15,74 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 16px;
+}
+
+ul{
+  margin-left: 20px;
+}
+
+ul li, ol li{
+  margin-bottom: 4px;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  color: rgb(65, 65, 65);
+}
+
+#header{
+  height: 50vw;
+  width: 100%;
+  background: url("../images/apple-pie.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1{
+  color: white;
+  margin: 0 auto;
+  font-size: 10vw;
+  font-weight: 200;
+}
+
+#content{
+  padding: 0px 80px;
+  padding-bottom: 40px;
+}
+
+#introduction img, #ingredients img{
+  width: 300px;
+  display: flex;
+  margin: 30px auto;
+}
+
+#ingredients ul{
+  list-style-type: ' - ';
+}
+
+ol {
+  margin-left: 10px;
+  list-style: none;
+  counter-reset: item;
+}
+
+ol li {
+  counter-increment: item;
+}
+
+ol li::before {
+  content: counter(item) ") ";
 }
 
 /* STYLES */
