@@ -4,6 +4,11 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
+header img { 
+  width: 800px;
+  height: 500px;
+
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
