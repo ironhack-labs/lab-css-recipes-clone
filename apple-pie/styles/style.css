@@ -21,4 +21,70 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+body {
+  line-height: 1.4;
+}
+
+body header {
+  height: 500px;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+}
+
+body header h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 70px;
+}
+
+main {
+  padding: 70px 80px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 40px 0 30px 0;
+}
+
+.info-image {
+  display: block;
+  margin: 30px auto;
+}
+
+#recipe-info-image {
+  height: 50px;
+}
+
+#cooking-info-image {
+  height: 70px;
+}
+
+.cooking-list {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+#recipe-overview > p {
+  font-size: 19px;
+}
+
+#recipe-ingredients > ul {
+  list-style-type: "-";
+  list-style-position: outside;
+}
+
+#recipe-ingredients > ul > li {
+  padding-left: 5px;
+}
+
+#recipe-directions > ol {
+  list-style-position: inside;
+}
+
+#recipe-directions > ol > li {
+  padding-left: 5px;
+}
+
+#recipe-directions > ol > li::marker {
+  content: counter(list-item) ")";
+}
