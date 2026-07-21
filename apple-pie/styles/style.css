@@ -13,6 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+
 }
 
 /*  Set the font */
@@ -22,3 +23,60 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+h1{
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+h2{
+  margin: 20px auto;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 150px;         /* 50px sur les côtés = ne touche pas les bords */
+}
+#header {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+.textdesc{
+  margin: 40px 150px;
+  font-size: 20px;
+}
+#description p{
+  font-size: 25px;
+  
+}
+
+
+img {
+  display: block;
+  margin: 50px auto;
+  width: 500px;
+}
+#ingredients-list {
+  list-style: none ; 
+  counter-reset: listcounter;         /* pour enlever les puces */
+}
+#ingredients-list li::before {
+  content: "- ";           /* pour ajouter le tiret */
+}
+
+#directions-list {
+  list-style: none;
+}
+#directions-list li{
+    counter-increment: listcounter;
+}
+#directions-list li::before{
+  content: counter(listcounter)") ";
+}
