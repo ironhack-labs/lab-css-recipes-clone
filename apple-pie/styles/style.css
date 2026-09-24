@@ -1,24 +1,176 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-*, *:before, *:after {
-  box-sizing: inherit;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* STYLES */
 /* Write your CSS below */
+html, 
+body {
+  /* box-model */
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  /* layout */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* typo */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .apple-pie_header {
+    /* layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* box-model */
+    width: 100%;
+    min-height: 1450px;
+
+    /* presentation */
+    background: url(../images/apple-pie.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+    .header-title {
+      /* typo */
+      font-size: 200px;
+      color: #fff;
+    }
+
+.apple-pie_container {
+  /* layout */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  /* box-model */
+  width: 100%;
+  padding: 90px 235px;
+}
+
+    .content-title {
+      /* typo */
+      font-size: 47px;
+    }
+
+    .apple-pie_container-item {
+      /* layout */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 90px;
+
+      /* box-model */
+      width: 100%;
+      padding: 90px 0;
+      border-bottom: 1px solid #969696;
+    }
+
+      .apple-pie_container-item:last-child {
+        /* box-model */
+        border: none;
+      }
+
+    .apple-pie_container-item.principal {
+      /* typo */
+      font-size: 45px;
+      font-weight: 100;
+      line-height: 1.3;
+    }
+
+    .apple-pie_container-item_img {
+      /* box-model */
+      margin: 0 auto;
+    }
+
+    .content_recipe {
+      /* box-model */
+      width: 100%;
+      
+      /* typo */
+      font-size: 35px;
+      line-height: 1.5;
+
+      counter-reset: item;
+    }
+
+
+      .content_recipe .content-title {
+        /* box-model */
+        margin-bottom: 90px;
+      }
+
+      .content_recipe-item:before {
+        content: "- ";
+      }
+
+      .content_recipe-item.num:before {
+        counter-increment: item;
+        content: counter(item) ") ";
+      }
+
+      .content_recipe-item, 
+      .content_recipe-item.num {
+        /* box-model */
+        margin-left: 40px;
+      }
