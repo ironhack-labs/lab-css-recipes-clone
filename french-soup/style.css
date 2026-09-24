@@ -1,0 +1,85 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+header {
+  width: 100%; 
+  height: 320px;
+  background-image: url(images/soup.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+hr {
+  width: 90%;
+}
+
+header h1 {
+  color: white;
+  font-weight: 330;
+  text-align: center;
+  line-height: 270px;
+  font-size: 46px;
+}
+
+.introduccion p {
+  margin: 20px 30px;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.introduccion img {
+  width: 260px;
+  margin: 20px auto;
+  display: block;
+}
+
+.ingredientes h2 {
+  margin: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ingredientes ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.ingredientes ul li::before {
+  content: "- "
+}
+
+.ingredientes img {
+  width: 260px;
+  margin: 20px auto;
+  display: block;
+}
+
+.pasos h2 {
+  margin: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pasos ol {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pasos ol li {
+  counter-increment: contar;
+}
+
+.pasos ol li::before{
+  content: counter(contar) ") ";
+}
