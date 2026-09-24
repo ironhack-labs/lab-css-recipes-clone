@@ -22,3 +22,81 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header img {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+header h1 {
+  color: white;
+  font-family: "Helvetica";
+  font-size: 40px;
+  position: relative;
+  height: 100px;
+  line-height: 280px;
+  text-align: center
+
+}
+
+main {
+  margin: 250px 0px;  
+}
+
+.intro p {
+  text-align: justify;
+  margin: 20px 40px;
+}
+
+.instrucciones img {
+  width: 240px;
+  display: block;
+  margin: 10px auto;
+}
+
+hr {
+  width: 85%;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 20px 40px;
+  font-weight: 500;
+}
+
+
+.ingredientes ul {
+  list-style: none;
+  font-size: 14px;
+  margin: 20px 60px;
+}
+
+.ingredientes ul li::before {
+  content: "- ";
+}
+
+.tiempo-preparacion img {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.direcciones {
+  margin-bottom: 100px;
+}
+
+.direcciones ol {
+  list-style: none;
+  font-size: 14px;
+  margin: 20px 60px;
+}
+
+.direcciones ol li {
+  counter-increment: listcounter;
+}
+
+.direcciones ol li::before {
+  content: counter(listcounter) ") ";
+}
