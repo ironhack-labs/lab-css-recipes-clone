@@ -1,9 +1,86 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1, h2, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+.background {
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.titulo{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 60%;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid gray;
+}
+
+.ingredientes{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+  padding-bottom: 40px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style-type: "- ";
+  padding-left: 20px;
+}
+
+ol{
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.subtitulos{
+  font-size: 2rem;
+}
+.parrafo{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.directions{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+  padding-bottom: 40px;
+  border-bottom: 2px solid gray;
+}
+
+img{
+  width: 50%;
+  margin: auto;
 }
