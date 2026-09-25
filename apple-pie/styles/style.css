@@ -3,6 +3,10 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  padding: 8%;
+  width: 80%;
+
+  
 }
 
 *, *:before, *:after {
@@ -18,7 +22,53 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin-left: 20%;
 }
 
 /* STYLES */
 /* Write your CSS below */
+#recipe-title{
+background-image: url("../images/apple-pie.jpg");
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 1200px;
+text-align: center;
+color: white;
+font-size: 8rem;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.description p{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 80px;
+}
+.top-line{
+margin-bottom: 5%;
+}
+.cooking-info{
+  width: 50%;
+  margin: 5% 25% 0 25%;
+}
+.ingredients-img{
+  width: 40%;
+  height: auto;
+  margin: 5% 25% 0 25%;
+}
+.main-content{
+  padding: 0 12%;
+}
+footer{
+  padding: 5% 12%;
+}
+ul{
+list-style-type: none;
+}
+ul li::before{
+  content: "-";
+}
+
