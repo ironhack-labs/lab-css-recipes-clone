@@ -9,11 +9,25 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: rgb(0, 0, 0);
 }
+
+p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+
 
 /*  Set the font */
 body {
@@ -22,3 +36,38 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.jimmy {
+  color:rgb(248, 178, 0);
+}
+
+.ingredients {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+
+.ingredients ul {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.directions {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.directions ol {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
