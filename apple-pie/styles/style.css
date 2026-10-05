@@ -1,5 +1,7 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -17,8 +19,93 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+header{
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 250px;
+
+
+
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 1000px;
+}
+
+.aboutPie p{
+  margin: auto;
+  color:black;
+  text-align: center;
+  
+}
+
+
+
+.divider {
+  border-bottom: 1px solid black;
+  
+} 
+
+.reciptinfo img{
+  width: 300px;
+  height: auto;
+   
+}
+
+.reciptinfo{
+  text-align: center;
+}
+
+.contentBox {
+  width: 80%;
+  max-width: 100%;
+  margin: 0  auto;
+  padding: 60px;
+}
+#Ingredients ul > li{
+  justify-content: flex-start;
+  list-style-position: inside;
+  list-style-type: "-";
+  padding-left: 30px;
+}
+
+#Ingredients h2 {
+  font-weight: 300;
+  padding-bottom: 20px;
+
+}
+
+#directions ol > li{
+   justify-content: flex-start;
+  list-style-position: inside;
+  padding-left: 30px;
+
+}
+
+#directions h2{
+font-weight: 300;
+  padding-bottom: 20px;
+
+}
+
+p {
+  font-weight: 200;
+}
+li {
+
+  font-weight: 200
+}
+img {
+  margin: 30px;
+}
