@@ -18,7 +18,59 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-}
+  }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+#apple {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  text-align: center;
+  padding-top: 125px;
+  font-size: 2rem;
+  color: white;
+}
+
+.header {
+  text-align: justify;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0
+}
+
+.header h2 {
+  padding-bottom: 20px;
+}
+
+hr {
+  width: 500px;  
+  margin: 0 auto;
+}
+
+.recipe-images {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+  width: 300px;
+}
+
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
