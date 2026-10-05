@@ -22,3 +22,65 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.bg-title{
+  display: flex;
+  color: white;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  font-size: 80px;
+  background-image: url("../images/apple-pie.jpg");
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro{
+  text-align: start;
+  margin-left: 50px;
+   margin-top: 40px;
+}
+.imageSize1{
+    margin: auto;
+  display: flex; 
+   width: 45%;
+}
+.imageSize2{
+  margin: auto;
+  display: flex; 
+   width: 35%;
+}
+h3{
+  margin-left: 35px;
+    margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+.stylelist{
+  margin-left: 50px;
+  list-style-type: "-";
+}
+ol {
+  margin-left: 50px;
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+hr{
+  align-items: center;
+  width: 90%;
+}
+.directionSection{
+  margin-bottom: 40px;
+}
+.spaceimg{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

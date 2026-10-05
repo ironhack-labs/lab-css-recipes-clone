@@ -7,3 +7,54 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+.bg-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  height: 400px;
+  background-size:cover;
+  background-position: center;
+  font-size: 80px;
+  background-image: url("../images/soup.jpg");
+}
+
+.intro{
+    text-align: start;
+    margin-left: 90px;
+   margin-top: 40px;
+    max-width: 600px;
+}
+.imageSize1{
+    margin: auto;
+  display: flex; 
+   width: 40%;
+}
+.imageSize2{
+  margin: auto;
+  display: flex; 
+   width: 35%;
+}
+.stylelist{
+  margin-left: 50px;
+  list-style-type: "-";
+}
+.subTitle{
+
+  margin-left: 50px;
+}
+ol {
+  margin-left: 50px;
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+.horizontalLine{
+  max-width: 90%;
+}
