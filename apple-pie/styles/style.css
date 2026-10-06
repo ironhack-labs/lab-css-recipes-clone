@@ -5,20 +5,102 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1rem;
 }
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  width: 100%;
+  height: 32rem;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+article {
+  margin: 4rem;
+}
+
+#summary p {
+  font-size: 1.15rem;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1.5rem;
+}
+
+.recipe-info img {
+  max-width: 50%;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+#ingredients ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#ingredients li::before {
+  content: "- "
+}
+
+@counter-style custom {
+  system: extends decimal;
+  suffix: ") ";
+}
+
+#directions ol {
+  list-style: custom;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
