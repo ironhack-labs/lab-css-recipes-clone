@@ -1,24 +1,96 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
+* {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.recipe {
+  width: 100%;
+  margin: auto;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.head {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+}
+
+.head h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  text-shadow: 2px 2px 5px black;
+}
+
+.middle {
+  padding: 20px;
+  line-height: 1.6;
+  text-align: center;
+  background-color: olive;
+  color: white;
+}
+
+.image-info {
+  width: 100%;
+  height: min-content;
+}
+
+.info-item img {
+  width: 100%;
+  display: block;
+}
+
+.timing-item img {
+  width: 100%;
+  display: block;
+  height: min-content;
+}
+
+.ingredients {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.ingredients h2 {
+  color: olive;
+  margin-bottom: 10px;
+}
+
+.ingredients ul {
+  padding-left: 25px;
+  line-height: 1.8;
+}
+
+.directions {
+  padding: 20px;
+  line-height: 1.6;
+  background-color: olive;
+  color: white;
+}
+
+.directions h2 {
+  margin-bottom: 10px;
+}
+
+.directions ol {
+  padding-left: 25px;
+}
+
+.directions li {
+  margin-bottom: 10px;
+}
