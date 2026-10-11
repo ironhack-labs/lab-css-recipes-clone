@@ -1,15 +1,82 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
+
+* {
+  background-color: rgb(34, 20, 0);
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
 }
 
-*, *:before, *:after {
+.Recipe {
+  background-color: #eee7dd;
+  display: block;
+  padding: 80px 80px 80px 80px;
+  margin: 80px 80px 80px 80px;
+  border-radius: 24px;
+  box-shadow: 0 4px 6px rgba(172, 172, 172, 0.1);
+}
+.hero {
+  position: relative;
+  width: fit-content;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  border-radius: 24px;
+  background-color: #eee7dd;
+  margin-bottom: 32px;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: transparent;
+  font-family: "roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  background-color: #eee7dd;
+  font-family: "arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: #eee7dd;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul > li {
+  background-color: #eee7dd;
+}
+
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
