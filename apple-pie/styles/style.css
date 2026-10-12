@@ -21,4 +21,103 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.hero-image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: white;
+}
+
+   body > div:not(.hero-image) {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+h2 {
+  line-height: 70px;
+  font-size: 20px;
+
+}
+
+.ingrid {
+  border-top: 1px solid;
+
+}
+
+div > p {
+
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 19px;
+  font-weight: lighter;
+
+  
+}
+
+.recipe-info {
+ display: block;
+  max-width: 60%;
+  margin: 1.2rem auto;
+}
+
+.direct {
+   border-top: 1px solid;
+}
+
+div > ul {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-left:  1.5rem;
+  padding-bottom: 20px;
+  line-height: 22px;
+  
+}
+
+div > ul > li {
+  list-style: none;
+}
+
+div > ul > li:before {
+  content: "-";
+}
+
+.cooking {
+  display: block;
+  max-width: 50%;
+  margin: 1.2rem auto;
+
+  
+}
+
+div > ol {
+  font-size: 16px;
+  font-weight: lighter;
+  counter-reset: list;
+  padding-left:  1.5rem;
+  padding-bottom: 1.5rem;
+  line-height: 20px;
+}
+
+div > ol > li {
+  list-style: none;
+}
+
+div > ol > li:before {
+  content: counter(list) ")";
+  counter-increment: list;
+}
