@@ -17,8 +17,80 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica";
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  color: #333333;
+}
+
+#hero {
+  height: 450px;
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 60px 0;
+}
+
+.recipe-title {
+  margin: 10px 0 20px 0;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recipe-intro {
+  width: 700px;
+  font-size: 16px;
+  text-align: center;
+  color: #555555;
+}
+
+.recipe-info {
+  width: 700px;
+  margin: 30px 0;
+}
+
+#ingredients {
+  width: 700px;
+}
+
+#directions {
+  width: 700px;
+}
+
+.section-title {
+  margin: 40px 0 15px 0;
+  padding-bottom: 8px;
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: 2px solid lightgray;
+}
+
+.ingredients-list {
+  padding: 0 0 0 20px;
+}
+
+.ingredient {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.cooking-info {
+  width: 100%;
+  margin: 10px 0 25px 0;
+}
+
+.step {
+  margin: 0 0 18px 0;
+  font-size: 16px;
+}
