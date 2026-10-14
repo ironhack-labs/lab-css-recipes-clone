@@ -1,24 +1,182 @@
-/* CSS RESET - do not remove */
-/* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+* {
+   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
-/*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #35271f;
+  background-color: #fffaf5;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/* Hero section */
+.hero {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size:75px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Main layout */
+.recipe-container {
+  width: min(100% - 40px, 1000px);
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.recipe-intro {
+  max-width: 760px;
+  margin: 0 auto 36px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Recipe image */
+/*The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the <figcaption> element. 
+      The figure, its caption, and its contents are referenced as a single unit. */
+
+.recipe-image {
+  width: 100%;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.recipe-image img,
+.recipe-imagetwo img
+ {
+  display: block;
+  width: 100%;
+  max-width: 50vw;
+  height: 10vh;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+/* Ingredients layout */
+.recipe-grid {
+  gap: 32px;
+  align-items: start;
+}
+
+.ingredients {
+  padding: 28px;
+  background-color: #fff;
+  border: 1px solid #eee3d6;
+  border-radius: 12px;
+  box-shadow:inset;
+}
+
+.ingredients h2,
+.directions h2 {
+  color: #8b3f25;
+  font-size: 40px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+/* Ingredient list */
+.ingredient-list {
+  padding-left: 24px;
+}
+
+.ingredient-list li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.ingredient-list li::marker {
+  color: #a64b2a;
+}
+
+/* Directions */
+.directions {
+  margin-top: 48px;
+}
+
+.direction-list {
+  padding-left: 28px;
+}
+
+.direction-list li {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.direction-list li::marker {
+  color: #a64b2a;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.direction-list p {
+  margin: 0;
+}
+
+/* Footer  with the text*/
+.site-footer {
+  padding: 24px;
+  background-color: #35271f;
+  color: #f5e9da;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+  .hero {
+    min-height: 340px;
+  }
+
+  .recipe-container {
+    width: calc(100% - 28px);
+    padding: 32px 0;
+  }
+
+  .recipe-intro {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+
+  .ingredients {
+    padding: 22px;
+  }
+
+  .ingredients h2,
+  .directions h2 {
+    font-size: 22px;
+  }
+
+  .directions {
+    margin-top: 36px;
+  }
+
