@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -17,9 +28,79 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
-  background-color: red;
+  font-family: "Mulish", sans-serif;
+  background-color: white;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.hero {
+  height: 500px;
+  background-color: lightgrey;
+  background-blend-mode: multiply;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  color: white;
+  font-size: 4rem;
+}
+
+.recipe-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 40px 0;
+}
+
+.recipe-info,
+.recipe-times {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 370px;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #999;
+  margin: 40px 0;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+.ingredients-list li::before {
+  content: "- ";
+}
+.directions-list {
+  list-style: none;
+  padding-left: 10px;
+  line-height: 1.5;
+  padding-bottom: 80px;
+}
+
+.directions-list li {
+  counter-increment: steps;
+}
+
+.directions-list li::before {
+  content: "" counter(steps) ")";
+}
